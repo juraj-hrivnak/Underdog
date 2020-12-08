@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: 
+about: Report Mod Interaction/ Recipe/ Visual bug
 title: ''
 labels: ''
 assignees: ''
