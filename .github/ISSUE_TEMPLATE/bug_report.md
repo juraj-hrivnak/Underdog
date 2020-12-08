@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Report Mod Interaction/ Recipe/ Visual bug
 title: ''
 labels: ''
 assignees: ''
