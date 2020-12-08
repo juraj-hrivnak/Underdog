@@ -1,0 +1,6 @@
+
+{
+  "Name": "mouflon",
+  "Registry ID": "faunaandecology:mouflon",
+  "Class": "faunaandecology.mod.entity.passive.EntityMouflon"
+}

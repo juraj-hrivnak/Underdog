@@ -1,0 +1,185 @@
+
+{
+  "ID": 89,
+  "Name": "Tropical Rainforest",
+  "Resource Location": "biomesoplenty:tropical_rainforest",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenTropicalRainforest",
+  "Root Height": 0.11764706,
+  "Height Variation": 0.2625,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "6160128",
+  "Temperature": 1.0,
+  "Humidity": 1.0,
+  "Water Tint": 6160128,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "DENSE",
+    "WET",
+    "LUSH",
+    "JUNGLE"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      2
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityParrot",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "faunaandecology.mod.entity.passive.EntityJungleFowl",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "faunaandecology.mod.entity.passive.EntityWildBoar",
+      "Weight": 6,
+      "Min Group Count": 3,
+      "Max Group Count": 6
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "LILYPAD Generators": [
+      {
+        "ID": "flora",
+        "Name": "medium_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "algae"
+      },
+      {
+        "ID": "flora",
+        "Name": "small_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "flower_lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "lily"
+      },
+      {
+        "ID": "flora",
+        "Name": "tiny_lily"
+      }
+    ],
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "leaf_piles"
+      },
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "melons"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "double_flora",
+        "Name": "double_fern"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      },
+      {
+        "ID": "flora",
+        "Name": "poison_ivy"
+      },
+      {
+        "ID": "flora",
+        "Name": "rafflesia"
+      },
+      {
+        "ID": "flora",
+        "Name": "sprouts"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "lakes",
+        "Name": "quicksand"
+      },
+      {
+        "ID": "ore_single",
+        "Name": "topaz"
+      }
+    ],
+    "SAND_PASS2 Generators": [
+      {
+        "ID": "waterside",
+        "Name": "sand"
+      }
+    ],
+    "SHROOM Generators": [
+      {
+        "ID": "flora",
+        "Name": "brown_mushrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "red_mushrooms"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "TROPICAL": 5
+  },
+  "BOP Climate Weights": {
+    "TROPICAL": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

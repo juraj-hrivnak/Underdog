@@ -1,0 +1,97 @@
+
+{
+  "ID": 61,
+  "Name": "Highland",
+  "Resource Location": "biomesoplenty:highland",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenHighland",
+  "Root Height": 2.0588236,
+  "Height Variation": 0.95,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.6,
+  "Humidity": 0.8,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WET",
+    "MOUNTAIN",
+    "HILLS"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      4
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "faunaandecology.mod.entity.passive.EntityMouflon",
+      "Weight": 4,
+      "Min Group Count": 2,
+      "Max Group Count": 7
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": true,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "emerald"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "COOL_TEMPERATE": 7
+  },
+  "BOP Climate Weights": {
+    "COOL_TEMPERATE": [
+      7
+    ]
+  },
+  "BOP Island Weight": 0
+}

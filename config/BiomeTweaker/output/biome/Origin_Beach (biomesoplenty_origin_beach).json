@@ -1,0 +1,57 @@
+
+{
+  "ID": 42,
+  "Name": "Origin Beach",
+  "Resource Location": "biomesoplenty:origin_beach",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenOriginBeach",
+  "Root Height": -0.05882353,
+  "Height Variation": 0.112500004,
+  "Top Block": "minecraft:sand[variant\u003dsand]",
+  "Filler Block": "minecraft:sand[variant\u003dsand]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.6,
+  "Humidity": 0.6,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "BEACH",
+    "RARE"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      0
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

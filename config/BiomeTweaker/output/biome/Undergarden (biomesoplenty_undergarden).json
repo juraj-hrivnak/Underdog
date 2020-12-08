@@ -1,0 +1,105 @@
+
+{
+  "ID": 111,
+  "Name": "Undergarden",
+  "Resource Location": "biomesoplenty:undergarden",
+  "Class": "biomesoplenty.common.biome.nether.BiomeUndergarden",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dovergrown_netherrack]",
+  "Filler Block": "minecraft:netherrack",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 2.0,
+  "Humidity": 0.0,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "LUSH",
+    "NETHER"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityGhast",
+      "Weight": 50,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityPigZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "PRE Generators": [
+      {
+        "ID": "hive",
+        "Name": "hive"
+      }
+    ],
+    "FLOWERS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "vines",
+        "Name": "ivy"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "splatter",
+        "Name": "netherrack_splatter"
+      }
+    ],
+    "SHROOM Generators": [
+      {
+        "ID": "flora",
+        "Name": "brown_mushrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "red_mushrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "flat_mushroom"
+      },
+      {
+        "ID": "flora",
+        "Name": "toadstools"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "HELL": 5
+  },
+  "BOP Climate Weights": {
+    "HELL": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

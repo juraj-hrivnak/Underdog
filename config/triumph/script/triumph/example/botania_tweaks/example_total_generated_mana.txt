@@ -1,0 +1,28 @@
+
+//This tells the script parser that the script requires Botania Tweaks. If the mod is not loaded, the script will be canceled.
+Parser.addRequiredMod("botania_tweaks")
+
+
+//Set the icon item
+setIcon(<botania:pool>)
+
+//Set the title String
+setTitle("Mana Generation")
+
+//Set the description String
+setDescription("Generate 500k mana.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
+
+//Set the position
+setPos(126,113)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "generated" with the trigger type "botania_tweaks:total_generated_mana". This function returns the criteria as an object
+criteria = addCriteria("generated", "botania_tweaks:total_generated_mana")
+
+//Sets the required mana to be generated.
+criteria.setRequiredMana(500000)

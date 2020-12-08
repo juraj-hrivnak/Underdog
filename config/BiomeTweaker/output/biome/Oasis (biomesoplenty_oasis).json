@@ -1,0 +1,126 @@
+
+{
+  "ID": 100,
+  "Name": "Oasis",
+  "Resource Location": "biomesoplenty:oasis",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenOasis",
+  "Root Height": -0.1764706,
+  "Height Variation": 0.025,
+  "Top Block": "minecraft:sand[variant\u003dsand]",
+  "Filler Block": "minecraft:sand[variant\u003dsand]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 2.0,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HOT",
+    "WET",
+    "SPARSE",
+    "SANDY",
+    "LUSH",
+    "JUNGLE"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      5
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+      "Weight": 4,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "faunaandecology.mod.entity.passive.EntityJungleFowl",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "faunaandecology.mod.entity.passive.EntityWildBoar",
+      "Weight": 6,
+      "Min Group Count": 3,
+      "Max Group Count": 6
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "tiny_cacti"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "columns",
+        "Name": "sugar_cane"
+      },
+      {
+        "ID": "flora",
+        "Name": "desert_sprouts"
+      },
+      {
+        "ID": "flora",
+        "Name": "bromeliad"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "grass",
+        "Name": "dunegrass"
+      },
+      {
+        "ID": "grass",
+        "Name": "desertgrass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "ruby"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

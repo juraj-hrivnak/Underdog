@@ -1,0 +1,6 @@
+
+{
+  "Name": "aurochs",
+  "Registry ID": "faunaandecology:aurochs",
+  "Class": "faunaandecology.mod.entity.passive.EntityAurochs"
+}

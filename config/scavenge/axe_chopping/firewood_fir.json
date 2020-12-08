@@ -1,0 +1,28 @@
+{ 
+	"block_pools": 
+	[ 
+		{ 
+			"name": "clickOnChopped",
+			"type": 
+				{
+					"type": "block",
+					"name": "contenttweaker:chopped_fir_wood" 
+				},
+			"clicktype": "rightclick",
+      "blockRightClick": true,    
+			"properties": [
+				{
+					"type": "clicks_per_time",
+					"time": 4,
+					"disableJEI": true },
+				{
+					"type": "consume_block" },
+				{
+					"type": "use_command",
+					"name": "give",
+					"arguments": "@s contenttweaker:firewood_fir 6",
+					"disableJEI": true }
+			] 
+		}
+	]
+}

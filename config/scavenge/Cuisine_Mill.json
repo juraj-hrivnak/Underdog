@@ -1,0 +1,42 @@
+{ 
+	"block_pools": 
+	[ 
+		{ 
+			"name": "Mill_Sound",
+
+			"type": 
+				{
+					"type": "block",
+					"name": "cuisine:mill" 
+				},
+
+			"clicktype": "rightclick",
+			"blockRightClick": false,
+
+			"properties": 
+			[
+				{
+					"type": "require_sneak",
+					"sneak": false,
+					"disableJEI": true
+                },
+				{
+					"type": "require_empty_hand",
+					"required": true,
+					"disableJEI": true
+                },
+				{
+					"type": "clicks_per_time",
+					"time": 80,
+					"disableJEI": true
+                },
+				{
+					"type": "use_command",
+					"name": "playsound",
+					"arguments": "hand_mill block @a",
+					"disableJEI": true
+                }
+			] 
+		}
+	]
+}

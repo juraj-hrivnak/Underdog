@@ -1,0 +1,34 @@
+{ 
+	"block_pools": 
+	[ 
+		{ 
+			"name": "Mini_Stone_Rock_Pickup",
+
+			"type": 
+				{
+					"type": "ore",
+					"name": "miniStoneRocks" 
+				},
+
+			"clicktype": "rightclick",
+			"blockRightClick": true,
+			
+			"properties": 
+			[
+				{
+					"type": "consume_block"
+				},
+				{
+					"type": "swing_hand",
+					"disableJEI": true 
+				},
+				{
+					"type": "use_command",
+					"name": "give",
+					"arguments": "@s divergentunderground:rock_stone",
+					"disableJEI": true
+                }
+			] 
+		}
+	]
+}

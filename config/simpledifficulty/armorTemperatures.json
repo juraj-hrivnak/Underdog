@@ -1,0 +1,82 @@
+{
+  "simpledifficulty:ice_chestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+  "simpledifficulty:ice_helmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+  "simpledifficulty:wool_helmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:ice_boots": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+  "quark:archaeologist_hat": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -5.75
+    }
+  ],
+  "simpledifficulty:wool_boots": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "baubles:ring": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -0.25
+    }
+  ],
+  "simpledifficulty:wool_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:wool_chestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:ice_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "tropicraft.tropicreeper",
+  "Registry ID": "tropicraft:tropicreeper",
+  "Class": "net.tropicraft.core.common.entity.hostile.EntityTropiCreeper"
+}

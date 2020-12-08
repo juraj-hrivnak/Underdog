@@ -1,0 +1,68 @@
+
+{
+  "ID": 9,
+  "Name": "The End",
+  "Resource Location": "minecraft:sky",
+  "Class": "net.minecraft.world.biome.BiomeEnd",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DRY",
+    "END",
+    "COLD"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "ORE_PRE Generators": [
+      {
+        "ID": "crystals",
+        "Name": "crystals"
+      },
+      {
+        "ID": "ore_single",
+        "Name": "amethyst"
+      },
+      {
+        "ID": "ore_single",
+        "Name": "biome_essence"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

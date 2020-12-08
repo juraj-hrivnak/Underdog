@@ -1,0 +1,6 @@
+
+{
+  "Name": "zebra",
+  "Registry ID": "faunaandecology:zebra",
+  "Class": "faunaandecology.mod.entity.passive.EntityZebra"
+}

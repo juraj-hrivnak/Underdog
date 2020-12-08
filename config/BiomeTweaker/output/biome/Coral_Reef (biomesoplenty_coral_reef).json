@@ -1,0 +1,99 @@
+
+{
+  "ID": 102,
+  "Name": "Coral Reef",
+  "Resource Location": "biomesoplenty:coral_reef",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenCoralReef",
+  "Root Height": -1.1764706,
+  "Height Variation": 0.043750003,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WATER",
+    "OCEAN"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      5
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "LILYPAD Generators": [
+      {
+        "ID": "flora",
+        "Name": "blue_coral"
+      },
+      {
+        "ID": "flora",
+        "Name": "glowing_coral"
+      },
+      {
+        "ID": "flora",
+        "Name": "algae"
+      },
+      {
+        "ID": "flora",
+        "Name": "pink_coral"
+      },
+      {
+        "ID": "flora",
+        "Name": "orange_coral"
+      }
+    ],
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "sapphire"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

@@ -1,0 +1,137 @@
+{
+	"populate": {	
+		"magma_upper": {
+			"distribution": "cave",
+			"generator": {
+				"type": "large-vein",
+				"block": [
+					{
+						"name": "minecraft:magma"
+					}
+				],
+				"material": [
+                    "divergentunderground:hard_stone",
+					"divergentunderground:hard_stone:1",
+					"divergentunderground:hard_stone:2",
+					"divergentunderground:hard_stone:3",
+					"divergentunderground:hard_granite",
+					"divergentunderground:hard_granite:1",
+					"divergentunderground:hard_granite:2",
+					"divergentunderground:hard_granite:3",
+					"divergentunderground:hard_andesite",
+					"divergentunderground:hard_andesite:1",
+					"divergentunderground:hard_andesite:2",
+					"divergentunderground:hard_andesite:3",
+					"divergentunderground:hard_diorite",
+					"divergentunderground:hard_diorite:1",
+					"divergentunderground:hard_diorite:2",
+					"divergentunderground:hard_diorite:3"
+				],
+                "cluster-size": 24,
+				"sparse": "true"
+			},
+            "chunk-chance": 1,
+            "cluster-count":32,
+            "ceiling": false,
+            "ground-level": 20,
+			"material": [
+				"divergentunderground:hard_stone",
+				"divergentunderground:hard_stone:1",
+				"divergentunderground:hard_stone:2",
+				"divergentunderground:hard_stone:3",
+				"divergentunderground:hard_granite",
+				"divergentunderground:hard_granite:1",
+				"divergentunderground:hard_granite:2",
+				"divergentunderground:hard_granite:3",
+				"divergentunderground:hard_andesite",
+				"divergentunderground:hard_andesite:1",
+				"divergentunderground:hard_andesite:2",
+				"divergentunderground:hard_andesite:3",
+				"divergentunderground:hard_diorite",
+				"divergentunderground:hard_diorite:1",
+				"divergentunderground:hard_diorite:2",
+				"divergentunderground:hard_diorite:3"
+			],
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		},
+		"magma_lower": {
+			"distribution": "cave",
+			"generator": {
+				"type": "cluster",
+				"block": [
+					{
+						"name": "minecraft:magma"
+					}
+				],
+				"material": [
+                    "tfc:raw/andesite",
+                    "tfc:raw/basalt",
+                    "tfc:raw/chalk",
+                    "tfc:raw/chert",
+                    "tfc:raw/claystone",
+                    "tfc:raw/conglomerate",
+                    "tfc:raw/dacite",
+                    "tfc:raw/diorite",
+                    "tfc:raw/dolomite",
+                    "tfc:raw/gabbro",
+                    "tfc:raw/gneiss",
+                    "tfc:raw/granite",
+                    "tfc:raw/limestone",
+                    "tfc:raw/marble",
+                    "tfc:raw/phyllite",
+                    "tfc:raw/quartzite",
+                    "tfc:raw/rhyolite",
+                    "tfc:raw/rocksalt",
+                    "tfc:raw/schist",
+                    "tfc:raw/shale",
+                    "tfc:raw/slate"
+				],
+                "cluster-size": 16
+			},
+            "chunk-chance": 1,
+            "cluster-count":24,
+            "ceiling": false,
+            "ground-level": 10,
+			"material": [
+				"tfc:raw/andesite",
+				"tfc:raw/basalt",
+				"tfc:raw/chalk",
+				"tfc:raw/chert",
+				"tfc:raw/claystone",
+				"tfc:raw/conglomerate",
+				"tfc:raw/dacite",
+				"tfc:raw/diorite",
+				"tfc:raw/dolomite",
+				"tfc:raw/gabbro",
+				"tfc:raw/gneiss",
+				"tfc:raw/granite",
+				"tfc:raw/limestone",
+				"tfc:raw/marble",
+				"tfc:raw/phyllite",
+				"tfc:raw/quartzite",
+				"tfc:raw/rhyolite",
+				"tfc:raw/rocksalt",
+				"tfc:raw/schist",
+				"tfc:raw/shale",
+				"tfc:raw/slate"
+			],
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		}
+	}
+}

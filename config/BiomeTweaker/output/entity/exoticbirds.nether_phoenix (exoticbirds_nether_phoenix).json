@@ -1,0 +1,6 @@
+
+{
+  "Name": "exoticbirds.nether_phoenix",
+  "Registry ID": "exoticbirds:nether_phoenix",
+  "Class": "pavocado.exoticbirds.entity.Birds.Phoenix.EntityNetherPhoenix"
+}

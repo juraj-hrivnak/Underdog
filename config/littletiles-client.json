@@ -1,0 +1,19 @@
+{
+  "building": {
+    "invertStickToGrid": true,
+    "maxSavedActions": 32,
+    "useALTForEverything": false,
+    "useAltWhenFlying": true
+  },
+  "rendering": {
+    "useQuadCache": false,
+    "useCubeCache": true,
+    "hideParticleBlock": false,
+    "renderingThreadCount": 2,
+    "highlightStructureBox": true,
+    "previewLines": false,
+    "previewLineThickness": 2,
+    "enableRandomDisplayTick": false,
+    "uploadToVBODirectly": true
+  }
+}

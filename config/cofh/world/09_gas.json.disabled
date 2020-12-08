@@ -1,0 +1,284 @@
+{
+	"populate": {	
+		"gas_natural": {
+			"distribution": "cave",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{
+						"name": "gases:gas_natural"
+					}
+				],
+				"material": [
+                    "minecraft:air"
+				],
+				"radius": 5,
+				"height": 5
+			},
+            "chunk-chance": 32,
+            "cluster-count":1,
+            "min-height":16,
+			"max-height": 90,
+            "ceiling": false,
+            "ground-level": 90,
+			"material": [
+				"minecraft:air"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		},
+		"gas_red": {
+			"distribution": "cave",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{
+						"name": "gases:gas_red"
+					}
+				],
+				"material": [
+                    "minecraft:air"
+				],
+				"radius": 5,
+				"height": 5
+			},
+            "chunk-chance": 32,
+            "cluster-count":1,
+            "min-height":4,
+			"max-height": 35,
+            "ceiling": false,
+            "ground-level": 35,
+			"material": [
+				"minecraft:air"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		},
+		"gas_iocalfaeus": {
+			"distribution": "cave",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{
+						"name": "gases:gas_iocalfaeus"
+					}
+				],
+				"material": [
+                    "minecraft:air"
+				],
+				"radius": 5,
+				"height": 5
+			},
+            "chunk-chance": 32,
+            "cluster-count":1,
+            "min-height":4,
+			"max-height": 60,
+            "ceiling": false,
+            "ground-level": 60,
+			"material": [
+				"minecraft:air"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		},
+		"gas_black_damp": {
+			"distribution": "cave",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{
+						"name": "gases:gas_black_damp"
+					}
+				],
+				"material": [
+                    "minecraft:air"
+				],
+				"radius": 5,
+				"height": 5
+			},
+            "chunk-chance": 32,
+            "cluster-count":1,
+            "min-height":4,
+			"max-height": 60,
+            "ceiling": false,
+            "ground-level": 60,
+			"material": [
+				"minecraft:air"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		},
+		"gas_nitrous": {
+			"distribution": "cave",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{
+						"name": "gases:gas_nitrous"
+					}
+				],
+				"material": [
+                    "minecraft:air"
+				],
+				"radius": 5,
+				"height": 5
+			},
+            "chunk-chance": 32,
+            "cluster-count":1,
+            "min-height":4,
+			"max-height": 30,
+            "ceiling": false,
+            "ground-level": 30,
+			"material": [
+				"minecraft:air"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		},
+		"gas_finine": {
+			"distribution": "cave",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{
+						"name": "gases:gas_finine"
+					}
+				],
+				"material": [
+                    "minecraft:air"
+				],
+				"radius": 5,
+				"height": 5
+			},
+            "chunk-chance": 32,
+            "cluster-count":1,
+            "min-height":4,
+			"max-height": 50,
+            "ceiling": false,
+            "ground-level": 50,
+			"material": [
+				"minecraft:air"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		},
+		"gas_helium": {
+			"distribution": "cave",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{
+						"name": "gases:gas_helium"
+					}
+				],
+				"material": [
+                    "minecraft:air"
+				],
+				"radius": 5,
+				"height": 5
+			},
+            "chunk-chance": 32,
+            "cluster-count":1,
+            "min-height":64,
+			"max-height": 92,
+            "ceiling": false,
+            "ground-level": 92,
+			"material": [
+				"minecraft:air"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		},
+		"gas_whispering_fog": {
+			"distribution": "cave",
+			"generator": {
+				"type": "plate",
+				"block": [
+					{
+						"name": "gases:gas_whispering_fog"
+					}
+				],
+				"material": [
+                    "minecraft:air"
+				],
+				"radius": 5,
+				"height": 5
+			},
+            "chunk-chance": 32,
+            "cluster-count":1,
+            "min-height":4,
+			"max-height": 32,
+            "ceiling": false,
+            "ground-level": 32,
+			"material": [
+				"minecraft:air"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		}
+	}
+}

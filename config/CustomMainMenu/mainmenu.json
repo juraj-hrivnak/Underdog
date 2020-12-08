@@ -1,0 +1,154 @@
+{
+    "images":
+    {
+        "underdog":
+        {
+            "image" : "modpack:textures/gui/underdog_7.png",
+            "posX" : -209,
+            "posY" : -110,
+            "width" : 418,
+            "height" : 67.3,
+            "alignment" : "center"
+        }
+    },
+    
+    "buttons":
+    {
+		"singleplayer": {
+            "text": "menu.singleplayer",
+            "posX": 44,
+            "posY": -10,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "modpack:textures/gui/button2.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "posX": 150,
+            "posY": 5,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "modpack:textures/gui/button2.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+        "mods": {
+            "text": "fml.menu.mods",
+            "posX": 150,
+            "posY": 35,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "modpack:textures/gui/button2.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+        "options": {
+            "text": "menu.options",
+            "posX": 44,
+            "posY": 20,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "modpack:textures/gui/button2.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        
+        "languages": {
+            "text": "Languages",
+            "posX": 150,
+            "posY": 65,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "modpack:textures/gui/button2.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openGui",
+                "gui": "languages"
+            }
+        },
+        "bug reports": {
+            "text": "Bug Reports",
+            "posX": 44,
+            "posY": 50,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "modpack:textures/gui/button2.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/juraj-hrivnak/Underdog-1.12.2/issues/new/choose"
+            }
+        },
+        "quit": {
+            "text": "menu.quit",
+            "posX": 44,
+            "posY": 80,
+            "width": 100,
+            "height": 20,
+            "normalTextColor": 16777215,
+            "hoverTextColor": 4286414205,
+            "texture": "modpack:textures/gui/button2.png",
+            "alignment": "left_center",
+            "action": {
+                "type": "quit"
+            }
+        }
+	},
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : 8,
+            "posY" : -15,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+	},
+    
+    "other" : { 
+	
+		"background" : 
+        {
+            "image" : "",
+            "slideshow" :
+            {
+                "images" : 
+				[
+                "modpack:textures/gui/slideshow1.png"
+				],
+                "displayDuration" : 30,
+                "fadeDuration" : 100,
+				"shuffle" : true
+            }
+		}
+		
+	}
+}
