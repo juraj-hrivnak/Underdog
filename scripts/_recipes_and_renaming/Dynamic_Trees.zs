@@ -85,7 +85,7 @@ for item in allBranches {
     var ItemDef = item.definition;
 
     for i in 0 to 5 {
-	    treeBranchThin.add(ItemDef.makeStack(i));
+	treeBranchThin.add(ItemDef.makeStack(i));
     }
 
     for i in 5 to 16 {
