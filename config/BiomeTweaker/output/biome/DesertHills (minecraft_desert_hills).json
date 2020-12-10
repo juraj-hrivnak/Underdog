@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "SANDY",
+    "DRY",
     "HILLS",
-    "DRY"
+    "SANDY"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -65,10 +65,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "tiny_cacti"

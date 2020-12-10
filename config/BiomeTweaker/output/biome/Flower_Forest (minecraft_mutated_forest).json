@@ -20,13 +20,13 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
     "FOREST",
-    "RARE"
+    "RARE",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
-      5
+      2
     ]
   },
   "Spawnable Creatures": [
@@ -82,10 +82,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "leaf_piles"

@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "CONIFEROUS",
-    "HILLS",
-    "THEMED_TREES",
+    "FOREST",
     "MEGA_TAIGA_TREES",
+    "CONIFEROUS",
+    "THEMED_TREES",
     "COLD",
-    "FOREST"
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -79,10 +79,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "weighted",
         "Name": "flowers"

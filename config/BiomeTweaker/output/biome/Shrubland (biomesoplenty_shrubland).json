@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
     "DRY",
-    "PLAINS"
+    "PLAINS",
+    "SPARSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -76,10 +76,6 @@
       }
     ],
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "flowers"
@@ -136,8 +132,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "DRY_TEMPERATE": 10,
-    "MEDITERANEAN": 7
+    "MEDITERANEAN": 7,
+    "DRY_TEMPERATE": 10
   },
   "BOP Climate Weights": {
     "DRY_TEMPERATE": [

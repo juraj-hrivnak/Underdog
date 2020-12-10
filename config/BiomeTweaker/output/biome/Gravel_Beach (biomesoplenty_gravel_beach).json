@@ -22,11 +22,7 @@
   "Dictionary Types": [
     "BEACH"
   ],
-  "BiomeManager Entries": {
-    "COOL Weights": [
-      0
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [],
   "Spawnable Monsters": [],
   "Spawnable Water Creatures": [
@@ -49,10 +45,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "miners_delight"

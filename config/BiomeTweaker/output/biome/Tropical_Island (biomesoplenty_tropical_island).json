@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
-    "DENSE",
-    "WET",
     "LUSH",
-    "JUNGLE"
+    "WET",
+    "WATER",
+    "JUNGLE",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -72,10 +72,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "columns",
         "Name": "bamboo"

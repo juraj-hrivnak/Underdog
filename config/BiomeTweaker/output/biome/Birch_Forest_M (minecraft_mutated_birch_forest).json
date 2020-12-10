@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SUPER_BIRCH_TREES",
-    "DENSE",
-    "HILLS",
-    "THEMED_TREES",
     "FOREST",
-    "RARE"
+    "RARE",
+    "THEMED_TREES",
+    "SUPER_BIRCH_TREES",
+    "HILLS",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -79,10 +79,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "miners_delight"

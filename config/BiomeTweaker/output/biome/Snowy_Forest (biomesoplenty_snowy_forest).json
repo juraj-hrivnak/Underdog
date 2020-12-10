@@ -21,10 +21,10 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "SNOWY",
-    "WET",
-    "SPARSE",
     "FOREST",
-    "COLD"
+    "COLD",
+    "WET",
+    "SPARSE"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
@@ -66,10 +66,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "leaf_piles"

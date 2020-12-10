@@ -21,13 +21,12 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "SNOWY",
-    "WASTELAND",
     "COLD"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
-      8,
-      8
+      9,
+      9
     ]
   },
   "Spawnable Creatures": [
@@ -77,10 +76,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "weighted",
         "Name": "flowers"

@@ -51,10 +51,6 @@
     "FLOWERS Generators": [
       {
         "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
         "Name": "miners_delight"
       },
       {

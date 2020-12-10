@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SNOWY",
+    "COLD",
     "WET",
     "WASTELAND",
     "DEAD",
-    "SPARSE",
-    "COLD"
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -75,10 +75,6 @@
       }
     ],
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "miners_delight"

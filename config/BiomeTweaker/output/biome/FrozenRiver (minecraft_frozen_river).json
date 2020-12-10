@@ -21,9 +21,9 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "SNOWY",
-    "WATER",
     "COLD",
-    "RIVER"
+    "RIVER",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -48,10 +48,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "miners_delight"

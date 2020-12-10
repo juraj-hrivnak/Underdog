@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
-    "DENSE",
+    "LUSH",
     "MAGICAL",
+    "WATER",
     "PLAINS",
-    "LUSH"
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -66,10 +66,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "weighted",
         "Name": "flowers"

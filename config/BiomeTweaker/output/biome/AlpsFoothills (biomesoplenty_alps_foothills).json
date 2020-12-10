@@ -21,11 +21,11 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "SNOWY",
-    "SPARSE",
+    "FOREST",
     "MOUNTAIN",
     "DRY",
-    "FOREST",
-    "COLD"
+    "COLD",
+    "SPARSE"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
@@ -67,10 +67,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "miners_delight"

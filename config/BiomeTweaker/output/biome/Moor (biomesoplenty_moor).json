@@ -71,10 +71,6 @@
     ],
     "FLOWERS Generators": [
       {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
         "ID": "weighted",
         "Name": "flowers"
       },

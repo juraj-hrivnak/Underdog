@@ -11,7 +11,7 @@
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
   "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-  "Grass Color": "Not set. Check in-game.",
+  "Grass Color": "9551193",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",
   "Temperature": 0.4,
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "SPARSE",
-    "PLAINS",
-    "LUSH",
     "FOREST",
-    "COLD"
+    "LUSH",
+    "COLD",
+    "WET",
+    "PLAINS",
+    "SPARSE"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -115,10 +115,6 @@
       }
     ],
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "weighted",
         "Name": "flowers"

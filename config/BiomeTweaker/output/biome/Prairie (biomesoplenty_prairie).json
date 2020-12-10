@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
     "DRY",
-    "PLAINS"
+    "PLAINS",
+    "SPARSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -70,10 +70,6 @@
       }
     ],
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "weighted",
         "Name": "flowers"

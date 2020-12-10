@@ -57,10 +57,6 @@
   "BOP Generators": {
     "FLOWERS Generators": [
       {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
         "ID": "double_flora",
         "Name": "sea_oats"
       },

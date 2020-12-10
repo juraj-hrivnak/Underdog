@@ -26,7 +26,7 @@
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
-      2
+      0
     ]
   },
   "Spawnable Creatures": [
@@ -64,10 +64,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "miners_delight"

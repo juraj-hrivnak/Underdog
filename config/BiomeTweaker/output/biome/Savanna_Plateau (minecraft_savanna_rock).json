@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "RARE",
     "HOT",
     "SAVANNA",
-    "SPARSE",
     "PLAINS",
-    "RARE"
+    "SPARSE"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -66,10 +66,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "weighted",
         "Name": "flowers"

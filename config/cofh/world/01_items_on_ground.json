@@ -12,6 +12,7 @@
 					}
 				],
 				"surface":[ 
+					"minecraft:sand",
 					"minecraft:grass",
 					"miencraft:dirt",
 					"miencraft:podzol",
@@ -20,7 +21,7 @@
                 ],
 				"cluster-size":1,
                 "see-sky":false,
-                "check-stay":false
+                "check-stay":true
 			},
             "cluster-count":12.5,
             "min-height":50,
@@ -28,7 +29,17 @@
 			
 			"low-terrain":true,
             "retrogen":false,
-            "biome":"all",
+            "biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"SNOWY"
+						]
+					}
+				]
+			},
             "dimension":{ 
                 "restriction":"blacklist",
                 "value":[ 
@@ -49,6 +60,7 @@
 					}
 				],
 				"surface":[ 
+					"minecraft:sand",
 					"minecraft:grass",
 					"miencraft:dirt",
 					"miencraft:podzol",
@@ -57,7 +69,7 @@
                 ],
 				"cluster-size":1,
                 "see-sky":false,
-                "check-stay":false
+                "check-stay":true
 			},
             "cluster-count":12.5,
             "min-height":50,
@@ -65,7 +77,17 @@
 			
 			"low-terrain":true,
             "retrogen":false,
-            "biome":"all",
+            "biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"SNOWY"
+						]
+					}
+				]
+			},
             "dimension":{ 
                 "restriction":"blacklist",
                 "value":[ 
@@ -86,6 +108,7 @@
 					}
 				],
 				"surface":[ 
+					"minecraft:sand",
 					"minecraft:grass",
 					"miencraft:dirt",
 					"miencraft:podzol",
@@ -94,7 +117,7 @@
                 ],
 				"cluster-size":1,
                 "see-sky":false,
-                "check-stay":false
+                "check-stay":true
 			},
             "cluster-count":12.5,
             "min-height":50,
@@ -102,7 +125,17 @@
 			
 			"low-terrain":true,
             "retrogen":false,
-            "biome":"all",
+            "biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"SNOWY"
+						]
+					}
+				]
+			},
             "dimension":{ 
                 "restriction":"blacklist",
                 "value":[ 
@@ -123,6 +156,7 @@
 					}
 				],
 				"surface":[ 
+					"minecraft:sand",
 					"minecraft:grass",
 					"miencraft:dirt",
 					"miencraft:podzol",
@@ -131,7 +165,7 @@
                 ],
 				"cluster-size":1,
                 "see-sky":false,
-                "check-stay":false
+                "check-stay":true
 			},
             "cluster-count":12.5,
             "min-height":50,
@@ -139,7 +173,17 @@
 			
 			"low-terrain":true,
             "retrogen":false,
-            "biome":"all",
+            "biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"SNOWY"
+						]
+					}
+				]
+			},
             "dimension":{ 
                 "restriction":"blacklist",
                 "value":[ 

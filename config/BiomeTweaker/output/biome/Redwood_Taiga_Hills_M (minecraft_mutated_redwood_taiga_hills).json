@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MEGA_TAIGA_SPRUCE_TREES",
-    "DENSE",
-    "HILLS",
-    "THEMED_TREES",
     "FOREST",
-    "RARE"
+    "RARE",
+    "THEMED_TREES",
+    "HILLS",
+    "DENSE",
+    "MEGA_TAIGA_SPRUCE_TREES"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -85,10 +85,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "miners_delight"

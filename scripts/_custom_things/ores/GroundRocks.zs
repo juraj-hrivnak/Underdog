@@ -19,7 +19,7 @@ var rock = VanillaFactory.createBlock("rock", <blockmaterial:rock>);
         return;
 });
     rock.fullBlock = false;
-    rock.lightOpacity = 0;
+    rock.lightOpacity = 255;
     rock.enumBlockRenderType = "MODEL";
     rock.gravity = true;
     rock.passable = true;
@@ -29,7 +29,6 @@ var rock = VanillaFactory.createBlock("rock", <blockmaterial:rock>);
     rock.blockHardness = 0.01;
     rock.blockResistance = 0.5;
     rock.blockSoundType = <soundtype:stone>;
-    rock.setCreativeTab(<creativetab:decorations>);
     rock.register();
 
 // Stone 90`
@@ -41,7 +40,7 @@ var rock1 = VanillaFactory.createBlock("rock1", <blockmaterial:rock>);
         return;
 });
     rock1.fullBlock = false;
-    rock1.lightOpacity = 0;
+    rock1.lightOpacity = 255;
     rock1.enumBlockRenderType = "MODEL";
     rock1.gravity = true;
     rock1.passable = true;
@@ -51,7 +50,6 @@ var rock1 = VanillaFactory.createBlock("rock1", <blockmaterial:rock>);
     rock1.blockHardness = 0.01;
     rock1.blockResistance = 0.5;
     rock1.blockSoundType = <soundtype:stone>;
-    rock1.setCreativeTab(<creativetab:decorations>);
     rock1.register();
 
 // Stone 180`
@@ -63,7 +61,7 @@ var rock2 = VanillaFactory.createBlock("rock2", <blockmaterial:rock>);
         return;
 });
     rock2.fullBlock = false;
-    rock2.lightOpacity = 0;
+    rock2.lightOpacity = 255;
     rock2.enumBlockRenderType = "MODEL";
     rock2.gravity = true;
     rock2.passable = true;
@@ -73,7 +71,6 @@ var rock2 = VanillaFactory.createBlock("rock2", <blockmaterial:rock>);
     rock2.blockHardness = 0.01;
     rock2.blockResistance = 0.5;
     rock2.blockSoundType = <soundtype:stone>;
-    rock2.setCreativeTab(<creativetab:decorations>);
     rock2.register();
 
 // Stone 270`
@@ -85,7 +82,7 @@ var rock3 = VanillaFactory.createBlock("rock3", <blockmaterial:rock>);
         return;
 });
     rock3.fullBlock = false;
-    rock3.lightOpacity = 0;
+    rock3.lightOpacity = 255;
     rock3.enumBlockRenderType = "MODEL";
     rock3.gravity = true;
     rock3.passable = true;
@@ -95,5 +92,4 @@ var rock3 = VanillaFactory.createBlock("rock3", <blockmaterial:rock>);
     rock3.blockHardness = 0.01;
     rock3.blockResistance = 0.5;
     rock3.blockSoundType = <soundtype:stone>;
-    rock3.setCreativeTab(<creativetab:decorations>);
     rock3.register();

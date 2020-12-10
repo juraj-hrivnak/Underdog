@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "FOREST",
+    "RARE",
     "HOT",
     "WET",
-    "JUNGLE",
-    "FOREST",
-    "RARE"
+    "JUNGLE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -84,10 +84,6 @@
   "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "miners_delight"

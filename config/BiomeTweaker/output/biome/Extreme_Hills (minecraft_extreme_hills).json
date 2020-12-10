@@ -63,10 +63,6 @@
     "FLOWERS Generators": [
       {
         "ID": "flora",
-        "Name": "glowshrooms"
-      },
-      {
-        "ID": "flora",
         "Name": "leaf_piles"
       },
       {

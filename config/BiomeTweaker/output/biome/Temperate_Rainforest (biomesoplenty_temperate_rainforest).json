@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "WET",
+    "FOREST",
     "LUSH",
-    "FOREST"
+    "WET",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -116,10 +116,6 @@
       {
         "ID": "double_flora",
         "Name": "double_cattail"
-      },
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
       },
       {
         "ID": "flora",

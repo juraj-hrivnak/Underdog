@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "DENSE",
-    "WET",
     "LUSH",
-    "JUNGLE"
+    "HOT",
+    "WET",
+    "JUNGLE",
+    "DENSE"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -98,10 +98,6 @@
       }
     ],
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "leaf_piles"

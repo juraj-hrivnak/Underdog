@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "SWAMP",
     "FOREST",
-    "COLD"
+    "COLD",
+    "WET",
+    "SWAMP"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -77,10 +77,6 @@
       }
     ],
     "FLOWERS Generators": [
-      {
-        "ID": "flora",
-        "Name": "glowshrooms"
-      },
       {
         "ID": "flora",
         "Name": "leaf_piles"
