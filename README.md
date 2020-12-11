@@ -2,5 +2,5 @@
 A realistic survival/  tech/ exploration modpack
 
 
-> Fully playable releases are on curseforge!
+> Fully playable releases are available on curseforge!
 > [here](https://www.curseforge.com/minecraft/modpacks/underdog)
