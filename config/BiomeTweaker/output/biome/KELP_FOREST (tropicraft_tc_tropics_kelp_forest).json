@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 135,
   "Name": "KELP_FOREST",
   "Resource Location": "tropicraft:tc_tropics_kelp_forest",
   "Class": "net.tropicraft.core.common.biome.BiomeKelpForest",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "HOT",
-    "WET",
     "SWAMP",
-    "WATER"
+    "WET",
+    "WATER",
+    "OCEAN",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

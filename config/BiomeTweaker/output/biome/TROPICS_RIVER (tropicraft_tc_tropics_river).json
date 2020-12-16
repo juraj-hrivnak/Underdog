@@ -1,6 +1,6 @@
 
 {
-  "ID": 122,
+  "ID": 142,
   "Name": "TROPICS_RIVER",
   "Resource Location": "tropicraft:tc_tropics_river",
   "Class": "net.tropicraft.core.common.biome.BiomeTropicsRiver",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "HOT",
-    "WET",
     "SWAMP",
-    "WATER"
+    "WET",
+    "WATER",
+    "OCEAN",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

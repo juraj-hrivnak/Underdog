@@ -1,6 +1,6 @@
 
 {
-  "ID": 124,
+  "ID": 144,
   "Name": "TROPICS_LAKE",
   "Resource Location": "tropicraft:tc_tropics_lake",
   "Class": "net.tropicraft.core.common.biome.BiomeTropicsOcean",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "HOT",
-    "WET",
     "SWAMP",
-    "WATER"
+    "WET",
+    "WATER",
+    "OCEAN",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 119,
+  "ID": 138,
   "Name": "TROPICS_RAINFOREST_HILLS",
   "Resource Location": "tropicraft:tc_tropics_rainforest_hills",
   "Class": "net.tropicraft.core.common.biome.BiomeRainforest",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "HILLS",
     "WET",
-    "HILLS"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

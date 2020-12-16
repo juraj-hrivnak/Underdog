@@ -1,6 +1,6 @@
 
 {
-  "ID": 121,
+  "ID": 141,
   "Name": "TROPICS_RAINFOREST_ISLAND_MOUNTAINS",
   "Resource Location": "tropicraft:tc_tropics_rainforest_island_mountains",
   "Class": "net.tropicraft.core.common.biome.BiomeRainforest",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WET",
     "MOUNTAIN",
-    "HOT",
-    "WET"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

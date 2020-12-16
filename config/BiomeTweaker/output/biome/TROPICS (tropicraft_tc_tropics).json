@@ -1,6 +1,6 @@
 
 {
-  "ID": 117,
+  "ID": 136,
   "Name": "TROPICS",
   "Resource Location": "tropicraft:tc_tropics",
   "Class": "net.tropicraft.core.common.biome.BiomeTropics",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "PLAINS",
     "WET",
-    "PLAINS"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

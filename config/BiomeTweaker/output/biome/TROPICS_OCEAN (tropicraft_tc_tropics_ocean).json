@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 128,
   "Name": "TROPICS_OCEAN",
   "Resource Location": "tropicraft:tc_tropics_ocean",
   "Class": "net.tropicraft.core.common.biome.BiomeTropicraft$1",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "HOT",
-    "WET",
     "HILLS",
-    "WATER"
+    "WET",
+    "WATER",
+    "OCEAN",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 123,
+  "ID": 143,
   "Name": "TROPICS_BEACH",
   "Resource Location": "tropicraft:tc_tropics_beach",
   "Class": "net.tropicraft.core.common.biome.BiomeTropicsBeach",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "SWAMP",
     "WET",
-    "SWAMP"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

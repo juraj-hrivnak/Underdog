@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SNOWY",
-    "OCEAN",
     "COLD",
-    "WATER"
+    "WATER",
+    "OCEAN",
+    "SNOWY"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
