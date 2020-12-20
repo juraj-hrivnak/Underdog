@@ -8,65 +8,86 @@ import mods.contenttweaker.AxisAlignedBB;
 
 // Thorium ore / Monazite
 var monazite = VanillaFactory.createBlock("monazite", <blockmaterial:rock>);
+monazite.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:nuclearcraft:ore:3>);
+        return;
+});
 monazite.fullBlock = true;
 monazite.translucent = false;
 monazite.lightValue = 0.1;
 monazite.blockHardness = 2.5;
 monazite.blockResistance = 15.0;
 monazite.toolClass = "pickaxe";
-monazite.toolLevel = 3;
+monazite.toolLevel = 1;
 monazite.blockSoundType = <soundtype:stone>;
 monazite.setCreativeTab(<creativetab:misc>);
 monazite.register();
 
 // Boron ore / Sassolite
 var sassolite = VanillaFactory.createBlock("sassolite", <blockmaterial:rock>);
+sassolite.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:nuclearcraft:ore:5>);
+        return;
+});
 sassolite.fullBlock = true;
 sassolite.translucent = false;
-sassolite.lightValue = 0.1;
 sassolite.blockHardness = 2.5;
 sassolite.blockResistance = 15.0;
 sassolite.toolClass = "pickaxe";
-sassolite.toolLevel = 3;
+sassolite.toolLevel = 1;
 sassolite.blockSoundType = <soundtype:stone>;
 sassolite.setCreativeTab(<creativetab:misc>);
 sassolite.register();
 
 // Borax ore
 var borax = VanillaFactory.createBlock("borax", <blockmaterial:rock>);
+borax.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:nuclearcraft:compound:7> * 4);
+        return;
+});
 borax.fullBlock = true;
 borax.translucent = false;
-borax.lightValue = 0.1;
 borax.blockHardness = 2.5;
 borax.blockResistance = 15.0;
 borax.toolClass = "pickaxe";
-borax.toolLevel = 3;
+borax.toolLevel = 1;
 borax.blockSoundType = <soundtype:stone>;
 borax.setCreativeTab(<creativetab:misc>);
 borax.register();
 
 // Lithium ore / Lepidolite
 var lepidolite = VanillaFactory.createBlock("lepidolite", <blockmaterial:rock>);
+lepidolite.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:nuclearcraft:ore:6>);
+        return;
+});
 lepidolite.fullBlock = true;
 lepidolite.translucent = false;
-lepidolite.lightValue = 0.1;
 lepidolite.blockHardness = 2.5;
 lepidolite.blockResistance = 15.0;
 lepidolite.toolClass = "pickaxe";
-lepidolite.toolLevel = 3;
+lepidolite.toolLevel = 1;
 lepidolite.blockSoundType = <soundtype:stone>;
 lepidolite.setCreativeTab(<creativetab:misc>);
 lepidolite.register();
 
 // Magnesium ore / Iron, *Magnesite, Dolomite
 var magnesite = VanillaFactory.createBlock("magnesite", <blockmaterial:rock>);
+magnesite.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:nuclearcraft:ore:7>);
+        return;
+});
 magnesite.fullBlock = true;
 magnesite.translucent = false;
-magnesite.lightValue = 0.1;
 magnesite.blockHardness = 2.5;
 magnesite.blockResistance = 15.0;
 magnesite.toolClass = "pickaxe";
-magnesite.toolLevel = 3;
+magnesite.toolLevel = 1;
 magnesite.blockSoundType = <soundtype:stone>;
 magnesite.setCreativeTab(<creativetab:misc>);
 magnesite.register();
@@ -74,6 +95,11 @@ magnesite.register();
 // Samples
 // Thorium Sample / Monazite
 var monazite_sample = VanillaFactory.createBlock("monazite_sample", <blockmaterial:rock>);
+monazite_sample.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:divergentunderground:rock_stone>);
+        return;
+});
 monazite_sample.gravity = true;
 monazite_sample.lightOpacity = 255;
 monazite_sample.setAxisAlignedBB(AxisAlignedBB.create(0.2d, 0.0d, 0.2d, 0.8d, 0.2d, 0.8d));
@@ -89,6 +115,11 @@ monazite_sample.register();
 
 // Boron Sample / Sassolite
 var sassolite_sample = VanillaFactory.createBlock("sassolite_sample", <blockmaterial:rock>);
+sassolite_sample.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:divergentunderground:rock_stone>);
+        return;
+});
 sassolite_sample.gravity = true;
 sassolite_sample.lightOpacity = 255;
 sassolite_sample.setAxisAlignedBB(AxisAlignedBB.create(0.2d, 0.0d, 0.2d, 0.8d, 0.2d, 0.8d));
@@ -104,6 +135,11 @@ sassolite_sample.register();
 
 // Borax Sample
 var borax_sample = VanillaFactory.createBlock("borax_sample", <blockmaterial:rock>);
+borax_sample.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:divergentunderground:rock_stone>);
+        return;
+});
 borax_sample.gravity = true;
 borax_sample.lightOpacity = 255;
 borax_sample.setAxisAlignedBB(AxisAlignedBB.create(0.2d, 0.0d, 0.2d, 0.8d, 0.2d, 0.8d));
@@ -119,6 +155,11 @@ borax_sample.register();
 
 // Lithium Sample / Lepidolite
 var lepidolite_sample = VanillaFactory.createBlock("lepidolite_sample", <blockmaterial:rock>);
+lepidolite_sample.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:divergentunderground:rock_stone>);
+        return;
+});
 lepidolite_sample.gravity = true;
 lepidolite_sample.lightOpacity = 255;
 lepidolite_sample.setAxisAlignedBB(AxisAlignedBB.create(0.2d, 0.0d, 0.2d, 0.8d, 0.2d, 0.8d));
@@ -134,6 +175,11 @@ lepidolite_sample.register();
 
 // Magnesium Sample / Iron, *Magnesite, Dolomite
 var magnesite_sample = VanillaFactory.createBlock("magnesite_sample", <blockmaterial:rock>);
+magnesite_sample.setDropHandler(function(drops, world, position, state, fortune) {
+        drops.clear();
+        drops.add(<item:divergentunderground:rock_stone>);
+        return;
+});
 magnesite_sample.gravity = true;
 magnesite_sample.lightOpacity = 255;
 magnesite_sample.setAxisAlignedBB(AxisAlignedBB.create(0.2d, 0.0d, 0.2d, 0.8d, 0.2d, 0.8d));

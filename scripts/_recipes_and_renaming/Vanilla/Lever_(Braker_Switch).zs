@@ -10,5 +10,5 @@ import crafttweaker.events.IEventManager;
 recipes.removeShaped(<minecraft:lever>);
 recipes.addShapedMirrored(<minecraft:lever>,
     [[<ore:ingotTin>, <minecraft:stick>],
-     [<minecraft:stick>, <ore:plateIron>]]
+    [<minecraft:stick>, <ore:plateIron>]]
 );

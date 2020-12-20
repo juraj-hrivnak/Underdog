@@ -2,11 +2,10 @@ import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.oredict.IOreDictEntry;
 
-print("--- loading Vanilla/Bonemeal.zs ---");
 
 var bonemeal = <minecraft:dye:15>;
 
-#Oredicts
+// Oredicts
 <ore:fertilizer>.add(bonemeal);
 
 <ore:dyeWhite>.remove(bonemeal);
@@ -19,5 +18,3 @@ bonemeal.addTooltip("§aActs as Bonemeal");
 //Removing Default Bonemeal Recipe
 recipes.removeShapeless(bonemeal * 3);
 recipes.removeShaped(bonemeal * 1);
-
-print("--- Vanilla/Bonemeal.zs initialized ---");

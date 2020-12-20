@@ -1,7 +1,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-print("--- loading Vanilla/Wood.zs ---");
 
 recipes.removeShaped(<minecraft:planks> * 4);
 recipes.removeShaped(<minecraft:planks:1> * 4);
@@ -16,5 +15,3 @@ recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "minecraft:plank
 recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "minecraft:planks[variant=jungle]"}) * 8, [<minecraft:log:3>]);
 recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "minecraft:planks[variant=acacia]"}) * 8, [<minecraft:log2>]);
 recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "minecraft:planks[variant=dark_oak]"}) * 8, [<minecraft:log2:1>]);
-
-print("--- Vanilla/Wood.zs initialized ---");
