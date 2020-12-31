@@ -20,7 +20,9 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             if event.player.currentItem.name == <minecraft:compass>.name {
                 event.player.addGameStage("map");
             } else {
-                event.player.removeGameStage("map");
+                if event.player.data.previousItemName == <minecraft:compass>.name {
+                    event.player.removeGameStage("map");
+                }
             }
         }
         event.player.update({ previousItemName : event.player.currentItem.name });
