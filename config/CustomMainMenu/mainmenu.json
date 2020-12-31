@@ -45,7 +45,7 @@
             }
         },
         "mods": {
-            "text": "fml.menu.mods",
+            "text": "Mods (#modsloaded#/#modsactive#)",
             "posX": 150,
             "posY": 35,
             "width": 100,
