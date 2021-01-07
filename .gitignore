@@ -1,9 +1,7 @@
 config/BiomeTweaker/output/
 config/fantasticlib/
 
-config/AppliedEnergistics2/items.csv
-config/AppliedEnergistics2/VersionChecker.cfg
-config/AppliedEnergistics2/CustomRecipes.cfg
+config/AppliedEnergistics2/
 
 config/codechicken/supporters.json
 config/splash.properties
