@@ -1,10 +1,13 @@
 config/BiomeTweaker/output/
+config/fantasticlib/
+
 config/AppliedEnergistics2/items.csv
 config/AppliedEnergistics2/VersionChecker.cfg
-config/codechicken/supporters.json
-config/AppliedEnergistics2/items.csv
-config/splash.properties
 config/AppliedEnergistics2/CustomRecipes.cfg
-config/AppliedEnergistics2/items.csv
+
+config/codechicken/supporters.json
 config/splash.properties
+
 config/waila/waila.cfg
+config/fantasticlib.cfg
+config/lightningtweaks.cfg
