@@ -1,18 +1,15 @@
-{ 
+{
 	"block_pools": 
-	[ 
-		{ 
+	[
+		{
 			"name": "Mill_Sound",
-
 			"type": 
 				{
 					"type": "block",
 					"name": "cuisine:mill" 
 				},
-
 			"clicktype": "rightclick",
 			"blockRightClick": false,
-
 			"properties": 
 			[
 				{
@@ -36,7 +33,7 @@
 					"arguments": "hand_mill block @a",
 					"disableJEI": true
                 }
-			] 
+			]
 		}
 	]
 }

@@ -1,0 +1,24 @@
+{
+	"block_pools": 
+	[
+		{
+			"name": "Breaker",
+			"type": 
+				{
+					"type": "block",
+					"name": "minecraft:lever" 
+				},
+			"clicktype": "rightclick",
+			"blockRightClick": false,
+			"properties": 
+			[
+				{
+					"type": "use_command",
+					"name": "playsound",
+					"arguments": "breaker_on block @a",
+					"disableJEI": true
+				}
+			]
+		}
+	]
+}

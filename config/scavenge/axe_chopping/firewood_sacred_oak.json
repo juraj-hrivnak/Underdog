@@ -1,24 +1,33 @@
-{ 
+{
 	"block_pools": 
-	[ 
-		{ 
-			"name": "clickOnChopped",
+	[
+		{
+			"name": "clickOnChopped21",
 			"type": 
 				{
 					"type": "block",
 					"name": "contenttweaker:chopped_sacred_oak_wood" 
 				},
 			"clicktype": "rightclick",
-	  "blockRightClick": true,
-	  "drops": [{  "name": "contenttweaker:firewood_sacred_oak", "amount": 6 }],  
-			"properties": [
+	  		"blockRightClick": true,
+			"drops":
+			[
+				{
+					"name": "contenttweaker:firewood_sacred_oak",
+					"amount": 6
+				}
+			],  
+			"properties":
+			[
 				{
 					"type": "clicks_per_time",
 					"time": 4,
-					"disableJEI": true },
+					"disableJEI": true
+				},
 				{
-					"type": "consume_block" }
-			] 
+					"type": "consume_block"
+				}
+			]
 		}
 	]
 }

@@ -1,8 +1,8 @@
-{ 
+{
 	"block_pools": 
-	[ 
-		{ 
-			"name": "clickOnChopped",
+	[
+		{
+			"name": "clickOnChopped0",
 			"type": 
 				{
 					"type": "block",
@@ -10,15 +10,20 @@
 				},
 			"clicktype": "rightclick",
 			"blockRightClick": true,
-			  
-			"drops": [{  "name": "contenttweaker:firewood_acacia", "amount": 6 }],
+			"drops": [
+				{
+				  "name": "contenttweaker:firewood_acacia",
+					"amount": 6
+				}
+			], 
 
 			"properties": 
 			[
 				{
 					"type": "clicks_per_time",
 					"time": 4,
-					"disableJEI": true },
+					"disableJEI": true
+				},
 				{
 					"type": "consume_block"
 				}

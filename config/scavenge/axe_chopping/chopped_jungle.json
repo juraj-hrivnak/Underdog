@@ -1,19 +1,16 @@
-{ 
+{
 	"block_pools": 
-	[ 
-		{ 
+	[
+		{
 			"name": "Axe_Chop_Jungle",
-
 			"type": 
 				{
 					"type": "block",
 					"name": "minecraft:log",
 					"meta": "3" 
 				},
-
 			"clicktype": "rightclick",
 			"blockRightClick": true,
-
 			"properties": 
 			[
 				{
@@ -21,7 +18,8 @@
 					"tool": "axe",
 					"level": 1,
 					"disableJEI": true
-                },
+               
+				},
 				{
 					"type": "clicks_per_time",
 					"time": 4,
@@ -45,14 +43,16 @@
 					"name": "playsound",
 					"arguments": "minecraft:block.wood.break block @a",
 					"disableJEI": true
-                },
+               
+				},
 				{
 					"type": "use_command",
 					"name": "particle",
 					"arguments": "blockcrack ~ ~.4 ~ .3 .3 .3 1 16 normal @a 17",
 					"disableJEI": true
-                }
-			] 
+               
+				}
+			]
 		}
 	]
 }
