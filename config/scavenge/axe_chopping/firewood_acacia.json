@@ -10,13 +10,13 @@
 				},
 			"clicktype": "rightclick",
 			"blockRightClick": true,
-			"drops": [
+			"drops":
+			[
 				{
 				  "name": "contenttweaker:firewood_acacia",
 					"amount": 6
 				}
 			], 
-
 			"properties": 
 			[
 				{
