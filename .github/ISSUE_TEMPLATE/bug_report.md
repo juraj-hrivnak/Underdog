@@ -6,15 +6,15 @@ labels: ''
 assignees: ''
 ---
 **Client** Check with [x]
-- [] MultiMC
-- [] CurseForge App
-- [] GDLauncher
-- [] Other ...
+- [ ] MultiMC
+- [ ] CurseForge App
+- [ ] GDLauncher
+- [ ] Other ...
 
 **Operating System**
-- [] Windows
-- [] Mac
-- [] Linux
+- [ ] Windows
+- [ ] Mac
+- [ ] Linux
 
 **Describe the bug**
 A clear and concise description of what the bug is.
