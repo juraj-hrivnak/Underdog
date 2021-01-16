@@ -5,24 +5,24 @@ title: ''
 labels: ''
 assignees: ''
 ---
-**Client**
-- [ ] MultiMC
-- [ ] CurseForge App
-- [ ] GDLauncher
-- [ ] Other ...
+**Client** Check with [x]
+- [] MultiMC
+- [] CurseForge App
+- [] GDLauncher
+- [] Other ...
 
 **Operating System**
-- [ ] Windows
-- [ ] Mac
-- [ ] Linux
+- [] Windows
+- [] Mac
+- [] Linux
 
 **Describe the bug**
 A clear and concise description of what the bug is.
 
 **To Reproduce**
-Steps to reproduce the behavior:
+Steps to reproduce the behaviour:
 
-**Expected behavior**
+**Expected behaviour**
 A clear and concise description of what you expected to happen.
 
 **Screenshots**
