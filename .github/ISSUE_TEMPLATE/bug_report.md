@@ -1,11 +1,20 @@
 ---
 name: Bug report
-about: Report Mod Interaction/ Recipe/ Visual bug
+about: Report Mod Interaction/ Recipe/ Visual glitch
 title: ''
 labels: ''
 assignees: ''
-
 ---
+**Client**
+- [ ] MultiMC
+- [ ] CurseForge App
+- [ ] GDLauncher
+- [ ] Other ...
+
+**Operating System**
+- [ ] Windows
+- [ ] Mac
+- [ ] Linux
 
 **Describe the bug**
 A clear and concise description of what the bug is.
