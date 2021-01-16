@@ -5,13 +5,13 @@ title: ''
 labels: ''
 assignees: ''
 ---
-**Client**
+**Client** (Remove the not matching)
 - [x] MultiMC
 - [x] CurseForge App
 - [x] GDLauncher
 - [x] Other ...
 
-**Operating System**
+**Operating System** (Remove the not matching)
 - [x] Windows
 - [x] Mac
 - [x] Linux
