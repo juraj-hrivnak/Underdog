@@ -2,9 +2,11 @@
 name: Bug report
 about: Report Mod Interaction/ Recipe/ Visual glitch
 title: ''
-labels: ''
+labels: bug
 assignees: ''
+
 ---
+
 **Client** (Remove the not matching)
 - [x] MultiMC
 - [x] CurseForge App
