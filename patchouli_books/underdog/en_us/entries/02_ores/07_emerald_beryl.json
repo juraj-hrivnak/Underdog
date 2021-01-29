@@ -1,0 +1,16 @@
+{
+  "name": "Emerald - Beryl",
+  "icon": "geolosys:ore_sample_vanilla:6",
+  "category": "02_ores",
+  "sortnum" : "7",
+  "read_by_default": true,
+  "pages": 
+  [
+    {
+      "type": "spotlight",
+      "title": "Emerald - Beryl",
+      "item": "geolosys:ore_vanilla:6",
+      "text": "Can be find between 28 - 43 blocks under the surface and only in biomes: ice_mountains extreme_hills_with_trees mutated_extreme_hills mutated_extreme_hills_with_trees extreme_hills smaller_extreme_hills. The deposit as whole has rarity of 50 of generation."
+    }
+  ]
+}

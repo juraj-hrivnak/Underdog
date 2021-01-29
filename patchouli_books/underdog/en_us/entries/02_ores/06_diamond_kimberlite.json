@@ -1,0 +1,16 @@
+{
+  "name": "Diamonds - Kimberlite",
+  "icon": "geolosys:ore_sample_vanilla:5",
+  "category": "02_ores",
+  "sortnum" : "6",
+  "read_by_default": true,
+  "pages": 
+  [
+    {
+      "type": "spotlight",
+      "title": "Diamonds - Kimberlite",
+      "item": "geolosys:ore_vanilla:5",
+      "text": "Can be find between 28 - 43 blocks under the surface. The deposit as whole has rarity of 50 of generation."
+    }
+  ]
+}

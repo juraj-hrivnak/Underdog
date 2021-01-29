@@ -1,0 +1,22 @@
+{
+  "name": "Copper - Malachite/ Azurite",
+  "icon": "geolosys:ore_sample:2",
+  "category": "02_ores",
+  "sortnum" : "10",
+  "read_by_default": true,
+  "pages": 
+  [
+    {
+      "type": "spotlight",
+      "title": "Copper - Malachite",
+      "item": "geolosys:ore:2",
+      "text": "Can be find between 8 - 13 blocks under the surface. The deposit as whole has rarity of 48 of generation."
+    },
+    {
+      "type": "spotlight",
+      "title": "Azurite",
+      "item": "geolosys:ore:3",
+      "text": "Is contained within Malachite cluster."
+    }
+  ]
+}

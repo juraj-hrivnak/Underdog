@@ -1,0 +1,16 @@
+{
+  "name": "Iron - Limonite",
+  "icon": "geolosys:ore_sample:1",
+  "category": "02_ores",
+  "sortnum" : "9",
+  "read_by_default": true,
+  "pages": 
+  [
+    {
+      "type": "spotlight",
+      "title": "Iron - Limonite",
+      "item": "geolosys:ore:1",
+      "text": "Can be find between 28 - 33 blocks under the surface and only in swampland, mutated_swampland, bayou. The deposit as whole has rarity of 47 of generation."
+    }
+  ]
+}

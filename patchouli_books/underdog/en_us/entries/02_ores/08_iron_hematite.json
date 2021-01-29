@@ -1,0 +1,16 @@
+{
+  "name": "Iron - Hematite",
+  "icon": "geolosys:ore_sample",
+  "category": "02_ores",
+  "sortnum" : "8",
+  "read_by_default": true,
+  "pages": 
+  [
+    {
+      "type": "spotlight",
+      "title": "Iron - Hematite",
+      "item": "geolosys:ore",
+      "text": "Can be find between 18 - 33 blocks under the surface. The deposit as whole has rarity of 44 of generation."
+    }
+  ]
+}

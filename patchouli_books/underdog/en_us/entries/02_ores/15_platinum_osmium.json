@@ -1,0 +1,16 @@
+{
+  "name": "Platinum/ Osmium",
+  "icon": "geolosys:ore_sample:8",
+  "category": "02_ores",
+  "sortnum" : "15",
+  "read_by_default": true,
+  "pages": 
+  [
+    {
+      "type": "spotlight",
+      "title": "Platinum/ Osmium",
+      "item": "geolosys:ore:8",
+      "text": "Can be find between 28 - 33 blocks under the surface and only in ice_mountains, extreme_hills_with_trees, mutated_extreme_hills, mutated_extreme_hills_with_trees, extreme_hills, smaller_extreme_hills. The deposit as whole has rarity of 47 of generation."
+    }
+  ]
+}

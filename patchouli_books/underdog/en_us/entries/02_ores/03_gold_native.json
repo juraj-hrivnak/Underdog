@@ -1,0 +1,16 @@
+{
+  "name": "Gold",
+  "icon": "geolosys:ore_sample_vanilla:2",
+  "category": "02_ores",
+  "sortnum" : "3",
+  "read_by_default": true,
+  "pages": 
+  [
+    {
+      "type": "spotlight",
+      "title": "Gold",
+      "item": "geolosys:ore_vanilla:2",
+      "text": "Can be find between 28 - 33 blocks under the surface. The deposit as whole has rarity of 49 of generation."
+    }
+  ]
+}

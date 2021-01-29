@@ -1,0 +1,16 @@
+{
+  "name": "Lead - Galena",
+  "icon": "geolosys:ore_sample:6",
+  "category": "02_ores",
+  "sortnum" : "13",
+  "read_by_default": true,
+  "pages": 
+  [
+    {
+      "type": "spotlight",
+      "title": "Lead - Galena",
+      "item": "geolosys:ore:6",
+      "text": "Can be find between 18 - 24 blocks under the surface and only in mutated_plains, plains, ice_flats, mutated_ice_flats. The deposit as whole has rarity of 44 of generation."
+    }
+  ]
+}
