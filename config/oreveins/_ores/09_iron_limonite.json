@@ -1,0 +1,47 @@
+{
+  "Iron-Limonite":
+  {
+    "type": "curve",
+    "rarity": 150,
+    "count": 1,
+      "stone":
+      [
+        { "block": "minecraft:stone" },
+        { "block": "minecraft:dirt" }
+      ],
+
+      "min_y": -33,
+      "max_y": -28,
+      "use_relative_y": true,
+
+      "density": 600,
+      "vertical_size": 5,
+      "horizontal_size": 10,
+
+      "ore":
+        [
+          {
+            "block": "geolosys:ore",
+            "meta": "1",
+            "weight": 100
+          }
+        ],
+        
+      "indicator": {
+      "blocks": 
+        [
+          {
+            "block": "geolosys:ore_sample",
+            "meta": "1",
+            "weight": 100
+          }
+        ],
+      "max_depth": 100
+      },
+      "biomes": [
+        "swampland",
+        "mutated_swampland",
+        "bayou"
+      ]
+  }
+}

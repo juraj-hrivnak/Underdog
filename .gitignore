@@ -9,3 +9,6 @@ config/splash.properties
 config/waila/waila.cfg
 config/fantasticlib.cfg
 config/lightningtweaks.cfg
+config/InvTweaks.cfg
+config/Weather2/EZGUIConfigClientData.dat
+config/Weather2/EZGUIConfigServerData.dat

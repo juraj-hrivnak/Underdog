@@ -1,0 +1,29 @@
+{
+  "Clay":
+  {
+    "type": "pipe",
+    "rarity": 12,
+    "count": 1,
+      "stone":
+      [
+        { "block": "minecraft:stone" },
+        { "block": "minecraft:dirt" }
+      ],
+
+      "min_y": -10,
+      "max_y": -1,
+      "use_relative_y": true,
+
+      "density": 1000,
+      "vertical_size": 2,
+      "horizontal_size": 8,
+
+      "ore":
+        [
+          {
+            "block": "minecraft:clay",
+            "weight": 100
+          }
+        ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Diamond-Kimberlite":
+  {
+      "type": "cluster",
+      "rarity": 200,
+      "count": 1,
+        "stone":
+        [
+          { "block": "minecraft:stone" },
+          { "block": "minecraft:dirt" }
+        ],
+  
+        "min_y": -43,
+        "max_y": -28,
+        "use_relative_y": true,
+  
+        "density": 500,
+        "vertical_size": 6,
+        "horizontal_size": 6,
+
+      "ore":
+        [
+          {
+            "block": "geolosys:ore_vanilla",
+            "meta": "5",
+            "weight": 100
+          }
+        ],
+        
+      "indicator": {
+      "blocks": 
+        [
+          {
+            "block": "geolosys:ore_sample_vanilla",
+            "meta": "5",
+            "weight": 100
+          }
+        ],
+      "max_depth": 150
+      }
+  }
+}
