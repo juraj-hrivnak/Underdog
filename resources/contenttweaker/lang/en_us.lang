@@ -1,0 +1,66 @@
+
+# Chopped Logs
+tile.contenttweaker.chopped_oak_wood.name=Chopped Oak Wood
+tile.contenttweaker.chopped_spruce_wood.name=Chopped Spruce Wood
+tile.contenttweaker.chopped_birch_wood.name=Chopped Birch Wood
+tile.contenttweaker.chopped_jungle_wood.name=Chopped Jungle Wood
+tile.contenttweaker.chopped_acacia_wood.name=Chopped Acacia Wood
+tile.contenttweaker.chopped_dark_oak_wood.name=Chopped Dark Oak Wood
+tile.contenttweaker.chopped_sacred_oak_wood.name=Chopped Sacred Oak Wood
+tile.contenttweaker.chopped_cherry_wood.name=Chopped Cherry Wood
+tile.contenttweaker.chopped_umbran_wood.name=Chopped Umbran Wood
+tile.contenttweaker.chopped_fir_wood.name=Chopped Fir Wood
+tile.contenttweaker.chopped_ethereal_wood.name=Chopped Ethereal Wood
+tile.contenttweaker.chopped_magic_wood.name=Chopped Magic Wood
+tile.contenttweaker.chopped_mangrove_wood.name=Chopped Mangrove Wood
+tile.contenttweaker.chopped_palm_wood.name=Chopped Palm Wood
+tile.contenttweaker.chopped_redwood_wood.name=Chopped Redwood Wood
+tile.contenttweaker.chopped_willow_wood.name=Chopped Willow Wood
+tile.contenttweaker.chopped_pine_wood.name=Chopped Pine Wood
+tile.contenttweaker.chopped_hellbark_wood.name=Chopped Hellbark Wood
+tile.contenttweaker.chopped_jacaranda_wood.name=Chopped Jacaranda Wood
+tile.contenttweaker.chopped_mahogany_wood.name=Chopped Mahogany Wood
+tile.contenttweaker.chopped_ebony_wood.name=Chopped Ebony Wood
+tile.contenttweaker.chopped_eucalyptus_wood.name=Chopped Eucalyptus Wood
+
+# Firewood
+tile.contenttweaker.firewood_oak.name=Oak Firewood
+tile.contenttweaker.firewood_spruce.name=Spruce Firewood
+tile.contenttweaker.firewood_birch.name=Birch Firewood
+tile.contenttweaker.firewood_jungle.name=Jungle Firewood
+tile.contenttweaker.firewood_acacia.name=Acacia Firewood
+tile.contenttweaker.firewood_dark_oak.name=Dark Oak Firewood
+tile.contenttweaker.firewood_sacred_oak.name=Sacred Oak Firewood
+tile.contenttweaker.firewood_cherry.name=Cherry Firewood
+tile.contenttweaker.firewood_umbran.name=Umbran Firewood
+tile.contenttweaker.firewood_fir.name=Fir Firewood
+tile.contenttweaker.firewood_ethereal.name=Ethereal Firewood
+tile.contenttweaker.firewood_magic.name=Magic Firewood
+tile.contenttweaker.firewood_mangrove.name=Mangrove Firewood
+tile.contenttweaker.firewood_palm.name=Palm Firewood
+tile.contenttweaker.firewood_redwood.name=RedwoodFirewood
+tile.contenttweaker.firewood_willow.name=Willow Firewood
+tile.contenttweaker.firewood_pine.name=Pine Firewood
+tile.contenttweaker.firewood_hellbark.name=Hellbark Firewood
+tile.contenttweaker.firewood_jacaranda.name=Jacaranda Firewood
+tile.contenttweaker.firewood_mahogany.name=Mahogany Firewood
+tile.contenttweaker.firewood_ebony.name=Ebony Firewood
+tile.contenttweaker.firewood_eucalyptus.name=Eucalyptus Firewood
+
+# Ground Stones
+tile.contenttweaker.rock.name=Stone
+tile.contenttweaker.rock1.name=Stone
+tile.contenttweaker.rock2.name=Stone
+tile.contenttweaker.rock3.name=Stone
+
+# Nuclearcraft Geolosys ores
+tile.contenttweaker.monazite.name=Monazite
+tile.contenttweaker.sassolite.name=Sassolite
+tile.contenttweaker.borax.name=Borax
+tile.contenttweaker.lepidolite.name=Lepidolite
+tile.contenttweaker.magnesite.name=Magnesite
+tile.contenttweaker.monazite_sample.name=Monazite Sample
+tile.contenttweaker.sassolite_sample.name=Sassolite Sample
+tile.contenttweaker.borax_sample.name=Borax Sample
+tile.contenttweaker.lepidolite_sample.name=Lepidolite Sample
+tile.contenttweaker.magnesite_sample.name=Magnesite Sample

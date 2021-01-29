@@ -1,0 +1,11 @@
+{
+    "parent": "block/util_cube_glow_5_all",
+    "textures": {
+        "glow_4": "blocks/redstone_block_glow_4",
+        "glow_3": "blocks/redstone_block_glow_3",
+        "glow_2": "blocks/redstone_block_glow_2",
+        "glow_1": "blocks/redstone_block_glow_1",
+        "glow_0": "blocks/redstone_block_glow_0",
+        "particle": "blocks/redstone_block"
+    }
+}

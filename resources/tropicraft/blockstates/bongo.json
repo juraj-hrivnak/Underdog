@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "variant=small": { "model": "tropicraft:bongo_small" },
+        "variant=medium": { "model": "tropicraft:bongo_medium" },
+        "variant=large": { "model": "tropicraft:bongo_large" }
+    }
+}

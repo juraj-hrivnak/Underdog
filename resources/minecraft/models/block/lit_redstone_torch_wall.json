@@ -1,0 +1,7 @@
+{
+    "parent": "block/torch_glow_wall",
+    "textures": {
+        "torch": "blocks/redstone_torch_on",
+        "glow": "blocks/redstone_torch_glow"
+    }
+}
