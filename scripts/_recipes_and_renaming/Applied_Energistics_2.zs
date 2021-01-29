@@ -1,7 +1,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-print("--- loading Applied_Energistics_2.zs ---");
 
 // Renaming to Meteorite
 <appliedenergistics2:sky_stone_block>.displayName =                 "Meteorite";
@@ -19,5 +18,3 @@ print("--- loading Applied_Energistics_2.zs ---");
 <appliedenergistics2:sky_stone_brick_slab>.displayName =            "Meteorite Brick Slab";
 <appliedenergistics2:sky_stone_small_brick_slab>.displayName =      "Meteorite Small Brick Slab";
 <appliedenergistics2:material:45>.displayName =                     "Meteorite Dust";
-
-print("--- Applied_Energistics_2.zs initialized ---");

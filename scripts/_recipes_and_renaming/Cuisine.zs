@@ -32,7 +32,10 @@ recipes.addShapedMirrored(<cuisine:fire_pit>, [
 recipes.removeShaped(<cuisine:material:1>);
 recipes.addShapedMirrored(<cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);
 
-// Chopping Boards mess :P
+// Chopping Boards :P
+
+recipes.removeShaped(<cuisine:chopping_board>);
+recipes.removeShapeless(<cuisine:chopping_board>);
 var chopping_board_oak = <cuisine:chopping_board>.withTag({BlockEntityTag: {cover: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}});
 var chopping_board_spruce = <cuisine:chopping_board>.withTag({BlockEntityTag: {cover: {id: "minecraft:log", Count: 1 as byte, Damage: 1 as short}}});
 var chopping_board_birch = <cuisine:chopping_board>.withTag({BlockEntityTag: {cover: {id: "minecraft:log", Count: 1 as byte, Damage: 2 as short}}});
