@@ -1,10 +1,9 @@
+#modloaded forestry
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
-#modloaded forestry
 
-print("--- loading Forestry.zs ---");
 
-# Plank panels recipes
+// All the plank panels recipes!!!
 recipes.removeShapeless(<forestry:planks.0> * 4, [<forestry:logs.0>]);
 recipes.removeShapeless(<forestry:planks.0:1> * 4, [<forestry:logs.0:1>]);
 recipes.removeShapeless(<forestry:planks.0:2> * 4, [<forestry:logs.0:2>]);
@@ -64,5 +63,3 @@ recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "forestry:planks
 recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "forestry:planks.1[variant=padauk]"}) * 8, [<forestry:logs.6:2>]);
 recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "forestry:planks.1[variant=cocobolo]"}) * 8, [<forestry:logs.6:3>]);
 recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "forestry:planks.1[variant=zebrawood]"}) * 8, [<forestry:logs.7>]);
-
-print("--- Forestry.zs initialized ---");
