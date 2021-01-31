@@ -45,7 +45,7 @@
             }
         },
         "mods": {
-            "text": "Mods (#modsloaded#/#modsactive#)",
+            "text": "Mods (#modsloaded#)",
             "posX": 150,
             "posY": 35,
             "width": 100,

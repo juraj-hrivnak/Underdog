@@ -23,7 +23,17 @@
           {
             "block": "geolosys:ore_vanilla",
             "meta": "4",
-            "weight": 100
+            "weight": 67
+          },
+          {
+            "block": "appliedenergistics2:quartz_ore",
+            "meta": "0",
+            "weight": 23
+          },
+          {
+            "block": "appliedenergistics2:charged_quartz_ore",
+            "meta": "0",
+            "weight": 10
           }
         ],
         
