@@ -11,11 +11,11 @@
       ],
 
       "min_y": -10,
-      "max_y": -1,
+      "max_y": 0,
       "use_relative_y": true,
 
       "density": 1000,
-      "vertical_size": 2,
+      "vertical_size": 6,
       "horizontal_size": 8,
 
       "ore":
