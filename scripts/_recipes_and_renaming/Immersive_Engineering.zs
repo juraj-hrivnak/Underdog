@@ -23,11 +23,16 @@ recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
 ]);
 
 // Steel from Pigiron
-recipes.addShapeless("pigiron_smash",<immersiveengineering:metal:8>, 
-    [<immersiveengineering:tool*>.reuse().transformDamage(), <tconstruct:ingots:4>]);
+recipes.addShapeless("pigiron_smash", <immersiveengineering:metal:8>, 
+    [ <tconstruct:ingots:4>, <immersiveengineering:tool:0>.anyDamage().reuse()]);
+
+// Blast Bricks
 
 
+
+/////////////////////////////////////
 //////////// Metal Press ////////////
+
 val molds = {
     plate : <immersiveengineering:mold>,
     gear : <immersiveengineering:mold:1>,
@@ -43,8 +48,9 @@ val molds = {
 metalPress.addRecipe(<simpledifficulty:charcoal_filter>, <minecraft:coal:1>, molds.plate, 400, 2);
 
 
-
+/////////////////////////////////////
 /////////// Blast Furnace ///////////
+
 // Removing default recipes
 blastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 blastFurnace.removeRecipe(<immersiveengineering:storage:8>);
@@ -55,7 +61,8 @@ blastFurnace.addRecipe(<tconstruct:ingots:4>, <ore:oreIron>, 1600, <immersiveeng
 blastFurnace.addRecipe(<tconstruct:ingots:4>, <ore:dustIron>, 1300);
 
 
-/////////// Coke Oven ///////////
+/////////////////////////////////////
+//////////// Coke Oven  /////////////
 
 
 

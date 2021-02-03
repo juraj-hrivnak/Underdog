@@ -33,7 +33,7 @@ recipes.addShapedMirrored(<cuisine:fire_pit>, [
 recipes.removeShaped(<cuisine:material:1>);
 recipes.addShapedMirrored(<cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);
 
-// Chopping Boards :P
+// Chopping Boards :D
 
 recipes.removeShaped(<cuisine:chopping_board>);
 recipes.removeShapeless(<cuisine:chopping_board>);
