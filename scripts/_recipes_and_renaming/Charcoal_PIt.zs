@@ -10,7 +10,6 @@ import mods.charcoalpit;
 
 Ceramics */
 mods.charcoalpit.addKilnRecipe(<ceramics:unfired_clay>, <ceramics:clay_bucket>);
-mods.charcoalpit.addKilnRecipe(<ceramics:unfired_clay:1>, <ceramics:clay_shears>);
 mods.charcoalpit.addKilnRecipe(<ceramics:unfired_clay:4>, <ceramics:unfired_clay:5>);
 mods.charcoalpit.addKilnRecipe(<ceramics:unfired_clay:6>, <ceramics:faucet>);
 mods.charcoalpit.addKilnRecipe(<ceramics:unfired_clay:7>, <ceramics:channel>);

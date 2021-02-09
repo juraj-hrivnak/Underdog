@@ -50,6 +50,8 @@ metalPress.addRecipe(<simpledifficulty:charcoal_filter>, <minecraft:coal:1>, mol
 
 /////////////////////////////////////
 /////////// Blast Furnace ///////////
+<immersiveengineering:stone_device:1>.displayName = "";
+<immersiveengineering:stone_device:2>.displayName = "Blast Furnace";
 
 // Removing default recipes
 blastFurnace.removeRecipe(<immersiveengineering:metal:8>);
@@ -63,6 +65,8 @@ blastFurnace.addRecipe(<tconstruct:ingots:4>, <ore:dustIron>, 1300);
 
 /////////////////////////////////////
 //////////// Coke Oven  /////////////
+<immersiveengineering:stone_device>.displayName = "";
+<immersivetech:stone_multiblock>.displayName = "Coke Oven";
 
 
 
