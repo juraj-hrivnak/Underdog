@@ -1,0 +1,40 @@
+{
+  "Marble_Zinc-Sphalerite": {
+    "type": "cone",
+    "rarity": 100,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:marble",
+        "meta": 0
+      },
+      {
+        "block": "divergentunderground:quark_hard_marble_rock"
+      }
+    ],
+    "min_y": -33,
+    "max_y": -28,
+    "use_relative_y": true,
+    "density": 500,
+    "vertical_size": 4,
+    "horizontal_size": 6,
+    "ore": [
+      {
+        "block": "osv:_sphalerite_quark_marble",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 40,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "10",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Jasper_Redstone-Cinnabar": {
+    "type": "cluster",
+    "rarity": 150,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:jasper",
+        "meta": 0
+      }
+    ],
+    "min_y": -65,
+    "max_y": -57,
+    "use_relative_y": true,
+    "density": 1000,
+    "vertical_size": 5,
+    "horizontal_size": 16,
+    "ore": [
+      {
+        "block": "osv:_cinnabar_quark_jasper",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample_vanilla",
+          "meta": "1",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

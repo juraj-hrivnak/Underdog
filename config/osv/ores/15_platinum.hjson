@@ -1,0 +1,42 @@
+ # This preset was generated automatically. To enable
+ # custom generation settings, you must manually define
+ # `gen`. See TUTORIAL.hjson.
+{
+  name: _platinum
+  mod: geolosys
+  block: {
+    location: geolosys:ore:8
+    level: 2
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 30
+    hardness: 7.5
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {
+    shade: true
+    original: geolosys:blocks/platinum
+  }
+  recipe: {
+    result: minecraft:air
+    xp: 0
+    quantity: 0
+  }
+  loot: [
+    {
+      item: geolosys:cluster:8
+      count: [ 1, 1 ]
+      xp: [ 0, 0 ]
+      chance: 0.5266666412353516
+    }
+    {
+      item: geolosys:cluster:12
+      count: [ 1, 1 ]
+      xp: [ 0, 0 ]
+      chance: 0.47333332896232605
+    }
+  ]
+}

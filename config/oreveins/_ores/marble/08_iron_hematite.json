@@ -1,0 +1,39 @@
+{
+  "Marble_Iron-Hematite": {
+    "type": "curve",
+    "rarity": 125,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:marble",
+        "meta": 0
+      },
+      {
+        "block": "divergentunderground:quark_hard_marble_rock"
+      }
+    ],
+    "min_y": -33,
+    "max_y": -18,
+    "use_relative_y": true,
+    "density": 1000,
+    "vertical_size": 4,
+    "horizontal_size": 4,
+    "ore": [
+      {
+        "block": "osv:_hematite_quark_marble",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "0",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

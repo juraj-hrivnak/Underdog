@@ -1,0 +1,42 @@
+ # This preset was generated automatically. To enable
+ # custom generation settings, you must manually define
+ # `gen`. See TUTORIAL.hjson.
+{
+  name: _limonite
+  mod: geolosys
+  block: {
+    location: geolosys:ore:1
+    level: 2
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 30
+    hardness: 7.5
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {
+    shade: true
+    original: geolosys:blocks/limonite
+  }
+  recipe: {
+    result: minecraft:air
+    xp: 0
+    quantity: 0
+  }
+  loot: [
+    {
+      item: geolosys:cluster
+      count: [ 1, 1 ]
+      xp: [ 0, 0 ]
+      chance: 0.8033333420753479
+    }
+    {
+      item: geolosys:cluster:7
+      count: [ 1, 1 ]
+      xp: [ 0, 0 ]
+      chance: 0.1966666728258133
+    }
+  ]
+}

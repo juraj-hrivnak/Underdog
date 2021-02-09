@@ -1,0 +1,93 @@
+{
+  "Granite_Lead-Galena": {
+    "type": "curve",
+    "rarity": 100,
+    "count": 1,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 1
+      },
+      {
+        "block": "divergentunderground:hard_granite"
+      }
+    ],
+    "min_y": -24,
+    "max_y": -18,
+    "use_relative_y": true,
+    "density": 100,
+    "radius": 10,
+    "angle": 76,
+    "vertical_size": 5,
+    "horizontal_size": 5,
+    "ore": [
+      {
+        "block": "osv:_galena_1",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "6",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    },
+    "biomes": [
+      "mutated_plains",
+      "plains",
+      "ice_flats",
+      "mutated_ice_flats"
+    ]
+  },
+  "Lead-Galena_dense": {
+    "type": "curve",
+    "rarity": 87,
+    "count": 1,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 1
+      },
+      {
+        "block": "divergentunderground:hard_granite"
+      }
+    ],
+    "min_y": -24,
+    "max_y": -18,
+    "use_relative_y": true,
+    "density": 800,
+    "radius": 10,
+    "angle": 76,
+    "vertical_size": 2,
+    "horizontal_size": 3,
+    "ore": [
+      {
+        "block": "geolosys:ore",
+        "meta": "6",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 50,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "6",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    },
+    "biomes": [
+      "mutated_plains",
+      "plains",
+      "ice_flats",
+      "mutated_ice_flats"
+    ]
+  }
+}

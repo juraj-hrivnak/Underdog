@@ -1,0 +1,47 @@
+{
+  "Marble_Uranium-Atunite": {
+    "type": "cone",
+    "rarity": 140,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:marble",
+        "meta": 0
+      },
+      {
+        "block": "divergentunderground:quark_hard_marble_rock"
+      }
+    ],
+    "min_y": -63,
+    "max_y": -38,
+    "use_relative_y": true,
+    "density": 300,
+    "vertical_size": 40,
+    "horizontal_size": 10,
+    "ore": [
+      {
+        "block": "osv:_autunite_quark_marble",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "9",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    },
+    "biomes": [
+      "ice_mountains",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mutated_extreme_hills_with_trees",
+      "extreme_hills",
+      "smaller_extreme_hills"
+    ]
+  }
+}

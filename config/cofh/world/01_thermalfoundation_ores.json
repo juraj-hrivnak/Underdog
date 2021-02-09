@@ -2,7 +2,7 @@
 	"dependencies": "thermalfoundation",
 	"populate": {
 		"copper": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -28,7 +28,7 @@
 			}
 		},
 		"tin": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -54,7 +54,7 @@
 			}
 		},
 		"silver": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -90,7 +90,7 @@
 			}
 		},
 		"lead": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -126,7 +126,7 @@
 			}
 		},
 		"nickel": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -250,7 +250,7 @@
 			}
 		},
 		"copper_ocean": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -284,7 +284,7 @@
 			}
 		},
 		"copper_high": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": {

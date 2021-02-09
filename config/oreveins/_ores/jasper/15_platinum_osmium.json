@@ -1,0 +1,44 @@
+{
+  "Jasper_Platinum-Osmium": {
+    "type": "curve",
+    "rarity": 150,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:jasper",
+        "meta": 0
+      }
+    ],
+    "min_y": -33,
+    "max_y": -28,
+    "use_relative_y": true,
+    "density": 100,
+    "vertical_size": 4,
+    "horizontal_size": 20,
+    "ore": [
+      {
+        "block": "osv:_platinum_quark_jasper",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "8",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    },
+    "biomes": [
+      "ice_mountains",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mutated_extreme_hills_with_trees",
+      "extreme_hills",
+      "smaller_extreme_hills"
+    ]
+  }
+}

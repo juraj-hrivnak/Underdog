@@ -1,0 +1,53 @@
+{
+  "Limestone_Aluminum-Bauxite": {
+    "type": "curve",
+    "rarity": 100,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:limestone",
+        "meta": 0
+      },
+      {
+        "block": "divergentunderground:quark_hard_limestone_rock"
+      }
+    ],
+    "min_y": -13,
+    "max_y": 0,
+    "use_relative_y": true,
+    "density": 400,
+    "radius": 5,
+    "angle": 60,
+    "vertical_size": 4,
+    "horizontal_size": 10,
+    "ore": [
+      {
+        "block": "osv:_bauxite_quark_limestone",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "7",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    },
+    "biomes": [
+      "jungle",
+      "jungle_hills",
+      "jungle_edge",
+      "mutated_jungle",
+      "mutated_jungle_edge",
+      "beaches",
+      "savanna",
+      "savanna_rock",
+      "mutated_savanna",
+      "mutated_savanna_rock"
+    ]
+  }
+}

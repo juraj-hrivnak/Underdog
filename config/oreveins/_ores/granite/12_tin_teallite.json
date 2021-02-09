@@ -1,0 +1,42 @@
+{
+  "Granite_Tin-Teallite": {
+    "type": "cone",
+    "rarity": 140,
+    "count": 1,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 1
+      },
+      {
+        "block": "divergentunderground:hard_granite"
+      }
+    ],
+    "min_y": -33,
+    "max_y": -28,
+    "use_relative_y": true,
+    "density": 300,
+    "vertical_size": 4,
+    "horizontal_size": 20,
+    "ore": [
+      {
+        "block": "osv:_teallite_1",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "5",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    },
+    "biomes": [
+      "river"
+    ]
+  }
+}

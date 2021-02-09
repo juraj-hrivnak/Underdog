@@ -1,0 +1,47 @@
+{
+  "Jasper_Assorted-Quartz": {
+    "type": "cluster",
+    "rarity": 120,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:jasper",
+        "meta": 0
+      }
+    ],
+    "min_y": -33,
+    "max_y": -28,
+    "use_relative_y": true,
+    "density": 1000,
+    "vertical_size": 3,
+    "horizontal_size": 10,
+    "ore": [
+      {
+        "block": "osv:_quartz_quark_jasper",
+        "meta": "0",
+        "weight": 67
+      },
+      {
+        "block": "appliedenergistics2:quartz_ore_quark_jasper",
+        "meta": "0",
+        "weight": 23
+      },
+      {
+        "block": "appliedenergistics2:charged_quartz_ore_quark_jasper",
+        "meta": "0",
+        "weight": 10
+      }
+    ],
+    "indicator": {
+      "rarity": 40,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample_vanilla",
+          "meta": "4",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

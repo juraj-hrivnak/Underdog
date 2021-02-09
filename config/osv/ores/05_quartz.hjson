@@ -1,0 +1,36 @@
+ # This preset was generated automatically. To enable
+ # custom generation settings, you must manually define
+ # `gen`. See TUTORIAL.hjson.
+{
+  name: _quartz
+  mod: geolosys
+  block: {
+    location: geolosys:ore_vanilla:4
+    level: 1
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 30
+    hardness: 7.5
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {
+    shade: true
+    original: geolosys:blocks/quartz
+  }
+  recipe: {
+    result: minecraft:air
+    xp: 0
+    quantity: 0
+  }
+  loot: [
+    {
+      item: minecraft:dye:4
+      count: [ 4, 8 ]
+      xp: [ 2, 5 ]
+      chance: 1
+    }
+  ]
+}

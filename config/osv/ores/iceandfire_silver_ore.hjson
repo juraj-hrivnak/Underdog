@@ -1,0 +1,31 @@
+name: iceandfire_silver_ore
+mod: iceandfire
+block: {
+  location: iceandfire:silver_ore
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: iceandfire:silver_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: iceandfire:blocks/silver_ore
+}
+recipe: {
+  result: iceandfire:silver_ingot
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 4, 32 ]
+    size: 9
+    count: 2
+  }
+]
