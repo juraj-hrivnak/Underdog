@@ -27,7 +27,7 @@
   }
   loot: [
     {
-      item: minecraft:dye:4
+      item: minecraft:quartz
       count: [ 4, 8 ]
       xp: [ 2, 5 ]
       chance: 1

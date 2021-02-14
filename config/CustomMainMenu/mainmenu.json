@@ -11,7 +11,7 @@
             "alignment" : "center"
         }
     },
-    
+
     "buttons":
     {
 		"singleplayer": {
@@ -74,7 +74,7 @@
                 "gui": "options"
             }
         },
-        
+
         "languages": {
             "text": "Languages",
             "posX": 150,
@@ -120,7 +120,7 @@
             }
         }
 	},
-    
+
     "labels":
     {
         "mojang":
@@ -132,15 +132,15 @@
             "alignment" : "bottom_left"
         }
 	},
-    
-    "other" : { 
-	
-		"background" : 
+
+    "other" : {
+
+		"background" :
         {
             "image" : "",
             "slideshow" :
             {
-                "images" : 
+                "images" :
 				[
                 "modpack:textures/gui/slideshow1.png"
 				],
@@ -149,6 +149,6 @@
 				"shuffle" : true
             }
 		}
-		
+
 	}
 }
