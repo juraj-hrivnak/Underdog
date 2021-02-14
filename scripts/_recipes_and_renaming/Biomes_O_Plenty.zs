@@ -6,7 +6,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 // Poison bucket recipe fix (bucket could be duped)
 	recipes.remove(<forge:bucketfilled>.withTag({FluidName: "poison", Amount: 1000}));
-	recipes.addShapeless("biomesoplenty_forge_bucketfilled_poison_dupefix", <forge:bucketfilled>.withTag({FluidName: "poison", Amount: 1000}), 
+	recipes.addShapeless("biomesoplenty_forge_bucketfilled_poison_dupefix", <forge:bucketfilled>.withTag({FluidName: "poison", Amount: 1000}),
 	[<minecraft:water_bucket>.noReturn(), <minecraft:spider_eye:*>, <minecraft:poisonous_potato:*>, <minecraft:sugar:*>]);
 
 // Terrestrial Artifact
@@ -16,16 +16,16 @@ import crafttweaker.oredict.IOreDictEntry;
 	recipes.addShapeless(<biomesoplenty:honey_block> * 3, [<biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>, <biomesoplenty:hive:3>]);
 	recipes.addShapeless(<biomesoplenty:hive:3>, [<biomesoplenty:hive:1>, <biomesoplenty:filled_honeycomb>]);
 	recipes.addShapeless(<biomesoplenty:hive:1>, [<biomesoplenty:hive:2>, <biomesoplenty:filled_honeycomb>]);
-	
+
 // Honey Block -> Honey Drop
 	// mods.forestry.Centrifuge.addRecipe([(<forestry:honey_drop> * 5) % 80, (<thermalfoundation:material:99> % 25), (<thermalfoundation:material:100> % 25)], <biomesoplenty:honey_block>, 100);
 	// mods.thermalexpansion.Centrifuge.addRecipe([(<forestry:honey_drop>) * 5 % 80, <thermalfoundation:material:99> % 25, <thermalfoundation:material:100> % 25], <biomesoplenty:honey_block>, null, 2000);
 
 // Ender Amethyst
-	recipes.addShaped("Ender Amethyst", 
-	<biomesoplenty:gem>, 
+	recipes.addShaped("Ender Amethyst",
+	<biomesoplenty:gem>,
 	[[<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>],
-	[<ore:ingotElvenElementium>, <biomesoplenty:terrestrial_artifact>, <ore:ingotElvenElementium>], 
+	[<ore:ingotElvenElementium>, <biomesoplenty:terrestrial_artifact>, <ore:ingotElvenElementium>],
 	[<ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>]]);
 
 // BoP Grass, Dirts.
@@ -55,8 +55,8 @@ import crafttweaker.oredict.IOreDictEntry;
 	recipes.removeShapeless(<biomesoplenty:planks_0:2> * 4, [<biomesoplenty:log_0:6>]);
 	recipes.removeShapeless(<biomesoplenty:planks_0:3> * 4, [<biomesoplenty:log_0:7>]);
 	recipes.removeShapeless(<biomesoplenty:planks_0:4> * 4, [<biomesoplenty:log_1:4>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:5> * 4, [<biomesoplenty:log_1:5>]);	
-	recipes.removeShapeless(<biomesoplenty:planks_0:6> * 4, [<biomesoplenty:log_1:6>]);	
+	recipes.removeShapeless(<biomesoplenty:planks_0:5> * 4, [<biomesoplenty:log_1:5>]);
+	recipes.removeShapeless(<biomesoplenty:planks_0:6> * 4, [<biomesoplenty:log_1:6>]);
 	recipes.removeShapeless(<biomesoplenty:planks_0:8> * 4, [<biomesoplenty:log_2:4>]);
 	recipes.removeShapeless(<biomesoplenty:planks_0:9> * 4, [<biomesoplenty:log_2:5>]);
 	recipes.removeShapeless(<biomesoplenty:planks_0:10> * 4, [<biomesoplenty:log_2:6>]);
@@ -66,14 +66,14 @@ import crafttweaker.oredict.IOreDictEntry;
 	recipes.removeShapeless(<biomesoplenty:planks_0:14> * 4, [<biomesoplenty:log_3:6>]);
 	recipes.removeShapeless(<biomesoplenty:planks_0:15> * 4, [<biomesoplenty:log_3:7>]);
 	recipes.removeShapeless(<biomesoplenty:planks_0:7> * 4, [<biomesoplenty:log_1:7>]);
-    
+
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=sacred_oak]"}) * 8, [<biomesoplenty:log_0:4>]);
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=cherry]"}) * 8, [<biomesoplenty:log_0:5>]);
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=umbran]"}) * 8, [<biomesoplenty:log_0:6>]);
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=fir]"}) * 8, [<biomesoplenty:log_0:7>]);
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=ethereal]"}) * 8, [<biomesoplenty:log_1:4>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=magic]"}) * 8, [<biomesoplenty:log_1:5>]);	
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=mangrove]"}) * 8, [<biomesoplenty:log_1:6>]);	
+	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=magic]"}) * 8, [<biomesoplenty:log_1:5>]);
+	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=mangrove]"}) * 8, [<biomesoplenty:log_1:6>]);
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=palm]"}) * 8, [<biomesoplenty:log_1:7>]);
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=redwood]"}) * 8, [<biomesoplenty:log_2:4>]);
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=willow]"}) * 8, [<biomesoplenty:log_2:5>]);
@@ -83,7 +83,7 @@ import crafttweaker.oredict.IOreDictEntry;
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=mahogany]"}) * 8, [<biomesoplenty:log_3:5>]);
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=ebony]"}) * 8, [<biomesoplenty:log_3:6>]);
 	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=eucalyptus]"}) * 8, [<biomesoplenty:log_3:7>]);
-	
+
 // Amber Block
 	rh(<biomesoplenty:gem_block:7>);
 	rh(<biomesoplenty:gem:7>);

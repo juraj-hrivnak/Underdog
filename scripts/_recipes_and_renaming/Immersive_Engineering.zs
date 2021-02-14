@@ -23,7 +23,7 @@ recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
 ]);
 
 // Steel from Pigiron
-recipes.addShapeless("pigiron_smash", <immersiveengineering:metal:8>, 
+recipes.addShapeless("pigiron_smash", <immersiveengineering:metal:8>,
     [ <tconstruct:ingots:4>, <immersiveengineering:tool:0>.anyDamage().reuse()]);
 
 // Blast Bricks
@@ -67,8 +67,3 @@ blastFurnace.addRecipe(<tconstruct:ingots:4>, <ore:dustIron>, 1300);
 //////////// Coke Oven  /////////////
 <immersiveengineering:stone_device>.displayName = "";
 <immersivetech:stone_multiblock>.displayName = "Coke Oven";
-
-
-
-
-
