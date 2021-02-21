@@ -24,9 +24,22 @@ recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
 
 // Steel from Pigiron
 recipes.addShapeless("pigiron_smash", <immersiveengineering:metal:8>,
-    [ <tconstruct:ingots:4>, <immersiveengineering:tool:0>.anyDamage().reuse()]);
+    [ <tconstruct:ingots:4>, <immersiveengineering:tool>.anyDamage().reuse()]);
 
 // Blast Bricks
+recipes.remove(<immersiveengineering:stone_decoration:1>);
+recipes.addShaped(<immersiveengineering:stone_decoration:1>, [
+    [<divergentunderground:rock_granite>, <divergentunderground:rock_granite>],
+    [<divergentunderground:rock_quark_limestone>, <divergentunderground:rock_granite>]
+]);
+
+// Improved Blast Bricks
+recipes.remove(<immersiveengineering:stone_decoration:2>);
+recipes.addShaped(<immersiveengineering:stone_decoration:2>, [
+    [<immersiveengineering:metal:39>],
+    [<immersiveengineering:stone_decoration:1>, <immersiveengineering:metal:39>]
+]);
+
 
 
 
