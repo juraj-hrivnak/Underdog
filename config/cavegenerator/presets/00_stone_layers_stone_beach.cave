@@ -23,7 +23,7 @@
       }
     }
     {
-      state: projectred-exploration:stone:3
+      state: quark:marble
       maxHeight: 164
       noise2D: {
         scale: 0.9

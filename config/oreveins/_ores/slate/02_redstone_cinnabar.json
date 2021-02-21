@@ -1,7 +1,7 @@
 {
   "Slate_Redstone-Cinnabar": {
     "type": "cluster",
-    "rarity": 150,
+    "rarity": 250,
     "count": 1,
     "stone": [
       {
@@ -23,6 +23,7 @@
       }
     ],
     "indicator": {
+      "rarity": 48,
       "blocks": [
         {
           "block": "geolosys:ore_sample_vanilla",

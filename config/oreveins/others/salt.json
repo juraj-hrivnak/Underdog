@@ -9,14 +9,23 @@
       },
       {
         "block": "minecraft:dirt"
+      },
+      {
+        "block": "minecraft:sand"
+      },
+      {
+        "block": "minecraft:clay"
+      },
+      {
+        "block": "minecraft:gravel"
       }
     ],
     "min_y": -10,
     "max_y": -1,
     "use_relative_y": true,
-    "density": 1000,
-    "vertical_size": 8,
-    "horizontal_size": 8,
+    "density": 800,
+    "vertical_size": 30,
+    "horizontal_size": 30,
     "ore": [
       {
         "block": "mekanism:saltblock",

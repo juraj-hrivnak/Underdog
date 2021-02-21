@@ -1,7 +1,7 @@
 {
   "Slate_Uranium-Atunite": {
     "type": "cone",
-    "rarity": 140,
+    "rarity": 200,
     "count": 1,
     "stone": [
       {
@@ -23,6 +23,7 @@
       }
     ],
     "indicator": {
+      "rarity": 48,
       "blocks": [
         {
           "block": "geolosys:ore_sample",

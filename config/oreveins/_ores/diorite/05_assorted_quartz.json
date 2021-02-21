@@ -1,7 +1,7 @@
 {
   "Diorite_Assorted-Quartz": {
     "type": "cluster",
-    "rarity": 120,
+    "rarity": 180,
     "count": 1,
     "stone": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "indicator": {
-      "rarity": 40,
+      "rarity": 48,
       "blocks": [
         {
           "block": "geolosys:ore_sample_vanilla",

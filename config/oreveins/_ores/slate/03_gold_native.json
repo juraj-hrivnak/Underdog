@@ -1,7 +1,7 @@
 {
   "Slate_Gold-Native": {
     "type": "curve",
-    "rarity": 120,
+    "rarity": 180,
     "count": 1,
     "stone": [
       {
@@ -23,6 +23,7 @@
       }
     ],
     "indicator": {
+      "rarity": 48,
       "blocks": [
         {
           "block": "geolosys:ore_sample_vanilla",

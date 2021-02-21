@@ -6,7 +6,7 @@
 # included StoneLayer objects. Make sure to list these in     #
 # from bottom to top.                                         #
 # ----------------------------------------------------------- #
-# This file is for base rocks 
+# This file is for base rocks
 # the most common igneous, intrusive rock in the continents' crest is Granite; red for OW and black for Beneath (bedrock)
 #	Dacite is most common in old Rome, Romania, apart from a terrain of hills and plains, they have dense forests. We're going off the terrain there (hills, coniferous)
 #	Andesite is one of several igneous stones (bedrock pockets)
@@ -16,7 +16,7 @@
 #	Komatiite is rare a volcanic nowadays more common to the tropics and warm places (rare, magical, sparse)
 # the most common metamorphic stone, mostly derived from clay and mud, is Gneiss (middle and swamps)
 #	Schist forms part of Mount Everest's peak (top layer)
-# 	Eclogite is formed at high pressures and only comes up in xenoliths, which means enveloped in larger rocks. It's more common at somewhat lower temperatures (middle height pockets, beneath) 
+# 	Eclogite is formed at high pressures and only comes up in xenoliths, which means enveloped in larger rocks. It's more common at somewhat lower temperatures (middle height pockets, beneath)
 #	Marble occurs within dolomite and limestone (sedimentary pockets)
 #	Quartzite derives from sandstone (desert)
 #	Migmatite (gneiss and granite pockets)
@@ -91,7 +91,6 @@
       }
     }
     {
-      #limestone
       state: quark:marble
       maxHeight: 100
       noise2D: {

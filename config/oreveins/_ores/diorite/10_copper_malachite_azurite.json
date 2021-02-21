@@ -1,7 +1,7 @@
 {
   "Diorite_Copper--Malachite-Azurite": {
     "type": "cluster",
-    "rarity": 100,
+    "rarity": 160,
     "count": 2,
     "clusters": 5,
     "stone": [
@@ -32,6 +32,7 @@
       }
     ],
     "indicator": {
+      "rarity": 48,
       "blocks": [
         {
           "block": "geolosys:ore_sample",

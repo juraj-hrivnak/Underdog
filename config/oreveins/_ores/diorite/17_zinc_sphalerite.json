@@ -1,7 +1,7 @@
 {
   "Diorite_Zinc-Sphalerite": {
     "type": "cone",
-    "rarity": 100,
+    "rarity": 160,
     "count": 1,
     "stone": [
       {
@@ -26,7 +26,7 @@
       }
     ],
     "indicator": {
-      "rarity": 40,
+      "rarity": 48,
       "blocks": [
         {
           "block": "geolosys:ore_sample",
