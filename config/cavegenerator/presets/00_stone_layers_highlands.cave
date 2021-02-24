@@ -8,7 +8,7 @@
   stoneLayers: [
     {
       #red granite
-      state: minecraft:stone
+      state: minecraft:stone:1
       maxHeight: 16
       noise2D: {
         scale: 0.9

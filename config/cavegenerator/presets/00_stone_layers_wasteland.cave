@@ -15,26 +15,6 @@
   stoneLayers: [
     {
       state: minecraft:stone:1
-      maxHeight: 26
-      noise2D: {
-        scale: 0.9
-        frequency: 0.015
-        minVal: 0
-        maxVal: 3
-      }
-    }
-    {
-      state: minecraft:stone:1
-      maxHeight: 43
-      noise2D: {
-        scale: 0.9
-        frequency: 0.015
-        minVal: -3
-        maxVal: 3
-      }
-    }
-    {
-      state: minecraft:stone:1
       maxHeight: 70
       noise2D: {
         scale: 0.9

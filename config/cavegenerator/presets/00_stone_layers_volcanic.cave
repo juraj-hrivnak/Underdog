@@ -1,13 +1,10 @@
 {
   biomes: {
     names: [
-      minecraft:mushroom_island
-      minecraft:mushroom_island_shore
       biomesoplenty:land_of_lakes
       biomesoplenty:shield
       biomesoplenty:tropical_island
       biomesoplenty:volcanic_island
-      biomesoplenty:flower_island
     ]
   }
   stoneLayers: [
@@ -32,8 +29,8 @@
       }
     }
     {
-      state: minecraft:stone:5
-      maxHeight: 64
+      state: minecraft:stone:1
+      maxHeight: 90
       noise2D: {
         scale: 0.9
         frequency: 0.015
@@ -42,8 +39,8 @@
       }
     }
     {
-      state: minecraft:stone:1
-      maxHeight: 84
+      state: projectred-exploration:stone:3
+      maxHeight: 120
       noise2D: {
         scale: 0.9
         frequency: 0.015
