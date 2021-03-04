@@ -1,12 +1,12 @@
 {
-	"block_pools": 
+	"block_pools":
 	[
 		{
 			"name": "clickOnChopped5",
-			"type": 
+			"type":
 				{
 					"type": "block",
-					"name": "contenttweaker:chopped_ethereal_wood" 
+					"name": "contenttweaker:chopped_ethereal_wood"
 				},
 			"clicktype": "rightclick",
 	  		"blockRightClick": true,
@@ -16,7 +16,7 @@
 					"name": "contenttweaker:firewood_ethereal",
 					"amount": 6
 				}
-			],   
+			],
 			"properties":
 			[
 				{

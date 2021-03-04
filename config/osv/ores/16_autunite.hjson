@@ -1,6 +1,4 @@
- # This preset was generated automatically. To enable
- # custom generation settings, you must manually define
- # `gen`. See TUTORIAL.hjson.
+
 {
   name: _autunite
   mod: geolosys
@@ -30,13 +28,13 @@
       item: geolosys:cluster:9
       count: [ 1, 1 ]
       xp: [ 0, 0 ]
-      chance: 0.4833333194255829
+      chance: 4
     }
     {
       item: geolosys:cluster:11
       count: [ 1, 1 ]
       xp: [ 0, 0 ]
-      chance: 0.5166666507720947
+      chance: 5
     }
   ]
 }

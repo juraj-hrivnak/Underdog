@@ -1,6 +1,4 @@
- # This preset was generated automatically. To enable
- # custom generation settings, you must manually define
- # `gen`. See TUTORIAL.hjson.
+
 {
   name: _galena
   mod: geolosys
@@ -30,13 +28,13 @@
       item: geolosys:cluster:4
       count: [ 1, 1 ]
       xp: [ 0, 0 ]
-      chance: 0.47999998927116394
+      chance: 1
     }
     {
       item: geolosys:cluster:5
       count: [ 1, 1 ]
       xp: [ 0, 0 ]
-      chance: 0.7900000214576721
+      chance: 3
     }
   ]
 }

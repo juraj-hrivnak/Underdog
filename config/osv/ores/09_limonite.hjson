@@ -1,6 +1,4 @@
- # This preset was generated automatically. To enable
- # custom generation settings, you must manually define
- # `gen`. See TUTORIAL.hjson.
+
 {
   name: _limonite
   mod: geolosys
@@ -30,13 +28,13 @@
       item: geolosys:cluster
       count: [ 1, 1 ]
       xp: [ 0, 0 ]
-      chance: 0.8033333420753479
+      chance: 4
     }
     {
       item: geolosys:cluster:7
       count: [ 1, 1 ]
       xp: [ 0, 0 ]
-      chance: 0.1966666728258133
+      chance: 1
     }
   ]
 }

@@ -209,6 +209,16 @@
       "thirstyChance": 0.0
     }
   ],
+  "minecraft:apple": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 2,
+      "saturation": 1.0,
+      "thirstyChance": 0.0
+    }
+  ],
   "harvestcraft:mangojuiceitem": [
     {
       "identity": {

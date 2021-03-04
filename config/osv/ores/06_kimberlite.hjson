@@ -1,6 +1,4 @@
- # This preset was generated automatically. To enable
- # custom generation settings, you must manually define
- # `gen`. See TUTORIAL.hjson.
+
 {
   name: _kimberlite
   mod: geolosys
@@ -27,8 +25,8 @@
   }
   loot: [
     {
-      item: minecraft:dye:4
-      count: [ 4, 8 ]
+      item: divergentunderground:gem_raw_diamond
+      count: [ 1, 2 ]
       xp: [ 2, 5 ]
       chance: 1
     }

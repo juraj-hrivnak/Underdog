@@ -1,6 +1,4 @@
- # This preset was generated automatically. To enable
- # custom generation settings, you must manually define
- # `gen`. See TUTORIAL.hjson.
+
 {
   name: _cassiterite
   mod: geolosys

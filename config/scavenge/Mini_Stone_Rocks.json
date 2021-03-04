@@ -1,23 +1,23 @@
 {
-	"block_pools": 
+	"block_pools":
 	[
 		{
 			"name": "Mini_Stone_Rock_Pickup",
-			"type": 
+			"type":
 				{
-					"type": "ore",
-					"name": "miniStoneRocks" 
+					"type": "block",
+					"name": "crocodilite:stone"
 				},
 			"clicktype": "rightclick",
 			"blockRightClick": true,
-			"properties": 
+			"properties":
 			[
 				{
 					"type": "consume_block"
 				},
 				{
 					"type": "swing_hand",
-					"disableJEI": true 
+					"disableJEI": true
 				},
 				{
 					"type": "use_command",

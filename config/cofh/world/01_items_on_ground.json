@@ -1,35 +1,33 @@
 {
 	"populate": {
 		"mini_stone_rock": {
-
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
-				"block": [ 
-                    { 
-                        "name":"contenttweaker:rock",
-                        "metadata":0
+				"block": [
+					{
+						"name": "crocodilite:stone",
+						"metadata": 0
 					}
 				],
-				"surface":[ 
+				"surface": [
 					"minecraft:sand",
 					"minecraft:grass",
 					"miencraft:dirt",
 					"miencraft:podzol",
 					"biomesoplenty:grass",
 					"biomesoplenty:dirt"
-                ],
-				"cluster-size":1,
-                "see-sky":false,
-                "check-stay":true
+				],
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": true
 			},
-            "cluster-count":12.5,
-            "min-height":50,
-			"max-height":256,
-			
-			"low-terrain":true,
-            "retrogen":true,
-            "biome": {
+			"cluster-count": 50,
+			"min-height": 50,
+			"max-height": 256,
+			"low-terrain": true,
+			"retrogen": true,
+			"biome": {
 				"restriction": "blacklist",
 				"value": [
 					{
@@ -40,158 +38,13 @@
 					}
 				]
 			},
-            "dimension":{ 
-                "restriction":"blacklist",
-                "value":[ 
-                    -1,
-                    1
-                ]
-            }
-		},
-		"mini_stone_rock90": {
-
-			"distribution": "surface",
-			"generator": {
-				"type": "decoration",
-				"block": [ 
-                    { 
-                        "name":"contenttweaker:rock1",
-                        "metadata":0
-					}
-				],
-				"surface":[ 
-					"minecraft:sand",
-					"minecraft:grass",
-					"miencraft:dirt",
-					"miencraft:podzol",
-					"biomesoplenty:grass",
-					"biomesoplenty:dirt"
-                ],
-				"cluster-size":1,
-                "see-sky":false,
-                "check-stay":true
-			},
-            "cluster-count":12.5,
-            "min-height":50,
-			"max-height":256,
-			
-			"low-terrain":true,
-            "retrogen":true,
-            "biome": {
+			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					{
-						"type": "dictionary",
-						"entry": [
-							"SNOWY"
-						]
-					}
+					-1,
+					1
 				]
-			},
-            "dimension":{ 
-                "restriction":"blacklist",
-                "value":[ 
-                    -1,
-                    1
-                ]
-            }
-		},
-		"mini_stone_rock180": {
-
-			"distribution": "surface",
-			"generator": {
-				"type": "decoration",
-				"block": [ 
-                    { 
-                        "name":"contenttweaker:rock2",
-                        "metadata":0
-					}
-				],
-				"surface":[ 
-					"minecraft:sand",
-					"minecraft:grass",
-					"miencraft:dirt",
-					"miencraft:podzol",
-					"biomesoplenty:grass",
-					"biomesoplenty:dirt"
-                ],
-				"cluster-size":1,
-                "see-sky":false,
-                "check-stay":true
-			},
-            "cluster-count":12.5,
-            "min-height":50,
-			"max-height":256,
-			
-			"low-terrain":true,
-            "retrogen":true,
-            "biome": {
-				"restriction": "blacklist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": [
-							"SNOWY"
-						]
-					}
-				]
-			},
-            "dimension":{ 
-                "restriction":"blacklist",
-                "value":[ 
-                    -1,
-                    1
-                ]
-            }
-		},
-		"mini_stone_rock270": {
-
-			"distribution": "surface",
-			"generator": {
-				"type": "decoration",
-				"block": [ 
-                    { 
-                        "name":"contenttweaker:rock3",
-                        "metadata":0
-					}
-				],
-				"surface":[ 
-					"minecraft:sand",
-					"minecraft:grass",
-					"miencraft:dirt",
-					"miencraft:podzol",
-					"biomesoplenty:grass",
-					"biomesoplenty:dirt"
-                ],
-				"cluster-size":1,
-                "see-sky":false,
-                "check-stay":true
-			},
-            "cluster-count":12.5,
-            "min-height":50,
-			"max-height":256,
-			
-			"low-terrain":true,
-            "retrogen":true,
-            "biome": {
-				"restriction": "blacklist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": [
-							"SNOWY"
-						]
-					}
-				]
-			},
-            "dimension":{ 
-                "restriction":"blacklist",
-                "value":[ 
-                    -1,
-                    1
-                ]
-            }
+			}
 		}
-		
 	}
 }
