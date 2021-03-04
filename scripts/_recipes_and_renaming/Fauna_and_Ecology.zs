@@ -1,6 +1,11 @@
 #modloaded faunaandecology
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
+import crafttweaker.oredict.IOreDictEntry;
+
+// Resin - slime ball oredict
+<ore:slimeball>.add(<faunaandecology:resin>);
+<ore:slimeballMagma>.add(<faunaandecology:resin>);
 
 recipes.addShaped(<faunaandecology:knife_wood>, [
     [ null, <ore:plankWood>],

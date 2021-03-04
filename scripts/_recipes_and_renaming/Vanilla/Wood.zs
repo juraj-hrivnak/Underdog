@@ -1,7 +1,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-
 recipes.removeShaped(<minecraft:planks> * 4);
 recipes.removeShaped(<minecraft:planks:1> * 4);
 recipes.removeShaped(<minecraft:planks:2> * 4);

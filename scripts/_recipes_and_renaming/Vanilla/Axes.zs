@@ -5,7 +5,6 @@ import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemTransformer;
 
-
 val axes = <ore:axes>;
 
 <ore:axes>.add(<minecraft:iron_axe:*>);
