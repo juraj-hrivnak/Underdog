@@ -19,7 +19,7 @@ assignees: juraj-hrivnak
 - [x] Linux
 
 ### Latest.log
-<!-- Use https://pastebin.com/ or If you are using MultiMC use it's build in upload log feature -->
+<!-- Use https://pastebin.com/ or If you are using MultiMC use it's build-in upload log feature -->
 
 **Describe the bug**
 <!-- A clear and concise description of what the bug is. -->
