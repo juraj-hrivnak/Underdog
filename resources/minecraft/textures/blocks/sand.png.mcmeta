@@ -8,7 +8,8 @@
         "extra": {
             "connect_to": [
                 { "block": "water" },
-                { "block": "flowing_water" }
+                { "block": "flowing_water" },
+	{ "block": "ice"}
             ]
         }
     }

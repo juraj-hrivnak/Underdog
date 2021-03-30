@@ -64,3 +64,65 @@ tile.contenttweaker.sassolite_sample.name=Sassolite Sample
 tile.contenttweaker.borax_sample.name=Borax Sample
 tile.contenttweaker.lepidolite_sample.name=Lepidolite Sample
 tile.contenttweaker.magnesite_sample.name=Magnesite Sample
+
+###########
+# Lumbers #
+###########
+# Vanilla
+item.contenttweaker.lumber_vanilla_oak.name=Oak Lumber
+item.contenttweaker.lumber_vanilla_spruce.name=Spruce Lumber
+item.contenttweaker.lumber_vanilla_birch.name=Birch Lumber
+item.contenttweaker.lumber_vanilla_jungle.name=Jungle Lumber
+item.contenttweaker.lumber_vanilla_acacia.name=Acacia Lumber
+item.contenttweaker.lumber_vanilla_dark_oak.name=Dark Oak Lumber
+# Biomes O Plenty
+item.contenttweaker.lumber_sacred_oak.name=Sacred Oak Lumber
+item.contenttweaker.lumber_cherry.name=Cherry Lumber
+item.contenttweaker.lumber_umbran.name=Umbran Lumber
+item.contenttweaker.lumber_fir.name=Fir Lumber
+item.contenttweaker.lumber_ethereal.name=Ethereal Lumber
+item.contenttweaker.lumber_magic.name=Magic Lumber
+item.contenttweaker.lumber_mangrove.name=Mangrove Lumber
+item.contenttweaker.lumber_palm.name=Palm Lumber
+item.contenttweaker.lumber_redwood.name=Redwood Lumber
+item.contenttweaker.lumber_willow.name=Willow Lumber
+item.contenttweaker.lumber_pine.name=Pine Lumber
+item.contenttweaker.lumber_hellbark.name=Hellbark Lumber
+item.contenttweaker.lumber_jacaranda.name=Jacaranda Lumber
+item.contenttweaker.lumber_mahogany.name=Mahogany Lumber
+item.contenttweaker.lumber_ebony.name=Ebony Lumber
+item.contenttweaker.lumber_eucalyptus.name=Eucalyptus Lumber
+# Rustic
+item.contenttweaker.lumber_planks_olive.name=Olive Lumber
+item.contenttweaker.lumber_planks_ironwood.name=Ironwood Lumber
+# Forestry
+item.contenttweaker.lumber_planks.larch.name=Larch Lumber
+item.contenttweaker.lumber_planks.teak.name=Teak Lumber
+item.contenttweaker.lumber_planks.acacia.name=Acacia Lumber
+item.contenttweaker.lumber_planks.lime.name=Lime Lumber
+item.contenttweaker.lumber_planks.chestnut.name=Chestnut Lumber
+item.contenttweaker.lumber_planks.wenge.name=Wenge Lumber
+item.contenttweaker.lumber_planks.baobab.name=Baobab Lumber
+item.contenttweaker.lumber_planks.sequoia.name=Sequoia Lumber
+item.contenttweaker.lumber_planks.kapok.name=Kapok Lumber
+item.contenttweaker.lumber_planks.ebony.name=Ebony Lumber
+item.contenttweaker.lumber_planks.mahogany.name=Mahogany Lumber
+item.contenttweaker.lumber_planks.balsa.name=Balsa Lumber
+item.contenttweaker.lumber_planks.willow.name=Willow Lumber
+item.contenttweaker.lumber_planks.walnut.name=Walnut Lumber
+item.contenttweaker.lumber_planks.greenheart.name=Greenheart Lumber
+item.contenttweaker.lumber_planks.cherry.name=Cherry Lumber
+item.contenttweaker.lumber_planks.mahoe.name=Mahoe Lumber
+item.contenttweaker.lumber_planks.poplar.name=Poplar Lumber
+item.contenttweaker.lumber_planks.palm.name=Palm Lumber
+item.contenttweaker.lumber_planks.papaya.name=Papaya Lumber
+item.contenttweaker.lumber_planks.pine.name=Pine Lumber
+item.contenttweaker.lumber_planks.plum.name=Plum Lumber
+item.contenttweaker.lumber_planks.maple.name=Maple Lumber
+item.contenttweaker.lumber_planks.citrus.name=Citrus Lumber
+item.contenttweaker.lumber_planks.giganteum.name=Giganteum Lumber
+item.contenttweaker.lumber_planks.ipe.name=Ipe Lumber
+item.contenttweaker.lumber_planks.padauk.name=Padauk Lumber
+item.contenttweaker.lumber_planks.cocobolo.name=Cocobolo Lumber
+item.contenttweaker.lumber_planks.zebrawood.name=Zebrawood Lumber
+###########
