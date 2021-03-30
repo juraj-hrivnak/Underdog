@@ -71,6 +71,14 @@
       "temperature": 6.0
     }
   ],
+  "dawnoftimebuilder:bamboo_hat": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -3.0
+    }
+  ],
   "simpledifficulty:ice_leggings": [
     {
       "identity": {

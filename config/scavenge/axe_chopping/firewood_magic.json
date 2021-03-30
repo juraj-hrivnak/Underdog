@@ -1,24 +1,20 @@
 {
-	"block_pools": 
-	[
+	"block_pools": [
 		{
 			"name": "clickOnChopped13",
-			"type": 
-				{
-					"type": "block",
-					"name": "contenttweaker:chopped_magic_wood" 
-				},
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:chopped_magic_wood"
+			},
 			"clicktype": "rightclick",
-	  		"blockRightClick": true,
-	  		"drops":
-			[
+			"blockRightClick": true,
+			"drops": [
 				{
 					"name": "contenttweaker:firewood_magic",
 					"amount": 6
 				}
-			],  
-			"properties":
-			[
+			],
+			"properties": [
 				{
 					"type": "clicks_per_time",
 					"time": 4,

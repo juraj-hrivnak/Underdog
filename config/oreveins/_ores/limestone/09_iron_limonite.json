@@ -37,10 +37,23 @@
       "max_depth": 100
     },
     "biomes": [
-      "plains",
-      "swampland",
-      "mutated_swampland",
-      "bayou"
+      "minecraft:stone_beach",
+      "minecraft:swampland",
+      "minecraft:mutated_swampland",
+      "minecraft:river",
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:chaparral",
+      "biomesoplenty:wetland",
+      "biomesoplenty:marsh",
+      "minecraft:smaller_extreme_hills",
+      "minecraft:jungle",
+      "minecraft:jungle_hills",
+      "minecraft:jungle_edge",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
     ]
   }
 }

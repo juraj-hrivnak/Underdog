@@ -1,16 +1,16 @@
 {
-	"block_pools": 
+	"block_pools":
 	[
 		{
 			"name": "Breaker",
-			"type": 
+			"type":
 				{
 					"type": "block",
-					"name": "minecraft:lever" 
+					"name": "minecraft:lever"
 				},
 			"clicktype": "rightclick",
 			"blockRightClick": false,
-			"properties": 
+			"properties":
 			[
 				{
 					"type": "use_command",

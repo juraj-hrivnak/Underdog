@@ -1,6 +1,6 @@
 {
   "Slate_Aluminum-Bauxite": {
-    "type": "curve",
+    "type": "cluster",
     "rarity": 160,
     "count": 1,
     "stone": [
@@ -10,13 +10,11 @@
       }
     ],
     "min_y": -13,
-    "max_y": 0,
+    "max_y": -8,
     "use_relative_y": true,
-    "density": 400,
-    "radius": 5,
-    "angle": 60,
-    "vertical_size": 4,
-    "horizontal_size": 10,
+    "density": 700,
+    "vertical_size": 6,
+    "horizontal_size": 8,
     "ore": [
       {
         "block": "osv:_bauxite_quark_slate",
@@ -36,16 +34,22 @@
       "max_depth": 100
     },
     "biomes": [
-      "jungle",
-      "jungle_hills",
-      "jungle_edge",
-      "mutated_jungle",
-      "mutated_jungle_edge",
-      "beaches",
-      "savanna",
-      "savanna_rock",
-      "mutated_savanna",
-      "mutated_savanna_rock"
+      "minecraft:smaller_extreme_hills",
+      "minecraft:jungle",
+      "minecraft:jungle_hills",
+      "minecraft:jungle_edge",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_rock",
+      "minecraft:mutated_mesa_clear_rock",
+      "biomesoplenty:wasteland",
+      "biomesoplenty:prairie",
+      "biomesoplenty:brushland",
+      "minecraft:savanna",
+      "minecraft:savanna_rock",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock"
     ]
   }
 }

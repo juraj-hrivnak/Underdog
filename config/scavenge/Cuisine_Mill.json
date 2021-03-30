@@ -1,16 +1,16 @@
 {
-	"block_pools": 
+	"block_pools":
 	[
 		{
 			"name": "Mill_Sound",
-			"type": 
+			"type":
 				{
 					"type": "block",
-					"name": "cuisine:mill" 
+					"name": "cuisine:mill"
 				},
 			"clicktype": "rightclick",
 			"blockRightClick": false,
-			"properties": 
+			"properties":
 			[
 				{
 					"type": "require_sneak",

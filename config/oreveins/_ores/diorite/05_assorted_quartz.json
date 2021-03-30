@@ -25,12 +25,12 @@
         "weight": 67
       },
       {
-        "block": "appliedenergistics2:quartz_ore_3",
+        "block": "osv:_certus_quartz_3",
         "meta": "0",
         "weight": 23
       },
       {
-        "block": "appliedenergistics2:charged_quartz_ore_3",
+        "block": "osv:_charged_certus_quartz_3",
         "meta": "0",
         "weight": 10
       }

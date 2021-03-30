@@ -84,7 +84,7 @@
     }
     {
       state: minecraft:stone
-      maxHeight: 39
+      maxHeight: 49
       noise2D: {
         scale: 0.9
         frequency: 0.015
