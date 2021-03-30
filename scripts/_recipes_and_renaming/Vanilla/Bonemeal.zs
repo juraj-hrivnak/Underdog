@@ -6,7 +6,6 @@ var bonemeal = <minecraft:dye:15>;
 
 // Oredicts
 <ore:fertilizer>.add(bonemeal);
-
 <ore:dyeWhite>.remove(bonemeal);
 <ore:dye>.remove(bonemeal);
 

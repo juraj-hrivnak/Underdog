@@ -48,42 +48,6 @@ import crafttweaker.oredict.IOreDictEntry;
 	recipes.addShapeless("Overgrown Stone2", <biomesoplenty:grass:1>, [<minecraft:stone:*>, <ore:grass>]);
 	recipes.addShapeless("Overgrown Stone3", <biomesoplenty:grass:1>, [<minecraft:stone:*>, <ore:vine>]);
 
-
-// Plank panels recipes
-	recipes.removeShapeless(<biomesoplenty:planks_0> * 4, [<biomesoplenty:log_0:4>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:1> * 4, [<biomesoplenty:log_0:5>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:2> * 4, [<biomesoplenty:log_0:6>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:3> * 4, [<biomesoplenty:log_0:7>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:4> * 4, [<biomesoplenty:log_1:4>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:5> * 4, [<biomesoplenty:log_1:5>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:6> * 4, [<biomesoplenty:log_1:6>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:8> * 4, [<biomesoplenty:log_2:4>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:9> * 4, [<biomesoplenty:log_2:5>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:10> * 4, [<biomesoplenty:log_2:6>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:11> * 4, [<biomesoplenty:log_2:7>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:12> * 4, [<biomesoplenty:log_3:4>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:13> * 4, [<biomesoplenty:log_3:5>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:14> * 4, [<biomesoplenty:log_3:6>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:15> * 4, [<biomesoplenty:log_3:7>]);
-	recipes.removeShapeless(<biomesoplenty:planks_0:7> * 4, [<biomesoplenty:log_1:7>]);
-
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=sacred_oak]"}) * 8, [<biomesoplenty:log_0:4>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=cherry]"}) * 8, [<biomesoplenty:log_0:5>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=umbran]"}) * 8, [<biomesoplenty:log_0:6>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=fir]"}) * 8, [<biomesoplenty:log_0:7>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=ethereal]"}) * 8, [<biomesoplenty:log_1:4>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=magic]"}) * 8, [<biomesoplenty:log_1:5>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=mangrove]"}) * 8, [<biomesoplenty:log_1:6>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=palm]"}) * 8, [<biomesoplenty:log_1:7>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=redwood]"}) * 8, [<biomesoplenty:log_2:4>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=willow]"}) * 8, [<biomesoplenty:log_2:5>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=pine]"}) * 8, [<biomesoplenty:log_2:6>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=hellbark]"}) * 8, [<biomesoplenty:log_2:7>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=jacaranda]"}) * 8, [<biomesoplenty:log_3:4>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=mahogany]"}) * 8, [<biomesoplenty:log_3:5>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=ebony]"}) * 8, [<biomesoplenty:log_3:6>]);
-	recipes.addShapeless(<microblockcbe:microblock:2>.withTag({mat: "biomesoplenty:planks_0[variant=eucalyptus]"}) * 8, [<biomesoplenty:log_3:7>]);
-
 // Amber Block
 	rh(<biomesoplenty:gem_block:7>);
 	rh(<biomesoplenty:gem:7>);
