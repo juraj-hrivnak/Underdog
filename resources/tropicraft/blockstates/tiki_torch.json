@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "section=upper": { "model": "tropicraft:tiki_torch_upper" },
-        "section=middle": { "model": "tropicraft:tiki_torch_middle" },
-        "section=lower": { "model": "tropicraft:tiki_torch_lower" }
-    }
-}
