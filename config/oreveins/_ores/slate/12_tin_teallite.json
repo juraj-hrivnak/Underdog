@@ -32,9 +32,6 @@
         }
       ],
       "max_depth": 100
-    },
-    "biomes": [
-      "river"
-    ]
+    }
   }
 }
