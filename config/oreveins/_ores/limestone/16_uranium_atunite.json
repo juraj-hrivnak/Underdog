@@ -1,7 +1,7 @@
 {
   "Limestone_Uranium-Atunite": {
     "type": "cone",
-    "rarity": 200,
+    "rarity": 180,
     "count": 1,
     "stone": [
       {
@@ -16,8 +16,8 @@
     "max_y": -38,
     "use_relative_y": true,
     "density": 300,
-    "vertical_size": 40,
-    "horizontal_size": 10,
+    "vertical_size": 100,
+    "horizontal_size": 9,
     "ore": [
       {
         "block": "osv:_autunite_quark_limestone",

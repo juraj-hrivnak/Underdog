@@ -1,48 +1,55 @@
 {
 	"populate": {
-		"mini_stone_rock": {
+		"bamboo_jungle": {
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
-						"name": "crocodilite:stone",
-						"metadata": 0
+						"name": "tropicraft:bamboo_shoot"
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:air"
+					},
+					{
+						"name": "minecraft:tallgrass"
 					}
 				],
 				"surface": [
 					"minecraft:sand",
 					"minecraft:grass",
-					"miencraft:dirt",
-					"miencraft:podzol",
+					"minecraft:dirt",
 					"biomesoplenty:grass",
 					"biomesoplenty:dirt"
 				],
-				"cluster-size": 1,
-				"see-sky": false,
-				"check-stay": true
+				"cluster-size": 40,
+				"stack-height": {
+					"min": 7,
+					"max": 22
+				},
+				"check-stay": false
 			},
-			"cluster-count": 50,
+			"cluster-count": 5,
+			"chunk-chance": 40,
 			"min-height": 50,
 			"max-height": 256,
-			"low-terrain": true,
-			"retrogen": true,
 			"biome": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
 					{
 						"type": "dictionary",
 						"entry": [
-							"SNOWY"
+							"JUNGLE"
 						]
 					}
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					0
 				]
 			}
 		}

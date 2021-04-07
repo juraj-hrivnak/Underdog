@@ -1,7 +1,7 @@
 {
   "Marble_Platinum-Osmium": {
     "type": "curve",
-    "rarity": 250,
+    "rarity": 230,
     "count": 1,
     "stone": [
       {
@@ -12,10 +12,9 @@
         "block": "divergentunderground:quark_hard_marble_rock"
       }
     ],
-    "min_y": -33,
-    "max_y": -28,
-    "use_relative_y": true,
-    "density": 100,
+    "min_y": 35,
+    "max_y": 200,
+    "density": 750,
     "vertical_size": 4,
     "horizontal_size": 20,
     "ore": [

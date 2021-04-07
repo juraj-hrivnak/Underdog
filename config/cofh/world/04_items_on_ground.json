@@ -1,0 +1,53 @@
+{
+	"populate": {
+		"mini_stone_rock": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "crocodilite:stone"
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:air"
+					}
+				],
+				"surface": [
+					"minecraft:gravel",
+					"minecraft:grass",
+					"minecraft:dirt",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt"
+				],
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": true
+			},
+			"cluster-count": 50,
+			"min-height": 50,
+			"max-height": 256,
+			"low-terrain": true,
+			"retrogen": true,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"SNOWY"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
