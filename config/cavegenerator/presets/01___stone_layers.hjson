@@ -1,0 +1,54 @@
+{
+  enabled: true
+  stoneLayers: [
+    {
+      // Earth's Crust
+      seed: 123456789
+      state: minecraft:bedrock
+      maxHeight: 5
+      noise2D: {
+        seed: 123456789
+        scale: 0.2
+        frequency: 0.009
+        minVal: 0
+        maxVal: 5
+      }
+    }
+    {
+      // Lava
+      seed: 123456789
+      state: minecraft:lava
+      maxHeight: 6
+      noise2D: {
+        seed: 123456789
+        scale: 0.2
+        frequency: 0.009
+        minVal: 0
+        maxVal: 5
+      }
+    }
+    {
+      // Magma
+      seed: 123456789
+      state: minecraft:magma
+      maxHeight: 8
+      noise2D: {
+        seed: 123456789
+        scale: 0.2
+        frequency: 0.009
+        minVal: 0
+        maxVal: 5
+      }
+    }
+    {
+      // Composite Rocks
+      state: minecraft:stone
+      maxHeight: 70
+      noise2D: {
+        seed: 123456789
+        scale: 0.9
+        frequency: 0.015
+      }
+    }
+  ]
+}

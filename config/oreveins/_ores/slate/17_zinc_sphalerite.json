@@ -1,6 +1,6 @@
 {
   "Slate_Zinc-Sphalerite": {
-    "type": "cone",
+    "type": "cluster",
     "rarity": 230,
     "count": 1,
     "stone": [
@@ -9,12 +9,11 @@
         "meta": 0
       }
     ],
-    "min_y": -33,
-    "max_y": -28,
-    "use_relative_y": true,
-    "density": 500,
-    "vertical_size": 4,
-    "horizontal_size": 6,
+    "min_y": 30,
+    "max_y": 250,
+    "density": 450,
+    "vertical_size": 8,
+    "horizontal_size": 10,
     "ore": [
       {
         "block": "osv:_sphalerite_quark_slate",

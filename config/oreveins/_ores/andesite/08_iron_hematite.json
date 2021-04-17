@@ -12,10 +12,9 @@
         "block": "divergentunderground:hard_andesite"
       }
     ],
-    "min_y": -33,
-    "max_y": -18,
-    "use_relative_y": true,
-    "density": 1000,
+    "min_y": 30,
+    "max_y": 150,
+    "density": 800,
     "vertical_size": 4,
     "horizontal_size": 4,
     "ore": [

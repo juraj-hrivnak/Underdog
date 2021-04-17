@@ -12,12 +12,12 @@
         "block": "divergentunderground:hard_diorite"
       }
     ],
-    "min_y": -33,
-    "max_y": -28,
-    "use_relative_y": true,
-    "density": 1000,
-    "vertical_size": 13,
-    "horizontal_size": 20,
+    "min_y": 30,
+    "max_y": 255,
+    "density": 650,
+    "clusters": 6,
+    "vertical_size": 7,
+    "horizontal_size": 8,
     "ore": [
       {
         "block": "osv:_cassiterite_3",

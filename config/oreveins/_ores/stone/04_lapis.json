@@ -12,9 +12,8 @@
         "block": "divergentunderground:hard_stone"
       }
     ],
-    "min_y": -30,
-    "max_y": -8,
-    "use_relative_y": true,
+    "min_y": 10,
+    "max_y": 100,
     "density": 200,
     "radius": 20,
     "angle": 90,

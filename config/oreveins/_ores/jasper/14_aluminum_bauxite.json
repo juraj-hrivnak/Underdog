@@ -9,9 +9,8 @@
         "meta": 0
       }
     ],
-    "min_y": -13,
-    "max_y": -8,
-    "use_relative_y": true,
+    "min_y": 40,
+    "max_y": 200,
     "density": 700,
     "vertical_size": 6,
     "horizontal_size": 8,

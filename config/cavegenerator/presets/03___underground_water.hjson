@@ -1,0 +1,70 @@
+{
+  imports: [
+    defaults.cave::LAVA_CAVE_BLOCK
+    common_values.cave::NATURAL_STONE
+  ]
+  # Whether the preset is enabled globally.
+  enabled: true
+  replaceableBlocks: $NATURAL_STONE
+  caveBlocks: [
+    {
+      states: water
+      maxHeight: 28
+    }
+  ]
+  caverns: {
+    enabled: true
+    minHeight: 24
+    maxHeight: 38
+    noise3D: {
+      scale: 6
+      frequency: 16
+      type: PerlinFractal
+      interp: Hermite
+      fractal: Billow
+      returnType: NoiseLookup
+      cellularLookup: CubicFractal
+      octaves: 2
+      perturb: true
+      scale: 0.85
+      scaleY: 0.85
+    }
+  }
+  wallDecorators: [
+    {
+      states: quark:limestone
+      chance: 0.75
+      minHeight: 24
+      maxHeight: 30
+      directions: all
+      matchers: $NATURAL_STONE
+      preference: replace_match
+    }
+  ]
+  largeStalagmites: [
+    {
+      state: gravel
+      chance: 0.075
+      minHeight: 24
+      maxHeight: 30
+      matchers: $NATURAL_STONE
+      noise2D: {
+        scale: 1
+        frequency: 0.55
+      }
+    }
+  ]
+  largeStalactites: [
+    {
+      state: quark:limestone
+      chance: 0.075
+      minHeight: 26
+      maxHeight: 31
+      matchers: $NATURAL_STONE
+      noise2D: {
+        scale: 5
+        frequency: 0.035
+      }
+    }
+  ]
+}

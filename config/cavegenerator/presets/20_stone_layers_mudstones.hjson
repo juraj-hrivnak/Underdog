@@ -1,0 +1,34 @@
+{
+  biomes: {
+    names: [
+      minecraft:swampland
+      minecraft:mutated_swampland
+      minecraft:river
+      biomesoplenty:bayou
+      biomesoplenty:bog
+      biomesoplenty:lush_swamp
+      biomesoplenty:mangrove
+      biomesoplenty:chaparral
+      biomesoplenty:wetland
+      biomesoplenty:dead_swamp
+      biomesoplenty:fen
+      biomesoplenty:quagmire
+      biomesoplenty:land_of_lakes
+      biomesoplenty:marsh
+      biomesoplenty:moor
+    ]
+  }
+  stoneLayers: [
+    {
+      state: minecraft:stone:1
+      maxHeight: 60
+      noise2D: {
+        seed: 123456789
+        scale: 0.9
+        frequency: 0.015
+      }
+    }
+  ]
+  # Whether the preset is enabled globally.
+  enabled: false
+}

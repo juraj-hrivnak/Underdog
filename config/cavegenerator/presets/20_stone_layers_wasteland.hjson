@@ -15,33 +15,14 @@
   stoneLayers: [
     {
       state: minecraft:stone:1
-      maxHeight: 70
+      maxHeight: 60
       noise2D: {
+        seed: 123456789
         scale: 0.9
         frequency: 0.015
-        minVal: 0
-        maxVal: 3
-      }
-    }
-    {
-      state: projectred-exploration:stone:3
-      maxHeight: 120
-      noise2D: {
-        scale: 0.9
-        frequency: 0.015
-        minVal: -1
-        maxVal: 1
-      }
-    }
-    {
-      state: biomesoplenty:dried_sand
-      maxHeight: 255
-      noise2D: {
-        scale: 0.9
-        frequency: 0.015
-        minVal: -1
-        maxVal: 1
       }
     }
   ]
+  # Whether the preset is enabled globally.
+  enabled: false
 }

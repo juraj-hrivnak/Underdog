@@ -1,0 +1,23 @@
+{
+  biomes: {
+    names: [
+      biomesoplenty:land_of_lakes
+      biomesoplenty:shield
+      biomesoplenty:tropical_island
+      biomesoplenty:volcanic_island
+    ]
+  }
+  stoneLayers: [
+    {
+      state: minecraft:stone:1
+      maxHeight: 60
+      noise2D: {
+        seed: 123456789
+        scale: 0.9
+        frequency: 0.015
+      }
+    }
+  ]
+  # Whether the preset is enabled globally.
+  enabled: false
+}

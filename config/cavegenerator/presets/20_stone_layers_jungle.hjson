@@ -1,0 +1,25 @@
+{
+  biomes: {
+    names: [
+      minecraft:smaller_extreme_hills
+      minecraft:jungle
+      minecraft:jungle_hills
+      minecraft:jungle_edge
+      minecraft:mutated_jungle
+      minecraft:mutated_jungle_edge
+    ]
+  }
+  stoneLayers: [
+    {
+      state: minecraft:stone:1
+      maxHeight: 60
+      noise2D: {
+        seed: 123456789
+        scale: 0.9
+        frequency: 0.015
+      }
+    }
+  ]
+  # Whether the preset is enabled globally.
+  enabled: false
+}

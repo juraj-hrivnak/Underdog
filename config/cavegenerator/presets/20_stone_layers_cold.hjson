@@ -23,39 +23,14 @@
   stoneLayers: [
     {
       state: minecraft:stone:1
-      maxHeight: 18
+      maxHeight: 60
       noise2D: {
+        seed: 123456789
         scale: 0.9
         frequency: 0.015
-        maxVal: 4
-      }
-    }
-    {
-      state: minecraft:stone
-      maxHeight: 61
-      noise2D: {
-        scale: 0.9
-        frequency: 0.015
-      }
-    }
-    {
-      state: minecraft:stone:1
-      maxHeight: 128
-      noise2D: {
-        scale: 0.9
-        frequency: 0.015
-        minVal: 0
-        maxVal: 8
-      }
-    }
-    {
-      state: quark:slate
-      maxHeight: 255
-      noise2D: {
-        scale: 0.3
-        frequency: 0.015
-        maxVal: 9
       }
     }
   ]
+  # Whether the preset is enabled globally.
+  enabled: false
 }

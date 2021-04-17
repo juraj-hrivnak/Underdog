@@ -1,0 +1,24 @@
+# temperate forest-like biomes like what can be found in national parks in the US
+{
+  biomes: {
+    names: [
+      biomesoplenty:grassland
+      biomesoplenty:temperate_rainforest
+      biomesoplenty:redwood_forest
+      biomesoplenty:seasonal_forest
+    ]
+  }
+  stoneLayers: [
+    {
+      state: minecraft:stone:1
+      maxHeight: 60
+      noise2D: {
+        seed: 123456789
+        scale: 0.9
+        frequency: 0.015
+      }
+    }
+  ]
+  # Whether the preset is enabled globally.
+  enabled: false
+}

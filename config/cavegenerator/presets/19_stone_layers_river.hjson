@@ -1,0 +1,27 @@
+{
+  biomes: {
+    names: [
+      minecraft:river
+    ]
+  }
+  stoneLayers: [
+    {
+      state: minecraft:stone:1
+      maxHeight: 45
+      noise2D: {
+        seed: 123456789
+        scale: 1.6
+        frequency: 0.045
+      }
+    }
+    {
+      state: quark:limestone
+      maxHeight: 60
+      noise2D: {
+        seed: 123456789
+        scale: 0.9
+        frequency: 0.015
+      }
+    }
+  ]
+}
