@@ -12,7 +12,7 @@
         "block": "divergentunderground:quark_hard_marble_rock"
       }
     ],
-    "min_y": 15,
+    "min_y": 30,
     "max_y": 50,
     "density": 1000,
     "vertical_size": 5,

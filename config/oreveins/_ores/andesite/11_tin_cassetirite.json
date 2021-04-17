@@ -12,8 +12,8 @@
         "block": "divergentunderground:hard_andesite"
       }
     ],
-    "min_y": 30,
-    "max_y": 255,
+    "min_y": 40,
+    "max_y": 60,
     "density": 650,
     "clusters": 6,
     "vertical_size": 7,

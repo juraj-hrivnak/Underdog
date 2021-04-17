@@ -13,7 +13,7 @@
       }
     ],
     "min_y": 30,
-    "max_y": 150,
+    "max_y": 50,
     "density": 1000,
     "vertical_size": 3,
     "horizontal_size": 10,

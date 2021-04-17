@@ -9,8 +9,8 @@
         "meta": 0
       }
     ],
-    "min_y": 10,
-    "max_y": 100,
+    "min_y": 30,
+    "max_y": 50,
     "density": 800,
     "vertical_size": 5,
     "horizontal_size": 5,
