@@ -1,0 +1,34 @@
+{
+  # Simple settings for any noise generator
+  # that will produce a dummy generator.
+  DUMMY_GENERATOR: {
+    dummy: true
+  }
+  # A function that produces a simple noise
+  # generator when given a threshold and an
+  # optional noise type.
+  # Parameters: 
+  #  @1  -> threshold
+  #  @2? -> type
+  # Examples:
+  #  $simple_generator(-0.5, simplex)
+  #  $simple_generator(-0.2)
+  simple_generator(): {
+    threshold: @1
+    type: @2?(simplex)
+  }
+  # A function that produces a scalable float
+  # (used in tunnels and ravines) which never
+  # changes. In other words, it is constant.
+  # Parameters: 
+  #  @1 -> startVal
+  # Examples:
+  #  $CONSTANT(2)
+  constant(): {
+    startVal: @1
+    startValRandFactor: 0
+    factor: 1
+    randFactor: 0
+    exponent: 1
+  }
+}

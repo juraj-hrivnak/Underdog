@@ -1,18 +1,17 @@
 {
-  NATURAL_STONE: [
-    //
-    //Gravel, Clay
+  biomes: {
+    names: [
+      biomesoplenty:volcanic_island
+    ]
+  }
+  replaceableBlocks: [
     minecraft:gravel
     minecraft:clay
-    //
-    //Grass
     minecraft:grass
     biomesoplenty:grass:2
     biomesoplenty:grass:3
     biomesoplenty:grass:4
     biomesoplenty:grass:7
-    //
-    //Stone
     minecraft:end_stone
     minecraft:stone:0
     minecraft:stone:1
@@ -22,8 +21,6 @@
     minecraft:stone:5
     minecraft:stone:6
     minecraft:stone:7
-    //
-    //Cobblestone
     minecraft:cobblestone
     divergentunderground:andesite_cobblestone
     divergentunderground:diorite_cobblestone
@@ -31,23 +28,15 @@
     divergentunderground:quark_limestone_cobblestone
     divergentunderground:quark_marble_cobblestone
     projectred-exploration:stone:2
-    //
-    //Sandstone
     minecraft:red_sandstone
     minecraft:sandstone
     minecraft:sand:1
     minecraft:sand
-    //
-    //Magma
     minecraft:magma
-    //
-    //Quark Stones
     quark:limestone
     quark:marble
     quark:jasper
     quark:slate
-    //
-    //Dirts = Vanilla + BOP
     minecraft:dirt
     minecraft:dirt:1
     biomesoplenty:dirt
@@ -61,8 +50,6 @@
     biomesoplenty:dirt:8
     biomesoplenty:dirt:9
     biomesoplenty:dirt:10
-    //
-    //Terracota
     minecraft:stained_hardened_clay:0
     minecraft:stained_hardened_clay:1
     minecraft:stained_hardened_clay:2
@@ -79,5 +66,53 @@
     minecraft:stained_hardened_clay:13
     minecraft:stained_hardened_clay:14
     minecraft:stained_hardened_clay:15
+  ]
+  # Whether the preset is enabled globally.
+  enabled: false
+  tunnels: [
+    {
+      systemChance: 1
+      systemDensity: 1
+      noiseYReduction: false
+      distance: 100
+      resizeBranches: true
+      scale: {
+        startVal: 60
+        startValRandFactor: 0.005
+        factor: 1
+        randFactor: 0.005
+        exponent: 0.02
+      }
+      yaw: {
+        startVal: 0.5
+        startValRandFactor: 0.5
+      }
+      pitch: {
+        startVal: 3
+        startValRandFactor: 1
+      }
+      dYaw: {
+        startVal: 1
+        factor: 1
+        randFactor: 0.1
+        exponent: 1
+      }
+      dPitch: {
+        startVal: 0.05
+        factor: 1
+        randFactor: 0.5
+        exponent: 0.05
+      }
+      originHeight: [ 26, 150 ]
+      chance: 0.3
+      count: 10
+      stretch: {
+        startVal: 60
+        startValRandFactor: 0.005
+        factor: 1
+        randFactor: 0.005
+        exponent: 1
+      }
+    }
   ]
 }

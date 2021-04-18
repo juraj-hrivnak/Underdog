@@ -1,6 +1,6 @@
 {
   imports: [
-    defaults.cave::LAVA_CAVE_BLOCK
+    defaults.cave::caveBlocks as LAVA_CAVE_BLOCK
     common_values.cave::NATURAL_STONE
   ]
   biomes: {
@@ -13,11 +13,7 @@
   enabled: false
   tunnels: [
     {
-      frequency: 10
-      minHeight: 26
-      maxHeight: 150
       systemChance: 1
-      isolatedChance: 0.3
       systemDensity: 1
       noiseYReduction: false
       distance: 100
@@ -28,13 +24,6 @@
         factor: 1
         randFactor: 0.005
         exponent: 0.02
-      }
-      scaleY: {
-        startVal: 60
-        startValRandFactor: 0.005
-        factor: 1
-        randFactor: 0.005
-        exponent: 1
       }
       yaw: {
         startVal: 0.5
@@ -55,6 +44,16 @@
         factor: 1
         randFactor: 0.5
         exponent: 0.05
+      }
+      originHeight: [ 26, 150 ]
+      chance: 0.3
+      count: 10
+      stretch: {
+        startVal: 60
+        startValRandFactor: 0.005
+        factor: 1
+        randFactor: 0.005
+        exponent: 1
       }
     }
   ]

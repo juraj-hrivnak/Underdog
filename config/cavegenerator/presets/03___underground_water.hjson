@@ -1,6 +1,6 @@
 {
   imports: [
-    defaults.cave::LAVA_CAVE_BLOCK
+    defaults.cave::caveBlocks as LAVA_CAVE_BLOCK
     common_values.cave::NATURAL_STONE
   ]
   # Whether the preset is enabled globally.
@@ -9,15 +9,22 @@
   caveBlocks: [
     {
       states: water
-      maxHeight: 28
+      height: [ 0, 28 ]
     }
   ]
   caverns: {
-    enabled: true
-    minHeight: 24
-    maxHeight: 38
-    noise3D: {
-      scale: 6
+    height: [ 24, 38 ]
+    ###################################################################
+    # This make sure this is that same generator as the one in `caverns`
+    ceiling: {
+      cache: true
+      seed: 12
+    }
+    floor: {
+      cache: true
+    }
+    ###################################################################
+    generators: {
       frequency: 16
       type: PerlinFractal
       interp: Hermite
@@ -26,44 +33,41 @@
       cellularLookup: CubicFractal
       octaves: 2
       perturb: true
-      scale: 0.85
-      scaleY: 0.85
+      threshold: 11
+      stretch: 0.85
     }
   }
   wallDecorators: [
     {
       states: quark:limestone
       chance: 0.75
-      minHeight: 24
-      maxHeight: 30
       directions: all
       matchers: $NATURAL_STONE
-      preference: replace_match
+      height: [ 24, 30 ]
+      placement: EMBED
     }
   ]
-  largeStalagmites: [
-    {
-      state: gravel
-      chance: 0.075
-      minHeight: 24
-      maxHeight: 30
-      matchers: $NATURAL_STONE
-      noise2D: {
-        scale: 1
-        frequency: 0.55
-      }
-    }
-  ]
-  largeStalactites: [
+  stalactites: [
     {
       state: quark:limestone
       chance: 0.075
-      minHeight: 26
-      maxHeight: 31
       matchers: $NATURAL_STONE
-      noise2D: {
-        scale: 5
+      type: STALACTITE
+      height: [ 26, 31 ]
+      region: {
         frequency: 0.035
+        threshold: 9
+      }
+    }
+    {
+      state: gravel
+      chance: 0.075
+      matchers: $NATURAL_STONE
+      type: STALAGMITE
+      height: [ 24, 30 ]
+      region: {
+        frequency: 0.55
+        threshold: 1
       }
     }
   ]

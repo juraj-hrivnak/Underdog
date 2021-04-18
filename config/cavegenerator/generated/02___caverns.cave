@@ -1,18 +1,12 @@
 {
-  NATURAL_STONE: [
-    //
-    //Gravel, Clay
+  replaceableBlocks: [
     minecraft:gravel
     minecraft:clay
-    //
-    //Grass
     minecraft:grass
     biomesoplenty:grass:2
     biomesoplenty:grass:3
     biomesoplenty:grass:4
     biomesoplenty:grass:7
-    //
-    //Stone
     minecraft:end_stone
     minecraft:stone:0
     minecraft:stone:1
@@ -22,8 +16,6 @@
     minecraft:stone:5
     minecraft:stone:6
     minecraft:stone:7
-    //
-    //Cobblestone
     minecraft:cobblestone
     divergentunderground:andesite_cobblestone
     divergentunderground:diorite_cobblestone
@@ -31,23 +23,15 @@
     divergentunderground:quark_limestone_cobblestone
     divergentunderground:quark_marble_cobblestone
     projectred-exploration:stone:2
-    //
-    //Sandstone
     minecraft:red_sandstone
     minecraft:sandstone
     minecraft:sand:1
     minecraft:sand
-    //
-    //Magma
     minecraft:magma
-    //
-    //Quark Stones
     quark:limestone
     quark:marble
     quark:jasper
     quark:slate
-    //
-    //Dirts = Vanilla + BOP
     minecraft:dirt
     minecraft:dirt:1
     biomesoplenty:dirt
@@ -61,8 +45,6 @@
     biomesoplenty:dirt:8
     biomesoplenty:dirt:9
     biomesoplenty:dirt:10
-    //
-    //Terracota
     minecraft:stained_hardened_clay:0
     minecraft:stained_hardened_clay:1
     minecraft:stained_hardened_clay:2
@@ -80,4 +62,65 @@
     minecraft:stained_hardened_clay:14
     minecraft:stained_hardened_clay:15
   ]
+  # Whether the preset is enabled globally.
+  enabled: true
+  caveBlocks: [
+    {
+      states: water
+      height: [ 0, 28 ]
+    }
+  ]
+  caverns: {
+    /*
+      ------------
+      Main Caverns
+      */
+    height: [ 28, 150 ]
+    #############################################################################
+    # This make sure this is that same generator as the one in `underground water`
+    ceiling: {
+      cache: true
+      seed: 12
+    }
+    floor: {
+      cache: true
+    }
+    #############################################################################
+    generators: {
+      frequency: 0.02
+      type: Cellular
+      returnType: Distance3Div
+      jitter: 1
+      perturb: true
+      perturbAmp: 10
+      perturbFreq: 0.025
+      invert: true
+      threshold: -0.2
+      stretch: 0.75
+    }
+  }
+  /*
+    ---------------
+    Surface Tunnels
+    */
+  tunnels: {
+    biomeBlacklist: {
+      names: [
+        minecraft:ocean
+        minecraft:deep_ocean
+        biomesoplenty:gravel_beach
+        biomesoplenty:white_beach
+        biomesoplenty:coral_reef
+        biomesoplenty:kelp_forest
+      ]
+      types: [
+        BEACH
+      ]
+    }
+    systemChance: 0.005
+    dPitch: { "factor": 0.5 }
+    originHeight: [ 50, 200 ]
+    chance: 0.2
+    count: 10
+  }
 }

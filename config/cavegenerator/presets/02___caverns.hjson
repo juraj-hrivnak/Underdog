@@ -6,7 +6,7 @@
   caveBlocks: [
     {
       states: water
-      maxHeight: 28
+      height: [ 0, 28 ]
     }
   ]
   caverns: {
@@ -14,13 +14,19 @@
       ------------
       Main Caverns
       */
-    enabled: true
-    minHeight: 28
-    maxHeight: 150
-    noise3D: {
+    height: [ 28, 150 ]
+    #############################################################################
+    # This make sure this is that same generator as the one in `underground water`
+    ceiling: {
+      cache: true
+      seed: 12
+    }
+    floor: {
+      cache: true
+    }
+    #############################################################################
+    generators: {
       frequency: 0.02
-      scale: 0.4
-      scaleY: 0.75
       type: Cellular
       returnType: Distance3Div
       jitter: 1
@@ -28,6 +34,8 @@
       perturbAmp: 10
       perturbFreq: 0.025
       invert: true
+      threshold: -0.2
+      stretch: 0.75
     }
   }
   /*
@@ -48,11 +56,10 @@
         BEACH
       ]
     }
-    frequency: 10
-    minHeight: 50
-    maxHeight: 200
     systemChance: 0.005
-    isolatedChance: 0.2
     dPitch: { "factor": 0.5 }
+    originHeight: [ 50, 200 ]
+    chance: 0.2
+    count: 10
   }
 }
