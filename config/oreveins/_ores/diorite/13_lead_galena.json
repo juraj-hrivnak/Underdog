@@ -12,14 +12,13 @@
         "block": "divergentunderground:hard_diorite"
       }
     ],
-    "min_y": -24,
-    "max_y": -18,
-    "use_relative_y": true,
-    "density": 100,
-    "radius": 10,
-    "angle": 76,
-    "vertical_size": 5,
-    "horizontal_size": 5,
+    "min_y": 35,
+    "max_y": 135,
+    "density": 450,
+    "radius": 60,
+    "angle": 100,
+    "vertical_size": 7,
+    "horizontal_size": 6,
     "ore": [
       {
         "block": "osv:_galena_3",

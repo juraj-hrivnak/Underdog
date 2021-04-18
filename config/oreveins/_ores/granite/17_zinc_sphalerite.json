@@ -1,6 +1,6 @@
 {
   "Granite_Zinc-Sphalerite": {
-    "type": "cone",
+    "type": "cluster",
     "rarity": 230,
     "count": 1,
     "stone": [
@@ -12,12 +12,11 @@
         "block": "divergentunderground:hard_granite"
       }
     ],
-    "min_y": -33,
-    "max_y": -28,
-    "use_relative_y": true,
-    "density": 500,
-    "vertical_size": 4,
-    "horizontal_size": 6,
+    "min_y": 30,
+    "max_y": 250,
+    "density": 100,
+    "vertical_size": 120,
+    "horizontal_size": 120,
     "ore": [
       {
         "block": "osv:_sphalerite_1",
