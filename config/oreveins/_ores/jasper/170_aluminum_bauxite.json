@@ -1,0 +1,37 @@
+{
+  "Jasper_Aluminum-Bauxite": {
+    "type": "cluster",
+    "rarity": 170,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:jasper",
+        "meta": 0
+      }
+    ],
+    "min_y": -40,
+    "max_y": -10,
+    "use_relative_y": true,
+    "density": 700,
+    "vertical_size": 6,
+    "horizontal_size": 8,
+    "ore": [
+      {
+        "block": "osv:_bauxite_quark_jasper",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "7",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

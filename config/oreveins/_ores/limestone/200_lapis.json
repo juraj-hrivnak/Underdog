@@ -1,0 +1,47 @@
+{
+  "Limestone_Lapis": {
+    "type": "curve",
+    "rarity": 200,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:limestone",
+        "meta": 0
+      },
+      {
+        "block": "divergentunderground:quark_hard_limestone_rock"
+      }
+    ],
+    "min_y": -40,
+    "max_y": -10,
+    "use_relative_y": true,
+    "density": 200,
+    "radius": 20,
+    "angle": 90,
+    "vertical_size": 2,
+    "horizontal_size": 2,
+    "ore": [
+      {
+        "block": "osv:_lapis_quark_limestone",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample_vanilla",
+          "meta": "3",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    },
+    "biomes": [
+      "desert",
+      "mutated_desert",
+      "desert_hills"
+    ]
+  }
+}

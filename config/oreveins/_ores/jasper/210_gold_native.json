@@ -1,0 +1,37 @@
+{
+  "Jasper_Gold-Native": {
+    "type": "curve",
+    "rarity": 210,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:jasper",
+        "meta": 0
+      }
+    ],
+    "min_y": -40,
+    "max_y": -10,
+    "use_relative_y": true,
+    "density": 800,
+    "vertical_size": 5,
+    "horizontal_size": 5,
+    "ore": [
+      {
+        "block": "osv:_gold_quark_jasper",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample_vanilla",
+          "meta": "2",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

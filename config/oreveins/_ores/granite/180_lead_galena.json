@@ -1,0 +1,40 @@
+{
+  "Granite_Lead-Galena": {
+    "type": "cluster",
+    "rarity": 180,
+    "count": 1,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 1
+      },
+      {
+        "block": "divergentunderground:hard_granite"
+      }
+    ],
+    "min_y": -40,
+    "max_y": -10,
+    "use_relative_y": true,
+    "density": 450,
+    "vertical_size": 7,
+    "horizontal_size": 9,
+    "ore": [
+      {
+        "block": "osv:_galena_1",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "6",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}
