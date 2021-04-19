@@ -27,7 +27,7 @@
 				"cluster-size": 40,
 				"stack-height": {
 					"min": 7,
-					"max": 22
+					"max": 18
 				},
 				"check-stay": false
 			},
