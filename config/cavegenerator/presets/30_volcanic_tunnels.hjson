@@ -10,7 +10,7 @@
   }
   replaceableBlocks: $NATURAL_STONE
   # Whether the preset is enabled globally.
-  enabled: false
+  enabled: true
   tunnels: [
     {
       systemChance: 1

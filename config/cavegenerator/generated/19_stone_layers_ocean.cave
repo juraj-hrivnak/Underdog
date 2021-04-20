@@ -18,7 +18,7 @@
       height: [ 0, 60 ]
       ceiling: {
         seed: 123456789
-        scale: 0.9 # Removed in 1.0. You can delete this field.
+        
         frequency: 0.015
       }
     }

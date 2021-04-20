@@ -1,6 +1,6 @@
 {
   # Whether the preset is enabled globally.
-  enabled: true
+  enabled: false
   replaceableBlocks: [
     minecraft:gravel
     minecraft:clay

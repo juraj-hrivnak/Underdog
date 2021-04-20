@@ -62,7 +62,6 @@
     minecraft:stained_hardened_clay:14
     minecraft:stained_hardened_clay:15
   ]
-  # Whether the preset is enabled globally.
   enabled: true
   caveBlocks: [
     {
@@ -70,57 +69,71 @@
       height: [ 0, 28 ]
     }
   ]
-  caverns: {
-    /*
-      ------------
-      Main Caverns
-      */
-    height: [ 28, 150 ]
-    #############################################################################
-    # This make sure this is that same generator as the one in `underground water`
-    ceiling: {
-      cache: true
-      seed: 12
+  caverns: [
+    {
+      ###########################################
+      # Main Caverns
+      ###########################################
+      height: [ 28, 150 ]
+      ceiling: {
+        seed: 1
+        cache: true
+      }
+      floor: {
+        seed: 1
+        cache: true
+      }
+      generators: {
+        frequency: 0.02
+        type: Cellular
+        returnType: Distance3Div
+        jitter: 1
+        perturb: true
+        perturbAmp: 10
+        perturbFreq: 0.025
+        invert: true
+        threshold: -0.2
+        stretch: 0.75
+      }
+      ###########################################
     }
-    floor: {
-      cache: true
+    {
+      ###########################################
+      # Water Reservoirs
+      ###########################################
+      height: [ 24, 38 ]
+      ceiling: {
+        seed: 1
+        cache: true
+      }
+      floor: {
+        seed: 1
+        cache: true
+      }
+      generators: {
+        frequency: 16
+        type: PerlinFractal
+        interp: Hermite
+        fractal: Billow
+        returnType: NoiseLookup
+        cellularLookup: CubicFractal
+        octaves: 2
+        perturb: true
+        threshold: 11
+        stretch: 0.85
+      }
+      ###########################################
     }
-    #############################################################################
-    generators: {
-      frequency: 0.02
-      type: Cellular
-      returnType: Distance3Div
-      jitter: 1
-      perturb: true
-      perturbAmp: 10
-      perturbFreq: 0.025
-      invert: true
-      threshold: -0.2
-      stretch: 0.75
-    }
-  }
-  /*
-    ---------------
-    Surface Tunnels
-    */
+  ]
+  ###########################################
+  # Surface Tunnels
+  ###########################################
   tunnels: {
-    biomeBlacklist: {
-      names: [
-        minecraft:ocean
-        minecraft:deep_ocean
-        biomesoplenty:gravel_beach
-        biomesoplenty:white_beach
-        biomesoplenty:coral_reef
-        biomesoplenty:kelp_forest
-      ]
-      types: [
-        BEACH
-      ]
-    }
     systemChance: 0.005
     dPitch: { "factor": 0.5 }
     originHeight: [ 50, 200 ]
     chance: 0.2
     count: 10
   }
+  ###########################################
 }

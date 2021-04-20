@@ -1,4 +1,5 @@
 {
+  enabled: true
   biomes: {
     names: [
       biomesoplenty:lush_desert
@@ -41,24 +42,20 @@
       biomesoplenty:woodland
     ]
   }
-  # Whether the preset is enabled globally.
-  enabled: false
   layers: [
     {
       state: minecraft:stone:5
       height: [ 0, 30 ]
       ceiling: {
         seed: 123456789
-        scale: 0.9 # Removed in 1.0. You can delete this field.
         frequency: 0.015
       }
     }
     {
-      state: minecraft:stone:1
+      state: quark:marble
       height: [ 0, 60 ]
       ceiling: {
         seed: 123456789
-        scale: 0.9 # Removed in 1.0. You can delete this field.
         frequency: 0.015
       }
     }

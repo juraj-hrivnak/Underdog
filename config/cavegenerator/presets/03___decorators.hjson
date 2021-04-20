@@ -1,0 +1,41 @@
+{
+  imports: [
+    common_values.cave::NATURAL_STONE
+  ]
+  enabled: true
+  replaceableBlocks: $NATURAL_STONE
+  wallDecorators: [
+    {
+      states: quark:limestone
+      chance: 0.75
+      directions: all
+      matchers: $NATURAL_STONE
+      height: [ 24, 30 ]
+      placement: EMBED
+    }
+  ]
+  stalactites: [
+    {
+      state: quark:limestone
+      chance: 0.075
+      matchers: $NATURAL_STONE
+      type: STALACTITE
+      height: [ 26, 31 ]
+      region: {
+        frequency: 0.035
+        threshold: 9
+      }
+    }
+    {
+      state: gravel
+      chance: 0.075
+      matchers: $NATURAL_STONE
+      type: STALAGMITE
+      height: [ 23, 28 ]
+      region: {
+        frequency: 0.55
+        threshold: 1
+      }
+    }
+  ]
+}
