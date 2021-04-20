@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "variant=commelina_diffusa": { "model": "tropicraft:commelina_diffusa_flower" },
+        "variant=crocosmia": { "model": "tropicraft:crocosmia_flower" },
+        "variant=orchid": { "model": "tropicraft:orchid_flower" },
+        "variant=canna": { "model": "tropicraft:canna_flower" },
+        "variant=anemone": { "model": "tropicraft:anemone_flower" },
+        "variant=orange_anthurium": { "model": "tropicraft:orange_anthurium_flower" },
+        "variant=red_anthurium": { "model": "tropicraft:red_anthurium_flower" },
+        "variant=magic_mushroom": { "model": "tropicraft:magic_mushroom_flower" },
+        "variant=pathos": { "model": "tropicraft:pathos_flower" },
+        "variant=acai_vine": { "model": "tropicraft:acai_vine_flower" },
+        "variant=croton": { "model": "tropicraft:croton_flower" },
+        "variant=dracaena": { "model": "tropicraft:dracaena_flower" },
+        "variant=fern": { "model": "tropicraft:fern_flower" },
+        "variant=foliage": { "model": "tropicraft:foliage_flower" },
+        "variant=bromeliad": { "model": "tropicraft:bromeliad_flower" }
+    }
+}

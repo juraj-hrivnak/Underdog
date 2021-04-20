@@ -36,6 +36,12 @@
         }
       ],
       "max_depth": 100
-    }
+    },
+    "biomes": [
+      "mutated_plains",
+      "plains",
+      "ice_flats",
+      "mutated_ice_flats"
+    ]
   }
 }

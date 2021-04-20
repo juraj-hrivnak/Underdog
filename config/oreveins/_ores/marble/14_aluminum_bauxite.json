@@ -35,6 +35,24 @@
         }
       ],
       "max_depth": 100
-    }
+    },
+    "biomes": [
+      "minecraft:smaller_extreme_hills",
+      "minecraft:jungle",
+      "minecraft:jungle_hills",
+      "minecraft:jungle_edge",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_rock",
+      "minecraft:mutated_mesa_clear_rock",
+      "biomesoplenty:wasteland",
+      "biomesoplenty:prairie",
+      "biomesoplenty:brushland",
+      "minecraft:savanna",
+      "minecraft:savanna_rock",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock"
+    ]
   }
 }

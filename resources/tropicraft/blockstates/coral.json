@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "variant=pink": { "model": "tropicraft:pink_coral" },
+        "variant=tealy": { "model": "tropicraft:tealy_coral" },
+        "variant=brain": { "model": "tropicraft:brain_coral" },
+        "variant=fire": { "model": "tropicraft:fire_coral" },
+        "variant=green": { "model": "tropicraft:green_coral" },
+        "variant=spiral": { "model": "tropicraft:spiral_coral" },
+        "variant=hotpink": { "model": "tropicraft:hotpink_coral" }
+    }
+}
