@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "fa63cbb8",
+		type: "checkmark",
+		title: "Welcome to Underdog!",
+		icon: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:underdog"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "d1ac3561",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

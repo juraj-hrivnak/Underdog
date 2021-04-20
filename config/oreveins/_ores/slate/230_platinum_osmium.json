@@ -1,0 +1,37 @@
+{
+  "Slate_Platinum-Osmium": {
+    "type": "curve",
+    "rarity": 230,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:slate",
+        "meta": 0
+      }
+    ],
+    "min_y": -26,
+    "max_y": -18,
+    "use_relative_y": true,
+    "density": 750,
+    "vertical_size": 4,
+    "horizontal_size": 20,
+    "ore": [
+      {
+        "block": "osv:_platinum_quark_slate",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "8",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

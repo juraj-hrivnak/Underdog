@@ -1,0 +1,41 @@
+{
+  "Diorite_Tin-Cassetirite": {
+    "type": "cluster",
+    "rarity": 180,
+    "count": 1,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 3
+      },
+      {
+        "block": "divergentunderground:hard_diorite"
+      }
+    ],
+    "min_y": -13,
+    "max_y": -8,
+    "use_relative_y": true,
+    "density": 650,
+    "clusters": 6,
+    "vertical_size": 7,
+    "horizontal_size": 8,
+    "ore": [
+      {
+        "block": "osv:_cassiterite_3",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "4",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

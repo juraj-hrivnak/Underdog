@@ -4,13 +4,13 @@
   "category": "01_key_mechanics",
   "sortnum" : "1",
   "read_by_default": true,
-  "pages": 
+  "pages":
   [
     {
     "type": "image",
-    "images": 
+    "images":
       [
-        "modpack:textures/patchouli_images/temperature.png" 
+        "modpack:textures/patchouli_images/temperature.png"
       ],
     "title": "Temperature",
     "text": "Temperature is shown above the XP bar. The outer icon is the outside temperature, ...",
@@ -43,6 +43,5 @@
       "title": "",
       "recipe": "simpledifficulty:thermometer"
     }
-    
   ]
 }

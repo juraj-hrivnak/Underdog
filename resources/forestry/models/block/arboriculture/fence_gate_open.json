@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_gate_open",
-  "textures": {
-    "particle": "forestry:blocks/wood/planks.acacia",
-    "texture": "forestry:blocks/wood/planks.acacia"
-  }
-}

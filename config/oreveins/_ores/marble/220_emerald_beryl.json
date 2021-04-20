@@ -1,0 +1,40 @@
+{
+  "Marble_Emerald-Beryl": {
+    "type": "cluster",
+    "rarity": 220,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:marble",
+        "meta": 0
+      },
+      {
+        "block": "divergentunderground:quark_hard_marble_rock"
+      }
+    ],
+    "min_y": -43,
+    "max_y": -28,
+    "use_relative_y": true,
+    "density": 900,
+    "vertical_size": 10,
+    "horizontal_size": 5,
+    "ore": [
+      {
+        "block": "osv:_beryl_quark_marble",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample_vanilla",
+          "meta": "6",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

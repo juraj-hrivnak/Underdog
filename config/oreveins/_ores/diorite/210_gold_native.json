@@ -1,0 +1,40 @@
+{
+  "Diorite_Gold-Native": {
+    "type": "curve",
+    "rarity": 210,
+    "count": 1,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 3
+      },
+      {
+        "block": "divergentunderground:hard_diorite"
+      }
+    ],
+    "min_y": -20,
+    "max_y": -8,
+    "use_relative_y": true,
+    "density": 800,
+    "vertical_size": 5,
+    "horizontal_size": 5,
+    "ore": [
+      {
+        "block": "osv:_gold_3",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample_vanilla",
+          "meta": "2",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

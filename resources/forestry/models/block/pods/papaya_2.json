@@ -1,7 +1,0 @@
-{
-  "parent": "block/cocoa_age2_s",
-  "textures": {
-    "particle": "forestry:blocks/pods/papaya.2",
-    "cocoa": "forestry:blocks/pods/papaya.2"
-  }
-}

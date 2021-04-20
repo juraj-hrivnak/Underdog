@@ -4,11 +4,11 @@
   "category": "01_key_mechanics",
   "sortnum" : "2",
   "read_by_default": true,
-  "pages": 
+  "pages":
   [
     {
     "type": "image",
-    "images": 
+    "images":
       [
         "modpack:textures/patchouli_images/thirst.png"
       ],
