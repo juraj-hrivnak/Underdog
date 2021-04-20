@@ -2,6 +2,7 @@
   replaceableBlocks: [
     minecraft:gravel
     minecraft:clay
+    biomesoplenty:ash_block
     minecraft:grass
     biomesoplenty:grass:2
     biomesoplenty:grass:3

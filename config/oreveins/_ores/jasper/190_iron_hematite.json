@@ -1,0 +1,37 @@
+{
+  "Jasper_Iron-Hematite": {
+    "type": "curve",
+    "rarity": 190,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:jasper",
+        "meta": 0
+      }
+    ],
+    "min_y": 40,
+    "max_y": 60,
+    "use_relative_y": false,
+    "density": 800,
+    "vertical_size": 4,
+    "horizontal_size": 4,
+    "ore": [
+      {
+        "block": "osv:_hematite_quark_jasper",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "0",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  biomes: {
+    names: [
+      biomesoplenty:lush_desert
+      minecraft:plains
+      minecraft:extreme_hills
+      minecraft:extreme_hills_with_trees
+      minecraft:savanna
+      minecraft:savanna_rock
+      minecraft:mutated_savanna_rock
+      biomesoplenty:xeric_shrubland
+      biomesoplenty:shrubland
+      biomesoplenty:alps_foothills
+      biomesoplenty:mountain_foothills
+      biomesoplenty:redwood_forest_edge
+      biomesoplenty:pasture
+      minecraft:beaches
+      minecraft:mutated_plains
+      biomesoplenty:lavender_fields
+      biomesoplenty:crag
+      biomesoplenty:flower_field
+      biomesoplenty:grassland
+      biomesoplenty:grove
+      minecraft:forest
+      minecraft:forest_hills
+      minecraft:birch_forest
+      minecraft:birch_forest_hills
+      minecraft:roofed_forest
+      minecraft:mutated_extreme_hills
+      minecraft:mutated_forest
+      minecraft:mutated_birch_forest
+      minecraft:mutated_birch_forest_hills
+      minecraft:mutated_roofed_forest
+      minecraft:mutated_extreme_hills_with_trees
+      biomesoplenty:bamboo_forest
+      biomesoplenty:cherry_blossom_grove
+      biomesoplenty:maple_woods
+      biomesoplenty:meadow
+      biomesoplenty:mountain
+      biomesoplenty:orchard
+      biomesoplenty:woodland
+    ]
+  }
+  layers: [
+    {
+      #red granite
+      state: minecraft:stone:1
+      height: [ 0, 16 ]
+      ceiling: {
+        frequency: 0.015
+        range: [ -7, 4 ]
+      }
+    }
+    {
+      state: minecraft:stone
+      height: [ 0, 49 ]
+      ceiling: {
+        frequency: 0.015
+      }
+    }
+    {
+      state: quark:marble
+      height: [ 0, 100 ]
+      ceiling: {
+        frequency: 0.015
+        range: [ 0, 4 ]
+      }
+    }
+    {
+      #dolomite
+      state: minecraft:stone:1
+      height: [ 0, 128 ]
+      ceiling: {
+        frequency: 0.015
+        range: [ 0, 8 ]
+      }
+    }
+    {
+      #green schist
+      state: minecraft:stone:5
+      height: [ 0, 204 ]
+      ceiling: {
+        frequency: 0.3
+        range: [ 0, 8 ]
+      }
+    }
+    {
+      #blue schist
+      state: minecraft:stone
+      height: [ 0, 255 ]
+      ceiling: {
+        frequency: 0.2
+        range: [ 0, 8 ]
+      }
+    }
+  ]
+}

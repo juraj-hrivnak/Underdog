@@ -1,9 +1,10 @@
 {
   NATURAL_STONE: [
     //
-    //Gravel, Clay
+    //Gravel, Clay, Ash
     minecraft:gravel
     minecraft:clay
+    biomesoplenty:ash_block
     //
     //Grass
     minecraft:grass

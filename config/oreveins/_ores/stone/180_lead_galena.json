@@ -1,0 +1,40 @@
+{
+  "Stone_Lead-Galena": {
+    "type": "cluster",
+    "rarity": 180,
+    "count": 1,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 0
+      },
+      {
+        "block": "divergentunderground:hard_stone"
+      }
+    ],
+    "min_y": 40,
+    "max_y": 60,
+    "use_relative_y": false,
+    "density": 450,
+    "vertical_size": 7,
+    "horizontal_size": 9,
+    "ore": [
+      {
+        "block": "osv:_galena",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "6",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

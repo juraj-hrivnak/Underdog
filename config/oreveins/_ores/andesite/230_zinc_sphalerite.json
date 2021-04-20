@@ -1,0 +1,40 @@
+{
+  "Andesite_Zinc-Sphalerite": {
+    "type": "cluster",
+    "rarity": 230,
+    "count": 1,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 5
+      },
+      {
+        "block": "divergentunderground:hard_andesite"
+      }
+    ],
+    "min_y": 40,
+    "max_y": 60,
+    "use_relative_y": false,
+    "density": 450,
+    "vertical_size": 8,
+    "horizontal_size": 10,
+    "ore": [
+      {
+        "block": "osv:_sphalerite_5",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "10",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

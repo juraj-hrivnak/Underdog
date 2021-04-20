@@ -1,0 +1,47 @@
+{
+  enabled: true
+  layers: [
+    {
+      // Earth's Crust
+      seed: 123456789
+      state: minecraft:bedrock
+      height: [ 0, 5 ]
+      ceiling: {
+        seed: 123456789
+        frequency: 0.009
+        range: [ 0, 5 ]
+      }
+    }
+    {
+      // Lava
+      seed: 123456789
+      state: minecraft:lava
+      height: [ 0, 6 ]
+      ceiling: {
+        seed: 123456789
+        frequency: 0.009
+        range: [ 0, 5 ]
+      }
+    }
+    {
+      // Magma
+      seed: 123456789
+      state: minecraft:magma
+      height: [ 0, 8 ]
+      ceiling: {
+        seed: 123456789
+        frequency: 0.009
+        range: [ 0, 5 ]
+      }
+    }
+    {
+      // Composite Rocks
+      state: minecraft:stone
+      height: [ 0, 70 ]
+      ceiling: {
+        seed: 123456789
+        frequency: 0.015
+      }
+    }
+  ]
+}

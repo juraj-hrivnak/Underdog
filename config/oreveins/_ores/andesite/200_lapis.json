@@ -1,0 +1,47 @@
+{
+  "Andesite_Lapis": {
+    "type": "curve",
+    "rarity": 200,
+    "count": 1,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 5
+      },
+      {
+        "block": "divergentunderground:hard_andesite"
+      }
+    ],
+    "min_y": 40,
+    "max_y": 60,
+    "use_relative_y": false,
+    "density": 200,
+    "radius": 20,
+    "angle": 90,
+    "vertical_size": 2,
+    "horizontal_size": 2,
+    "ore": [
+      {
+        "block": "osv:_lapis_5",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample_vanilla",
+          "meta": "3",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    },
+    "biomes": [
+      "desert",
+      "mutated_desert",
+      "desert_hills"
+    ]
+  }
+}

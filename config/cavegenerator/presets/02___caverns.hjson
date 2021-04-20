@@ -24,7 +24,7 @@
       # Main Caverns
       ###########################################
       height: [ 28, 150 ]
-      ##################
+      ###################
       ceiling: $COMMON_CEILING
       floor: $COMMON_FLOOR
       generators: {

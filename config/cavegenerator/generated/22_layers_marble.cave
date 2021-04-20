@@ -1,0 +1,33 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:chaparral
+    ]
+  }
+  layers: [
+    ###########################################
+    # Underground
+    ###########################################
+    ###########################################
+    # Surface
+    ###########################################
+    {
+      state: quark:marble
+      height: [ 65, 90 ]
+      ceiling: {
+        seed: 123456789
+        frequency: 0.015
+      }
+    }
+    {
+      state: minecraft:stone:5
+      height: [ 90, 120 ]
+      ceiling: {
+        seed: 123456789
+        frequency: 0.015
+      }
+    }
+    ###########################################
+  ]
+}

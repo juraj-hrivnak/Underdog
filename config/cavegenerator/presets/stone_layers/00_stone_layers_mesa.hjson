@@ -1,0 +1,55 @@
+{
+  biomes: {
+    names: [
+      minecraft:mesa
+      minecraft:mesa_rock
+      minecraft:mesa_clear_rock
+    ]
+  }
+  layers: [
+    {
+      #red granite
+      state: minecraft:stone:1
+      height: [ 0, 16 ]
+      ceiling: {
+        frequency: 0.015
+        range: [ -7, 4 ]
+      }
+    }
+    {
+      state: minecraft:stone
+      height: [ 0, 48 ]
+      ceiling: {
+        frequency: 0.015
+      }
+    }
+    {
+      #limestone
+      state: quark:limestone
+      height: [ 0, 58 ]
+      ceiling: {
+        frequency: 0.015
+        range: [ 0, 4 ]
+      }
+    }
+    {
+      #shale
+      state: quark:jasper
+      height: [ 0, 204 ]
+      ceiling: {
+        frequency: 0.9
+        range: [ -16, 16 ]
+      }
+    }
+    {
+      #shale sandstone
+      state: quark:jasper
+      height: [ 0, 255 ]
+      ceiling: {
+        scale: 0.8 # Removed in 1.0. You can delete this field.
+        frequency: 0.9
+        range: [ 2, 16 ]
+      }
+    }
+  ]
+}

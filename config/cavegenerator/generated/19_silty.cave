@@ -1,0 +1,54 @@
+{
+  enabled: true
+  layers: [
+    {
+      ###########################################
+      # Silty Dirt
+      ###########################################
+      biomes: {
+        names: [
+          biomesoplenty:prairie
+        ]
+      }
+      state: biomesoplenty:dirt:2
+      height: [ 70, 100 ]
+      ceiling: {
+        seed: 123456789
+        frequency: 0.015
+      }
+      ###########################################
+    }
+    {
+      ###########################################
+      # Sandy Dirt
+      ###########################################
+      biomes: {
+        names: [
+          biomesoplenty:brushland
+        ]
+      }
+      state: biomesoplenty:dirt:1
+      height: [ 70, 100 ]
+      ceiling: {
+        seed: 123456789
+        frequency: 0.015
+      }
+      ###########################################
+    }
+    {
+      ###########################################
+      # Loamy Dirt
+      ###########################################
+      biomes: {
+        names: []
+      }
+      state: biomesoplenty:dirt:1
+      height: [ 0, 60 ]
+      ceiling: {
+        seed: 123456789
+        frequency: 0.015
+      }
+      ###########################################
+    }
+  ]
+}

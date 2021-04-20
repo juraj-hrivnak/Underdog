@@ -7,6 +7,7 @@
   replaceableBlocks: [
     minecraft:gravel
     minecraft:clay
+    biomesoplenty:ash_block
     minecraft:grass
     biomesoplenty:grass:2
     biomesoplenty:grass:3
@@ -67,10 +68,15 @@
     minecraft:stained_hardened_clay:14
     minecraft:stained_hardened_clay:15
   ]
-  # Whether the preset is enabled globally.
   enabled: true
   tunnels: [
     {
+      caveBlocks: [
+        {
+          states: lava
+          height: [ 0, 30 ]
+        }
+      ]
       systemChance: 1
       systemDensity: 1
       noiseYReduction: false
