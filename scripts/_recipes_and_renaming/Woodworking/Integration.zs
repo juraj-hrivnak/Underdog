@@ -119,7 +119,7 @@ val lumbersAndPlanks = {
 for lumber, log in lumbersAndLogs {
 
     // Adding recipe for four lumbers from one log
-	recipes.addShapeless(lumber * 4, [log]);
+	recipes.addShapeless(lumber * 8, [log]);
 
     // Adding "plankWood" oredict to lumber
     <ore:lumber>.add(lumber);
