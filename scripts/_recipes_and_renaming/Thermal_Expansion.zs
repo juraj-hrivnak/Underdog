@@ -16,8 +16,8 @@ val seedOil = {
 } as IItemStack[string];
 
     // Clay bucket
-    recipes.addShapeless(seedOil.forestryClayBucket, [seedOil.thermalexpansionClayBucket]);
-    recipes.addShapeless(seedOil.thermalexpansionClayBucket, [seedOil.forestryClayBucket]);
+    recipes.addShapeless(seedOil.forestryClayBucket, [seedOil.thermalexpansionClayBucket.noReturn()]);
+    recipes.addShapeless(seedOil.thermalexpansionClayBucket, [seedOil.forestryClayBucket.noReturn()]);
     // Iron bucket
-    recipes.addShapeless(seedOil.forestryIronBucket, [seedOil.thermalexpansionIronBucket]);
-    recipes.addShapeless(seedOil.thermalexpansionIronBucket, [seedOil.forestryIronBucket]);
+    recipes.addShapeless(seedOil.forestryIronBucket, [seedOil.thermalexpansionIronBucket.noReturn()]);
+    recipes.addShapeless(seedOil.thermalexpansionIronBucket, [seedOil.forestryIronBucket.noReturn()]);
