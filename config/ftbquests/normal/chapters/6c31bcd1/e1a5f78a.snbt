@@ -1,63 +1,6 @@
 {
 	title: "Exploration",
-	icon: {
-		id: "tconstruct:bolt",
-		tag: {
-			StatsOriginal: {
-				AttackSpeedMultiplier: 1.0f,
-				Accuracy: 1.0f,
-				MiningSpeed: 11.0f,
-				FreeModifiers: 3,
-				Durability: 796,
-				HarvestLevel: 3,
-				Attack: 5.0f
-			},
-			Stats: {
-				AttackSpeedMultiplier: 1.1f,
-				Accuracy: 1.0f,
-				MiningSpeed: 11.0f,
-				FreeModifiers: 3,
-				Durability: 796,
-				HarvestLevel: 3,
-				Attack: 5.0f
-			},
-			Special: {
-				Categories: [
-					"tool",
-					"projectile",
-					"no_melee"
-				]
-			},
-			TinkerData: {
-				Materials: [
-					"wood",
-					"hard_carbon",
-					"feather"
-				],
-				Modifiers: []
-			},
-			Modifiers: [{
-				identifier: "ecological",
-				color: -7444965,
-				level: 1
-			},
-			{
-				identifier: "lightweight",
-				color: -15115920,
-				level: 1
-			},
-			{
-				identifier: "sharp",
-				color: -15115920,
-				level: 1
-			}],
-			Traits: [
-				"ecological",
-				"lightweight",
-				"sharp"
-			]
-		}
-	},
+	icon: "harvestcraft:dragonfruititem",
 	x: -6.0d,
 	y: -1.5d,
 	text: [

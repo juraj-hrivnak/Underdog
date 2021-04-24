@@ -5,7 +5,7 @@ import mods.jei.JEI.removeAndHide as rh;
 <divergentunderground:boulder>.displayName = "Boulder";
 <divergentunderground:boulder>.addTooltip("§a:/");
 
-// Crafting rocks from cobblestones
+// Crafting rocks from cobblestones, Qol. stuff, you know :D
 recipes.addShapeless(<divergentunderground:rock_stone> * 4, [<minecraft:cobblestone>]);
 recipes.addShapeless(<divergentunderground:rock_endstone> * 4, [<minecraft:end_stone>]);
 recipes.addShapeless(<divergentunderground:rock_andesite> * 4, [<divergentunderground:andesite_cobblestone>]);
