@@ -12,8 +12,8 @@
         "block": "divergentunderground:hard_diorite"
       }
     ],
-    "min_y": -26,
-    "max_y": -18,
+    "min_y": -38,
+    "max_y": -8,
     "use_relative_y": true,
     "density": 750,
     "vertical_size": 4,

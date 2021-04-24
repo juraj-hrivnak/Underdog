@@ -12,8 +12,8 @@
         "block": "divergentunderground:hard_granite"
       }
     ],
-    "min_y": -13,
-    "max_y": -5,
+    "min_y": -38,
+    "max_y": -8,
     "use_relative_y": true,
     "density": 700,
     "vertical_size": 6,

@@ -12,8 +12,8 @@
         "block": "divergentunderground:quark_hard_limestone_rock"
       }
     ],
-    "min_y": -30,
-    "max_y": -18,
+    "min_y": -38,
+    "max_y": -8,
     "use_relative_y": true,
     "density": 600,
     "vertical_size": 6,
