@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["mat_zen-35-1.2.1.zip","AntiqueAtlasExtra-v1.2.zip","ERP-V1.8.zip"]
+resourcePacks:["mat_zen-35-1.2.1.zip","AntiqueAtlasExtra-v1.2.zip","underdog_stone_texture_improvements.zip"]
 incompatibleResourcePacks:["ERP-V1.8.zip"]
 lastServer:
 lang:en_us
