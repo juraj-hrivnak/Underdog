@@ -1,4 +1,4 @@
-#priority 0
+#priority 20
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 

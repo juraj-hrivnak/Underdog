@@ -19,3 +19,5 @@ import mods.jei.JEI.removeAndHide as rh;
 <appliedenergistics2:sky_stone_brick_slab>.displayName =            "Meteorite Brick Slab";
 <appliedenergistics2:sky_stone_small_brick_slab>.displayName =      "Meteorite Small Brick Slab";
 <appliedenergistics2:material:45>.displayName =                     "Meteorite Dust";
+
+rh(<appliedenergistics2:facade>);

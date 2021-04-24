@@ -7,5 +7,10 @@
 		items: [{
 			item: "immersiveengineering:metal_decoration0 1 5"
 		}]
+	}],
+	rewards: [{
+		uid: "64d39ea5",
+		type: "xp",
+		xp: 50
 	}]
 }

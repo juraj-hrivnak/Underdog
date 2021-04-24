@@ -86,7 +86,6 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_key.auginter.skipAnimation:45
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -94,6 +93,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:48
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -112,7 +112,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:73
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
@@ -125,9 +125,6 @@ key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
 key_walljump.key.walljump:42
-key_Strip World:211
-key_Dress World:210
-key_Inspect Block:199
 key_dshuds.keybind.SelectionBox:48
 key_dshuds.keybind.LightLevel:88
 key_dshuds.keybind.ChunkBorders:67

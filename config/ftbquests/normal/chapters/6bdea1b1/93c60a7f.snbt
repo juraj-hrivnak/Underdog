@@ -1,0 +1,12 @@
+{
+	title: "Lumber",
+	x: -1.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "a97accfb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lumber_sacred_oak"
+		}]
+	}]
+}
