@@ -13,7 +13,7 @@ mapping.setRankIcon(3, "minecraft:textures/items/compass_20.png");
 mapping.setRankIcon(4, "minecraft:textures/items/compass_20.png");
 mapping.setRankIcon(5, "minecraft:textures/items/compass_20.png");
 mapping.setRankIcon(6, "minecraft:textures/items/compass_20.png");
-<skill:compatskills:mapping>.setCap(3);
+<skill:compatskills:mapping>.setCap(16);
 <skill:compatskills:mapping>.setSkillPointInterval(1);
 
 /*
