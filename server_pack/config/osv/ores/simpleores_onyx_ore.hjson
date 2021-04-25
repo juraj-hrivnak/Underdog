@@ -1,0 +1,30 @@
+name: simpleores_onyx_ore
+mod: simpleores
+block: {
+  location: simpleores:onyx_ore
+  hardness: 7
+  level: 3
+}
+loot: [
+  {
+    item: simpleores:onyx_gem
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+}
+recipe: {
+  result: simpleores:onyx_gem
+  xp: 0.699999988079071
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 1, 127 ]
+    size: 6
+    count: 6
+  }
+]

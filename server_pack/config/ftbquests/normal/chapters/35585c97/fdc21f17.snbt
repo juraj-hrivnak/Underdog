@@ -1,0 +1,15 @@
+{
+	x: -1.5d,
+	y: -1.0d,
+	dependencies: [
+		"a2baa802"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "dfef627f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}]
+}

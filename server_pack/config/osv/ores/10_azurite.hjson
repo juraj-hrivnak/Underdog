@@ -1,0 +1,34 @@
+
+{
+  name: _azurite
+  mod: geolosys
+  block: {
+    location: geolosys:ore:3
+    level: 0
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 30
+    hardness: 5
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {
+    shade: true
+    original: geolosys:blocks/azurite
+  }
+  recipe: {
+    result: minecraft:air
+    xp: 0
+    quantity: 0
+  }
+  loot: [
+    {
+      item: geolosys:cluster:2
+      count: [ 1, 1 ]
+      xp: [ 0, 0 ]
+      chance: 1
+    }
+  ]
+}

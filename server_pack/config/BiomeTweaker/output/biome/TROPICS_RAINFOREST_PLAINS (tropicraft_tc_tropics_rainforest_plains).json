@@ -1,0 +1,112 @@
+
+{
+  "ID": 118,
+  "Name": "TROPICS_RAINFOREST_PLAINS",
+  "Resource Location": "tropicraft:tc_tropics_rainforest_plains",
+  "Class": "net.tropicraft.core.common.biome.BiomeRainforest",
+  "Root Height": 0.25,
+  "Height Variation": 0.1,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 1.5,
+  "Humidity": 2.0,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "PLAINS",
+    "WET",
+    "HOT"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityParrot",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.passive.EntityVMonkey",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityParrot",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityIguana",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityTropiCreeper",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityEIH",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityTropiSkeleton",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityAshenHunter",
+      "Weight": 6,
+      "Min Group Count": 3,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityTreeFrog",
+      "Weight": 25,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityTropiSpider",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

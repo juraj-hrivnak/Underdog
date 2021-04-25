@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "f5939b0a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "d81ba407",
+		type: "xp",
+		xp: 20
+	}]
+}

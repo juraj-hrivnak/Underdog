@@ -1,0 +1,27 @@
+{
+	title: "Lumber",
+	x: -1.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "cbe94313",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lumber_vanilla_oak"
+		}]
+	}],
+	rewards: [{
+		uid: "dd18b03f",
+		type: "item",
+		item: "tconstruct:materials 1 16"
+	},
+	{
+		uid: "677d0359",
+		type: "item",
+		item: {
+			id: "tconstruct:pan_head",
+			tag: {
+				Material: "firewood"
+			}
+		}
+	}]
+}

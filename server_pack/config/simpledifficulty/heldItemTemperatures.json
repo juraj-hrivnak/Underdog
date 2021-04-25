@@ -1,0 +1,222 @@
+{
+  "harvestcraft:candledeco9": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "realistictorches:torch_lit": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco5": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "tconstruct:firewood_slab": [
+    {
+      "identity": {
+        "metadata": 0
+      },
+      "temperature": 2.0
+    },
+    {
+      "identity": {
+        "metadata": 1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "harvestcraft:candledeco6": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:magma": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 3.0
+    }
+  ],
+  "harvestcraft:candledeco7": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco8": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco1": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco2": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:torch": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco3": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco4": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco14": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco15": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco16": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "tconstruct:lavawood_stairs": [
+    {
+      "identity": {
+        "metadata": 0
+      },
+      "temperature": 2.0
+    }
+  ],
+  "rustic:candle": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco10": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "rustic:candle_gold": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco11": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco12": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco13": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "tconstruct:firewood": [
+    {
+      "identity": {
+        "metadata": 0
+      },
+      "temperature": 2.0
+    },
+    {
+      "identity": {
+        "metadata": 1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "tconstruct:firewood_stairs": [
+    {
+      "identity": {
+        "metadata": 0
+      },
+      "temperature": 2.0
+    }
+  ],
+  "tconstruct:stone_torch": [
+    {
+      "identity": {
+        "metadata": 0
+      },
+      "temperature": 1.0
+    }
+  ]
+}

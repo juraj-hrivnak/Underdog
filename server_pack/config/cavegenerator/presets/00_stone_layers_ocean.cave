@@ -1,0 +1,44 @@
+{
+  biomes: {
+    names: [
+      minecraft:ocean
+      minecraft:deep_ocean
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+    ]
+  }
+  stoneLayers: [
+    {
+      state: minecraft:stone:1
+      maxHeight: 26
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        minVal: 0
+        maxVal: 3
+      }
+    }
+    {
+      state: quark:limestone
+      maxHeight: 58
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        minVal: 0
+        maxVal: 3
+      }
+    }
+    {
+      state: minecraft:stone
+      maxHeight: 255
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        minVal: 0
+        maxVal: 3
+      }
+    }
+  ]
+}

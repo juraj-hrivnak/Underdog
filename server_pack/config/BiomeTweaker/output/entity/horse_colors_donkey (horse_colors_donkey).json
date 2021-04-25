@@ -1,0 +1,6 @@
+
+{
+  "Name": "horse_colors:donkey",
+  "Registry ID": "horse_colors:donkey",
+  "Class": "sekelsta.horse_colors.entity.DonkeyGeneticEntity"
+}

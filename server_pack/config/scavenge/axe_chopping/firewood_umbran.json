@@ -1,0 +1,33 @@
+{
+	"block_pools": 
+	[
+		{
+			"name": "clickOnChopped23",
+			"type": 
+				{
+					"type": "block",
+					"name": "contenttweaker:chopped_umbran_wood" 
+				},
+			"clicktype": "rightclick",
+	  		"blockRightClick": true,
+	  		"drops":
+			[
+				{
+					"name": "contenttweaker:firewood_umbran",
+					"amount": 6
+				}
+			], 
+			"properties":
+			[
+				{
+					"type": "clicks_per_time",
+					"time": 4,
+					"disableJEI": true
+				},
+				{
+					"type": "consume_block"
+				}
+			]
+		}
+	]
+}

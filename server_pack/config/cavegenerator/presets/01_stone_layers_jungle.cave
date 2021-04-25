@@ -1,0 +1,64 @@
+{
+  biomes: {
+    names: [
+      minecraft:smaller_extreme_hills
+      minecraft:jungle
+      minecraft:jungle_hills
+      minecraft:jungle_edge
+      minecraft:mutated_jungle
+      minecraft:mutated_jungle_edge
+    ]
+  }
+  stoneLayers: [
+    {
+      state: minecraft:stone:1
+      maxHeight: 32
+      noise2D: {
+        scale: 0.9
+        frequency: 0.019
+        minVal: -8
+        maxVal: 8
+      }
+    }
+    {
+      state: minecraft:stone:3
+      maxHeight: 58
+      noise2D: {
+        scale: 0.9
+        frequency: 0.019
+        minVal: -8
+        maxVal: 8
+      }
+    }
+    {
+      state: minecraft:stone:5
+      maxHeight: 64
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        minVal: -3
+        maxVal: 3
+      }
+    }
+    {
+      state: minecraft:stone:3
+      maxHeight: 150
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        minVal: 0
+        maxVal: 3
+      }
+    }
+    {
+      state: minecraft:stone
+      maxHeight: 255
+      noise2D: {
+        scale: 0.9
+        frequency: 0.017
+        minVal: -4
+        maxVal: 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# TFC blocks
+stone=:stone
+dirt=:dirt
+grass=:grass
+leaves=:treeLeaves
+water=tfc:fluid/salt_water,tfc:fluid/fresh_water,tfc:fluid/hot_water
+sand=:sand
+ice=tfc:sea_ice
+
+# Items
+iron_axe=:hammer
+wooden_sword=:knife,:javelin,:chisel
