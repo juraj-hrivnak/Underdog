@@ -1,11 +1,11 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.52816904
+mouseSensitivity:0.5
 fov:0.75
 gamma:1.0
 saturation:0.0
 renderDistance:10
-guiScale:3
+guiScale:0
 particles:0
 bobView:true
 anaglyph3d:false
@@ -15,8 +15,8 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["mat_zen-35-1.2.1.zip","AntiqueAtlasExtra-v1.2.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["mat_zen-35-1.2.1.zip","AntiqueAtlasExtra-v1.2.zip","underdog_stone_texture_improvements.zip"]
+incompatibleResourcePacks:["ERP-V1.8.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0

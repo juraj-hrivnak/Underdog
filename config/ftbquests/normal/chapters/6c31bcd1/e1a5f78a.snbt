@@ -1,6 +1,7 @@
 {
 	title: "Exploration",
 	icon: "harvestcraft:dragonfruititem",
+	disable_toast: true,
 	x: -6.0d,
 	y: -1.5d,
 	text: [
