@@ -15,6 +15,13 @@ config/Weather2/EZGUIConfigServerData.dat
 config/Weather2/EZGUIConfigClientData.dat
 config/Weather2/EZGUIConfigServerData.dat
 
+# Instance Sync
+**/*.jar
+!InstanceSync*.jar
+**/*.jar.disabled
+**/*.jar.meta
+#
+
 mods/
 saves/
 screenshots/
@@ -30,8 +37,12 @@ crash-reports/
 coremods/
 .mixin.out/
 
+**/*.log
+/downloads
+.curseclient
+options.txt
+
 .ReAuth.cfg
-crafttweaker.log
 usernamecache.json
 usercache.json
 servers.dat
