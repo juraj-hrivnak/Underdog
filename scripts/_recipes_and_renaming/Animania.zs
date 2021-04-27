@@ -1,4 +1,4 @@
-#modloaded antiqueatlas
+#modloaded animania cuisine
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
@@ -10,12 +10,13 @@ val knifeCarving = {
     <animania:jersey_cheese_wedge> : <animania:jersey_cheese_wheel>,
     <animania:goat_cheese_wedge> : <animania:goat_cheese_wheel>,
     <animania:sheep_cheese_wedge> : <animania:sheep_cheese_wheel>,
-    <animania:raw_prime_pork> : <animania:raw_prime_bacon>,
+    <animania:raw_prime_bacon> : <animania:raw_prime_pork>,
     <animania:raw_prime_beef> : <animania:raw_prime_steak>,
-    <charcoal_pit:straw> : <animania:block_straw>,
-    <minecraft:wheat> : <animania:block_straw>
+    <animania:block_straw> : <charcoal_pit:straw>,
+    <animania:block_straw> : <minecraft:wheat>
 } as IItemStack[IItemStack];
 
 for piece, full in knifeCarving {
+    recipes.remove(piece);
     recipes.addShapeless(piece * 4, [ <cuisine:kitchen_knife>, full ]);
 }
