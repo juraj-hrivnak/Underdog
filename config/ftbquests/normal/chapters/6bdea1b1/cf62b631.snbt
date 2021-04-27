@@ -1,7 +1,8 @@
 {
 	title: "Too hot?",
-	x: 0.0d,
-	y: -1.5d,
+	x: -0.7397959183673493d,
+	y: -1.8673469387755155d,
+	shape: "hexagon",
 	tasks: [{
 		uid: "cec8be45",
 		type: "item",

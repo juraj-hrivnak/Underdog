@@ -1,0 +1,7 @@
+{
+	title: "Forestry",
+	icon: "forestry:apiary",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

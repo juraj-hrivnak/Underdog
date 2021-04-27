@@ -1,12 +1,25 @@
 {
 	title: "Lumber",
-	x: -1.0d,
-	y: -0.5d,
+	icon: "contenttweaker:lumber_sacred_oak",
+	x: -0.7193877551020407d,
+	y: -0.5408163265306101d,
+	shape: "hexagon",
 	tasks: [{
 		uid: "cbe94313",
 		type: "item",
 		items: [{
-			item: "contenttweaker:lumber_vanilla_oak"
+			ForgeCaps: {
+				Parent: {
+					data: "lumber",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any lumber"
+				}
+			}
 		}]
 	}],
 	rewards: [{

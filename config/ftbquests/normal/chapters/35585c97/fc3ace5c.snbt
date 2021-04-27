@@ -1,6 +1,7 @@
 {
+	title: "Aloy Kiln",
 	x: -1.5d,
-	y: 0.0d,
+	y: -1.0d,
 	dependencies: [
 		"a2baa802"
 	],

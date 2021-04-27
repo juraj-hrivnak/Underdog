@@ -13,8 +13,8 @@
 		},
 		id: "immersiveengineering:drill"
 	},
-	x: -3.5d,
-	y: -0.5d,
+	x: -4.0d,
+	y: -2.0d,
 	dependencies: [
 		"fdc21f17"
 	],
