@@ -16,6 +16,7 @@ config/Weather2/EZGUIConfigClientData.dat
 config/Weather2/EZGUIConfigServerData.dat
 
 # Instance Sync
+automation/
 **/*.jar
 !InstanceSync*.jar
 **/*.jar.disabled
