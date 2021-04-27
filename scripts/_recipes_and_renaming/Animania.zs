@@ -11,7 +11,7 @@ val knifeCarving = {
     <animania:goat_cheese_wedge> : <animania:goat_cheese_wheel>,
     <animania:sheep_cheese_wedge> : <animania:sheep_cheese_wheel>,
     <animania:raw_prime_bacon> : <animania:raw_prime_pork>,
-    <animania:raw_prime_beef> : <animania:raw_prime_steak>,
+    <animania:raw_prime_steak> : <animania:raw_prime_beef>,
     <animania:block_straw> : <charcoal_pit:straw>,
     <animania:block_straw> : <minecraft:wheat>
 } as IItemStack[IItemStack];
