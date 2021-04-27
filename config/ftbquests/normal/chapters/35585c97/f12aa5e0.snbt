@@ -1,6 +1,7 @@
 {
-	x: -5.0d,
-	y: -2.0d,
+	icon: "immersiveengineering:toolupgrade 1 3",
+	x: -4.0d,
+	y: -4.5d,
 	dependencies: [
 		"ba7d04b5"
 	],

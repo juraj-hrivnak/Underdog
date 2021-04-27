@@ -1,0 +1,13 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "b5cd3204",
+		type: "item",
+		items: [{
+			item: "forestry:scoop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
