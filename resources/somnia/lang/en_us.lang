@@ -16,11 +16,11 @@ somnia.status.not_now=Something is keeping you awake
 somnia.status.waiting=Waiting for server
 somnia.status.waiting_players=Waiting for other players to sleep
 
-somnia.side_effect.0=§7Wide Awake
-somnia.side_effect.1=§7Tired
-somnia.side_effect.2=§7Exhausted
-somnia.side_effect.3=§7Sleep Deprived
-somnia.side_effect.4=§7Fading
+somnia.side_effect.0=
+somnia.side_effect.1=Tired
+somnia.side_effect.2=Exhausted
+somnia.side_effect.3=§cSleep Deprived
+somnia.side_effect.4=§cFading
 
 somnia.effect.awakening=Wakefulness
 potion.effect.awakening=Wakefulness Potion
