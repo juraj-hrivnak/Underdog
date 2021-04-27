@@ -1,0 +1,6 @@
+
+{
+  "Name": "animania:ewe_dorper",
+  "Registry ID": "animania:ewe_dorper",
+  "Class": "com.animania.addons.farm.common.entity.sheep.SheepDorper.EntityEweDorper"
+}

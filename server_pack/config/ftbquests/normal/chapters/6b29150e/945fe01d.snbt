@@ -1,0 +1,11 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "03a094f7",
+		type: "item",
+		items: [{
+			item: "cuisine:mill"
+		}]
+	}]
+}

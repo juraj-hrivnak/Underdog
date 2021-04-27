@@ -1,0 +1,125 @@
+
+{
+  "ID": 167,
+  "Name": "Mesa Plateau M",
+  "Resource Location": "minecraft:mutated_mesa_clear_rock",
+  "Class": "net.minecraft.world.biome.BiomeMesa",
+  "Root Height": 0.45,
+  "Height Variation": 0.3,
+  "Top Block": "minecraft:sand[variant\u003dred_sand]",
+  "Filler Block": "minecraft:stained_hardened_clay[color\u003dwhite]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 2.0,
+  "Humidity": 0.0,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "SPARSE",
+    "RARE",
+    "MOUNTAIN",
+    "DRY",
+    "HOT"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      1
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.animania.addons.catsdogs.common.entity.canids.DogWolf$EntityFemaleWolf",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.catsdogs.common.entity.felids.CatOcelot$EntityQueenOcelot",
+      "Weight": 20,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.rodents.rabbits.RabbitHavana$EntityRabbitDoeHavana",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.pigs.PigHampshire$EntitySowHampshire",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.chickens.ChickenPlymouthRock$EntityHenPlymouthRock",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowHereford$EntityCowHereford",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowHighland$EntityCowHighland",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.goats.GoatAlpine$EntityDoeAlpine",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.goats.GoatKiko$EntityDoeKiko",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

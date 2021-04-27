@@ -1,0 +1,47 @@
+{
+  biomes: {
+    names: [
+      minecraft:mutated_mesa
+      minecraft:mutated_mesa_rock
+      minecraft:mutated_mesa_clear_rock
+      biomesoplenty:xeric_shrubland
+      biomesoplenty:wasteland
+      biomesoplenty:tundra
+      biomesoplenty:steppe
+      biomesoplenty:prairie
+      biomesoplenty:brushland
+    ]
+  }
+  stoneLayers: [
+    {
+      state: minecraft:stone:1
+      maxHeight: 70
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        minVal: 0
+        maxVal: 3
+      }
+    }
+    {
+      state: projectred-exploration:stone:3
+      maxHeight: 120
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        minVal: -1
+        maxVal: 1
+      }
+    }
+    {
+      state: biomesoplenty:dried_sand
+      maxHeight: 255
+      noise2D: {
+        scale: 0.9
+        frequency: 0.015
+        minVal: -1
+        maxVal: 1
+      }
+    }
+  ]
+}

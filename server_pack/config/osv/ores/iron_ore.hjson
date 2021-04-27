@@ -1,0 +1,31 @@
+name: iron_ore
+mod: minecraft
+block: {
+  location: iron_ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: iron_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/iron_ore
+}
+recipe: {
+  result: iron_ingot
+  xp: 0.699999988079071
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 64 ]
+    size: 9
+    count: 20
+  }
+]

@@ -1,0 +1,11 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "4899d0ec",
+		type: "item",
+		items: [{
+			item: "immersivetech:stone_multiblock"
+		}]
+	}]
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "animania:tom_ragdoll",
+  "Registry ID": "animania:tom_ragdoll",
+  "Class": "com.animania.addons.catsdogs.common.entity.felids.CatRagdoll.EntityTomRagdoll"
+}

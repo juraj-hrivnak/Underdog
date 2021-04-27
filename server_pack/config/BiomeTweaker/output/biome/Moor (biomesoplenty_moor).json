@@ -1,0 +1,359 @@
+
+{
+  "ID": 70,
+  "Name": "Moor",
+  "Resource Location": "biomesoplenty:moor",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenMoor",
+  "Root Height": 1.3529412,
+  "Height Variation": 0.118750006,
+  "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dloamy]",
+  "Filler Block": "biomesoplenty:dirt[coarse\u003dfalse,variant\u003dloamy]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "5800566",
+  "Temperature": 0.6,
+  "Humidity": 1.0,
+  "Water Tint": 5800566,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WET",
+    "SWAMP",
+    "HILLS"
+  ],
+  "BiomeManager Entries": {
+    "WARM Weights": [
+      0
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.rodents.EntityHedgehogAlbino",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.amphibians.EntityToad",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.amphibians.EntityFrogs",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.rodents.rabbits.RabbitHavana$EntityRabbitDoeHavana",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlCharcoal$EntityPeacockCharcoal",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlCharcoal$EntityPeafowlCharcoal",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlCharcoal$EntityPeachickCharcoal",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlOpal$EntityPeacockOpal",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlOpal$EntityPeafowlOpal",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlOpal$EntityPeachickOpal",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlPeach$EntityPeacockPeach",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlPeach$EntityPeafowlPeach",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlPeach$EntityPeachickPeach",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlPurple$EntityPeacockPurple",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlPurple$EntityPeafowlPurple",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlPurple$EntityPeachickPurple",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlTaupe$EntityPeacockTaupe",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlTaupe$EntityPeafowlTaupe",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlTaupe$EntityPeachickTaupe",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlBlue$EntityPeacockBlue",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlBlue$EntityPeafowlBlue",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlBlue$EntityPeachickBlue",
+      "Weight": 4,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlWhite$EntityPeacockWhite",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlWhite$EntityPeafowlWhite",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.peafowl.PeafowlWhite$EntityPeachickWhite",
+      "Weight": 4,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.pigs.PigLargeBlack$EntitySowLargeBlack",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.pigs.PigHampshire$EntitySowHampshire",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.chickens.ChickenOrpington$EntityHenOrpington",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowAngus$EntityCowAngus",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowHereford$EntityCowHereford",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowHighland$EntityCowHighland",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowJersey$EntityCowJersey",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.goats.GoatAlpine$EntityDoeAlpine",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.goats.GoatKiko$EntityDoeKiko",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.sheep.SheepDorset$EntityEweDorset",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "LILYPAD Generators": [
+      {
+        "ID": "flora",
+        "Name": "algae"
+      }
+    ],
+    "FLOWERS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "flowers"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      },
+      {
+        "ID": "double_flora",
+        "Name": "flax"
+      },
+      {
+        "ID": "flora",
+        "Name": "koru"
+      }
+    ],
+    "GRASS Generators": [
+      {
+        "ID": "weighted",
+        "Name": "grass"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "ore_single",
+        "Name": "malachite"
+      },
+      {
+        "ID": "lakes",
+        "Name": "lakes"
+      }
+    ],
+    "SAND_PASS2 Generators": [
+      {
+        "ID": "waterside",
+        "Name": "mud"
+      }
+    ],
+    "SHROOM Generators": [
+      {
+        "ID": "flora",
+        "Name": "brown_mushrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "red_mushrooms"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "COLD_SWAMP": 5
+  },
+  "BOP Climate Weights": {
+    "COLD_SWAMP": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

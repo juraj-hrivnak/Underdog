@@ -1,0 +1,214 @@
+
+{
+  "ID": 95,
+  "Name": "AlpsFoothills",
+  "Resource Location": "biomesoplenty:alps_foothills",
+  "Class": "biomesoplenty.common.biome.overworld.BiomeGenAlps",
+  "Root Height": 3.235294,
+  "Height Variation": 1.45625,
+  "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dovergrown_stone]",
+  "Filler Block": "minecraft:stone[variant\u003dstone]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": -0.25,
+  "Humidity": 0.3,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": true,
+  "Dictionary Types": [
+    "SNOWY",
+    "COLD",
+    "SPARSE",
+    "MOUNTAIN",
+    "DRY",
+    "FOREST"
+  ],
+  "BiomeManager Entries": {
+    "ICY Weights": [
+      4
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityLlama",
+      "Weight": 5,
+      "Min Group Count": 4,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "com.animania.addons.catsdogs.common.entity.canids.DogWolf$EntityFemaleWolf",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.catsdogs.common.entity.canids.DogFox$EntityFemaleFox",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.rodents.EntityHedgehog",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.amphibians.EntityToad",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.amphibians.EntityDartFrogs",
+      "Weight": 18,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.rodents.rabbits.RabbitCottonail$EntityRabbitDoeCottontail",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.rodents.rabbits.RabbitHavana$EntityRabbitDoeHavana",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.rodents.rabbits.RabbitNewZealand$EntityRabbitDoeNewZealand",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.extra.common.entity.rodents.rabbits.RabbitLop$EntityRabbitDoeLop",
+      "Weight": 4,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.pigs.PigOldSpot$EntitySowOldSpot",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.pigs.PigLargeWhite$EntitySowLargeWhite",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.pigs.PigHampshire$EntitySowHampshire",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.chickens.ChickenPlymouthRock$EntityHenPlymouthRock",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.chickens.ChickenWyandotte$EntityHenWyandotte",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.chickens.ChickenRhodeIslandRed$EntityHenRhodeIslandRed",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowHolstein$EntityCowHolstein",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowHereford$EntityCowHereford",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowHighland$EntityCowHighland",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.goats.GoatAlpine$EntityDoeAlpine",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.goats.GoatKiko$EntityDoeKiko",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.sheep.SheepJacob$EntityEweJacob",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "lakes",
+        "Name": "hot_springs"
+      },
+      {
+        "ID": "ore_single",
+        "Name": "emeralds"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

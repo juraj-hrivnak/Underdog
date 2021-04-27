@@ -1,0 +1,57 @@
+{
+	"populate": {
+		"bamboo_jungle": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "tropicraft:bamboo_shoot"
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:air"
+					},
+					{
+						"name": "minecraft:tallgrass"
+					}
+				],
+				"surface": [
+					"minecraft:sand",
+					"minecraft:grass",
+					"minecraft:dirt",
+					"biomesoplenty:grass",
+					"biomesoplenty:dirt"
+				],
+				"cluster-size": 40,
+				"stack-height": {
+					"min": 7,
+					"max": 18
+				},
+				"check-stay": false
+			},
+			"cluster-count": 5,
+			"chunk-chance": 40,
+			"min-height": 50,
+			"max-height": 256,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"JUNGLE"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	title: "Too hot?",
+	x: 0.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "cec8be45",
+		type: "item",
+		items: [{
+			item: "dawnoftimebuilder:bamboo_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4b5a0c4b",
+		type: "xp",
+		xp: 20
+	}]
+}

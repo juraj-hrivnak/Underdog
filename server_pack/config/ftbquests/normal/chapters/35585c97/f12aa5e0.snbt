@@ -1,0 +1,54 @@
+{
+	x: -4.5d,
+	y: -0.5d,
+	dependencies: [
+		"ba7d04b5"
+	],
+	tasks: [{
+		uid: "69fa5b03",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:drillhead"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ee376815",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:toolupgrade 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f324a05",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:toolupgrade 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "280edd5b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:toolupgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "b6cbf7b4",
+		type: "item",
+		item: {
+			id: "immersiveengineering:shader_bag",
+			tag: {
+				rarity: "RARE"
+			}
+		}
+	},
+	{
+		uid: "9f9d5da1",
+		type: "item",
+		item: "immersiveengineering:metal 1 38",
+		count: 32
+	}]
+}

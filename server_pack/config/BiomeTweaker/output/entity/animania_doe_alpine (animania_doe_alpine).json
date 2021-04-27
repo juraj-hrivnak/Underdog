@@ -1,0 +1,6 @@
+
+{
+  "Name": "animania:doe_alpine",
+  "Registry ID": "animania:doe_alpine",
+  "Class": "com.animania.addons.farm.common.entity.goats.GoatAlpine.EntityDoeAlpine"
+}

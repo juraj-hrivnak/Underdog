@@ -1,0 +1,31 @@
+name: diamond_ore
+mod: minecraft
+block: {
+  location: diamond_ore
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: diamond
+    count: [ 1, 1 ]
+    xp: [ 3, 7 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/diamond_ore
+}
+recipe: {
+  result: diamond
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 16 ]
+    size: 8
+    count: 1
+  }
+]

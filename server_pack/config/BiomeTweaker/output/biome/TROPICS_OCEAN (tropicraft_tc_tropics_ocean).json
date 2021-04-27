@@ -1,0 +1,163 @@
+
+{
+  "ID": 115,
+  "Name": "TROPICS_OCEAN",
+  "Resource Location": "tropicraft:tc_tropics_ocean",
+  "Class": "net.tropicraft.core.common.biome.BiomeTropicraft$1",
+  "Root Height": -1.0,
+  "Height Variation": 0.4,
+  "Top Block": "tropicraft:sand[underwater\u003dfalse,variant\u003dpurified]",
+  "Filler Block": "tropicraft:sand[underwater\u003dfalse,variant\u003dpurified]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 1.5,
+  "Humidity": 1.25,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "OCEAN",
+    "WET",
+    "HOT",
+    "HILLS",
+    "WATER"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityParrot",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.passive.EntityVMonkey",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityIguana",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityTropiCreeper",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityEIH",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityTropiSkeleton",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.hostile.EntityAshenHunter",
+      "Weight": 6,
+      "Min Group Count": 3,
+      "Max Group Count": 10
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.passive.EntityFailgull",
+      "Weight": 30,
+      "Min Group Count": 5,
+      "Max Group Count": 15
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.atlantoku.EntitySeahorse",
+      "Weight": 6,
+      "Min Group Count": 6,
+      "Max Group Count": 12
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.atlantoku.EntityMarlin",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.EntityManOWar",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.EntityStarfish",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.EntitySeaUrchin",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.atlantoku.EntityDolphin",
+      "Weight": 3,
+      "Min Group Count": 4,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.EntitySeaTurtle",
+      "Weight": 6,
+      "Min Group Count": 3,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.atlantoku.EntityTropicalFish",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.atlantoku.EntityEagleRay",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.tropicraft.core.common.entity.underdasea.atlantoku.EntityShark",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

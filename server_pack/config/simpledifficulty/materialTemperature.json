@@ -1,0 +1,4 @@
+{
+  "_comment": "Adding materials is not supported, this just changes Material.FIRE temperature",
+  "fire": 5.0
+}
