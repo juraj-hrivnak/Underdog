@@ -1,5 +1,5 @@
 {
-	x: -2.5d,
+	x: -4.0d,
 	y: 0.0d,
 	dependencies: [
 		"410c58a4"
@@ -9,6 +9,12 @@
 		type: "item",
 		items: [{
 			item: "immersiveengineering:metal_device1"
-		}]
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "f7984920",
+		type: "choice",
+		table: 0
 	}]
 }

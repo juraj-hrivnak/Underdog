@@ -1,8 +1,7 @@
 {
 	disable_toast: true,
-	x: -0.4761904761904674d,
-	y: -2.2119047619047656d,
-	size: 1.2d,
+	x: -0.5d,
+	y: -2.0d,
 	tasks: [{
 		uid: "aa673506",
 		type: "checkmark",

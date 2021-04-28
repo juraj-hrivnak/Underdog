@@ -1,5 +1,5 @@
 {
-	x: -2.5d,
+	x: -4.0d,
 	y: 1.0d,
 	dependencies: [
 		"f72d336c"
@@ -9,6 +9,12 @@
 		type: "item",
 		items: [{
 			item: "immersivetech:metal_device"
-		}]
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d1ed3a27",
+		type: "choice",
+		table: 0
 	}]
 }

@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "41e77bf9",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "molds"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

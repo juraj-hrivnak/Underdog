@@ -8,3 +8,6 @@ recipes.addShapedMirrored(<antiqueatlas:empty_antique_atlas>, [
     [<ore:paper>, <ore:paper>],
     [<ore:leather>, <ore:leather>]
 ]);
+
+<antiqueatlas:empty_antique_atlas>.displayName = "§aAtlas";
+<antiqueatlas:antique_atlas>.displayName = "§aAtlas";

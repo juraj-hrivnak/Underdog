@@ -1,0 +1,24 @@
+{
+	title: "Rocks Gatherer",
+	x: -1.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "eb93f8b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rocksHard",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rocksHard"
+				}
+			}
+		}],
+		count: 4L
+	}]
+}
