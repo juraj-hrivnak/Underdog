@@ -15,4 +15,4 @@ There are a few things we would like testers to consider/look for:
 
 -   Bugs
 -   Things you find boring/tedious
--   Things that need small optimizations, such as advancement text and textures.
+-   Things that need small optimizations, such as quest text and textures.
