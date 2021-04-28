@@ -1,14 +1,14 @@
 {
-	x: -2.5d,
+	x: -0.5d,
 	y: -0.5d,
 	dependencies: [
-		"85001ba2"
+		"2f88b48d"
 	],
 	tasks: [{
-		uid: "03a094f7",
+		uid: "6d3f4c0d",
 		type: "item",
 		items: [{
-			item: "cuisine:mill"
+			item: "cuisine:earthen_basin"
 		}]
 	}]
 }

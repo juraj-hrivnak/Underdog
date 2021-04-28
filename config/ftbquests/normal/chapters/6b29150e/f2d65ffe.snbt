@@ -1,11 +1,14 @@
 {
 	x: -1.5d,
-	y: -1.5d,
+	y: 1.0d,
+	dependencies: [
+		"d761c876"
+	],
 	tasks: [{
-		uid: "36bcad5d",
+		uid: "1753960b",
 		type: "item",
 		items: [{
-			item: "cuisine:kitchen_knife"
+			item: "cuisine:iron_spatula"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

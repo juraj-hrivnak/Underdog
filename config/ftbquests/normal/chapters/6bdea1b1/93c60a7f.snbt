@@ -1,8 +1,8 @@
 {
 	title: "Lumber",
 	icon: "contenttweaker:lumber_sacred_oak",
-	x: -0.7193877551020407d,
-	y: -0.5408163265306101d,
+	x: 4.0d,
+	y: -3.0d,
 	shape: "hexagon",
 	tasks: [{
 		uid: "cbe94313",

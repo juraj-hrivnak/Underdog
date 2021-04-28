@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"85001ba2"
+	],
+	tasks: [{
+		uid: "f9e5e26c",
+		type: "item",
+		items: [{
+			item: "cuisine:spice_bottle"
+		}]
+	}]
+}

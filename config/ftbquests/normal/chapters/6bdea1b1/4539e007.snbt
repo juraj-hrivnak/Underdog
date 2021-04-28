@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "3a1dec19",
+		type: "item",
+		items: [{
+			item: "charcoal_pit:fire_starter"
+		}]
+	}]
+}

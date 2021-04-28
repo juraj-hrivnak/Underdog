@@ -1,25 +1,28 @@
 {
-	title: "Rocks Gatherer",
-	icon: "divergentunderground:rock_andesite",
-	x: -4.0d,
+	icon: "minecraft:stone_axe",
+	x: -2.5d,
 	y: -1.5d,
+	dependencies: [
+		"0070917c"
+	],
 	tasks: [{
-		uid: "eb93f8b6",
+		uid: "0c6103f9",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				Parent: {
-					data: "rocksHard",
+					data: "axes",
 					id: "ore"
 				}
 			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any rocksHard"
+					Name: "Any axes"
 				}
 			}
 		}],
-		count: 4L
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

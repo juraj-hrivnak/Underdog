@@ -9,5 +9,16 @@
 	disable_toast: true,
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: -5.0d,
+		y: -4.0d,
+		width: 11.61d,
+		height: 1.87d,
+		rotation: 0.0d,
+		image: "modpack:textures/gui/underdog_7.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

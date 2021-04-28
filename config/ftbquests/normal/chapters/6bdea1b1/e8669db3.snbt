@@ -1,7 +1,7 @@
 {
 	title: "Smeltery",
 	x: 1.0d,
-	y: -2.0d,
+	y: -4.0d,
 	tasks: [{
 		uid: "93003eb4",
 		type: "item",

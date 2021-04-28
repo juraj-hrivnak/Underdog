@@ -1,4 +1,5 @@
 {
+	title: "Medium Voltage",
 	x: 2.0d,
 	y: 0.0d,
 	dependencies: [
@@ -9,6 +10,20 @@
 		type: "item",
 		items: [{
 			item: "immersiveengineering:wirecoil 1 1"
+		}]
+	},
+	{
+		uid: "608de9b9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 2"
+		}]
+	},
+	{
+		uid: "ebc67485",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 3"
 		}]
 	}]
 }

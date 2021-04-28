@@ -1,4 +1,5 @@
 {
+	title: "High Voltage",
 	x: 4.5d,
 	y: 0.0d,
 	dependencies: [
@@ -9,6 +10,20 @@
 		type: "item",
 		items: [{
 			item: "immersiveengineering:wirecoil 1 2"
+		}]
+	},
+	{
+		uid: "7dd3f7f8",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 4"
+		}]
+	},
+	{
+		uid: "133094b7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 5"
 		}]
 	}]
 }

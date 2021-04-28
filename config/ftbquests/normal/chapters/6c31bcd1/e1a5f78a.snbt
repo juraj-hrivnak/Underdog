@@ -15,8 +15,8 @@
 		type: "checkmark"
 	}],
 	rewards: [{
-		uid: "52fa8082",
-		type: "loot",
+		uid: "6c68e5b2",
+		type: "choice",
 		table: 0
 	}]
 }

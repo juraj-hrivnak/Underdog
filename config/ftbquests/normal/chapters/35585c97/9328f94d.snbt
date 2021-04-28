@@ -1,6 +1,6 @@
 {
-	x: 0.5d,
-	y: -1.0d,
+	x: 1.5d,
+	y: -2.5d,
 	dependencies: [
 		"a2baa802"
 	],
@@ -15,13 +15,18 @@
 		}]
 	}],
 	rewards: [{
-		uid: "95fef831",
-		type: "choice",
-		table: 0
-	},
-	{
 		uid: "1ba8154e",
 		type: "xp",
 		xp: 50
+	},
+	{
+		uid: "8a2fb0f4",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "46b2371b",
+		type: "random",
+		table: 0
 	}]
 }

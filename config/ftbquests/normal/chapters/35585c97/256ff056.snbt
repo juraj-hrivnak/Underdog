@@ -1,4 +1,5 @@
 {
+	title: "Low Voltage",
 	x: -0.5d,
 	y: 0.0d,
 	dependencies: [
@@ -9,6 +10,20 @@
 		type: "item",
 		items: [{
 			item: "immersiveengineering:wirecoil"
+		}]
+	},
+	{
+		uid: "4e3b5658",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector"
+		}]
+	},
+	{
+		uid: "afc06f29",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 1"
 		}]
 	}]
 }

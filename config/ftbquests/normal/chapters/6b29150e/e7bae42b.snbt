@@ -1,0 +1,22 @@
+{
+	icon: "cuisine:wooden_basin",
+	x: -3.5d,
+	y: -0.5d,
+	dependencies: [
+		"945fe01d"
+	],
+	tasks: [{
+		uid: "64ffd53e",
+		type: "item",
+		items: [{
+			item: "cuisine:wooden_basin"
+		}]
+	},
+	{
+		uid: "afbce3df",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}]
+}

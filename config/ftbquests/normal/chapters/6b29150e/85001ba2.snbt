@@ -1,0 +1,15 @@
+{
+	title: "Cuisine",
+	x: -2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "785b2f24",
+		type: "checkmark",
+		icon: "cuisine:kitchen_knife"
+	}],
+	rewards: [{
+		uid: "510993bc",
+		type: "item",
+		item: "cuisine:kitchen_knife"
+	}]
+}
