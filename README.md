@@ -17,6 +17,7 @@ There are a few things we would like testers to consider/look for:
 -   Things you find boring/tedious
 -   Things that need small optimizations, such as quest text and textures.
 
+***
 ## Making server pack
 
 Some mods will crash the game if you run them on server. So they must be romoved.
@@ -30,7 +31,7 @@ Folowing mods must be removed:
 - Journey Map Stages
 - Tips
 
-Only thease folders are neceseary on the server:
+Folowing folder are required on the server:
 - config
 - mods
 - scripts
