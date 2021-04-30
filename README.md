@@ -16,3 +16,22 @@ There are a few things we would like testers to consider/look for:
 -   Bugs
 -   Things you find boring/tedious
 -   Things that need small optimizations, such as quest text and textures.
+
+## Making server pack
+
+Some mods will crash the game if you run them on server. So they must be romoved.
+Also everithing around resources is not neceseary to run on server.
+
+Folowing mods must be removed:
+- Custom Main Menu
+- Resource Loader
+- Matmos
+- Journey Map
+- Journey Map Stages
+- Tips
+
+Only thease folders are neceseary on the server:
+- config
+- mods
+- scripts
+- structures
