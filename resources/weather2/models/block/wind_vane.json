@@ -2,19 +2,18 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/cube_all",
 	"textures": {
-		"1": "weather2:blocks/wind_vane2",
 		"all": "weather2:blocks/wind_vane",
 		"particle": "weather2:blocks/wind_vane2"
 	},
 	"elements": [
 		{
-			"from": [4.75, 9.75, 8.25],
-			"to": [13.75, 17.75, 8.25],
+			"from": [4, 10.25, 8.25],
+			"to": [12, 17.25, 8.25],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 12.5, 8.25]},
 			"faces": {
-				"north": {"uv": [1, 9, 4, 15], "texture": "#1", "tintindex": 0},
+				"north": {"uv": [0, 0, 16, 16], "texture": "#all", "tintindex": 0},
 				"east": {"uv": [0, 0, 1, 10], "texture": "#missing"},
-				"south": {"uv": [4, 9, 7, 15], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#all", "tintindex": 0},
 				"west": {"uv": [0, 0, 1, 10], "texture": "#missing"},
 				"up": {"uv": [0, 0, 1, 9], "rotation": 90, "texture": "#missing"},
 				"down": {"uv": [0, 0, 1, 9], "rotation": 270, "texture": "#missing"}
