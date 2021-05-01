@@ -13,10 +13,5 @@
 	tasks: [{
 		uid: "67a4596d",
 		type: "checkmark"
-	}],
-	rewards: [{
-		uid: "6c68e5b2",
-		type: "choice",
-		table: 0
 	}]
 }

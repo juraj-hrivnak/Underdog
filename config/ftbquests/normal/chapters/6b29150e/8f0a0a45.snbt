@@ -1,7 +1,6 @@
 {
 	x: -1.0d,
 	y: -2.0d,
-	hide_dependency_lines: true,
 	dependencies: [
 		"85001ba2"
 	],

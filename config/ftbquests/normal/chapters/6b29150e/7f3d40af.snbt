@@ -1,14 +1,14 @@
 {
-	x: -1.0d,
-	y: -0.5d,
+	x: -2.5d,
+	y: 1.0d,
 	dependencies: [
 		"945fe01d"
 	],
 	tasks: [{
-		uid: "cf683b22",
+		uid: "52e5c72a",
 		type: "item",
 		items: [{
-			item: "cuisine:mortar"
+			item: "cuisine:material"
 		}]
 	}]
 }

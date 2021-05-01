@@ -1,0 +1,12 @@
+{
+	icon: "cuisine:food",
+	x: -4.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "537afa01",
+		type: "item",
+		items: [{
+			item: "cuisine:tofu_block"
+		}]
+	}]
+}

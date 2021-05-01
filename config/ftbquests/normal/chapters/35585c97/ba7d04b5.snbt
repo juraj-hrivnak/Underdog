@@ -51,11 +51,6 @@
 		}
 	},
 	{
-		uid: "42dd6e1c",
-		type: "random",
-		table: 0
-	},
-	{
 		uid: "760785ea",
 		type: "xp",
 		xp: 50

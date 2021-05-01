@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "f89e3a87",
+		type: "checkmark",
+		title: "Forestry",
+		icon: "forestry:scoop"
+	}],
+	rewards: [{
+		uid: "6e40bf31",
+		type: "item",
+		item: "forestry:scoop"
+	},
+	{
+		uid: "d4b10495",
+		type: "item",
+		item: "forestry:book_forester"
+	}]
+}

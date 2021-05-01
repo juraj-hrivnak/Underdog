@@ -1,7 +1,7 @@
 {
 	title: "Cuisine",
 	x: -2.5d,
-	y: -1.5d,
+	y: -2.0d,
 	tasks: [{
 		uid: "785b2f24",
 		type: "checkmark",
@@ -11,5 +11,10 @@
 		uid: "510993bc",
 		type: "item",
 		item: "cuisine:kitchen_knife"
+	},
+	{
+		uid: "75c526df",
+		type: "item",
+		item: "cuisine:manual"
 	}]
 }

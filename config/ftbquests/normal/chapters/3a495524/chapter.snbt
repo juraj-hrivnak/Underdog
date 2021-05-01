@@ -1,0 +1,7 @@
+{
+	title: "Meteorology",
+	icon: "weather2:anemometer",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
