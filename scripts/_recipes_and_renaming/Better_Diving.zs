@@ -2,7 +2,7 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-val itemsToRemove = [
+val itemsToRemove as IItemStack[] = [
     <better_diving:diving_mask>,
     <better_diving:reinforced_diving_mask>,
     <better_diving:rebreather>,
@@ -10,7 +10,5 @@ val itemsToRemove = [
     <better_diving:high_capacity_o2_tank>,
     <better_diving:reinforced_o2_tank>,
     <better_diving:seamoth>
-] as IItemStack[];
-
-for i in itemsToRemove {rh(i);}
+]; for i in itemsToRemove { rh(i); }
 

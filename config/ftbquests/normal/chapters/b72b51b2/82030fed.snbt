@@ -1,0 +1,11 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "5da5e318",
+		type: "item",
+		items: [{
+			item: "forestry:engine_peat"
+		}]
+	}]
+}

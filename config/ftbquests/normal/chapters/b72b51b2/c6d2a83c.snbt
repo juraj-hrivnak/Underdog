@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	shape: "hexagon",
+	dependencies: [
+		"b3068735"
+	],
+	tasks: [{
+		uid: "75c73668",
+		type: "item",
+		items: [{
+			item: "forestry:escritoire"
+		}]
+	}]
+}

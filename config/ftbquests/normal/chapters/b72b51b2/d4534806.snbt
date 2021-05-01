@@ -1,0 +1,12 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "16c72752",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}]
+}

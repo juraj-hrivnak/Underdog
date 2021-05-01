@@ -1,0 +1,11 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "16283806",
+		type: "item",
+		items: [{
+			item: "forestry:engine_clockwork"
+		}]
+	}]
+}

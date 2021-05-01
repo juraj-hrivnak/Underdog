@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"d4534806",
+		"b3068735"
+	],
+	tasks: [{
+		uid: "4253adb4",
+		type: "item",
+		items: [{
+			item: "forestry:habitat_former"
+		}]
+	}]
+}

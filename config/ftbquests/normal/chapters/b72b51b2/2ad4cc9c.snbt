@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	shape: "hexagon",
+	dependencies: [
+		"23e66762"
+	],
+	tasks: [{
+		uid: "ebfe5fbb",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}]
+	}]
+}
