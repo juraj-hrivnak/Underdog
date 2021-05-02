@@ -25,7 +25,7 @@ val gemsToBeChiseled = {
 } as IItemStack[IItemStack];
 
 for uncutGem, chiseledGem in gemsToBeChiseled {
-    recipes.addShapeless(chiseledGem, [<ore:chisel>, uncutGem]);
+    recipes.addShapeless(chiseledGem, [<ore:chisel>.reuse().transformDamage(), uncutGem]);
 }
 
 // Carving
