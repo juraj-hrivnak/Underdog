@@ -13,8 +13,8 @@ val chisels as IItemStack[] = [
 }
 
 val gemsToBeChiseled = {
-    <divergentunderground:gem_raw_emerald> : <minecraft:diamond>,
-    <divergentunderground:gem_raw_diamond> : <minecraft:emerald>,
+    <divergentunderground:gem_raw_emerald> : <minecraft:emerald>,
+    <divergentunderground:gem_raw_diamond> : <minecraft:diamond>,
     <divergentunderground:gem_raw_bop_amethyst> : <biomesoplenty:gem>,
     <divergentunderground:gem_raw_bop_ruby> : <biomesoplenty:gem:1>,
     <divergentunderground:gem_raw_bop_peridot> : <biomesoplenty:gem:2>,
