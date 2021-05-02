@@ -1,6 +1,6 @@
 {
 	title: "Forestry",
-	icon: "forestry:apiary",
+	icon: "forestry:scoop",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

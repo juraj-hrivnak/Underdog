@@ -1,7 +1,11 @@
 {
+	title: "Tofu",
 	icon: "cuisine:food",
-	x: -4.0d,
+	x: -3.5d,
 	y: 1.0d,
+	dependencies: [
+		"945fe01d"
+	],
 	tasks: [{
 		uid: "537afa01",
 		type: "item",

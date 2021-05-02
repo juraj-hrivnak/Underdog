@@ -1,6 +1,6 @@
 {
 	title: "Cuisine",
-	icon: "cuisine:wok",
+	icon: "cuisine:kitchen_knife",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

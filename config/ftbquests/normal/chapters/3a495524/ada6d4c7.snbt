@@ -1,0 +1,12 @@
+{
+	x: 0.7551020408163254d,
+	y: 0.3265306122449019d,
+	shape: "octagon",
+	tasks: [{
+		uid: "0331185b",
+		type: "item",
+		items: [{
+			item: "weather2:wind_vane"
+		}]
+	}]
+}
