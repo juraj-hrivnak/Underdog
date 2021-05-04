@@ -1,6 +1,7 @@
 {
 	title: "Rocks Gatherer",
-	icon: "divergentunderground:rock_andesite",
+	icon: "divergentunderground:rock_stone",
+	disable_toast: true,
 	x: -4.0d,
 	y: -1.5d,
 	tasks: [{

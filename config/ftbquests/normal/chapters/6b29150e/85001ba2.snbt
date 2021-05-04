@@ -1,5 +1,6 @@
 {
 	title: "Cuisine",
+	disable_toast: true,
 	x: -2.5d,
 	y: -2.0d,
 	tasks: [{
