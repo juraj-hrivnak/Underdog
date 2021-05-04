@@ -5,14 +5,22 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.SoundType;
 import mods.contenttweaker.AxisAlignedBB;
+import mods.contenttweaker.Item;
+
+var thoriumCluster = VanillaFactory.createItem("thorium_cluster");
+thoriumCluster.register();
+
+var boronCluster = VanillaFactory.createItem("boron_cluster");
+boronCluster.register();
+
+var lithiumCluster = VanillaFactory.createItem("lithium_cluster");
+lithiumCluster.register();
+
+var magnesiumCluster = VanillaFactory.createItem("magnesium_cluster");
+magnesiumCluster.register();
 
 // Thorium ore / Monazite
 var monazite = VanillaFactory.createBlock("monazite", <blockmaterial:rock>);
-monazite.setDropHandler(function(drops, world, position, state, fortune) {
-        drops.clear();
-        drops.add(<contenttweaker:thorium_cluster>);
-        return;
-});
 monazite.fullBlock = true;
 monazite.translucent = false;
 monazite.lightValue = 0.1;
@@ -26,11 +34,6 @@ monazite.register();
 
 // Boron ore / Sassolite
 var sassolite = VanillaFactory.createBlock("sassolite", <blockmaterial:rock>);
-sassolite.setDropHandler(function(drops, world, position, state, fortune) {
-        drops.clear();
-        drops.add(<contenttweaker:boron_cluster>);
-        return;
-});
 sassolite.fullBlock = true;
 sassolite.translucent = false;
 sassolite.blockHardness = 2.5;
@@ -60,11 +63,6 @@ borax.register();
 
 // Lithium ore / Lepidolite
 var lepidolite = VanillaFactory.createBlock("lepidolite", <blockmaterial:rock>);
-lepidolite.setDropHandler(function(drops, world, position, state, fortune) {
-        drops.clear();
-        drops.add(<contenttweaker:lithium_cluster>);
-        return;
-});
 lepidolite.fullBlock = true;
 lepidolite.translucent = false;
 lepidolite.blockHardness = 2.5;
@@ -77,11 +75,6 @@ lepidolite.register();
 
 // Magnesium ore / Iron, *Magnesite, Dolomite
 var magnesite = VanillaFactory.createBlock("magnesite", <blockmaterial:rock>);
-magnesite.setDropHandler(function(drops, world, position, state, fortune) {
-        drops.clear();
-        drops.add(<contenttweaker:magnesium_cluster>);
-        return;
-});
 magnesite.fullBlock = true;
 magnesite.translucent = false;
 magnesite.blockHardness = 2.5;
@@ -97,11 +90,6 @@ magnesite.register();
 
 // Thorium
 var monazite_sample = VanillaFactory.createBlock("monazite_sample", <blockmaterial:rock>);
-monazite_sample.setDropHandler(function(drops, world, position, state, fortune) {
-        drops.clear();
-        drops.add(<contenttweaker:thorium_cluster>);
-        return;
-});
 monazite_sample.setAxisAlignedBB(AxisAlignedBB.create(0.2F, 0.0F, 0.2F, 0.8F, 0.25F, 0.8F));
 monazite_sample.toolClass = "pickaxe";
 monazite_sample.toolLevel = 0;
@@ -118,11 +106,6 @@ monazite_sample.register();
 
 // Boron
 var sassolite_sample = VanillaFactory.createBlock("sassolite_sample", <blockmaterial:rock>);
-sassolite_sample.setDropHandler(function(drops, world, position, state, fortune) {
-        drops.clear();
-        drops.add(<contenttweaker:boron_cluster>);
-        return;
-});
 sassolite_sample.setAxisAlignedBB(AxisAlignedBB.create(0.2F, 0.0F, 0.2F, 0.8F, 0.25F, 0.8F));
 sassolite_sample.toolClass = "pickaxe";
 sassolite_sample.toolLevel = 0;
@@ -160,11 +143,6 @@ borax_sample.register();
 
 // Lithium
 var lepidolite_sample = VanillaFactory.createBlock("lepidolite_sample", <blockmaterial:rock>);
-lepidolite_sample.setDropHandler(function(drops, world, position, state, fortune) {
-        drops.clear();
-        drops.add(<contenttweaker:lithium_cluster>);
-        return;
-});
 lepidolite_sample.setAxisAlignedBB(AxisAlignedBB.create(0.2F, 0.0F, 0.2F, 0.8F, 0.25F, 0.8F));
 lepidolite_sample.toolClass = "pickaxe";
 lepidolite_sample.toolLevel = 0;
@@ -181,11 +159,6 @@ lepidolite_sample.register();
 
 // Magnesium Sample / Iron, *Magnesite, Dolomite
 var magnesite_sample = VanillaFactory.createBlock("magnesite_sample", <blockmaterial:rock>);
-magnesite_sample.setDropHandler(function(drops, world, position, state, fortune) {
-        drops.clear();
-        drops.add(<contenttweaker:magnesium_cluster>);
-        return;
-});
 magnesite_sample.setAxisAlignedBB(AxisAlignedBB.create(0.2F, 0.0F, 0.2F, 0.8F, 0.25F, 0.8F));
 magnesite_sample.toolClass = "pickaxe";
 magnesite_sample.toolLevel = 0;
