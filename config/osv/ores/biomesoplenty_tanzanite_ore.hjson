@@ -7,7 +7,7 @@ block: {
 }
 loot: [
   {
-    item: biomesoplenty:gem:4
+    item: divergentunderground:gem_raw_bop_tanzanite
     count: [ 1, 1 ]
     xp: [ 3, 7 ]
     chance: 1
@@ -17,7 +17,7 @@ texture: {
   original: biomesoplenty:blocks/tanzanite_ore
 }
 recipe: {
-  result: biomesoplenty:gem:4
+  result: divergentunderground:gem_raw_bop_tanzanite
   xp: 1.2000000476837158
   quantity: 1
 }

@@ -7,7 +7,7 @@ block: {
 }
 loot: [
   {
-    item: biomesoplenty:gem:5
+    item: divergentunderground:gem_raw_bop_malachite
     count: [ 1, 1 ]
     xp: [ 3, 7 ]
     chance: 1
@@ -17,7 +17,7 @@ texture: {
   original: biomesoplenty:blocks/malachite_ore
 }
 recipe: {
-  result: biomesoplenty:gem:5
+  result: divergentunderground:gem_raw_bop_malachite
   xp: 1.2000000476837158
   quantity: 1
 }

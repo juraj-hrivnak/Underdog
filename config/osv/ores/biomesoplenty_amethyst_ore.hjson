@@ -7,7 +7,7 @@ block: {
 }
 loot: [
   {
-    item: biomesoplenty:gem
+    item: divergentunderground:gem_raw_bop_amethyst
     count: [ 1, 1 ]
     xp: [ 3, 7 ]
     chance: 1
@@ -17,7 +17,7 @@ texture: {
   original: biomesoplenty:blocks/amethyst_ore
 }
 recipe: {
-  result: biomesoplenty:gem
+  result: divergentunderground:gem_raw_bop_amethyst
   xp: 1.2000000476837158
   quantity: 1
 }

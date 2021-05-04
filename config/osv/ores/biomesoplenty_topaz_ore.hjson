@@ -1,4 +1,4 @@
-name: biomesoplenty_topaz_ore
+ename: biomesoplenty_topaz_ore
 mod: biomesoplenty
 block: {
   location: biomesoplenty:gem_ore:3
@@ -7,7 +7,7 @@ block: {
 }
 loot: [
   {
-    item: biomesoplenty:gem:3
+    item: divergentunderground:gem_raw_bop_topaz
     count: [ 1, 1 ]
     xp: [ 3, 7 ]
     chance: 1
@@ -17,7 +17,7 @@ texture: {
   original: biomesoplenty:blocks/topaz_ore
 }
 recipe: {
-  result: biomesoplenty:gem:3
+  result: divergentunderground:gem_raw_bop_topaz
   xp: 1.2000000476837158
   quantity: 1
 }

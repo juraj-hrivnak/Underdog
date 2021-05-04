@@ -7,7 +7,7 @@ block: {
 }
 loot: [
   {
-    item: biomesoplenty:gem:2
+    item: divergentunderground:gem_raw_bop_peridot
     count: [ 1, 1 ]
     xp: [ 3, 7 ]
     chance: 1
@@ -17,7 +17,7 @@ texture: {
   original: biomesoplenty:blocks/peridot_ore
 }
 recipe: {
-  result: biomesoplenty:gem:2
+  result: divergentunderground:gem_raw_bop_peridot
   xp: 1.2000000476837158
   quantity: 1
 }
