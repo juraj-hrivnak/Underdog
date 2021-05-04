@@ -4,10 +4,10 @@ import mods.jei.JEI.removeAndHide as rh;
 import mods.chisel.Carving as carving;
 
 val chisels as IItemStack[] = [
-    <chisel:chisel_iron>,
-    <chisel:chisel_diamond>,
-    <chisel:chisel_hitech>,
-    <tcomplement:chisel>
+    <chisel:chisel_iron:*>,
+    <chisel:chisel_diamond:*>,
+    <chisel:chisel_hitech:*>,
+    <tcomplement:chisel:*>
 ]; for i in chisels {
     <ore:chisel>.add(i);
 }
@@ -25,7 +25,7 @@ val gemsToBeChiseled = {
 } as IItemStack[IItemStack];
 
 for uncutGem, chiseledGem in gemsToBeChiseled {
-    recipes.addShapeless(chiseledGem, [<ore:chisel>.reuse().transformDamage(), uncutGem]);
+    recipes.addShapeless(chiseledGem, [<ore:chisel>.reuse().transformDamage(3), uncutGem]);
 }
 
 // Carving

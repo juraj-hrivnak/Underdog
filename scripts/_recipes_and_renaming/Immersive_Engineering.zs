@@ -22,9 +22,11 @@ recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
     [null, <ore:plateIron>, null]
 ]);
 
+val hammer = <immersiveengineering:tool:0>;
+
 // Steel from Pigiron
 recipes.addShapeless("pigiron_smash", <immersiveengineering:metal:8>,
-    [ <tconstruct:ingots:4>, <immersiveengineering:tool>.anyDamage().reuse()]);
+    [ <tconstruct:ingots:4>, hammer.anyDamage().reuse().transformDamage(3)]);
 
 // Blast Bricks
 recipes.remove(<immersiveengineering:stone_decoration:1>);
@@ -71,9 +73,9 @@ blastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 blastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 
 // Iron Ore to Pigiron, with slag
-blastFurnace.addRecipe(<tconstruct:ingots:4>, <ore:oreIron>, 1600, <immersiveengineering:material:7>);
+blastFurnace.addRecipe(<tconstruct:ingots:4>, <ore:oreIron>, 1600, <immersiveengineering:material:7> * 2);
 // Iron Dust to Pigiron, without slag
-blastFurnace.addRecipe(<tconstruct:ingots:4>, <ore:dustIron>, 1300);
+blastFurnace.addRecipe(<tconstruct:ingots:4>, <ore:dustIron>, 1300, <immersiveengineering:material:7>);
 
 
 /////////////////////////////////////
