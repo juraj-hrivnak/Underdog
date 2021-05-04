@@ -126,3 +126,9 @@ item.contenttweaker.lumber_planks.padauk.name=Padauk Lumber
 item.contenttweaker.lumber_planks.cocobolo.name=Cocobolo Lumber
 item.contenttweaker.lumber_planks.zebrawood.name=Zebrawood Lumber
 ###########
+
+# NuclearCraft Clusters
+item.contenttweaker.thorium_cluster.name=Thorium Cluster
+item.contenttweaker.boron_cluster.name=Boron Cluster
+item.contenttweaker.lithium_cluster.name=Lithium Cluster
+item.contenttweaker.magnesium_cluster.name=Magnesium Cluster

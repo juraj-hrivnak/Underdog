@@ -1,8 +1,6 @@
 #priority 15
 #loader contenttweaker
 
-import mods.contenttweaker.Color;
-import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 

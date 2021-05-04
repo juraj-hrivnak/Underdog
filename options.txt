@@ -85,7 +85,9 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_key.craftpresence.config_keycode.name:77
 key_key.auginter.skipAnimation:45
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
@@ -94,7 +96,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -117,7 +118,6 @@ key_keybind.baublesinventory:48
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
-key_key.death_history:22
 key_cos.key.opencosarmorinventory:0
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:74
@@ -146,7 +146,7 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.toggle_focus.desc:15
 key_Seamoth descend:0
-key_Options Gui:23
+key_Options Gui:40
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_key.immersiveengineering.magnetEquip:31
