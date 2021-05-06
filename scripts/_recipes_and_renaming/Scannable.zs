@@ -2,15 +2,13 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-val ironPlate = <immersiveengineering:metal:39>;
-val wireAluminium = <immersiveengineering:material:22>;
 val circuit = <mekanism:controlcircuit:1> | <immersiveengineering:material:27>;
 
 recipes.remove(<scannable:scanner>);
 recipes.addShaped(<scannable:scanner>, [
-    [wireAluminium, null, wireAluminium],
-    [ironPlate, circuit, ironPlate],
-    [<forestry:thermionic_tubes:4>, wireAluminium, <forestry:thermionic_tubes:4>]
+    [<ore:wireAluminum>, null, <ore:wireAluminum>],
+    [<ore:plateIron>, circuit, <ore:plateIron>],
+    [<forestry:thermionic_tubes:4>, <ore:wireAluminum>, <forestry:thermionic_tubes:4>]
 ]);
 
 recipes.remove(<scannable:module_range>);

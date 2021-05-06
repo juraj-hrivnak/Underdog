@@ -34,7 +34,7 @@ recipes.addShaped(<cuisine:mill>, [
 ]);
 
 // Fire Pit
-recipes.removeShaped(<cuisine:fire_pit>);
+recipes.remove(<cuisine:fire_pit>);
 recipes.addShapedMirrored(<cuisine:fire_pit>, [
     [<ore:stickWood>, <ore:rocksHard>],
     [<ore:rocksHard>, <ore:rocksHard>]
