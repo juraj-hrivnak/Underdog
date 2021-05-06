@@ -25,5 +25,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "763adcc8",
+		type: "loot",
+		table: 1
 	}]
 }

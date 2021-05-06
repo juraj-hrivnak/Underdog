@@ -1,7 +1,11 @@
 {
 	title: "Smeltery",
-	x: 6.5d,
-	y: -5.5d,
+	icon: "tcomplement:melter",
+	x: 3.5d,
+	y: -0.5d,
+	dependencies: [
+		"791b1d99"
+	],
 	tasks: [{
 		uid: "93003eb4",
 		type: "item",
