@@ -1,5 +1,5 @@
 {
-	"block_pools": 
+	"block_pools":
 	[
 		{
 			"name": "Axe_Chop_Hellbark",
@@ -7,7 +7,7 @@
 				{
 					"type": "block",
           			"name": "biomesoplenty:log_2",
-					"meta": "7" 
+					"meta": "7"
 				},
 			"clicktype": "rightclick",
 			"blockRightClick": true,
@@ -45,7 +45,7 @@
 					"type": "use_command",
 					"name": "particle",
 					"arguments": "blockcrack ~ ~.4 ~ .3 .3 .3 1 16 normal @a 17",
-					"disableJEI": true 
+					"disableJEI": true
 				}
  			]
 		}

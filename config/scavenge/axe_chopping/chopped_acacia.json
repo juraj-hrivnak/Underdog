@@ -1,24 +1,24 @@
 {
-	"block_pools": 
+	"block_pools":
 	[
 		{
 			"name": "Axe_Chop_Acacia",
-			"type": 
+			"type":
 				{
 					"type": "block",
 					"name": "minecraft:log2",
-					"meta": "0" 
+					"meta": "0"
 				},
 			"clicktype": "rightclick",
 			"blockRightClick": true,
-			"properties": 
+			"properties":
 			[
 				{
 					"type": "require_tool",
 					"tool": "axe",
 					"level": 1,
 					"disableJEI": true
-               
+
 				},
 				{
 					"type": "clicks_per_time",
@@ -43,14 +43,14 @@
 					"name": "playsound",
 					"arguments": "minecraft:block.wood.break block @a",
 					"disableJEI": true
-               
+
 				},
 				{
 					"type": "use_command",
 					"name": "particle",
 					"arguments": "blockcrack ~ ~.4 ~ .3 .3 .3 1 16 normal @a 17",
 					"disableJEI": true
-               
+
 				}
 			]
 		}
