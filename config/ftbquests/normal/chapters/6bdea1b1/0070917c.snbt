@@ -2,8 +2,9 @@
 	title: "Rocks Gatherer",
 	icon: "divergentunderground:rock_stone",
 	disable_toast: true,
-	x: -4.0d,
+	x: -4.5d,
 	y: -1.5d,
+	shape: "hexagon",
 	tasks: [{
 		uid: "eb93f8b6",
 		type: "item",
@@ -22,5 +23,10 @@
 			}
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "ff02c0c5",
+		type: "random",
+		table: 0
 	}]
 }

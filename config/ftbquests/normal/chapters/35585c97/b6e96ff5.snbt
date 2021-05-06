@@ -9,11 +9,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "fc6e43d8",
-		type: "random",
-		table: 0
-	},
-	{
 		uid: "0a60ac87",
 		type: "xp",
 		xp: 100

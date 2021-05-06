@@ -13,5 +13,11 @@
 	tasks: [{
 		uid: "67a4596d",
 		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "2e42e240",
+		type: "loot",
+		icon: "harvestcraft:bentoboxitem",
+		table: 0
 	}]
 }

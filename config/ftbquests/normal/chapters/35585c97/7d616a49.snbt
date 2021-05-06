@@ -11,10 +11,5 @@
 			item: "immersivetech:metal_device"
 		}],
 		count: 2L
-	}],
-	rewards: [{
-		uid: "d1ed3a27",
-		type: "choice",
-		table: 0
 	}]
 }

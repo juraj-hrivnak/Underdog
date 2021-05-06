@@ -1,7 +1,7 @@
 {
 	title: "Smeltery",
-	x: 1.0d,
-	y: -4.0d,
+	x: 6.5d,
+	y: -5.5d,
 	tasks: [{
 		uid: "93003eb4",
 		type: "item",
@@ -44,16 +44,5 @@
 		items: [{
 			item: "tconstruct:casting"
 		}]
-	}],
-	rewards: [{
-		uid: "533c5b18",
-		type: "item",
-		item: "tconstruct:materials",
-		count: 16
-	},
-	{
-		uid: "bf958ee4",
-		type: "loot",
-		table: 0
 	}]
 }

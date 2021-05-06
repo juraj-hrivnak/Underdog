@@ -1,0 +1,15 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	dependencies: [
+		"0070917c"
+	],
+	tasks: [{
+		uid: "2beedbf4",
+		type: "item",
+		items: [{
+			item: "charcoal_pit:straw"
+		}],
+		count: 32L
+	}]
+}

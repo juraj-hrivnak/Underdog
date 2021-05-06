@@ -1,9 +1,12 @@
 {
 	title: "Lumber",
-	icon: "contenttweaker:lumber_sacred_oak",
-	x: 4.0d,
-	y: -3.0d,
+	icon: "contenttweaker:lumber_vanilla_oak",
+	x: 1.5d,
+	y: -3.5d,
 	shape: "hexagon",
+	dependencies: [
+		"eb957ac6"
+	],
 	tasks: [{
 		uid: "cbe94313",
 		type: "item",

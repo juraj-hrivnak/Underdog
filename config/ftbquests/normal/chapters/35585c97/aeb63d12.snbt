@@ -10,5 +10,10 @@
 		items: [{
 			item: "immersiveengineering:metal_device0"
 		}]
+	}],
+	rewards: [{
+		uid: "e40abf86",
+		type: "loot",
+		table: 0
 	}]
 }

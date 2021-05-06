@@ -11,10 +11,5 @@
 			item: "immersiveengineering:metal_device1"
 		}],
 		count: 2L
-	}],
-	rewards: [{
-		uid: "f7984920",
-		type: "choice",
-		table: 0
 	}]
 }
