@@ -22,11 +22,9 @@ recipes.addShaped(<immersiveengineering:wooden_device0:5>, [
     [null, <ore:plateIron>, null]
 ]);
 
-val hammer = <immersiveengineering:tool:0>;
-
 // Steel from Pigiron
 recipes.addShapeless("pigiron_smash", <immersiveengineering:metal:8>,
-    [ <tconstruct:ingots:4>, hammer.anyDamage().reuse().transformDamage(3)]);
+    [ <tconstruct:ingots:4>, <tconstruct:hammer>.anyDamage().transformDamage(3)]);
 
 // Blast Bricks
 recipes.remove(<immersiveengineering:stone_decoration:1>);
