@@ -23,10 +23,5 @@
 			}
 		}],
 		count: 4L
-	}],
-	rewards: [{
-		uid: "ff02c0c5",
-		type: "random",
-		table: 0
 	}]
 }
