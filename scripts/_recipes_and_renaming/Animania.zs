@@ -16,7 +16,7 @@ val knifeCarving = {
     <animania:block_straw> : <minecraft:wheat>
 } as IItemStack[IItemStack];
 
-for piece, full in knifeCarving {
-    recipes.remove(piece);
-    recipes.addShapeless(piece * 4, [ <cuisine:kitchen_knife>, full ]);
+for smallChunk, bigChunk in knifeCarving {
+    recipes.remove(smallChunk);
+    recipes.addShapeless(smallChunk * 4, [ <cuisine:kitchen_knife>, bigChunk ]);
 }

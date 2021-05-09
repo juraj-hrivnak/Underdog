@@ -21,7 +21,8 @@ val gemsToBeChiseled = {
     <divergentunderground:gem_raw_bop_topaz> : <biomesoplenty:gem:3>,
     <divergentunderground:gem_raw_bop_tanzanite> : <biomesoplenty:gem:4>,
     <divergentunderground:gem_raw_bop_malachite> : <biomesoplenty:gem:5>,
-    <divergentunderground:gem_raw_bop_sapphire> : <biomesoplenty:gem:6>
+    <divergentunderground:gem_raw_bop_sapphire> : <biomesoplenty:gem:6>,
+    <divergentunderground:gem_raw_bop_amber>: <biomesoplenty:gem:7>
 } as IItemStack[IItemStack];
 
 for uncutGem, chiseledGem in gemsToBeChiseled {
