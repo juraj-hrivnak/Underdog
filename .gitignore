@@ -52,9 +52,8 @@ pack.zip
 knownkeys.txt
 server_pack/Underdog-v1.72-Server.zip
 config/jei/worldSettings.cfg
-TombManyGraves/savedInventories/karl226#05_04_2021_18_42_59.json
-TombManyGraves/savedInventories/karl226#latest.json
-craftpresence/chardata.properties
-TombManyGraves/savedInventories/karl226#latest.json
-config/craftpresence.properties
+
+craftpresence/
+TombManyGraves/
+
 config/craftpresence.properties
