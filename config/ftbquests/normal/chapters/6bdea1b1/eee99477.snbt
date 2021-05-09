@@ -1,14 +1,14 @@
 {
 	x: -1.0d,
-	y: -1.5d,
+	y: 0.0d,
 	dependencies: [
-		"c38fbdb2"
+		"e8669db3"
 	],
 	tasks: [{
-		uid: "157fb2f2",
+		uid: "0db57535",
 		type: "item",
 		items: [{
-			item: "minecraft:stone_shovel"
+			item: "geolosys:pro_pick"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

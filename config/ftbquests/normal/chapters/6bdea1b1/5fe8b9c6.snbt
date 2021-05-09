@@ -1,14 +1,14 @@
 {
-	x: -1.0d,
-	y: -1.5d,
+	x: 1.5d,
+	y: -1.0d,
 	dependencies: [
 		"c38fbdb2"
 	],
 	tasks: [{
-		uid: "157fb2f2",
+		uid: "a492ef86",
 		type: "item",
 		items: [{
-			item: "minecraft:stone_shovel"
+			item: "minecraft:stone_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

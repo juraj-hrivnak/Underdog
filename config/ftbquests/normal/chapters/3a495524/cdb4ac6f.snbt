@@ -1,0 +1,12 @@
+{
+	x: 1.030612244897931d,
+	y: 0.18367346938772755d,
+	shape: "octagon",
+	tasks: [{
+		uid: "fc459f25",
+		type: "item",
+		items: [{
+			item: "weather2:weather_forecast"
+		}]
+	}]
+}

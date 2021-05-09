@@ -1,9 +1,8 @@
 {
 	title: "Lumber",
 	icon: "contenttweaker:lumber_vanilla_oak",
-	x: 1.5d,
-	y: -3.5d,
-	shape: "hexagon",
+	x: 5.0d,
+	y: -2.5d,
 	dependencies: [
 		"eb957ac6"
 	],

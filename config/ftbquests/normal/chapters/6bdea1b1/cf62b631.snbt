@@ -1,8 +1,7 @@
 {
 	title: "Too hot?",
 	x: -2.5d,
-	y: -5.0d,
-	shape: "hexagon",
+	y: -4.5d,
 	dependencies: [
 		"595a5157"
 	],

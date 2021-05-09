@@ -11,7 +11,7 @@
 		items: [{
 			item: "immersiveengineering:stone_decoration 1 10"
 		}],
-		count: 4L
+		count: 8L
 	}],
 	rewards: [{
 		uid: "e1db171e",

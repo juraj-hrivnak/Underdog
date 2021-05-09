@@ -1,8 +1,8 @@
 {
 	title: "Axe",
 	icon: "minecraft:stone_axe",
-	x: -2.5d,
-	y: -1.5d,
+	x: 1.5d,
+	y: -2.0d,
 	dependencies: [
 		"0070917c"
 	],
