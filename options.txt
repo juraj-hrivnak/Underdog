@@ -87,8 +87,8 @@ key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_key.craftpresence.config_keycode.name:27
 key_key.auginter.skipAnimation:45
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -149,6 +149,14 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.toggle_focus.desc:15
 key_Seamoth descend:0
+key_key.settings_menu:34
+key_key.range:19
+key_key.undo:22
+key_key.anchor:35
+key_key.fuzzy:0
+key_key.connected_area:0
+key_key.rotate_mirror:0
+key_key.material_list:50
 key_key.carry.desc:29
 key_Options Gui:40
 key_key.clienttweaks.disable_step_assist:0

@@ -7,5 +7,47 @@
 		items: [{
 			item: "immersiveengineering:metal_multiblock"
 		}]
+	}],
+	rewards: [{
+		uid: "1ac4812f",
+		type: "item",
+		item: {
+			id: "buildinggadgets:template",
+			tag: {
+				copycounter: 2,
+				TemplateName: "Press",
+				UUID: "26f41727-f2e7-4037-80f8-f23cc87b4e58",
+				startPos: {
+					X: 295,
+					Y: 65,
+					Z: 456
+				},
+				itemcountmap: [{
+					item: 7124,
+					meta: 1,
+					count: 2
+				},
+				{
+					item: 7123,
+					meta: 3,
+					count: 1
+				},
+				{
+					item: 7123,
+					meta: 5,
+					count: 1
+				},
+				{
+					item: 33,
+					meta: 0,
+					count: 1
+				}],
+				endPos: {
+					X: 295,
+					Y: 67,
+					Z: 454
+				}
+			}
+		}
 	}]
 }
