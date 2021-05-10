@@ -17,3 +17,8 @@ recipes.addShapedMirrored(<quark:backpack>, [
     [<ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>],
     [<ore:itemLeather>, <ore:furCut>, <ore:itemLeather>]
 ]);
+
+// Wheat Thatch
+<quark:thatch>.displayName = "Wheat Thatch";
+<quark:thatch_stairs>.displayName = "Wheat Thatch Stairs";
+<quark:thatch_slab>.displayName = "Wheat Thatch Slab";
