@@ -1,8 +1,9 @@
 {
 	title: "Wood",
 	icon: "minecraft:log",
-	x: 3.0d,
-	y: -2.0d,
+	x: 2.5d,
+	y: -2.5d,
+	shape: "hexagon",
 	dependencies: [
 		"c38fbdb2"
 	],

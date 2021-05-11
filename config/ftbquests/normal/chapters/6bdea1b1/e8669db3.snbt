@@ -2,7 +2,7 @@
 	title: "Smeltery",
 	icon: "tcomplement:melter",
 	x: -3.5d,
-	y: -1.0d,
+	y: -1.5d,
 	dependencies: [
 		"791b1d99"
 	],

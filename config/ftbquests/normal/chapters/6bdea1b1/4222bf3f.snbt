@@ -2,7 +2,8 @@
 	title: "Kitchen Furniture",
 	icon: "cookingforblockheads:cooking_table",
 	x: 5.0d,
-	y: -4.0d,
+	y: -3.5d,
+	shape: "hexagon",
 	dependencies: [
 		"93c60a7f"
 	],
@@ -48,5 +49,12 @@
 			item: "cookingforblockheads:fridge"
 		}],
 		count: 2L
+	},
+	{
+		uid: "c6539658",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fruit_basket"
+		}]
 	}]
 }
