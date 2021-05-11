@@ -19,17 +19,17 @@ recipes.addShaped(<dawnoftimebuilder:path_stepping_stones> * 6,
     [dirt, dirt, dirt]]);
 
 // Slabbed Path
-recipes.addShaped(<dawnoftimebuilder:path_cobbled>,
+recipes.addShaped(<dawnoftimebuilder:path_cobbled> * 6,
     [[rock, rock, rock],
     [dirt, dirt, dirt]]);
 
 // Tiles Path
-recipes.addShaped(<dawnoftimebuilder:path_ochre_tiles>,
+recipes.addShaped(<dawnoftimebuilder:path_ochre_tiles> * 6,
     [[<ore:ingotBrick>, <minecraft:clay_ball>, <ore:ingotBrick>],
     [dirt, dirt, dirt]]);
 
 // Dirt Path
-recipes.addShaped(<dawnoftimebuilder:path_dirt>,
+recipes.addShaped(<dawnoftimebuilder:path_dirt> * 6,
     [[dirt, dirt, dirt],
     [dirt, dirt, dirt]]);
 
@@ -63,7 +63,7 @@ recipes.remove(<dawnoftimebuilder:sake_bottle>);
 recipes.addShaped(<dawnoftimebuilder:sake_bottle>,
     [[null, porcelain, null],
     [porcelain, null, porcelain],
-    [porcelain, null, porcelain]]);
+    [porcelain, porcelain, porcelain]]);
 
 // Sake Cup
 recipes.remove(<dawnoftimebuilder:sake_cup>);
