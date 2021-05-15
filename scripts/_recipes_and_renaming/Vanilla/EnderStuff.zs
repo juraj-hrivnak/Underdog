@@ -4,8 +4,6 @@
 recipes.replaceAllOccurences(<minecraft:ender_pearl>, <mekanism:controlcircuit:2>, <*>);
 recipes.replaceAllOccurences(<minecraft:ender_eye>, <mekanism:controlcircuit:3>, <*>);
 
-<minecraft:ender_chest>.displayName = "Quantum Chest";
-
 recipes.remove(<minecraft:ender_chest>);
 recipes.addShapedMirrored(<minecraft:ender_chest>, [
     [<ore:plateGold>, <ore:plateGold>, <ore:stickIron>],

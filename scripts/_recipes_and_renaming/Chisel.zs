@@ -29,7 +29,7 @@ for uncutGem, chiseledGem in gemsToBeChiseled {
     recipes.addShapeless(chiseledGem, [<ore:chisel>.reuse().transformDamage(20), uncutGem]);
 }
 
-<chisel:offsettool>.displayName =  "Offset Tool";
+<chisel:offsettool>.displayName = "Offset Tool";
 
 // Carving
 carving.addVariation("stone", <divergentunderground:hard_stone>);
