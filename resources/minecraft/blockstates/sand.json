@@ -1,5 +1,11 @@
 {
     "variants": {
-        "normal": { "model": "sand" }    
+        "normal": [
+        	{ "model": "sand", "weight":3 },
+			{ "model": "sand1", "weight":1 },
+			{ "model": "sand2", "weight":1 },
+			{ "model": "sand3", "weight":1 },
+			{ "model": "sand4", "weight":1 }
+ 		]
     }
 }
