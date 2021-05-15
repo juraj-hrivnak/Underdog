@@ -30,7 +30,7 @@ for uncutGem, chiseledGem in gemsToBeChiseled {
 }
 
 // Carving
-carving.addVariation("Stone", <divergentunderground:hard_stone>);
+carving.addVariation("stone", <divergentunderground:hard_stone>);
 carving.addVariation("granite", <divergentunderground:hard_granite>);
 carving.addVariation("andesite", <divergentunderground:hard_andesite>);
 carving.addVariation("diorite", <divergentunderground:hard_diorite>);
