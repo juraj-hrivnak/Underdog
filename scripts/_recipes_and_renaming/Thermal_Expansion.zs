@@ -1,8 +1,10 @@
-#modloaded thermalexpansion forestry
+#modloaded thermalexpansion
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
 import mods.thermalexpansion.CompressionDynamo;
+import mods.thermalexpansion.Pulverizer;
+
 
 #####################################
 // Items removal
@@ -30,3 +32,5 @@ recipes.addShapeless(seedOil.thermalexpansionClayBucket, [seedOil.forestryClayBu
 recipes.addShapeless(seedOil.forestryIronBucket, [seedOil.thermalexpansionIronBucket.noReturn()]);
 recipes.addShapeless(seedOil.thermalexpansionIronBucket, [seedOil.forestryIronBucket.noReturn()]);
 
+// Ender pearl dust removal
+Pulverizer.removeRecipe(<minecraft:ender_pearl>);
