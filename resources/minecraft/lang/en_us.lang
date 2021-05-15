@@ -3294,16 +3294,16 @@ subtitles.item.totem.use=Totem activates
 subtitles.weather.rain=Rain falls
 
 debug.prefix=[Debug]:
-debug.reload_chunks.help=F3 + A = Reload chunks
-debug.show_hitboxes.help=F3 + B = Show hitboxes
-debug.clear_chat.help=F3 + D = Clear chat
-debug.cycle_renderdistance.help=F3 + F = Cycle render distance (Shift to invert)
-debug.chunk_boundaries.help=F3 + G = Show chunk boundaries
-debug.advanced_tooltips.help=F3 + H = Advanced tooltips
-debug.creative_spectator.help=F3 + N = Cycle creative <-> spectator
-debug.pause_focus.help=F3 + P = Pause on lost focus
-debug.help.help=F3 + Q = Show this list
-debug.reload_resourcepacks.help=F3 + T = Reload resource packs
+debug.reload_chunks.help=F3 + A=Reload chunks
+debug.show_hitboxes.help=F3 + B=Show hitboxes
+debug.clear_chat.help=F3 + D=Clear chat
+debug.cycle_renderdistance.help=F3 + F=Cycle render distance (Shift to invert)
+debug.chunk_boundaries.help=F3 + G=Show chunk boundaries
+debug.advanced_tooltips.help=F3 + H=Advanced tooltips
+debug.creative_spectator.help=F3 + N=Cycle creative <-> spectator
+debug.pause_focus.help=F3 + P=Pause on lost focus
+debug.help.help=F3 + Q=Show this list
+debug.reload_resourcepacks.help=F3 + T=Reload resource packs
 
 debug.reload_chunks.message=Reloading all chunks
 debug.show_hitboxes.on=Hitboxes: shown
