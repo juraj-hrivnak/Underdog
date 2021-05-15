@@ -3,6 +3,8 @@ import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.oredict.IOreDictEntry;
 
+<biomesoplenty:gem_ore>.displayName = "Amethyst Ore";
+<biomesoplenty:gem>.displayName = "Amethyst";
 
 // Poison bucket recipe fix (bucket could be duped)
 	recipes.remove(<forge:bucketfilled>.withTag({FluidName: "poison", Amount: 1000}));
