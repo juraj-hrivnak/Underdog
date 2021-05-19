@@ -1,15 +1,15 @@
 {
-	x: 4.0d,
-	y: -1.5d,
+	x: 0.5d,
+	y: -1.0d,
 	shape: "hexagon",
 	dependencies: [
-		"eb957ac6"
+		"0fab738d"
 	],
 	tasks: [{
-		uid: "25613940",
+		uid: "4b6b928e",
 		type: "item",
 		items: [{
-			item: "charcoal_pit:log_pile"
+			item: "geolosys:cluster"
 		}]
 	}]
 }
