@@ -1,0 +1,42 @@
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: false
+  biomes: {
+    names: [
+      biomesoplenty:land_of_lakes
+      biomesoplenty:shield
+      biomesoplenty:tropical_island
+      biomesoplenty:volcanic_island
+    ]
+  }
+  layers: [
+    {
+      state: minecraft:stone:1
+      height: [ 20, 30 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone:5
+      height: [ 0, 58 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone:1
+      height: [ 0, 90 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: projectred-exploration:stone:3
+      height: [ 0, 120 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone:5
+      height: [ 0, 255 ]
+      ceiling: $OVERGROUND
+    }
+  ]
+}

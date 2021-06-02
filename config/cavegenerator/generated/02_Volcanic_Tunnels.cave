@@ -1,0 +1,216 @@
+{
+  biomes: {
+    names: [
+      biomesoplenty:volcanic_island
+    ]
+  }
+  replaceableBlocks: [
+    minecraft:gravel
+    minecraft:clay
+    biomesoplenty:ash_block
+    minecraft:grass
+    biomesoplenty:grass
+    biomesoplenty:grass:1
+    biomesoplenty:grass:2
+    biomesoplenty:grass:3
+    biomesoplenty:grass:4
+    biomesoplenty:grass:7
+    projectred-exploration:stone:3
+    minecraft:end_stone
+    minecraft:stone:0
+    minecraft:stone:1
+    minecraft:stone:2
+    minecraft:stone:3
+    minecraft:stone:4
+    minecraft:stone:5
+    minecraft:stone:6
+    minecraft:stone:7
+    minecraft:cobblestone
+    divergentunderground:andesite_cobblestone
+    divergentunderground:diorite_cobblestone
+    divergentunderground:granite_cobblestone
+    divergentunderground:quark_limestone_cobblestone
+    divergentunderground:quark_marble_cobblestone
+    projectred-exploration:stone:2
+    minecraft:red_sandstone
+    minecraft:sandstone
+    minecraft:sand:1
+    minecraft:sand
+    minecraft:magma
+    quark:limestone
+    quark:marble
+    quark:jasper
+    quark:slate
+    minecraft:dirt
+    minecraft:dirt:1
+    minecraft:dirt:2
+    biomesoplenty:dirt
+    biomesoplenty:dirt:1
+    biomesoplenty:dirt:2
+    biomesoplenty:dirt:3
+    biomesoplenty:dirt:4
+    biomesoplenty:dirt:5
+    biomesoplenty:dirt:6
+    biomesoplenty:dirt:7
+    biomesoplenty:dirt:8
+    biomesoplenty:dirt:9
+    biomesoplenty:dirt:10
+    minecraft:hardened_clay
+    minecraft:stained_hardened_clay:0
+    minecraft:stained_hardened_clay:1
+    minecraft:stained_hardened_clay:2
+    minecraft:stained_hardened_clay:3
+    minecraft:stained_hardened_clay:4
+    minecraft:stained_hardened_clay:5
+    minecraft:stained_hardened_clay:6
+    minecraft:stained_hardened_clay:7
+    minecraft:stained_hardened_clay:8
+    minecraft:stained_hardened_clay:9
+    minecraft:stained_hardened_clay:10
+    minecraft:stained_hardened_clay:11
+    minecraft:stained_hardened_clay:12
+    minecraft:stained_hardened_clay:13
+    minecraft:stained_hardened_clay:14
+    minecraft:stained_hardened_clay:15
+  ]
+  enabled: false
+  tunnels: [
+    {
+      shell: {
+        radius: 2
+        decorators: [
+          {
+            // Magma
+            states: magma
+            height: [ 0, 100 ]
+            matchers: minecraft:lava
+            integrity: 0.2
+          }
+          {
+            // Gabbro
+            states: minecraft:netherrack
+            height: [ 0, 100 ]
+            matchers: [
+              minecraft:gravel
+              minecraft:clay
+              biomesoplenty:ash_block
+              minecraft:grass
+              biomesoplenty:grass
+              biomesoplenty:grass:1
+              biomesoplenty:grass:2
+              biomesoplenty:grass:3
+              biomesoplenty:grass:4
+              biomesoplenty:grass:7
+              projectred-exploration:stone:3
+              minecraft:end_stone
+              minecraft:stone:0
+              minecraft:stone:1
+              minecraft:stone:2
+              minecraft:stone:3
+              minecraft:stone:4
+              minecraft:stone:5
+              minecraft:stone:6
+              minecraft:stone:7
+              minecraft:cobblestone
+              divergentunderground:andesite_cobblestone
+              divergentunderground:diorite_cobblestone
+              divergentunderground:granite_cobblestone
+              divergentunderground:quark_limestone_cobblestone
+              divergentunderground:quark_marble_cobblestone
+              projectred-exploration:stone:2
+              minecraft:red_sandstone
+              minecraft:sandstone
+              minecraft:sand:1
+              minecraft:sand
+              minecraft:magma
+              quark:limestone
+              quark:marble
+              quark:jasper
+              quark:slate
+              minecraft:dirt
+              minecraft:dirt:1
+              minecraft:dirt:2
+              biomesoplenty:dirt
+              biomesoplenty:dirt:1
+              biomesoplenty:dirt:2
+              biomesoplenty:dirt:3
+              biomesoplenty:dirt:4
+              biomesoplenty:dirt:5
+              biomesoplenty:dirt:6
+              biomesoplenty:dirt:7
+              biomesoplenty:dirt:8
+              biomesoplenty:dirt:9
+              biomesoplenty:dirt:10
+              minecraft:hardened_clay
+              minecraft:stained_hardened_clay:0
+              minecraft:stained_hardened_clay:1
+              minecraft:stained_hardened_clay:2
+              minecraft:stained_hardened_clay:3
+              minecraft:stained_hardened_clay:4
+              minecraft:stained_hardened_clay:5
+              minecraft:stained_hardened_clay:6
+              minecraft:stained_hardened_clay:7
+              minecraft:stained_hardened_clay:8
+              minecraft:stained_hardened_clay:9
+              minecraft:stained_hardened_clay:10
+              minecraft:stained_hardened_clay:11
+              minecraft:stained_hardened_clay:12
+              minecraft:stained_hardened_clay:13
+              minecraft:stained_hardened_clay:14
+              minecraft:stained_hardened_clay:15
+            ]
+            integrity: 0.8
+          }
+        ]
+      }
+      caveBlocks: [
+        {
+          states: lava
+          height: [ 0, 90 ]
+        }
+      ]
+      systemChance: 1
+      systemDensity: 1
+      noiseYReduction: false
+      distance: 100
+      resizeBranches: true
+      scale: {
+        startVal: 60
+        startValRandFactor: 0.005
+        factor: 1
+        randFactor: 0.005
+        exponent: 0.02
+      }
+      yaw: {
+        startVal: 0.5
+        startValRandFactor: 0.5
+      }
+      pitch: {
+        startVal: 3
+        startValRandFactor: 1
+      }
+      dYaw: {
+        startVal: 1
+        factor: 1
+        randFactor: 0.1
+        exponent: 1
+      }
+      dPitch: {
+        startVal: 0.05
+        factor: 1
+        randFactor: 0.5
+        exponent: 0.05
+      }
+      originHeight: [ 26, 150 ]
+      chance: 0.3
+      count: 10
+      stretch: {
+        startVal: 60
+        startValRandFactor: 0.005
+        factor: 1
+        randFactor: 0.005
+        exponent: 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: false
+  biomes: {
+    names: [
+      minecraft:mesa
+      minecraft:mesa_rock
+      minecraft:mesa_clear_rock
+    ]
+  }
+  layers: [
+    {
+      #red granite
+      state: minecraft:stone:1
+      height: [ 20, 30 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone
+      height: [ 0, 48 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #limestone
+      state: quark:limestone
+      height: [ 0, 58 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #shale
+      state: quark:jasper
+      height: [ 0, 204 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #shale sandstone
+      state: quark:jasper
+      height: [ 0, 255 ]
+      ceiling: $OVERGROUND
+    }
+  ]
+}

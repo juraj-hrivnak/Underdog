@@ -1,0 +1,116 @@
+{
+  imports: [
+    common_values.cave::NATURAL_STONE
+  ]
+  variables: {
+    COMMON_CEILING: {
+      seed: 1
+      frequency: 0.01
+      range: [ 108, 144 ]
+      cache: true
+    }
+    COMMON_FLOOR: {
+      seed: 1
+      frequency: 0.01
+      range: [ 0, 8 ]
+      cache: true
+    }
+  }
+  enabled: true
+  replaceableBlocks: $NATURAL_STONE
+  replaceDecorators: false
+  blacklistBiomes: true
+  biomes: {
+    names: [
+      biomesoplenty:volcanic_island
+      minecraft:ocean
+      minecraft:deep_ocean
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+    ]
+    types: [
+      BEACH
+    ]
+  }
+  caverns: {
+    stalactites: [
+      {
+        type: speleothem
+        state: quark:limestone
+        length: [ 2, 5 ]
+        height: [ 40, 240 ]
+        space: 0
+        size: medium
+        chance: 0.024
+      }
+      {
+        type: speleothem
+        state: quark:limestone
+        length: [ 2, 5 ]
+        height: [ 40, 240 ]
+        space: 0
+        size: giant
+        chance: 0.014
+      }
+    ]
+    wallDecorators: [
+      {
+        states: minecraft:sandstone
+        directions: up
+        matchers: minecraft:sand
+        height: [ 40, 240 ]
+        placement: EMBED
+        integrity: 1
+      }
+      {
+        states: minecraft:grass
+        directions: down
+        matchers: minecraft:dirt
+        height: [ 40, 240 ]
+        placement: EMBED
+        integrity: 0.8
+      }
+      {
+        states: minecraft:dirt:1
+        directions: down
+        matchers: minecraft:dirt
+        height: [ 40, 240 ]
+        placement: EMBED
+        integrity: 0.2
+      }
+    ]
+    ###################
+    height: [ 40, 240 ]
+    ###################
+    ceiling: $COMMON_CEILING
+    floor: $COMMON_FLOOR
+    generators: {
+      ###########################################
+      # Entrances
+      ###########################################
+      seed: 1
+      frequency: 0.0095
+      offset: 130
+      lacunarity: 1
+      octaves: 1
+      gain: 0.1
+      perturb: true
+      perturbAmp: 4
+      perturbFreq: 0.12
+      type: Cellular
+      jitterY: 0.75
+      jitterX: 0.25
+      jitterZ: 0.75
+      returnType: Distance3Div
+      //distFunc: Natural
+      invert: true
+      interp: Quintic
+      fractal: FBM
+      threshold: -0.26
+      stretch: 0.36
+      ###########################################
+    }
+  }
+}

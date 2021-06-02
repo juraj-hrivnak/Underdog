@@ -1,0 +1,44 @@
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: false
+  biomes: {
+    names: [
+      minecraft:smaller_extreme_hills
+      minecraft:jungle
+      minecraft:jungle_hills
+      minecraft:jungle_edge
+      minecraft:mutated_jungle
+      minecraft:mutated_jungle_edge
+    ]
+  }
+  layers: [
+    {
+      state: minecraft:stone:1
+      height: [ 20, 30 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone:3
+      height: [ 0, 58 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone:5
+      height: [ 0, 64 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone:3
+      height: [ 0, 150 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone
+      height: [ 0, 255 ]
+      ceiling: $OVERGROUND
+    }
+  ]
+}

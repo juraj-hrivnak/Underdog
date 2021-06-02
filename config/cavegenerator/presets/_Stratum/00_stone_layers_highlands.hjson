@@ -1,0 +1,57 @@
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: false
+  biomes: {
+    names: [
+      biomesoplenty:highland
+      biomesoplenty:overgrown_cliffs
+    ]
+  }
+  layers: [
+    {
+      #red granite
+      state: minecraft:stone:1
+      height: [ 20, 30 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #siltstone bedrock
+      state: minecraft:stone:3
+      height: [ 0, 40 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #underlying gneiss
+      state: minecraft:stone:5
+      height: [ 0, 76 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #limestone
+      state: quark:limestone
+      height: [ 0, 88 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #shale
+      state: quark:slate
+      height: [ 0, 116 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #shale sandstone
+      state: minecraft:stone
+      height: [ 0, 135 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #quartzite peaks
+      state: minecraft:stone:3
+      height: [ 0, 255 ]
+      ceiling: $OVERGROUND
+    }
+  ]
+}

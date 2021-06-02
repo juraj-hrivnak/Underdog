@@ -1,0 +1,19 @@
+{
+  OVERGROUND: {
+    seed: 1
+    frequency: 0.009
+    range: [ 0, 5 ]
+  }
+  UNDERGROUND: {
+    seed: 9419
+    frequency: 0.007
+    range: [ 0, 14 ]
+  }
+  underground(): {
+    seed: 9419
+    frequency: 0.007
+    # The user supplies the lower bound
+    # and the upper bound is lower + 14
+    range: [ "@1", "@1 + 14" ]
+  }
+}

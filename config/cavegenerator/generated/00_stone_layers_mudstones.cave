@@ -1,0 +1,84 @@
+{
+  enabled: false
+  biomes: {
+    names: [
+      minecraft:swampland
+      minecraft:mutated_swampland
+      minecraft:river
+      biomesoplenty:bayou
+      biomesoplenty:bog
+      biomesoplenty:lush_swamp
+      biomesoplenty:mangrove
+      biomesoplenty:chaparral
+      biomesoplenty:wetland
+      biomesoplenty:dead_swamp
+      biomesoplenty:fen
+      biomesoplenty:quagmire
+      biomesoplenty:land_of_lakes
+      biomesoplenty:marsh
+      biomesoplenty:moor
+    ]
+  }
+  layers: [
+    {
+      state: minecraft:stone:1
+      height: [ 20, 30 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      state: minecraft:stone:5
+      height: [ 0, 44 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      state: minecraft:stone
+      height: [ 0, 60 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      state: quark:limestone
+      height: [ 0, 86 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      state: quark:marble
+      height: [ 0, 255 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+  ]
+}

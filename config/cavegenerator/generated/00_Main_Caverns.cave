@@ -1,0 +1,505 @@
+{
+  blacklistBiomes: true
+  biomes: {
+    names: [
+      biomesoplenty:volcanic_island
+      minecraft:ocean
+      minecraft:deep_ocean
+      minecraft:river
+      minecraft:frozen_river
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+    ]
+    types: [
+      swamp
+    ]
+  }
+  replaceDecorators: false
+  replaceableBlocks: [
+    minecraft:gravel
+    minecraft:clay
+    biomesoplenty:ash_block
+    minecraft:grass
+    biomesoplenty:grass
+    biomesoplenty:grass:1
+    biomesoplenty:grass:2
+    biomesoplenty:grass:3
+    biomesoplenty:grass:4
+    biomesoplenty:grass:7
+    projectred-exploration:stone:3
+    minecraft:end_stone
+    minecraft:stone:0
+    minecraft:stone:1
+    minecraft:stone:2
+    minecraft:stone:3
+    minecraft:stone:4
+    minecraft:stone:5
+    minecraft:stone:6
+    minecraft:stone:7
+    minecraft:cobblestone
+    divergentunderground:andesite_cobblestone
+    divergentunderground:diorite_cobblestone
+    divergentunderground:granite_cobblestone
+    divergentunderground:quark_limestone_cobblestone
+    divergentunderground:quark_marble_cobblestone
+    projectred-exploration:stone:2
+    minecraft:red_sandstone
+    minecraft:sandstone
+    minecraft:sand:1
+    minecraft:sand
+    minecraft:magma
+    quark:limestone
+    quark:marble
+    quark:jasper
+    quark:slate
+    minecraft:dirt
+    minecraft:dirt:1
+    minecraft:dirt:2
+    biomesoplenty:dirt
+    biomesoplenty:dirt:1
+    biomesoplenty:dirt:2
+    biomesoplenty:dirt:3
+    biomesoplenty:dirt:4
+    biomesoplenty:dirt:5
+    biomesoplenty:dirt:6
+    biomesoplenty:dirt:7
+    biomesoplenty:dirt:8
+    biomesoplenty:dirt:9
+    biomesoplenty:dirt:10
+    minecraft:hardened_clay
+    minecraft:stained_hardened_clay:0
+    minecraft:stained_hardened_clay:1
+    minecraft:stained_hardened_clay:2
+    minecraft:stained_hardened_clay:3
+    minecraft:stained_hardened_clay:4
+    minecraft:stained_hardened_clay:5
+    minecraft:stained_hardened_clay:6
+    minecraft:stained_hardened_clay:7
+    minecraft:stained_hardened_clay:8
+    minecraft:stained_hardened_clay:9
+    minecraft:stained_hardened_clay:10
+    minecraft:stained_hardened_clay:11
+    minecraft:stained_hardened_clay:12
+    minecraft:stained_hardened_clay:13
+    minecraft:stained_hardened_clay:14
+    minecraft:stained_hardened_clay:15
+  ]
+  enabled: true
+  ###########################################
+  caveBlocks: [
+    {
+      states: simpledifficulty:purifiedwater
+      height: [ 0, 26 ]
+    }
+  ]
+  ###########################################
+  # Ponds
+  ###########################################
+  ponds: [
+    {
+      height: [ 20, 28 ]
+      depth: 2
+      states: simpledifficulty:purifiedwater
+    }
+  ]
+  ###########################################
+  caverns: [
+    {
+      ###########################################
+      # Main Caverns
+      ###########################################
+      height: [ 25, 55 ]
+      ceiling: {
+        seed: 1
+        cache: true
+      }
+      floor: {
+        seed: 1
+        cache: true
+        frequency: 0.06
+        range: [
+          0
+          8
+        ]
+      }
+      generators: [
+        {
+          ###################
+          // Claustrophobic
+          seed: 1
+          frequency: 0.02
+          type: Cellular
+          returnType: Distance3Div
+          jitter: 1
+          perturb: true
+          perturbAmp: 10
+          perturbFreq: 0.025
+          invert: true
+          threshold: -0.18
+          stretch: 0.75
+          ###################
+        }
+      ]
+      ###########################################
+    }
+    {
+      ###########################################
+      # Water Reservoirs
+      ###########################################
+      height: [ 22, 38 ]
+      ceiling: {
+        seed: 1
+        cache: true
+      }
+      floor: {
+        seed: 1
+        cache: true
+        frequency: 0.06
+        range: [
+          0
+          8
+        ]
+      }
+      generators: {
+        seed: 1
+        frequency: 10
+        type: PerlinFractal
+        interp: Hermite
+        fractal: Billow
+        returnType: NoiseLookup
+        cellularLookup: CubicFractal
+        octaves: 2
+        perturb: true
+        threshold: 1
+        stretch: 0.85
+      }
+      ###########################################
+    }
+    {
+      ###########################################
+      # Worley Caves Entrances
+      ###########################################
+      height: [ 40, 200 ]
+      ceiling: {
+        seed: 1
+        cache: true
+      }
+      floor: {
+        seed: 1
+        cache: true
+        frequency: 0.06
+        range: [
+          0
+          8
+        ]
+      }
+      generators: [
+        {
+          seed: 1
+          frequency: 0.0195
+          offset: 12
+          lacunarity: 1
+          octaves: 1
+          gain: 50.3
+          perturb: true
+          perturbAmp: 0.56
+          perturbFreq: 0.12
+          type: Cellular
+          jitterY: 2
+          jitterX: 2
+          jitterZ: 2
+          returnType: Distance3Sub
+          distFunc: Euclidean
+          invert: true
+          interp: Hermite
+          fractal: RigidMulti
+          threshold: -0.00010
+          stretch: -0.86
+        }
+      ]
+      ###########################################
+    }
+  ]
+  wallDecorators: [
+    {
+      states: minecraft:sandstone
+      directions: up
+      matchers: minecraft:sand
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:stone
+      directions: all
+      matchers: minecraft:water
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: quark:limestone
+      directions: all
+      matchers: [
+        minecraft:gravel
+        minecraft:clay
+        biomesoplenty:ash_block
+        minecraft:grass
+        biomesoplenty:grass
+        biomesoplenty:grass:1
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+        projectred-exploration:stone:3
+        minecraft:end_stone
+        minecraft:stone:0
+        minecraft:stone:1
+        minecraft:stone:2
+        minecraft:stone:3
+        minecraft:stone:4
+        minecraft:stone:5
+        minecraft:stone:6
+        minecraft:stone:7
+        minecraft:cobblestone
+        divergentunderground:andesite_cobblestone
+        divergentunderground:diorite_cobblestone
+        divergentunderground:granite_cobblestone
+        divergentunderground:quark_limestone_cobblestone
+        divergentunderground:quark_marble_cobblestone
+        projectred-exploration:stone:2
+        minecraft:red_sandstone
+        minecraft:sandstone
+        minecraft:sand:1
+        minecraft:sand
+        minecraft:magma
+        quark:limestone
+        quark:marble
+        quark:jasper
+        quark:slate
+        minecraft:dirt
+        minecraft:dirt:1
+        minecraft:dirt:2
+        biomesoplenty:dirt
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:3
+        biomesoplenty:dirt:4
+        biomesoplenty:dirt:5
+        biomesoplenty:dirt:6
+        biomesoplenty:dirt:7
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:10
+        minecraft:hardened_clay
+        minecraft:stained_hardened_clay:0
+        minecraft:stained_hardened_clay:1
+        minecraft:stained_hardened_clay:2
+        minecraft:stained_hardened_clay:3
+        minecraft:stained_hardened_clay:4
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:6
+        minecraft:stained_hardened_clay:7
+        minecraft:stained_hardened_clay:8
+        minecraft:stained_hardened_clay:9
+        minecraft:stained_hardened_clay:10
+        minecraft:stained_hardened_clay:11
+        minecraft:stained_hardened_clay:12
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:14
+        minecraft:stained_hardened_clay:15
+      ]
+      height: [ 24, 34 ]
+      placement: EMBED
+      integrity: 0.75
+    }
+    {
+      states: minecraft:gravel
+      directions: down
+      matchers: [
+        minecraft:gravel
+        minecraft:clay
+        biomesoplenty:ash_block
+        minecraft:grass
+        biomesoplenty:grass
+        biomesoplenty:grass:1
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+        projectred-exploration:stone:3
+        minecraft:end_stone
+        minecraft:stone:0
+        minecraft:stone:1
+        minecraft:stone:2
+        minecraft:stone:3
+        minecraft:stone:4
+        minecraft:stone:5
+        minecraft:stone:6
+        minecraft:stone:7
+        minecraft:cobblestone
+        divergentunderground:andesite_cobblestone
+        divergentunderground:diorite_cobblestone
+        divergentunderground:granite_cobblestone
+        divergentunderground:quark_limestone_cobblestone
+        divergentunderground:quark_marble_cobblestone
+        projectred-exploration:stone:2
+        minecraft:red_sandstone
+        minecraft:sandstone
+        minecraft:sand:1
+        minecraft:sand
+        minecraft:magma
+        quark:limestone
+        quark:marble
+        quark:jasper
+        quark:slate
+        minecraft:dirt
+        minecraft:dirt:1
+        minecraft:dirt:2
+        biomesoplenty:dirt
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:3
+        biomesoplenty:dirt:4
+        biomesoplenty:dirt:5
+        biomesoplenty:dirt:6
+        biomesoplenty:dirt:7
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:10
+        minecraft:hardened_clay
+        minecraft:stained_hardened_clay:0
+        minecraft:stained_hardened_clay:1
+        minecraft:stained_hardened_clay:2
+        minecraft:stained_hardened_clay:3
+        minecraft:stained_hardened_clay:4
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:6
+        minecraft:stained_hardened_clay:7
+        minecraft:stained_hardened_clay:8
+        minecraft:stained_hardened_clay:9
+        minecraft:stained_hardened_clay:10
+        minecraft:stained_hardened_clay:11
+        minecraft:stained_hardened_clay:12
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:14
+        minecraft:stained_hardened_clay:15
+      ]
+      height: [ 20, 30 ]
+      placement: EMBED
+      integrity: 0.75
+    }
+  ]
+  stalactites: [
+    {
+      type: speleothem
+      state: quark:limestone
+      length: [ 2, 5 ]
+      height: [ 24, 34 ]
+      space: 0
+      size: medium
+      chance: 0.024
+    }
+    {
+      type: speleothem
+      state: quark:limestone
+      length: [ 2, 5 ]
+      height: [ 24, 34 ]
+      space: 0
+      size: giant
+      chance: 0.014
+    }
+    {
+      type: speleothem
+      state: minecraft:stone
+      matchers: [
+        minecraft:gravel
+        minecraft:clay
+        biomesoplenty:ash_block
+        minecraft:grass
+        biomesoplenty:grass
+        biomesoplenty:grass:1
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+        projectred-exploration:stone:3
+        minecraft:end_stone
+        minecraft:stone:0
+        minecraft:stone:1
+        minecraft:stone:2
+        minecraft:stone:3
+        minecraft:stone:4
+        minecraft:stone:5
+        minecraft:stone:6
+        minecraft:stone:7
+        minecraft:cobblestone
+        divergentunderground:andesite_cobblestone
+        divergentunderground:diorite_cobblestone
+        divergentunderground:granite_cobblestone
+        divergentunderground:quark_limestone_cobblestone
+        divergentunderground:quark_marble_cobblestone
+        projectred-exploration:stone:2
+        minecraft:red_sandstone
+        minecraft:sandstone
+        minecraft:sand:1
+        minecraft:sand
+        minecraft:magma
+        quark:limestone
+        quark:marble
+        quark:jasper
+        quark:slate
+        minecraft:dirt
+        minecraft:dirt:1
+        minecraft:dirt:2
+        biomesoplenty:dirt
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:3
+        biomesoplenty:dirt:4
+        biomesoplenty:dirt:5
+        biomesoplenty:dirt:6
+        biomesoplenty:dirt:7
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:10
+        minecraft:hardened_clay
+        minecraft:stained_hardened_clay:0
+        minecraft:stained_hardened_clay:1
+        minecraft:stained_hardened_clay:2
+        minecraft:stained_hardened_clay:3
+        minecraft:stained_hardened_clay:4
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:6
+        minecraft:stained_hardened_clay:7
+        minecraft:stained_hardened_clay:8
+        minecraft:stained_hardened_clay:9
+        minecraft:stained_hardened_clay:10
+        minecraft:stained_hardened_clay:11
+        minecraft:stained_hardened_clay:12
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:14
+        minecraft:stained_hardened_clay:15
+      ]
+      length: [ 3, 4 ]
+      height: [ 50, 240 ]
+      space: 3
+      size: giant
+      chance: 0.02
+    }
+  ]
+  ###########################################
+  ###########################################
+  # Surface Tunnels
+  ###########################################
+  // tunnels: {
+  //   systemChance: 0.005
+  //   dPitch: { factor: 0.5 }
+  //   originHeight: [ 50, 200 ]
+  //   chance: 0.2
+  //   count: 10
+  // }
+  ###########################################
+}

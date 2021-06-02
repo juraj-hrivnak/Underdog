@@ -1,0 +1,43 @@
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: false
+  biomes: {
+    names: [
+      biomesoplenty:chaparral
+    ]
+  }
+  layers: [
+    ###########################################
+    # Mediterranean
+    ###########################################
+    {
+      # Diorite
+      state: minecraft:stone:3
+      height: [ 20, 30 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      # Limestone
+      state: quark:limestone
+      height: [ 30, 60 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+    {
+      # Marble
+      state: quark:marble
+      height: [ 65, 90 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      # Andesite
+      state: minecraft:stone:5
+      height: [ 90, 120 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+  ]
+}

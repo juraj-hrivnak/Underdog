@@ -1,0 +1,218 @@
+{
+  imports: [
+    common_values.cave::NATURAL_STONE
+  ]
+  variables: {
+    COMMON_CEILING: {
+      seed: 1
+      cache: true
+    }
+    COMMON_FLOOR: {
+      seed: 1
+      cache: true
+      frequency: 0.06
+      range: [ 0, 8 ]
+    }
+  }
+  blacklistBiomes: true
+  biomes: {
+    names: [
+      biomesoplenty:volcanic_island
+      minecraft:ocean
+      minecraft:deep_ocean
+      minecraft:river
+      minecraft:frozen_river
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+    ]
+    types: [
+      swamp
+    ]
+  }
+  replaceDecorators: false
+  replaceableBlocks: $NATURAL_STONE
+  enabled: true
+  ###########################################
+  caveBlocks: [
+    {
+      states: simpledifficulty:purifiedwater
+      height: [ 0, 26 ]
+    }
+  ]
+  ###########################################
+  # Ponds
+  ###########################################
+  ponds: [
+    {
+      height: [ 20, 28 ]
+      depth: 2
+      states: simpledifficulty:purifiedwater
+    }
+  ]
+  ###########################################
+  caverns: [
+    {
+      ###########################################
+      # Main Caverns
+      ###########################################
+      height: [ 25, 55 ]
+      ###################
+      ceiling: $COMMON_CEILING
+      floor: $COMMON_FLOOR
+      generators: [
+        {
+          ###################
+          // Claustrophobic
+          seed: 1
+          frequency: 0.02
+          type: Cellular
+          returnType: Distance3Div
+          jitter: 1
+          perturb: true
+          perturbAmp: 10
+          perturbFreq: 0.025
+          invert: true
+          threshold: -0.18
+          stretch: 0.75
+          ###################
+        }
+      ]
+      ###########################################
+    }
+    {
+      ###########################################
+      # Water Reservoirs
+      ###########################################
+      height: [ 22, 38 ]
+      ##################
+      ceiling: $COMMON_CEILING
+      floor: $COMMON_FLOOR
+      generators: {
+        seed: 1
+        frequency: 10
+        type: PerlinFractal
+        interp: Hermite
+        fractal: Billow
+        returnType: NoiseLookup
+        cellularLookup: CubicFractal
+        octaves: 2
+        perturb: true
+        threshold: 1
+        stretch: 0.85
+      }
+      ###########################################
+    }
+    {
+      ###########################################
+      # Worley Caves Entrances
+      ###########################################
+      height: [ 40, 200 ]
+      ###################
+      ceiling: $COMMON_CEILING
+      floor: $COMMON_FLOOR
+      generators: [
+        {
+          seed: 1
+          frequency: 0.0195
+          offset: 12
+          lacunarity: 1
+          octaves: 1
+          gain: 50.3
+          perturb: true
+          perturbAmp: 0.56
+          perturbFreq: 0.12
+          type: Cellular
+          jitterY: 2
+          jitterX: 2
+          jitterZ: 2
+          returnType: Distance3Sub
+          distFunc: Euclidean
+          invert: true
+          interp: Hermite
+          fractal: RigidMulti
+          threshold: -0.00010
+          stretch: -0.86
+        }
+      ]
+      ###########################################
+    }
+  ]
+  wallDecorators: [
+    {
+      states: minecraft:sandstone
+      directions: up
+      matchers: minecraft:sand
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:stone
+      directions: all
+      matchers: minecraft:water
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: quark:limestone
+      directions: all
+      matchers: $NATURAL_STONE
+      height: [ 24, 34 ]
+      placement: EMBED
+      integrity: 0.75
+    }
+    {
+      states: minecraft:gravel
+      directions: down
+      matchers: $NATURAL_STONE
+      height: [ 20, 30 ]
+      placement: EMBED
+      integrity: 0.75
+    }
+  ]
+  stalactites: [
+    {
+      type: speleothem
+      state: quark:limestone
+      length: [ 2, 5 ]
+      height: [ 24, 34 ]
+      space: 0
+      size: medium
+      chance: 0.024
+    }
+    {
+      type: speleothem
+      state: quark:limestone
+      length: [ 2, 5 ]
+      height: [ 24, 34 ]
+      space: 0
+      size: giant
+      chance: 0.014
+    }
+    {
+      type: speleothem
+      state: minecraft:stone
+      matchers: $NATURAL_STONE
+      length: [ 3, 4 ]
+      height: [ 50, 240 ]
+      space: 3
+      size: giant
+      chance: 0.02
+    }
+  ]
+  ###########################################
+  ###########################################
+  # Surface Tunnels
+  ###########################################
+  // tunnels: {
+  //   systemChance: 0.005
+  //   dPitch: { factor: 0.5 }
+  //   originHeight: [ 50, 200 ]
+  //   chance: 0.2
+  //   count: 10
+  // }
+  ###########################################
+}
