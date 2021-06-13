@@ -169,7 +169,7 @@
           height: [ 0, 90 ]
         }
       ]
-      systemChance: 1
+      systemChance: 0.5
       systemDensity: 1
       noiseYReduction: false
       distance: 100
