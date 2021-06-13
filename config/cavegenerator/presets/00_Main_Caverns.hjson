@@ -171,7 +171,7 @@
       integrity: 0.75
     }
   ]
-  speleothems: [
+  stalactites: [
     {
       type: speleothem
       state: quark:limestone
