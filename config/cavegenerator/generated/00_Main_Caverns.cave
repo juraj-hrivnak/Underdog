@@ -124,24 +124,19 @@
           8
         ]
       }
-      generators: [
-        {
-          ###################
-          // Claustrophobic
-          seed: 1
-          frequency: 0.02
-          type: Cellular
-          returnType: Distance3Div
-          jitter: 1
-          perturb: true
-          perturbAmp: 10
-          perturbFreq: 0.025
-          invert: true
-          threshold: -0.18
-          stretch: 0.75
-          ###################
-        }
-      ]
+      generators: {
+        seed: 1
+        frequency: 0.02
+        type: Cellular
+        returnType: Distance3Div
+        jitter: 1
+        perturb: true
+        perturbAmp: 10
+        perturbFreq: 0.025
+        invert: true
+        threshold: -0.18
+        stretch: 0.75
+      }
       ###########################################
     }
     {
@@ -182,9 +177,11 @@
       # Worley Caves Entrances
       ###########################################
       height: [ 40, 200 ]
+      ###################
       ceiling: {
         seed: 1
         cache: true
+        range: [ 2, 8 ]
       }
       floor: {
         seed: 1
@@ -195,30 +192,29 @@
           8
         ]
       }
-      generators: [
-        {
-          seed: 1
-          frequency: 0.0195
-          offset: 12
-          lacunarity: 1
-          octaves: 1
-          gain: 50.3
-          perturb: true
-          perturbAmp: 0.56
-          perturbFreq: 0.12
-          type: Cellular
-          jitterY: 2
-          jitterX: 2
-          jitterZ: 2
-          returnType: Distance3Sub
-          distFunc: Euclidean
-          invert: true
-          interp: Hermite
-          fractal: RigidMulti
-          threshold: -0.00010
-          stretch: -0.86
-        }
-      ]
+      generators: {
+        seed: 1
+        frequency: 0.0105
+        offset: 150
+        lacunarity: 1
+        octaves: 1
+        gain: 0.2
+        perturb: true
+        perturbAmp: 4
+        perturbFreq: 0.12
+        type: Cellular
+        jitterX: 1.45
+        jitterY: 2.25
+        jitterZ: 1.25
+        cellularLookup: Cellular
+        returnType: Distance3Div
+        distFunc: Euclidean
+        invert: true
+        interp: Quintic
+        fractal: RigidMulti
+        threshold: -0.16
+        stretch: 0.36
+      }
       ###########################################
     }
   ]
@@ -235,7 +231,7 @@
       states: minecraft:stone
       directions: all
       matchers: minecraft:water
-      height: [ 40, 240 ]
+      height: [ 30, 70 ]
       placement: EMBED
       integrity: 1
     }
@@ -392,7 +388,7 @@
       integrity: 0.75
     }
   ]
-  stalactites: [
+  speleothems: [
     {
       type: speleothem
       state: quark:limestone
@@ -413,76 +409,8 @@
     }
     {
       type: speleothem
-      state: minecraft:stone
-      matchers: [
-        minecraft:gravel
-        minecraft:clay
-        biomesoplenty:ash_block
-        minecraft:grass
-        biomesoplenty:grass
-        biomesoplenty:grass:1
-        biomesoplenty:grass:2
-        biomesoplenty:grass:3
-        biomesoplenty:grass:4
-        biomesoplenty:grass:7
-        projectred-exploration:stone:3
-        minecraft:end_stone
-        minecraft:stone:0
-        minecraft:stone:1
-        minecraft:stone:2
-        minecraft:stone:3
-        minecraft:stone:4
-        minecraft:stone:5
-        minecraft:stone:6
-        minecraft:stone:7
-        minecraft:cobblestone
-        divergentunderground:andesite_cobblestone
-        divergentunderground:diorite_cobblestone
-        divergentunderground:granite_cobblestone
-        divergentunderground:quark_limestone_cobblestone
-        divergentunderground:quark_marble_cobblestone
-        projectred-exploration:stone:2
-        minecraft:red_sandstone
-        minecraft:sandstone
-        minecraft:sand:1
-        minecraft:sand
-        minecraft:magma
-        quark:limestone
-        quark:marble
-        quark:jasper
-        quark:slate
-        minecraft:dirt
-        minecraft:dirt:1
-        minecraft:dirt:2
-        biomesoplenty:dirt
-        biomesoplenty:dirt:1
-        biomesoplenty:dirt:2
-        biomesoplenty:dirt:3
-        biomesoplenty:dirt:4
-        biomesoplenty:dirt:5
-        biomesoplenty:dirt:6
-        biomesoplenty:dirt:7
-        biomesoplenty:dirt:8
-        biomesoplenty:dirt:9
-        biomesoplenty:dirt:10
-        minecraft:hardened_clay
-        minecraft:stained_hardened_clay:0
-        minecraft:stained_hardened_clay:1
-        minecraft:stained_hardened_clay:2
-        minecraft:stained_hardened_clay:3
-        minecraft:stained_hardened_clay:4
-        minecraft:stained_hardened_clay:5
-        minecraft:stained_hardened_clay:6
-        minecraft:stained_hardened_clay:7
-        minecraft:stained_hardened_clay:8
-        minecraft:stained_hardened_clay:9
-        minecraft:stained_hardened_clay:10
-        minecraft:stained_hardened_clay:11
-        minecraft:stained_hardened_clay:12
-        minecraft:stained_hardened_clay:13
-        minecraft:stained_hardened_clay:14
-        minecraft:stained_hardened_clay:15
-      ]
+      state: minecraft:dirt
+      matchers: minecraft:dirt
       length: [ 3, 4 ]
       height: [ 50, 240 ]
       space: 3
@@ -490,16 +418,4 @@
       chance: 0.02
     }
   ]
-  ###########################################
-  ###########################################
-  # Surface Tunnels
-  ###########################################
-  // tunnels: {
-  //   systemChance: 0.005
-  //   dPitch: { factor: 0.5 }
-  //   originHeight: [ 50, 200 ]
-  //   chance: 0.2
-  //   count: 10
-  // }
-  ###########################################
 }
