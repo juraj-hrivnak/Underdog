@@ -3,7 +3,7 @@
     layers_default_ceiling.cave::OVERGROUND
     layers_default_ceiling.cave::UNDERGROUND
   ]
-  enabled: false
+  enabled: true
   biomes: {
     names: [
       minecraft:desert

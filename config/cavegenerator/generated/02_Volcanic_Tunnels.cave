@@ -73,7 +73,7 @@
     minecraft:stained_hardened_clay:14
     minecraft:stained_hardened_clay:15
   ]
-  enabled: false
+  enabled: true
   tunnels: [
     {
       shell: {

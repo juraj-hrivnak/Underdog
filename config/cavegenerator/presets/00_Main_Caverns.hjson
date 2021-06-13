@@ -61,24 +61,19 @@
       ###################
       ceiling: $COMMON_CEILING
       floor: $COMMON_FLOOR
-      generators: [
-        {
-          ###################
-          // Claustrophobic
-          seed: 1
-          frequency: 0.02
-          type: Cellular
-          returnType: Distance3Div
-          jitter: 1
-          perturb: true
-          perturbAmp: 10
-          perturbFreq: 0.025
-          invert: true
-          threshold: -0.18
-          stretch: 0.75
-          ###################
-        }
-      ]
+      generators: {
+        seed: 1
+        frequency: 0.02
+        type: Cellular
+        returnType: Distance3Div
+        jitter: 1
+        perturb: true
+        perturbAmp: 10
+        perturbFreq: 0.025
+        invert: true
+        threshold: -0.18
+        stretch: 0.75
+      }
       ###########################################
     }
     {
@@ -110,32 +105,35 @@
       ###########################################
       height: [ 40, 200 ]
       ###################
-      ceiling: $COMMON_CEILING
+      ceiling: {
+        seed: 1
+        cache: true
+        range: [ 2, 8 ]
+      }
       floor: $COMMON_FLOOR
-      generators: [
-        {
-          seed: 1
-          frequency: 0.0195
-          offset: 12
-          lacunarity: 1
-          octaves: 1
-          gain: 50.3
-          perturb: true
-          perturbAmp: 0.56
-          perturbFreq: 0.12
-          type: Cellular
-          jitterY: 2
-          jitterX: 2
-          jitterZ: 2
-          returnType: Distance3Sub
-          distFunc: Euclidean
-          invert: true
-          interp: Hermite
-          fractal: RigidMulti
-          threshold: -0.00010
-          stretch: -0.86
-        }
-      ]
+      generators: {
+        seed: 1
+        frequency: 0.0105
+        offset: 150
+        lacunarity: 1
+        octaves: 1
+        gain: 0.2
+        perturb: true
+        perturbAmp: 4
+        perturbFreq: 0.12
+        type: Cellular
+        jitterX: 1.45
+        jitterY: 2.25
+        jitterZ: 1.25
+        cellularLookup: Cellular
+        returnType: Distance3Div
+        distFunc: Euclidean
+        invert: true
+        interp: Quintic
+        fractal: RigidMulti
+        threshold: -0.16
+        stretch: 0.36
+      }
       ###########################################
     }
   ]
@@ -152,7 +150,7 @@
       states: minecraft:stone
       directions: all
       matchers: minecraft:water
-      height: [ 40, 240 ]
+      height: [ 30, 70 ]
       placement: EMBED
       integrity: 1
     }
@@ -173,7 +171,7 @@
       integrity: 0.75
     }
   ]
-  stalactites: [
+  speleothems: [
     {
       type: speleothem
       state: quark:limestone
@@ -194,8 +192,8 @@
     }
     {
       type: speleothem
-      state: minecraft:stone
-      matchers: $NATURAL_STONE
+      state: minecraft:dirt
+      matchers: minecraft:dirt
       length: [ 3, 4 ]
       height: [ 50, 240 ]
       space: 3
@@ -203,16 +201,4 @@
       chance: 0.02
     }
   ]
-  ###########################################
-  ###########################################
-  # Surface Tunnels
-  ###########################################
-  // tunnels: {
-  //   systemChance: 0.005
-  //   dPitch: { factor: 0.5 }
-  //   originHeight: [ 50, 200 ]
-  //   chance: 0.2
-  //   count: 10
-  // }
-  ###########################################
 }

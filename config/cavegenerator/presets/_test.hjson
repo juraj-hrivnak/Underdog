@@ -16,7 +16,7 @@
       cache: true
     }
   }
-  enabled: true
+  enabled: false
   replaceableBlocks: $NATURAL_STONE
   replaceDecorators: false
   blacklistBiomes: true

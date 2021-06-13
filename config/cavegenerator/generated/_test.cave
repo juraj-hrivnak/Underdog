@@ -1,5 +1,5 @@
 {
-  enabled: true
+  enabled: false
   replaceableBlocks: [
     minecraft:gravel
     minecraft:clay
