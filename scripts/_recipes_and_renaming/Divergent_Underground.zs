@@ -15,5 +15,11 @@ recipes.addShapeless(<divergentunderground:rock_granite> * 4, [<divergentundergr
 recipes.addShapeless(<divergentunderground:rock_quark_limestone> * 4, [<divergentunderground:quark_limestone_cobblestone>]);
 recipes.addShapeless(<divergentunderground:rock_quark_marble> * 4, [<divergentunderground:quark_marble_cobblestone>]);
 
+<ore:cobblestone>.add(<divergentunderground:andesite_cobblestone>);
+<ore:cobblestone>.add(<divergentunderground:diorite_cobblestone>);
+<ore:cobblestone>.add(<divergentunderground:granite_cobblestone>);
+<ore:cobblestone>.add(<divergentunderground:quark_limestone_cobblestone>);
+<ore:cobblestone>.add(<divergentunderground:quark_marble_cobblestone>);
+
 // Removing Chisel
 rh(<divergentunderground:chisel>);
