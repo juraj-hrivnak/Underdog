@@ -5,7 +5,7 @@
     "location": "minecraft:clay",
     "level": 0,
     "material": "CLAY",
-    "soundType": "GROUND",
+    "soundType": "DIRT",
     "lightLevel": 0,
     "resistance": 3,
     "hardness": 3.2,

@@ -15,7 +15,7 @@
     tool: pickaxe
   }
   texture: {
-    shade: true
+    shade: false
     original: geolosys:blocks/gold
   }
   recipe: {
