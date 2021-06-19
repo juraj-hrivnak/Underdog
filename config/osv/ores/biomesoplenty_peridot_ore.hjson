@@ -25,7 +25,7 @@ gen: [
   {
     height: [ 4, 32 ]
     size: 1
-    count: 1
+    count: 10
     biomes: {
       types: [
         PLAINS
