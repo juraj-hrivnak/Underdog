@@ -5,8 +5,27 @@
 			"name": "Mill_Sound",
 			"type":
 				{
-					"type": "block",
-					"name": "charcoal_pit:ceramic_pot"
+					"type": "block_list",
+					"blocks": [
+						{"name": "charcoal_pit:ceramic_pot"},
+						{"name": "charcoal_pit:clay_pot"},
+						{"name": "charcoal_pit:white_dyed_pot"},
+						{"name": "charcoal_pit:orange_dyed_pot"},
+						{"name": "charcoal_pit:magenta_dyed_pot"},
+						{"name": "charcoal_pit:light_blue_dyed_pot"},
+						{"name": "charcoal_pit:yellow_dyed_pot"},
+						{"name": "charcoal_pit:lime_dyed_pot"},
+						{"name": "charcoal_pit:pink_dyed_pot"},
+						{"name": "charcoal_pit:gray_dyed_pot"},
+						{"name": "charcoal_pit:silver_dyed_pot"},
+						{"name": "charcoal_pit:cyan_dyed_pot"},
+						{"name": "charcoal_pit:purple_dyed_pot"},
+						{"name": "charcoal_pit:blue_dyed_pot"},
+						{"name": "charcoal_pit:brown_dyed_pot"},
+						{"name": "charcoal_pit:green_dyed_pot"},
+						{"name": "charcoal_pit:red_dyed_pot"},
+						{"name": "charcoal_pit:black_dyed_pot"}
+					]
 				},
 			"clicktype": "leftclick",
 			"blockRightClick": false,
