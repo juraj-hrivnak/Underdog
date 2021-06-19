@@ -25,6 +25,6 @@ gen: [
   {
     height: [ 4, 32 ]
     size: 2
-    count: 10
+    count: 4
   }
 ]
