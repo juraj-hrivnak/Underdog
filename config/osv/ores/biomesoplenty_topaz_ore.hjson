@@ -24,7 +24,7 @@ recipe: {
 gen: [
   {
     height: [ 4, 32 ]
-    size: 1
+    size: 2
     count: 10
     biomes: {
       types: [
