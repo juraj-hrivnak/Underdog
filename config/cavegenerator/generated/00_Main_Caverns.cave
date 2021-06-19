@@ -159,7 +159,7 @@
       }
       generators: {
         seed: 1
-        frequency: 10
+        frequency: 1
         type: PerlinFractal
         interp: Hermite
         fractal: Billow
@@ -181,7 +181,7 @@
       ceiling: {
         seed: 1
         cache: true
-        range: [ 2, 8 ]
+        range: [ 0.9, 8 ]
       }
       floor: {
         seed: 1
@@ -219,6 +219,8 @@
     }
   ]
   wallDecorators: [
+    ###########################################
+    // Sand Fix
     {
       states: minecraft:sandstone
       directions: up
@@ -227,6 +229,15 @@
       placement: EMBED
       integrity: 1
     }
+    {
+      states: minecraft:red_sandstone
+      directions: up
+      matchers: minecraft:sand:1
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    ###########################################
     {
       states: minecraft:stone
       directions: all
@@ -411,11 +422,11 @@
       type: speleothem
       state: minecraft:dirt
       matchers: minecraft:dirt
-      length: [ 3, 4 ]
+      length: [ 2, 5 ]
       height: [ 50, 240 ]
-      space: 3
+      space: 0
       size: giant
-      chance: 0.02
+      chance: 0.014
     }
   ]
 }
