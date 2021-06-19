@@ -94,6 +94,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:48
 key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
@@ -113,7 +114,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:73
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
 key_keybind.baublesinventory:48
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
