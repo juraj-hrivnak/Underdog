@@ -33,6 +33,7 @@ Folowing mods must be removed:
 
 Folowing folder are required on the server:
 - config
+- local
 - mods
 - scripts
 - structures
