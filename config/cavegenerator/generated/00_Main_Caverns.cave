@@ -220,7 +220,7 @@
   ]
   wallDecorators: [
     ###########################################
-    // Sand Fix
+    // Sand / Sandstone fixage
     {
       states: minecraft:sandstone
       directions: up
@@ -233,6 +233,15 @@
       states: minecraft:red_sandstone
       directions: up
       matchers: minecraft:sand:1
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    // Gravel / Stone fixage
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: minecraft:gravel
       height: [ 40, 240 ]
       placement: EMBED
       integrity: 1
