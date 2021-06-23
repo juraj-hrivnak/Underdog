@@ -8,7 +8,7 @@
     "soundType": "DIRT",
     "lightLevel": 0,
     "resistance": 3,
-    "hardness": 3.2,
+    "hardness": 1.2,
     "ticksRandomly": false,
     "slipperiness": 0.6000000238418579,
     "tool": shovel
