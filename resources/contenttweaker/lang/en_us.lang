@@ -132,3 +132,7 @@ item.contenttweaker.thorium_cluster.name=Thorium Cluster
 item.contenttweaker.boron_cluster.name=Boron Cluster
 item.contenttweaker.lithium_cluster.name=Lithium Cluster
 item.contenttweaker.magnesium_cluster.name=Magnesium Cluster
+
+# Beryl Cluster
+item.contenttweaker.beryl_cluster.name=Beryl Cluster
+item.contenttweaker.kimberlite_cluster.name=Kimberlite Cluster
