@@ -25,6 +25,12 @@ gen: [
   {
     height: [ 4, 32 ]
     size: 2
-    count: 4
+    count: 2
+    biomes: {
+      types: [
+        SANDY
+        SWAMP
+      ]
+    }
   }
 ]
