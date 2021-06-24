@@ -2,6 +2,7 @@
 	title: "Aloy Kiln",
 	x: -2.0d,
 	y: -1.0d,
+	shape: "hexagon",
 	dependencies: [
 		"a2baa802"
 	],

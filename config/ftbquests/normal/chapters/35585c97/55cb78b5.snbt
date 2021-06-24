@@ -1,53 +1,51 @@
 {
-	x: 3.0d,
-	y: 1.5d,
+	title: "Metal Press",
+	icon: "immersiveengineering:metal_multiblock",
+	x: 8.5d,
+	y: -2.0d,
+	shape: "square",
+	dependencies: [
+		"b6e96ff5",
+		"dcb22896"
+	],
 	tasks: [{
-		uid: "b618b7d4",
+		uid: "80029800",
 		type: "item",
 		items: [{
-			item: "immersiveengineering:metal_multiblock"
-		}]
-	}],
-	rewards: [{
-		uid: "1ac4812f",
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d84f280f",
 		type: "item",
-		item: {
-			id: "buildinggadgets:template",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "24206b91",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	},
+	{
+		uid: "fe19a8b4",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
 			tag: {
-				copycounter: 2,
-				TemplateName: "Press",
-				UUID: "26f41727-f2e7-4037-80f8-f23cc87b4e58",
-				startPos: {
-					X: 295,
-					Y: 65,
-					Z: 456
-				},
-				itemcountmap: [{
-					item: 7124,
-					meta: 1,
-					count: 2
-				},
-				{
-					item: 7123,
-					meta: 3,
-					count: 1
-				},
-				{
-					item: 7123,
-					meta: 5,
-					count: 1
-				},
-				{
-					item: 33,
-					meta: 0,
-					count: 1
-				}],
-				endPos: {
-					X: 295,
-					Y: 67,
-					Z: 454
-				}
+				conveyorType: "immersiveengineering:conveyor"
 			}
-		}
+		}],
+		count: 2L
+	},
+	{
+		uid: "b0cf1d3f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}]
 	}]
 }

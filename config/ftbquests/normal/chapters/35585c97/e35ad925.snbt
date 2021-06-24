@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a2baa802"
+	],
+	tasks: [{
+		uid: "06c8c9d4",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}]
+	}]
+}

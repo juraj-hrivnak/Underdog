@@ -1,6 +1,8 @@
 {
-	x: -3.0d,
-	y: 1.0d,
+	x: 7.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
 	dependencies: [
 		"410c58a4"
 	],

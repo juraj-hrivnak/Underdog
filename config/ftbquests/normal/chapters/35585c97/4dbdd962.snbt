@@ -1,7 +1,7 @@
 {
 	title: "Medium Voltage",
 	x: 2.0d,
-	y: 0.0d,
+	y: 0.5d,
 	dependencies: [
 		"256ff056"
 	],
