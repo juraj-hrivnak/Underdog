@@ -28,22 +28,22 @@ recipes.addShaped("treated_wood_lumber", <contenttweaker:treated_wood_lumber> * 
 
 // Painted Wood Fix
 val paintedWoods = {
-    <contenttweaker:painted_wood_white_lumber> : <minecraft:dye>,
-    <contenttweaker:painted_wood_orange_lumber> : <minecraft:dye:1>,
-    <contenttweaker:painted_wood_magenta_lumber> : <minecraft:dye:2>,
-    <contenttweaker:painted_wood_light_blue_lumber> : <minecraft:dye:3>,
-    <contenttweaker:painted_wood_yellow_lumber> : <minecraft:dye:4>,
-    <contenttweaker:painted_wood_lime_lumber> : <minecraft:dye:5>,
-    <contenttweaker:painted_wood_pink_lumber> : <minecraft:dye:6>,
-    <contenttweaker:painted_wood_gray_lumber> : <minecraft:dye:7>,
-    <contenttweaker:painted_wood_silver_lumber> : <minecraft:dye:8>,
-    <contenttweaker:painted_wood_cyan_lumber> : <minecraft:dye:9>,
-    <contenttweaker:painted_wood_purple_lumber> : <minecraft:dye:10>,
-    <contenttweaker:painted_wood_blue_lumber> : <minecraft:dye:11>,
-    <contenttweaker:painted_wood_brown_lumber> : <minecraft:dye:12>,
-    <contenttweaker:painted_wood_green_lumber> : <minecraft:dye:13>,
-    <contenttweaker:painted_wood_red_lumber> : <minecraft:dye:14>,
-    <contenttweaker:painted_wood_black_lumber> : <minecraft:dye:15>
+    <contenttweaker:painted_wood_white_lumber> : <minecraft:dye:15>,
+    <contenttweaker:painted_wood_orange_lumber> : <minecraft:dye:14>,
+    <contenttweaker:painted_wood_magenta_lumber> : <minecraft:dye:13>,
+    <contenttweaker:painted_wood_light_blue_lumber> : <minecraft:dye:12>,
+    <contenttweaker:painted_wood_yellow_lumber> : <minecraft:dye:11>,
+    <contenttweaker:painted_wood_lime_lumber> : <minecraft:dye:10>,
+    <contenttweaker:painted_wood_pink_lumber> : <minecraft:dye:9>,
+    <contenttweaker:painted_wood_gray_lumber> : <minecraft:dye:8>,
+    <contenttweaker:painted_wood_silver_lumber> : <minecraft:dye:7>,
+    <contenttweaker:painted_wood_cyan_lumber> : <minecraft:dye:6>,
+    <contenttweaker:painted_wood_purple_lumber> : <minecraft:dye:5>,
+    <contenttweaker:painted_wood_blue_lumber> : <minecraft:dye:4>,
+    <contenttweaker:painted_wood_brown_lumber> : <minecraft:dye:3>,
+    <contenttweaker:painted_wood_green_lumber> : <minecraft:dye:2>,
+    <contenttweaker:painted_wood_red_lumber> : <minecraft:dye:1>,
+    <contenttweaker:painted_wood_black_lumber> : <minecraft:dye>
 } as IItemStack[IItemStack];
 
 for paintedLumber, dye in paintedWoods {
