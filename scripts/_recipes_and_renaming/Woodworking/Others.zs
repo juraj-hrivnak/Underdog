@@ -18,14 +18,11 @@ recipes.addShaped("oak_trapdoor_fixed", <minecraft:trapdoor>, [
 
 // Treated Wood Fix
 val creosoteBucket = <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000});
+val creosoteClayBucket = <ceramics:clay_bucket>.withTag({fluids: {FluidName: "creosote", Amount: 1000}});
 val creosoteReservoir = <thermalexpansion:reservoir:*>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}});
 recipes.addShaped("treated_wood_lumber", <contenttweaker:treated_wood_lumber> * 8, [
     [<ore:lumber>, <ore:lumber>, <ore:lumber>],
-    [<ore:lumber>, creosoteBucket, <ore:lumber>],
-    [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);
-recipes.addShaped("treated_wood_lumber", <contenttweaker:treated_wood_lumber> * 8, [
-    [<ore:lumber>, <ore:lumber>, <ore:lumber>],
-    [<ore:lumber>, creosoteReservoir, <ore:lumber>],
+    [<ore:lumber>, creosoteBucket | creosoteClayBucket | creosoteReservoir, <ore:lumber>],
     [<ore:lumber>, <ore:lumber>, <ore:lumber>]
 ]);
 
