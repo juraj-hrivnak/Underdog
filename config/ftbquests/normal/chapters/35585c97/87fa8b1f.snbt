@@ -18,5 +18,18 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4558393c",
+		type: "item",
+		item: {
+			id: "immersiveengineering:jerrycan",
+			tag: {
+				Fluid: {
+					FluidName: "diesel",
+					Amount: 4000
+				}
+			}
+		}
 	}]
 }

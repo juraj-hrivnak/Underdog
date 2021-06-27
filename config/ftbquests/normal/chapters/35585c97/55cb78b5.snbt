@@ -1,9 +1,9 @@
 {
 	title: "Metal Press",
 	icon: "immersiveengineering:metal_multiblock",
-	x: 8.5d,
-	y: -2.0d,
-	shape: "square",
+	x: 4.5d,
+	y: -4.5d,
+	shape: "circle",
 	dependencies: [
 		"b6e96ff5",
 		"dcb22896"

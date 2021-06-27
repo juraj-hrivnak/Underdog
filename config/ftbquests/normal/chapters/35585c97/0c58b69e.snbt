@@ -1,7 +1,7 @@
 {
 	title: "High Voltage",
 	x: 4.5d,
-	y: 1.0d,
+	y: 0.0d,
 	dependencies: [
 		"4dbdd962"
 	],

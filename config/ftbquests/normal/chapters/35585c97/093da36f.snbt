@@ -1,9 +1,8 @@
 {
 	title: "Crusher",
 	icon: "immersiveengineering:metal_multiblock 1 1",
-	x: 8.5d,
-	y: -4.0d,
-	shape: "square",
+	x: 1.5d,
+	y: -4.5d,
 	dependencies: [
 		"b6e96ff5",
 		"e35ad925"
