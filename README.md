@@ -21,7 +21,7 @@ There are a few things we would like testers to consider/look for:
 ## Making server pack
 
 Some mods will crash the game if you run them on server. So they must be removed.
-Also everithing around resources is not neceseary to run on server.
+Also everything around resources is not neceseary to run on server.
 
 Folowing mods must be removed:
 - Custom Main Menu
