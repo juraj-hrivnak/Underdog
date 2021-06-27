@@ -1,6 +1,5 @@
 #modloaded antiqueatlas
 import crafttweaker.item.IItemStack as IItemStack;
-import mods.jei.JEI.removeAndHide as rh;
 
 // Atlas
 recipes.removeShapeless(<antiqueatlas:empty_antique_atlas>);
@@ -9,5 +8,5 @@ recipes.addShapedMirrored(<antiqueatlas:empty_antique_atlas>, [
     [<ore:leather>, <ore:leather>]
 ]);
 
-<antiqueatlas:empty_antique_atlas>.displayName = "§aAtlas";
-<antiqueatlas:antique_atlas>.displayName = "§aAtlas";
+<antiqueatlas:empty_antique_atlas>.displayName = "Atlas";
+<antiqueatlas:antique_atlas>.displayName = "Atlas";
