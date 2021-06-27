@@ -57,16 +57,19 @@ val lumbersAndLogs = {
     <contenttweaker:lumber_planks.ipe> : <forestry:logs.6:1>,
     <contenttweaker:lumber_planks.padauk> : <forestry:logs.6:2>,
     <contenttweaker:lumber_planks.cocobolo> : <forestry:logs.6:3>,
-    <contenttweaker:lumber_planks.zebrawood> : <forestry:logs.7>
+    <contenttweaker:lumber_planks.zebrawood> : <forestry:logs.7>,
+    <contenttweaker:cuisine_citrus_lumber> : <cuisine:log>
 } as IItemStack[IItemStack];
 
 val lumbersAndPlanks = {
+    // Vanilla
     <contenttweaker:lumber_vanilla_oak> : <minecraft:planks>,
     <contenttweaker:lumber_vanilla_spruce> : <minecraft:planks:1>,
     <contenttweaker:lumber_vanilla_birch> : <minecraft:planks:2>,
     <contenttweaker:lumber_vanilla_jungle> : <minecraft:planks:3>,
     <contenttweaker:lumber_vanilla_acacia> : <minecraft:planks:4>,
     <contenttweaker:lumber_vanilla_dark_oak> : <minecraft:planks:5>,
+    // BOP
     <contenttweaker:lumber_sacred_oak> : <biomesoplenty:planks_0>,
     <contenttweaker:lumber_cherry> : <biomesoplenty:planks_0:1>,
     <contenttweaker:lumber_umbran> : <biomesoplenty:planks_0:2>,
@@ -83,8 +86,10 @@ val lumbersAndPlanks = {
     <contenttweaker:lumber_mahogany> : <biomesoplenty:planks_0:13>,
     <contenttweaker:lumber_ebony> : <biomesoplenty:planks_0:14>,
     <contenttweaker:lumber_eucalyptus> : <biomesoplenty:planks_0:15>,
+    // Rustic
     <contenttweaker:lumber_planks_olive> : <rustic:planks>,
     <contenttweaker:lumber_planks_ironwood> : <rustic:planks:1>,
+    // Forestry
     <contenttweaker:lumber_planks.larch> : <forestry:planks.0>,
     <contenttweaker:lumber_planks.teak> : <forestry:planks.0:1>,
     <contenttweaker:lumber_planks.acacia> : <forestry:planks.0:2>,
@@ -113,7 +118,29 @@ val lumbersAndPlanks = {
     <contenttweaker:lumber_planks.ipe> : <forestry:planks.1:9>,
     <contenttweaker:lumber_planks.padauk> : <forestry:planks.1:10>,
     <contenttweaker:lumber_planks.cocobolo> : <forestry:planks.1:11>,
-    <contenttweaker:lumber_planks.zebrawood> : <forestry:planks.1:12>
+    <contenttweaker:lumber_planks.zebrawood> : <forestry:planks.1:12>,
+    // Cuisine
+    <contenttweaker:cuisine_citrus_lumber> : <cuisine:planks>,
+    // Rustic Painted Wood
+    <contenttweaker:painted_wood_white_lumber> : <rustic:painted_wood_white>,
+    <contenttweaker:painted_wood_orange_lumber> : <rustic:painted_wood_orange>,
+    <contenttweaker:painted_wood_magenta_lumber> : <rustic:painted_wood_magenta>,
+    <contenttweaker:painted_wood_light_blue_lumber> : <rustic:painted_wood_light_blue>,
+    <contenttweaker:painted_wood_yellow_lumber> : <rustic:painted_wood_yellow>,
+    <contenttweaker:painted_wood_lime_lumber> : <rustic:painted_wood_lime>,
+    <contenttweaker:painted_wood_pink_lumber> : <rustic:painted_wood_pink>,
+    <contenttweaker:painted_wood_gray_lumber> : <rustic:painted_wood_gray>,
+    <contenttweaker:painted_wood_silver_lumber> : <rustic:painted_wood_silver>,
+    <contenttweaker:painted_wood_cyan_lumber> : <rustic:painted_wood_cyan>,
+    <contenttweaker:painted_wood_purple_lumber> : <rustic:painted_wood_purple>,
+    <contenttweaker:painted_wood_blue_lumber> : <rustic:painted_wood_blue>,
+    <contenttweaker:painted_wood_brown_lumber> : <rustic:painted_wood_brown>,
+    <contenttweaker:painted_wood_green_lumber> : <rustic:painted_wood_green>,
+    <contenttweaker:painted_wood_red_lumber> : <rustic:painted_wood_red>,
+    <contenttweaker:painted_wood_black_lumber> : <rustic:painted_wood_black>,
+    // Immersive Engineering
+    <contenttweaker:treated_wood_lumber> : <immersiveengineering:treated_wood>
+
 } as IItemStack[IItemStack];
 
 for lumber, log in lumbersAndLogs {

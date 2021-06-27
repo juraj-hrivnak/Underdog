@@ -375,6 +375,12 @@
       "temperature": 1.0
     }
   ],
+  "cfm:shower_head_on": [
+    {
+      "properties": {},
+      "temperature": -4.0
+    }
+  ],
   "harvestcraft:candledeco10": [
     {
       "properties": {},

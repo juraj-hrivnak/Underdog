@@ -5,7 +5,6 @@ import crafttweaker.oredict.IOreDictEntry;
 // Adding items from plankWood oredict to plankBig oredict
 <ore:plankBig>.addAll(<ore:plankWood>);
 
-<ore:plankWood>.add(<cuisine:planks>);
 <ore:plankWood>.removeItems(<ore:plankWood>.items);
 
 <ore:plankWood>.add(<ore:lumber>.items);

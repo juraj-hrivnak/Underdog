@@ -128,3 +128,54 @@ cocoboloLumber.register();
 var zebrawoodLumber = VanillaFactory.createItem("lumber_planks.zebrawood");
 zebrawoodLumber.register();
 ////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////
+// Cuisine
+var cuisineCitrusLumber = VanillaFactory.createItem("cuisine_citrus_lumber");
+cuisineCitrusLumber.register();
+////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////
+// Rustic Painted Wood
+var paintedWoodWhiteLumber = VanillaFactory.createItem("painted_wood_white_lumber");
+paintedWoodWhiteLumber.register();
+var paintedWoodOrangeLumber = VanillaFactory.createItem("painted_wood_orange_lumber");
+paintedWoodOrangeLumber.register();
+var paintedWoodMagentaLumber = VanillaFactory.createItem("painted_wood_magenta_lumber");
+paintedWoodMagentaLumber.register();
+var paintedWoodLightBlueLumber = VanillaFactory.createItem("painted_wood_light_blue_lumber");
+paintedWoodLightBlueLumber.register();
+var paintedWoodYellowLumber = VanillaFactory.createItem("painted_wood_yellow_lumber");
+paintedWoodYellowLumber.register();
+var paintedWoodLimeLumber = VanillaFactory.createItem("painted_wood_lime_lumber");
+paintedWoodLimeLumber.register();
+var paintedWoodPinkLumber = VanillaFactory.createItem("painted_wood_pink_lumber");
+paintedWoodPinkLumber.register();
+var paintedWoodGrayLumber = VanillaFactory.createItem("painted_wood_gray_lumber");
+paintedWoodGrayLumber.register();
+var paintedWoodSilverLumber = VanillaFactory.createItem("painted_wood_silver_lumber");
+paintedWoodSilverLumber.register();
+var paintedWoodCyanLumber = VanillaFactory.createItem("painted_wood_cyan_lumber");
+paintedWoodCyanLumber.register();
+var paintedWoodPurpleLumber = VanillaFactory.createItem("painted_wood_purple_lumber");
+paintedWoodPurpleLumber.register();
+var paintedWoodBlueLumber = VanillaFactory.createItem("painted_wood_blue_lumber");
+paintedWoodBlueLumber.register();
+var paintedWoodBrownLumber = VanillaFactory.createItem("painted_wood_brown_lumber");
+paintedWoodBrownLumber.register();
+var paintedWoodGreenLumber = VanillaFactory.createItem("painted_wood_green_lumber");
+paintedWoodGreenLumber.register();
+var paintedWoodRedLumber = VanillaFactory.createItem("painted_wood_red_lumber");
+paintedWoodRedLumber.register();
+var paintedWoodBlackLumber = VanillaFactory.createItem("painted_wood_black_lumber");
+paintedWoodBlackLumber.register();
+////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////
+// Immersive Engineering
+var treatedWoodLumber = VanillaFactory.createItem("treated_wood_lumber");
+treatedWoodLumber.register();
+////////////////////////////////////////////////////
