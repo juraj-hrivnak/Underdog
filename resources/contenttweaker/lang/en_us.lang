@@ -65,9 +65,8 @@ tile.contenttweaker.borax_sample.name=Borax Sample
 tile.contenttweaker.lepidolite_sample.name=Lepidolite Sample
 tile.contenttweaker.magnesite_sample.name=Magnesite Sample
 
-###########
-# Lumbers #
-###########
+#######################################################
+########################################### Lumbers ###
 # Vanilla
 item.contenttweaker.lumber_vanilla_oak.name=Oak Lumber
 item.contenttweaker.lumber_vanilla_spruce.name=Spruce Lumber
@@ -125,7 +124,28 @@ item.contenttweaker.lumber_planks.ipe.name=Ipe Lumber
 item.contenttweaker.lumber_planks.padauk.name=Padauk Lumber
 item.contenttweaker.lumber_planks.cocobolo.name=Cocobolo Lumber
 item.contenttweaker.lumber_planks.zebrawood.name=Zebrawood Lumber
-###########
+# Cuisine
+item.contenttweaker.cuisine_citrus_lumber.name=Citrus Wood Lumber
+# Painted Wood
+item.contenttweaker.painted_wood_white_lumber.name=White Painted Wood Lumber
+item.contenttweaker.painted_wood_orange_lumber.name=Orange Painted Wood Lumber
+item.contenttweaker.painted_wood_magenta_lumber.name=Magenta Painted Wood Lumber
+item.contenttweaker.painted_wood_light_blue_lumber.name=Light Blue Painted Wood Lumber
+item.contenttweaker.painted_wood_yellow_lumber.name=Yellow Painted Wood Lumber
+item.contenttweaker.painted_wood_lime_lumber.name=Lime Painted Wood Lumber
+item.contenttweaker.painted_wood_pink_lumber.name=Pink Painted Wood Lumber
+item.contenttweaker.painted_wood_gray_lumber.name=Gray Painted Wood Lumber
+item.contenttweaker.painted_wood_silver_lumber.name=Silver Painted Wood Lumber
+item.contenttweaker.painted_wood_cyan_lumber.name=Cyan Painted Wood Lumber
+item.contenttweaker.painted_wood_purple_lumber.name=Purple Painted Wood Lumber
+item.contenttweaker.painted_wood_blue_lumber.name=Blue Painted Wood Lumber
+item.contenttweaker.painted_wood_brown_lumber.name=Brown Painted Wood Lumber
+item.contenttweaker.painted_wood_green_lumber.name=Green Painted Wood Lumber
+item.contenttweaker.painted_wood_red_lumber.name=Red Painted Wood Lumber
+item.contenttweaker.painted_wood_black_lumber.name=Black Painted Wood Lumber
+# Immersive Engineering
+item.contenttweaker.treated_wood_lumber.name=Treated Wood Lumber
+#######################################################
 
 # NuclearCraft Clusters
 item.contenttweaker.thorium_cluster.name=Thorium Cluster
@@ -136,3 +156,4 @@ item.contenttweaker.magnesium_cluster.name=Magnesium Cluster
 # Beryl Cluster
 item.contenttweaker.beryl_cluster.name=Beryl Cluster
 item.contenttweaker.kimberlite_cluster.name=Kimberlite Cluster
+
