@@ -94,8 +94,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -114,7 +112,11 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:73
 key_quark.emote.zombie:0
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.toggleAutojump:48
 key_keybind.baublesinventory:48
+key_keybind.openSelectionWheel:56
+key_keybind.openBaubleBag:19
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
@@ -157,6 +159,17 @@ key_key.fuzzy:0
 key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:50
+key_key.linear.switchmode.desc:34
+key_key.linear.enablebuilding.desc:47
+key_key.rotateup:200
+key_key.rotatedown:208
+key_key.rotateright:205
+key_key.rotateleft:203
+key_key.little.flip:34
+key_key.little.mark:50
+key_key.little.config.item:56
+key_key.little.undo:44:CONTROL
+key_key.little.redo:21:CONTROL
 key_key.carry.desc:29
 key_Options Gui:40
 key_key.clienttweaks.disable_step_assist:0
@@ -181,15 +194,6 @@ key_key.reelOut:203
 key_FpsReducer.key.guiOpen:71
 key_FpsReducer.key.forceIdle:197
 key_invtweaks.key.sort:25
-key_key.rotateup:200
-key_key.rotatedown:208
-key_key.rotateright:205
-key_key.rotateleft:203
-key_key.little.flip:34
-key_key.little.mark:50
-key_key.little.config.item:56
-key_key.little.undo:44:CONTROL
-key_key.little.redo:21:CONTROL
 key_MAtmos:65
 key_key.nutrition:49
 key_key.plustic_release_entity.desc:11
