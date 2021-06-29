@@ -35,6 +35,7 @@ logs/
 journeymap/
 encyclopedia-servers/
 crash-reports/
+dumps/
 coremods/
 .mixin.out/
 
