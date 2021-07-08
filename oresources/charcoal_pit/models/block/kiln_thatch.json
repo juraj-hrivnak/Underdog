@@ -1,0 +1,6 @@
+{
+    "parent": "charcoal_pit:block/kiln_slab",
+    "textures": {
+        "side": "charcoal_pit:blocks/thatch"
+    }
+}

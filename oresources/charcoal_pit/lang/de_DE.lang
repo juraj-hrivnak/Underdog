@@ -1,0 +1,17 @@
+tile.charcoal_pit:log_pile.name=Holzstapel
+tile.charcoal_pit:block_coke.name=Kohlekoksblock
+tile.charcoal_pit:stone_creosote_collector.name=Steinziegel-Kreosotöl-Trichter
+tile.charcoal_pit:brick_creosote_collector.name=Ziegelstein-Kreosotöl-Trichter
+tile.charcoal_pit:nether_creosote_collector.name=Netherziegel-Kreosotöl-Trichter
+
+item.charcoal_pit:item_coke.name=Kohlekoks
+item.charcoal_pit:item_ash.name=Asche
+item.charcoal_pit:item_fertilizer.name=Dünger
+item.charcoal_pit:clay_pot.name=Lehmtopf
+
+fluid.creosote=Kreosotöl
+
+potion.effect.coke_cola=Trank der Koks-Cola
+splash_potion.effect.coke_cola=Werfbarer Trank der Koks-Cola
+lingering_potion.effect.coke_cola=Verweilender Trank der Koks-Cola
+tipped_arrow.effect.coke_cola=Pfeil der Koks-Cola

@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "active=false,layer=1":  { "model": "charcoal_pit:ore_layer_1" },
+        "active=false,layer=2":   { "model": "charcoal_pit:ore_layer_2" },
+        "active=false,layer=3":   { "model": "charcoal_pit:ore_layer_3" },
+        "active=false,layer=4": { "model": "charcoal_pit:ore_layer_4" },
+	"active=false,layer=5":  { "model": "charcoal_pit:ore_layer_5" },
+        "active=false,layer=6":   { "model": "charcoal_pit:ore_layer_6" },
+        "active=false,layer=7":   { "model": "charcoal_pit:ore_layer_7" },
+        "active=false,layer=8": { "model": "charcoal_pit:ore_layer_8" },
+	"active=true,layer=1":  { "model": "charcoal_pit:ore_layer_1_on" },
+        "active=true,layer=2":   { "model": "charcoal_pit:ore_layer_2_on" },
+        "active=true,layer=3":   { "model": "charcoal_pit:ore_layer_3_on" },
+        "active=true,layer=4": { "model": "charcoal_pit:ore_layer_4_on" },
+	"active=true,layer=5":  { "model": "charcoal_pit:ore_layer_5_on" },
+        "active=true,layer=6":   { "model": "charcoal_pit:ore_layer_6_on" },
+        "active=true,layer=7":   { "model": "charcoal_pit:ore_layer_7_on" },
+        "active=true,layer=8": { "model": "charcoal_pit:ore_layer_8_on" }
+    }
+}

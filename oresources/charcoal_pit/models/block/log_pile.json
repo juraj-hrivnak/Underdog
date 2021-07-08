@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "minecraft:blocks/log_oak",
+    "down": "charcoal_pit:blocks/log_pile_top",
+    "up": "charcoal_pit:blocks/log_pile_top",
+    "east": "minecraft:blocks/log_oak",
+    "west": "minecraft:blocks/log_oak",
+    "north": "minecraft:blocks/log_oak",
+    "south": "minecraft:blocks/log_oak"
+  }
+}
