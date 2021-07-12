@@ -34,7 +34,7 @@ val smallAnimals as string[string] = {
 
 for i, loc in largeAnimals {
     val i = LootTweaker.getTable(loc);
-    val mainPool = i.addPool("main", 1, 1, 0, 0); val mainPool2 = i.addPool("main2", 1, 1, 0, 0);
+    val mainPool = i.addPool("main3", 1, 1, 0, 0); val mainPool2 = i.addPool("main2", 1, 1, 0, 0);
 
     //Drops 4-8 Leather
     mainPool.addItemEntry(<minecraft:leather>, 1, 0, [Functions.setCount(4, 8)], []);
@@ -44,7 +44,7 @@ for i, loc in largeAnimals {
 
 for i, loc in mediumAnimals {
     val i = LootTweaker.getTable(loc);
-    val mainPool = i.addPool("main", 1, 1, 0, 0); val mainPool2 = i.addPool("main2", 1, 1, 0, 0);
+    val mainPool = i.addPool("main3", 1, 1, 0, 0); val mainPool2 = i.addPool("main2", 1, 1, 0, 0);
 
     //Drops 1-3 Leather
     mainPool.addItemEntry(<minecraft:leather>, 1, 0, [Functions.setCount(1, 3)], []);
@@ -54,7 +54,7 @@ for i, loc in mediumAnimals {
 
 for i, loc in smallAnimals {
     val i = LootTweaker.getTable(loc);
-    val mainPool = i.addPool("main", 1, 1, 0, 0); val mainPool2 = i.addPool("main2", 1, 1, 0, 0);
+    val mainPool = i.addPool("main3", 1, 1, 0, 0); val mainPool2 = i.addPool("main2", 1, 1, 0, 0);
 
     //Drops 0-1 Leather
     mainPool.addItemEntry(<minecraft:leather>, 1, 0, [Functions.setCount(0, 1)], []);
