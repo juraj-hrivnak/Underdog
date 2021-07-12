@@ -8,6 +8,7 @@
 		"b6e96ff5",
 		"dcb22896"
 	],
+	size: 1.2d,
 	tasks: [{
 		uid: "80029800",
 		type: "item",

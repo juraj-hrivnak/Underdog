@@ -1,5 +1,6 @@
 {
 	title: "Low Voltage",
+	icon: "immersiveengineering:connector",
 	x: -0.5d,
 	y: 0.0d,
 	dependencies: [

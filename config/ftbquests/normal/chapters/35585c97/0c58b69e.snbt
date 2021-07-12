@@ -1,5 +1,6 @@
 {
 	title: "High Voltage",
+	icon: "immersiveengineering:connector 1 4",
 	x: 4.5d,
 	y: 0.0d,
 	dependencies: [

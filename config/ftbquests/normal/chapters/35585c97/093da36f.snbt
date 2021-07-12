@@ -7,6 +7,7 @@
 		"b6e96ff5",
 		"e35ad925"
 	],
+	size: 1.2d,
 	tasks: [{
 		uid: "b76063f2",
 		type: "item",
