@@ -80,7 +80,7 @@ val allBranches = [
     <dynamictreesforestry:poplarbranch>,
     <rustic:olivebranch>,
     <rustic:ironwoodbranch>
-    ] as IItemStack[];
+] as IItemStack[];
 
 for item in allBranches {
     var ItemDef = item.definition;

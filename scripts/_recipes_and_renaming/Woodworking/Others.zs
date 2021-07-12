@@ -53,3 +53,10 @@ for paintedLumber, dye in paintedWoods {
         [<ore:lumber>, <ore:lumber>, <ore:lumber>]
     ]);
 }
+
+// Rustic Cabinet
+recipes.remove(<rustic:cabinet>);
+recipes.addShapedMirrored("cabinet_fixed", <rustic:cabinet>, [
+    [<ore:plankWood>, <ore:trapdoorWood>],
+    [<ore:plateIron>, <ore:stickIron>]
+]);

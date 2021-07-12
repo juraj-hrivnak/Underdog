@@ -52,9 +52,11 @@ patchouli_data.json
 pack.zip
 knownkeys.txt
 server_pack/Underdog-v1.72-Server.zip
-config/jei/worldSettings.cfg
 
 craftpresence/
 TombManyGraves/
 
 config/craftpresence.properties
+config/cherishedworlds/favorites.dat
+config/activity.json
+config/jei/worldSettings.cfg

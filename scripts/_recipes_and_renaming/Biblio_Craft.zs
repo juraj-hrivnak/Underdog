@@ -11,9 +11,7 @@ val framedChests = [
     <bibliocraft:framedchest:5>,
     <bibliocraft:framedchest:6>
 ] as IItemStack[];
-for i in framedChests {
-    recipes.remove(i);
-}
+for i in framedChests { recipes.remove(i); }
 
 val rods = <ore:stickIron> | <ore:stickSteel>;
 val plates = <ore:plateIron> | <ore:plateSteel>;
