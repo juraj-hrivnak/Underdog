@@ -1,16 +1,14 @@
 {
   "name": "Rare",
   "icon": "geolosys:ore_sample_vanilla:1",
-  "category": "02_rare",
-  "sortnum" : "2",
+  "category": "02_ores",
+  "sortnum": "2",
   "read_by_default": true,
-  "pages":
-  [
+  "pages": [
     {
-      "type": "spotlight",
-      "title": "Redstone - Cinnabar",
-      "item": "geolosys:ore_vanilla:1",
-      "text": "Rare:$(br1) ▂ 210 Gold$(br1) ▃ 220 Kimberlite (Diamonds)$(br1) ▃ 220 Beryl (Emeralds)$(br1) ▅ 230 Sphalerite (Zinc)$(br1) ▇ 230 Platinum$(br1) ▇ 230 Osmium (Generated in the same vein as Platinum)"
+      "type": "text",
+      "title": "Rare",
+      "text": "Rare:$(br) ▂ 210 Gold$(br) ▃ 220 Kimberlite (Diamonds)$(br) ▃ 220 Beryl (Emeralds)$(br) ▅ 230 Sphalerite (Zinc)$(br) ▇ 230 Platinum$(br) ▇ 230 Osmium (Generated in the same vein as Platinum)"
     }
   ]
 }

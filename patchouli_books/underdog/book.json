@@ -9,7 +9,7 @@
 
   "book_texture": "modpack:textures/gui/patchouli.png",
   "model": "modpack:patchouli_book",
-  
+
     "macros": {
       "$(em)": "$(#388e3c)"
     }
