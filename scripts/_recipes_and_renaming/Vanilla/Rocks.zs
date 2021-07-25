@@ -9,6 +9,7 @@ val hardRocks = [
     <divergentunderground:rock_andesite>,
     <divergentunderground:rock_diorite>,
     <divergentunderground:rock_granite>
+    <divergentunderground:rock_quark_limestone>
 ] as IItemStack[];
 
 for item in hardRocks {
