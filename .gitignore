@@ -60,3 +60,4 @@ config/craftpresence.properties
 config/cherishedworlds/favorites.dat
 config/activity.json
 config/jei/worldSettings.cfg
+options.txt
