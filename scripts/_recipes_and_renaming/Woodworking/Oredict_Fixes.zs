@@ -37,6 +37,3 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:plankWood>.add(<unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_green_0:*>);
 <ore:plankWood>.add(<unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_red_0:*>);
 <ore:plankWood>.add(<unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_black_0:*>);
-
-<ore:plankWood>.add(<unlimitedchiselworks:chisel_planks_oak_rustic_planks_0:*>);
-<ore:plankWood>.add(<unlimitedchiselworks:chisel_planks_oak_rustic_planks_1:*>);
