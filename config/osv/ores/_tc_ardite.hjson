@@ -1,6 +1,3 @@
- # This preset was generated automatically. To enable
- # custom generation settings, you must manually define
- # `gen`. See TUTORIAL.hjson.
 {
   "name": "_ardite",
   "mod": "tconstruct",
@@ -24,7 +21,7 @@
   },
   "loot": [
     {
-      "item": "tconstruct:ore:1",
+      "item": "divergentunderground:ore_tconstruct_ardite",
       "count": [1, 1],
       "xp": [0, 0],
       "chance": 1

@@ -1,6 +1,6 @@
 {
   "building": {
-    "invertStickToGrid": false,
+    "invertStickToGrid": true,
     "maxSavedActions": 32,
     "useALTForEverything": false,
     "useAltWhenFlying": true
