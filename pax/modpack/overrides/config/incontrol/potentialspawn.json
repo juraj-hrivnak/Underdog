@@ -1,0 +1,101 @@
+[
+    {
+        "dimension": [ 0 ],
+        "mobs": [
+            {
+                "mob": "tropicraft:eagleray",
+                "weight": 2,
+                "groupcountmin": 2,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": [ 0 ],
+        "mobs": [
+            {
+                "mob": "tropicraft:sardine",
+                "weight": 2,
+                "groupcountmin": 3,
+                "groupcountmax": 6
+            }
+        ]
+    },
+    {
+        "dimension": [ 0 ],
+        "mobs": [
+            {
+                "mob": "tropicraft:seaurchin",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": [ 0 ],
+        "mobs": [
+            {
+                "mob": "tropicraft:turtle",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": [ 0 ],
+        "mobs": [
+            {
+                "mob": "tropicraft:dolphin",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": [ 0 ],
+        "mobs": [
+            {
+                "mob": "tropicraft:seahorse",
+                "weight": 2,
+                "groupcountmin": 3,
+                "groupcountmax": 4
+            }
+        ]
+    },
+    {
+        "dimension": [ 0 ],
+        "mobs": [
+            {
+                "mob": "tropicraft:mow",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": [ 0 ],
+        "mobs": [
+            {
+                "mob": "tropicraft:marlin",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 6
+            }
+        ]
+    },
+    {
+        "dimension": [ 0 ],
+        "mobs": [
+            {
+                "mob": "tropicraft:fish",
+                "weight": 2,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            }
+        ]
+    }
+]

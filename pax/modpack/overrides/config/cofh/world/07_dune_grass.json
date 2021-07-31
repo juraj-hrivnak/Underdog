@@ -1,12 +1,14 @@
 {
 	"populate": {
 		"dune_grass": {
+			"enabled": "true",
 			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
 					{
-						"name": "biomesoplenty:plant_1"
+						"name": "biomesoplenty:plant_1",
+						"variant": "dunegrass"
 					}
 				],
 				"material": [
@@ -26,15 +28,14 @@
 			"max-height": 256,
 			"biome": {
 				"restriction": "whitelist",
-				"value":
-					[
-						{
-							"type": "dictionary",
-							"entry": [
-								"DESERT"
-							]
-						}
-					]
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"DESERT"
+						]
+					}
+				]
 			},
 			"dimension": {
 				"restriction": "whitelist",

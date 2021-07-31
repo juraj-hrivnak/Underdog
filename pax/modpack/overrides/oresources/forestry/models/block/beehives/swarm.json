@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "forestry:blocks/beehives/bee_nest_side",
+        "down": "forestry:blocks/beehives/bee_nest_bottom",
+        "up": "forestry:blocks/beehives/bee_nest_top",
+        "north": "forestry:blocks/beehives/bee_nest_side",
+        "east": "forestry:blocks/beehives/bee_nest_side",
+        "south": "forestry:blocks/beehives/bee_nest_side",
+        "west": "forestry:blocks/beehives/bee_nest_side"
+    }
+}

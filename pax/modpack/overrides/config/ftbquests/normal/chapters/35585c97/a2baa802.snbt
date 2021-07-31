@@ -13,10 +13,5 @@
 		uid: "038e509a",
 		type: "item",
 		item: "immersiveengineering:tool"
-	},
-	{
-		uid: "9086da22",
-		type: "item",
-		item: "immersiveengineering:tool 1 3"
 	}]
 }
