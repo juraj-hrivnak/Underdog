@@ -1,0 +1,42 @@
+{
+	title: "Lumber",
+	icon: "contenttweaker:lumber_vanilla_oak",
+	x: 5.0d,
+	y: -2.5d,
+	dependencies: [
+		"eb957ac6"
+	],
+	tasks: [{
+		uid: "cbe94313",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "lumber",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any lumber"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dd18b03f",
+		type: "item",
+		item: "tconstruct:materials 1 16"
+	},
+	{
+		uid: "677d0359",
+		type: "item",
+		item: {
+			id: "tconstruct:pan_head",
+			tag: {
+				Material: "firewood"
+			}
+		}
+	}]
+}

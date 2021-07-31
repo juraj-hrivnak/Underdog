@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "minecraft:blocks/brick",
+    "down": "minecraft:blocks/brick",
+    "up": "charcoal_pit:blocks/brick_collector",
+    "east": "minecraft:blocks/brick",
+    "west": "minecraft:blocks/brick",
+    "north": "minecraft:blocks/brick",
+    "south": "minecraft:blocks/brick"
+  }
+}

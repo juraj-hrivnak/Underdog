@@ -1,0 +1,17 @@
+{
+	disable_toast: true,
+	x: -0.47959183673471983d,
+	y: -0.46938775510206554d,
+	shape: "octagon",
+	tasks: [{
+		uid: "1969ce95",
+		type: "checkmark",
+		title: "Meteorology",
+		icon: "weather2:anemometer"
+	}],
+	rewards: [{
+		uid: "a45864b5",
+		type: "item",
+		item: "weather2:anemometer"
+	}]
+}

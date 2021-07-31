@@ -1,0 +1,88 @@
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:lush_desert
+      minecraft:plains
+      minecraft:extreme_hills
+      minecraft:extreme_hills_with_trees
+      minecraft:savanna
+      minecraft:savanna_rock
+      minecraft:mutated_savanna_rock
+      biomesoplenty:xeric_shrubland
+      biomesoplenty:shrubland
+      biomesoplenty:alps_foothills
+      biomesoplenty:mountain_foothills
+      biomesoplenty:redwood_forest_edge
+      biomesoplenty:pasture
+      minecraft:beaches
+      minecraft:mutated_plains
+      biomesoplenty:lavender_fields
+      biomesoplenty:crag
+      biomesoplenty:flower_field
+      biomesoplenty:grassland
+      biomesoplenty:grove
+      minecraft:forest
+      minecraft:forest_hills
+      minecraft:birch_forest
+      minecraft:birch_forest_hills
+      minecraft:roofed_forest
+      minecraft:mutated_extreme_hills
+      minecraft:mutated_forest
+      minecraft:mutated_birch_forest
+      minecraft:mutated_birch_forest_hills
+      minecraft:mutated_roofed_forest
+      minecraft:mutated_extreme_hills_with_trees
+      biomesoplenty:bamboo_forest
+      biomesoplenty:cherry_blossom_grove
+      biomesoplenty:maple_woods
+      biomesoplenty:meadow
+      biomesoplenty:mountain
+      biomesoplenty:orchard
+      biomesoplenty:woodland
+    ]
+  }
+  layers: [
+    ###########################################
+    # Underground
+    ###########################################
+    {
+      # Granite
+      state: minecraft:stone:1
+      height: [ 8, 30 ]
+      ceiling: $UNDERGROUND
+    }
+    {
+      # Limestone
+      state: quark:limestone
+      height: [ 30, 60 ]
+      ceiling: $UNDERGROUND
+    }
+    ###########################################
+    # OVERGROUND
+    ###########################################
+    {
+      # Marble
+      state: quark:marble
+      height: [ 65, 90 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      # Granite
+      state: minecraft:stone:1
+      height: [ 90, 120 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      # Andesite
+      state: minecraft:stone:5
+      height: [ 120, 200 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+  ]
+}

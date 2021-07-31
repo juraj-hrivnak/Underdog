@@ -1,0 +1,17 @@
+{
+  imports: [
+    cat/common.cave::full_rel()
+    cat/common.cave::half_rel()
+    common_values.cave::NATURAL_STONE
+  ]
+  enabled: true
+  ravines: {
+    replaceableBlocks: $NATURAL_STONE
+    chance: 0.0035
+    height: $full_rel(8, 128)
+    originHeight: $half_rel(67, 69)
+    scale: [ -1.5, 0.5 ]
+    stretch: [ 10, 1 ]
+    cutoffStrength: 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "data": [
+    {
+      "biomes": "$WASTELAND"
+    }
+  ],
+  "metadata": {
+    "title": "Wasteland Only",
+    "description": [
+      ""
+    ]
+  }
+}

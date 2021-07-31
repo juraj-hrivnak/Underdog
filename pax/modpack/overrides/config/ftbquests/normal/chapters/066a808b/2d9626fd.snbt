@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "eeb2d53b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:beryl_cluster"
+		}]
+	}]
+}

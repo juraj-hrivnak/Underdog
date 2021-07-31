@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "ore": "contenttweaker:blocks/ores/sassolite",
+      "particle": "minecraft:blocks/gravel",
+      "stone": "minecraft:blocks/gravel"
+    },
+    "model": "contenttweaker:geolosys_sample",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

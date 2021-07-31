@@ -1,0 +1,76 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:mesa
+      minecraft:mesa_rock
+      minecraft:mesa_clear_rock
+    ]
+  }
+  layers: [
+    {
+      #red granite
+      state: minecraft:stone:1
+      height: [ 20, 30 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      state: minecraft:stone
+      height: [ 0, 48 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      #limestone
+      state: quark:limestone
+      height: [ 0, 58 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      #shale
+      state: quark:jasper
+      height: [ 0, 204 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      #shale sandstone
+      state: quark:jasper
+      height: [ 0, 255 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+  ]
+}

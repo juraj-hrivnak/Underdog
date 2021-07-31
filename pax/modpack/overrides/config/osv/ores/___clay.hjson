@@ -1,0 +1,45 @@
+{
+  "name": "_clay",
+  "mod": "minecraft",
+  "block": {
+    "location": "minecraft:clay",
+    "level": 0,
+    "material": "CLAY",
+    "soundType": "DIRT",
+    "lightLevel": 0,
+    "resistance": 3,
+    "hardness": 1.2,
+    "ticksRandomly": false,
+    "slipperiness": 0.6000000238418579,
+    "tool": shovel
+  },
+  "texture": {
+    "original": "minecraft:blocks/clay",
+    "shade": true
+  },
+  "recipe": {
+    "result": "minecraft:hardened_clay",
+    "xp": 0.3499999940395355,
+    "quantity": 1
+  },
+  "loot": [
+    {
+      "item": "minecraft:clay_ball",
+      "count": [4, 4],
+      "xp": [0, 0],
+      "chance": 1
+    }
+  ],
+  "gen": [
+    {
+      "height": [
+        50,
+        128
+      ],
+      "size": 20,
+      # The number of tries per chunk to spawn clusters.
+      "count": 10,
+      "chance": 10
+    }
+  ]
+}

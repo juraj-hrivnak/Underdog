@@ -1,0 +1,82 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="5" power ="100000">
+		<input>
+			<itemStack>minecraft:sand</itemStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productingot 4 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="8" power ="100000">
+		<input>
+			<oreDict>ingotIron</oreDict>
+			<itemStack>minecraft:coal 1 1</itemStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 160</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="16" power ="100000">
+		<input>
+			<oreDict>ingotAluminum 7</oreDict>
+			<oreDict>ingotTitanium 3</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productingot 6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="16" power ="100000">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+			<oreDict>ingotIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productingot 4 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="4" power ="100000">
+		<input>
+			<oreDict>oreRutile</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productingot 4 7</itemStack>
+		</output>
+	</Recipe>
+
+  <Recipe timeRequired="10" power ="40000"><input>
+    <itemStack>minecraft:glowstone_dust 1 0</itemStack>
+    <itemStack>minecraft:clay_ball 1 0</itemStack>
+    </input><output>
+    <itemStack>enderio:item_material 2 76</itemStack>
+    </output></Recipe>
+  
+  <Recipe timeRequired="10" power ="40000"><input>
+    <itemStack>minecraft:iron_ingot 15 0</itemStack>
+    <itemStack>nuclearcraft:compound 1 9</itemStack>
+    </input><output>
+    <itemStack>nuclearcraft:alloy 16 15</itemStack>
+    </output></Recipe>
+
+</Recipes>

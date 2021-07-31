@@ -1,0 +1,22 @@
+{
+	disable_toast: true,
+	x: -0.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "aa673506",
+		type: "checkmark",
+		title: "Immersive Engineering",
+		icon: "immersiveengineering:tool",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "038e509a",
+		type: "item",
+		item: "immersiveengineering:tool"
+	},
+	{
+		uid: "9086da22",
+		type: "item",
+		item: "immersiveengineering:tool 1 3"
+	}]
+}

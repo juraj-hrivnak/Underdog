@@ -1,0 +1,36 @@
+name: biomesoplenty_amethyst_ore
+mod: biomesoplenty
+block: {
+  location: biomesoplenty:gem_ore
+  hardness: 3
+  level: 3
+}
+loot: [
+  {
+    item: divergentunderground:gem_raw_bop_amethyst
+    count: [ 1, 1 ]
+    xp: [ 3, 7 ]
+    chance: 1
+  }
+]
+texture: {
+  original: biomesoplenty:blocks/amethyst_ore
+}
+recipe: {
+  result: divergentunderground:gem_raw_bop_amethyst
+  xp: 1.2000000476837158
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 4, 32 ]
+    size: 2
+    count: 2
+    biomes: {
+      types: [
+        SANDY
+        SWAMP
+      ]
+    }
+  }
+]

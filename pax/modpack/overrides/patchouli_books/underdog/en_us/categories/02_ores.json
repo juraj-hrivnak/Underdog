@@ -1,0 +1,6 @@
+{
+  "name": "Ore Generation",
+  "description": "All ores are sorted into two main groups: common and rare. And their rarity heavy depends on these groups. $(br)$(li)common = 160 - 200 $(br)$(li)rare = 210- 230 $(br)This means that it is a 1/N chance that chunk will spawn an ore vein. $(br)The variation is represented by: ▁▂▃▅▆▇",
+  "icon": "modpack:textures/items/icon_pick.png",
+  "sortnum": 2
+}

@@ -1,0 +1,31 @@
+{
+    "textures": {
+        "particle": "charcoal_pit:blocks/bloomery_off",
+	"front": "charcoal_pit:blocks/bloomery_off",
+	"side": "charcoal_pit:blocks/bloomery_side"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 2, 16, 8 ],
+            "faces": {
+                "down":  { "texture": "#side" },
+                "up":    { "texture": "#side" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#front" }
+            }
+	},
+	{   "from": [ 14, 0, 0 ],
+            "to": [ 16, 16, 8 ],
+            "faces": {
+                "down":  { "texture": "#side" },
+                "up":    { "texture": "#side" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#front" },
+                "east":  { "texture": "#front" }
+            }
+        }
+    ]
+}

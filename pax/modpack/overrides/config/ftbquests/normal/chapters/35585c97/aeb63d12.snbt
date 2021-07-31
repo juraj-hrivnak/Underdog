@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"256ff056"
+	],
+	tasks: [{
+		uid: "578c3911",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0"
+		}]
+	}],
+	rewards: [{
+		uid: "e40abf86",
+		type: "loot",
+		table: 0
+	}]
+}

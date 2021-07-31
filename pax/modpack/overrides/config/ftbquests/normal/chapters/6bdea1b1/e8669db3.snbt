@@ -1,0 +1,52 @@
+{
+	title: "Smeltery",
+	icon: "tcomplement:melter",
+	x: -3.5d,
+	y: -1.5d,
+	dependencies: [
+		"791b1d99"
+	],
+	tasks: [{
+		uid: "93003eb4",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 9L
+	},
+	{
+		uid: "8065ed8c",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "049718fb",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "a791bca5",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "88127eac",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "37f247fa",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	}]
+}

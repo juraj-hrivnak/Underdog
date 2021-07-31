@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"transform": "forge:default-block",
+		"model": "plustic:tank"
+	},
+	"variants": {
+		"core": {
+			"false": {
+				"textures": {
+					"side": "plustic:blocks/centrifuge_tank",
+					"top": "plustic:blocks/centrifuge_top"
+				}
+			},
+			"true": {
+				"textures": {
+					"side": "plustic:blocks/centrifuge_core",
+					"top": "plustic:blocks/centrifuge_top"
+				}
+			}
+		}
+	}
+}

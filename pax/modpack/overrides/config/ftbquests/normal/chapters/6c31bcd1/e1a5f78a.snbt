@@ -1,0 +1,23 @@
+{
+	title: "Exploration",
+	icon: "harvestcraft:dragonfruititem",
+	disable_toast: true,
+	x: -6.0d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9fc1af0b"
+	],
+	tasks: [{
+		uid: "67a4596d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "2e42e240",
+		type: "loot",
+		icon: "harvestcraft:bentoboxitem",
+		table: 0
+	}]
+}

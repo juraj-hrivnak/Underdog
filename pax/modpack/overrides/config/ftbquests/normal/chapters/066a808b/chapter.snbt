@@ -1,0 +1,7 @@
+{
+	title: "Ore Gathering",
+	icon: "divergentunderground:ore_ie_copper",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

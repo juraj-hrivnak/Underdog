@@ -1,0 +1,62 @@
+{
+    "elements": [
+        {
+            "from": [ 5, 7, 0 ], 
+            "to": [ 10, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#log_top", "uv": [ 11, 7, 16, 16 ] },
+                "south": { "texture": "#log_top", "uv": [ 0, 7, 5, 16 ] },
+                "up": { "texture": "#log_top", "uv": [ 4, 11, 5, 16 ], "rotation": 90 }
+            }
+        },
+        {
+            "from": [ 10, 7, 0 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#log_top", "uv": [ 10, 7, 16, 16 ] },
+                "east": { "texture": "#log_top", "uv": [ 5, 7, 6, 16 ] },
+                "south": { "texture": "#log_top", "uv": [ 0, 7, 6, 16 ] },
+                "up": { "texture": "#log_top", "uv": [ 5, 10, 6, 16 ], "rotation": 90 }
+            }
+        },
+        {
+            "from": [ 0, 7, 0 ], 
+            "to": [ 5, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#log_top", "uv": [ 11, 7, 16, 16 ] },
+                "south": { "texture": "#log_top", "uv": [ 0, 7, 5, 16 ] },
+                "west": { "texture": "#log", "uv": [ 0, 2, 16, 11 ] },
+                "up": { "texture": "#log_top", "uv": [ 4, 11, 5, 16 ], "rotation": 90 }
+            }
+        },
+        {
+            "from": [ 0, 0, 10 ], 
+            "to": [ 16, 7, 16 ], 
+            "faces": {
+                "east": { "texture": "#log_top", "uv": [ 0, 9, 6, 16 ] },
+                "south": { "texture": "#log", "uv": [ 0, 8, 16, 15 ] },
+                "west": { "texture": "#log_top", "uv": [ 10, 9, 16, 16 ] },
+                "down": { "texture": "#log", "uv": [ 0, 1, 16, 7 ] }
+            }
+        },
+        {
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 7, 5 ], 
+            "faces": {
+                "north": { "texture": "#log_top", "uv": [ 3, 9, 4, 16 ] },
+                "east": { "texture": "#log_top", "uv": [ 0, 9, 5, 16 ] },
+                "west": { "texture": "#log_top", "uv": [ 11, 9, 16, 16 ] },
+                "down": { "texture": "#log", "uv": [ 0, 1, 16, 6 ] }
+            }
+        },
+        {
+            "from": [ 0, 0, 5 ], 
+            "to": [ 16, 7, 10 ], 
+            "faces": {
+                "east": { "texture": "#log_top", "uv": [ 0, 9, 5, 16 ] },
+                "west": { "texture": "#log_top", "uv": [ 11, 9, 16, 16 ] },
+                "down": { "texture": "#log", "uv": [ 0, 1, 16, 6 ] }
+            }
+        }
+    ]
+}

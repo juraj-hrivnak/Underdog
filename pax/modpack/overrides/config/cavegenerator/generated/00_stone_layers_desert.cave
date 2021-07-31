@@ -1,0 +1,85 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:desert
+      minecraft:desert_hills
+      minecraft:mutated_desert
+      biomesoplenty:oasis
+    ]
+  }
+  wallDecorators: [
+    # Spawns desert varnish underground.
+    {
+      states: minecraft:stone:1
+      matchers: sandstone
+      directions: all
+      height: [ 26, 90 ]
+      integrity: 0.25
+    }
+  ]
+  layers: [
+    {
+      #andesite bedrock
+      state: minecraft:stone:5
+      height: [ 20, 30 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      #underground sandstone
+      state: minecraft:sandstone
+      height: [ 0, 90 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      state: quark:jasper
+      height: [ 0, 110 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      state: minecraft:sandstone
+      height: [ 0, 150 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      state: quark:jasper
+      height: [ 0, 255 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+  ]
+}

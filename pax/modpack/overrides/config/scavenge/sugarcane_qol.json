@@ -1,0 +1,83 @@
+{
+	"block_pools":
+	[
+		{
+			"name": "Sugarcane_Qol",
+			"type":
+				{
+					"type": "block",
+					"name": "minecraft:reeds"
+				},
+			"clicktype": "break",
+            "drops":
+			[
+				{
+					"name": "minecraft:reeds",
+					"amount": 1
+				}
+			],
+			"properties":
+			[
+				{
+					"type": "consume_block"
+				},
+                {
+					"type": "conditional_Effect",
+					"condition":
+                    {
+                        "type": "random_chance",
+                        "chance": 25.0
+                    },
+					"effects":
+                    {
+                        "type": "play_sound",
+                        "name": "minecraft:entity.item.pickup",
+                        "pitch": 2.0
+                    }
+                },
+                {
+					"type": "conditional_Effect",
+					"condition":
+                    {
+                        "type": "random_chance",
+                        "chance": 25.0
+                    },
+					"effects":
+                    {
+                        "type": "play_sound",
+                        "name": "minecraft:entity.item.pickup",
+                        "pitch": 1.5
+                    }
+                },
+                {
+					"type": "conditional_Effect",
+					"condition":
+                    {
+                        "type": "random_chance",
+                        "chance": 25.0
+                    },
+					"effects":
+                    {
+                        "type": "play_sound",
+                        "name": "minecraft:entity.item.pickup",
+                        "pitch": 1.0
+                    }
+                },
+                {
+					"type": "conditional_Effect",
+					"condition":
+                    {
+                        "type": "random_chance",
+                        "chance": 25.0
+                    },
+					"effects":
+                    {
+                        "type": "play_sound",
+                        "name": "minecraft:entity.item.pickup",
+                        "pitch": 0.5
+                    }
+                }
+			]
+		}
+	]
+}

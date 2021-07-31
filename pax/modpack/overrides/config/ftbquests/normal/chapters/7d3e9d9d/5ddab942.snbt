@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"c5c20377"
+	],
+	tasks: [{
+		uid: "1902a270",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:latex_processing_unit"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Aloy Kiln",
+	x: -2.0d,
+	y: -1.0d,
+	shape: "hexagon",
+	dependencies: [
+		"a2baa802"
+	],
+	tasks: [{
+		uid: "9ae96a61",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e1db171e",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "d7440a2a",
+		type: "item",
+		item: "immersiveengineering:metal_decoration2 1 4",
+		count: 4
+	}]
+}

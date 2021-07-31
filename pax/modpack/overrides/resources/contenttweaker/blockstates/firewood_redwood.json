@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "biomesoplenty:blocks/redwood_log_top",
+      "log_top": "biomesoplenty:blocks/redwood_log_top",
+      "log": "biomesoplenty:blocks/redwood_log"
+    },
+    "model": "contenttweaker:wood_pile",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{ "model": "contenttweaker:firewood_base" }]
+  }
+  }

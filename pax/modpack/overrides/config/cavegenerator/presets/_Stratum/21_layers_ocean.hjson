@@ -1,0 +1,31 @@
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:ocean
+      minecraft:deep_ocean
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+    ]
+    types: [
+      BEACH
+    ]
+  }
+  layers: [
+    ###########################################
+    # Underground
+    ###########################################
+    {
+      state: quark:limestone
+      height: [ 0, 60 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"block_pools":
+	[
+		{
+			"name": "algae_qol",
+			"type":
+				{
+					"type": "block",
+					"name": "biomesoplenty:coral",
+                    "meta": 4
+				},
+			"clicktype": "left",
+			"properties":
+			[
+                {
+					"type": "use_command",
+					"name": "setblock",
+					"arguments": "~ ~ ~ water 0 destroy",
+					"disableJEI": true
+                }
+			]
+		}
+	]
+}

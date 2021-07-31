@@ -1,0 +1,34 @@
+
+{
+  name: _hematite
+  mod: geolosys
+  block: {
+    location: geolosys:ore
+    level: 1
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 30
+    hardness: 7.5
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {
+    shade: false
+    original: geolosys:blocks/hematite
+  }
+  recipe: {
+    result: minecraft:air
+    xp: 0
+    quantity: 0
+  }
+  loot: [
+    {
+      item: geolosys:cluster
+      count: [ 1, 1 ]
+      xp: [ 0, 0 ]
+      chance: 1
+    }
+  ]
+}

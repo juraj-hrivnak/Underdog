@@ -1,0 +1,16 @@
+{
+	x: -7.5d,
+	y: -1.5d,
+	dependencies: [
+		"eee99477"
+	],
+	tasks: [{
+		uid: "cc724226",
+		type: "item",
+		items: [{
+			item: "scannable:scanner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	dependencies: [
+		"c38fbdb2"
+	],
+	tasks: [{
+		uid: "3a1dec19",
+		type: "item",
+		items: [{
+			item: "charcoal_pit:fire_starter"
+		}]
+	}]
+}

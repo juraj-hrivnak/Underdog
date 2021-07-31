@@ -1,0 +1,47 @@
+{
+	"populate": {
+		"dune_grass": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "biomesoplenty:plant_1"
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:air"
+					}
+				],
+				"surface": [
+					"minecraft:sand"
+				],
+				"cluster-size": 40,
+				"check-stay": false
+			},
+			"cluster-count": 5,
+			"chunk-chance": 40,
+			"min-height": 50,
+			"max-height": 256,
+			"biome": {
+				"restriction": "whitelist",
+				"value":
+					[
+						{
+							"type": "dictionary",
+							"entry": [
+								"DESERT"
+							]
+						}
+					]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

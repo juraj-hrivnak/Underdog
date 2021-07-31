@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "2": "divergentunderground:items/rock_stone",
+      "particle": "divergentunderground:items/rock_stone"
+    },
+    "model": "contenttweaker:ground_stone_one",
+    "uvlock": false,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
