@@ -1,0 +1,13 @@
+{
+  "name": "Seasons",
+  "icon": "dawnoftimebuilder:camellia_leaves",
+  "category": "01_key_mechanics",
+  "sortnum": "6",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Temperate biomes will go through the normal seasons throughout the year (Spring, Summer, Autumn, and Winter). Temperatures will shift, grass and foliage colors will change, the chance of rain and storms will fluctuate, and more. The types of crops that are in season will also differ."
+    }
+  ]
+}

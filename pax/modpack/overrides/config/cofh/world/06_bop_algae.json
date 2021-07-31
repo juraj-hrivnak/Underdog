@@ -1,0 +1,43 @@
+{
+	"populate": {
+		"bop_algae": {
+			"distribution": "underfluid",
+			"fluid": "water",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "biomesoplenty:coral",
+						"meta": 4
+					}
+				],
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": false
+			},
+			"cluster-count": 50,
+			"min-height": 48,
+			"max-height": 62,
+			"low-terrain": true,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"SNOWY"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

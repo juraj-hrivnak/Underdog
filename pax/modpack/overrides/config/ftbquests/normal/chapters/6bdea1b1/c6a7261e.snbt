@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"eb957ac6"
+	],
+	tasks: [{
+		uid: "25613940",
+		type: "item",
+		items: [{
+			item: "charcoal_pit:log_pile"
+		}]
+	}]
+}

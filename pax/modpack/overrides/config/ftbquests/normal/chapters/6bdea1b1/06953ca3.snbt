@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	shape: "square",
+	dependencies: [
+		"2fd47046"
+	],
+	tasks: [{
+		uid: "23622061",
+		type: "item",
+		items: [{
+			item: "minecraft:compass"
+		}]
+	}]
+}

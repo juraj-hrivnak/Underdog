@@ -1,0 +1,476 @@
+{
+  "simpledifficulty:campfire": [
+    {
+      "properties": {
+        "burning": "true"
+      },
+      "temperature": 7.0
+    },
+    {
+      "properties": {
+        "burning": "false"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "tconstruct:molten_bronze": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_dirt": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_silver": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "harvestcraft:candledeco9": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "realistictorches:torch_lit": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "tconstruct:molten_ardite": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "harvestcraft:candledeco5": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco6": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "pyrotech:pile_slag": [
+    {
+      "properties": {
+        "molten": "true"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "minecraft:magma": [
+    {
+      "properties": {},
+      "temperature": 10.0
+    }
+  ],
+  "harvestcraft:candledeco7": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "pyrotech:torch_stone": [
+    {
+      "properties": {
+        "type": "LIT"
+      },
+      "temperature": 3.0
+    }
+  ],
+  "harvestcraft:candledeco8": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco1": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco2": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "minecraft:torch": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco3": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco4": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "tconstruct:molten_electrum": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_copper": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:lavawood_stairs": [
+    {
+      "properties": {},
+      "temperature": 5.0
+    }
+  ],
+  "rustic:candle_gold": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "tconstruct:molten_cobalt": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_zinc": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:firewood": [
+    {
+      "properties": {
+        "type": "LAVAWOOD"
+      },
+      "temperature": 5.0
+    },
+    {
+      "properties": {
+        "type": "FIREWOOD"
+      },
+      "temperature": 7.0
+    }
+  ],
+  "pyrotech:kiln_pit": [
+    {
+      "properties": {
+        "variant": "ACTIVE"
+      },
+      "temperature": 6.0
+    }
+  ],
+  "tconstruct:firewood_stairs": [
+    {
+      "properties": {},
+      "temperature": 7.0
+    }
+  ],
+  "pyrotech:stone_sawmill": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 5.0
+    }
+  ],
+  "tconstruct:molten_brass": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_alubrass": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "minecraft:flowing_lava": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_nickel": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "pyrotech:brick_crucible": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "tconstruct:molten_iron": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_emerald": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "pyrotech:stone_oven": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 5.0
+    }
+  ],
+  "pyrotech:brick_kiln": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "pyrotech:bloomery": [
+    {
+      "properties": {
+        "type": "BottomLit"
+      },
+      "temperature": 6.0
+    }
+  ],
+  "pyrotech:wither_forge": [
+    {
+      "properties": {
+        "type": "BottomLit"
+      },
+      "temperature": 7.0
+    }
+  ],
+  "tconstruct:molten_manyullyn": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_glass": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:firewood_slab": [
+    {
+      "properties": {
+        "type": "LAVAWOOD"
+      },
+      "temperature": 5.0
+    },
+    {
+      "properties": {
+        "type": "FIREWOOD"
+      },
+      "temperature": 7.0
+    }
+  ],
+  "pyrotech:stone_kiln": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 5.0
+    }
+  ],
+  "tconstruct:molten_steel": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "pyrotech:brick_sawmill": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "tconstruct:molten_obsidian": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "pyrotech:brick_oven": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 4.0
+    }
+  ],
+  "harvestcraft:candledeco14": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco15": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "pyrotech:torch_fiber": [
+    {
+      "properties": {
+        "type": "LIT"
+      },
+      "temperature": 3.0
+    }
+  ],
+  "harvestcraft:candledeco16": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "pyrotech:campfire": [
+    {
+      "properties": {
+        "variant": "LIT"
+      },
+      "temperature": 7.0
+    }
+  ],
+  "rustic:candle": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "cfm:shower_head_on": [
+    {
+      "properties": {},
+      "temperature": -4.0
+    }
+  ],
+  "harvestcraft:candledeco10": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco11": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "harvestcraft:candledeco12": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "tconstruct:molten_gold": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "harvestcraft:candledeco13": [
+    {
+      "properties": {},
+      "temperature": 1.0
+    }
+  ],
+  "tconstruct:molten_clay": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_tin": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_lead": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "pyrotech:stone_crucible": [
+    {
+      "properties": {
+        "type": "BOTTOM_LIT"
+      },
+      "temperature": 5.0
+    }
+  ],
+  "tconstruct:molten_aluminum": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_knightslime": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_pigiron": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "tconstruct:molten_stone": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "minecraft:lava": [
+    {
+      "properties": {},
+      "temperature": 12.5
+    }
+  ],
+  "minecraft:lit_furnace": [
+    {
+      "properties": {},
+      "temperature": 4.0
+    }
+  ]
+}

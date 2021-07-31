@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"451fb1d8"
+	],
+	tasks: [{
+		uid: "f9e5e26c",
+		type: "item",
+		items: [{
+			item: "cuisine:spice_bottle"
+		}]
+	}]
+}

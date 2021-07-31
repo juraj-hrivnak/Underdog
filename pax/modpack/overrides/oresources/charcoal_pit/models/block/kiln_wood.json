@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "minecraft:blocks/log_oak",
+    "down": "charcoal_pit:blocks/thatch",
+    "up": "minecraft:blocks/log_oak",
+    "east": "charcoal_pit:blocks/kiln_side_wood_2",
+    "west": "charcoal_pit:blocks/kiln_side_wood_3",
+    "north": "charcoal_pit:blocks/kiln_side_wood_1",
+    "south": "charcoal_pit:blocks/kiln_side_wood_1"
+  }
+}

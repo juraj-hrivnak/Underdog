@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	dependencies: [
+		"33121f43"
+	],
+	tasks: [{
+		uid: "b264afea",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	}]
+}

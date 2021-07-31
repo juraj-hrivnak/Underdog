@@ -1,0 +1,16 @@
+{
+	x: -5.5d,
+	y: -1.5d,
+	dependencies: [
+		"e8669db3"
+	],
+	tasks: [{
+		uid: "0db57535",
+		type: "item",
+		items: [{
+			item: "geolosys:pro_pick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,115 @@
+{
+	title: "Rare Food Loot Box",
+	icon: "harvestcraft:bentoboxitem",
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "harvestcraft:sushiitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:bananasmoothieitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:extremechiliitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:mixedsaladitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:limesmoothieitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:strawberrysmoothieitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:frosteddonutitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:melonsmoothieitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:tacoitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:bltitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:redvelvetcakeitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:kiwijuiceitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:melonjuiceitem",
+		count: 16
+	},
+	{
+		item: "cuisine:food",
+		count: 16
+	},
+	{
+		item: "harvestcraft:peppermintitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:garlicbreaditem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:garlicchickenitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:friedbolognasandwichitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:lemonjellysandwichitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:meatloafsandwichitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:netherwingsitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:bentoboxitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:steakandchipsitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:generaltsochickenitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:epicbaconitem",
+		count: 16
+	},
+	{
+		item: "harvestcraft:spagettiitem",
+		count: 16
+	}]
+}

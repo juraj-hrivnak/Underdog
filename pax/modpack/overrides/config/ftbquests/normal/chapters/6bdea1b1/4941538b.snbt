@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	dependencies: [
+		"4539e007"
+	],
+	tasks: [{
+		uid: "1253d2cd",
+		type: "item",
+		items: [{
+			item: "cuisine:fire_pit"
+		}]
+	},
+	{
+		uid: "c0d1ddff",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 3L
+	}]
+}

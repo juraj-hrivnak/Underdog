@@ -1,0 +1,31 @@
+name: simpleores_tin_ore
+mod: simpleores
+block: {
+  location: simpleores:tin_ore
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: simpleores:tin_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: simpleores:blocks/tin_ore
+}
+recipe: {
+  result: simpleores:tin_ingot
+  xp: 0.4000000059604645
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 1, 90 ]
+    size: 10
+    count: 30
+  }
+]

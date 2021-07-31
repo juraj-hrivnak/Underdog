@@ -1,0 +1,33 @@
+{
+  "Gravel":
+  {
+    "type": "pipe",
+    "rarity": 300,
+    "count": 1,
+      "stone":
+      [
+        { "block": "minecraft:stone" },
+        { "block": "minecraft:dirt" }
+      ],
+
+      "min_y": -7,
+      "max_y": -5,
+      "use_relative_y": true,
+
+      "density": 100,
+      "vertical_size": 2,
+      "horizontal_size": 20,
+
+      "ore":
+        [
+          {
+            "block": "minecraft:gravel",
+            "weight": 93
+          },
+          {
+            "block": "divergentunderground:boulder",
+            "weight": 7
+          }
+        ]
+  }
+}

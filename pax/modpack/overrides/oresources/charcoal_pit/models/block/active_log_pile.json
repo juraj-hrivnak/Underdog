@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "charcoal_pit:blocks/active_log_pile",
+    "down": "charcoal_pit:blocks/active_log_pile_top",
+    "up": "charcoal_pit:blocks/active_log_pile_top",
+    "east": "charcoal_pit:blocks/active_log_pile",
+    "west": "charcoal_pit:blocks/active_log_pile",
+    "north": "charcoal_pit:blocks/active_log_pile",
+    "south": "charcoal_pit:blocks/active_log_pile"
+  }
+}

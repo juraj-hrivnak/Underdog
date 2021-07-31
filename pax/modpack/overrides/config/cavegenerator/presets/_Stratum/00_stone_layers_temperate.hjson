@@ -1,0 +1,41 @@
+# temperate forest-like biomes like what can be found in national parks in the US
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:grassland
+      biomesoplenty:temperate_rainforest
+      biomesoplenty:redwood_forest
+      biomesoplenty:seasonal_forest
+    ]
+  }
+  layers: [
+    {
+      #red granite
+      state: minecraft:stone:1
+      height: [ 20, 30 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone:5
+      height: [ 0, 128 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #green schist
+      state: minecraft:stone
+      height: [ 0, 204 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #blue schist
+      state: projectred-exploration:stone:3
+      height: [ 0, 255 ]
+      ceiling: $OVERGROUND
+    }
+  ]
+}

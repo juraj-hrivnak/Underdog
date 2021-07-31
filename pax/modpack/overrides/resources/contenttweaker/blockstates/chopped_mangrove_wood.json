@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "biomesoplenty:blocks/mangrove_log_top",
+      "log_top": "biomesoplenty:blocks/mangrove_log_top",
+      "log": "biomesoplenty:blocks/mangrove_log"
+    },
+    "model": "contenttweaker:choped_wood",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+  }

@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "0552afea",
+		type: "item",
+		items: [{
+			id: "cuisine:spice_bottle",
+			tag: {
+				volume: 10,
+				Size: 1,
+				Items: [{
+					Slot: 0,
+					id: "cuisine:material",
+					Count: 1b,
+					Damage: 4s
+				}]
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

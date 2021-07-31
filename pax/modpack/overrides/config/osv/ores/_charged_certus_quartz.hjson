@@ -1,0 +1,35 @@
+ # This preset was generated automatically. To enable
+ # custom generation settings, you must manually define
+ # `gen`. See TUTORIAL.hjson.
+{
+  name: _charged_certus_quartz
+  mod: appliedenergistics2
+  block: {
+    location: appliedenergistics2:charged_quartz_ore
+    level: 0
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 15
+    hardness: 3
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {
+    original: appliedenergistics2:blocks/charged_quartz_ore
+  }
+  recipe: {
+    result: minecraft:air
+    xp: 0
+    quantity: 0
+  }
+  loot: [
+    {
+      item: appliedenergistics2:material:1
+      count: [ 1, 2 ]
+      xp: [ 2, 5 ]
+      chance: 1
+    }
+  ]
+}

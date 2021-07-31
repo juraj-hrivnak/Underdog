@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	dependencies: [
+		"451fb1d8"
+	],
+	tasks: [{
+		uid: "d122ed91",
+		type: "item",
+		items: [{
+			id: "cuisine:chopping_board",
+			tag: {
+				BlockEntityTag: {
+					cover: {
+						id: "minecraft:log",
+						Count: 1b,
+						Damage: 0s
+					}
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: -0.5d,
+	dependencies: [
+		"f2d65ffe"
+	],
+	tasks: [{
+		uid: "c4dfc82e",
+		type: "item",
+		items: [{
+			item: "cuisine:wok"
+		}]
+	}]
+}
