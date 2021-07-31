@@ -1,7 +1,7 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.57746476
-fov:0.7
+fov:0.75
 gamma:1.0
 saturation:0.0
 renderDistance:8
@@ -27,7 +27,7 @@ chatOpacity:1.0
 snooperEnabled:true
 fullscreen:true
 enableVsync:true
-useVbo:true
+useVbo:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
@@ -87,6 +87,7 @@ key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_key.craftpresence.config_keycode.name:27
 key_key.auginter.skipAnimation:45
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -94,7 +95,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
+key_quark.keybind.toggleAutojump:48
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -113,7 +114,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:73
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
 key_keybind.baublesinventory:48
 key_keybind.openSelectionWheel:56
 key_keybind.openBaubleBag:19
@@ -130,7 +130,7 @@ key_openblocks.keybind.vario_vol_down:0
 key_walljump.key.walljump:42
 key_Strip World:211
 key_Dress World:210
-key_Inspect Block:199
+key_Inspect Block:77
 key_dshuds.keybind.SelectionBox:48
 key_dshuds.keybind.LightLevel:88
 key_dshuds.keybind.ChunkBorders:67
@@ -171,7 +171,6 @@ key_key.little.config.item:56
 key_key.little.undo:44:CONTROL
 key_key.little.redo:21:CONTROL
 key_key.carry.desc:29
-key_Options Gui:40
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_key.immersiveengineering.magnetEquip:31
@@ -223,7 +222,7 @@ key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
 key_key.control:29
-soundCategory_master:0.79577464
+soundCategory_master:0.52816904
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

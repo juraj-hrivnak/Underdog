@@ -1,0 +1,61 @@
+{
+	"populate": {
+		"bamboo_savana": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "futuremc:bamboo",
+						"weight": 50
+					},
+					{
+						"name": "futuremc:bamboo",
+						"thick": true,
+						"weight": 50
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:air"
+					},
+					{
+						"name": "minecraft:tallgrass"
+					}
+				],
+				"surface": [
+					"minecraft:sand",
+					"minecraft:grass",
+					"minecraft:dirt"
+				],
+				"cluster-size": 50,
+				"stack-height": {
+					"min": 8,
+					"max": 12
+				},
+				"check-stay": false
+			},
+			"cluster-count": 100,
+			"chunk-chance": 40,
+			"min-height": 50,
+			"max-height": 256,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"SAVANNA"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}
