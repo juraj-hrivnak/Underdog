@@ -17,7 +17,7 @@ Locate the pax folder in your computer.
 On both Windows and Linux you can you `cd` to do that.
 
 ### Examples:
-```
+```cmd
 Windows:
 $ cd .\minecraft\pax
 
