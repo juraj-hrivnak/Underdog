@@ -14,7 +14,7 @@ To see how [Pax] works it's recommended to go checkout its wiki: [here](https://
 
 ## Locating pax folder
 Locate the pax folder in your computer.
-On both Windows and Linux you can you `cd` to do that.
+On both Windows and Linux you can use `cd` to do that.
 
 ### Examples:
 ```cmd
