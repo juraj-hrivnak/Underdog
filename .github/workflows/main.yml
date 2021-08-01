@@ -70,16 +70,15 @@ jobs:
         run:  mv CHANGELOG.md pax/modpack/CHANGELOG.md
       - name: Export modpack
         run: |
-          sudo chmod +x pax/pax
           pax/pax export
       - name: Rename zip
         run: |
-          mv ./pax/.out/${{ needs.modpack-info.outputs.projectname }}.zip ./pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          mv pax/.out/${{ needs.modpack-info.outputs.projectname }}.zip pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
       - name: Upload zip
         uses: actions/upload-artifact@v2
         with:
           name: modpack
-          path: ./pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
 
   release-github:
     runs-on: ubuntu-latest
