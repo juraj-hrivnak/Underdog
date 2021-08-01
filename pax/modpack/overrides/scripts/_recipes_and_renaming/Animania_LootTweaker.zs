@@ -1,3 +1,4 @@
+#modloaded loottweaker animania
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;

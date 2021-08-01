@@ -8,5 +8,5 @@ openblocks:radio
 animania:pet_seller
 cyclicmagic:sage
 immersiveengineering:engineer
-forestry:arborist
 forestry:apiarist
+forestry:arborist

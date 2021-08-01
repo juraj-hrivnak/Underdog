@@ -51,8 +51,8 @@ quark:danger_sight
 quark:long_danger_sight
 cuisine:cuisine.cold_blood
 cuisine:cuisine.dispersal
-cuisine:cuisine.hot
 cuisine:cuisine.toughness
+cuisine:cuisine.hot
 simpledifficulty:cold_resist_type
 simpledifficulty:long_cold_resist_type
 simpledifficulty:heat_resist_type

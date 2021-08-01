@@ -52,13 +52,13 @@ immersiveengineering:stunned
 immersiveengineering:concretefeet
 immersiveengineering:flashed
 conarm:superhotpotion
-cuisine:effect_resistance
 cuisine:cold_blood
+cuisine:effect_resistance
 cuisine:dispersal
-cuisine:drunk
-cuisine:hot
 cuisine:toughness
 cuisine:sustained_release
+cuisine:drunk
+cuisine:hot
 simpledifficulty:hyperthermia
 simpledifficulty:hypothermia
 simpledifficulty:thirsty

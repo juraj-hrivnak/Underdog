@@ -309,13 +309,13 @@ animania:ram_jacob
 animania:wagon
 animania:cart
 animania:tiller
-quark:flat_item_frame
-quark:leash_knot
-quark:seat
 quark:archaeologist
 quark:crab
 quark:chest_passenger
+quark:seat
 quark:parrot_egg
+quark:flat_item_frame
+quark:leash_knot
 bibliocraft:biblioseat
 buildinggadgets:blockbuildentity
 buildinggadgets:constructionblockentity
