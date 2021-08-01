@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "1.85",
+  "version": "1.86",
   "author": "",
   "name": "Underdog",
   "files": [
@@ -2422,6 +2422,26 @@
           303694,
           252818
         ]
+      }
+    },
+    {
+      "projectID": 485654,
+      "fileID": 3408229,
+      "required": true,
+      "__meta": {
+        "name": "Fluidlogged API",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 488116,
+      "fileID": 3330925,
+      "required": true,
+      "__meta": {
+        "name": "ContentTweaker Registry Orderer",
+        "explicit": true,
+        "dependencies": []
       }
     }
   ]
