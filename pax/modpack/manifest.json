@@ -1060,6 +1060,18 @@
       }
     },
     {
+      "projectID": 255257,
+      "fileID": 3334690,
+      "required": true,
+      "__meta": {
+        "name": "LootTweaker",
+        "explicit": true,
+        "dependencies": [
+          239197
+        ]
+      }
+    },
+    {
       "projectID": 256141,
       "fileID": 3107974,
       "required": true,
