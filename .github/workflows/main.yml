@@ -71,7 +71,7 @@ jobs:
       - name: Export modpack
         run: |
           sudo chmod +x pax/pax
-          pax/pax export
+          ./pax export
       - name: Rename zip
         run: |
           mv pax/.out/${{ needs.modpack-info.outputs.projectname }}.zip pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
