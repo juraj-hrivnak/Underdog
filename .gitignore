@@ -39,16 +39,16 @@
 **/*.log
 
 # Client data
-/.ReAuth.cfg/
-/usernamecache.json/
-/usercache.json/
-/servers.dat/
-/patchouli_data.json/
-/seen_buildersbag_addons.txt/
-/pack.zip/
-/knownkeys.txt/
-/optionsof.txt/
-/options.txt/
+.ReAuth.cfg
+usernamecache.json
+usercache.json
+servers.dat
+patchouli_data.json
+seen_buildersbag_addons.txt
+pack.zip
+knownkeys.txt
+optionsof.txt
+options.txt
 
 # Pax
 /pax/.out
