@@ -67,7 +67,7 @@ jobs:
         with:
           name: changelog
       - name: Move changelog
-        run:  mv pax/CHANGELOG.md pax/modpack/CHANGELOG.md
+        run:  mv CHANGELOG.md pax/modpack/CHANGELOG.md
       - name: Export modpack
         run: |
           sudo chmod +x pax/pax
