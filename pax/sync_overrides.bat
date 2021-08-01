@@ -6,7 +6,7 @@ if not exist "config" mkdir "config"
 cd config
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 cd ..\..\..\..
-xcopy /s config pax\modpack\overrides\config
+xcopy /s config pax\modpack\overrides\config\
 cd pax
 
 rem local
@@ -15,7 +15,7 @@ if not exist "local" mkdir "local"
 cd local
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 cd ..\..\..\..
-xcopy /s local pax\modpack\overrides\local
+xcopy /s local pax\modpack\overrides\local\
 cd pax
 
 rem oresources
@@ -24,7 +24,7 @@ if not exist "oresources" mkdir "oresources"
 cd oresources
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 cd ..\..\..\..
-xcopy /s oresources pax\modpack\overrides\oresources
+xcopy /s oresources pax\modpack\overrides\oresources\
 cd pax
 
 rem patchouli_books
@@ -33,7 +33,7 @@ if not exist "patchouli_books" mkdir "patchouli_books"
 cd patchouli_books
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 cd ..\..\..\..
-xcopy /s patchouli_books pax\modpack\overrides\patchouli_books
+xcopy /s patchouli_books pax\modpack\overrides\patchouli_books\
 cd pax
 
 rem resourcepacks
@@ -42,7 +42,7 @@ if not exist "resourcepacks" mkdir "resourcepacks"
 cd resourcepacks
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 cd ..\..\..\..
-xcopy /s resourcepacks pax\modpack\overrides\resourcepacks
+xcopy /s resourcepacks pax\modpack\overrides\resourcepacks\
 cd pax
 
 rem resources
@@ -51,7 +51,7 @@ if not exist "resources" mkdir "resources"
 cd resources
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 cd ..\..\..\..
-xcopy /s resources pax\modpack\overrides\resources
+xcopy /s resources pax\modpack\overrides\resources\
 cd pax
 
 rem scripts
@@ -60,7 +60,7 @@ if not exist "scripts" mkdir "scripts"
 cd scripts
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 cd ..\..\..\..
-xcopy /s scripts pax\modpack\overrides\scripts
+xcopy /s scripts pax\modpack\overrides\scripts\
 cd pax
 
 rem structures
@@ -69,9 +69,7 @@ if not exist "structures" mkdir "structures"
 cd structures
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 cd ..\..\..\..
-xcopy /s structures pax\modpack\overrides\structures
+xcopy /s structures pax\modpack\overrides\structures\
 cd pax
 
-
 echo Done!
-pause
