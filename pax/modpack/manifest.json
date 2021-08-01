@@ -17,7 +17,7 @@
   "files": [
     {
       "projectID": 32274,
-      "fileID": 2916002,
+      "fileID": 2682920,
       "required": true,
       "__meta": {
         "name": "JourneyMap",
@@ -527,6 +527,16 @@
       "__meta": {
         "name": "AI Improvements",
         "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 233105,
+      "fileID": 2745846,
+      "required": true,
+      "__meta": {
+        "name": "McJtyLib",
+        "explicit": false,
         "dependencies": []
       }
     },
@@ -1070,6 +1080,16 @@
       }
     },
     {
+      "projectID": 257356,
+      "fileID": 3101719,
+      "required": true,
+      "__meta": {
+        "name": "In Control!",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 257814,
       "fileID": 3321760,
       "required": true,
@@ -1112,6 +1132,18 @@
         "explicit": true,
         "dependencies": [
           257814
+        ]
+      }
+    },
+    {
+      "projectID": 260912,
+      "fileID": 2745852,
+      "required": true,
+      "__meta": {
+        "name": "XNet",
+        "explicit": true,
+        "dependencies": [
+          233105
         ]
       }
     },
@@ -1964,6 +1996,18 @@
       }
     },
     {
+      "projectID": 310059,
+      "fileID": 3194413,
+      "required": true,
+      "__meta": {
+        "name": "Future MC",
+        "explicit": true,
+        "dependencies": [
+          248453
+        ]
+      }
+    },
+    {
       "projectID": 310303,
       "fileID": 3089030,
       "required": true,
@@ -2083,7 +2127,7 @@
     },
     {
       "projectID": 322131,
-      "fileID": 3096693,
+      "fileID": 2818003,
       "required": true,
       "__meta": {
         "name": "Idō",
@@ -2197,7 +2241,7 @@
     },
     {
       "projectID": 366256,
-      "fileID": 3405950,
+      "fileID": 3408506,
       "required": true,
       "__meta": {
         "name": "MAtmos",
@@ -2211,6 +2255,16 @@
       "required": true,
       "__meta": {
         "name": "AI Reducer",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 375616,
+      "fileID": 3269880,
+      "required": true,
+      "__meta": {
+        "name": "Realistic Block Physics",
         "explicit": true,
         "dependencies": []
       }
