@@ -13,6 +13,7 @@
 /config/cherishedworlds/favorites.dat/
 /config/activity.json/
 /config/jei/worldSettings.cfg/
+/config/AppliedEnergistics2/items.csv/
 
 # Folders in .minecraft
 /mods/
@@ -20,7 +21,6 @@
 /screenshots/
 /server-resource-packs/
 /texturepacks/
-/resourcepacks/
 /pack/
 /nuclearcraft/
 /logs/
@@ -43,8 +43,11 @@
 /usercache.json/
 /servers.dat/
 /patchouli_data.json/
+/seen_buildersbag_addons.txt/
 /pack.zip/
 /knownkeys.txt/
+/optionsof.txt/
 /options.txt/
 
+# Pax
 /pax/.out
