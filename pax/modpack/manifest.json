@@ -222,6 +222,18 @@
       }
     },
     {
+      "projectID": 224476,
+      "fileID": 2565122,
+      "required": true,
+      "__meta": {
+        "name": "Hunger Overhaul",
+        "explicit": true,
+        "dependencies": [
+          224472
+        ]
+      }
+    },
+    {
       "projectID": 224535,
       "fileID": 2443253,
       "required": true,
@@ -1109,6 +1121,16 @@
         "dependencies": [
           257814
         ]
+      }
+    },
+    {
+      "projectID": 258205,
+      "fileID": 3204340,
+      "required": true,
+      "__meta": {
+        "name": "RandomTweaks",
+        "explicit": true,
+        "dependencies": []
       }
     },
     {
