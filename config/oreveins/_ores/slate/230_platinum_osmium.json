@@ -3,7 +3,6 @@
     "type": "curve",
     "rarity": 230,
     "count": 1,
-    "clusters": 1,
     "stone": [
       {
         "block": "quark:slate",

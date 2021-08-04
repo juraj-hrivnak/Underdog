@@ -3,7 +3,6 @@
     "type": "curve",
     "rarity": 200,
     "count": 1,
-    "clusters": 1,
     "stone": [
       {
         "block": "minecraft:stone",
