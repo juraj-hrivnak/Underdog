@@ -3,6 +3,7 @@
     "type": "cluster",
     "rarity": 230,
     "count": 1,
+    "clusters": 1,
     "stone": [
       {
         "block": "quark:slate",
@@ -13,8 +14,8 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 450,
-    "vertical_size": 8,
-    "horizontal_size": 10,
+    "vertical_size": 10,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_sphalerite_quark_slate",

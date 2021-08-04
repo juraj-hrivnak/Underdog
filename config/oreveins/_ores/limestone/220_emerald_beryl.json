@@ -3,6 +3,7 @@
     "type": "cluster",
     "rarity": 220,
     "count": 1,
+    "clusters": 1,
     "stone": [
       {
         "block": "quark:limestone",
@@ -16,7 +17,7 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 900,
-    "vertical_size": 10,
+    "vertical_size": 14,
     "horizontal_size": 5,
     "ore": [
       {

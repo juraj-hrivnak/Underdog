@@ -3,6 +3,7 @@
     "type": "curve",
     "rarity": 210,
     "count": 1,
+    "clusters": 1,
     "stone": [
       {
         "block": "minecraft:stone",
@@ -16,8 +17,8 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 800,
-    "vertical_size": 5,
-    "horizontal_size": 5,
+    "vertical_size": 4,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_gold_3",

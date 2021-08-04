@@ -3,6 +3,7 @@
     "type": "cluster",
     "rarity": 170,
     "count": 1,
+    "clusters": 1,
     "stone": [
       {
         "block": "minecraft:stone",
@@ -16,8 +17,8 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 600,
-    "vertical_size": 7,
-    "horizontal_size": 8,
+    "vertical_size": 10,
+    "horizontal_size": 14,
     "ore":  [
       {
         "block": "osv:_coal_3",

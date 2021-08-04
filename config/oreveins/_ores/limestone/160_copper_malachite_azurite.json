@@ -2,8 +2,8 @@
   "Limestone_Copper--Malachite-Azurite": {
     "type": "cluster",
     "rarity": 160,
-    "count": 2,
-    "clusters": 5,
+    "count": 1,
+    "clusters": 1,
     "stone": [
       {
         "block": "quark:limestone",
@@ -17,8 +17,8 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 700,
-    "vertical_size": 6,
-    "horizontal_size": 8,
+    "vertical_size": 10,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_malachite_quark_limestone",

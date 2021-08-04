@@ -3,6 +3,7 @@
     "type": "curve",
     "rarity": 190,
     "count": 1,
+    "clusters": 1,
     "stone": [
       {
         "block": "minecraft:stone",
@@ -17,7 +18,7 @@
     "use_relative_y": true,
     "density": 750,
     "vertical_size": 4,
-    "horizontal_size": 20,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_hematite",
