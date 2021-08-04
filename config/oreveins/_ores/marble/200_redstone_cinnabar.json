@@ -3,7 +3,7 @@
     "type": "cluster",
     "rarity": 200,
     "count": 1,
-    "clusters": 1,
+    "clusters": 2,
     "stone": [
       {
         "block": "quark:marble",
