@@ -12,7 +12,7 @@
   "overrides": "overrides",
   "manifestVersion": 1,
   "version": "1.86",
-  "author": "",
+  "author": "TeksturePako",
   "name": "Underdog",
   "files": [
     {
@@ -286,6 +286,16 @@
       }
     },
     {
+      "projectID": 227441,
+      "fileID": 2456007,
+      "required": true,
+      "__meta": {
+        "name": "Fullscreen Windowed (Borderless) for Minecraft",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 227443,
       "fileID": 2920505,
       "required": true,
@@ -534,7 +544,7 @@
     },
     {
       "projectID": 233019,
-      "fileID": 2468387,
+      "fileID": 2450734,
       "required": true,
       "__meta": {
         "name": "AI Improvements",
@@ -698,7 +708,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3411555,
+      "fileID": 3435328,
       "required": true,
       "__meta": {
         "name": "CraftTweaker",
@@ -828,7 +838,7 @@
     },
     {
       "projectID": 246996,
-      "fileID": 2722575,
+      "fileID": 3440963,
       "required": true,
       "__meta": {
         "name": "B.A.S.E",
@@ -932,16 +942,6 @@
       }
     },
     {
-      "projectID": 250603,
-      "fileID": 2635454,
-      "required": true,
-      "__meta": {
-        "name": "World Stripper",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
       "projectID": 250617,
       "fileID": 3158763,
       "required": true,
@@ -987,7 +987,7 @@
     },
     {
       "projectID": 252818,
-      "fileID": 3260881,
+      "fileID": 3422539,
       "required": true,
       "__meta": {
         "name": "Dynamic Trees",
@@ -1039,7 +1039,7 @@
     },
     {
       "projectID": 254602,
-      "fileID": 2891841,
+      "fileID": 3438487,
       "required": true,
       "__meta": {
         "name": "Tesla Core Lib",
@@ -1103,7 +1103,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3321760,
+      "fileID": 3437866,
       "required": true,
       "__meta": {
         "name": "CreativeCore",
@@ -1113,7 +1113,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3396846,
+      "fileID": 3432249,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1212,16 +1212,6 @@
       }
     },
     {
-      "projectID": 265692,
-      "fileID": 2520090,
-      "required": true,
-      "__meta": {
-        "name": "Augmented Interactions",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
       "projectID": 266515,
       "fileID": 2745321,
       "required": true,
@@ -1254,21 +1244,21 @@
       }
     },
     {
-      "projectID": 267193,
-      "fileID": 3214752,
-      "required": true,
-      "__meta": {
-        "name": "Chunk-Pregenerator",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
       "projectID": 267602,
       "fileID": 2915363,
       "required": true,
       "__meta": {
         "name": "ConnectedTexturesMod",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 267934,
+      "fileID": 2566522,
+      "required": true,
+      "__meta": {
+        "name": "Passable Leaves",
         "explicit": true,
         "dependencies": []
       }
@@ -1533,6 +1523,16 @@
       }
     },
     {
+      "projectID": 283344,
+      "fileID": 2518068,
+      "required": true,
+      "__meta": {
+        "name": "TexFix",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 284139,
       "fileID": 2821069,
       "required": true,
@@ -1733,6 +1733,16 @@
       }
     },
     {
+      "projectID": 291788,
+      "fileID": 2798112,
+      "required": true,
+      "__meta": {
+        "name": "Server Tab Info",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 291874,
       "fileID": 2799213,
       "required": true,
@@ -1806,7 +1816,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 3343604,
+      "fileID": 3437564,
       "required": true,
       "__meta": {
         "name": "CraftPresence",
@@ -1944,7 +1954,7 @@
     },
     {
       "projectID": 306780,
-      "fileID": 3403407,
+      "fileID": 3435077,
       "required": true,
       "__meta": {
         "name": "Fishing Made Better",
@@ -1976,8 +1986,18 @@
       }
     },
     {
+      "projectID": 307843,
+      "fileID": 2642103,
+      "required": true,
+      "__meta": {
+        "name": "Multithreaded Noise",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 308663,
-      "fileID": 3399528,
+      "fileID": 3438561,
       "required": true,
       "__meta": {
         "name": "Snow! Real Magic! ⛄",
@@ -2212,6 +2232,16 @@
       }
     },
     {
+      "projectID": 355619,
+      "fileID": 2855115,
+      "required": true,
+      "__meta": {
+        "name": "Homing Exp Orbs",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 356646,
       "fileID": 3168863,
       "required": true,
@@ -2233,7 +2263,7 @@
     },
     {
       "projectID": 359407,
-      "fileID": 3251902,
+      "fileID": 3431948,
       "required": true,
       "__meta": {
         "name": "Immersive Technology",
@@ -2336,6 +2366,16 @@
           243121,
           252818
         ]
+      }
+    },
+    {
+      "projectID": 390992,
+      "fileID": 3023870,
+      "required": true,
+      "__meta": {
+        "name": "InvMove (Forge)",
+        "explicit": true,
+        "dependencies": []
       }
     },
     {
@@ -2503,7 +2543,7 @@
     },
     {
       "projectID": 485654,
-      "fileID": 3408229,
+      "fileID": 3428721,
       "required": true,
       "__meta": {
         "name": "Fluidlogged API",
