@@ -3,6 +3,7 @@
     "type": "cluster",
     "rarity": 180,
     "count": 1,
+    "clusters": 2,
     "stone": [
       {
         "block": "minecraft:stone",
@@ -16,9 +17,8 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 650,
-    "clusters": 6,
-    "vertical_size": 7,
-    "horizontal_size": 8,
+    "vertical_size": 10,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_cassiterite_1",

@@ -1,6 +1,6 @@
 {
   imports: [
-    common_values.cave::NATURAL_STONE
+    common_values.hjson::NATURAL_STONE
   ]
   variables: {
     COMMON_CEILING: {

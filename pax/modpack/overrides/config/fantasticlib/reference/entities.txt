@@ -311,11 +311,11 @@ animania:cart
 animania:tiller
 quark:archaeologist
 quark:crab
-quark:chest_passenger
-quark:seat
 quark:parrot_egg
+quark:seat
 quark:flat_item_frame
 quark:leash_knot
+quark:chest_passenger
 bibliocraft:biblioseat
 buildinggadgets:blockbuildentity
 buildinggadgets:constructionblockentity
@@ -334,6 +334,7 @@ dawnoftimebuilder:japanese_dragon
 dawnoftimebuilder:seat
 fishingmadebetter:fmblavafishhook
 fishingmadebetter:fmbvoidfishhook
+homingexporbs:homingexporb
 immersivepetroleum:speedboat
 industrialforegoing:pink_slime
 rustic:tomato
@@ -357,12 +358,6 @@ appliedenergistics2:appeng.entity.entitytinytntprimed
 appliedenergistics2:appeng.entity.entitygrowingcrystal
 appliedenergistics2:appeng.entity.entitysingularity
 appliedenergistics2:appeng.entity.entitychargedquartz
-better_diving:seamoth
-better_diving:peeper
-better_diving:bladderfish
-better_diving:garryfish
-better_diving:holefish
-better_diving:boomerang
 tconstruct:indestructible
 tconstruct:arrow
 tconstruct:bolt

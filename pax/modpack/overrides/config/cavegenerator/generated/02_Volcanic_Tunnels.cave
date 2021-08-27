@@ -169,7 +169,7 @@
           height: [ 0, 90 ]
         }
       ]
-      systemChance: 0.5
+      systemChance: 0.2
       systemDensity: 1
       noiseYReduction: false
       distance: 100
@@ -203,7 +203,7 @@
       }
       originHeight: [ 26, 150 ]
       chance: 0.3
-      count: 10
+      count: 5
       stretch: {
         startVal: 60
         startValRandFactor: 0.005

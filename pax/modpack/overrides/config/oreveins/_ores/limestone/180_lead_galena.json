@@ -3,6 +3,7 @@
     "type": "cluster",
     "rarity": 180,
     "count": 1,
+    "clusters": 2,
     "stone": [
       {
         "block": "quark:limestone",
@@ -16,8 +17,8 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 450,
-    "vertical_size": 7,
-    "horizontal_size": 9,
+    "vertical_size": 10,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_galena_quark_limestone",

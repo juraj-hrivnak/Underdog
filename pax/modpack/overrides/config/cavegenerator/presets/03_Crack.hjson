@@ -2,7 +2,7 @@
   imports: [
     cat/common.cave::full_rel()
     cat/common.cave::half_rel()
-    common_values.cave::NATURAL_STONE
+    common_values.hjson::NATURAL_STONE
   ]
   enabled: true
   ravines: {
@@ -14,4 +14,21 @@
     stretch: [ 10, 1 ]
     cutoffStrength: 0
   }
+  wallDecorators: [
+    {
+      states: minecraft:stone
+      directions: all
+      matchers: $NATURAL_STONE
+      height: [ 30, 70 ]
+      placement: EMBED
+      integrity: 1
+    }
+  ]
+  ponds: [
+    {
+      height: [ 20, 50 ]
+      depth: 1
+      states: biomesoplenty:hot_spring_water
+    }
+  ]
 }

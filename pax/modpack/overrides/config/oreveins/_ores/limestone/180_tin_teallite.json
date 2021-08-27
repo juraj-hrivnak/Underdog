@@ -1,8 +1,9 @@
 {
   "Limestone_Tin-Teallite": {
-    "type": "cone",
+    "type": "cluster",
     "rarity": 180,
     "count": 1,
+    "clusters": 2,
     "stone": [
       {
         "block": "quark:limestone",
@@ -17,7 +18,7 @@
     "use_relative_y": true,
     "density": 300,
     "vertical_size": 4,
-    "horizontal_size": 20,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_teallite_quark_limestone",

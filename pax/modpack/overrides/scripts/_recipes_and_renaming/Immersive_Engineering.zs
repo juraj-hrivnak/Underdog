@@ -78,5 +78,5 @@ blastFurnace.addRecipe(<tconstruct:ingots:4>, <ore:dustIron>, 1300, <immersiveen
 
 /////////////////////////////////////
 //////////// Coke Oven  /////////////
-<immersiveengineering:stone_device>.displayName = "";
-<immersivetech:stone_multiblock>.displayName = "Coke Oven";
+// <immersiveengineering:stone_device>.displayName = "";
+// <immersivetech:stone_multiblock>.displayName = "Coke Oven";

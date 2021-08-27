@@ -8,4 +8,3 @@ import mods.jei.JEI.removeAndHide as rh;
 <quark:end_bricks_stairs>.displayName =             "Dolomite Bricks Stairs";
 <quark:end_bricks_slab>.displayName =               "Dolomite Bricks Slab";
 <quark:end_bricks_wall>.displayName =               "Dolomite Bricks Wall";
-<divergentunderground:rock_endstone>.displayName =  "Dolomite Rock";

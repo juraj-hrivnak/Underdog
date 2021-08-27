@@ -16,8 +16,8 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 600,
-    "vertical_size": 6,
-    "horizontal_size": 6,
+    "vertical_size": 4,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_limonite_quark_limestone",

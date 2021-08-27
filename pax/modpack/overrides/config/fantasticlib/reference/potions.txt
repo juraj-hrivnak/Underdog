@@ -52,13 +52,13 @@ immersiveengineering:stunned
 immersiveengineering:concretefeet
 immersiveengineering:flashed
 conarm:superhotpotion
+cuisine:hot
+cuisine:toughness
 cuisine:cold_blood
 cuisine:effect_resistance
-cuisine:dispersal
-cuisine:toughness
 cuisine:sustained_release
 cuisine:drunk
-cuisine:hot
+cuisine:dispersal
 simpledifficulty:hyperthermia
 simpledifficulty:hypothermia
 simpledifficulty:thirsty
@@ -81,4 +81,5 @@ nutrition:nourished
 nutrition:malnourished
 somnia:awakening
 somnia:insomnia
+hungeroverhaul:wellfed
 industrialwires:tinnitus

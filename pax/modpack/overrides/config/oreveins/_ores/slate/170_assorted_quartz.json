@@ -3,6 +3,7 @@
     "type": "cluster",
     "rarity": 170,
     "count": 1,
+    "clusters": 2,
     "stone": [
       {
         "block": "quark:slate",
@@ -13,8 +14,8 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 1000,
-    "vertical_size": 3,
-    "horizontal_size": 10,
+    "vertical_size": 4,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_quartz_quark_slate",

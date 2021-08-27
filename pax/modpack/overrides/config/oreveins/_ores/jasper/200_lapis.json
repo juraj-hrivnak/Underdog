@@ -15,8 +15,8 @@
     "density": 200,
     "radius": 20,
     "angle": 90,
-    "vertical_size": 2,
-    "horizontal_size": 2,
+    "vertical_size": 4,
+    "horizontal_size": 14,
     "ore": [
       {
         "block": "osv:_lapis_quark_jasper",
