@@ -14,7 +14,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
 }
 recipe: {
   result: simpleores:onyx_gem

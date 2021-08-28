@@ -14,7 +14,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   original: blocks/lapis_ore
 }
 recipe: {

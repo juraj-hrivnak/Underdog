@@ -15,7 +15,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   original: thermalfoundation:blocks/ore/ore_silver
 }
 recipe: {

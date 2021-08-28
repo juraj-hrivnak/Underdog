@@ -14,7 +14,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   original: embers:blocks/ore_aluminum_vanilla
 }
 recipe: {

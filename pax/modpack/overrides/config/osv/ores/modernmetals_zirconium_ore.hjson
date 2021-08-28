@@ -14,7 +14,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   original: modernmetals:blocks/zirconium_ore
 }
 recipe: {
