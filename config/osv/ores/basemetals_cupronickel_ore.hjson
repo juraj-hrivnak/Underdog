@@ -15,7 +15,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   original: basemetals:blocks/cupronickel_ore
 }
 recipe: {

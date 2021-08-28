@@ -14,7 +14,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   original: iceandfire:blocks/sapphire_ore
 }
 recipe: {

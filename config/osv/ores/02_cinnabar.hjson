@@ -14,7 +14,7 @@
     tool: pickaxe
   }
   texture: {
-    shade: false
+    shade: true
     original: geolosys:blocks/cinnabar
   }
   recipe: {

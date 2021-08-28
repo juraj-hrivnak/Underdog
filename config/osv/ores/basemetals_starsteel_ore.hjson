@@ -14,7 +14,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   original: basemetals:blocks/starsteel_ore
   background: blocks/end_stone
 }

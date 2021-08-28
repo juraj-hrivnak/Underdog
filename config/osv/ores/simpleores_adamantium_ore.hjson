@@ -14,7 +14,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   original: simpleores:blocks/adamantium_ore
 }
 recipe: {

@@ -81,7 +81,7 @@
 
     # Whether to use the fancier, "shaded" texture variants.
     # Pick whichever you like most for this block.
-    shade: false
+    shade: true
     
     # A decimal value representing the threshold of difference
     # between background and foreground accepted as an ore pixel.

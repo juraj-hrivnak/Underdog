@@ -14,7 +14,7 @@ loot: [
   }
 ]
 texture: {
-  shade: false
+  shade: true
   original: blocks/redstone_ore
 }
 recipe: {
