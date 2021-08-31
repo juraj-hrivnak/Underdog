@@ -30,6 +30,7 @@ Folowing mods must be removed:
 - Journey Map
 - Journey Map Stages
 - Tips
+- InvMove
 
 Folowing folder are required on the server:
 - config
