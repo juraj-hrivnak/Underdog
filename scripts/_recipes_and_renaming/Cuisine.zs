@@ -14,14 +14,14 @@ AxeChopping.add(<harvestcraft:coconutitem>, <tropicraft:coconut_chunk> * 2);
 // Pineapple cubes
 AxeChopping.add(<ore:cropPineapple>, <tropicraft:pineapple_cubes>);
 
-/* ------
-    Mill  */
+/* ------ */
+/*  Mill  */
 Mill.add(<ore:fertilizer>, null, <biomesoplenty:white_dye>, null);
 Mill.add(<ore:gemLapis>, null, <biomesoplenty:blue_dye>, null);
 
 
-/* ----------
-    Crafting  */
+/* ---------- */
+/*  Crafting  */
 
 // Mill
 recipes.removeShaped(<cuisine:mill>);
@@ -39,4 +39,4 @@ recipes.addShapedMirrored(<cuisine:fire_pit>, [
 
 // Wooden Handle
 recipes.removeShaped(<cuisine:material:1>);
-recipes.addShapedMirrored(<cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);
+recipes.addShaped(<cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);

@@ -162,7 +162,7 @@ for lumber, plank in lumbersAndPlanks {
 	recipes.replaceAllOccurences(plank, lumber, <*>);
 
     // Adding recipe for lumber from planks
-    recipes.addShapeless(lumber * 8, [plank, plank]);
+    recipes.addShapeless(lumber * 4, [plank]);
 
     // Adding recipe for planks block from four lumbers
     recipes.addShaped(plank,
