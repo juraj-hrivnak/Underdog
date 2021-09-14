@@ -691,16 +691,6 @@
       }
     },
     {
-      "projectID": 243076,
-      "fileID": 2940914,
-      "required": true,
-      "__meta": {
-        "name": "Refined Storage",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
       "projectID": 244258,
       "fileID": 3268501,
       "required": true,
