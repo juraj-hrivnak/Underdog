@@ -1,34 +1,14 @@
 {
   enabled: true
   biomes: {
-    names: [
-      minecraft:mutated_mesa
-      minecraft:mutated_mesa_rock
-      minecraft:mutated_mesa_clear_rock
-      biomesoplenty:xeric_shrubland
-      biomesoplenty:wasteland
-      biomesoplenty:tundra
-      biomesoplenty:steppe
-      biomesoplenty:prairie
-      biomesoplenty:brushland
+    types: [
+      wasteland
     ]
   }
   layers: [
     {
       state: minecraft:stone:1
       height: [ 20, 30 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
-    }
-    {
-      state: projectred-exploration:stone:3
-      height: [ 0, 120 ]
       ceiling: {
         seed: 1
         frequency: 0.009

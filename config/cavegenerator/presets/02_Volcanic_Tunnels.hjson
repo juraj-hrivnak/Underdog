@@ -8,7 +8,7 @@
     ]
   }
   replaceableBlocks: $NATURAL_STONE
-  enabled: true
+  enabled: false
   tunnels: [
     {
       shell: {

@@ -33,25 +33,9 @@
   }
   replaceDecorators: false
   replaceableBlocks: $NATURAL_STONE
+  ##############
   enabled: true
-  ###########################################
-  caveBlocks: [
-    {
-      states: simpledifficulty:purifiedwater
-      height: [ 0, 26 ]
-    }
-  ]
-  ###########################################
-  # Ponds
-  ###########################################
-  ponds: [
-    {
-      height: [ 20, 28 ]
-      depth: 2
-      states: simpledifficulty:purifiedwater
-    }
-  ]
-  ###########################################
+  ##############
   caverns: [
     {
       ###########################################
@@ -96,6 +80,28 @@
         perturb: true
         threshold: 1
         stretch: 0.85
+      }
+      caveBlocks: [
+        {
+          states: simpledifficulty:purifiedwater
+          height: [ 0, 26 ]
+        }
+      ]
+      ponds: [
+        {
+          height: [ 20, 28 ]
+          depth: 2
+          states: simpledifficulty:purifiedwater
+        }
+      ]
+      biomes: {
+        types: [
+          PLAINS
+          WET
+          LUSH
+          JUNGLE
+          MOUNTAIN
+        ]
       }
       ###########################################
     }
@@ -164,61 +170,15 @@
       biomes: {
         types: [
           SAVANA
+          MESA
+          MEDITERRANEAN
+        ]
+        names: [
+          biomesoplenty:crag
         ]
       }
       ###########################################
     }
-    // {
-    //   ###########################################
-    //   # Jungle Caves
-    //   ###########################################
-    //   height: [ 70, 200 ]
-    //   ###################
-    //   ceiling: {
-    //     seed: 1
-    //     cache: true
-    //     range: [ 0.2, 2 ]
-    //   }
-    //   floor: $COMMON_FLOOR
-    //   generators: {
-    //     seed: 1
-    //     frequency: 0.005
-    //     offset: -50
-    //     lacunarity: 4.2
-    //     octaves: 12
-    //     gain: 0.1
-    //     perturb: true
-    //     perturbAmp: 4
-    //     perturbFreq: 0.12
-    //     type: SimplexFractal
-    //     jitterX: 0.45
-    //     jitterY: 2.25
-    //     jitterZ: 0.25
-    //     returnType: Distance2Div
-    //     distFunc: Natural
-    //     invert: true
-    //     interp: Linear
-    //     fractal: Billow
-    //     threshold: -0.22
-    //     stretch: 2.36
-    //   }
-    //   wallDecorators: [
-    //     {
-    //       states: osv:_kimberlite_1:1
-    //       directions: all
-    //       matchers: minecraft:stone:1
-    //       height: [ 70, 200 ]
-    //       placement: EMBED
-    //       integrity: 0.05
-    //     }
-    //   ]
-    //   biomes: {
-    //     types: [
-    //       JUNGLE
-    //     ]
-    //   }
-    //   ###########################################
-    // }
     {
       ###########################################
       # Main Caves

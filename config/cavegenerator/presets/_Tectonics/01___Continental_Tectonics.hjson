@@ -26,12 +26,12 @@
       height: 0
       ceiling: $underground(6)
     }
-    {
-      // Lava
-      state: minecraft:lava
-      height: 0
-      ceiling: $underground(7)
-    }
+    // {
+    //   // Lava
+    //   state: minecraft:lava
+    //   height: 0
+    //   ceiling: $underground(7)
+    // }
     {
       // Magma
       state: minecraft:magma

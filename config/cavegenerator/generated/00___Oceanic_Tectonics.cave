@@ -27,19 +27,12 @@
         ]
       }
     }
-    {
-      // Lava
-      state: minecraft:lava
-      height: 0
-      ceiling: {
-        seed: 9419
-        frequency: 0.007
-        range: [
-          11
-          25
-        ]
-      }
-    }
+    // {
+    //   // Lava
+    //   state: minecraft:lava
+    //   height: 0
+    //   ceiling: $underground(11)
+    // }
     {
       // Magma
       state: minecraft:magma
