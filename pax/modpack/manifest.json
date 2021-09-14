@@ -2329,16 +2329,6 @@
       }
     },
     {
-      "projectID": 400796,
-      "fileID": 3281615,
-      "required": true,
-      "__meta": {
-        "name": "Somnia Awoken",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
       "projectID": 401558,
       "fileID": 3261440,
       "required": true,
