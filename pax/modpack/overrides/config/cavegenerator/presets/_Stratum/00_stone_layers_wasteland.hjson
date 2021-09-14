@@ -23,11 +23,11 @@
       height: [ 20, 30 ]
       ceiling: $OVERGROUND
     }
-    {
-      state: projectred-exploration:stone:3
-      height: [ 0, 120 ]
-      ceiling: $OVERGROUND
-    }
+    #{
+    #state: projectred-exploration:stone:3
+    #height: [ 0, 120 ]
+    #ceiling: $OVERGROUND
+    #}
     {
       state: biomesoplenty:dried_sand
       height: [ 0, 255 ]

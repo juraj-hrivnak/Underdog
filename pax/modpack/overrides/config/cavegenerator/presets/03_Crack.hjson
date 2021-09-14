@@ -4,7 +4,7 @@
     cat/common.cave::half_rel()
     common_values.hjson::NATURAL_STONE
   ]
-  enabled: true
+  enabled: false
   ravines: {
     replaceableBlocks: $NATURAL_STONE
     chance: 0.0035

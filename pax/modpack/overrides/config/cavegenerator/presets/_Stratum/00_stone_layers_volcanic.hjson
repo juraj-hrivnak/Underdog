@@ -28,11 +28,11 @@
       height: [ 0, 90 ]
       ceiling: $OVERGROUND
     }
-    {
-      state: projectred-exploration:stone:3
-      height: [ 0, 120 ]
-      ceiling: $OVERGROUND
-    }
+    #{
+    #state: projectred-exploration:stone:3
+    #height: [ 0, 120 ]
+    #ceiling: $OVERGROUND
+    #}
     {
       state: minecraft:stone:5
       height: [ 0, 255 ]

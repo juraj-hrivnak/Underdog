@@ -31,7 +31,6 @@ minecraft:vanishing_curse
 openblocks:explosive
 openblocks:last_stand
 openblocks:flim_flam
-projectred-expansion:electric_efficiency
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
 futuremc:loyalty

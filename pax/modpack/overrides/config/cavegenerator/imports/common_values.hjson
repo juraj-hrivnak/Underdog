@@ -16,7 +16,6 @@
     biomesoplenty:grass:7
     //
     //Stone
-    projectred-exploration:stone:3
     minecraft:end_stone
     minecraft:stone:0
     minecraft:stone:1
@@ -34,7 +33,6 @@
     divergentunderground:granite_cobblestone
     divergentunderground:quark_limestone_cobblestone
     divergentunderground:quark_marble_cobblestone
-    projectred-exploration:stone:2
     //
     //Sandstone
     minecraft:red_sandstone

@@ -26,18 +26,11 @@
         ]
       }
     }
-    {
-      state: projectred-exploration:stone:3
-      height: [ 0, 120 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
-    }
+    #{
+    #state: projectred-exploration:stone:3
+    #height: [ 0, 120 ]
+    #ceiling: $OVERGROUND
+    #}
     {
       state: biomesoplenty:dried_sand
       height: [ 0, 255 ]
