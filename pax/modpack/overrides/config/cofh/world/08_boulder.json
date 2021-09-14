@@ -1,7 +1,7 @@
 {
 	"populate": {
 		"boulder": {
-			"enabled": "true",
+			"enabled": "false",
 			"distribution": "uniform",
 			"generator": {
 				"block": { "name": "divergentunderground:boulder" },

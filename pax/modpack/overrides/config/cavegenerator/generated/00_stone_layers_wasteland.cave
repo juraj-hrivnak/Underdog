@@ -1,16 +1,8 @@
 {
   enabled: true
   biomes: {
-    names: [
-      minecraft:mutated_mesa
-      minecraft:mutated_mesa_rock
-      minecraft:mutated_mesa_clear_rock
-      biomesoplenty:xeric_shrubland
-      biomesoplenty:wasteland
-      biomesoplenty:tundra
-      biomesoplenty:steppe
-      biomesoplenty:prairie
-      biomesoplenty:brushland
+    types: [
+      wasteland
     ]
   }
   layers: [
@@ -26,11 +18,6 @@
         ]
       }
     }
-    #{
-    #state: projectred-exploration:stone:3
-    #height: [ 0, 120 ]
-    #ceiling: $OVERGROUND
-    #}
     {
       state: biomesoplenty:dried_sand
       height: [ 0, 255 ]

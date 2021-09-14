@@ -430,7 +430,6 @@ exoticbirds:twilight_phoenix
 exoticbirds:bird_egg
 futuremc:trident
 futuremc:panda
-futuremc:bee
 futuremc:cod
 futuremc:pufferfish
 futuremc:salmon
@@ -493,9 +492,9 @@ immersiveengineering:revolvershotflare
 immersiveengineering:explosive
 immersiveengineering:fluorescenttube
 coroutil:bat_smart
-forestry:butterflyge
 forestry:cart.beehouse
 forestry:cart.apiary
+forestry:butterflyge
 nuclearcraft:feral_ghoul
 platforms:gui-item
 rfp2:playerdummy

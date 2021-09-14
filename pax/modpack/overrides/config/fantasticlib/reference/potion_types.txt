@@ -49,9 +49,9 @@ quark:long_danger_sight
 quark:resilience
 quark:long_resilience
 quark:strong_resilience
+cuisine:cuisine.hot
 cuisine:cuisine.dispersal
 cuisine:cuisine.toughness
-cuisine:cuisine.hot
 cuisine:cuisine.cold_blood
 simpledifficulty:cold_resist_type
 simpledifficulty:long_cold_resist_type
