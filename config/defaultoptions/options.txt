@@ -1,11 +1,11 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.5
+mouseSensitivity:0.57746476
 fov:0.75
 gamma:1.0
 saturation:0.0
-renderDistance:10
-guiScale:0
+renderDistance:8
+guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
@@ -27,7 +27,7 @@ chatOpacity:1.0
 snooperEnabled:true
 fullscreen:true
 enableVsync:true
-useVbo:true
+useVbo:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true

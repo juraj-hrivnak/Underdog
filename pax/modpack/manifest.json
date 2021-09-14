@@ -339,20 +339,6 @@
       }
     },
     {
-      "projectID": 228702,
-      "fileID": 2745545,
-      "required": true,
-      "__meta": {
-        "name": "Project Red - Core",
-        "explicit": true,
-        "dependencies": [
-          229002,
-          242818,
-          258426
-        ]
-      }
-    },
-    {
       "projectID": 228815,
       "fileID": 2699055,
       "required": true,
@@ -382,79 +368,6 @@
         "name": "BiomeTweaker",
         "explicit": true,
         "dependencies": []
-      }
-    },
-    {
-      "projectID": 229002,
-      "fileID": 2735197,
-      "required": true,
-      "__meta": {
-        "name": "MrTJPCore",
-        "explicit": true,
-        "dependencies": [
-          242818
-        ]
-      }
-    },
-    {
-      "projectID": 229045,
-      "fileID": 2745548,
-      "required": true,
-      "__meta": {
-        "name": "Project Red - Integration",
-        "explicit": true,
-        "dependencies": [
-          228702
-        ]
-      }
-    },
-    {
-      "projectID": 229046,
-      "fileID": 2745549,
-      "required": true,
-      "__meta": {
-        "name": "Project Red - Illumination",
-        "explicit": true,
-        "dependencies": [
-          228702
-        ]
-      }
-    },
-    {
-      "projectID": 229048,
-      "fileID": 2745550,
-      "required": true,
-      "__meta": {
-        "name": "Project Red - Expansion",
-        "explicit": true,
-        "dependencies": [
-          228702
-        ]
-      }
-    },
-    {
-      "projectID": 229049,
-      "fileID": 2745551,
-      "required": true,
-      "__meta": {
-        "name": "Project Red - Exploration",
-        "explicit": true,
-        "dependencies": [
-          228702
-        ]
-      }
-    },
-    {
-      "projectID": 229050,
-      "fileID": 2745546,
-      "required": true,
-      "__meta": {
-        "name": "Project Red - Compat",
-        "explicit": true,
-        "dependencies": [
-          229002,
-          228702
-        ]
       }
     },
     {
@@ -490,24 +403,21 @@
       }
     },
     {
-      "projectID": 230111,
-      "fileID": 2745547,
-      "required": true,
-      "__meta": {
-        "name": "Project Red - Fabrication",
-        "explicit": true,
-        "dependencies": [
-          229045,
-          228702
-        ]
-      }
-    },
-    {
       "projectID": 230497,
       "fileID": 2450900,
       "required": true,
       "__meta": {
         "name": "Chameleon",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 231095,
+      "fileID": 2720655,
+      "required": true,
+      "__meta": {
+        "name": "Chisels & Bits",
         "explicit": true,
         "dependencies": []
       }
@@ -776,6 +686,16 @@
       "required": true,
       "__meta": {
         "name": "Exotic Birds",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 243076,
+      "fileID": 2940914,
+      "required": true,
+      "__meta": {
+        "name": "Refined Storage",
         "explicit": true,
         "dependencies": []
       }
@@ -1134,18 +1054,6 @@
       }
     },
     {
-      "projectID": 258426,
-      "fileID": 2755790,
-      "required": true,
-      "__meta": {
-        "name": "CB Multipart",
-        "explicit": true,
-        "dependencies": [
-          242818
-        ]
-      }
-    },
-    {
       "projectID": 258587,
       "fileID": 2959712,
       "required": true,
@@ -1249,16 +1157,6 @@
       "required": true,
       "__meta": {
         "name": "ConnectedTexturesMod",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 267934,
-      "fileID": 2566522,
-      "required": true,
-      "__meta": {
-        "name": "Passable Leaves",
         "explicit": true,
         "dependencies": []
       }
@@ -1547,6 +1445,16 @@
       }
     },
     {
+      "projectID": 284523,
+      "fileID": 3066682,
+      "required": true,
+      "__meta": {
+        "name": "Charset Lib",
+        "explicit": true,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 284904,
       "fileID": 2568865,
       "required": true,
@@ -1608,6 +1516,18 @@
         "explicit": true,
         "dependencies": [
           283644
+        ]
+      }
+    },
+    {
+      "projectID": 289316,
+      "fileID": 2745283,
+      "required": true,
+      "__meta": {
+        "name": "SimpleLogic Gates",
+        "explicit": true,
+        "dependencies": [
+          284523
         ]
       }
     },
@@ -1692,6 +1612,18 @@
         "explicit": true,
         "dependencies": [
           231951
+        ]
+      }
+    },
+    {
+      "projectID": 291517,
+      "fileID": 2550136,
+      "required": true,
+      "__meta": {
+        "name": "EDX Multipart",
+        "explicit": true,
+        "dependencies": [
+          239431
         ]
       }
     },
@@ -1825,6 +1757,19 @@
       }
     },
     {
+      "projectID": 298029,
+      "fileID": 2754601,
+      "required": true,
+      "__meta": {
+        "name": "SimpleLogic Wires",
+        "explicit": true,
+        "dependencies": [
+          284523,
+          239431
+        ]
+      }
+    },
+    {
       "projectID": 298187,
       "fileID": 3005950,
       "required": true,
@@ -1845,16 +1790,6 @@
       }
     },
     {
-      "projectID": 299080,
-      "fileID": 2632834,
-      "required": true,
-      "__meta": {
-        "name": "Proportional Destruction Particles",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
       "projectID": 299263,
       "fileID": 2626921,
       "required": true,
@@ -1862,6 +1797,19 @@
         "name": "Scarper",
         "explicit": true,
         "dependencies": []
+      }
+    },
+    {
+      "projectID": 299733,
+      "fileID": 2746460,
+      "required": true,
+      "__meta": {
+        "name": "ComplexLogic",
+        "explicit": true,
+        "dependencies": [
+          289316,
+          298029
+        ]
       }
     },
     {
@@ -2259,16 +2207,6 @@
       "required": true,
       "__meta": {
         "name": "GunpowderLib",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 357178,
-      "fileID": 3437402,
-      "required": true,
-      "__meta": {
-        "name": "MixinBootstrap",
         "explicit": true,
         "dependencies": []
       }
