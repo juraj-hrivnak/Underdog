@@ -453,6 +453,18 @@
       }
     },
     {
+      "projectID": 232838,
+      "fileID": 3368712,
+      "required": true,
+      "__meta": {
+        "name": "Logistics Pipes",
+        "explicit": true,
+        "dependencies": [
+          242818
+        ]
+      }
+    },
+    {
       "projectID": 233019,
       "fileID": 2450734,
       "required": true,
@@ -637,6 +649,16 @@
       }
     },
     {
+      "projectID": 239418,
+      "fileID": 2645156,
+      "required": true,
+      "__meta": {
+        "name": "Sonar Core",
+        "explicit": false,
+        "dependencies": []
+      }
+    },
+    {
       "projectID": 239431,
       "fileID": 2615930,
       "required": true,
@@ -752,16 +774,6 @@
       "required": true,
       "__meta": {
         "name": "B.A.S.E",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 247286,
-      "fileID": 2484246,
-      "required": true,
-      "__meta": {
-        "name": "InfiniteFluids",
         "explicit": true,
         "dependencies": []
       }
@@ -1097,6 +1109,19 @@
         "name": "Tomb Many Graves 2",
         "explicit": true,
         "dependencies": []
+      }
+    },
+    {
+      "projectID": 263048,
+      "fileID": 2643354,
+      "required": true,
+      "__meta": {
+        "name": "Practical Logistics 2",
+        "explicit": true,
+        "dependencies": [
+          239418,
+          239431
+        ]
       }
     },
     {
@@ -1886,16 +1911,6 @@
       "required": true,
       "__meta": {
         "name": "Patchouli",
-        "explicit": true,
-        "dependencies": []
-      }
-    },
-    {
-      "projectID": 306780,
-      "fileID": 3435077,
-      "required": true,
-      "__meta": {
-        "name": "Fishing Made Better",
         "explicit": true,
         "dependencies": []
       }
