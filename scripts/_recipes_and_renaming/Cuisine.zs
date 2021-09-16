@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient;
 
 import mods.cuisine.AxeChopping;
 import mods.cuisine.Mortar;
-import mods.cuisine.Mill;
+import mods.cuisine.Mill as mill;
 
 // Harvestcraft Coconut from dynamictreesphc item
 AxeChopping.add(<dynamictreesphc:coconutseed>, <harvestcraft:coconutitem>);
@@ -14,16 +14,13 @@ AxeChopping.add(<harvestcraft:coconutitem>, <tropicraft:coconut_chunk> * 2);
 // Pineapple cubes
 AxeChopping.add(<ore:cropPineapple>, <tropicraft:pineapple_cubes>);
 
-/* ------ */
-/*  Mill  */
-Mill.add(<ore:fertilizer>, null, <biomesoplenty:white_dye>, null);
-Mill.add(<ore:gemLapis>, null, <biomesoplenty:blue_dye>, null);
-
-
-/* ---------- */
-/*  Crafting  */
-
 // Mill
+mill.add(<ore:fertilizer>, null, <biomesoplenty:white_dye>, null);
+mill.add(<ore:gemLapis>, null, <biomesoplenty:blue_dye>, null);
+mill.add(<ore:gemLapis>, null, <biomesoplenty:blue_dye>, null);
+
+
+// Crafting table
 recipes.removeShaped(<cuisine:mill>);
 recipes.addShaped(<cuisine:mill>, [
     [<ore:handleWood>],
