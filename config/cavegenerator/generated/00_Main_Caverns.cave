@@ -119,11 +119,18 @@
         threshold: -0.18
         stretch: 0.75
       }
+      blacklistBiomes: true
+      biomes: {
+        types: [
+          MOUNTAIN
+          MESA
+        ]
+      }
       ###########################################
     }
     {
       ###########################################
-      # Water Reservoirs
+      # Purified Water Reservoirs
       ###########################################
       height: [ 22, 38 ]
       ceiling: {
@@ -168,14 +175,103 @@
       biomes: {
         types: [
           PLAINS
-          WET
-          LUSH
           JUNGLE
-          MOUNTAIN
         ]
       }
       ###########################################
     }
+    // {
+    //   ###########################################
+    //   # Spring Water Reservoirs
+    //   ###########################################
+    //   height: [ 22, 38 ]
+    //   ##################
+    //   ceiling: $COMMON_CEILING
+    //   floor: $COMMON_FLOOR
+    //   generators: {
+    //     seed: 1
+    //     frequency: 1
+    //     type: PerlinFractal
+    //     interp: Hermite
+    //     fractal: Billow
+    //     returnType: NoiseLookup
+    //     cellularLookup: CubicFractal
+    //     octaves: 2
+    //     perturb: true
+    //     threshold: 1
+    //     stretch: 0.85
+    //   }
+    //   wallDecorators: [
+    //     {
+    //       states: minecraft:magma
+    //       directions: down
+    //       matchers: $NATURAL_STONE
+    //       height: [ 20, 21 ]
+    //       placement: EMBED
+    //       integrity: 0.05
+    //     }
+    //   ]
+    //   caveBlocks: [
+    //     {
+    //       states: biomesoplenty:hot_spring_water
+    //       height: [ 0, 25 ]
+    //     }
+    //   ]
+    //   ponds: [
+    //     {
+    //       height: [ 20, 28 ]
+    //       depth: 2
+    //       states: biomesoplenty:hot_spring_water
+    //     }
+    //   ]
+    //   biomes: {
+    //     types: [
+    //       MOUNTAIN
+    //     ]
+    //   }
+    //   ###########################################
+    // }
+    // {
+    //   ###########################################
+    //   # Salt Water Reservoirs
+    //   ###########################################
+    //   height: [ 22, 38 ]
+    //   ##################
+    //   ceiling: $COMMON_CEILING
+    //   floor: $COMMON_FLOOR
+    //   generators: {
+    //     seed: 1
+    //     frequency: 1
+    //     type: PerlinFractal
+    //     interp: Hermite
+    //     fractal: Billow
+    //     returnType: NoiseLookup
+    //     cellularLookup: CubicFractal
+    //     octaves: 2
+    //     perturb: true
+    //     threshold: 1
+    //     stretch: 0.85
+    //   }
+    //   caveBlocks: [
+    //     {
+    //       states: minecraft:water
+    //       height: [ 0, 32 ]
+    //     }
+    //   ]
+    //   ponds: [
+    //     {
+    //       states: minecraft:water
+    //       height: [ 20, 28 ]
+    //       depth: 2
+    //     }
+    //   ]
+    //   biomes: {
+    //     types: [
+    //       LUSH
+    //     ]
+    //   }
+    //   ###########################################
+    // }
     {
       ###########################################
       # Scary Volcanic Caves
@@ -245,15 +341,11 @@
           integrity: 0.05
         }
       ]
-      blacklistBiomes: true
+      blacklistBiomes: false
       biomes: {
         types: [
-          SAVANA
-          MESA
-          MEDITERRANEAN
-        ]
-        names: [
-          biomesoplenty:crag
+          HILLS
+          MOUNTAIN
         ]
       }
       ###########################################
