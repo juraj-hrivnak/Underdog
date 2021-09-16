@@ -66,7 +66,10 @@ val itemsToKeep = [
     <nuclearcraft:dust:6>,
     <nuclearcraft:ingot:6>,
     <nuclearcraft:dust:8>,
-    <nuclearcraft:ingot:8>
+    <nuclearcraft:ingot:8>,
+    <nuclearcraft:alloy:6>,
+    <nuclearcraft:ingot:5>,
+    <nuclearcraft:dust:5>
 ] as IItemStack[];
 
 for i in itemsToKeep {
