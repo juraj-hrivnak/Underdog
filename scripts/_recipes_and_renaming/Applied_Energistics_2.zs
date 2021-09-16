@@ -13,8 +13,6 @@ Grinder.removeRecipe(<minecraft:ender_pearl>);
 <appliedenergistics2:smooth_sky_stone_block>.displayName =          "Smooth Meteorite Block";
 <appliedenergistics2:sky_stone_brick>.displayName =                 "Meteorite brick";
 <appliedenergistics2:sky_stone_small_brick>.displayName =           "Meteorite Small Brick";
-<appliedenergistics2:sky_stone_chest>.displayName =                 "Meteorite Chest";
-<appliedenergistics2:smooth_sky_stone_chest>.displayName =          "Smooth Meteorite Chest";
 <appliedenergistics2:sky_stone_stairs>.displayName =                "Meteorite Stairs";
 <appliedenergistics2:smooth_sky_stone_stairs>.displayName =         "Smooth Stairs Meteorite";
 <appliedenergistics2:sky_stone_brick_stairs>.displayName =          "Meteorite Brick Stairs";

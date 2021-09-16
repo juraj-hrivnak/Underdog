@@ -51,8 +51,8 @@ for i in jeiCategories {
 
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped("machine_frame", <thermalexpansion:frame>, 
-   [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
-    [<ore:plateIron>, <ore:gearTin>, <ore:plateIron>],
+   [[<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>],
+    [<ore:plateSteel>, <ore:gearTin>, <ore:plateSteel>],
     [<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>]],
 
     function(out, ins, cInfo) {

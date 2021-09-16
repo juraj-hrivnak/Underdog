@@ -276,7 +276,7 @@
       ###########################################
       # Scary Volcanic Caves
       ###########################################
-      height: [ 70, 200 ]
+      height: [ 60, 200 ]
       ###################
       ceiling: {
         seed: 1
@@ -341,7 +341,6 @@
           integrity: 0.05
         }
       ]
-      blacklistBiomes: false
       biomes: {
         types: [
           HILLS
