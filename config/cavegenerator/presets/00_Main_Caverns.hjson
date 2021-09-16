@@ -58,11 +58,18 @@
         threshold: -0.18
         stretch: 0.75
       }
+      blacklistBiomes: true
+      biomes: {
+        types: [
+          MOUNTAIN
+          MESA
+        ]
+      }
       ###########################################
     }
     {
       ###########################################
-      # Water Reservoirs
+      # Purified Water Reservoirs
       ###########################################
       height: [ 22, 38 ]
       ##################
@@ -97,10 +104,90 @@
       biomes: {
         types: [
           PLAINS
-          WET
-          LUSH
           JUNGLE
+        ]
+      }
+      ###########################################
+    }
+    {
+      ###########################################
+      # Spring Water Reservoirs
+      ###########################################
+      height: [ 22, 38 ]
+      ##################
+      ceiling: $COMMON_CEILING
+      floor: $COMMON_FLOOR
+      generators: {
+        seed: 1
+        frequency: 1
+        type: PerlinFractal
+        interp: Hermite
+        fractal: Billow
+        returnType: NoiseLookup
+        cellularLookup: CubicFractal
+        octaves: 2
+        perturb: true
+        threshold: 1
+        stretch: 0.85
+      }
+      caveBlocks: [
+        {
+          states: simpledifficulty:purifiedwater
+          height: [ 0, 25 ]
+        }
+      ]
+      ponds: [
+        {
+          height: [ 20, 28 ]
+          depth: 2
+          states: simpledifficulty:purifiedwater
+        }
+      ]
+      biomes: {
+        types: [
           MOUNTAIN
+        ]
+      }
+      ###########################################
+    }
+    {
+      ###########################################
+      # Salt Water Reservoirs
+      ###########################################
+      height: [ 22, 38 ]
+      ##################
+      ceiling: $COMMON_CEILING
+      floor: $COMMON_FLOOR
+      generators: {
+        seed: 1
+        frequency: 1
+        type: PerlinFractal
+        interp: Hermite
+        fractal: Billow
+        returnType: NoiseLookup
+        cellularLookup: CubicFractal
+        octaves: 2
+        perturb: true
+        threshold: 1
+        stretch: 0.85
+      }
+      caveBlocks: [
+        {
+          states: simpledifficulty:purifiedwater
+          height: [ 0, 32 ]
+        }
+      ]
+      ponds: [
+        {
+          height: [ 20, 28 ]
+          depth: 2
+          states: simpledifficulty:purifiedwater
+        }
+      ]
+      biomes: {
+        types: [
+          LUSH
+          OCEAN
         ]
       }
       ###########################################
@@ -166,15 +253,9 @@
           integrity: 0.05
         }
       ]
-      blacklistBiomes: true
       biomes: {
         types: [
-          SAVANA
-          MESA
-          MEDITERRANEAN
-        ]
-        names: [
-          biomesoplenty:crag
+          MOUNTAIN
         ]
       }
       ###########################################
