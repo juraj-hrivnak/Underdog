@@ -1,14 +1,25 @@
 <!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
 	<Recipe timeRequired="NUMBER" power="NUMBER">
 		<input>
-			<fluidStack>FLUID NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
         </input>
 		<output>
-			<fluidStack>FLUID_NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
 		</output>
 	</Recipe>
 	
@@ -20,69 +31,125 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="false">
-	<Recipe timeRequired="10" power ="100000">
+<Recipes useDefault="true">
+	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotCopper</oreDict>
+			<oreDict>ingotGold</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productrod 8 4</itemStack>
+			<itemStack>immersiveposts:metal_rods;2</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="10" power ="100000">
-		<input>
-			<oreDict>ingotSteel</oreDict>
-		</input>
-		<output>
-			<itemStack>immersiveengineering:material 8 2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="15" power ="100000">
-		<input>
-			<oreDict>ingotTitanium</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productrod 8 7</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="15" power ="100000">
-		<input>
-			<oreDict>ingotIridium</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productrod 8 10</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="20" power ="100000">
+	<Recipe timeRequired="300" power ="20">
 		<input>
 			<oreDict>ingotTitaniumAluminide</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:productrod 8</itemStack>
+			<itemStack>advancedrocketry:productrod;2</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="20" power ="100000">
+	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotTitaniumIridium</oreDict>
+			<oreDict>ingotAluminum</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:productrod 8 1</itemStack>
+			<itemStack>immersiveengineering:material;2;3</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="10" power ="100000">
+	<Recipe timeRequired="300" power ="20">
 		<input>
 			<oreDict>ingotIron</oreDict>
 		</input>
 		<output>
-			<itemStack>immersiveengineering:material 8 1</itemStack>
+			<itemStack>libvulpes:productrod;2;1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="10" power ="100000">
+	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotAluminium</oreDict>
+			<oreDict>ingotSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>immersiveengineering:material 8 3</itemStack>
+			<itemStack>libvulpes:productrod;2;6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod;2;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLead</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod;2;10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod;2;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod;2;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotConstantan</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;5</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

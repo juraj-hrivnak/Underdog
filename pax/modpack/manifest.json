@@ -507,6 +507,28 @@
       }
     },
     {
+      "projectID": 236541,
+      "fileID": 3434864,
+      "required": true,
+      "__meta": {
+        "name": "LibVulpes",
+        "explicit": false,
+        "dependencies": []
+      }
+    },
+    {
+      "projectID": 236542,
+      "fileID": 3456841,
+      "required": true,
+      "__meta": {
+        "name": "Advanced Rocketry",
+        "explicit": true,
+        "dependencies": [
+          236541
+        ]
+      }
+    },
+    {
       "projectID": 237065,
       "fileID": 3331364,
       "required": true,
@@ -1065,6 +1087,16 @@
         "dependencies": [
           257814
         ]
+      }
+    },
+    {
+      "projectID": 260262,
+      "fileID": 3459767,
+      "required": true,
+      "__meta": {
+        "name": "Tool Belt",
+        "explicit": true,
+        "dependencies": []
       }
     },
     {
