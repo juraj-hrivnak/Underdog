@@ -20,9 +20,7 @@
       "fileID": 2682920,
       "required": true,
       "__meta": {
-        "name": "JourneyMap",
-        "explicit": true,
-        "dependencies": []
+        "name": "JourneyMap"
       }
     },
     {
@@ -30,9 +28,7 @@
       "fileID": 2918418,
       "required": true,
       "__meta": {
-        "name": "Forestry",
-        "explicit": true,
-        "dependencies": []
+        "name": "Forestry"
       }
     },
     {
@@ -40,9 +36,7 @@
       "fileID": 3359843,
       "required": true,
       "__meta": {
-        "name": "Mouse Tweaks",
-        "explicit": true,
-        "dependencies": []
+        "name": "Mouse Tweaks"
       }
     },
     {
@@ -50,9 +44,7 @@
       "fileID": 2920433,
       "required": true,
       "__meta": {
-        "name": "CoFH Core",
-        "explicit": true,
-        "dependencies": []
+        "name": "CoFH Core"
       }
     },
     {
@@ -61,7 +53,6 @@
       "required": true,
       "__meta": {
         "name": "Thermal Expansion",
-        "explicit": true,
         "dependencies": [
           242818,
           222880
@@ -73,9 +64,7 @@
       "fileID": 2661618,
       "required": true,
       "__meta": {
-        "name": "ShetiPhianCore",
-        "explicit": true,
-        "dependencies": []
+        "name": "ShetiPhianCore"
       }
     },
     {
@@ -84,7 +73,6 @@
       "required": true,
       "__meta": {
         "name": "Tinkers Construct",
-        "explicit": true,
         "dependencies": [
           74924
         ]
@@ -95,9 +83,7 @@
       "fileID": 2713386,
       "required": true,
       "__meta": {
-        "name": "Mantle",
-        "explicit": true,
-        "dependencies": []
+        "name": "Mantle"
       }
     },
     {
@@ -105,9 +91,7 @@
       "fileID": 2842510,
       "required": true,
       "__meta": {
-        "name": "Biomes O' Plenty",
-        "explicit": true,
-        "dependencies": []
+        "name": "Biomes O' Plenty"
       }
     },
     {
@@ -116,7 +100,6 @@
       "required": true,
       "__meta": {
         "name": "The Spice of Life",
-        "explicit": true,
         "dependencies": [
           224472
         ]
@@ -128,7 +111,6 @@
       "required": true,
       "__meta": {
         "name": "ModTweaker",
-        "explicit": true,
         "dependencies": [
           253211
         ]
@@ -139,9 +121,7 @@
       "fileID": 2904825,
       "required": true,
       "__meta": {
-        "name": "Pam's HarvestCraft",
-        "explicit": true,
-        "dependencies": []
+        "name": "Pam's HarvestCraft"
       }
     },
     {
@@ -150,7 +130,6 @@
       "required": true,
       "__meta": {
         "name": "Thermal Foundation",
-        "explicit": true,
         "dependencies": [
           69162,
           271384
@@ -162,9 +141,7 @@
       "fileID": 2923460,
       "required": true,
       "__meta": {
-        "name": "Inventory Tweaks [1.12 only] ",
-        "explicit": true,
-        "dependencies": []
+        "name": "Inventory Tweaks [1.12 only] "
       }
     },
     {
@@ -173,7 +150,6 @@
       "required": true,
       "__meta": {
         "name": "Recurrent Complex",
-        "explicit": true,
         "dependencies": [
           224535
         ]
@@ -184,9 +160,7 @@
       "fileID": 2747063,
       "required": true,
       "__meta": {
-        "name": "Applied Energistics 2",
-        "explicit": true,
-        "dependencies": []
+        "name": "Applied Energistics 2"
       }
     },
     {
@@ -195,7 +169,6 @@
       "required": true,
       "__meta": {
         "name": "Storage Drawers",
-        "explicit": true,
         "dependencies": [
           230497
         ]
@@ -206,9 +179,7 @@
       "fileID": 2686991,
       "required": true,
       "__meta": {
-        "name": "Special AI",
-        "explicit": true,
-        "dependencies": []
+        "name": "Special AI"
       }
     },
     {
@@ -216,9 +187,7 @@
       "fileID": 2969118,
       "required": true,
       "__meta": {
-        "name": "AppleCore",
-        "explicit": true,
-        "dependencies": []
+        "name": "AppleCore"
       }
     },
     {
@@ -227,7 +196,6 @@
       "required": true,
       "__meta": {
         "name": "Hunger Overhaul",
-        "explicit": true,
         "dependencies": [
           224472
         ]
@@ -238,9 +206,7 @@
       "fileID": 2443253,
       "required": true,
       "__meta": {
-        "name": "IvToolkit",
-        "explicit": true,
-        "dependencies": []
+        "name": "IvToolkit"
       }
     },
     {
@@ -249,7 +215,6 @@
       "required": true,
       "__meta": {
         "name": "Wawla - What Are We Looking At",
-        "explicit": true,
         "dependencies": [
           253449
         ]
@@ -260,9 +225,7 @@
       "fileID": 3060563,
       "required": true,
       "__meta": {
-        "name": "TellMe",
-        "explicit": true,
-        "dependencies": []
+        "name": "TellMe"
       }
     },
     {
@@ -270,9 +233,7 @@
       "fileID": 2857869,
       "required": true,
       "__meta": {
-        "name": "Custom Main Menu",
-        "explicit": true,
-        "dependencies": []
+        "name": "Custom Main Menu"
       }
     },
     {
@@ -280,9 +241,7 @@
       "fileID": 2477566,
       "required": true,
       "__meta": {
-        "name": "Resource Loader",
-        "explicit": true,
-        "dependencies": []
+        "name": "Resource Loader"
       }
     },
     {
@@ -290,9 +249,7 @@
       "fileID": 2518667,
       "required": true,
       "__meta": {
-        "name": "Baubles",
-        "explicit": true,
-        "dependencies": []
+        "name": "Baubles"
       }
     },
     {
@@ -300,9 +257,7 @@
       "fileID": 2456007,
       "required": true,
       "__meta": {
-        "name": "Fullscreen Windowed (Borderless) for Minecraft",
-        "explicit": true,
-        "dependencies": []
+        "name": "Fullscreen Windowed (Borderless) for Minecraft"
       }
     },
     {
@@ -311,7 +266,6 @@
       "required": true,
       "__meta": {
         "name": "Thermal Dynamics",
-        "explicit": true,
         "dependencies": [
           242818,
           222880
@@ -323,9 +277,7 @@
       "fileID": 2823030,
       "required": true,
       "__meta": {
-        "name": "Antique Atlas",
-        "explicit": true,
-        "dependencies": []
+        "name": "Antique Atlas"
       }
     },
     {
@@ -333,9 +285,7 @@
       "fileID": 2574880,
       "required": true,
       "__meta": {
-        "name": "BiblioCraft",
-        "explicit": true,
-        "dependencies": []
+        "name": "BiblioCraft"
       }
     },
     {
@@ -343,9 +293,7 @@
       "fileID": 2836960,
       "required": true,
       "__meta": {
-        "name": "Bookshelf",
-        "explicit": true,
-        "dependencies": []
+        "name": "Bookshelf"
       }
     },
     {
@@ -353,9 +301,7 @@
       "fileID": 2699055,
       "required": true,
       "__meta": {
-        "name": "OpenModsLib",
-        "explicit": true,
-        "dependencies": []
+        "name": "OpenModsLib"
       }
     },
     {
@@ -364,7 +310,6 @@
       "required": true,
       "__meta": {
         "name": "OpenBlocks",
-        "explicit": true,
         "dependencies": [
           228815
         ]
@@ -375,9 +320,7 @@
       "fileID": 3112142,
       "required": true,
       "__meta": {
-        "name": "BiomeTweaker",
-        "explicit": true,
-        "dependencies": []
+        "name": "BiomeTweaker"
       }
     },
     {
@@ -385,9 +328,7 @@
       "fileID": 3093852,
       "required": true,
       "__meta": {
-        "name": "Farseek",
-        "explicit": true,
-        "dependencies": []
+        "name": "Farseek"
       }
     },
     {
@@ -396,7 +337,6 @@
       "required": true,
       "__meta": {
         "name": "Streams",
-        "explicit": true,
         "dependencies": [
           229708
         ]
@@ -407,9 +347,7 @@
       "fileID": 2483393,
       "required": true,
       "__meta": {
-        "name": "BetterFps",
-        "explicit": true,
-        "dependencies": []
+        "name": "BetterFps"
       }
     },
     {
@@ -417,9 +355,7 @@
       "fileID": 2450900,
       "required": true,
       "__meta": {
-        "name": "Chameleon",
-        "explicit": true,
-        "dependencies": []
+        "name": "Chameleon"
       }
     },
     {
@@ -427,9 +363,7 @@
       "fileID": 2720655,
       "required": true,
       "__meta": {
-        "name": "Chisels & Bits",
-        "explicit": true,
-        "dependencies": []
+        "name": "Chisels & Bits"
       }
     },
     {
@@ -437,9 +371,7 @@
       "fileID": 2862651,
       "required": true,
       "__meta": {
-        "name": "Cooking for Blockheads",
-        "explicit": true,
-        "dependencies": []
+        "name": "Cooking for Blockheads"
       }
     },
     {
@@ -447,9 +379,7 @@
       "fileID": 2974106,
       "required": true,
       "__meta": {
-        "name": "Immersive Engineering",
-        "explicit": true,
-        "dependencies": []
+        "name": "Immersive Engineering"
       }
     },
     {
@@ -457,9 +387,7 @@
       "fileID": 2624732,
       "required": true,
       "__meta": {
-        "name": "Default Options",
-        "explicit": true,
-        "dependencies": []
+        "name": "Default Options"
       }
     },
     {
@@ -468,7 +396,6 @@
       "required": true,
       "__meta": {
         "name": "Logistics Pipes",
-        "explicit": true,
         "dependencies": [
           242818
         ]
@@ -479,9 +406,7 @@
       "fileID": 2450734,
       "required": true,
       "__meta": {
-        "name": "AI Improvements",
-        "explicit": true,
-        "dependencies": []
+        "name": "AI Improvements"
       }
     },
     {
@@ -490,8 +415,7 @@
       "required": true,
       "__meta": {
         "name": "McJtyLib",
-        "explicit": false,
-        "dependencies": []
+        "explicit": false
       }
     },
     {
@@ -499,9 +423,7 @@
       "fileID": 2810152,
       "required": true,
       "__meta": {
-        "name": "Bad Mobs",
-        "explicit": true,
-        "dependencies": []
+        "name": "Bad Mobs"
       }
     },
     {
@@ -510,7 +432,6 @@
       "required": true,
       "__meta": {
         "name": "Chisel",
-        "explicit": true,
         "dependencies": [
           267602
         ]
@@ -522,8 +443,7 @@
       "required": true,
       "__meta": {
         "name": "LibVulpes",
-        "explicit": false,
-        "dependencies": []
+        "explicit": false
       }
     },
     {
@@ -532,7 +452,6 @@
       "required": true,
       "__meta": {
         "name": "Advanced Rocketry",
-        "explicit": true,
         "dependencies": [
           236541
         ]
@@ -544,7 +463,6 @@
       "required": true,
       "__meta": {
         "name": "ContentTweaker",
-        "explicit": true,
         "dependencies": [
           239197,
           246996
@@ -557,7 +475,6 @@
       "required": true,
       "__meta": {
         "name": "FTB Utilities (Forge)",
-        "explicit": true,
         "dependencies": [
           237167
         ]
@@ -568,9 +485,7 @@
       "fileID": 2985811,
       "required": true,
       "__meta": {
-        "name": "FTB Library (Forge) (Legacy)",
-        "explicit": true,
-        "dependencies": []
+        "name": "FTB Library (Forge) (Legacy)"
       }
     },
     {
@@ -578,9 +493,7 @@
       "fileID": 2937869,
       "required": true,
       "__meta": {
-        "name": "Cosmetic Armor Reworked",
-        "explicit": true,
-        "dependencies": []
+        "name": "Cosmetic Armor Reworked"
       }
     },
     {
@@ -588,9 +501,7 @@
       "fileID": 2560638,
       "required": true,
       "__meta": {
-        "name": "ReAuth",
-        "explicit": true,
-        "dependencies": []
+        "name": "ReAuth"
       }
     },
     {
@@ -599,7 +510,6 @@
       "required": true,
       "__meta": {
         "name": "Weather, Storms & Tornadoes",
-        "explicit": true,
         "dependencies": [
           237749
         ]
@@ -610,9 +520,7 @@
       "fileID": 2902920,
       "required": true,
       "__meta": {
-        "name": "CoroUtil",
-        "explicit": true,
-        "dependencies": []
+        "name": "CoroUtil"
       }
     },
     {
@@ -620,9 +528,7 @@
       "fileID": 2782568,
       "required": true,
       "__meta": {
-        "name": "Realistic Terrain Generation",
-        "explicit": true,
-        "dependencies": []
+        "name": "Realistic Terrain Generation"
       }
     },
     {
@@ -630,9 +536,7 @@
       "fileID": 3043174,
       "required": true,
       "__meta": {
-        "name": "Just Enough Items (JEI)",
-        "explicit": true,
-        "dependencies": []
+        "name": "Just Enough Items (JEI)"
       }
     },
     {
@@ -641,7 +545,6 @@
       "required": true,
       "__meta": {
         "name": "Dynamic Dynamos",
-        "explicit": true,
         "dependencies": [
           69163
         ]
@@ -653,7 +556,6 @@
       "required": true,
       "__meta": {
         "name": "Dynamic Surroundings",
-        "explicit": true,
         "dependencies": [
           307806,
           357178
@@ -665,9 +567,7 @@
       "fileID": 3435328,
       "required": true,
       "__meta": {
-        "name": "CraftTweaker",
-        "explicit": true,
-        "dependencies": []
+        "name": "CraftTweaker"
       }
     },
     {
@@ -675,9 +575,7 @@
       "fileID": 3386442,
       "required": true,
       "__meta": {
-        "name": "Cyclic",
-        "explicit": true,
-        "dependencies": []
+        "name": "Cyclic"
       }
     },
     {
@@ -686,8 +584,7 @@
       "required": true,
       "__meta": {
         "name": "Sonar Core",
-        "explicit": false,
-        "dependencies": []
+        "explicit": false
       }
     },
     {
@@ -695,9 +592,7 @@
       "fileID": 2615930,
       "required": true,
       "__meta": {
-        "name": "MCMultiPart",
-        "explicit": true,
-        "dependencies": []
+        "name": "MCMultiPart"
       }
     },
     {
@@ -706,7 +601,6 @@
       "required": true,
       "__meta": {
         "name": "Just Enough Resources (JER)",
-        "explicit": true,
         "dependencies": [
           238222
         ]
@@ -718,7 +612,6 @@
       "required": true,
       "__meta": {
         "name": "Dark Utilities",
-        "explicit": true,
         "dependencies": [
           228525
         ]
@@ -729,9 +622,7 @@
       "fileID": 2779848,
       "required": true,
       "__meta": {
-        "name": "CodeChicken Lib 1.8.+",
-        "explicit": true,
-        "dependencies": []
+        "name": "CodeChicken Lib 1.8.+"
       }
     },
     {
@@ -739,9 +630,7 @@
       "fileID": 2987034,
       "required": true,
       "__meta": {
-        "name": "Exotic Birds",
-        "explicit": true,
-        "dependencies": []
+        "name": "Exotic Birds"
       }
     },
     {
@@ -750,7 +639,6 @@
       "required": true,
       "__meta": {
         "name": "UniDict",
-        "explicit": true,
         "dependencies": [
           253043
         ]
@@ -762,7 +650,6 @@
       "required": true,
       "__meta": {
         "name": "Platforms",
-        "explicit": true,
         "dependencies": [
           71738
         ]
@@ -774,7 +661,6 @@
       "required": true,
       "__meta": {
         "name": "Advanced Chimneys",
-        "explicit": true,
         "dependencies": [
           244844
         ]
@@ -785,9 +671,7 @@
       "fileID": 3137504,
       "required": true,
       "__meta": {
-        "name": "ForgeEndertech",
-        "explicit": true,
-        "dependencies": []
+        "name": "ForgeEndertech"
       }
     },
     {
@@ -795,9 +679,7 @@
       "fileID": 2876841,
       "required": true,
       "__meta": {
-        "name": "Tumbleweed",
-        "explicit": true,
-        "dependencies": []
+        "name": "Tumbleweed"
       }
     },
     {
@@ -805,9 +687,7 @@
       "fileID": 3440963,
       "required": true,
       "__meta": {
-        "name": "B.A.S.E",
-        "explicit": true,
-        "dependencies": []
+        "name": "B.A.S.E"
       }
     },
     {
@@ -816,7 +696,6 @@
       "required": true,
       "__meta": {
         "name": "JEI Bees",
-        "explicit": true,
         "dependencies": [
           59751,
           238222
@@ -828,9 +707,7 @@
       "fileID": 2878496,
       "required": true,
       "__meta": {
-        "name": "Real First Person 2",
-        "explicit": true,
-        "dependencies": []
+        "name": "Real First Person 2"
       }
     },
     {
@@ -838,9 +715,7 @@
       "fileID": 2785465,
       "required": true,
       "__meta": {
-        "name": "Shadowfacts' Forgelin",
-        "explicit": true,
-        "dependencies": []
+        "name": "Shadowfacts' Forgelin"
       }
     },
     {
@@ -848,9 +723,7 @@
       "fileID": 2987247,
       "required": true,
       "__meta": {
-        "name": "AppleSkin",
-        "explicit": true,
-        "dependencies": []
+        "name": "AppleSkin"
       }
     },
     {
@@ -858,9 +731,7 @@
       "fileID": 2916357,
       "required": true,
       "__meta": {
-        "name": "Surge",
-        "explicit": true,
-        "dependencies": []
+        "name": "Surge"
       }
     },
     {
@@ -868,9 +739,7 @@
       "fileID": 2746011,
       "required": true,
       "__meta": {
-        "name": "AutoRegLib",
-        "explicit": true,
-        "dependencies": []
+        "name": "AutoRegLib"
       }
     },
     {
@@ -878,9 +747,7 @@
       "fileID": 3025548,
       "required": true,
       "__meta": {
-        "name": "Controlling",
-        "explicit": true,
-        "dependencies": []
+        "name": "Controlling"
       }
     },
     {
@@ -889,7 +756,6 @@
       "required": true,
       "__meta": {
         "name": "Akashic Tome",
-        "explicit": true,
         "dependencies": [
           250363
         ]
@@ -901,7 +767,6 @@
       "required": true,
       "__meta": {
         "name": "Ceramics",
-        "explicit": true,
         "dependencies": [
           74924
         ]
@@ -913,7 +778,6 @@
       "required": true,
       "__meta": {
         "name": "Industrial Wires",
-        "explicit": true,
         "dependencies": [
           231951
         ]
@@ -924,9 +788,7 @@
       "fileID": 2624712,
       "required": true,
       "__meta": {
-        "name": "Client Tweaks",
-        "explicit": true,
-        "dependencies": []
+        "name": "Client Tweaks"
       }
     },
     {
@@ -934,9 +796,7 @@
       "fileID": 2553465,
       "required": true,
       "__meta": {
-        "name": "Waddles",
-        "explicit": true,
-        "dependencies": []
+        "name": "Waddles"
       }
     },
     {
@@ -944,9 +804,7 @@
       "fileID": 3446235,
       "required": true,
       "__meta": {
-        "name": "Dynamic Trees",
-        "explicit": true,
-        "dependencies": []
+        "name": "Dynamic Trees"
       }
     },
     {
@@ -954,9 +812,7 @@
       "fileID": 2893527,
       "required": true,
       "__meta": {
-        "name": "Nature's Compass",
-        "explicit": true,
-        "dependencies": []
+        "name": "Nature's Compass"
       }
     },
     {
@@ -964,9 +820,7 @@
       "fileID": 3064112,
       "required": true,
       "__meta": {
-        "name": "WanionLib",
-        "explicit": true,
-        "dependencies": []
+        "name": "WanionLib"
       }
     },
     {
@@ -975,7 +829,6 @@
       "required": true,
       "__meta": {
         "name": "MTLib",
-        "explicit": true,
         "dependencies": [
           239197
         ]
@@ -986,9 +839,15 @@
       "fileID": 2568751,
       "required": true,
       "__meta": {
-        "name": "Hwyla",
-        "explicit": true,
-        "dependencies": []
+        "name": "Hwyla"
+      }
+    },
+    {
+      "projectID": 253456,
+      "fileID": 3020518,
+      "required": true,
+      "__meta": {
+        "name": "Locks"
       }
     },
     {
@@ -997,7 +856,6 @@
       "required": true,
       "__meta": {
         "name": "Tesla Core Lib",
-        "explicit": true,
         "dependencies": [
           248453
         ]
@@ -1008,9 +866,7 @@
       "fileID": 2713918,
       "required": true,
       "__meta": {
-        "name": "Tropicraft",
-        "explicit": true,
-        "dependencies": []
+        "name": "Tropicraft"
       }
     },
     {
@@ -1019,7 +875,6 @@
       "required": true,
       "__meta": {
         "name": "LootTweaker",
-        "explicit": true,
         "dependencies": [
           239197
         ]
@@ -1030,9 +885,7 @@
       "fileID": 3107974,
       "required": true,
       "__meta": {
-        "name": "Rustic",
-        "explicit": true,
-        "dependencies": []
+        "name": "Rustic"
       }
     },
     {
@@ -1040,9 +893,7 @@
       "fileID": 2666198,
       "required": true,
       "__meta": {
-        "name": "Clumps",
-        "explicit": true,
-        "dependencies": []
+        "name": "Clumps"
       }
     },
     {
@@ -1050,9 +901,7 @@
       "fileID": 3101719,
       "required": true,
       "__meta": {
-        "name": "In Control!",
-        "explicit": true,
-        "dependencies": []
+        "name": "In Control!"
       }
     },
     {
@@ -1060,9 +909,7 @@
       "fileID": 3437866,
       "required": true,
       "__meta": {
-        "name": "CreativeCore",
-        "explicit": true,
-        "dependencies": []
+        "name": "CreativeCore"
       }
     },
     {
@@ -1071,7 +918,6 @@
       "required": true,
       "__meta": {
         "name": "LittleTiles",
-        "explicit": true,
         "dependencies": [
           257814
         ]
@@ -1082,9 +928,7 @@
       "fileID": 3204340,
       "required": true,
       "__meta": {
-        "name": "RandomTweaks",
-        "explicit": true,
-        "dependencies": []
+        "name": "RandomTweaks"
       }
     },
     {
@@ -1093,7 +937,6 @@
       "required": true,
       "__meta": {
         "name": "ItemPhysic Full",
-        "explicit": true,
         "dependencies": [
           257814
         ]
@@ -1104,9 +947,7 @@
       "fileID": 3459767,
       "required": true,
       "__meta": {
-        "name": "Tool Belt",
-        "explicit": true,
-        "dependencies": []
+        "name": "Tool Belt"
       }
     },
     {
@@ -1115,7 +956,6 @@
       "required": true,
       "__meta": {
         "name": "XNet",
-        "explicit": true,
         "dependencies": [
           233105
         ]
@@ -1127,7 +967,6 @@
       "required": true,
       "__meta": {
         "name": "Animania Base",
-        "explicit": true,
         "dependencies": [
           268704
         ]
@@ -1138,9 +977,7 @@
       "fileID": 2810142,
       "required": true,
       "__meta": {
-        "name": "Stuff A Sock In It",
-        "explicit": true,
-        "dependencies": []
+        "name": "Stuff A Sock In It"
       }
     },
     {
@@ -1148,9 +985,7 @@
       "fileID": 2619249,
       "required": true,
       "__meta": {
-        "name": "Tomb Many Graves 2",
-        "explicit": true,
-        "dependencies": []
+        "name": "Tomb Many Graves 2"
       }
     },
     {
@@ -1159,7 +994,6 @@
       "required": true,
       "__meta": {
         "name": "Practical Logistics 2",
-        "explicit": true,
         "dependencies": [
           239418,
           239431
@@ -1171,9 +1005,7 @@
       "fileID": 2615892,
       "required": true,
       "__meta": {
-        "name": "Charcoal Pit",
-        "explicit": true,
-        "dependencies": []
+        "name": "Charcoal Pit"
       }
     },
     {
@@ -1182,7 +1014,6 @@
       "required": true,
       "__meta": {
         "name": "Industrial Foregoing",
-        "explicit": true,
         "dependencies": [
           254602
         ]
@@ -1193,9 +1024,7 @@
       "fileID": 3270468,
       "required": true,
       "__meta": {
-        "name": "Tool Progression",
-        "explicit": true,
-        "dependencies": []
+        "name": "Tool Progression"
       }
     },
     {
@@ -1203,9 +1032,7 @@
       "fileID": 3146549,
       "required": true,
       "__meta": {
-        "name": "Scannable",
-        "explicit": true,
-        "dependencies": []
+        "name": "Scannable"
       }
     },
     {
@@ -1213,9 +1040,7 @@
       "fileID": 2915363,
       "required": true,
       "__meta": {
-        "name": "ConnectedTexturesMod",
-        "explicit": true,
-        "dependencies": []
+        "name": "ConnectedTexturesMod"
       }
     },
     {
@@ -1224,7 +1049,6 @@
       "required": true,
       "__meta": {
         "name": "Immersive Petroleum",
-        "explicit": true,
         "dependencies": [
           231951
         ]
@@ -1235,9 +1059,7 @@
       "fileID": 2835175,
       "required": true,
       "__meta": {
-        "name": "Mekanism",
-        "explicit": true,
-        "dependencies": []
+        "name": "Mekanism"
       }
     },
     {
@@ -1246,7 +1068,6 @@
       "required": true,
       "__meta": {
         "name": "Mekanism Generators",
-        "explicit": true,
         "dependencies": [
           268560
         ]
@@ -1258,7 +1079,6 @@
       "required": true,
       "__meta": {
         "name": "Game Stages",
-        "explicit": true,
         "dependencies": [
           228525
         ]
@@ -1269,9 +1089,7 @@
       "fileID": 2661859,
       "required": true,
       "__meta": {
-        "name": "CraftStudio API",
-        "explicit": true,
-        "dependencies": []
+        "name": "CraftStudio API"
       }
     },
     {
@@ -1280,7 +1098,6 @@
       "required": true,
       "__meta": {
         "name": "Pollution of the Realms",
-        "explicit": true,
         "dependencies": [
           244844
         ]
@@ -1291,9 +1108,7 @@
       "fileID": 2527645,
       "required": true,
       "__meta": {
-        "name": "BiomeTweakerCore",
-        "explicit": true,
-        "dependencies": []
+        "name": "BiomeTweakerCore"
       }
     },
     {
@@ -1301,9 +1116,7 @@
       "fileID": 2920436,
       "required": true,
       "__meta": {
-        "name": "Redstone Flux",
-        "explicit": true,
-        "dependencies": []
+        "name": "Redstone Flux"
       }
     },
     {
@@ -1311,9 +1124,7 @@
       "fileID": 2920434,
       "required": true,
       "__meta": {
-        "name": "CoFH World",
-        "explicit": true,
-        "dependencies": []
+        "name": "CoFH World"
       }
     },
     {
@@ -1321,9 +1132,7 @@
       "fileID": 3176964,
       "required": true,
       "__meta": {
-        "name": "Corpse Complex",
-        "explicit": true,
-        "dependencies": []
+        "name": "Corpse Complex"
       }
     },
     {
@@ -1331,9 +1140,7 @@
       "fileID": 2827665,
       "required": true,
       "__meta": {
-        "name": "Geolosys",
-        "explicit": true,
-        "dependencies": []
+        "name": "Geolosys"
       }
     },
     {
@@ -1342,7 +1149,6 @@
       "required": true,
       "__meta": {
         "name": "Tinkers' Complement",
-        "explicit": true,
         "dependencies": [
           74072,
           74924
@@ -1354,9 +1160,7 @@
       "fileID": 3271178,
       "required": true,
       "__meta": {
-        "name": "Carry On",
-        "explicit": true,
-        "dependencies": []
+        "name": "Carry On"
       }
     },
     {
@@ -1364,9 +1168,7 @@
       "fileID": 2623496,
       "required": true,
       "__meta": {
-        "name": "No Worldgen 5 You",
-        "explicit": true,
-        "dependencies": []
+        "name": "No Worldgen 5 You"
       }
     },
     {
@@ -1374,9 +1176,7 @@
       "fileID": 2880613,
       "required": true,
       "__meta": {
-        "name": "Comforts (Forge)",
-        "explicit": true,
-        "dependencies": []
+        "name": "Comforts (Forge)"
       }
     },
     {
@@ -1385,7 +1185,6 @@
       "required": true,
       "__meta": {
         "name": "Spice of Life: Carrot Edition",
-        "explicit": true,
         "dependencies": [
           224472
         ]
@@ -1397,7 +1196,6 @@
       "required": true,
       "__meta": {
         "name": "Integration Foregoing",
-        "explicit": true,
         "dependencies": [
           266515,
           356646
@@ -1409,9 +1207,7 @@
       "fileID": 3319307,
       "required": true,
       "__meta": {
-        "name": "Unlimited Chisel Works",
-        "explicit": true,
-        "dependencies": []
+        "name": "Unlimited Chisel Works"
       }
     },
     {
@@ -1419,9 +1215,7 @@
       "fileID": 3327893,
       "required": true,
       "__meta": {
-        "name": "Foam​Fix",
-        "explicit": true,
-        "dependencies": []
+        "name": "Foam​Fix"
       }
     },
     {
@@ -1429,9 +1223,7 @@
       "fileID": 3362160,
       "required": true,
       "__meta": {
-        "name": "FPS Reducer",
-        "explicit": true,
-        "dependencies": []
+        "name": "FPS Reducer"
       }
     },
     {
@@ -1440,7 +1232,6 @@
       "required": true,
       "__meta": {
         "name": "Item Stages",
-        "explicit": true,
         "dependencies": [
           239197,
           268655
@@ -1452,9 +1243,7 @@
       "fileID": 2810157,
       "required": true,
       "__meta": {
-        "name": "AttributeFix",
-        "explicit": true,
-        "dependencies": []
+        "name": "AttributeFix"
       }
     },
     {
@@ -1462,9 +1251,7 @@
       "fileID": 2689835,
       "required": true,
       "__meta": {
-        "name": "TipTheScales",
-        "explicit": true,
-        "dependencies": []
+        "name": "TipTheScales"
       }
     },
     {
@@ -1472,9 +1259,7 @@
       "fileID": 2598021,
       "required": true,
       "__meta": {
-        "name": "Scavenge",
-        "explicit": true,
-        "dependencies": []
+        "name": "Scavenge"
       }
     },
     {
@@ -1482,9 +1267,7 @@
       "fileID": 2518068,
       "required": true,
       "__meta": {
-        "name": "TexFix",
-        "explicit": true,
-        "dependencies": []
+        "name": "TexFix"
       }
     },
     {
@@ -1493,7 +1276,6 @@
       "required": true,
       "__meta": {
         "name": "MultiBlock Stages",
-        "explicit": true,
         "dependencies": [
           239197,
           231951,
@@ -1506,9 +1288,7 @@
       "fileID": 3066682,
       "required": true,
       "__meta": {
-        "name": "Charset Lib",
-        "explicit": true,
-        "dependencies": []
+        "name": "Charset Lib"
       }
     },
     {
@@ -1516,9 +1296,7 @@
       "fileID": 2568865,
       "required": true,
       "__meta": {
-        "name": "No Recipe Book",
-        "explicit": true,
-        "dependencies": []
+        "name": "No Recipe Book"
       }
     },
     {
@@ -1526,9 +1304,7 @@
       "fileID": 3133651,
       "required": true,
       "__meta": {
-        "name": "RandomPatches (Forge)",
-        "explicit": true,
-        "dependencies": []
+        "name": "RandomPatches (Forge)"
       }
     },
     {
@@ -1536,9 +1312,7 @@
       "fileID": 2815686,
       "required": true,
       "__meta": {
-        "name": "Reskillable",
-        "explicit": true,
-        "dependencies": []
+        "name": "Reskillable"
       }
     },
     {
@@ -1546,9 +1320,7 @@
       "fileID": 3320887,
       "required": true,
       "__meta": {
-        "name": "Ore Stone Variants",
-        "explicit": true,
-        "dependencies": []
+        "name": "Ore Stone Variants"
       }
     },
     {
@@ -1557,7 +1329,6 @@
       "required": true,
       "__meta": {
         "name": "Construct's Armory",
-        "explicit": true,
         "dependencies": [
           74072,
           74924
@@ -1570,7 +1341,6 @@
       "required": true,
       "__meta": {
         "name": "FastWorkbench",
-        "explicit": true,
         "dependencies": [
           283644
         ]
@@ -1582,7 +1352,6 @@
       "required": true,
       "__meta": {
         "name": "SimpleLogic Gates",
-        "explicit": true,
         "dependencies": [
           284523
         ]
@@ -1594,7 +1363,6 @@
       "required": true,
       "__meta": {
         "name": "FTB Quests (Forge)",
-        "explicit": true,
         "dependencies": [
           237167,
           309674
@@ -1607,7 +1375,6 @@
       "required": true,
       "__meta": {
         "name": "Dynamic Trees - Biomes O' Plenty",
-        "explicit": true,
         "dependencies": [
           220318,
           252818
@@ -1620,7 +1387,6 @@
       "required": true,
       "__meta": {
         "name": "JourneyMapStages",
-        "explicit": true,
         "dependencies": [
           239197,
           268655,
@@ -1633,9 +1399,7 @@
       "fileID": 2541816,
       "required": true,
       "__meta": {
-        "name": "ContainerFix",
-        "explicit": true,
-        "dependencies": []
+        "name": "ContainerFix"
       }
     },
     {
@@ -1644,7 +1408,6 @@
       "required": true,
       "__meta": {
         "name": "CompatSkills",
-        "explicit": true,
         "dependencies": [
           286382
         ]
@@ -1655,9 +1418,7 @@
       "fileID": 3067807,
       "required": true,
       "__meta": {
-        "name": "Pretty Beaches",
-        "explicit": true,
-        "dependencies": []
+        "name": "Pretty Beaches"
       }
     },
     {
@@ -1666,7 +1427,6 @@
       "required": true,
       "__meta": {
         "name": "Engineer's Doors",
-        "explicit": true,
         "dependencies": [
           231951
         ]
@@ -1678,7 +1438,6 @@
       "required": true,
       "__meta": {
         "name": "EDX Multipart",
-        "explicit": true,
         "dependencies": [
           239431
         ]
@@ -1690,7 +1449,6 @@
       "required": true,
       "__meta": {
         "name": "Just Enough Petroleum",
-        "explicit": true,
         "dependencies": [
           268250
         ]
@@ -1702,7 +1460,6 @@
       "required": true,
       "__meta": {
         "name": "Thermal Innovation",
-        "explicit": true,
         "dependencies": [
           222880
         ]
@@ -1714,7 +1471,6 @@
       "required": true,
       "__meta": {
         "name": "Tinker's JEI",
-        "explicit": true,
         "dependencies": [
           74072,
           238222
@@ -1726,9 +1482,7 @@
       "fileID": 2798112,
       "required": true,
       "__meta": {
-        "name": "Server Tab Info",
-        "explicit": true,
-        "dependencies": []
+        "name": "Server Tab Info"
       }
     },
     {
@@ -1736,9 +1490,7 @@
       "fileID": 2799213,
       "required": true,
       "__meta": {
-        "name": "Serene Seasons",
-        "explicit": true,
-        "dependencies": []
+        "name": "Serene Seasons"
       }
     },
     {
@@ -1747,7 +1499,6 @@
       "required": true,
       "__meta": {
         "name": "Re-Fraction",
-        "explicit": true,
         "dependencies": [
           282988
         ]
@@ -1758,9 +1509,7 @@
       "fileID": 2915154,
       "required": true,
       "__meta": {
-        "name": "VanillaFix",
-        "explicit": true,
-        "dependencies": []
+        "name": "VanillaFix"
       }
     },
     {
@@ -1768,9 +1517,7 @@
       "fileID": 2865090,
       "required": true,
       "__meta": {
-        "name": "Wall-Jump! [FORGE]",
-        "explicit": true,
-        "dependencies": []
+        "name": "Wall-Jump! [FORGE]"
       }
     },
     {
@@ -1778,9 +1525,7 @@
       "fileID": 2573063,
       "required": true,
       "__meta": {
-        "name": "No Nether Portals",
-        "explicit": true,
-        "dependencies": []
+        "name": "No Nether Portals"
       }
     },
     {
@@ -1788,9 +1533,7 @@
       "fileID": 2919737,
       "required": true,
       "__meta": {
-        "name": "JustEnoughIDs",
-        "explicit": true,
-        "dependencies": []
+        "name": "JustEnoughIDs"
       }
     },
     {
@@ -1798,9 +1541,7 @@
       "fileID": 2828147,
       "required": true,
       "__meta": {
-        "name": "Realistic Ore Veins",
-        "explicit": true,
-        "dependencies": []
+        "name": "Realistic Ore Veins"
       }
     },
     {
@@ -1808,9 +1549,7 @@
       "fileID": 3437564,
       "required": true,
       "__meta": {
-        "name": "CraftPresence",
-        "explicit": true,
-        "dependencies": []
+        "name": "CraftPresence"
       }
     },
     {
@@ -1819,7 +1558,6 @@
       "required": true,
       "__meta": {
         "name": "SimpleLogic Wires",
-        "explicit": true,
         "dependencies": [
           284523,
           239431
@@ -1831,9 +1569,7 @@
       "fileID": 3005950,
       "required": true,
       "__meta": {
-        "name": "Building Gadgets",
-        "explicit": true,
-        "dependencies": []
+        "name": "Building Gadgets"
       }
     },
     {
@@ -1841,9 +1577,7 @@
       "fileID": 3367186,
       "required": true,
       "__meta": {
-        "name": "Cave Generator",
-        "explicit": true,
-        "dependencies": []
+        "name": "Cave Generator"
       }
     },
     {
@@ -1851,9 +1585,7 @@
       "fileID": 2626921,
       "required": true,
       "__meta": {
-        "name": "Scarper",
-        "explicit": true,
-        "dependencies": []
+        "name": "Scarper"
       }
     },
     {
@@ -1862,7 +1594,6 @@
       "required": true,
       "__meta": {
         "name": "ComplexLogic",
-        "explicit": true,
         "dependencies": [
           289316,
           298029
@@ -1874,9 +1605,7 @@
       "fileID": 2754456,
       "required": true,
       "__meta": {
-        "name": "Clothesline",
-        "explicit": true,
-        "dependencies": []
+        "name": "Clothesline"
       }
     },
     {
@@ -1885,7 +1614,6 @@
       "required": true,
       "__meta": {
         "name": "Quark Oddities",
-        "explicit": true,
         "dependencies": [
           250363,
           243121
@@ -1898,7 +1626,6 @@
       "required": true,
       "__meta": {
         "name": "Just Enough Throwing In Fluids (JETIF)",
-        "explicit": true,
         "dependencies": [
           238222
         ]
@@ -1909,9 +1636,7 @@
       "fileID": 2704824,
       "required": true,
       "__meta": {
-        "name": "Kiwi 🥝",
-        "explicit": true,
-        "dependencies": []
+        "name": "Kiwi 🥝"
       }
     },
     {
@@ -1920,7 +1645,6 @@
       "required": true,
       "__meta": {
         "name": "Cuisine 🍳",
-        "explicit": true,
         "dependencies": [
           306770,
           303657
@@ -1932,9 +1656,7 @@
       "fileID": 2631908,
       "required": true,
       "__meta": {
-        "name": "TidyChunk",
-        "explicit": true,
-        "dependencies": []
+        "name": "TidyChunk"
       }
     },
     {
@@ -1942,9 +1664,7 @@
       "fileID": 2906537,
       "required": true,
       "__meta": {
-        "name": "Tips",
-        "explicit": true,
-        "dependencies": []
+        "name": "Tips"
       }
     },
     {
@@ -1952,9 +1672,7 @@
       "fileID": 3162874,
       "required": true,
       "__meta": {
-        "name": "Patchouli",
-        "explicit": true,
-        "dependencies": []
+        "name": "Patchouli"
       }
     },
     {
@@ -1963,7 +1681,6 @@
       "required": true,
       "__meta": {
         "name": "Dynamic Trees - Pam's Harvestcraft",
-        "explicit": true,
         "dependencies": [
           252818,
           221857
@@ -1975,9 +1692,7 @@
       "fileID": 2820815,
       "required": true,
       "__meta": {
-        "name": "OreLib",
-        "explicit": true,
-        "dependencies": []
+        "name": "OreLib"
       }
     },
     {
@@ -1985,9 +1700,7 @@
       "fileID": 2642103,
       "required": true,
       "__meta": {
-        "name": "Multithreaded Noise",
-        "explicit": true,
-        "dependencies": []
+        "name": "Multithreaded Noise"
       }
     },
     {
@@ -1995,9 +1708,7 @@
       "fileID": 3438561,
       "required": true,
       "__meta": {
-        "name": "Snow! Real Magic! ⛄",
-        "explicit": true,
-        "dependencies": []
+        "name": "Snow! Real Magic! ⛄"
       }
     },
     {
@@ -2006,7 +1717,6 @@
       "required": true,
       "__meta": {
         "name": "Dynamic Surroundings: HUDs",
-        "explicit": true,
         "dependencies": [
           307806
         ]
@@ -2017,9 +1727,7 @@
       "fileID": 3003364,
       "required": true,
       "__meta": {
-        "name": "Item Filters (Forge)",
-        "explicit": true,
-        "dependencies": []
+        "name": "Item Filters (Forge)"
       }
     },
     {
@@ -2028,7 +1736,6 @@
       "required": true,
       "__meta": {
         "name": "Future MC",
-        "explicit": true,
         "dependencies": [
           248453
         ]
@@ -2039,9 +1746,7 @@
       "fileID": 3089030,
       "required": true,
       "__meta": {
-        "name": "Better Diving",
-        "explicit": true,
-        "dependencies": []
+        "name": "Better Diving"
       }
     },
     {
@@ -2050,7 +1755,6 @@
       "required": true,
       "__meta": {
         "name": "Armor Underwear Mod [FORGE]",
-        "explicit": true,
         "dependencies": [
           311327
         ]
@@ -2061,9 +1765,7 @@
       "fileID": 2971329,
       "required": true,
       "__meta": {
-        "name": "Fragile Blocks",
-        "explicit": true,
-        "dependencies": []
+        "name": "Fragile Blocks"
       }
     },
     {
@@ -2071,9 +1773,7 @@
       "fileID": 2660247,
       "required": true,
       "__meta": {
-        "name": "Carrots Library [FORGE]",
-        "explicit": true,
-        "dependencies": []
+        "name": "Carrots Library [FORGE]"
       }
     },
     {
@@ -2082,7 +1782,6 @@
       "required": true,
       "__meta": {
         "name": "Dawn Of Time - Builder Edition ",
-        "explicit": true,
         "dependencies": [
           267602
         ]
@@ -2093,9 +1792,7 @@
       "fileID": 3033266,
       "required": true,
       "__meta": {
-        "name": "Engineer's Decor",
-        "explicit": true,
-        "dependencies": []
+        "name": "Engineer's Decor"
       }
     },
     {
@@ -2104,7 +1801,6 @@
       "required": true,
       "__meta": {
         "name": "Immersive Posts",
-        "explicit": true,
         "dependencies": [
           231951
         ]
@@ -2115,9 +1811,7 @@
       "fileID": 3341793,
       "required": true,
       "__meta": {
-        "name": "Fantastic Lib",
-        "explicit": true,
-        "dependencies": []
+        "name": "Fantastic Lib"
       }
     },
     {
@@ -2125,9 +1819,7 @@
       "fileID": 2919497,
       "required": true,
       "__meta": {
-        "name": "Phosphor (Forge)",
-        "explicit": true,
-        "dependencies": []
+        "name": "Phosphor (Forge)"
       }
     },
     {
@@ -2136,7 +1828,6 @@
       "required": true,
       "__meta": {
         "name": "Storage Drawers Unlimited",
-        "explicit": true,
         "dependencies": [
           223852
         ]
@@ -2147,9 +1838,7 @@
       "fileID": 2722140,
       "required": true,
       "__meta": {
-        "name": "Divergent Underground",
-        "explicit": true,
-        "dependencies": []
+        "name": "Divergent Underground"
       }
     },
     {
@@ -2158,9 +1847,19 @@
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics",
-        "explicit": true,
         "dependencies": [
           357178
+        ]
+      }
+    },
+    {
+      "projectID": 322948,
+      "fileID": 2883633,
+      "required": true,
+      "__meta": {
+        "name": "BetterPortals",
+        "dependencies": [
+          248453
         ]
       }
     },
@@ -2170,7 +1869,6 @@
       "required": true,
       "__meta": {
         "name": "Jade 🔍",
-        "explicit": true,
         "dependencies": [
           253449
         ]
@@ -2182,7 +1880,6 @@
       "required": true,
       "__meta": {
         "name": "No Advancements",
-        "explicit": true,
         "dependencies": [
           315773
         ]
@@ -2193,9 +1890,7 @@
       "fileID": 2965720,
       "required": true,
       "__meta": {
-        "name": "Cannot Build over Lava Source blocks",
-        "explicit": true,
-        "dependencies": []
+        "name": "Cannot Build over Lava Source blocks"
       }
     },
     {
@@ -2203,9 +1898,7 @@
       "fileID": 3386487,
       "required": true,
       "__meta": {
-        "name": "NuclearCraft: Overhauled",
-        "explicit": true,
-        "dependencies": []
+        "name": "NuclearCraft: Overhauled"
       }
     },
     {
@@ -2213,9 +1906,7 @@
       "fileID": 3071198,
       "required": true,
       "__meta": {
-        "name": "Realistic Horse Genetics",
-        "explicit": true,
-        "dependencies": []
+        "name": "Realistic Horse Genetics"
       }
     },
     {
@@ -2223,9 +1914,7 @@
       "fileID": 2803941,
       "required": true,
       "__meta": {
-        "name": "ChunkGenLimiter",
-        "explicit": true,
-        "dependencies": []
+        "name": "ChunkGenLimiter"
       }
     },
     {
@@ -2233,9 +1922,7 @@
       "fileID": 2997589,
       "required": true,
       "__meta": {
-        "name": "Emerging Technology",
-        "explicit": true,
-        "dependencies": []
+        "name": "Emerging Technology"
       }
     },
     {
@@ -2243,9 +1930,7 @@
       "fileID": 2855115,
       "required": true,
       "__meta": {
-        "name": "Homing Exp Orbs",
-        "explicit": true,
-        "dependencies": []
+        "name": "Homing Exp Orbs"
       }
     },
     {
@@ -2253,9 +1938,7 @@
       "fileID": 3168863,
       "required": true,
       "__meta": {
-        "name": "GunpowderLib",
-        "explicit": true,
-        "dependencies": []
+        "name": "GunpowderLib"
       }
     },
     {
@@ -2264,7 +1947,6 @@
       "required": true,
       "__meta": {
         "name": "Immersive Technology",
-        "explicit": true,
         "dependencies": [
           231951
         ]
@@ -2275,9 +1957,7 @@
       "fileID": 3235195,
       "required": true,
       "__meta": {
-        "name": "SimpleDifficulty",
-        "explicit": true,
-        "dependencies": []
+        "name": "SimpleDifficulty"
       }
     },
     {
@@ -2285,9 +1965,7 @@
       "fileID": 2902440,
       "required": true,
       "__meta": {
-        "name": "ASMC",
-        "explicit": true,
-        "dependencies": []
+        "name": "ASMC"
       }
     },
     {
@@ -2295,9 +1973,7 @@
       "fileID": 3408506,
       "required": true,
       "__meta": {
-        "name": "MAtmos",
-        "explicit": true,
-        "dependencies": []
+        "name": "MAtmos"
       }
     },
     {
@@ -2305,9 +1981,7 @@
       "fileID": 3127156,
       "required": true,
       "__meta": {
-        "name": "AI Reducer",
-        "explicit": true,
-        "dependencies": []
+        "name": "AI Reducer"
       }
     },
     {
@@ -2315,9 +1989,7 @@
       "fileID": 3269880,
       "required": true,
       "__meta": {
-        "name": "Realistic Block Physics",
-        "explicit": true,
-        "dependencies": []
+        "name": "Realistic Block Physics"
       }
     },
     {
@@ -2326,7 +1998,6 @@
       "required": true,
       "__meta": {
         "name": "xXx_MoreToolMats_xXx (a PlusTiC fork without the evil, and apparently some new bugs idk)",
-        "explicit": true,
         "dependencies": [
           74072
         ]
@@ -2337,9 +2008,7 @@
       "fileID": 3299987,
       "required": true,
       "__meta": {
-        "name": "Regrowth",
-        "explicit": true,
-        "dependencies": []
+        "name": "Regrowth"
       }
     },
     {
@@ -2347,9 +2016,7 @@
       "fileID": 3263908,
       "required": true,
       "__meta": {
-        "name": "Builder's Bag",
-        "explicit": true,
-        "dependencies": []
+        "name": "Builder's Bag"
       }
     },
     {
@@ -2358,7 +2025,6 @@
       "required": true,
       "__meta": {
         "name": "Dynamic Trees - Quark",
-        "explicit": true,
         "dependencies": [
           243121,
           252818
@@ -2370,9 +2036,7 @@
       "fileID": 3023870,
       "required": true,
       "__meta": {
-        "name": "InvMove (Forge)",
-        "explicit": true,
-        "dependencies": []
+        "name": "InvMove (Forge)"
       }
     },
     {
@@ -2380,9 +2044,7 @@
       "fileID": 3355794,
       "required": true,
       "__meta": {
-        "name": "Farming in Rain",
-        "explicit": true,
-        "dependencies": []
+        "name": "Farming in Rain"
       }
     },
     {
@@ -2391,7 +2053,6 @@
       "required": true,
       "__meta": {
         "name": "Dynamic Trees - Forestry",
-        "explicit": true,
         "dependencies": [
           59751,
           252818
@@ -2404,7 +2065,6 @@
       "required": true,
       "__meta": {
         "name": "Animania Farm",
-        "explicit": true,
         "dependencies": [
           268704,
           261199
@@ -2417,7 +2077,6 @@
       "required": true,
       "__meta": {
         "name": "Animania Extra Animals",
-        "explicit": true,
         "dependencies": [
           261199,
           268704
@@ -2430,7 +2089,6 @@
       "required": true,
       "__meta": {
         "name": "Serene Tweaks",
-        "explicit": true,
         "dependencies": [
           291874
         ]
@@ -2441,9 +2099,7 @@
       "fileID": 3060450,
       "required": true,
       "__meta": {
-        "name": "Particle Culling",
-        "explicit": true,
-        "dependencies": []
+        "name": "Particle Culling"
       }
     },
     {
@@ -2451,9 +2107,7 @@
       "fileID": 3328601,
       "required": true,
       "__meta": {
-        "name": "Entity Culling",
-        "explicit": true,
-        "dependencies": []
+        "name": "Entity Culling"
       }
     },
     {
@@ -2462,7 +2116,6 @@
       "required": true,
       "__meta": {
         "name": "Quark - RotN Edition",
-        "explicit": true,
         "dependencies": [
           250363,
           227083
@@ -2475,7 +2128,6 @@
       "required": true,
       "__meta": {
         "name": "Crocodilite",
-        "explicit": true,
         "dependencies": [
           248453,
           320470
@@ -2488,7 +2140,6 @@
       "required": true,
       "__meta": {
         "name": "Animania Cats & Dogs",
-        "explicit": true,
         "dependencies": [
           268704,
           261199
@@ -2500,9 +2151,7 @@
       "fileID": 3227877,
       "required": true,
       "__meta": {
-        "name": "Realistic Explosion Physics",
-        "explicit": true,
-        "dependencies": []
+        "name": "Realistic Explosion Physics"
       }
     },
     {
@@ -2510,9 +2159,7 @@
       "fileID": 3231561,
       "required": true,
       "__meta": {
-        "name": "Macaw's Fences and Walls",
-        "explicit": true,
-        "dependencies": []
+        "name": "Macaw's Fences and Walls"
       }
     },
     {
@@ -2521,7 +2168,6 @@
       "required": true,
       "__meta": {
         "name": "Dynamic Trees - Cuisine",
-        "explicit": true,
         "dependencies": [
           303694,
           252818
@@ -2533,9 +2179,7 @@
       "fileID": 3428721,
       "required": true,
       "__meta": {
-        "name": "Fluidlogged API",
-        "explicit": true,
-        "dependencies": []
+        "name": "Fluidlogged API"
       }
     },
     {
@@ -2543,9 +2187,7 @@
       "fileID": 3330925,
       "required": true,
       "__meta": {
-        "name": "ContentTweaker Registry Orderer",
-        "explicit": true,
-        "dependencies": []
+        "name": "ContentTweaker Registry Orderer"
       }
     },
     {
@@ -2553,9 +2195,7 @@
       "fileID": 3407318,
       "required": true,
       "__meta": {
-        "name": "MAtmos 2020 \"Zen\"",
-        "explicit": true,
-        "dependencies": []
+        "name": "MAtmos 2020 \"Zen\""
       }
     }
   ]
