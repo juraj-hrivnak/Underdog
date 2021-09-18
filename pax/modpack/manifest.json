@@ -1853,17 +1853,6 @@
       }
     },
     {
-      "projectID": 322948,
-      "fileID": 2883633,
-      "required": true,
-      "__meta": {
-        "name": "BetterPortals",
-        "dependencies": [
-          248453
-        ]
-      }
-    },
-    {
       "projectID": 324717,
       "fileID": 2735905,
       "required": true,
