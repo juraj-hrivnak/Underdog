@@ -15,6 +15,7 @@
 /config/activity.json/
 /config/jei/worldSettings.cfg/
 /config/AppliedEnergistics2/items.csv/
+/config/customloadingscreen_timings.nbt/
 
 # Folders in .minecraft
 /mods/
