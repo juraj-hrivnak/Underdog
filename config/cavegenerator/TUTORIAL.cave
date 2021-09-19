@@ -376,7 +376,7 @@ blacklistBiomes: false
 dimensions: []
 blacklistDimensions: false
 
-height: [ 0, 225 ]
+height: [ 0, 255 ]
 
 # ------------------------------------------------------------------------- #
 # ######################################################################### #
@@ -561,7 +561,7 @@ branches: {}
 tunnels: [
   {
     count: 15
-    height: [ 8, 225 ]
+    height: [ 8, 255 ]
     systemChance: 0.25
     chance: 0.142
     systemDensity: 4
@@ -776,7 +776,7 @@ caverns: [
     # Map generator
     wallOffset: {
       frequency: 0.05
-      range: [ 0, 225 ]
+      range: [ 0, 255 ]
     }
 
     wallCurveRatio: 1.0

@@ -28,7 +28,7 @@
   blacklistBiomes: false
   dimensions: []
   blacklistDimensions: false
-  height: [ 0, 225 ]
+  height: [ 0, 255 ]
   ceiling: {}
   floor: {}
   region: {}
@@ -148,7 +148,7 @@
       # Just another tunnel generator. Infintely deep.
       branches: {}
       
-      height: [ 8, 225 ]
+      height: [ 8, 255 ]
       biomes: {}
       blacklistBiomes: false
       dimensions: []
@@ -265,7 +265,7 @@
       # ABSENT BY DEFAULT
       wallOffset: {
         frequency: 0.05
-        range: [ 0, 225 ]
+        range: [ 0, 255 ]
       }
       wallCurveRatio: 1.0
       wallInterpolation: false
@@ -365,7 +365,7 @@
       blacklistBiomes: false
       dimensions: []
       blacklistDimensions: false
-      height: [ 0, 225 ]
+      height: [ 0, 255 ]
       ceiling: {}
       floor: {}
       region: {}
