@@ -32,7 +32,7 @@
     {
       #shale sandstone
       state: minecraft:sandstone
-      height: [ 0, 250 ]
+      height: [ 60, 225 ]
       ceiling: $OVERGROUND
     }
   ]

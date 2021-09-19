@@ -42,7 +42,7 @@
     {
       #shale sandstone
       state: minecraft:sandstone
-      height: [ 0, 250 ]
+      height: [ 60, 225 ]
       ceiling: {
         seed: 1
         frequency: 0.009

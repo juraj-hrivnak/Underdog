@@ -32,7 +32,7 @@
     # OVERGROUND
     ###########################################
     {
-      state: minecraft:stone:5
+      state: minecraft:stone:3
       height: [ 0, 150 ]
       ceiling: $OVERGROUND
     }
