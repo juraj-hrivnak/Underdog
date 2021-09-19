@@ -24,14 +24,12 @@
     ]
   }
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       state: minecraft:stone:1
       height: [ 20, 30 ]
-      ceiling: $OVERGROUND
-    }
-    {
-      state: minecraft:stone:5
-      height: [ 0, 44 ]
       ceiling: $OVERGROUND
     }
     {
@@ -39,14 +37,17 @@
       height: [ 0, 60 ]
       ceiling: $OVERGROUND
     }
+    ###########################################
+    # OVERGROUND
+    ###########################################
     {
       state: quark:limestone
-      height: [ 0, 86 ]
+      height: [ 0, 90 ]
       ceiling: $OVERGROUND
     }
     {
       state: quark:marble
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
       ceiling: $OVERGROUND
     }
   ]

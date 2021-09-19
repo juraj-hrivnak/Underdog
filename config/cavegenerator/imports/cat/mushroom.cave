@@ -24,7 +24,7 @@
     radius: 3
     decorators: {
       states: dirt
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
       noise: {
         threshold: 0.1
       }
@@ -36,13 +36,13 @@
       matchers: dirt
       directions: down
       integrity: 0.2
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
     }
     {
       states: mycelium
       matchers: dirt
       directions: down
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
     }
   ]
   caverns: {

@@ -14,6 +14,9 @@
     ]
   }
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       #red granite
       state: minecraft:stone:1
@@ -22,20 +25,17 @@
     }
     {
       state: minecraft:stone:5
-      height: [ 0, 128 ]
+      height: [ 0, 60 ]
       ceiling: $OVERGROUND
     }
+    ###########################################
+    # OVERGROUND
+    ###########################################
     {
       #green schist
       state: minecraft:stone
       height: [ 0, 204 ]
       ceiling: $OVERGROUND
     }
-    #{
-    #blue schist
-    #state: projectred-exploration:stone:3
-    #height: [ 0, 255 ]
-    #ceiling: $OVERGROUND
-    #}
   ]
 }

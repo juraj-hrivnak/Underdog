@@ -426,6 +426,39 @@
     ###########################################
     {
       states: minecraft:stone
+      directions: up
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+      ]
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: [
+        minecraft:grass
+        minecraft:dirt:2
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+      ]
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 0.8
+    }
+    ###########################################
+    {
+      states: minecraft:stone
       directions: all
       matchers: minecraft:water
       height: [ 30, 70 ]
