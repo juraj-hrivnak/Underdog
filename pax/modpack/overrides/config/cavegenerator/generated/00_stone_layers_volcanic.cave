@@ -9,6 +9,9 @@
     ]
   }
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       state: minecraft:stone:1
       height: [ 20, 30 ]
@@ -23,7 +26,7 @@
     }
     {
       state: minecraft:stone:5
-      height: [ 0, 58 ]
+      height: [ 0, 60 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -33,6 +36,9 @@
         ]
       }
     }
+    ###########################################
+    # OVERGROUND
+    ###########################################
     {
       state: minecraft:stone:1
       height: [ 0, 90 ]
@@ -45,14 +51,9 @@
         ]
       }
     }
-    #{
-    #state: projectred-exploration:stone:3
-    #height: [ 0, 120 ]
-    #ceiling: $OVERGROUND
-    #}
     {
       state: minecraft:stone:5
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
       ceiling: {
         seed: 1
         frequency: 0.009

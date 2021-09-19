@@ -1,42 +1,20 @@
 <Asteroids>
-	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="10" minLevel="0" probability="3" richness="0.8" richnessVariability="0.2">
+	<asteroid name="Small Asteroid" distance="10" mass="200" massVariability="0.5" minLevel="0" probability="20" richness="0.3" richnessVariability="0.5">
+		<ore itemStack="minecraft:iron_ore" chance="15" />
+		<ore itemStack="minecraft:gold_ore" chance="10" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+	</asteroid>
+	<asteroid name="Light Asteroid" distance="60" mass="200" massVariability="0.5" minLevel="0" probability="15" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="libvulpes:ore0;9" chance="20" />
+		<ore itemStack="libvulpes:ore0;8" chance="10" />
+		<ore itemStack="minecraft:quartz_block" chance="5" />
+	</asteroid>
+	<asteroid name="Iridium Enriched asteroid" distance="100" mass="75" massVariability="0.5" minLevel="0" probability="2" richness="0.2" richnessVariability="0.3">
 		<ore itemStack="minecraft:iron_ore" chance="25" />
-		<ore itemStack="thermalfoundation:ore 7" chance="25" />
+		<ore itemStack="libvulpes:ore0 10" chance="5" />
 	</asteroid>
-	<asteroid name="Draconium asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="draconicevolution:draconium_ore" chance="100" />
-	</asteroid>
-	<asteroid name="Prosperity asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="mysticalagriculture:prosperity_ore" chance="100" />
-	</asteroid>
-	<asteroid name="Dimensional Shard asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="rftools:dimensional_shard_ore" chance="100" />
-	</asteroid>
-	<asteroid name="Emerald asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="minecraft:emerald_ore" chance="100" />
-	</asteroid>
-	<asteroid name="Mana Infused asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="thermalfoundation:ore 8" chance="100" />
-	</asteroid>
-	<asteroid name="Destabilized Redstone asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="thermalfoundation:ore_fluid 2" chance="100" />
-	</asteroid>
-	<asteroid name="Energized Netherrack asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="thermalfoundation:ore_fluid 3" chance="100" />
-	</asteroid>
-	<asteroid name="Resonant End Stone asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="thermalfoundation:ore_fluid 4" chance="100" />
-	</asteroid>
-	<asteroid name="Titanium asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="libvulpes:ore0 8" chance="100" />
-	</asteroid>
-	<asteroid name="Starmetal asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="astralsorcery:blockcustomore 1" chance="100" />
-	</asteroid>
-	<asteroid name="Rock Crystal asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="5" richness="0.7" richnessVariability="0.5">
-		<ore itemStack="astralsorcery:blockcustomore" chance="100" />
-	</asteroid>
-	<asteroid name="Steel asteroid" distance="75" mass="64" massVariability="1" minLevel="0" probability="7" richness="0.3" richnessVariability="0.2">
-		<ore itemStack="thermalfoundation:storage_alloy" chance="100" />
+	<asteroid name="Strange Asteroid" distance="120" mass="50" massVariability="0.5" minLevel="0" probability="1" richness="0.2" richnessVariability="0.5">
+		<ore itemStack="libvulpes:ore0;0" chance="20" />
+		<ore itemStack="minecraft:emerald_ore" chance="5" />
 	</asteroid>
 </Asteroids>

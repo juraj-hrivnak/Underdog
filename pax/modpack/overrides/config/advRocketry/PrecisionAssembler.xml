@@ -1,14 +1,25 @@
 <!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
 	<Recipe timeRequired="NUMBER" power="NUMBER">
 		<input>
-			<fluidStack>FLUID NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
         </input>
 		<output>
-			<fluidStack>FLUID_NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
 		</output>
 	</Recipe>
 	
@@ -20,193 +31,203 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="false">
-	<Recipe timeRequired="20" power ="100000">
-		<input>
-			<itemStack>forestry:thermionic_tubes 1 10</itemStack>
-			<itemStack>enderio:item_alloy_ball 1 4</itemStack>
-			<oreDict>waferSilicon</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="30" power ="100000">
-		<input>
-			<itemStack>forestry:chipsets 1 3</itemStack>
-			<itemStack>enderio:item_alloy_ball 1 3</itemStack>
-			<oreDict>waferSilicon</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemcircuitplate 1 1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="20" power ="100000">
-		<input>
-			<oreDict>gemEmerald</oreDict>
-			<itemStack>advancedrocketry:ic</itemStack>
-			<oreDict>dustRedstone</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:dataunit</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="30" power ="100000">
-		<input>
-			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
-			<itemStack>minecraft:ender_eye</itemStack>
-			<oreDict>dustRedstone</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic 1 1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="20" power ="100000">
-		<input>
-			<itemStack>mekanism:controlcircuit 2 2</itemStack>
-			<oreDict>bioplastic</oreDict>
-			<itemStack>immersiveengineering:metal_decoration0</itemStack>
-			<oreDict>circuitBoard</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic 1 3</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="20" power ="100000">
-		<input>
-			<itemStack>forestry:chipsets 1 1</itemStack>
-			<itemStack>appliedenergistics2:material 3 18</itemStack>
-			<oreDict>circuitBoard</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic 1 4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="20" power ="100000">
-		<input>
-			<itemStack>forestry:chipsets 1 2</itemStack>
-			<itemStack>appliedenergistics2:material 3 54</itemStack>
-			<oreDict>circuitBoard</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic 1 5</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="30" power ="100000">
-		<input>
-			<oreDict>dustRedstone</oreDict>
-			<itemStack>minecraft:redstone_torch</itemStack>
-			<itemStack>advancedrocketry:ic</itemStack>
-			<itemStack>advancedrocketry:ic 1 3</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemupgrade</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="30" power ="100000">
-		<input>
-			<itemStack>minecraft:fire_charge</itemStack>
-			<oreDict>gemDiamond</oreDict>
-			<itemStack>advancedrocketry:ic 1 2</itemStack>
-			<itemStack>advancedrocketry:ic 1 3</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemupgrade 1 1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="40" power ="100000">
-		<input>
-			<itemStack>libvulpes:motor</itemStack>
-			<oreDict>rodTitanium</oreDict>
-			<itemStack>advancedrocketry:ic 1 3</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemupgrade 1 2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="40" power ="100000">
-		<input>
-			<itemStack>minecraft:leather_boots</itemStack>
-			<itemStack>minecraft:feather</itemStack>
-			<itemStack>advancedrocketry:ic 1 2</itemStack>
-			<itemStack>advancedrocketry:ic 1 3</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemupgrade 1 3</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="40" power ="100000">
+<Recipes useDefault="true">
+	<Recipe timeRequired="1000" power ="1">
 		<input>
 			<itemStack>libvulpes:battery</itemStack>
-			<itemStack>advancedrocketry:lens</itemStack>
-			<itemStack>advancedrocketry:ic 1 2</itemStack>
-			<itemStack>advancedrocketry:ic 1 3</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemupgrade 1 4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="100" power ="100000">
-		<input>
-			<itemStack>libvulpes:battery</itemStack>
-			<itemStack>advancedrocketry:ic 1 2</itemStack>
-			<oreDict>plateTin</oreDict>
-			<itemStack>advancedrocketry:lens</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
 			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>advancedrocketry:lens</itemStack>
+			<itemStack>thermalfoundation:material;1;321</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:atmanalyser</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="100" power ="100000">
+	<Recipe timeRequired="200" power ="1">
 		<input>
 			<itemStack>libvulpes:battery</itemStack>
-			<itemStack>advancedrocketry:ic 1 2</itemStack>
-			<oreDict>plateTin</oreDict>
-			<itemStack>advancedrocketry:ic 1 1</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>advancedrocketry:lens</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>libvulpes:motor</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="10">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>thermalfoundation:material;1;320</itemStack>
+			<itemStack>thermalfoundation:material;1;352</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="60">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>minecraft:emerald</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:dataunit</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="10">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>thermalfoundation:material;1;33</itemStack>
+			<itemStack>thermalfoundation:material;1;352</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2000" power ="250">
+		<input>
+			<itemStack>libvulpes:advstructuremachine</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>thermalfoundation:material;8;352</itemStack>
+			<itemStack>libvulpes:productgem;32</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:nuclearcore</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<itemStack>minecraft:gold_ingot</itemStack>
+			<itemStack>minecraft:redstone_block</itemStack>
+			<itemStack>advancedrocketry:wafer</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<itemStack>minecraft:gold_ingot</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>advancedrocketry:wafer</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>minecraft:feather</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>minecraft:leather_boots</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>minecraft:diamond</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>minecraft:fire_charge</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>minecraft:redstone_torch</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
 			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>thermalfoundation:material;1;321</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:biomechanger</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="60" power ="100000">
+	<Recipe timeRequired="100" power ="1">
 		<input>
-			<oreDict>stickCopper 2</oreDict>
-			<oreDict>stickTitanium</oreDict>
-			<oreDict>waferSilicon 2</oreDict>
-			<itemStack>advancedrocketry:ic 1 2</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:satelliteprimaryfunction 1 5</itemStack>
+			<itemStack>advancedrocketry:beaconfinder</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="10" power ="100000">
+	<Recipe timeRequired="100" power ="1">
 		<input>
-			<itemStack>minecraft:glass 3</itemStack>
-			<oreDict>itemLens 3</oreDict>
-			<oreDict>stickIron</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:blocklens</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="10" power ="100000">
-		<input>
-			<itemStack>advancedrocketry:ic 1 1</itemStack>
 			<itemStack>advancedrocketry:spacestationchip</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:elevatorchip</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="10" power ="100000">
+	<Recipe timeRequired="900" power ="50">
 		<input>
-			<itemStack>advancedrocketry:ic 1 1</itemStack>
-			<itemStack>advancedrocketry:itemupgrade 1 4</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>minecraft:ender_eye</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:beaconfinder</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:productrod;2;4</itemStack>
+			<itemStack>libvulpes:productrod;1;7</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:wafer;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="10">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>minecraft:dye;1;4</itemStack>
+			<itemStack>thermalfoundation:material;1;352</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>libvulpes:productrod;1;1</itemStack>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<itemStack>minecraft:glass;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:blocklens</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

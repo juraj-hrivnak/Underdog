@@ -4,16 +4,33 @@
     cat/common.cave::half_rel()
     common_values.hjson::NATURAL_STONE
   ]
-  enabled: false
-  ravines: {
-    replaceableBlocks: $NATURAL_STONE
-    chance: 0.0035
-    height: $full_rel(8, 128)
-    originHeight: $half_rel(67, 69)
-    scale: [ -1.5, 0.5 ]
-    stretch: [ 10, 1 ]
-    cutoffStrength: 0
-  }
+  enabled: true
+  ravines: [
+    {
+      replaceableBlocks: $NATURAL_STONE
+      chance: 0.00175
+      height: $full_rel(8, 128)
+      originHeight: $half_rel(67, 69)
+      scale: [ -1.5, 0.5 ]
+      stretch: [ 12, 1 ]
+      cutoffStrength: 0
+      caveBlocks: [
+        {
+          states: biomesoplenty:hot_spring_water
+          height: [ 0, 54 ]
+        }
+      ]
+    }
+    {
+      replaceableBlocks: $NATURAL_STONE
+      chance: 0.00175
+      height: $full_rel(8, 128)
+      originHeight: $half_rel(67, 69)
+      scale: [ -1.5, 0.5 ]
+      stretch: [ 12, 1 ]
+      cutoffStrength: 0
+    }
+  ]
   wallDecorators: [
     {
       states: minecraft:stone
@@ -22,13 +39,6 @@
       height: [ 30, 70 ]
       placement: EMBED
       integrity: 1
-    }
-  ]
-  ponds: [
-    {
-      height: [ 20, 50 ]
-      depth: 1
-      states: biomesoplenty:hot_spring_water
     }
   ]
 }

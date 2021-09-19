@@ -23,6 +23,9 @@
     }
   ]
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       #andesite bedrock
       state: minecraft:stone:5
@@ -35,19 +38,17 @@
       height: [ 0, 90 ]
       ceiling: $OVERGROUND
     }
+    ###########################################
+    # OVERGROUND
+    ###########################################
     {
       state: quark:jasper
-      height: [ 0, 110 ]
-      ceiling: $OVERGROUND
-    }
-    {
-      state: minecraft:sandstone
       height: [ 0, 150 ]
       ceiling: $OVERGROUND
     }
     {
-      state: quark:jasper
-      height: [ 0, 255 ]
+      state: minecraft:sandstone
+      height: [ 0, 225 ]
       ceiling: $OVERGROUND
     }
   ]
