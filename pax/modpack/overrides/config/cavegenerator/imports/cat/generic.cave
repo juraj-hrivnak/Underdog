@@ -78,7 +78,7 @@
     # Horizontal variant which rarely spawns.
     {
       height: $half_rel(18, 69)
-      chance: 1 / 250
+      chance: 1 / 225
       cutoffStrength: 0
       pitch: [ 1.5, 2.5 ]
       dPitch: [ 0.1, 0, 0.95 ]

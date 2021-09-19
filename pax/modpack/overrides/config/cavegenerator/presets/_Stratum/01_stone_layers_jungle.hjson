@@ -15,6 +15,9 @@
     ]
   }
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       state: minecraft:stone:1
       height: [ 20, 30 ]
@@ -22,14 +25,12 @@
     }
     {
       state: minecraft:stone:3
-      height: [ 0, 58 ]
+      height: [ 0, 60 ]
       ceiling: $OVERGROUND
     }
-    {
-      state: minecraft:stone:5
-      height: [ 0, 64 ]
-      ceiling: $OVERGROUND
-    }
+    ###########################################
+    # OVERGROUND
+    ###########################################
     {
       state: minecraft:stone:3
       height: [ 0, 150 ]
@@ -37,7 +38,7 @@
     }
     {
       state: minecraft:stone
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
       ceiling: $OVERGROUND
     }
   ]

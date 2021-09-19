@@ -14,23 +14,6 @@
       range: [ 0, 8 ]
     }
   }
-  blacklistBiomes: true
-  biomes: {
-    names: [
-      biomesoplenty:volcanic_island
-      minecraft:ocean
-      minecraft:deep_ocean
-      minecraft:river
-      minecraft:frozen_river
-      biomesoplenty:gravel_beach
-      biomesoplenty:white_beach
-      biomesoplenty:coral_reef
-      biomesoplenty:kelp_forest
-    ]
-    types: [
-      swamp
-    ]
-  }
   replaceDecorators: false
   replaceableBlocks: $NATURAL_STONE
   ##############
@@ -58,11 +41,30 @@
         threshold: -0.18
         stretch: 0.75
       }
+      blacklistBiomes: true
+      biomes: {
+        names: [
+          biomesoplenty:volcanic_island
+          minecraft:ocean
+          minecraft:deep_ocean
+          minecraft:river
+          minecraft:frozen_river
+          biomesoplenty:gravel_beach
+          biomesoplenty:white_beach
+          biomesoplenty:coral_reef
+          biomesoplenty:kelp_forest
+        ]
+        types: [
+          MOUNTAIN
+          MESA
+          SWAMP
+        ]
+      }
       ###########################################
     }
     {
       ###########################################
-      # Water Reservoirs
+      # Purified Water Reservoirs
       ###########################################
       height: [ 22, 38 ]
       ##################
@@ -95,21 +97,142 @@
         }
       ]
       biomes: {
-        types: [
-          PLAINS
-          WET
-          LUSH
-          JUNGLE
-          MOUNTAIN
+        names: [
+          biomesoplenty:lush_desert
+          minecraft:plains
+          minecraft:extreme_hills
+          minecraft:extreme_hills_with_trees
+          minecraft:savanna
+          minecraft:savanna_rock
+          minecraft:mutated_savanna_rock
+          biomesoplenty:alps_foothills
+          biomesoplenty:mountain_foothills
+          biomesoplenty:pasture
+          minecraft:mutated_plains
+          biomesoplenty:lavender_fields
+          biomesoplenty:crag
+          biomesoplenty:flower_field
+          biomesoplenty:grassland
+          biomesoplenty:grove
+          minecraft:forest
+          minecraft:forest_hills
+          minecraft:birch_forest
+          minecraft:birch_forest_hills
+          minecraft:roofed_forest
+          minecraft:mutated_extreme_hills
+          minecraft:mutated_forest
+          minecraft:mutated_birch_forest
+          minecraft:mutated_birch_forest_hills
+          minecraft:mutated_roofed_forest
+          minecraft:mutated_extreme_hills_with_trees
+          biomesoplenty:bamboo_forest
+          biomesoplenty:cherry_blossom_grove
+          biomesoplenty:maple_woods
+          biomesoplenty:meadow
+          biomesoplenty:mountain
+          biomesoplenty:orchard
+          biomesoplenty:woodland
         ]
       }
       ###########################################
     }
+    // {
+    //   ###########################################
+    //   # Spring Water Reservoirs
+    //   ###########################################
+    //   height: [ 22, 38 ]
+    //   ##################
+    //   ceiling: $COMMON_CEILING
+    //   floor: $COMMON_FLOOR
+    //   generators: {
+    //     seed: 1
+    //     frequency: 1
+    //     type: PerlinFractal
+    //     interp: Hermite
+    //     fractal: Billow
+    //     returnType: NoiseLookup
+    //     cellularLookup: CubicFractal
+    //     octaves: 2
+    //     perturb: true
+    //     threshold: 1
+    //     stretch: 0.85
+    //   }
+    //   wallDecorators: [
+    //     {
+    //       states: minecraft:magma
+    //       directions: down
+    //       matchers: $NATURAL_STONE
+    //       height: [ 20, 21 ]
+    //       placement: EMBED
+    //       integrity: 0.05
+    //     }
+    //   ]
+    //   caveBlocks: [
+    //     {
+    //       states: biomesoplenty:hot_spring_water
+    //       height: [ 0, 25 ]
+    //     }
+    //   ]
+    //   ponds: [
+    //     {
+    //       height: [ 20, 28 ]
+    //       depth: 2
+    //       states: biomesoplenty:hot_spring_water
+    //     }
+    //   ]
+    //   biomes: {
+    //     types: [
+    //       MOUNTAIN
+    //     ]
+    //   }
+    //   ###########################################
+    // }
+    // {
+    //   ###########################################
+    //   # Salt Water Reservoirs
+    //   ###########################################
+    //   height: [ 22, 38 ]
+    //   ##################
+    //   ceiling: $COMMON_CEILING
+    //   floor: $COMMON_FLOOR
+    //   generators: {
+    //     seed: 1
+    //     frequency: 1
+    //     type: PerlinFractal
+    //     interp: Hermite
+    //     fractal: Billow
+    //     returnType: NoiseLookup
+    //     cellularLookup: CubicFractal
+    //     octaves: 2
+    //     perturb: true
+    //     threshold: 1
+    //     stretch: 0.85
+    //   }
+    //   caveBlocks: [
+    //     {
+    //       states: minecraft:water
+    //       height: [ 0, 32 ]
+    //     }
+    //   ]
+    //   ponds: [
+    //     {
+    //       states: minecraft:water
+    //       height: [ 20, 28 ]
+    //       depth: 2
+    //     }
+    //   ]
+    //   biomes: {
+    //     types: [
+    //       LUSH
+    //     ]
+    //   }
+    //   ###########################################
+    // }
     {
       ###########################################
       # Scary Volcanic Caves
       ###########################################
-      height: [ 70, 200 ]
+      height: [ 60, 200 ]
       ###################
       ceiling: {
         seed: 1
@@ -168,13 +291,23 @@
       ]
       blacklistBiomes: true
       biomes: {
-        types: [
-          SAVANA
-          MESA
-          MEDITERRANEAN
-        ]
         names: [
+          biomesoplenty:volcanic_island
+          minecraft:ocean
+          minecraft:deep_ocean
+          minecraft:river
+          minecraft:frozen_river
+          biomesoplenty:gravel_beach
+          biomesoplenty:white_beach
+          biomesoplenty:coral_reef
+          biomesoplenty:kelp_forest
           biomesoplenty:crag
+        ]
+        types: [
+          PLAINS
+          MESA
+          SWAMP
+          MAGICAL
         ]
       }
       ###########################################
@@ -214,6 +347,23 @@
         threshold: -0.15
         stretch: 0.36
       }
+      blacklistBiomes: true
+      biomes: {
+        names: [
+          biomesoplenty:volcanic_island
+          minecraft:ocean
+          minecraft:deep_ocean
+          minecraft:river
+          minecraft:frozen_river
+          biomesoplenty:gravel_beach
+          biomesoplenty:white_beach
+          biomesoplenty:coral_reef
+          biomesoplenty:kelp_forest
+        ]
+        types: [
+          SWAMP
+        ]
+      }
       ###########################################
     }
   ]
@@ -241,6 +391,57 @@
       states: minecraft:stone
       directions: up
       matchers: minecraft:gravel
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    ###########################################
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+      ]
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: [
+        minecraft:grass
+        minecraft:dirt:2
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+      ]
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 0.8
+    }
+    ###########################################
+    {
+      states: minecraft:gravel
+      directions: side
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+      ]
       height: [ 40, 240 ]
       placement: EMBED
       integrity: 1

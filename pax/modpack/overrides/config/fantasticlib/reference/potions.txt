@@ -35,8 +35,6 @@ rustic:full
 rustic:magic_resistance
 rustic:wither_ward
 rustic:tipsy
-quark:resilience
-quark:danger_sight
 tconstruct:carry
 tconstruct:enderference
 tconstruct:insatiable
@@ -51,14 +49,16 @@ immersiveengineering:sticky
 immersiveengineering:stunned
 immersiveengineering:concretefeet
 immersiveengineering:flashed
+quark:resilience
+quark:danger_sight
 conarm:superhotpotion
 cuisine:hot
 cuisine:dispersal
 cuisine:effect_resistance
 cuisine:drunk
 cuisine:sustained_release
-cuisine:toughness
 cuisine:cold_blood
+cuisine:toughness
 simpledifficulty:hyperthermia
 simpledifficulty:hypothermia
 simpledifficulty:thirsty
@@ -79,7 +79,5 @@ cyclicmagic:potion.saturation
 nutrition:toughness
 nutrition:nourished
 nutrition:malnourished
-somnia:awakening
-somnia:insomnia
 hungeroverhaul:wellfed
 industrialwires:tinnitus

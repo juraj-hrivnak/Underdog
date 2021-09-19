@@ -14,23 +14,6 @@
       range: [ 0, 8 ]
     }
   }
-  blacklistBiomes: true
-  biomes: {
-    names: [
-      biomesoplenty:volcanic_island
-      minecraft:ocean
-      minecraft:deep_ocean
-      minecraft:river
-      minecraft:frozen_river
-      biomesoplenty:gravel_beach
-      biomesoplenty:white_beach
-      biomesoplenty:coral_reef
-      biomesoplenty:kelp_forest
-    ]
-    types: [
-      swamp
-    ]
-  }
   replaceDecorators: false
   replaceableBlocks: $NATURAL_STONE
   ##############
@@ -60,9 +43,21 @@
       }
       blacklistBiomes: true
       biomes: {
+        names: [
+          biomesoplenty:volcanic_island
+          minecraft:ocean
+          minecraft:deep_ocean
+          minecraft:river
+          minecraft:frozen_river
+          biomesoplenty:gravel_beach
+          biomesoplenty:white_beach
+          biomesoplenty:coral_reef
+          biomesoplenty:kelp_forest
+        ]
         types: [
           MOUNTAIN
           MESA
+          SWAMP
         ]
       }
       ###########################################
@@ -102,9 +97,41 @@
         }
       ]
       biomes: {
-        types: [
-          PLAINS
-          JUNGLE
+        names: [
+          biomesoplenty:lush_desert
+          minecraft:plains
+          minecraft:extreme_hills
+          minecraft:extreme_hills_with_trees
+          minecraft:savanna
+          minecraft:savanna_rock
+          minecraft:mutated_savanna_rock
+          biomesoplenty:alps_foothills
+          biomesoplenty:mountain_foothills
+          biomesoplenty:pasture
+          minecraft:mutated_plains
+          biomesoplenty:lavender_fields
+          biomesoplenty:crag
+          biomesoplenty:flower_field
+          biomesoplenty:grassland
+          biomesoplenty:grove
+          minecraft:forest
+          minecraft:forest_hills
+          minecraft:birch_forest
+          minecraft:birch_forest_hills
+          minecraft:roofed_forest
+          minecraft:mutated_extreme_hills
+          minecraft:mutated_forest
+          minecraft:mutated_birch_forest
+          minecraft:mutated_birch_forest_hills
+          minecraft:mutated_roofed_forest
+          minecraft:mutated_extreme_hills_with_trees
+          biomesoplenty:bamboo_forest
+          biomesoplenty:cherry_blossom_grove
+          biomesoplenty:maple_woods
+          biomesoplenty:meadow
+          biomesoplenty:mountain
+          biomesoplenty:orchard
+          biomesoplenty:woodland
         ]
       }
       ###########################################
@@ -262,10 +289,25 @@
           integrity: 0.05
         }
       ]
+      blacklistBiomes: true
       biomes: {
+        names: [
+          biomesoplenty:volcanic_island
+          minecraft:ocean
+          minecraft:deep_ocean
+          minecraft:river
+          minecraft:frozen_river
+          biomesoplenty:gravel_beach
+          biomesoplenty:white_beach
+          biomesoplenty:coral_reef
+          biomesoplenty:kelp_forest
+          biomesoplenty:crag
+        ]
         types: [
-          HILLS
-          MOUNTAIN
+          PLAINS
+          MESA
+          SWAMP
+          MAGICAL
         ]
       }
       ###########################################
@@ -305,6 +347,23 @@
         threshold: -0.15
         stretch: 0.36
       }
+      blacklistBiomes: true
+      biomes: {
+        names: [
+          biomesoplenty:volcanic_island
+          minecraft:ocean
+          minecraft:deep_ocean
+          minecraft:river
+          minecraft:frozen_river
+          biomesoplenty:gravel_beach
+          biomesoplenty:white_beach
+          biomesoplenty:coral_reef
+          biomesoplenty:kelp_forest
+        ]
+        types: [
+          SWAMP
+        ]
+      }
       ###########################################
     }
   ]
@@ -332,6 +391,57 @@
       states: minecraft:stone
       directions: up
       matchers: minecraft:gravel
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    ###########################################
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+      ]
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: [
+        minecraft:grass
+        minecraft:dirt:2
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+      ]
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 0.8
+    }
+    ###########################################
+    {
+      states: minecraft:gravel
+      directions: side
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+      ]
       height: [ 40, 240 ]
       placement: EMBED
       integrity: 1

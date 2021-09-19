@@ -1,6 +1,18 @@
 {
   "version": 2,
   "data": {
+    "advancedrocketry:alien_forest": "FOREST",
+    "advancedrocketry:crystalchasms": "SNOW",
+    "advancedrocketry:deepswamp": "PLAINS",
+    "advancedrocketry:hotdryrock": "DESERT",
+    "advancedrocketry:marsh": "PLAINS",
+    "advancedrocketry:moon": "SNOW",
+    "advancedrocketry:moondark": "SNOW",
+    "advancedrocketry:oceanspires": "WATER",
+    "advancedrocketry:space": "PLAINS",
+    "advancedrocketry:stormland": "DESERT",
+    "advancedrocketry:volcanic": "DESERT_HILLS",
+    "advancedrocketry:volcanicbarren": "DESERT_HILLS",
     "appliedenergistics2:storage_biome": "SNOW",
     "biomesoplenty:alps": "MOUNTAINS_NAKED",
     "biomesoplenty:alps_foothills": "SNOW_PINES",

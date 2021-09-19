@@ -7,6 +7,9 @@
     ]
   }
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       #red granite
       state: minecraft:stone:1
@@ -21,34 +24,9 @@
       }
     }
     {
-      state: minecraft:stone:5
-      height: [ 0, 54 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
-    }
-    {
-      #limestone
-      state: quark:limestone
-      height: [ 0, 58 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
-    }
-    {
       #shale
       state: quark:marble
-      height: [ 0, 61 ]
+      height: [ 0, 60 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -58,10 +36,13 @@
         ]
       }
     }
+    ###########################################
+    # OVERGROUND
+    ###########################################
     {
       #shale sandstone
       state: minecraft:sandstone
-      height: [ 0, 250 ]
+      height: [ 60, 225 ]
       ceiling: {
         seed: 1
         frequency: 0.009

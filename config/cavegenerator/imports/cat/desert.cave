@@ -80,19 +80,19 @@
     }
     caveBlocks: {
       states: lava
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
     }
     shell: {
       radius: 2
       decorators: [
         {
           states: magma
-          height: [ 0, 255 ]
+          height: [ 0, 225 ]
           integrity: 0.5
         }
         {
           states: stone
-          height: [ 0, 255 ]
+          height: [ 0, 225 ]
           matchers: air
           integrity: 1
         }

@@ -32,7 +32,6 @@ key_key.hotbar.7:8:NONE
 key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
 key_key.craftpresence.config_keycode.name:27:NONE
-key_quark.keybind.toggleAutojump:48:NONE
 key_quark.emote.no:0:NONE
 key_quark.emote.yes:0:NONE
 key_quark.emote.wave:0:NONE
@@ -51,6 +50,8 @@ key_quark.emote.dab:0:NONE
 key_quark.emote.jet:0:NONE
 key_quark.emote.exorcist:73:NONE
 key_quark.emote.zombie:0:NONE
+key_quark.keybind.lockBuilding:37:NONE
+key_quark.keybind.toggleAutojump:48:NONE
 key_quark.keybind.dropoff:0:NONE
 key_quark.keybind.changeHotbar:44:NONE
 key_quark.keybind.chestSort:0:NONE
@@ -58,7 +59,6 @@ key_quark.keybind.chestDropoff:0:NONE
 key_quark.keybind.chestMerge:0:NONE
 key_quark.keybind.chestRestock:0:NONE
 key_quark.keybind.chestExtract:0:NONE
-key_quark.keybind.lockBuilding:37:NONE
 key_keybind.baublesinventory:48:NONE
 key_keybind.openSelectionWheel:56:NONE
 key_keybind.openBaubleBag:19:NONE
@@ -162,8 +162,6 @@ key_waila.keybind.liquid:80:NONE
 key_waila.keybind.recipe:81:NONE
 key_waila.keybind.usage:75:NONE
 key_dsurround.cfg.keybind.AnimaniaBadges:0:NONE
-key_key.reelIn:208:NONE
-key_key.reelOut:79:NONE
 key_FpsReducer.key.guiOpen:207:NONE
 key_FpsReducer.key.forceIdle:197:NONE
 key_invtweaks.key.sort:25:NONE

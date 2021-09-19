@@ -1,6 +1,6 @@
 {
   # Represents the full range of y-coordinates.
-  ANY_HEIGHT: [ 0, 255 ]
+  ANY_HEIGHT: [ 0, 225 ]
   # Represents one half of all y-coordinates.
   HALF_HEIGHT: [ 0, 127 ]
   # Indicates that a feature should only spawn

@@ -37,11 +37,6 @@
         }
       ],
       "max_depth": 100
-    },
-    "biomes": [
-      "desert",
-      "mutated_desert",
-      "desert_hills"
-    ]
+    }
   }
 }

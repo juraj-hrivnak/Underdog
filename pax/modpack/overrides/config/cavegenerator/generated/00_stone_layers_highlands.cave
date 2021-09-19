@@ -7,6 +7,9 @@
     ]
   }
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       #red granite
       state: minecraft:stone:1
@@ -23,7 +26,7 @@
     {
       #siltstone bedrock
       state: minecraft:stone:3
-      height: [ 0, 40 ]
+      height: [ 0, 60 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -33,23 +36,13 @@
         ]
       }
     }
-    {
-      #underlying gneiss
-      state: minecraft:stone:5
-      height: [ 0, 76 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
-    }
+    ###########################################
+    # OVERGROUND
+    ###########################################
     {
       #limestone
       state: quark:limestone
-      height: [ 0, 88 ]
+      height: [ 0, 90 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -88,7 +81,7 @@
     {
       #quartzite peaks
       state: minecraft:stone:3
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
       ceiling: {
         seed: 1
         frequency: 0.009

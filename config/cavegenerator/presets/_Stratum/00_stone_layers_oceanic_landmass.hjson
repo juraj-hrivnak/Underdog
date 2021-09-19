@@ -11,6 +11,9 @@
     ]
   }
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       #red granite
       state: minecraft:stone:1
@@ -18,26 +21,18 @@
       ceiling: $OVERGROUND
     }
     {
-      state: minecraft:stone:5
-      height: [ 0, 54 ]
-      ceiling: $OVERGROUND
-    }
-    {
-      #limestone
-      state: quark:limestone
-      height: [ 0, 58 ]
-      ceiling: $OVERGROUND
-    }
-    {
       #shale
       state: quark:marble
-      height: [ 0, 61 ]
+      height: [ 0, 60 ]
       ceiling: $OVERGROUND
     }
+    ###########################################
+    # OVERGROUND
+    ###########################################
     {
       #shale sandstone
       state: minecraft:sandstone
-      height: [ 0, 250 ]
+      height: [ 60, 225 ]
       ceiling: $OVERGROUND
     }
   ]

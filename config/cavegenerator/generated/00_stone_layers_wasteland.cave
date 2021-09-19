@@ -1,11 +1,14 @@
 {
   enabled: true
   biomes: {
-    types: [
-      wasteland
+    names: [
+      biomesoplenty:wasteland
     ]
   }
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       state: minecraft:stone:1
       height: [ 20, 30 ]
@@ -20,7 +23,7 @@
     }
     {
       state: biomesoplenty:dried_sand
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -30,5 +33,8 @@
         ]
       }
     }
+    ###########################################
+    # OVERGROUND
+    ###########################################
   ]
 }

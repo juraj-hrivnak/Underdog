@@ -35,6 +35,9 @@ minecraft:strong_strength
 minecraft:weakness
 minecraft:long_weakness
 minecraft:luck
+quark:resilience
+quark:long_resilience
+quark:strong_resilience
 quark:haste
 quark:long_haste
 quark:strong_haste
@@ -46,13 +49,10 @@ quark:long_resistance
 quark:strong_resistance
 quark:danger_sight
 quark:long_danger_sight
-quark:resilience
-quark:long_resilience
-quark:strong_resilience
 cuisine:cuisine.hot
 cuisine:cuisine.dispersal
-cuisine:cuisine.toughness
 cuisine:cuisine.cold_blood
+cuisine:cuisine.toughness
 simpledifficulty:cold_resist_type
 simpledifficulty:long_cold_resist_type
 simpledifficulty:heat_resist_type
@@ -138,12 +138,6 @@ cyclicmagic:luck
 cyclicmagic:blindness
 cyclicmagic:saturation
 cyclicmagic:hunger
-somnia:awakening
-somnia:long_awakening
-somnia:strong_awakening
-somnia:insomnia
-somnia:long_insomnia
-somnia:strong_insomnia
 charcoal_pit:coke_cola
 charcoal_pit:coke_cola_long
 charcoal_pit:coke_cola_strong

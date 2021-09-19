@@ -20,21 +20,12 @@
     ]
   }
   layers: [
+    ###########################################
+    # Underground
+    ###########################################
     {
       state: minecraft:stone:1
       height: [ 20, 30 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
-    }
-    {
-      state: minecraft:stone:5
-      height: [ 0, 44 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -56,9 +47,12 @@
         ]
       }
     }
+    ###########################################
+    # OVERGROUND
+    ###########################################
     {
       state: quark:limestone
-      height: [ 0, 86 ]
+      height: [ 0, 90 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -70,7 +64,7 @@
     }
     {
       state: quark:marble
-      height: [ 0, 255 ]
+      height: [ 0, 225 ]
       ceiling: {
         seed: 1
         frequency: 0.009
