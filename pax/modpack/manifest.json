@@ -446,26 +446,6 @@
       }
     },
     {
-      "projectID": 236541,
-      "fileID": 3434864,
-      "required": true,
-      "__meta": {
-        "name": "LibVulpes",
-        "explicit": false
-      }
-    },
-    {
-      "projectID": 236542,
-      "fileID": 3456841,
-      "required": true,
-      "__meta": {
-        "name": "Advanced Rocketry",
-        "dependencies": [
-          236541
-        ]
-      }
-    },
-    {
       "projectID": 237065,
       "fileID": 3331364,
       "required": true,
@@ -914,7 +894,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3437866,
+      "fileID": 3467576,
       "required": true,
       "__meta": {
         "name": "CreativeCore"
@@ -922,7 +902,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3445700,
+      "fileID": 3467581,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -981,14 +961,6 @@
       }
     },
     {
-      "projectID": 262137,
-      "fileID": 2810142,
-      "required": true,
-      "__meta": {
-        "name": "Stuff A Sock In It"
-      }
-    },
-    {
       "projectID": 262823,
       "fileID": 2619249,
       "required": true,
@@ -1006,14 +978,6 @@
           239418,
           239431
         ]
-      }
-    },
-    {
-      "projectID": 264111,
-      "fileID": 2615892,
-      "required": true,
-      "__meta": {
-        "name": "Charcoal Pit"
       }
     },
     {
@@ -1292,6 +1256,15 @@
       }
     },
     {
+      "projectID": 284350,
+      "fileID": 3466382,
+      "required": true,
+      "__meta": {
+        "name": "Athenaeum",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 284523,
       "fileID": 3066682,
       "required": true,
@@ -1305,6 +1278,18 @@
       "required": true,
       "__meta": {
         "name": "No Recipe Book"
+      }
+    },
+    {
+      "projectID": 284973,
+      "fileID": 3421902,
+      "required": true,
+      "__meta": {
+        "name": "Dropt",
+        "explicit": false,
+        "dependencies": [
+          284350
+        ]
       }
     },
     {
@@ -1554,7 +1539,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 3437564,
+      "fileID": 3467652,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1673,6 +1658,19 @@
       "required": true,
       "__meta": {
         "name": "Tips"
+      }
+    },
+    {
+      "projectID": 306676,
+      "fileID": 3425713,
+      "required": true,
+      "__meta": {
+        "name": "Pyrotech",
+        "dependencies": [
+          284350,
+          284973,
+          306770
+        ]
       }
     },
     {
@@ -2045,6 +2043,14 @@
       }
     },
     {
+      "projectID": 400796,
+      "fileID": 3281615,
+      "required": true,
+      "__meta": {
+        "name": "Somnia Awoken"
+      }
+    },
+    {
       "projectID": 401558,
       "fileID": 3261440,
       "required": true,
@@ -2093,7 +2099,7 @@
     },
     {
       "projectID": 408853,
-      "fileID": 3060450,
+      "fileID": 3464826,
       "required": true,
       "__meta": {
         "name": "Particle Culling"
