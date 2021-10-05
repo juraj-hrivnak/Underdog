@@ -23,7 +23,7 @@
     }
     {
       state: minecraft:stone:5
-      height: [ 0, 60 ]
+      height: [ 30, 60 ]
       ceiling: $OVERGROUND
     }
     ###########################################
@@ -31,12 +31,12 @@
     ###########################################
     {
       state: minecraft:stone:1
-      height: [ 0, 90 ]
+      height: [ 60, 90 ]
       ceiling: $OVERGROUND
     }
     {
       state: minecraft:stone:5
-      height: [ 0, 225 ]
+      height: [ 90, 225 ]
       ceiling: $OVERGROUND
     }
   ]

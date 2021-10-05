@@ -14,7 +14,7 @@
     {
       #red granite
       state: minecraft:stone:1
-      height: [ 20, 30 ]
+      height: [ 8, 30 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -26,7 +26,7 @@
     }
     {
       state: minecraft:stone
-      height: [ 0, 60 ]
+      height: [ 30, 60 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -42,7 +42,7 @@
     {
       #limestone
       state: quark:limestone
-      height: [ 0, 90 ]
+      height: [ 60, 90 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -55,7 +55,7 @@
     {
       #shale sandstone
       state: quark:jasper
-      height: [ 0, 225 ]
+      height: [ 90, 225 ]
       ceiling: {
         seed: 1
         frequency: 0.009

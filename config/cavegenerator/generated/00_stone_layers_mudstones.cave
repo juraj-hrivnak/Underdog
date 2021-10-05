@@ -37,7 +37,7 @@
     }
     {
       state: minecraft:stone
-      height: [ 0, 60 ]
+      height: [ 30, 60 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -52,7 +52,7 @@
     ###########################################
     {
       state: quark:limestone
-      height: [ 0, 90 ]
+      height: [ 60, 90 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -64,7 +64,7 @@
     }
     {
       state: quark:marble
-      height: [ 0, 225 ]
+      height: [ 90, 225 ]
       ceiling: {
         seed: 1
         frequency: 0.009

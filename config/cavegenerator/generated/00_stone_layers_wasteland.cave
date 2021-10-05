@@ -23,7 +23,7 @@
     }
     {
       state: biomesoplenty:dried_sand
-      height: [ 0, 225 ]
+      height: [ 30, 225 ]
       ceiling: {
         seed: 1
         frequency: 0.009

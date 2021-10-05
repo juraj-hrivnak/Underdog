@@ -29,13 +29,13 @@
     {
       #andesite bedrock
       state: minecraft:stone:5
-      height: [ 20, 30 ]
+      height: [ 8, 30 ]
       ceiling: $OVERGROUND
     }
     {
       #underground sandstone
       state: minecraft:sandstone
-      height: [ 0, 90 ]
+      height: [ 30, 90 ]
       ceiling: $OVERGROUND
     }
     ###########################################
@@ -43,12 +43,12 @@
     ###########################################
     {
       state: quark:jasper
-      height: [ 0, 150 ]
+      height: [ 90, 150 ]
       ceiling: $OVERGROUND
     }
     {
       state: minecraft:sandstone
-      height: [ 0, 225 ]
+      height: [ 150, 225 ]
       ceiling: $OVERGROUND
     }
   ]

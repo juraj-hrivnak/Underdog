@@ -17,13 +17,13 @@
     {
       #red granite
       state: minecraft:stone:1
-      height: [ 20, 30 ]
+      height: [ 8, 30 ]
       ceiling: $OVERGROUND
     }
     {
       #shale
       state: quark:marble
-      height: [ 0, 60 ]
+      height: [ 30, 60 ]
       ceiling: $OVERGROUND
     }
     ###########################################

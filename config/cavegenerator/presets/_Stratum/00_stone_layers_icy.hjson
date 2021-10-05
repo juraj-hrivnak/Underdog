@@ -23,12 +23,12 @@
     ###########################################
     {
       state: minecraft:stone:1
-      height: [ 20, 30 ]
+      height: [ 8, 30 ]
       ceiling: $OVERGROUND
     }
     {
       state: minecraft:stone
-      height: [ 0, 60 ]
+      height: [ 30, 60 ]
       ceiling: $OVERGROUND
     }
     ###########################################
@@ -36,7 +36,7 @@
     ###########################################
     {
       state: quark:limestone
-      height: [ 0, 225 ]
+      height: [ 60, 225 ]
       ceiling: $OVERGROUND
     }
   ]
