@@ -1,6 +1,6 @@
 {
   "Limestone_Lapis": {
-    "type": "curve",
+    "type": "cluster",
     "rarity": 200,
     "count": 1,
     "stone": [
@@ -16,9 +16,7 @@
     "max_y": -8,
     "use_relative_y": true,
     "density": 200,
-    "radius": 20,
-    "angle": 90,
-    "vertical_size": 4,
+    "vertical_size": 10,
     "horizontal_size": 14,
     "ore": [
       {

@@ -20,11 +20,21 @@
       {
         "block": "osv:_malachite_quark_jasper",
         "meta": "0",
-        "weight": 60
+        "weight": 54
+      },
+      {
+        "block": "osv:_malachite_quark_jasper",
+        "meta": "1",
+        "weight": 6
       },
       {
         "block": "osv:_azurite_quark_jasper",
-        "meta": "3",
+        "meta": "0",
+        "weight": 40
+      },
+      {
+        "block": "osv:_azurite_quark_jasper",
+        "meta": "1",
         "weight": 40
       }
     ],
