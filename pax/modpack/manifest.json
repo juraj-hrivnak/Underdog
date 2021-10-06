@@ -1956,6 +1956,14 @@
       }
     },
     {
+      "projectID": 363860,
+      "fileID": 3048407,
+      "required": true,
+      "__meta": {
+        "name": "Better Chat"
+      }
+    },
+    {
       "projectID": 364982,
       "fileID": 2902440,
       "required": true,
@@ -2135,6 +2143,14 @@
           248453,
           320470
         ]
+      }
+    },
+    {
+      "projectID": 446253,
+      "fileID": 3394150,
+      "required": true,
+      "__meta": {
+        "name": "Better Biome Blend"
       }
     },
     {
