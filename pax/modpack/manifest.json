@@ -2071,6 +2071,14 @@
       }
     },
     {
+      "projectID": 405327,
+      "fileID": 3045381,
+      "required": true,
+      "__meta": {
+        "name": "Mixin 0.7-0.8 Compatibility"
+      }
+    },
+    {
       "projectID": 407632,
       "fileID": 3213139,
       "required": true,
