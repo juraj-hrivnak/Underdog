@@ -411,7 +411,7 @@
     },
     {
       "projectID": 233019,
-      "fileID": 2450734,
+      "fileID": 2468387,
       "required": true,
       "__meta": {
         "name": "AI Improvements"
@@ -552,7 +552,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3435328,
+      "fileID": 3478825,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -902,7 +902,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3467581,
+      "fileID": 3475272,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1066,7 +1066,7 @@
     },
     {
       "projectID": 269973,
-      "fileID": 3391808,
+      "fileID": 3464562,
       "required": true,
       "__meta": {
         "name": "Pollution of the Realms",
@@ -1539,7 +1539,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 3467652,
+      "fileID": 3475677,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1599,6 +1599,17 @@
       "required": true,
       "__meta": {
         "name": "Clothesline"
+      }
+    },
+    {
+      "projectID": 300331,
+      "fileID": 2754916,
+      "required": true,
+      "__meta": {
+        "name": "Simply Light",
+        "dependencies": [
+          248453
+        ]
       }
     },
     {
@@ -1662,7 +1673,7 @@
     },
     {
       "projectID": 306676,
-      "fileID": 3425713,
+      "fileID": 3480726,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
@@ -1711,7 +1722,7 @@
     },
     {
       "projectID": 308663,
-      "fileID": 3438561,
+      "fileID": 3443407,
       "required": true,
       "__meta": {
         "name": "Snow! Real Magic! ⛄"
@@ -1795,7 +1806,7 @@
     },
     {
       "projectID": 313866,
-      "fileID": 3033266,
+      "fileID": 3468576,
       "required": true,
       "__meta": {
         "name": "Engineer's Decor"
@@ -2115,7 +2126,7 @@
     },
     {
       "projectID": 408853,
-      "fileID": 3464826,
+      "fileID": 3482053,
       "required": true,
       "__meta": {
         "name": "Particle Culling"
