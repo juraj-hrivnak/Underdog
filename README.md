@@ -1,5 +1,5 @@
 <p align="center">
-<img src=".github/wallpaper_optional3.png">
+<img src=".github/wallpaper_5.png">
 </p>
 
 # Underdog 1.12.2 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/juraj-hrivnak/Underdog/projects/3) [![main](https://github.com/juraj-hrivnak/Underdog/actions/workflows/main.yml/badge.svg)](https://github.com/juraj-hrivnak/Underdog/actions/workflows/main.yml)
