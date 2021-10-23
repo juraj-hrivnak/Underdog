@@ -53,3 +53,8 @@ options.txt
 
 # Pax
 /pax/logs/
+/pax/modpack/overrides/config
+/pax/modpack/overrides/local
+/pax/modpack/overrides/oresources
+/pax/modpack/overrides/patchouli_books
+/pax/modpack/overrides/resources
