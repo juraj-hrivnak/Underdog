@@ -6,9 +6,21 @@
   enabled: true
   biomes: {
     names: [
-      minecraft:mesa
-      minecraft:mesa_rock
-      minecraft:mesa_clear_rock
+      minecraft:swampland
+      minecraft:mutated_swampland
+      minecraft:river
+      biomesoplenty:bayou
+      biomesoplenty:bog
+      biomesoplenty:lush_swamp
+      biomesoplenty:mangrove
+      biomesoplenty:chaparral
+      biomesoplenty:wetland
+      biomesoplenty:dead_swamp
+      biomesoplenty:fen
+      biomesoplenty:quagmire
+      biomesoplenty:land_of_lakes
+      biomesoplenty:marsh
+      biomesoplenty:moor
     ]
   }
   layers: [
@@ -16,9 +28,8 @@
     # Underground
     ###########################################
     {
-      #red granite
       state: minecraft:stone:1
-      height: [ 8, 30 ]
+      height: [ 0, 30 ]
       ceiling: $OVERGROUND
     }
     {
@@ -30,14 +41,12 @@
     # OVERGROUND
     ###########################################
     {
-      #limestone
       state: quark:limestone
       height: [ 60, 90 ]
       ceiling: $OVERGROUND
     }
     {
-      #shale sandstone
-      state: quark:jasper
+      state: quark:marble
       height: [ 90, 225 ]
       ceiling: $OVERGROUND
     }

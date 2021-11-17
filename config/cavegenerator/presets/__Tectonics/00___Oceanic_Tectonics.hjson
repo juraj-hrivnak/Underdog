@@ -25,26 +25,12 @@
       height: 0
       ceiling: $underground(10)
     }
-    // {
-    //   // Lava
-    //   state: minecraft:lava
-    //   height: 0
-    //   ceiling: $underground(11)
-    // }
     {
       // Magma
       state: minecraft:magma
       height: 0
       ceiling: $underground(13)
       ###########################################
-    }
-    {
-      ###########################################
-      # Composite Rocks | maxHight 70
-      ###########################################
-      state: minecraft:stone
-      height: [ 0, 70 ]
-      ceiling: $OVERGROUND
     }
   ]
 }

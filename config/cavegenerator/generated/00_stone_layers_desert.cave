@@ -8,24 +8,14 @@
       biomesoplenty:oasis
     ]
   }
-  wallDecorators: [
-    # Spawns desert varnish underground.
-    {
-      states: minecraft:stone:1
-      matchers: sandstone
-      directions: all
-      height: [ 26, 90 ]
-      integrity: 0.25
-    }
-  ]
   layers: [
     ###########################################
     # Underground
     ###########################################
     {
-      #andesite bedrock
-      state: minecraft:stone:5
-      height: [ 8, 30 ]
+      #andesite
+      state: minecraft:stone:1
+      height: [ 0, 30 ]
       ceiling: {
         seed: 1
         frequency: 0.009
@@ -36,7 +26,7 @@
       }
     }
     {
-      #underground sandstone
+      #sandstone
       state: minecraft:sandstone
       height: [ 30, 90 ]
       ceiling: {

@@ -16,7 +16,7 @@
     {
       # Diorite
       state: minecraft:stone:3
-      height: [ 20, 30 ]
+      height: [ 0, 30 ]
       ceiling: $OVERGROUND
     }
     {

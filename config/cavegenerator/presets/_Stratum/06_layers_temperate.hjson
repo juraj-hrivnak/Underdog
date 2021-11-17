@@ -1,5 +1,9 @@
 # temperate forest-like biomes like what can be found in national parks in the US
 {
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
   enabled: true
   biomes: {
     names: [
@@ -17,26 +21,12 @@
       #red granite
       state: minecraft:stone:1
       height: [ 0, 30 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
+      ceiling: $OVERGROUND
     }
     {
       state: minecraft:stone:5
       height: [ 30, 60 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
+      ceiling: $OVERGROUND
     }
     ###########################################
     # OVERGROUND
@@ -45,14 +35,7 @@
       #green schist
       state: minecraft:stone
       height: [ 60, 204 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
+      ceiling: $OVERGROUND
     }
   ]
 }

@@ -1,4 +1,8 @@
 {
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
   enabled: true
   biomes: {
     names: [
@@ -12,26 +16,12 @@
     {
       state: minecraft:stone:1
       height: [ 0, 30 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
+      ceiling: $OVERGROUND
     }
     {
       state: biomesoplenty:dried_sand
       height: [ 30, 225 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
+      ceiling: $OVERGROUND
     }
     ###########################################
     # OVERGROUND

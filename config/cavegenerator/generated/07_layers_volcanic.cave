@@ -1,8 +1,4 @@
 {
-  imports: [
-    layers_default_ceiling.cave::OVERGROUND
-    layers_default_ceiling.cave::UNDERGROUND
-  ]
   enabled: true
   biomes: {
     names: [
@@ -18,13 +14,27 @@
     ###########################################
     {
       state: minecraft:stone:1
-      height: [ 20, 30 ]
-      ceiling: $OVERGROUND
+      height: [ 0, 30 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
     }
     {
       state: minecraft:stone:5
       height: [ 30, 60 ]
-      ceiling: $OVERGROUND
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
     }
     ###########################################
     # OVERGROUND
@@ -32,12 +42,26 @@
     {
       state: minecraft:stone:1
       height: [ 60, 90 ]
-      ceiling: $OVERGROUND
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
     }
     {
       state: minecraft:stone:5
       height: [ 90, 225 ]
-      ceiling: $OVERGROUND
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
     }
   ]
 }

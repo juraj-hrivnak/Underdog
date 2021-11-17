@@ -6,12 +6,10 @@
   enabled: true
   biomes: {
     names: [
-      minecraft:smaller_extreme_hills
-      minecraft:jungle
-      minecraft:jungle_hills
-      minecraft:jungle_edge
-      minecraft:mutated_jungle
-      minecraft:mutated_jungle_edge
+      minecraft:desert
+      minecraft:desert_hills
+      minecraft:mutated_desert
+      biomesoplenty:oasis
     ]
   }
   layers: [
@@ -19,25 +17,27 @@
     # Underground
     ###########################################
     {
+      #andesite
       state: minecraft:stone:1
-      height: [ 8, 30 ]
+      height: [ 0, 30 ]
       ceiling: $OVERGROUND
     }
     {
-      state: minecraft:stone:3
-      height: [ 30, 60 ]
+      #sandstone
+      state: minecraft:sandstone
+      height: [ 30, 90 ]
       ceiling: $OVERGROUND
     }
     ###########################################
     # OVERGROUND
     ###########################################
     {
-      state: minecraft:stone:3
-      height: [ 60, 150 ]
+      state: quark:jasper
+      height: [ 90, 150 ]
       ceiling: $OVERGROUND
     }
     {
-      state: minecraft:stone
+      state: minecraft:sandstone
       height: [ 150, 225 ]
       ceiling: $OVERGROUND
     }

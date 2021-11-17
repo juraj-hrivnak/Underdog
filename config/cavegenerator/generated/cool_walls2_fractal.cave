@@ -1,0 +1,55 @@
+{
+  enabled: false
+  replaceableBlocks: [ "air", "grass", "water" ]
+  caverns: [ {
+      ceiling: {
+        dummy: true
+        cache: false
+        frequency: 0.001
+        range: [ 90, 0 ]
+      }
+      floor: {
+        dummy: true
+        cache: false
+        frequency: 0.02
+        range: [ -30, 30 ]
+      }
+      height: [ 5, 100 ]
+      generators: {
+        seed: 99
+        threshold: 0.8
+        frequency: -0.006
+        offset: -30
+        lacunarity: 0.4
+        octaves: 6
+        gain: 0.2
+        perturb: true
+        perturbAmp: 2
+        perturbFreq: 0.07
+        type: ValueFractal
+        jitterY: -0.7
+        jitterX: -1.7
+        jitterZ: -1.7
+        returnType: NoiseLookup
+        cellularLookup: CubicFractal
+        distFunc: Natural
+        invert: true
+        interp: Linear
+        fractal: RigidMulti
+        stretch: 3
+      }
+    } ]
+  caveBlocks: [
+    { states: "minecraft:grass", height: [ 0, 240 ] }
+  ]
+  wallDecorators: [
+    {
+      states: stone
+      directions: down
+      matchers: minecraft:grass
+      height: [ 0, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+  ]
+}

@@ -1,8 +1,4 @@
 {
-  imports: [
-    layers_default_ceiling.cave::OVERGROUND
-    layers_default_ceiling.cave::UNDERGROUND
-  ]
   enabled: true
   biomes: {
     names: [
@@ -12,31 +8,35 @@
       biomesoplenty:oasis
     ]
   }
-  wallDecorators: [
-    # Spawns desert varnish underground.
-    {
-      states: minecraft:stone:1
-      matchers: sandstone
-      directions: all
-      height: [ 26, 90 ]
-      integrity: 0.25
-    }
-  ]
   layers: [
     ###########################################
     # Underground
     ###########################################
     {
-      #andesite bedrock
-      state: minecraft:stone:5
-      height: [ 8, 30 ]
-      ceiling: $OVERGROUND
+      #andesite
+      state: minecraft:stone:1
+      height: [ 0, 30 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
     }
     {
-      #underground sandstone
+      #sandstone
       state: minecraft:sandstone
       height: [ 30, 90 ]
-      ceiling: $OVERGROUND
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
     }
     ###########################################
     # OVERGROUND
@@ -44,12 +44,26 @@
     {
       state: quark:jasper
       height: [ 90, 150 ]
-      ceiling: $OVERGROUND
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
     }
     {
       state: minecraft:sandstone
       height: [ 150, 225 ]
-      ceiling: $OVERGROUND
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
     }
   ]
 }

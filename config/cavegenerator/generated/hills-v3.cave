@@ -1,0 +1,61 @@
+{
+  // Hills preset by TeksturePako
+  enabled: true
+  replaceableBlocks: [ "air", "grass", "water" ]
+  biomes: {
+    names: []
+    types: []
+  }
+  caverns: [ {
+      ceiling: {
+        dummy: true
+        cache: true
+        frequency: 0.001
+        range: [ 30, 0 ]
+      }
+      floor: {
+        dummy: true
+        cache: true
+        frequency: 0.02
+        range: [ -30, 30 ]
+      }
+      height: [ 5, 100 ]
+      generators: {
+        seed: 1
+        threshold: 0.8 // [Default: 0.8]
+        frequency: -0.006 // [Default: -0.006]
+        offset: 30 // [Default: -30]
+        type: "ValueFractal" // [Default: ValueFractal]
+        octaves: 12 // [Default: 4]
+        lacunarity: -1 // [Default: -1.5]
+        gain: -0.5 // [Default: -0.8]
+        perturb: true
+        perturbAmp: 8 // [Default: 2] You can mess around with this
+        perturbFreq: 0.09 // [Default: 0.07] You can mess around with this
+        jitterY: 20 // You can mess around with this
+        jitterX: -10.7 // You can mess around with this
+        jitterZ: -10.7 // You can mess around with this
+        returnType: NoiseLookup
+        cellularLookup: Cellular
+        distFunc: Manhattan
+        invert: false
+        interp: "Quintic" // [Default: Linear] - Both Hermite and Quintic works good
+        fractal: "RigidMulti" // [Default: RigidMulti]
+        stretch: 6 // [Default: 3] - Decrease to make floating island | Increase = more steep
+      }
+    } ]
+  caveBlocks: [
+    { states: "chisel:basalt2:7", height: [ 0, 240 ] }
+  ]
+  shell: {
+    radius: 2
+    decorators: [
+      {
+        states: magma
+        height: [ 0, 240 ]
+        matchers: chisel:basalt2:7
+        integrity: 0.2
+      }
+    ]
+  }
+}

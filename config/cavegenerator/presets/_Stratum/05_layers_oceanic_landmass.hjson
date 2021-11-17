@@ -17,7 +17,7 @@
     {
       #red granite
       state: minecraft:stone:1
-      height: [ 8, 30 ]
+      height: [ 0, 30 ]
       ceiling: $OVERGROUND
     }
     {

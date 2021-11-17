@@ -53,14 +53,14 @@
     {
       # Granite
       state: minecraft:stone:1
-      height: [ 8, 30 ]
-      ceiling: $UNDERGROUND
+      height: [ 0, 30 ]
+      ceiling: $OVERGROUND
     }
     {
       # Limestone
       state: quark:limestone
       height: [ 30, 60 ]
-      ceiling: $UNDERGROUND
+      ceiling: $OVERGROUND
     }
     ###########################################
     # OVERGROUND
@@ -68,7 +68,7 @@
     {
       # Marble
       state: quark:marble
-      height: [ 65, 90 ]
+      height: [ 60, 90 ]
       ceiling: $OVERGROUND
     }
     {
@@ -84,5 +84,58 @@
       ceiling: $OVERGROUND
     }
     ###########################################
+  ]
+  wallDecorators: [
+    {
+      states: contenttweaker:gravel_marble
+      directions: side
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+      ]
+      height: [ 65, 90 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: contenttweaker:gravel_granite
+      directions: side
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+      ]
+      height: [ 90, 120 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: contenttweaker:gravel_andesite
+      directions: side
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+      ]
+      height: [ 120, 200 ]
+      placement: EMBED
+      integrity: 1
+    }
   ]
 }

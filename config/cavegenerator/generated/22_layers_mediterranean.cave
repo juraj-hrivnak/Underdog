@@ -12,7 +12,7 @@
     {
       # Diorite
       state: minecraft:stone:3
-      height: [ 20, 30 ]
+      height: [ 0, 30 ]
       ceiling: {
         seed: 1
         frequency: 0.009

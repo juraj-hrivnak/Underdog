@@ -24,28 +24,14 @@
       // Earth's Crust
       state: minecraft:bedrock
       height: 0
-      ceiling: $underground(6)
+      ceiling: $underground(5)
     }
-    // {
-    //   // Lava
-    //   state: minecraft:lava
-    //   height: 0
-    //   ceiling: $underground(7)
-    // }
     {
       // Magma
       state: minecraft:magma
       height: 0
       ceiling: $underground(8)
       ###########################################
-    }
-    {
-      ###########################################
-      # Composite Rocks | maxHight 70
-      ###########################################
-      state: minecraft:stone
-      height: [ 0, 70 ]
-      ceiling: $OVERGROUND
     }
   ]
 }

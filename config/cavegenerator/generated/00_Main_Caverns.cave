@@ -1,5 +1,5 @@
 {
-  replaceDecorators: false
+  replaceDecorators: true
   replaceableBlocks: [
     minecraft:gravel
     minecraft:clay
@@ -67,7 +67,6 @@
     minecraft:stained_hardened_clay:14
     minecraft:stained_hardened_clay:15
   ]
-  ##############
   enabled: true
   ##############
   caverns: [
@@ -331,7 +330,7 @@
         perturbFreq: 0.12
         type: Cellular
         jitterX: 0.45
-        jitterY: 2.25
+        jitterY: 1.25
         jitterZ: 0.25
         cellularLookup: Cellular
         returnType: Distance3Div
@@ -425,7 +424,7 @@
         perturbFreq: 0.12
         type: Cellular
         jitterX: 0.45
-        jitterY: 2.25
+        jitterY: 1.25
         jitterZ: 1.25
         cellularLookup: Cellular
         returnType: Distance3Div
@@ -518,23 +517,23 @@
       integrity: 0.8
     }
     ###########################################
-    {
-      states: minecraft:gravel
-      directions: side
-      matchers: [
-        minecraft:dirt
-        minecraft:dirt:1
-        biomesoplenty:dirt
-        biomesoplenty:dirt:8
-        biomesoplenty:dirt:1
-        biomesoplenty:dirt:9
-        biomesoplenty:dirt:2
-        biomesoplenty:dirt:10
-      ]
-      height: [ 40, 240 ]
-      placement: EMBED
-      integrity: 1
-    }
+    // {
+    //   states: minecraft:gravel
+    //   directions: side
+    //   matchers: [
+    //     minecraft:dirt
+    //     minecraft:dirt:1
+    //     biomesoplenty:dirt
+    //     biomesoplenty:dirt:8
+    //     biomesoplenty:dirt:1
+    //     biomesoplenty:dirt:9
+    //     biomesoplenty:dirt:2
+    //     biomesoplenty:dirt:10
+    //   ]
+    //   height: [ 40, 240 ]
+    //   placement: EMBED
+    //   integrity: 1
+    // }
     ###########################################
     {
       states: minecraft:stone
@@ -688,7 +687,7 @@
         minecraft:stained_hardened_clay:14
         minecraft:stained_hardened_clay:15
       ]
-      height: [ 20, 30 ]
+      height: [ 0, 30 ]
       placement: EMBED
       integrity: 0.75
     }

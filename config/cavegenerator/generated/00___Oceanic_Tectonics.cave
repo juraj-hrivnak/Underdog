@@ -19,48 +19,27 @@
       state: minecraft:bedrock
       height: 0
       ceiling: {
-        seed: 9419
-        frequency: 0.007
+        seed: 1
+        frequency: 0.006
         range: [
           10
           24
         ]
       }
     }
-    // {
-    //   // Lava
-    //   state: minecraft:lava
-    //   height: 0
-    //   ceiling: $underground(11)
-    // }
     {
       // Magma
       state: minecraft:magma
       height: 0
       ceiling: {
-        seed: 9419
-        frequency: 0.007
+        seed: 1
+        frequency: 0.006
         range: [
           13
           27
         ]
       }
       ###########################################
-    }
-    {
-      ###########################################
-      # Composite Rocks | maxHight 70
-      ###########################################
-      state: minecraft:stone
-      height: [ 0, 70 ]
-      ceiling: {
-        seed: 1
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
-      }
     }
   ]
 }
