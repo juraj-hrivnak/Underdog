@@ -15,14 +15,10 @@
     tool: pickaxe
   }
   texture: {
-    shade: true
+    shade: false
     original: geolosys:blocks/hematite
   }
-  recipe: {
-    result: minecraft:air
-    xp: 0
-    quantity: 0
-  }
+  
   loot: [
     {
       item: geolosys:cluster

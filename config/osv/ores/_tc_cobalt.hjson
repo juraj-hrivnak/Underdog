@@ -14,11 +14,7 @@
     tool: pickaxe
   }
   texture: {}
-  recipe: {
-    result: tconstruct:ingots
-    xp: 1
-    quantity: 1
-  }
+  
   loot: [
     {
       item: divergentunderground:ore_tconstruct_cobalt

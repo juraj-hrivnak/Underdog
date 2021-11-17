@@ -17,11 +17,7 @@
     tool: pickaxe
   }
   texture: {}
-  recipe: {
-    result: minecraft:air
-    xp: 0
-    quantity: 0
-  }
+  
   loot: [
     {
       item: contenttweaker:lithium_cluster
