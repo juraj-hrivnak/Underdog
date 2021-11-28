@@ -1,0 +1,13 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name Custom",
+    "in the title. Changes made to the Generated file will be overwritten.",
+    "",
+    "This file defines input and output pairs for auto-generating recipes",
+    "for the Chopping Block.",
+    "",
+    "Entries are in the format (input): (output)",
+    "Entry item strings are in the format: (domain):(path):(meta)"
+  ],
+  "entries": {}
+}
