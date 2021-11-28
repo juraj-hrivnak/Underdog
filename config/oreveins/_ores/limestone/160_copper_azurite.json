@@ -1,5 +1,5 @@
 {
-  "Limestone_Copper--Malachite-Azurite": {
+  "Andesite_Copper--Azurite": {
     "type": "cluster",
     "rarity": 160,
     "count": 1,
@@ -21,24 +21,14 @@
     "horizontal_size": 14,
     "ore": [
       {
-        "block": "osv:_malachite_quark_limestone",
-        "meta": "0",
-        "weight": 54
-      },
-      {
-        "block": "osv:_malachite_quark_limestone",
-        "meta": "1",
-        "weight": 6
-      },
-      {
         "block": "osv:_azurite_quark_limestone",
         "meta": "0",
-        "weight": 40
+        "weight": 90
       },
       {
         "block": "osv:_azurite_quark_limestone",
         "meta": "1",
-        "weight": 40
+        "weight": 10
       }
     ],
     "indicator": {
@@ -46,13 +36,8 @@
       "blocks": [
         {
           "block": "geolosys:ore_sample",
-          "meta": "2",
-          "weight": 60
-        },
-        {
-          "block": "geolosys:ore_sample",
           "meta": "3",
-          "weight": 40
+          "weight": 100
         }
       ],
       "max_depth": 100

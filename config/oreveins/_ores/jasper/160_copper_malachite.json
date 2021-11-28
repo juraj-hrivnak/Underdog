@@ -1,16 +1,13 @@
 {
-  "Stone_Copper--Malachite-Azurite": {
+  "Andesite_Copper--Malachite": {
     "type": "cluster",
     "rarity": 160,
     "count": 1,
     "clusters": 2,
     "stone": [
       {
-        "block": "minecraft:stone",
+        "block": "quark:jasper",
         "meta": 0
-      },
-      {
-        "block": "divergentunderground:hard_stone"
       }
     ],
     "min_y": -38,
@@ -21,24 +18,14 @@
     "horizontal_size": 14,
     "ore": [
       {
-        "block": "osv:_malachite",
+        "block": "osv:_malachite_quark_jasper",
         "meta": "0",
-        "weight": 54
+        "weight": 90
       },
       {
-        "block": "osv:_malachite",
+        "block": "osv:_malachite_quark_jasper",
         "meta": "1",
-        "weight": 6
-      },
-      {
-        "block": "osv:_azurite",
-        "meta": "0",
-        "weight": 40
-      },
-      {
-        "block": "osv:_azurite",
-        "meta": "1",
-        "weight": 40
+        "weight": 10
       }
     ],
     "indicator": {
@@ -48,11 +35,6 @@
           "block": "geolosys:ore_sample",
           "meta": "2",
           "weight": 60
-        },
-        {
-          "block": "geolosys:ore_sample",
-          "meta": "3",
-          "weight": 40
         }
       ],
       "max_depth": 100

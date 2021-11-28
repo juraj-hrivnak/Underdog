@@ -1,5 +1,5 @@
 {
-  "Diorite_Copper--Malachite-Azurite": {
+  "Andesite_Copper--Azurite": {
     "type": "cluster",
     "rarity": 160,
     "count": 1,
@@ -7,10 +7,10 @@
     "stone": [
       {
         "block": "minecraft:stone",
-        "meta": 3
+        "meta": 1
       },
       {
-        "block": "divergentunderground:hard_diorite"
+        "block": "divergentunderground:hard_granite"
       }
     ],
     "min_y": -38,
@@ -21,24 +21,14 @@
     "horizontal_size": 14,
     "ore": [
       {
-        "block": "osv:_malachite_3",
+        "block": "osv:_azurite_1",
         "meta": "0",
-        "weight": 54
+        "weight": 90
       },
       {
-        "block": "osv:_malachite_3",
+        "block": "osv:_azurite_1",
         "meta": "1",
-        "weight": 6
-      },
-      {
-        "block": "osv:_azurite_3",
-        "meta": "0",
-        "weight": 40
-      },
-      {
-        "block": "osv:_azurite_3",
-        "meta": "1",
-        "weight": 40
+        "weight": 10
       }
     ],
     "indicator": {
@@ -46,13 +36,8 @@
       "blocks": [
         {
           "block": "geolosys:ore_sample",
-          "meta": "2",
-          "weight": 60
-        },
-        {
-          "block": "geolosys:ore_sample",
           "meta": "3",
-          "weight": 40
+          "weight": 100
         }
       ],
       "max_depth": 100
