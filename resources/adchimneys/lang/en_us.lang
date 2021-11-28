@@ -1,0 +1,10 @@
+
+# Refractory
+tile.refractory_brick_block.chimney.name=Refractory Block Chimney
+tile.refractory_brick_block.vent.name=Refractory Block Vent
+tile.refractory_brick_block.pump.name=Refractory Block Pump
+
+# Masonry
+tile.stone_bricks.chimney.name=Masonry Bricks Chimney
+tile.stone_bricks.vent.name=Masonry Bricks Vent
+tile.stone_bricks.pump.name=Masonry Bricks Pump
