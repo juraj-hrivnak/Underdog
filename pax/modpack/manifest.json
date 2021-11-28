@@ -125,14 +125,6 @@
       }
     },
     {
-      "projectID": 223794,
-      "fileID": 2747063,
-      "required": true,
-      "__meta": {
-        "name": "Applied Energistics 2"
-      }
-    },
-    {
       "projectID": 223852,
       "fileID": 2952606,
       "required": true,
@@ -157,17 +149,6 @@
       "required": true,
       "__meta": {
         "name": "AppleCore"
-      }
-    },
-    {
-      "projectID": 224476,
-      "fileID": 2565122,
-      "required": true,
-      "__meta": {
-        "name": "Hunger Overhaul",
-        "dependencies": [
-          224472
-        ]
       }
     },
     {
@@ -219,14 +200,6 @@
       "required": true,
       "__meta": {
         "name": "Baubles"
-      }
-    },
-    {
-      "projectID": 227441,
-      "fileID": 2456007,
-      "required": true,
-      "__meta": {
-        "name": "Fullscreen Windowed (Borderless) for Minecraft"
       }
     },
     {
@@ -372,6 +345,14 @@
       "required": true,
       "__meta": {
         "name": "AI Improvements"
+      }
+    },
+    {
+      "projectID": 233071,
+      "fileID": 2562139,
+      "required": true,
+      "__meta": {
+        "name": "Crafting Tweaks"
       }
     },
     {
@@ -817,7 +798,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3522788,
+      "fileID": 3537907,
       "required": true,
       "__meta": {
         "name": "CreativeCore"
@@ -825,7 +806,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3523199,
+      "fileID": 3537908,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1166,14 +1147,6 @@
       }
     },
     {
-      "projectID": 282988,
-      "fileID": 2598021,
-      "required": true,
-      "__meta": {
-        "name": "Scavenge"
-      }
-    },
-    {
       "projectID": 284139,
       "fileID": 2821069,
       "required": true,
@@ -1188,7 +1161,7 @@
     },
     {
       "projectID": 284350,
-      "fileID": 3521417,
+      "fileID": 3533386,
       "required": true,
       "__meta": {
         "name": "Athenaeum",
@@ -1418,17 +1391,6 @@
       }
     },
     {
-      "projectID": 292613,
-      "fileID": 2554559,
-      "required": true,
-      "__meta": {
-        "name": "Re-Fraction",
-        "dependencies": [
-          282988
-        ]
-      }
-    },
-    {
       "projectID": 292785,
       "fileID": 2915154,
       "required": true,
@@ -1612,7 +1574,7 @@
     },
     {
       "projectID": 306676,
-      "fileID": 3517486,
+      "fileID": 3533393,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
@@ -1801,6 +1763,14 @@
       }
     },
     {
+      "projectID": 327056,
+      "fileID": 2922328,
+      "required": true,
+      "__meta": {
+        "name": "Smooth Scrolling Everywhere (Forge)"
+      }
+    },
+    {
       "projectID": 327592,
       "fileID": 2853556,
       "required": true,
@@ -1817,14 +1787,6 @@
       "required": true,
       "__meta": {
         "name": "Cannot Build over Lava Source blocks"
-      }
-    },
-    {
-      "projectID": 336895,
-      "fileID": 3386487,
-      "required": true,
-      "__meta": {
-        "name": "NuclearCraft: Overhauled"
       }
     },
     {
@@ -1869,7 +1831,7 @@
     },
     {
       "projectID": 359407,
-      "fileID": 3508530,
+      "fileID": 3534436,
       "required": true,
       "__meta": {
         "name": "Immersive Technology",
@@ -2001,6 +1963,18 @@
       }
     },
     {
+      "projectID": 401178,
+      "fileID": 3534953,
+      "required": true,
+      "__meta": {
+        "name": "Zen Utils",
+        "dependencies": [
+          270789,
+          239197
+        ]
+      }
+    },
+    {
       "projectID": 401558,
       "fileID": 3261440,
       "required": true,
@@ -2057,7 +2031,7 @@
     },
     {
       "projectID": 408853,
-      "fileID": 3482053,
+      "fileID": 3530681,
       "required": true,
       "__meta": {
         "name": "Particle Culling"
@@ -2065,7 +2039,7 @@
     },
     {
       "projectID": 409087,
-      "fileID": 3328601,
+      "fileID": 3533274,
       "required": true,
       "__meta": {
         "name": "Entity Culling"
@@ -2081,6 +2055,15 @@
           250363,
           227083
         ]
+      }
+    },
+    {
+      "projectID": 419286,
+      "fileID": 3321174,
+      "required": true,
+      "__meta": {
+        "name": "MixinBooter",
+        "explicit": false
       }
     },
     {
@@ -2124,14 +2107,6 @@
       }
     },
     {
-      "projectID": 453925,
-      "fileID": 3231561,
-      "required": true,
-      "__meta": {
-        "name": "Macaw's Fences and Walls"
-      }
-    },
-    {
       "projectID": 465506,
       "fileID": 3261366,
       "required": true,
@@ -2157,6 +2132,18 @@
       "required": true,
       "__meta": {
         "name": "MAtmos 2020 \"Zen\""
+      }
+    },
+    {
+      "projectID": 545353,
+      "fileID": 3519479,
+      "required": true,
+      "__meta": {
+        "name": "Tinkers OreDict Cache",
+        "dependencies": [
+          419286,
+          74072
+        ]
       }
     }
   ]
