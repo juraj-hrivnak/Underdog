@@ -21,7 +21,7 @@ To get the development environment set up, please follow these five steps:
 You can do that using **terminal**, **cmd** or **GitHub Desktop** app.
 
 ### 5.
-- Run the `syncmods.bat` (Windows) or `syncmods.sh` (Linux/MacOS) script located in the `./pax` folder. \
+- Run the `syncmods.bat` (Windows) or `syncmods.sh` (Linux/MacOS) script located in the `./pax` folder.
 - Wait until it's done, and you should be good to go!
 
 [MultiMC]: https://multimc.org/
