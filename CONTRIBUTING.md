@@ -5,7 +5,7 @@
 - [Git]
 
 ## Set-up
-To get the development environment set up, please follow these five steps:
+Please follow these five steps:
 ### 1. 
 - Fork the project.
 
