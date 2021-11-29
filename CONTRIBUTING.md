@@ -11,7 +11,7 @@ Install `Forge 1.23.5.2855`.
 Delete everything from the `Underdog/.minecraft` folder
 
 ## 4.
-Clone the project to the `Underdog/.minecraft` folder. \
+Clone the project to the empty `Underdog/.minecraft` folder. \
 You can do that using **terminal**, **cmd** or **GitHub Desktop** app.
 
 ## 5.
