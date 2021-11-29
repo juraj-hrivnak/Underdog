@@ -2,7 +2,7 @@
 
 <h1 align="center">Underdog  <br>
   <a href="https://discord.gg/NXNXmdBUk5"><img src="https://img.shields.io/discord/796443640381702145?label=discord&style=flat-square" alt="Discord"></a>
-	<a href="https://www.curseforge.com/minecraft/mc-mods/create"><img src="http://cf.way2muchnoise.eu/399664.svg" alt="CF"></a><br><br>
+	<a href="https://www.curseforge.com/minecraft/modpacks/underdog"><img src="http://cf.way2muchnoise.eu/399664.svg" alt="CF"></a><br><br>
 </h1>
 
 A realistic survival/  tech/ exploration modpack
