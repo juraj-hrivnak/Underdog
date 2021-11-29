@@ -1,4 +1,5 @@
 # Contributing to Underdog
+To get the development environment set up, please follow these five steps:
 
 ## 1. 
 Fork the project.
@@ -16,4 +17,4 @@ You can do that using **terminal**, **cmd** or **GitHub Desktop** app.
 
 ## 5.
 Run the `syncmods.bat` (Windows) or `syncmods.sh` (Linux/MacOS) script located in the `./pax` folder. \
-Wait unil it's done and you are good to go!
+Wait until it's done and you are good to go!
