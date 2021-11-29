@@ -14,7 +14,7 @@ To get the development environment set up, please follow these five steps:
 - Install `Forge 1.23.5.2855`.
 
 ### 3.
-- Delete everything from the `Underdog/.minecraft` folder
+- Delete *everything* from the `Underdog/.minecraft` folder.
 
 ### 4.
 - Clone the project to the empty `Underdog/.minecraft` folder. \
