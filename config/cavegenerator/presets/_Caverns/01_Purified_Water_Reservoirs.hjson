@@ -1,0 +1,158 @@
+{
+  imports: [
+    common_values.hjson::NATURAL_STONE
+  ]
+  variables: {
+    COMMON_CEILING: {
+      seed: 1
+      cache: true
+    }
+    COMMON_FLOOR: {
+      seed: 1
+      cache: true
+      frequency: 0.06
+      range: [ 0, 8 ]
+    }
+  }
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:lush_desert
+      minecraft:plains
+      minecraft:extreme_hills
+      minecraft:extreme_hills_with_trees
+      minecraft:savanna
+      minecraft:savanna_rock
+      minecraft:mutated_savanna_rock
+      biomesoplenty:alps_foothills
+      biomesoplenty:mountain_foothills
+      biomesoplenty:pasture
+      minecraft:mutated_plains
+      biomesoplenty:lavender_fields
+      biomesoplenty:crag
+      biomesoplenty:flower_field
+      biomesoplenty:grassland
+      biomesoplenty:grove
+      minecraft:forest
+      minecraft:forest_hills
+      minecraft:birch_forest
+      minecraft:birch_forest_hills
+      minecraft:roofed_forest
+      minecraft:mutated_extreme_hills
+      minecraft:mutated_forest
+      minecraft:mutated_birch_forest
+      minecraft:mutated_birch_forest_hills
+      minecraft:mutated_roofed_forest
+      minecraft:mutated_extreme_hills_with_trees
+      biomesoplenty:bamboo_forest
+      biomesoplenty:cherry_blossom_grove
+      biomesoplenty:maple_woods
+      biomesoplenty:meadow
+      biomesoplenty:mountain
+      biomesoplenty:orchard
+      biomesoplenty:woodland
+    ]
+  }
+  replaceDecorators: true
+  replaceableBlocks: $NATURAL_STONE
+  caverns: {
+    ###########################################
+    # Purified Water Reservoirs
+    ###########################################
+    height: [
+      22
+      38
+    ]
+    ##################
+    ceiling: $COMMON_CEILING
+    floor: $COMMON_FLOOR
+    generators: {
+      seed: 1
+      frequency: 1
+      type: PerlinFractal
+      interp: Hermite
+      fractal: Billow
+      returnType: NoiseLookup
+      cellularLookup: CubicFractal
+      octaves: 2
+      perturb: true
+      threshold: 1
+      stretch: 0.85
+    }
+    walls: {
+      frequency: 0.02
+      range: [ 9, 15 ]
+    }
+    wallOffset: {
+      frequency: 0.05
+      range: [ 0, 255 ]
+    }
+  }
+  wallDecorators: [
+    {
+      states: quark:limestone
+      directions: all
+      matchers: $NATURAL_STONE
+      height: [ 24, 34 ]
+      placement: EMBED
+      integrity: 0.75
+    }
+    {
+      states: minecraft:gravel
+      directions: down
+      matchers: $NATURAL_STONE
+      height: [ 0, 30 ]
+      placement: EMBED
+      integrity: 0.75
+    }
+  ]
+  caveBlocks: [
+    {
+      states: simpledifficulty:purifiedwater
+      height: [
+        0
+        26
+      ]
+    }
+  ]
+  ponds: [
+    {
+      height: [
+        20
+        28
+      ]
+      depth: 2
+      states: simpledifficulty:purifiedwater
+    }
+  ]
+  stalactites: [
+    {
+      type: speleothem
+      state: quark:limestone
+      length: [ 2, 5 ]
+      height: [ 24, 34 ]
+      space: 0
+      size: medium
+      chance: 0.024
+    }
+    {
+      type: speleothem
+      state: quark:limestone
+      length: [ 2, 5 ]
+      height: [ 24, 34 ]
+      space: 0
+      size: giant
+      chance: 0.014
+    }
+    {
+      type: speleothem
+      state: minecraft:dirt
+      matchers: minecraft:dirt
+      length: [ 2, 5 ]
+      height: [ 50, 240 ]
+      space: 0
+      size: giant
+      chance: 0.014
+    }
+  ]
+}

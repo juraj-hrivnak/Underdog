@@ -1,0 +1,71 @@
+{
+  imports: [
+    common_values.hjson::NATURAL_STONE
+  ]
+  variables: {
+    COMMON_CEILING: {
+      seed: 1
+      dummy: true
+      cache: true
+      frequency: 0.06
+      range: [ 1, 1 ]
+    }
+    COMMON_FLOOR: {
+      seed: 1
+      dummy: true
+      cache: true
+      frequency: 0.02
+      range: [ -30, 30 ]
+    }
+  }
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:extreme_hills
+      minecraft:smaller_extreme_hills
+      minecraft:extreme_hills_with_trees
+      minecraft:mutated_extreme_hills
+      minecraft:mutated_extreme_hills_with_trees
+    ]
+  }
+  replaceDecorators: true
+  replaceableBlocks: $NATURAL_STONE
+  caverns: {
+    ###########################################
+    # Scary Volcanic Caves
+    ###########################################
+    height: [
+      1
+      200
+    ]
+    ###################
+    ceiling: $COMMON_CEILING
+    floor: $COMMON_FLOOR
+    generators: {
+      seed: 1
+      frequency: 0.0105 // [Default: 0.0505] - A lower number means bigger scale
+      offset: 0
+      lacunarity: 0.2
+      octaves: 1
+      gain: 0.094 // [Default: 0.094] Doesn't really mater
+      perturb: true
+      perturbAmp: 4
+      perturbFreq: 0.12
+      type: Cellular
+      jitterX: 0.45
+      jitterY: 1.25
+      jitterZ: 0.25
+      cellularLookup: Cellular
+      returnType: Distance3Div
+      distFunc: Manhattan
+      invert: true
+      interp: Linear
+      fractal: FBM
+      threshold: -0.05 // [Default: -0.12] [Can be: -1.0 to 0.0] A higher number means smaller caverns
+      stretch: 2.36
+    }
+  }
+  caveBlocks: [
+    { states: "minecraft:netherrack", height: [ 0, 200 ] }
+  ]
+}

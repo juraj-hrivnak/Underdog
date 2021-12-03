@@ -16,7 +16,7 @@
       # Tectonics | maxHight 20
       ###########################################
       // Earth's Crust
-      state: minecraft:bedrock
+      state: minecraft:magma
       height: 0
       ceiling: {
         seed: 1
@@ -29,7 +29,7 @@
     }
     {
       // Magma
-      state: minecraft:magma
+      state: minecraft:netherrack
       height: 0
       ceiling: {
         seed: 1
