@@ -32,7 +32,7 @@
   replaceableBlocks: $NATURAL_STONE
   caverns: {
     ###########################################
-    # Scary Volcanic Caves
+    # Hot Spring
     ###########################################
     height: [
       1
