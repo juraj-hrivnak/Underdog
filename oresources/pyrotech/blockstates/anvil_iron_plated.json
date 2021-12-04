@@ -1,0 +1,33 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "pyrotech:anvil",
+    "textures": {
+      "top": "blocks/iron_block",
+      "top_side": "blocks/iron_block",
+      "bottom_side": "blocks/stone_slab_side",
+      "bottom": "blocks/stone_slab_top",
+      "particle": "blocks/iron_block"
+    }
+  },
+  "variants": {
+    "damage": {
+      "0": {},
+      "1": {
+        "textures": {
+          "top": "pyrotech:blocks/anvil_iron_plated_damaged_a"
+        }
+      },
+      "2": {
+        "textures": {
+          "top": "pyrotech:blocks/anvil_iron_plated_damaged_b"
+        }
+      },
+      "3": {
+        "textures": {
+          "top": "pyrotech:blocks/anvil_iron_plated_damaged_c"
+        }
+      }
+    }
+  }
+}
