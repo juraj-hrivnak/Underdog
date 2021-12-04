@@ -39,7 +39,7 @@
 **/*.log
 
 # Client data
-/local/client/rtdata.json/
+/local/client/rtdata.json
 .ReAuth.cfg
 usernamecache.json
 usercache.json
