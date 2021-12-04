@@ -1,0 +1,94 @@
+{
+  enabled: true
+  // biomes: {
+  //   names: [
+  //     minecraft:extreme_hills
+  //     minecraft:smaller_extreme_hills
+  //     minecraft:extreme_hills_with_trees
+  //     minecraft:mutated_extreme_hills
+  //     minecraft:mutated_extreme_hills_with_trees
+  //   ]
+  // }
+  replaceDecorators: true
+  replaceableBlocks: [ "air", "grass", "water" ]
+  caverns: {
+    ###########################################
+    # Scary Volcanic Caves
+    ###########################################
+    height: [
+      1
+      200
+    ]
+    ceiling: {
+      seed: 1
+      dummy: true
+      frequency: 0.001
+      range: [
+        90
+        0
+      ]
+    }
+    floor: {
+      seed: 1
+      dummy: true
+      frequency: 0.02
+      range: [
+        -30
+        30
+      ]
+    }
+    generators: {
+      seed: 1
+      frequency: 0.0105 // [Default: 0.0505] - A lower number means bigger scale
+      offset: 0
+      lacunarity: 0.2
+      octaves: 1
+      gain: 0.094 // [Default: 0.094] Doesn't really mater
+      perturb: true
+      perturbAmp: 4
+      perturbFreq: 0.12
+      type: Cellular
+      jitterX: 0.45
+      jitterY: 1.25
+      jitterZ: 0.25
+      cellularLookup: Cellular
+      returnType: Distance3Div
+      distFunc: Manhattan
+      invert: true
+      interp: Linear
+      fractal: FBM
+      threshold: -0.03 // [Default: -0.12] [Can be: -1.0 to 0.0] A higher number means smaller caverns
+      stretch: 2.36
+    }
+  }
+  caveBlocks: [
+    { states: "minecraft:lava", height: [ 0, 200 ] }
+    // { states: "minecraft:magma", height: [ 0, 20 ] }
+  ]
+  // wallDecorators: [
+  //   {
+  //     states: minecraft:stone
+  //     directions: all
+  //     matchers: $NATURAL_STONE
+  //     height: [ 20, 200 ]
+  //     placement: EMBED
+  //     integrity: 1
+  //   }
+  //   {
+  //     states: minecraft:stone
+  //     directions: side
+  //     matchers: air
+  //     height: [ 20, 200 ]
+  //     placement: EMBED
+  //     integrity: 1
+  //   }
+  //   {
+  //     states: minecraft:stone
+  //     directions: side
+  //     matchers: air
+  //     height: [ 20, 200 ]
+  //     placement: OVERLAY
+  //     integrity: 1
+  //   }
+  // ]
+}

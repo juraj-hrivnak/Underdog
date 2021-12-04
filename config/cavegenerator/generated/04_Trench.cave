@@ -1,12 +1,9 @@
 {
-  NATURAL_STONE: [
-    //
-    //Gravel, Clay, Ash
+  enabled: true
+  replaceableBlocks: [
     minecraft:gravel
     minecraft:clay
     biomesoplenty:ash_block
-    //
-    //Grass
     minecraft:grass
     biomesoplenty:grass
     biomesoplenty:grass:1
@@ -14,8 +11,6 @@
     biomesoplenty:grass:3
     biomesoplenty:grass:4
     biomesoplenty:grass:7
-    //
-    //Stone
     minecraft:end_stone
     minecraft:stone:0
     minecraft:stone:1
@@ -25,31 +20,20 @@
     minecraft:stone:5
     minecraft:stone:6
     minecraft:stone:7
-    //
-    //Cobblestone
     minecraft:cobblestone
     divergentunderground:andesite_cobblestone
     divergentunderground:diorite_cobblestone
     divergentunderground:granite_cobblestone
     divergentunderground:quark_limestone_cobblestone
     divergentunderground:quark_marble_cobblestone
-    //
-    //Sandstone
     minecraft:red_sandstone
     minecraft:sandstone
     minecraft:sand:1
     minecraft:sand
-    //
-    //Magma
-    // minecraft:magma
-    //
-    //Quark Stones
     quark:limestone
     quark:marble
     quark:jasper
     quark:slate
-    //
-    //Dirts = Vanilla + BOP
     minecraft:dirt
     minecraft:dirt:1
     minecraft:dirt:2
@@ -64,8 +48,6 @@
     biomesoplenty:dirt:8
     biomesoplenty:dirt:9
     biomesoplenty:dirt:10
-    //
-    //Terracota
     minecraft:hardened_clay
     minecraft:stained_hardened_clay:0
     minecraft:stained_hardened_clay:1
@@ -83,5 +65,54 @@
     minecraft:stained_hardened_clay:13
     minecraft:stained_hardened_clay:14
     minecraft:stained_hardened_clay:15
+  ]
+  biomes: {
+    names: [
+      minecraft:ocean
+      minecraft:deep_ocean
+    ]
+  }
+  caverns: [ {
+      ceiling: {
+        seed: 1
+        dummy: true
+        cache: true
+        frequency: 0.001
+        range: [ 90, 0 ]
+      }
+      floor: {
+        seed: 1
+        dummy: true
+        cache: true
+        frequency: 0.02
+        range: [ -30, 30 ]
+      }
+      height: [ 5, 100 ]
+      generators: {
+        seed: 1
+        threshold: 0.6 // [Default: 0.8]
+        frequency: -0.006 // [Default: -0.006]
+        offset: -30 // [Default: -30]
+        type: "ValueFractal" // [Default: ValueFractal]
+        octaves: 4 // [Default: 4]
+        lacunarity: -1.5 // [Default: -1.5]
+        gain: -0.8 // [Default: -0.8]
+        perturb: true
+        perturbAmp: 2 // [Default: 2] You can mess around with this
+        perturbFreq: 0.07 // [Default: 0.07] You can mess around with this
+        jitterY: 0 // You can mess around with this
+        jitterX: 0 // You can mess around with this
+        jitterZ: 0 // You can mess around with this
+        returnType: NoiseLookup
+        cellularLookup: CubicFractal
+        distFunc: Natural
+        invert: false
+        interp: "Linear" // [Default: Linear] - Both Hermite and Quintic works good
+        fractal: "RigidMulti" // [Default: RigidMulti]
+        stretch: 3 // [Default: 3] - Decrease to make floating island | Increase = more steep
+      }
+    } ]
+  caveBlocks: [
+    { states: "minecraft:water", height: [ 0, 62 ] }
   ]
 }

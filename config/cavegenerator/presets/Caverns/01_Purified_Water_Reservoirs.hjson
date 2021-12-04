@@ -53,7 +53,7 @@
       biomesoplenty:woodland
     ]
   }
-  replaceDecorators: true
+  replaceDecorators: false
   replaceableBlocks: $NATURAL_STONE
   caverns: {
     ###########################################

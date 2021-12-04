@@ -38,7 +38,7 @@
       biomesoplenty:woodland
     ]
   }
-  replaceDecorators: true
+  replaceDecorators: false
   replaceableBlocks: [
     minecraft:gravel
     minecraft:clay
@@ -69,7 +69,6 @@
     minecraft:sandstone
     minecraft:sand:1
     minecraft:sand
-    minecraft:magma
     quark:limestone
     quark:marble
     quark:jasper
@@ -183,7 +182,6 @@
         minecraft:sandstone
         minecraft:sand:1
         minecraft:sand
-        minecraft:magma
         quark:limestone
         quark:marble
         quark:jasper
@@ -257,7 +255,6 @@
         minecraft:sandstone
         minecraft:sand:1
         minecraft:sand
-        minecraft:magma
         quark:limestone
         quark:marble
         quark:jasper
