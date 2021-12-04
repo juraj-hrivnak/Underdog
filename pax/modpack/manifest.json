@@ -329,6 +329,14 @@
       }
     },
     {
+      "projectID": 232791,
+      "fileID": 3330021,
+      "required": true,
+      "__meta": {
+        "name": "It's the little things"
+      }
+    },
+    {
       "projectID": 232838,
       "fileID": 3368712,
       "required": true,
@@ -1623,7 +1631,7 @@
     },
     {
       "projectID": 308663,
-      "fileID": 3528375,
+      "fileID": 3541266,
       "required": true,
       "__meta": {
         "name": "Snow! Real Magic! ⛄"
@@ -1842,7 +1850,7 @@
     },
     {
       "projectID": 360779,
-      "fileID": 3235195,
+      "fileID": 3548175,
       "required": true,
       "__meta": {
         "name": "SimpleDifficulty"
@@ -1874,7 +1882,7 @@
     },
     {
       "projectID": 367831,
-      "fileID": 3127156,
+      "fileID": 3543884,
       "required": true,
       "__meta": {
         "name": "AI Reducer"
@@ -1936,14 +1944,6 @@
           243121,
           252818
         ]
-      }
-    },
-    {
-      "projectID": 390992,
-      "fileID": 3023870,
-      "required": true,
-      "__meta": {
-        "name": "InvMove (Forge)"
       }
     },
     {
@@ -2064,6 +2064,14 @@
       "__meta": {
         "name": "MixinBooter",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 435044,
+      "fileID": 3536896,
+      "required": true,
+      "__meta": {
+        "name": "Better Third Person"
       }
     },
     {
