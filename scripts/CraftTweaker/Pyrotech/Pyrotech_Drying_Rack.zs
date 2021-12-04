@@ -13,7 +13,7 @@ DryingRack.removeAllRecipes();
 rh(<pyrotech:drying_rack>);
 
 val items as IItemStack[IItemStack] = {
-    <pyrotech:material:2>   : <minecraft:wheat>,
+    // <pyrotech:material:2>   : <minecraft:wheat>,
     <pyrotech:material:13>  : <pyrotech:material:12>,
     <minecraft:sponge>      : <minecraft:sponge:1>,
     <minecraft:paper>       : <pyrotech:material:25>
@@ -22,10 +22,10 @@ val items as IItemStack[IItemStack] = {
 for output, input in items {
 
     DryingRack.addRecipe(
-        input.name,        // recipe name
-        output,            // output
-        input,             // input
-        600                // duration in ticks
+        input.name + output.name,   // recipe name
+        output,                     // output
+        input,                      // input
+        600                         // duration in ticks
     );
 
 }

@@ -43,15 +43,15 @@ for i in itemsToRemove { furnace.remove(i); rh(i); }
 
 recipes.remove(<pyrotech:cog_stone>);
 recipes.addShaped(<pyrotech:cog_stone>, 
-   [[<ore:rocksHard>, <ore:rocksHard>, <ore:rocksHard>],
-    [<ore:rocksHard>, <ore:stickStone>, <ore:rocksHard>],
-    [<ore:rocksHard>, <ore:rocksHard>, <ore:rocksHard>]]);
+   [[<ore:rocks>, <ore:rocks>, <ore:rocks>],
+    [<ore:rocks>, <ore:stickStone>, <ore:rocks>],
+    [<ore:rocks>, <ore:rocks>, <ore:rocks>]]);
 
 recipes.remove(<pyrotech:sawmill_blade_stone>);
 recipes.addShaped(<pyrotech:sawmill_blade_stone>, 
-   [[<ore:rocksHard>, <ore:rocksHard>, <ore:rocksHard>],
-    [<ore:rocksHard>, <ore:stone>, <ore:rocksHard>],
-    [<ore:rocksHard>, <ore:rocksHard>, <ore:rocksHard>]]);
+   [[<ore:rocks>, <ore:rocks>, <ore:rocks>],
+    [<ore:rocks>, <ore:stone>, <ore:rocks>],
+    [<ore:rocks>, <ore:rocks>, <ore:rocks>]]);
 
 recipes.remove(<pyrotech:flint_and_tinder>);
 recipes.addShapeless(<pyrotech:flint_and_tinder>, [<pyrotech:material:10>, <pyrotech:material:13>, <divergentunderground:rock_stone>]);
