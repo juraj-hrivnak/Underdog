@@ -1,4 +1,18 @@
 
+# Gravels
+tile.contenttweaker.gravel_andesite.name=Andesite Gravel 
+tile.contenttweaker.gravel_diorite.name=Diorite Gravel  
+tile.contenttweaker.gravel_granite.name=Granite Gravel  
+tile.contenttweaker.gravel_limestone.name=Limestone Gravel
+tile.contenttweaker.gravel_marble.name=Marble Gravel   
+
+# Splitting Wedges
+tile.contenttweaker.splitting_wedge.name=Splitting Wedge
+tile.contenttweaker.splitting_wedge_hammered.name=Splitting Wedge
+
+# Pick Up Block 
+tile.contenttweaker.pick_up_block.name=Pick Up Block
+
 # Chopped Logs
 tile.contenttweaker.chopped_oak_wood.name=Chopped Oak Wood
 tile.contenttweaker.chopped_spruce_wood.name=Chopped Spruce Wood
@@ -24,34 +38,28 @@ tile.contenttweaker.chopped_ebony_wood.name=Chopped Ebony Wood
 tile.contenttweaker.chopped_eucalyptus_wood.name=Chopped Eucalyptus Wood
 
 # Firewood
-tile.contenttweaker.firewood_oak.name=Oak Firewood
-tile.contenttweaker.firewood_spruce.name=Spruce Firewood
-tile.contenttweaker.firewood_birch.name=Birch Firewood
-tile.contenttweaker.firewood_jungle.name=Jungle Firewood
-tile.contenttweaker.firewood_acacia.name=Acacia Firewood
-tile.contenttweaker.firewood_dark_oak.name=Dark Oak Firewood
-tile.contenttweaker.firewood_sacred_oak.name=Sacred Oak Firewood
-tile.contenttweaker.firewood_cherry.name=Cherry Firewood
-tile.contenttweaker.firewood_umbran.name=Umbran Firewood
-tile.contenttweaker.firewood_fir.name=Fir Firewood
-tile.contenttweaker.firewood_ethereal.name=Ethereal Firewood
-tile.contenttweaker.firewood_magic.name=Magic Firewood
-tile.contenttweaker.firewood_mangrove.name=Mangrove Firewood
-tile.contenttweaker.firewood_palm.name=Palm Firewood
-tile.contenttweaker.firewood_redwood.name=Redwood Firewood
-tile.contenttweaker.firewood_willow.name=Willow Firewood
-tile.contenttweaker.firewood_pine.name=Pine Firewood
-tile.contenttweaker.firewood_hellbark.name=Hellbark Firewood
-tile.contenttweaker.firewood_jacaranda.name=Jacaranda Firewood
-tile.contenttweaker.firewood_mahogany.name=Mahogany Firewood
-tile.contenttweaker.firewood_ebony.name=Ebony Firewood
-tile.contenttweaker.firewood_eucalyptus.name=Eucalyptus Firewood
-
-# Ground Stones
-tile.contenttweaker.rock.name=Stone
-tile.contenttweaker.rock1.name=Stone
-tile.contenttweaker.rock2.name=Stone
-tile.contenttweaker.rock3.name=Stone
+item.contenttweaker.firewood_oak.name=Oak Firewood
+item.contenttweaker.firewood_spruce.name=Spruce Firewood
+item.contenttweaker.firewood_birch.name=Birch Firewood
+item.contenttweaker.firewood_jungle.name=Jungle Firewood
+item.contenttweaker.firewood_acacia.name=Acacia Firewood
+item.contenttweaker.firewood_dark_oak.name=Dark Oak Firewood
+item.contenttweaker.firewood_sacred_oak.name=Sacred Oak Firewood
+item.contenttweaker.firewood_cherry.name=Cherry Firewood
+item.contenttweaker.firewood_umbran.name=Umbran Firewood
+item.contenttweaker.firewood_fir.name=Fir Firewood
+item.contenttweaker.firewood_ethereal.name=Ethereal Firewood
+item.contenttweaker.firewood_magic.name=Magic Firewood
+item.contenttweaker.firewood_mangrove.name=Mangrove Firewood
+item.contenttweaker.firewood_palm.name=Palm Firewood
+item.contenttweaker.firewood_redwood.name=Redwood Firewood
+item.contenttweaker.firewood_willow.name=Willow Firewood
+item.contenttweaker.firewood_pine.name=Pine Firewood
+item.contenttweaker.firewood_hellbark.name=Hellbark Firewood
+item.contenttweaker.firewood_jacaranda.name=Jacaranda Firewood
+item.contenttweaker.firewood_mahogany.name=Mahogany Firewood
+item.contenttweaker.firewood_ebony.name=Ebony Firewood
+item.contenttweaker.firewood_eucalyptus.name=Eucalyptus Firewood
 
 # Nuclearcraft Geolosys ores
 tile.contenttweaker.monazite.name=Monazite
@@ -67,6 +75,7 @@ tile.contenttweaker.magnesite_sample.name=Magnesite Sample
 
 #######################################################
 ########################################### Lumbers ###
+
 # Vanilla
 item.contenttweaker.lumber_vanilla_oak.name=Oak Lumber
 item.contenttweaker.lumber_vanilla_spruce.name=Spruce Lumber
@@ -74,6 +83,7 @@ item.contenttweaker.lumber_vanilla_birch.name=Birch Lumber
 item.contenttweaker.lumber_vanilla_jungle.name=Jungle Lumber
 item.contenttweaker.lumber_vanilla_acacia.name=Acacia Lumber
 item.contenttweaker.lumber_vanilla_dark_oak.name=Dark Oak Lumber
+
 # Biomes O Plenty
 item.contenttweaker.lumber_sacred_oak.name=Sacred Oak Lumber
 item.contenttweaker.lumber_cherry.name=Cherry Lumber
@@ -91,9 +101,11 @@ item.contenttweaker.lumber_jacaranda.name=Jacaranda Lumber
 item.contenttweaker.lumber_mahogany.name=Mahogany Lumber
 item.contenttweaker.lumber_ebony.name=Ebony Lumber
 item.contenttweaker.lumber_eucalyptus.name=Eucalyptus Lumber
+
 # Rustic
 item.contenttweaker.lumber_planks_olive.name=Olive Lumber
 item.contenttweaker.lumber_planks_ironwood.name=Ironwood Lumber
+
 # Forestry
 item.contenttweaker.lumber_planks.larch.name=Larch Lumber
 item.contenttweaker.lumber_planks.teak.name=Teak Lumber
@@ -124,8 +136,10 @@ item.contenttweaker.lumber_planks.ipe.name=Ipe Lumber
 item.contenttweaker.lumber_planks.padauk.name=Padauk Lumber
 item.contenttweaker.lumber_planks.cocobolo.name=Cocobolo Lumber
 item.contenttweaker.lumber_planks.zebrawood.name=Zebrawood Lumber
+
 # Cuisine
 item.contenttweaker.cuisine_citrus_lumber.name=Citrus Wood Lumber
+
 # Painted Wood
 item.contenttweaker.painted_wood_white_lumber.name=White Painted Wood Lumber
 item.contenttweaker.painted_wood_orange_lumber.name=Orange Painted Wood Lumber
@@ -143,8 +157,13 @@ item.contenttweaker.painted_wood_brown_lumber.name=Brown Painted Wood Lumber
 item.contenttweaker.painted_wood_green_lumber.name=Green Painted Wood Lumber
 item.contenttweaker.painted_wood_red_lumber.name=Red Painted Wood Lumber
 item.contenttweaker.painted_wood_black_lumber.name=Black Painted Wood Lumber
+
 # Immersive Engineering
 item.contenttweaker.treated_wood_lumber.name=Treated Wood Lumber
+
+# Pyrotech
+item.contenttweaker.tarred_lumber.name=Tarred Lumber
+
 #######################################################
 
 # NuclearCraft Clusters
@@ -157,3 +176,12 @@ item.contenttweaker.magnesium_cluster.name=Magnesium Cluster
 item.contenttweaker.beryl_cluster.name=Beryl Cluster
 item.contenttweaker.kimberlite_cluster.name=Kimberlite Cluster
 
+
+#######################################################
+# Nails
+
+item.contenttweaker.nail_wooden.name=Wooden Wedge
+item.contenttweaker.nail_iron.name=Iron Nail
+
+item.contenttweaker.cast_nail.name=Nail Cast
+item.contenttweaker.mold_nail.name=Metal Press Mold: Nail
