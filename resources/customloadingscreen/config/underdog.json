@@ -15,7 +15,7 @@
         {
             "image": {
                 "parent": "builtin/image",
-                "image": "customloadingscreen:image/crag.png",
+                "image": "customloadingscreen:image/gradient.png",
                 "position_type": "TOP_LEFT",
                 "offset_pos": "TOP_LEFT",
                 "position": {
