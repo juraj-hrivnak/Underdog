@@ -1,3 +1,4 @@
+
 import crafttweaker.item.IItemStack as IItemStack;
 
 <minecraft:compass>.addTooltip("Hold in the main hand to enable the Journey Map.");

@@ -1,5 +1,4 @@
 
-
 // Renaming "Blaze Powder" to "Sulfur"
 <minecraft:blaze_powder>.displayName = "Sulfur Chunk";
 <ore:dustSulfur>.add(<minecraft:blaze_powder>);
