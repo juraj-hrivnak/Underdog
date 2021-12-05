@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "charcoal_pit:blocks/bronze_reinforced_brick"
-    }
-}
