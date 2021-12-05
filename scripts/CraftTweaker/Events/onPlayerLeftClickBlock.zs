@@ -9,8 +9,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.server.IServer;
-import mods.zenutils.DelayManager;
 import crafttweaker.world.IFacing;
+import mods.zenutils.DelayManager;
 
 
 events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftClickBlockEvent) {
@@ -53,8 +53,7 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 	};
 
 
-	// if (!isNull(event.item) && <ore:toolAxe> has event.item) {
-	if (!isNull(event.item) && <pyrotech:iron_hammer>.name == event.item.name) {
+	if (!isNull(event.item) && <ore:toolHammer> has event.item) {
 
 		// Checking for the ~ ~ ~ block
 		if (blockWedgeTrasformers.keySet has event.blockState) {
