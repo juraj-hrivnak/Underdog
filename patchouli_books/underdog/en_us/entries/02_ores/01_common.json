@@ -1,6 +1,6 @@
 {
   "name": "Common",
-  "icon": "geolosys:ore_sample_vanilla",
+  "icon": "geolosys:coal:1",
   "category": "02_ores",
   "sortnum": "1",
   "read_by_default": true,
