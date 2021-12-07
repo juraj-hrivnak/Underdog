@@ -2,8 +2,8 @@
 # Syncing mods
 To sync the mods with the ones that are writen in the manifest.json, run `sync_mods.bat`.
 
-# Syncing overides
-Everyting that is not writen in the manifest.json is an overide. (For example: configs, scrips, resources)
+# Syncing overrides
+Everyting that is not writen in the manifest.json is an override. (For example: configs, scrips, resources)
 To copy the overides you changed to the pax/modpack/overides folder, run `sync_overrides.bat`.
 
 
