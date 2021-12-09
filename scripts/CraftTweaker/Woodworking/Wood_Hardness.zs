@@ -1,4 +1,5 @@
 
+#priority 9
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
@@ -126,7 +127,10 @@ furnace.setFuel(<ore:hardFirewood>  , 150);
 
 <ore:tooBig>.addAll(<ore:softwoodLog>);
 <ore:tooBig>.addAll(<ore:hardwoodLog>);
-<ore:tooBig>.addShiftTooltip(format.red(format.bold("Too big to fit in the furnace!")));
+<ore:tooBig>.addShiftTooltip(format.red(format.bold("Big")));
+
+<ore:firewood>.addAll(<ore:softFirewood>);
+<ore:firewood>.addAll(<ore:hardFirewood>);
 
     // // Rustic Painted Wood
     // <contenttweaker:painted_wood_white_lumber>      , null                     , <rustic:painted_wood_white>
