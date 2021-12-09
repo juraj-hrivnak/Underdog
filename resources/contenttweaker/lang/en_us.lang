@@ -9,6 +9,7 @@ tile.contenttweaker.gravel_marble.name=Marble Gravel
 # Splitting Wedges
 tile.contenttweaker.splitting_wedge.name=Splitting Wedge
 tile.contenttweaker.splitting_wedge_hammered.name=Splitting Wedge
+tile.contenttweaker.splitting_wedge_flint.name=Flint
 
 # Pick Up Block 
 tile.contenttweaker.pick_up_block.name=Pick Up Block

@@ -124,4 +124,19 @@ val wedgeHammered = VanillaFactory.createBlock("splitting_wedge_hammered", <bloc
     });
     wedgeHammered.passable = true;
     wedgeHammered.register();
-    
+
+val flintWedge = VanillaFactory.createBlock("splitting_wedge_flint", <blockmaterial:rock>);
+    flintWedge.setAxisAlignedBB(AxisAlignedBB.create(0.35F, -0.1F, 0.35F, 0.65F, 0.4F, 0.65F));
+    flintWedge.toolClass = "pickaxe";
+    flintWedge.toolLevel = 0;
+    flintWedge.fullBlock = false;
+    flintWedge.lightOpacity = 0;
+    flintWedge.enumBlockRenderType = "MODEL";
+    flintWedge.gravity = true;
+    flintWedge.blockLayer = "CUTOUT_MIPPED";
+    flintWedge.replaceable = false;
+    flintWedge.blockHardness = 2.0;
+    flintWedge.blockSoundType = <soundtype:stone>;
+    flintWedge.setCreativeTab(<creativetab:decorations>);
+    flintWedge.passable = true;
+    flintWedge.register();
