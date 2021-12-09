@@ -45,7 +45,44 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 		<blockstate:biomesoplenty:log_3:axis=y,variant=mahogany>	: <blockstate:contenttweaker:chopped_mahogany_wood>		,
 		<blockstate:biomesoplenty:log_3:axis=y,variant=ebony>		: <blockstate:contenttweaker:chopped_ebony_wood>		,
 		<blockstate:biomesoplenty:log_3:axis=y,variant=eucalyptus>	: <blockstate:contenttweaker:chopped_eucalyptus_wood>	,
+
+		// Rustic
+		<blockstate:rustic:log:axis=y,variant=olive>				: <blockstate:contenttweaker:chopped_rustic_olive>		,
+		<blockstate:rustic:log:axis=y,variant=ironwood>				: <blockstate:contenttweaker:chopped_rustic_ironwood>	,
+
+		// Forestry
+		<blockstate:forestry:logs.0:axis=y,variant=larch>						: <blockstate:contenttweaker:chopped.larch>				,
+		<blockstate:forestry:logs.0:axis=y,variant=teak>						: <blockstate:contenttweaker:chopped.teak>				,
+		<blockstate:forestry:logs.0:axis=y,variant=acacia>						: <blockstate:contenttweaker:chopped.acacia>			,
+		<blockstate:forestry:logs.0:axis=y,variant=lime>						: <blockstate:contenttweaker:chopped.lime>				,
+		<blockstate:forestry:logs.1:axis=y,variant=chestnut>					: <blockstate:contenttweaker:chopped.chestnut>			,
+		<blockstate:forestry:logs.1:axis=y,variant=wenge>						: <blockstate:contenttweaker:chopped.wenge>				,
+		<blockstate:forestry:logs.1:axis=y,variant=baobab>						: <blockstate:contenttweaker:chopped.baobab>			,
+		<blockstate:forestry:logs.1:axis=y,variant=sequoia>						: <blockstate:contenttweaker:chopped.sequoia>			,
+		<blockstate:forestry:logs.2:axis=y,variant=kapok>						: <blockstate:contenttweaker:chopped.kapok>				,
+		<blockstate:forestry:logs.2:axis=y,variant=ebony>						: <blockstate:contenttweaker:chopped.ebony>				,
+		<blockstate:forestry:logs.2:axis=y,variant=mahogany>					: <blockstate:contenttweaker:chopped.mahogany>			,
+		<blockstate:forestry:logs.2:axis=y,variant=balsa>						: <blockstate:contenttweaker:chopped.balsa>				,
+		<blockstate:forestry:logs.3:axis=y,variant=willow>						: <blockstate:contenttweaker:chopped.willow>			,
+		<blockstate:forestry:logs.3:axis=y,variant=walnut>						: <blockstate:contenttweaker:chopped.walnut>			,
+		<blockstate:forestry:logs.3:axis=y,variant=greenheart>					: <blockstate:contenttweaker:chopped.greenheart>		,
+		<blockstate:forestry:logs.3:axis=y,variant=cherry>						: <blockstate:contenttweaker:chopped.cherry>			,
+		<blockstate:forestry:logs.4:axis=y,variant=mahoe>						: <blockstate:contenttweaker:chopped.mahoe>				,
+		<blockstate:forestry:logs.4:axis=y,variant=poplar>						: <blockstate:contenttweaker:chopped.poplar>			,
+		<blockstate:forestry:logs.4:axis=y,variant=palm>						: <blockstate:contenttweaker:chopped.palm>				,
+		<blockstate:forestry:logs.4:axis=y,variant=papaya>						: <blockstate:contenttweaker:chopped.papaya>			,
+		<blockstate:forestry:logs.5:axis=y,variant=pine>						: <blockstate:contenttweaker:chopped.pine>				,
+		<blockstate:forestry:logs.5:axis=y,variant=plum>						: <blockstate:contenttweaker:chopped.plum>				,
+		<blockstate:forestry:logs.5:axis=y,variant=maple>						: <blockstate:contenttweaker:chopped.maple>				,
+		<blockstate:forestry:logs.5:axis=y,variant=citrus>						: <blockstate:contenttweaker:chopped.citrus>			,
+		<blockstate:forestry:logs.6:axis=y,variant=giganteum>					: <blockstate:contenttweaker:chopped.giganteum>			,
+		<blockstate:forestry:logs.6:axis=y,variant=ipe>							: <blockstate:contenttweaker:chopped.ipe>				,
+		<blockstate:forestry:logs.6:axis=y,variant=padauk>						: <blockstate:contenttweaker:chopped.padauk>			,
+		<blockstate:forestry:logs.6:axis=y,variant=cocobolo>					: <blockstate:contenttweaker:chopped.cocobolo>			,
+		<blockstate:forestry:logs.7:axis=y,variant=zebrawood>					: <blockstate:contenttweaker:chopped.zebrawood>			,
 		
+		// Cuisine
+		<blockstate:cuisine:log:axis=y>											: <blockstate:contenttweaker:chopped_cuisine_citrus>	,
 	};
 	
 	val blockWedgeTrasformers as IBlockState[IBlockState] = {

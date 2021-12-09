@@ -52,6 +52,42 @@ createChoppedWoodBlock("chopped_mahogany_wood"   , <item:contenttweaker:firewood
 createChoppedWoodBlock("chopped_ebony_wood"      , <item:contenttweaker:firewood_ebony>       );
 createChoppedWoodBlock("chopped_eucalyptus_wood" , <item:contenttweaker:firewood_eucalyptus>  );
 
+createChoppedWoodBlock("chopped_rustic_olive"    , <item:contenttweaker:rustic_firewood_olive>         );
+createChoppedWoodBlock("chopped_rustic_ironwood" , <item:contenttweaker:rustic_firewood_ironwood>      );
+
+createChoppedWoodBlock("chopped.larch"           , <item:contenttweaker:forestry_firewood_larch>       );
+createChoppedWoodBlock("chopped.teak"            , <item:contenttweaker:forestry_firewood_teak>        );
+createChoppedWoodBlock("chopped.acacia"          , <item:contenttweaker:forestry_firewood_acacia>      );
+createChoppedWoodBlock("chopped.lime"            , <item:contenttweaker:forestry_firewood_lime>        );
+createChoppedWoodBlock("chopped.chestnut"        , <item:contenttweaker:forestry_firewood_chestnut>    );
+createChoppedWoodBlock("chopped.wenge"           , <item:contenttweaker:forestry_firewood_wenge>       );
+createChoppedWoodBlock("chopped.baobab"          , <item:contenttweaker:forestry_firewood_baobab>      );
+createChoppedWoodBlock("chopped.sequoia"         , <item:contenttweaker:forestry_firewood_sequoia>     );
+createChoppedWoodBlock("chopped.kapok"           , <item:contenttweaker:forestry_firewood_kapok>       );
+createChoppedWoodBlock("chopped.ebony"           , <item:contenttweaker:forestry_firewood_ebony>       );
+createChoppedWoodBlock("chopped.mahogany"        , <item:contenttweaker:forestry_firewood_mahogany>    );
+createChoppedWoodBlock("chopped.balsa"           , <item:contenttweaker:forestry_firewood_balsa>       );
+createChoppedWoodBlock("chopped.willow"          , <item:contenttweaker:forestry_firewood_willow>      );
+createChoppedWoodBlock("chopped.walnut"          , <item:contenttweaker:forestry_firewood_walnut>      );
+createChoppedWoodBlock("chopped.greenheart"      , <item:contenttweaker:forestry_firewood_greenheart>  );
+createChoppedWoodBlock("chopped.cherry"          , <item:contenttweaker:forestry_firewood_cherry>      );
+createChoppedWoodBlock("chopped.mahoe"           , <item:contenttweaker:forestry_firewood_mahoe>       );
+createChoppedWoodBlock("chopped.poplar"          , <item:contenttweaker:forestry_firewood_poplar>      );
+createChoppedWoodBlock("chopped.palm"            , <item:contenttweaker:forestry_firewood_palm>        );
+createChoppedWoodBlock("chopped.papaya"          , <item:contenttweaker:forestry_firewood_papaya>      );
+createChoppedWoodBlock("chopped.pine"            , <item:contenttweaker:forestry_firewood_pine>        );
+createChoppedWoodBlock("chopped.plum"            , <item:contenttweaker:forestry_firewood_plum>        );
+createChoppedWoodBlock("chopped.maple"           , <item:contenttweaker:forestry_firewood_maple>       );
+createChoppedWoodBlock("chopped.citrus"          , <item:contenttweaker:forestry_firewood_citrus>      );
+createChoppedWoodBlock("chopped.giganteum"       , <item:contenttweaker:forestry_firewood_giganteum>   );
+createChoppedWoodBlock("chopped.ipe"             , <item:contenttweaker:forestry_firewood_ipe>         );
+createChoppedWoodBlock("chopped.padauk"          , <item:contenttweaker:forestry_firewood_padauk>      );
+createChoppedWoodBlock("chopped.cocobolo"        , <item:contenttweaker:forestry_firewood_cocobolo>    );
+createChoppedWoodBlock("chopped.zebrawood"       , <item:contenttweaker:forestry_firewood_zebrawood>   );
+
+createChoppedWoodBlock("chopped_cuisine_citrus"  , <item:contenttweaker:cuisine_firewood_citrus>       );
+
+
 val wedge = VanillaFactory.createBlock("splitting_wedge", <blockmaterial:iron>);
     wedge.setAxisAlignedBB(AxisAlignedBB.create(0.35F, -0.1F, 0.35F, 0.65F, 0.4F, 0.65F));
     wedge.toolClass = "pickaxe";
