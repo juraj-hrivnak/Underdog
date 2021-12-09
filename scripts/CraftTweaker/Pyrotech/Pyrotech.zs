@@ -112,3 +112,11 @@ Dropt.list("torch")
 <ore:listAllmilk>.add(<pyrotech:bucket_clay:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_wood:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_stone:1>);
+
+// Wood Pile
+recipes.remove(<pyrotech:log_pile>);
+recipes.addShaped(<pyrotech:log_pile>, 
+   [[<ore:firewood>, <ore:firewood>, <ore:firewood>],
+    [<ore:firewood>, <ore:firewood>, <ore:firewood>],
+    [<ore:firewood>, <ore:firewood>, <ore:firewood>]]);
+furnace.setFuel(<pyrotech:log_pile>  , 1080);
