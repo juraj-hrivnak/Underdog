@@ -20,6 +20,7 @@ tile.contenttweaker.chopped_birch_wood.name=Chopped Birch Wood
 tile.contenttweaker.chopped_jungle_wood.name=Chopped Jungle Wood
 tile.contenttweaker.chopped_acacia_wood.name=Chopped Acacia Wood
 tile.contenttweaker.chopped_dark_oak_wood.name=Chopped Dark Oak Wood
+
 tile.contenttweaker.chopped_sacred_oak_wood.name=Chopped Sacred Oak Wood
 tile.contenttweaker.chopped_cherry_wood.name=Chopped Cherry Wood
 tile.contenttweaker.chopped_umbran_wood.name=Chopped Umbran Wood
@@ -37,6 +38,42 @@ tile.contenttweaker.chopped_mahogany_wood.name=Chopped Mahogany Wood
 tile.contenttweaker.chopped_ebony_wood.name=Chopped Ebony Wood
 tile.contenttweaker.chopped_eucalyptus_wood.name=Chopped Eucalyptus Wood
 
+tile.contenttweaker.chopped_rustic_olive.name=Chopped Olive Wood
+tile.contenttweaker.chopped_rustic_ironwood.name=Chopped Ironwood Wood
+
+tile.contenttweaker.chopped.larch.name=Chopped Larch Wood
+tile.contenttweaker.chopped.teak.name=Chopped Teak Wood
+tile.contenttweaker.chopped.acacia.name=Chopped Acacia Wood
+tile.contenttweaker.chopped.lime.name=Chopped Lime Wood
+tile.contenttweaker.chopped.chestnut.name=Chopped Chestnut Wood
+tile.contenttweaker.chopped.wenge.name=Chopped Wenge Wood
+tile.contenttweaker.chopped.baobab.name=Chopped Baobab Wood
+tile.contenttweaker.chopped.sequoia.name=Chopped Sequoia Wood
+tile.contenttweaker.chopped.kapok.name=Chopped Kapok Wood
+tile.contenttweaker.chopped.ebony.name=Chopped Ebony Wood
+tile.contenttweaker.chopped.mahogany.name=Chopped Mahogany Wood
+tile.contenttweaker.chopped.balsa.name=Chopped Balsa Wood
+tile.contenttweaker.chopped.willow.name=Chopped Willow Wood
+tile.contenttweaker.chopped.walnut.name=Chopped Walnut Wood
+tile.contenttweaker.chopped.greenheart.name=Chopped Greenheart Wood
+tile.contenttweaker.chopped.cherry.name=Chopped Cherry Wood
+tile.contenttweaker.chopped.mahoe.name=Chopped Mahoe Wood
+tile.contenttweaker.chopped.poplar.name=Chopped Poplar Wood
+tile.contenttweaker.chopped.palm.name=Chopped Palm Wood
+tile.contenttweaker.chopped.papaya.name=Chopped Papaya Wood
+tile.contenttweaker.chopped.pine.name=Chopped Pine Wood
+tile.contenttweaker.chopped.plum.name=Chopped Plum Wood
+tile.contenttweaker.chopped.maple.name=Chopped Maple Wood
+tile.contenttweaker.chopped.citrus.name=Chopped Citrus Wood
+tile.contenttweaker.chopped.giganteum.name=Chopped Giganteum Wood
+tile.contenttweaker.chopped.ipe.name=Chopped Ipe Wood
+tile.contenttweaker.chopped.padauk.name=Chopped Padauk Wood
+tile.contenttweaker.chopped.cocobolo.name=Chopped Cocobolo Wood
+tile.contenttweaker.chopped.zebrawood.name=Chopped Zebrawood Wood
+
+tile.contenttweaker.chopped_cuisine_citrus.name=Chopped Citrus Wood
+
+
 # Firewood
 item.contenttweaker.firewood_oak.name=Oak Firewood
 item.contenttweaker.firewood_spruce.name=Spruce Firewood
@@ -44,6 +81,7 @@ item.contenttweaker.firewood_birch.name=Birch Firewood
 item.contenttweaker.firewood_jungle.name=Jungle Firewood
 item.contenttweaker.firewood_acacia.name=Acacia Firewood
 item.contenttweaker.firewood_dark_oak.name=Dark Oak Firewood
+
 item.contenttweaker.firewood_sacred_oak.name=Sacred Oak Firewood
 item.contenttweaker.firewood_cherry.name=Cherry Firewood
 item.contenttweaker.firewood_umbran.name=Umbran Firewood
@@ -60,6 +98,42 @@ item.contenttweaker.firewood_jacaranda.name=Jacaranda Firewood
 item.contenttweaker.firewood_mahogany.name=Mahogany Firewood
 item.contenttweaker.firewood_ebony.name=Ebony Firewood
 item.contenttweaker.firewood_eucalyptus.name=Eucalyptus Firewood
+
+item.contenttweaker.rustic_firewood_olive.name=Olive Firewood
+item.contenttweaker.rustic_firewood_ironwood.name=Ironwood Firewood
+
+item.contenttweaker.forestry_firewood_larch.name=Larch Firewood
+item.contenttweaker.forestry_firewood_teak.name=Teak Firewood
+item.contenttweaker.forestry_firewood_acacia.name=Acacia Firewood
+item.contenttweaker.forestry_firewood_lime.name=Lime Firewood
+item.contenttweaker.forestry_firewood_chestnut.name=Chestnut Firewood
+item.contenttweaker.forestry_firewood_wenge.name=Wenge Firewood
+item.contenttweaker.forestry_firewood_baobab.name=Baobab Firewood
+item.contenttweaker.forestry_firewood_sequoia.name=Sequoia Firewood
+item.contenttweaker.forestry_firewood_kapok.name=Kapok Firewood
+item.contenttweaker.forestry_firewood_ebony.name=Ebony Firewood
+item.contenttweaker.forestry_firewood_mahogany.name=Mahogany Firewood
+item.contenttweaker.forestry_firewood_balsa.name=Balsa Firewood
+item.contenttweaker.forestry_firewood_willow.name=Willow Firewood
+item.contenttweaker.forestry_firewood_walnut.name=Walnut Firewood
+item.contenttweaker.forestry_firewood_greenheart.name=Greenheart Firewood
+item.contenttweaker.forestry_firewood_cherry.name=Cherry Firewood
+item.contenttweaker.forestry_firewood_mahoe.name=Mahoe Firewood
+item.contenttweaker.forestry_firewood_poplar.name=Poplar Firewood
+item.contenttweaker.forestry_firewood_palm.name=Palm Firewood
+item.contenttweaker.forestry_firewood_papaya.name=Papaya Firewood
+item.contenttweaker.forestry_firewood_pine.name=Pine Firewood
+item.contenttweaker.forestry_firewood_plum.name=Plum Firewood
+item.contenttweaker.forestry_firewood_maple.name=Maple Firewood
+item.contenttweaker.forestry_firewood_citrus.name=Citrus Firewood
+item.contenttweaker.forestry_firewood_giganteum.name=Giganteum Firewood
+item.contenttweaker.forestry_firewood_ipe.name=Ipe Firewood
+item.contenttweaker.forestry_firewood_padauk.name=Padauk Firewood
+item.contenttweaker.forestry_firewood_cocobolo.name=Cocobolo Firewood
+item.contenttweaker.forestry_firewood_zebrawood.name=Zebrawood Firewood
+
+item.contenttweaker.cuisine_firewood_citrus.name=Citrus Firewood
+
 
 # Nuclearcraft Geolosys ores
 tile.contenttweaker.monazite.name=Monazite

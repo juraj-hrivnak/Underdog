@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+    "particle": "forestry:blocks/wood/heart.teak",
+    "log_top": "forestry:blocks/wood/heart.teak",
+    "log": "forestry:blocks/wood/bark.teak"
+    },
+    "model": "contenttweaker:choped_wood",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
+    

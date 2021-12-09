@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+    "particle": "forestry:blocks/wood/heart.padauk",
+    "log_top": "forestry:blocks/wood/heart.padauk",
+    "log": "forestry:blocks/wood/bark.padauk"
+    },
+    "model": "contenttweaker:choped_wood",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
+    

@@ -1,0 +1,90 @@
+
+  { "textures": {
+    "particle": "forestry:blocks/wood/heart.mahogany",
+    "log_top": "forestry:blocks/wood/heart.mahogany",
+    "log": "forestry:blocks/wood/bark.mahogany" },
+    "display": {
+        "gui": {
+            "rotation": [ 220, 33, 134 ],
+            "translation": [ 0.1, 0.1, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 90, 270, 0 ],
+            "translation": [ -0.4, 1.4, -0.8 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "from": [ 5.01, 0.01, 1.51 ], 
+            "to": [ 12.01, 16.01, 5.51 ], 
+            "faces": {
+                "north": { "texture": "#log_top", "uv": [ 9, 8, 16, 9 ] },
+                "east": { "texture": "#log_top", "uv": [ 3, 6, 14, 9 ], "rotation": 90 },
+                "south": { "texture": "#log_top", "uv": [ 3, 7, 13, 16 ], "rotation": 90 },
+                "west": { "texture": "#log", "uv": [ 0, 0, 4, 16 ] },
+                "up": { "texture": "#log_top", "uv": [ 0, 6, 7, 10 ] },
+                "down": { "texture": "#log_top", "uv": [ 0, 7, 7, 11 ] }
+            }
+        },
+        {
+            "from": [ 2.49, -0.01, 7.99 ], 
+            "to": [ 5.49, 15.99, 14.49 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#log", "uv": [ 0, 0, 3, 16 ] },
+                "east": { "texture": "#log_top", "uv": [ 9.5, 6, 16, 10.5 ] },
+                "south": { "texture": "#log_top", "uv": [ 3, 2, 13, 5 ], "rotation": 90 },
+                "west": { "texture": "#log_top", "uv": [ 0, 7, 6.5, 6 ] },
+                "up": { "texture": "#log_top", "uv": [ 7, 0, 10, 6.5 ] },
+                "down": { "texture": "#log_top", "uv": [ 8, 9.5, 11, 16 ] }
+            }
+        },
+        {
+            "from": [ 0.47, 0, 2.47 ], 
+            "to": [ 4.47, 16, 7.47 ], 
+            "faces": {
+                "north": { "texture": "#log_top", "uv": [ 3, 2, 13, 6 ], "rotation": 90 },
+                "east": { "texture": "#log_top", "uv": [ 3, 11, 11, 16 ], "rotation": 90 },
+                "south": { "texture": "#log", "uv": [ 0, 0, 4, 16 ] },
+                "west": { "texture": "#log_top", "uv": [ 3, 0, 13, 5 ], "rotation": 90 },
+                "up": { "texture": "#log_top", "uv": [ 8, 11, 12, 16 ] },
+                "down": { "texture": "#log_top", "uv": [ 9, 0, 13, 5 ] }
+            }
+        },
+        {
+            "from": [ 6.49, -0.01, 6.49 ], 
+            "to": [ 12.49, 15.99, 12.49 ], 
+            "faces": {
+                "north": { "texture": "#log", "uv": [ 0, 0, 6, 16 ] },
+                "east": { "texture": "#log", "uv": [ 0, 0, 6, 16 ] },
+                "south": { "texture": "#log_top", "uv": [ 3, 0, 13, 6 ], "rotation": 90 },
+                "west": { "texture": "#log_top", "uv": [ 3, 10, 13, 16 ], "rotation": 90 },
+                "up": { "texture": "#log_top", "uv": [ 10, 0, 16, 6 ] },
+                "down": { "texture": "#log_top", "uv": [ 10, 11, 16, 16 ] }
+            }
+        }
+    ]
+}
+    

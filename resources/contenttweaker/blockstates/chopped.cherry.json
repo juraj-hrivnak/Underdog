@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+    "particle": "forestry:blocks/wood/heart.cherry",
+    "log_top": "forestry:blocks/wood/heart.cherry",
+    "log": "forestry:blocks/wood/bark.cherry"
+    },
+    "model": "contenttweaker:choped_wood",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
+    
