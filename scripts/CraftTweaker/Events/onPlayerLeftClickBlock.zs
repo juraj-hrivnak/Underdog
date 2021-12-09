@@ -85,20 +85,15 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 		<blockstate:cuisine:log:axis=y>											: <blockstate:contenttweaker:chopped_cuisine_citrus>	,
 	};
 	
-	val blockWedgeTrasformers as IBlockState[IBlockState] = {
-		<blockstate:contenttweaker:splitting_wedge>	: <blockstate:contenttweaker:splitting_wedge_hammered>
-	};
-
-
 	if (!isNull(event.item) && <ore:toolHammer> has event.item) {
 
 		// Checking for the ~ ~ ~ block
-		if (blockWedgeTrasformers.keySet has event.blockState) {
+		if (event.blockState == <blockstate:contenttweaker:splitting_wedge>) {
 			event.damageItem(1);
 			event.player.setCooldown(event.player.currentItem, 10);
 			
 			// Replacing the ~ ~ ~ block
-			event.world.setBlockState(blockWedgeTrasformers[event.blockState], event.position);
+			event.world.setBlockState(<blockstate:contenttweaker:splitting_wedge_hammered>, event.position);
 
 			// Checking for the ~ ~-1 ~ block
 			if (blockTrasformers has event.world.getBlockState(event.position.getOffset(IFacing.down, 1))) {
@@ -108,7 +103,6 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 				// Replacing the ~ ~-1 ~ block
 				event.world.setBlockState(blockTrasformers[event.world.getBlockState(event.position.getOffset(IFacing.down, 1))], event.position.getOffset(IFacing.down, 1));
 				server.commandManager.executeCommand(server, "/playsound tconstruct:wood_hit block @a " + event.x + " " + event.y + " " + event.z);
-				server.commandManager.executeCommand(server, "/particle blockcrack " + event.x + " " + event.y + " " + event.z + " 0.2 0 0.2 0 10 normal @a " + event.block.definition.id);
 				
 			} else {
 
@@ -117,5 +111,32 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 
 			}
 		}
+
+		// Checking for the ~ ~ ~ block
+		if (event.blockState == <blockstate:contenttweaker:splitting_wedge_flint>) {
+			event.player.give(<pyrotech:material:10> * 3);
+			event.damageItem(1);
+			event.player.setCooldown(event.player.currentItem, 10);
+			
+			// Replacing the ~ ~ ~ block
+			event.world.setBlockState(<blockstate:minecraft:air>, event.position);
+
+			// Checking for the ~ ~-1 ~ block
+			if (blockTrasformers has event.world.getBlockState(event.position.getOffset(IFacing.down, 1))) {
+				event.damageItem(1);
+				event.cancel();
+
+				// Replacing the ~ ~-1 ~ block
+				event.world.setBlockState(blockTrasformers[event.world.getBlockState(event.position.getOffset(IFacing.down, 1))], event.position.getOffset(IFacing.down, 1));
+				server.commandManager.executeCommand(server, "/playsound tconstruct:wood_hit block @a " + event.x + " " + event.y + " " + event.z);
+				
+			} else {
+
+				// Destroy the ~ ~ ~ block
+				event.world.destroyBlock(event.position, true);
+
+			}
+		}
+
 	}
 });
