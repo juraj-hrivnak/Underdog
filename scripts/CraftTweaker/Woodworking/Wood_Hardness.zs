@@ -127,7 +127,6 @@ furnace.setFuel(<ore:hardFirewood>  , 150);
 <ore:tooBig>.addAll(<ore:softwoodLog>);
 <ore:tooBig>.addAll(<ore:hardwoodLog>);
 <ore:tooBig>.addShiftTooltip(format.red(format.bold("Too big to fit in the furnace!")));
-<ore:tooBig>.addShiftTooltip(format.red(format.bold("Too big to fit in the furnace!")));
 
     // // Rustic Painted Wood
     // <contenttweaker:painted_wood_white_lumber>      , null                     , <rustic:painted_wood_white>
