@@ -11,7 +11,7 @@ Please follow these five steps:
 
 ### 2.
 - In your MultiMC, add a new 1.12.2 instance called Underdog.
-- Install `Forge 1.23.5.2855`.
+- Install `Forge 1.23.5.2858`.
 
 ### 3.
 - Delete *everything* from the `Underdog/.minecraft` folder.
