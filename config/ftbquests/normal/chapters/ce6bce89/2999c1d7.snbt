@@ -1,0 +1,36 @@
+{
+	title: "Chop down a tree",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d0b1026c"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "f4bad7ca",
+		type: "item",
+		items: [{
+			id: "pyrotech:chopping_block",
+			tag: {
+				BlockEntityTag: {
+					sawdust: 0,
+					x: 28,
+					stackHandler: {
+						Size: 1,
+						Items: []
+					},
+					y: 63,
+					z: 620,
+					id: "pyrotech:tile.tilechoppingblock",
+					recipeProgress: 0.0f,
+					durabilityUntilNextDamage: 16
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

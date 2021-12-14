@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"605a727e",
+		"b52f5a6b"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "c8d2b223",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 16"
+		}]
+	}]
+}

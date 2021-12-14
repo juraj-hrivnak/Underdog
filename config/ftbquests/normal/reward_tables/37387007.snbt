@@ -1,0 +1,13 @@
+{
+	title: "Basic Juices",
+	loot_size: 1,
+	rewards: [{
+		item: "harvestcraft:carrotjuiceitem"
+	},
+	{
+		item: "harvestcraft:blueberryjuiceitem"
+	},
+	{
+		item: "harvestcraft:applejuiceitem"
+	}]
+}

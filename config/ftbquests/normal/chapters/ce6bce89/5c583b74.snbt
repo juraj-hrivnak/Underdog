@@ -1,12 +1,13 @@
 {
-	x: 6.5d,
-	y: -2.5d,
-	shape: "hexagon",
+	x: 2.8d,
+	y: 2.0d,
 	dependencies: [
-		"93c60a7f"
+		"1fdb348f"
 	],
+	hide: true,
+	size: 0.8d,
 	tasks: [{
-		uid: "4dee2db0",
+		uid: "e75a6df2",
 		type: "item",
 		items: [{
 			item: "tconstruct:tooltables"

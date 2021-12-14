@@ -1,0 +1,30 @@
+{
+	title: "Wood 'hard' working",
+	icon: "contenttweaker:lumber_pine",
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"2999c1d7"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "3459e07d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "lumber",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any lumber"
+				}
+			}
+		}],
+		count: 16L
+	}]
+}

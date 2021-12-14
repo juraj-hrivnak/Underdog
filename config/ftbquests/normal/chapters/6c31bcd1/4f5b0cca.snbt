@@ -1,11 +1,13 @@
 {
-	title: "Book",
+	title: "Technology",
 	disable_toast: true,
-	x: -4.0d,
-	y: -1.5d,
+	x: -0.5d,
+	y: -2.5d,
+	shape: "hexagon",
 	dependencies: [
-		"9fc1af0b"
+		"6f44316e"
 	],
+	hide: true,
 	tasks: [{
 		uid: "a4211cfe",
 		type: "checkmark",

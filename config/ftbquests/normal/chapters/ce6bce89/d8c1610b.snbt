@@ -1,14 +1,16 @@
 {
-	x: -7.5d,
-	y: -1.5d,
+	x: 1.0d,
+	y: 1.0d,
 	dependencies: [
-		"eee99477"
+		"af997dfc"
 	],
+	hide: true,
+	size: 0.8d,
 	tasks: [{
-		uid: "cc724226",
+		uid: "bbd2c1d5",
 		type: "item",
 		items: [{
-			item: "scannable:scanner"
+			item: "pyrotech:bucket_wood"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

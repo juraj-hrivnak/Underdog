@@ -1,7 +1,8 @@
 {
+	icon: "divergentunderground:ore_ie_copper",
 	x: -2.5d,
 	y: -2.0d,
-	shape: "hexagon",
+	shape: "heart",
 	tasks: [{
 		uid: "48ccbe41",
 		type: "item",

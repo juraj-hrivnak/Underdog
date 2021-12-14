@@ -1,7 +1,7 @@
 {
-	title: "Getting Started",
+	title: "Where I am?",
 	icon: "divergentunderground:rock_stone",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "square"
 }

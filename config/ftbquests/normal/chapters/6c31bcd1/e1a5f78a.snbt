@@ -2,14 +2,16 @@
 	title: "Exploration",
 	icon: "harvestcraft:dragonfruititem",
 	disable_toast: true,
-	x: -6.0d,
-	y: -1.5d,
+	x: -6.5d,
+	y: -2.5d,
+	shape: "circle",
 	text: [
-		""
+		"&7   Underdog is packed up with a &lton&r&7 of world generation features, most of them absolutely custom, some of them not."
 	],
 	dependencies: [
 		"9fc1af0b"
 	],
+	hide: true,
 	tasks: [{
 		uid: "67a4596d",
 		type: "checkmark"

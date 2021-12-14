@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"af997dfc"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "ed17c88c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:table_top"
+		}]
+	}]
+}
