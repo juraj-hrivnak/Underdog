@@ -36,19 +36,20 @@ val itemsToRemove as IItemStack[] = [
     <pyrotech:cobblestone>,
     <pyrotech:cobblestone:1>,
     <pyrotech:cobblestone:2>,
-    <pyrotech:cobblestone:3>
+    <pyrotech:cobblestone:3>,
 ];
 
 for i in itemsToRemove { furnace.remove(i); rh(i); }
+rh(<pyrotech:crude_hammer>);
 
 recipes.remove(<pyrotech:cog_stone>);
-recipes.addShaped(<pyrotech:cog_stone>, 
+recipes.addShaped(<pyrotech:cog_stone>,
    [[<ore:rocks>, <ore:rocks>, <ore:rocks>],
     [<ore:rocks>, <ore:stickStone>, <ore:rocks>],
     [<ore:rocks>, <ore:rocks>, <ore:rocks>]]);
 
 recipes.remove(<pyrotech:sawmill_blade_stone>);
-recipes.addShaped(<pyrotech:sawmill_blade_stone>, 
+recipes.addShaped(<pyrotech:sawmill_blade_stone>,
    [[<ore:rocks>, <ore:rocks>, <ore:rocks>],
     [<ore:rocks>, <ore:stone>, <ore:rocks>],
     [<ore:rocks>, <ore:rocks>, <ore:rocks>]]);
@@ -62,6 +63,7 @@ furnace.remove(<minecraft:stone:5>, <pyrotech:cobblestone>);
 furnace.remove(<minecraft:stone:3>, <pyrotech:cobblestone:1>);
 furnace.remove(<minecraft:stone:1>, <pyrotech:cobblestone:2>);
 
+val clayLump = <pyrotech:material:17>;
 
 val slabsFix as IItemStack[IItemStack] = {
     <minecraft:stone_slab:1>  : <minecraft:sandstone>,
@@ -104,7 +106,7 @@ Dropt.list("torch")
         .items([<pyrotech:material:21>]) // 50% drop coal pieces
       )
       .addDrop(Dropt.drop()
-        .selector(Dropt.weight(50)) // drop nothing else 50% of time  
+        .selector(Dropt.weight(50)) // drop nothing else 50% of time
       )
   );
 
@@ -115,8 +117,20 @@ Dropt.list("torch")
 
 // Wood Pile
 recipes.remove(<pyrotech:log_pile>);
-recipes.addShaped(<pyrotech:log_pile>, 
+recipes.addShaped(<pyrotech:log_pile>,
    [[<ore:firewood>, <ore:firewood>, <ore:firewood>],
     [<ore:firewood>, <ore:firewood>, <ore:firewood>],
     [<ore:firewood>, <ore:firewood>, <ore:firewood>]]);
 furnace.setFuel(<pyrotech:log_pile>  , 1080);
+
+// Masonry Brick
+recipes.addShaped(<pyrotech:material:16>,
+   [[null       , clayLump    ],
+    [<ore:rocks>, <ore:rocks> ]]);
+
+// Stone Hammer
+recipes.remove(<pyrotech:stone_hammer>);
+recipes.addShaped(<pyrotech:stone_hammer>, [
+    [<ore:rocks>    , <ore:rocks>         ],
+    [<ore:stickWood>, <ore:rocks>.reuse() ]
+]);
