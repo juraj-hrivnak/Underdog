@@ -112,8 +112,9 @@ furnace.setFuel(<ore:softFirewood>  , 100);
 furnace.setFuel(<ore:hardwoodLumber>, 240 / 2);
 furnace.setFuel(<ore:hardwoodLog>   , 0);       // 900
 furnace.setFuel(<ore:hardwoodPlanks>, 440 / 2);
-furnace.setFuel(<ore:hardFirewood>  , 150);
+furnace.setFuel(<ore:hardFirewood>  , 200);
 
+furnace.setFuel(<minecraft:stick>, 25);
 
 <ore:softwoodLumber>.addShiftTooltip(format.yellow(format.bold("Softwood")));
 <ore:softwoodLog>   .addShiftTooltip(format.yellow(format.bold("Softwood")));
