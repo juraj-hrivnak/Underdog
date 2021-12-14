@@ -22,6 +22,8 @@ val potteryItems as IIngredient[IItemStack] = {
     <pyrotech:bucket_clay>                      : <pyrotech:bucket_clay_unfired>,
     <minecraft:brick>                           : <pyrotech:material:24>,
     <pyrotech:material:5>                       : <pyrotech:material:9>,
+
+    // Terracota
     <minecraft:white_glazed_terracotta>         : <minecraft:stained_hardened_clay>,
     <minecraft:orange_glazed_terracotta>        : <minecraft:stained_hardened_clay:1>,
     <minecraft:magenta_glazed_terracotta>       : <minecraft:stained_hardened_clay:2>,
@@ -37,8 +39,17 @@ val potteryItems as IIngredient[IItemStack] = {
     <minecraft:brown_glazed_terracotta>         : <minecraft:stained_hardened_clay:12>,
     <minecraft:green_glazed_terracotta>         : <minecraft:stained_hardened_clay:13>,
     <minecraft:red_glazed_terracotta>           : <minecraft:stained_hardened_clay:14>,
-    <minecraft:black_glazed_terracotta>         : <minecraft:stained_hardened_clay:15>
+    <minecraft:black_glazed_terracotta>         : <minecraft:stained_hardened_clay:15>,
 
+    // Connectors | Relays
+    <immersiveengineering:connector>            : <contenttweaker:unfired_lv_connector>,
+    <immersiveengineering:connector:2>          : <contenttweaker:unfired_mv_connector>,
+    <immersiveengineering:connector:4>          : <contenttweaker:unfired_hv_connector>,
+    <immersiveengineering:connector:1>          : <contenttweaker:unfired_lv_relay>,
+    <immersiveengineering:connector:3>          : <contenttweaker:unfired_mv_relay>,
+
+    // Pot
+    <rustic:vase>                               : <contenttweaker:unfired_pot>,
 };
 
 val nonPotteryItems as IIngredient[IItemStack] = {
@@ -61,15 +72,15 @@ val nonPotteryItems as IIngredient[IItemStack] = {
 for output, input in potteryItems {
     furnace.remove(output, input);
     PitKiln.addRecipe(  "pit_kiln_"   + output.displayName, output, input, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
-    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 200, 0.16,  [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
-    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 200);
+    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 2400, 0.16,  [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
+    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 2400);
     MKSmelter.addRecipe(input, output);
 }
 
 for output, input in nonPotteryItems {
     furnace.remove(output, input);
     PitKiln.addRecipe(  "pitkiln_"    + output.displayName, output, input, 2400, 0.33, [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
-    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 200, 0.16,  [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
-    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 200);
+    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 1200, 0.16,  [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
+    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 1200);
     MKSmelter.addRecipe(input, output);
 }

@@ -15,7 +15,6 @@ val items as IIngredient[IItemStack] = {
     <pyrotech:material:31> * 3          : <pyrotech:material:10>,
     <minecraft:redstone> * 2            : <pyrotech:material:36>,
     <minecraft:quartz> * 2              : <pyrotech:material:37>,
-    <pyrotech:material:16> * 2          : <minecraft:stone_slab:5>,
     <pyrotech:material:10> * 3          : <minecraft:flint>,
     <pyrotech:material:11> * 3          : <minecraft:bone>,
     <pyrotech:material:18> * 9          : <minecraft:diamond>,
