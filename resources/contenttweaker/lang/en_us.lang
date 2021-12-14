@@ -6,6 +6,12 @@ tile.contenttweaker.gravel_granite.name=Granite Gravel
 tile.contenttweaker.gravel_limestone.name=Limestone Gravel
 tile.contenttweaker.gravel_marble.name=Marble Gravel   
 
+# Unfired things
+item.contenttweaker.unfired_pot.name=Unfired Pot
+item.contenttweaker.unfired_lv_connector.name=Unfired LV Wire Connector
+item.contenttweaker.unfired_mv_connector.name=Unfired MV Wire Connector
+item.contenttweaker.unfired_hv_connector.name=Unfired HV Wire Connector
+
 # Splitting Wedges
 tile.contenttweaker.splitting_wedge.name=Splitting Wedge
 tile.contenttweaker.splitting_wedge_hammered.name=Splitting Wedge

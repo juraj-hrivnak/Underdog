@@ -7,6 +7,12 @@ import mods.contenttweaker.Item;
 
 val lumbers as string[string] = {
 
+    // Unfired things
+    unfired_pot                   : "unfired_pot"                    ,
+    unfired_lv_connector          : "unfired_lv_connector"           ,
+    unfired_mv_connector          : "unfired_mv_connector"           ,
+    unfired_hv_connector          : "unfired_hv_connector"           ,
+
     // Crafting Table
     table_top                     : "table_top"                      ,
 
