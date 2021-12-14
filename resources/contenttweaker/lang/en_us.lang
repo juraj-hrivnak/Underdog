@@ -11,6 +11,8 @@ item.contenttweaker.unfired_pot.name=Unfired Pot
 item.contenttweaker.unfired_lv_connector.name=Unfired LV Wire Connector
 item.contenttweaker.unfired_mv_connector.name=Unfired MV Wire Connector
 item.contenttweaker.unfired_hv_connector.name=Unfired HV Wire Connector
+item.contenttweaker.unfired_lv_relay.name=Unfired LV Wire Relay
+item.contenttweaker.unfired_mv_relay.name=Unfired HV Wire Relay
 
 # Splitting Wedges
 tile.contenttweaker.splitting_wedge.name=Splitting Wedge
