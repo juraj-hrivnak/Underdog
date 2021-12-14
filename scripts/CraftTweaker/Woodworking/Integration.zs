@@ -163,3 +163,26 @@ for lumber, x in woodworking {
 }
 
 Chopping.addRecipe("chopping_nail", woodenNail, <ore:hardwoodLumber>, [1], [2]);
+Chopping.addRecipe("chopping_sticks", <minecraft:stick>, <ore:firewood>, [1], [4]);
+
+// 1 log => 8 lumber = 16 sticks
+// 1 log => 6 firewood = 24 sticks
+
+recipes.addShaped("sticks", <minecraft:stick> * 4,
+    [[<ore:lumber>],
+     [<ore:lumber>]]);
+
+recipes.addShaped("table_top", <contenttweaker:table_top>,
+    [[<ore:rocks>   , <pyrotech:material:10>],
+     [<ore:lumber>  , <ore:lumber>          ]]);
+
+// Removing default recipes for crafting tables
+recipes.remove(<minecraft:crafting_table>);
+recipes.remove(<tconstruct:tooltables>);
+
+recipes.addShapeless(<tconstruct:tooltables>,
+    [<contenttweaker:table_top>, woodenNail,
+     <ore:lumber>, <ore:lumber>]);
+
+recipes.addShapeless(<minecraft:crafting_table>, [<tconstruct:tooltables>]);
+recipes.addShapeless(<tconstruct:tooltables>, [<minecraft:crafting_table>]);
