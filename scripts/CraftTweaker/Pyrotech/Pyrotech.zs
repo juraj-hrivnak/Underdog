@@ -134,3 +134,65 @@ recipes.addShaped(<pyrotech:stone_hammer>, [
     [<ore:rocks>    , <ore:rocks>         ],
     [<ore:stickWood>, <ore:rocks>.reuse() ]
 ]);
+
+
+val refracLump  = <pyrotech:material:35>;
+val refracBrick = <pyrotech:material:5>;
+val refracBlock = <pyrotech:refractory_brick_block>;
+
+// Refractory
+recipes.remove(<pyrotech:brick_kiln>);
+recipes.remove(<pyrotech:brick_oven>);
+recipes.remove(<pyrotech:brick_sawmill>);
+recipes.remove(<pyrotech:brick_crucible>);
+// Kiln
+recipes.addShaped(<pyrotech:brick_kiln>,
+   [[refracBrick, refracLump  , refracBrick ],
+    [refracLump , null        , refracLump  ],
+    [refracBrick, refracBlock , refracBrick ]]);
+// Oven
+recipes.addShaped(<pyrotech:brick_oven>,
+   [[refracBrick, refracBrick , refracBrick ],
+    [refracLump , null        , refracLump  ],
+    [refracBrick, refracBlock , refracBrick ]]);
+// Sawmill
+recipes.addShaped(<pyrotech:brick_sawmill>,
+   [[refracBrick, null        , refracBrick ],
+    [refracLump , null        , refracLump  ],
+    [refracBrick, refracBlock , refracBrick ]]);
+// Crucible
+recipes.addShaped(<pyrotech:brick_crucible>,
+   [[refracBrick, null        , refracBrick ],
+    [refracLump , refracLump  , refracLump  ],
+    [refracBrick, refracBlock , refracBrick ]]);
+
+
+val masonryBrick = <pyrotech:material:16>;
+val masonryBlock = <pyrotech:stone_bricks>;
+
+// Stone
+recipes.remove(<pyrotech:stone_kiln>);
+recipes.remove(<pyrotech:stone_oven>);
+recipes.remove(<pyrotech:stone_sawmill>);
+recipes.remove(<pyrotech:stone_crucible>);
+
+// Kiln
+recipes.addShaped(<pyrotech:stone_kiln>,
+   [[masonryBrick , clayLump    , masonryBrick  ],
+    [clayLump     , null        , clayLump      ],
+    [masonryBrick , masonryBlock, masonryBrick  ]]);
+// Oven
+recipes.addShaped(<pyrotech:stone_oven>,
+   [[masonryBrick , masonryBrick  , masonryBrick],
+    [clayLump     , null        , clayLump      ],
+    [masonryBrick , masonryBlock, masonryBrick  ]]);
+// Sawmill
+recipes.addShaped(<pyrotech:stone_sawmill>,
+   [[masonryBrick , null        , masonryBrick  ],
+    [clayLump     , null        , clayLump      ],
+    [masonryBrick , masonryBlock, masonryBrick  ]]);
+// Crucible
+recipes.addShaped(<pyrotech:stone_crucible>,
+   [[masonryBrick , null        , masonryBrick  ],
+    [clayLump     , clayLump    , clayLump      ],
+    [masonryBrick , masonryBlock, masonryBrick  ]]);

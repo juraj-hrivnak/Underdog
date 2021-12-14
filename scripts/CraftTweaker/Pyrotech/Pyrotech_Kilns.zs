@@ -72,8 +72,8 @@ val nonPotteryItems as IIngredient[IItemStack] = {
 for output, input in potteryItems {
     furnace.remove(output, input);
     PitKiln.addRecipe(  "pit_kiln_"   + output.displayName, output, input, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
-    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 2400, 0.16,  [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
-    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 2400);
+    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 1200, 0.16,  [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
+    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 1200);
     MKSmelter.addRecipe(input, output);
 }
 
