@@ -14,6 +14,9 @@ tile.contenttweaker.splitting_wedge_flint.name=Flint
 # Pick Up Block 
 tile.contenttweaker.pick_up_block.name=Pick Up Block
 
+# Crafting Top
+item.contenttweaker.table_top.name=Crafting Top
+
 # Chopped Logs
 tile.contenttweaker.chopped_oak_wood.name=Chopped Oak Wood
 tile.contenttweaker.chopped_spruce_wood.name=Chopped Spruce Wood

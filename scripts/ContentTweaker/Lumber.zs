@@ -7,6 +7,9 @@ import mods.contenttweaker.Item;
 
 val lumbers as string[string] = {
 
+    // Crafting Table
+    table_top                     : "table_top"                      ,
+
     // Nails
     cast                          : "cast_nail"                      ,
     mold                          : "mold_nail"                      ,
