@@ -1,0 +1,6 @@
+
+{
+  "Name": "exoticbirds.parrot",
+  "Registry ID": "exoticbirds:parrot",
+  "Class": "pavocado.exoticbirds.entity.Birds.EntityParrot"
+}

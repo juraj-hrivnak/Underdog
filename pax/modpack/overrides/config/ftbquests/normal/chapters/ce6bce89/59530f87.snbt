@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	dependencies: [
+		"d57b4573"
+	],
+	hide: true,
+	tasks: [{
+		uid: "07ec7403",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_crucible"
+		}]
+	}]
+}

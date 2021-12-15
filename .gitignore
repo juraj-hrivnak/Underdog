@@ -39,7 +39,8 @@
 **/*.log
 
 # Client data
-/local/client/rtdata.json
+config/cherishedworlds/favorites.dat
+local/client/rtdata.json
 .ReAuth.cfg
 usernamecache.json
 usercache.json
@@ -53,10 +54,10 @@ options.txt
 
 # Pax
 /pax/logs/
-/pax/modpack/overrides/config
-/pax/modpack/overrides/local
-/pax/modpack/overrides/oresources
-/pax/modpack/overrides/patchouli_books
-/pax/modpack/overrides/resources
-/pax/modpack/overrides/scripts
-/pax/modpack/overrides/structures
+# /pax/modpack/overrides/config
+# /pax/modpack/overrides/local
+# /pax/modpack/overrides/oresources
+# /pax/modpack/overrides/patchouli_books
+# /pax/modpack/overrides/resources
+# /pax/modpack/overrides/scripts
+# /pax/modpack/overrides/structures

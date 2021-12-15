@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"95ef62d7",
+		"8f0a0a45"
+	],
+	tasks: [{
+		uid: "4df809df",
+		type: "item",
+		items: [{
+			id: "cuisine:spice_bottle",
+			tag: {
+				Fluid: {
+					FluidName: "soy_sauce",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

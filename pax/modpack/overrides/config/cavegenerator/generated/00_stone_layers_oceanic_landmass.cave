@@ -1,0 +1,56 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:outback
+      biomesoplenty:brushland
+    ]
+  }
+  layers: [
+    ###########################################
+    # Underground
+    ###########################################
+    {
+      #red granite
+      state: minecraft:stone:1
+      height: [ 0, 30 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    {
+      #shale
+      state: quark:marble
+      height: [ 30, 60 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+    ###########################################
+    # OVERGROUND
+    ###########################################
+    {
+      #shale sandstone
+      state: minecraft:sandstone
+      height: [ 60, 225 ]
+      ceiling: {
+        seed: 1
+        frequency: 0.009
+        range: [
+          0
+          5
+        ]
+      }
+    }
+  ]
+}

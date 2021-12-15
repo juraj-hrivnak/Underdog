@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	shape: "square",
+	dependencies: [
+		"2df431ba"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "80127bd7",
+		type: "item",
+		items: [{
+			item: "pyrotech:log_pile"
+		}]
+	}]
+}

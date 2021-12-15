@@ -1,0 +1,29 @@
+{
+  "parent": "contenttweaker:block/pick_up_block",
+  "display": {
+		"thirdperson_righthand": {
+			"translation": [0, 18.25, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 15.5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 15.5, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 15.5, 0]
+		},
+		"ground": {
+			"translation": [0, 15.5, 0]
+		},
+		"gui": {
+			"translation": [0, 15.5, 0]
+		},
+		"head": {
+			"translation": [0, 15.5, 0]
+		},
+		"fixed": {
+			"translation": [0, 15.5, 0]
+		}
+	}
+}

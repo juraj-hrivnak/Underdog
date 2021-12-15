@@ -1,0 +1,24 @@
+{
+	title: "Welcome to Underdog",
+	icon: {
+		id: "patchouli:guide_book",
+		tag: {
+			"patchouli:book": "patchouli:underdog"
+		}
+	},
+	disable_toast: true,
+	always_invisible: false,
+	group: -831795575,
+	default_quest_shape: "",
+	images: [{
+		x: -5.0d,
+		y: -4.0d,
+		width: 11.61d,
+		height: 1.87d,
+		rotation: 0.0d,
+		image: "modpack:textures/gui/underdog_7.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

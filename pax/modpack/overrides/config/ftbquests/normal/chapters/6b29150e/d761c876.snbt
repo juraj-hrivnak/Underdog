@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"451fb1d8"
+	],
+	tasks: [{
+		uid: "93950789",
+		type: "item",
+		items: [{
+			item: "cuisine:placed_dish"
+		}]
+	}]
+}

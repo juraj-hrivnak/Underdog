@@ -1,0 +1,148 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name Custom",
+    "in the title. Changes made to the Generated file will be overwritten.",
+    "",
+    "This file defines ore compatibility.",
+    "",
+    "Slag content will be generated for each oredict entry.",
+    "",
+    "The first valid key in each langKey list will be chosen; reorder keys",
+    "to change which key is selected.",
+    "",
+    "The first valid nugget in each output list will be chosen; reorder nuggets",
+    "to change which nugget is selected.",
+    "",
+    "Slag color is a hex color code without the #",
+    "",
+    "Lang keys are in the format: (domain):(key)",
+    "",
+    "Output item strings are in the format: (domain):(path):(meta)"
+  ],
+  "oredict": {
+    "oreAluminum": {
+      "slagColor": "e2e2e3",
+      "langKey": [
+        "geolosys:geolosys.cluster.aluminum"
+      ],
+      "output": [
+        "immersiveengineering:metal:21"
+      ]
+    },
+    "oreArdite": {
+      "slagColor": "e85e17",
+      "langKey": [
+        "divergentunderground:item.divergentunderground.ore_tconstruct_ardite",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore"
+      ],
+      "output": [
+        "tconstruct:nuggets:1"
+      ]
+    },
+    "oreCobalt": {
+      "slagColor": "1c5bc1",
+      "langKey": [
+        "divergentunderground:item.divergentunderground.ore_tconstruct_cobalt",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore",
+        "osv:tile.tconstruct.ore"
+      ],
+      "output": [
+        "tconstruct:nuggets:0"
+      ]
+    },
+    "oreCopper": {
+      "slagColor": "ffaa1c",
+      "langKey": [
+        "geolosys:geolosys.cluster.copper"
+      ],
+      "output": [
+        "immersiveengineering:metal:20"
+      ]
+    },
+    "oreGold": {
+      "slagColor": "fcee4b",
+      "langKey": [
+        "geolosys:geolosys.cluster.gold"
+      ],
+      "output": [
+        "minecraft:gold_nugget:0"
+      ]
+    },
+    "oreIron": {
+      "slagColor": "d8af93",
+      "langKey": [
+        "geolosys:geolosys.cluster.iron"
+      ],
+      "output": [
+        "minecraft:iron_nugget:0"
+      ]
+    },
+    "oreLead": {
+      "slagColor": "95afee",
+      "langKey": [
+        "geolosys:geolosys.cluster.lead"
+      ],
+      "output": [
+        "immersiveengineering:metal:22"
+      ]
+    },
+    "oreNickel": {
+      "slagColor": "e4e5d8",
+      "langKey": [
+        "geolosys:geolosys.cluster.nickel"
+      ],
+      "output": [
+        "immersiveengineering:metal:24"
+      ]
+    },
+    "oreOsmium": {
+      "slagColor": "9babc4",
+      "langKey": [
+        "geolosys:geolosys.cluster.osmium"
+      ],
+      "output": [
+        "mekanism:nugget:1"
+      ]
+    },
+    "oreSilver": {
+      "slagColor": "e8f6fd",
+      "langKey": [
+        "geolosys:geolosys.cluster.silver"
+      ],
+      "output": [
+        "immersiveengineering:metal:23"
+      ]
+    },
+    "oreTin": {
+      "slagColor": "c3e9ff",
+      "langKey": [
+        "geolosys:geolosys.cluster.tin"
+      ],
+      "output": [
+        "mekanism:nugget:6"
+      ]
+    },
+    "oreUranium": {
+      "slagColor": "5c734b",
+      "langKey": [
+        "geolosys:geolosys.cluster.uranium"
+      ],
+      "output": [
+        "immersiveengineering:metal:25"
+      ]
+    }
+  }
+}

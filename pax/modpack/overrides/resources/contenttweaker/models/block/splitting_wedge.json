@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "contenttweaker:blocks/splitting_wedge",
+		"particle": "contenttweaker:blocks/splitting_wedge"
+	},
+	"elements": [
+		{
+			"from": [6, 4, 6],
+			"to": [10, 6, 10],
+			"faces": {
+				"north": {"uv": [0, 8, 4, 10], "texture": "#0"},
+				"east": {"uv": [0, 8, 4, 10], "texture": "#0"},
+				"south": {"uv": [0, 8, 4, 10], "texture": "#0"},
+				"west": {"uv": [0, 8, 4, 10], "texture": "#0"},
+				"up": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"down": {"uv": [12, 0, 16, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 0, 6.5],
+			"to": [9.5, 4, 9.5],
+			"faces": {
+				"north": {"uv": [4, 0, 7, 4], "texture": "#0"},
+				"east": {"uv": [4, 0, 7, 4], "texture": "#0"},
+				"south": {"uv": [4, 0, 7, 4], "texture": "#0"},
+				"west": {"uv": [4, 0, 7, 4], "texture": "#0"},
+				"down": {"uv": [0, 4, 3, 7], "texture": "#0"}
+			}
+		}
+	]
+}

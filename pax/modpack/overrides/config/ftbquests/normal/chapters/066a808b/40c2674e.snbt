@@ -1,0 +1,12 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "4b6b928e",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster"
+		}]
+	}]
+}

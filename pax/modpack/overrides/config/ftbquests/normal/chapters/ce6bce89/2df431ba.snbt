@@ -1,0 +1,35 @@
+{
+	title: "Firewood",
+	icon: "contenttweaker:firewood_pine",
+	x: 0.0d,
+	y: 5.0d,
+	description: "Log splitting.",
+	text: [
+		"&lTask:",
+		"&7Place the flint on top of a log &b(Right-Click)&r&7 and smash it with a hammer &b(Left-Click)&r&7 to get 6* firewood."
+	],
+	dependencies: [
+		"b52f5a6b",
+		"f47fc98c"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "037cf240",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "firewood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any firewood"
+				}
+			}
+		}]
+	}]
+}

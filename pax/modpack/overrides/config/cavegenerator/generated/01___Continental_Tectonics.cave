@@ -1,0 +1,46 @@
+{
+  blacklistBiomes: true
+  biomes: {
+    names: [
+      minecraft:ocean
+      minecraft:deep_ocean
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+    ]
+  }
+  enabled: true
+  layers: [
+    {
+      ###########################################
+      # Tectonics | maxHight 8
+      ###########################################
+      // Earth's Crust
+      state: minecraft:magma
+      height: 0
+      ceiling: {
+        seed: 1
+        frequency: 0.006
+        range: [
+          5
+          19
+        ]
+      }
+    }
+    {
+      // Magma
+      state: minecraft:stone:1
+      height: 0
+      ceiling: {
+        seed: 1
+        frequency: 0.006
+        range: [
+          8
+          22
+        ]
+      }
+      ###########################################
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Rare",
+  "icon": "divergentunderground:gem_raw_diamond",
+  "category": "02_ores",
+  "sortnum": "2",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "title": "Rare",
+      "text": "Rare:$(br) ▂ 210 Gold$(br) ▃ 220 Kimberlite (Diamonds)$(br) ▃ 220 Beryl (Emeralds)$(br) ▅ 230 Sphalerite (Zinc)$(br) ▇ 230 Platinum$(br) ▇ 230 Osmium (Generated in the same vein as Platinum)"
+    }
+  ]
+}

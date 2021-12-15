@@ -1,0 +1,39 @@
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:outback
+      biomesoplenty:brushland
+    ]
+  }
+  layers: [
+    ###########################################
+    # Underground
+    ###########################################
+    {
+      #red granite
+      state: minecraft:stone:1
+      height: [ 0, 30 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #shale
+      state: quark:marble
+      height: [ 30, 60 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+    # OVERGROUND
+    ###########################################
+    {
+      #shale sandstone
+      state: minecraft:sandstone
+      height: [ 60, 225 ]
+      ceiling: $OVERGROUND
+    }
+  ]
+}

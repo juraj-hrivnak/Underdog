@@ -1,0 +1,50 @@
+{
+	title: "Crusher",
+	icon: "immersiveengineering:metal_multiblock 1 1",
+	x: 1.5d,
+	y: -4.5d,
+	dependencies: [
+		"b6e96ff5",
+		"e35ad925"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "b76063f2",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "2d5a3c5e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "d3f41339",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "fd2ad686",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "0bb26b4b",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}],
+		count: 9L
+	}]
+}

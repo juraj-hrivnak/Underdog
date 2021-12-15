@@ -1,0 +1,37 @@
+{
+  "Slate_Iron-Hematite": {
+    "type": "curve",
+    "rarity": 190,
+    "count": 1,
+    "stone": [
+      {
+        "block": "quark:slate",
+        "meta": 0
+      }
+    ],
+    "min_y": -38,
+    "max_y": -8,
+    "use_relative_y": true,
+    "density": 750,
+    "vertical_size": 4,
+    "horizontal_size": 14,
+    "ore": [
+      {
+        "block": "osv:_hematite_quark_slate",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "0",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

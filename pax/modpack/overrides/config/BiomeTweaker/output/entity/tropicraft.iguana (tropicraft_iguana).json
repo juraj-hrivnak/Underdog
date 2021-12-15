@@ -1,0 +1,6 @@
+
+{
+  "Name": "tropicraft.iguana",
+  "Registry ID": "tropicraft:iguana",
+  "Class": "net.tropicraft.core.common.entity.hostile.EntityIguana"
+}

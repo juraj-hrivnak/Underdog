@@ -1,0 +1,25 @@
+{
+	title: "Underdog",
+	icon: {
+		id: "patchouli:guide_book",
+		tag: {
+			"patchouli:book": "patchouli:underdog"
+		}
+	},
+	disable_toast: true,
+	x: -3.712244897959188d,
+	y: 4.161904761904772d,
+	shape: "heart",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d002200f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "359c8b4b",
+		type: "checkmark"
+	}]
+}

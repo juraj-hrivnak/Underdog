@@ -1,0 +1,83 @@
+{
+  imports: [
+    common_values.hjson::NATURAL_STONE
+  ]
+  variables: {
+    COMMON_CEILING: {
+      seed: 1
+      cache: true
+    }
+    COMMON_FLOOR: {
+      seed: 1
+      cache: true
+      frequency: 0.06
+      range: [ -8, 8 ]
+    }
+  }
+  enabled: true
+  blacklistBiomes: true
+  biomes: {
+    names: [
+      biomesoplenty:volcanic_island
+      minecraft:ocean
+      minecraft:deep_ocean
+      minecraft:river
+      minecraft:frozen_river
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+    ]
+    types: [
+      MOUNTAIN
+      MESA
+      SWAMP
+    ]
+  }
+  replaceDecorators: false
+  replaceableBlocks: $NATURAL_STONE
+  caverns: {
+    ###########################################
+    # Underground Caverns
+    ###########################################
+    height: [
+      25
+      55
+    ]
+    ###################
+    ceiling: $COMMON_CEILING
+    floor: $COMMON_FLOOR
+    generators: {
+      seed: 1
+      frequency: 0.02
+      type: Cellular
+      returnType: Distance3Div
+      jitter: 1
+      perturb: true
+      perturbAmp: 10
+      perturbFreq: 0.025
+      invert: true
+      threshold: -0.18
+      stretch: 0.75
+    }
+  }
+  caveBlocks: [
+    {
+      states: simpledifficulty:purifiedwater
+      height: [
+        0
+        26
+      ]
+    }
+  ]
+  ponds: [
+    {
+      height: [
+        20
+        28
+      ]
+      depth: 2
+      states: simpledifficulty:purifiedwater
+    }
+  ]
+}

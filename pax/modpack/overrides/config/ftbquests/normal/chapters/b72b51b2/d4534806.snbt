@@ -1,0 +1,15 @@
+{
+	x: -1.783673469387736d,
+	y: 0.7448979591836675d,
+	shape: "hexagon",
+	dependencies: [
+		"a62647fa"
+	],
+	tasks: [{
+		uid: "16c72752",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}]
+}

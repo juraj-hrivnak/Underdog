@@ -1,0 +1,10 @@
+{
+	title: "Burritos2x",
+	loot_size: 1,
+	rewards: [{
+		item: "harvestcraft:fishtacoitem"
+	},
+	{
+		item: "harvestcraft:avocadoburritoitem"
+	}]
+}

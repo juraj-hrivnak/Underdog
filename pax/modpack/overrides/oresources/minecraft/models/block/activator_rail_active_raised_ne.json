@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/rail_raised_glow_ne",
+    "textures": {
+        "rail": "minecraft:blocks/rail_activator_powered",
+        "rail_glow": "minecraft:blocks/rail_activator_glow",
+        "rail_glow_faint": "blocks/rail_glow_faint",
+        "rail_glow_faint_2": "blocks/rail_glow_faint"
+    }
+}

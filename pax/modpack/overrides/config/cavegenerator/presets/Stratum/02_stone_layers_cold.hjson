@@ -1,0 +1,56 @@
+{
+  imports: [
+    layers_default_ceiling.cave::OVERGROUND
+    layers_default_ceiling.cave::UNDERGROUND
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:taiga
+      minecraft:taiga_hills
+      minecraft:taiga_cold
+      minecraft:taiga_cold_hills
+      minecraft:redwood_taiga
+      minecraft:redwood_taiga_hills
+      minecraft:mutated_taiga
+      minecraft:mutated_taiga_cold
+      minecraft:mutated_redwood_taiga
+      minecraft:mutated_redwood_taiga_hills
+      biomesoplenty:alps
+      biomesoplenty:coniferous_forest
+      biomesoplenty:snowy_coniferous_forest
+      biomesoplenty:snowy_forest
+      biomesoplenty:dead_forest
+      biomesoplenty:steppe
+      biomesoplenty:boreal_forest
+    ]
+  }
+  layers: [
+    ###########################################
+    # Underground
+    ###########################################
+    {
+      state: minecraft:stone:1
+      height: [ 0, 30 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: minecraft:stone
+      height: [ 30, 60 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+    # OVERGROUND
+    ###########################################
+    {
+      state: minecraft:stone:1
+      height: [ 60, 128 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      state: quark:slate
+      height: [ 128, 225 ]
+      ceiling: $OVERGROUND
+    }
+  ]
+}

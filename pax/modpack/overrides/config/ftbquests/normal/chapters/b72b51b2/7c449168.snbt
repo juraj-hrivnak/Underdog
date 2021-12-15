@@ -1,0 +1,17 @@
+{
+	x: -3.9027210884353494d,
+	y: 0.7380952380952266d,
+	shape: "hexagon",
+	dependencies: [
+		"23e66762"
+	],
+	tasks: [{
+		uid: "18c0bd22",
+		type: "item",
+		items: [{
+			item: "forestry:portable_alyzer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

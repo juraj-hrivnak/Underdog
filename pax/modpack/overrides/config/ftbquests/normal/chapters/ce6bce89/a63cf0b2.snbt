@@ -1,0 +1,25 @@
+{
+	title: "Life of a savage",
+	x: -2.5d,
+	y: 3.5d,
+	shape: "heart",
+	description: "&7Collect sticks from breaking leaves or the thin tree branches.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2d912241",
+		"d002200f"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "3ad07d9c",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 3L
+	}]
+}

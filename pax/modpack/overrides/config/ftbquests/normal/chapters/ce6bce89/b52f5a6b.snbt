@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a63cf0b2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb5fbc53",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+    "particle": "forestry:blocks/wood/heart.zebrawood",
+    "log_top": "forestry:blocks/wood/heart.zebrawood",
+    "log": "forestry:blocks/wood/bark.zebrawood"
+    },
+    "model": "contenttweaker:choped_wood",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
+    

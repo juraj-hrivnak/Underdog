@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a63cf0b2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "794463e8",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

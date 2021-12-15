@@ -1,0 +1,16 @@
+{
+	x: -3.4823129251700493d,
+	y: -2.4251700680272137d,
+	dependencies: [
+		"33121f43"
+	],
+	tasks: [{
+		uid: "418e7ad7",
+		type: "item",
+		items: [{
+			item: "forestry:smoker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

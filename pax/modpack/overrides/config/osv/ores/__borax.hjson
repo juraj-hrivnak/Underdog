@@ -1,0 +1,36 @@
+ # This preset was generated automatically. To enable
+ # custom generation settings, you must manually define
+ # `gen`. See TUTORIAL.hjson.
+{
+  name: __borax
+  mod: contenttweaker
+  block: {
+    location: contenttweaker:borax
+    level: 1
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 45
+    hardness: 2.5
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {}
+  
+  loot: [
+    {
+      item: nuclearcraft:compound:7
+      count: [ 5, 3 ]
+      xp: [ 0, 0 ]
+      chance: 1
+    }
+  ]
+  gen: [
+    {
+      height: [ 40, 150 ]
+      size: 7
+      count: 1
+    }
+  ]
+}

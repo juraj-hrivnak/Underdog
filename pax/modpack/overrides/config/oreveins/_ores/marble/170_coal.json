@@ -1,0 +1,41 @@
+{
+  "Marble_Coal": {
+    "type": "cluster",
+    "rarity": 170,
+    "count": 1,
+    "clusters": 2,
+    "stone": [
+      {
+        "block": "quark:marble",
+        "meta": 0
+      },
+      {
+        "block": "divergentunderground:quark_hard_marble_rock"
+      }
+    ],
+    "min_y": -38,
+    "max_y": -8,
+    "use_relative_y": true,
+    "density": 600,
+    "vertical_size": 10,
+    "horizontal_size": 14,
+    "ore":  [
+      {
+        "block": "osv:_coal_quark_marble",
+        "meta": "0",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample_vanilla",
+          "meta": "0",
+          "weight": 100
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "$$Village_Warm",
+  "items": [
+    {
+      "weight": 0.20703016221523285,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cuisine:chopping_board",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "BlockEntityTag": {
+              "nbtType": "compound",
+              "nbt": {
+                "cover": {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "id": {
+                      "nbtType": "string",
+                      "nbt": "cuisine:log"
+                    },
+                    "Count": {
+                      "nbtType": "byte",
+                      "nbt": 1
+                    },
+                    "Damage": {
+                      "nbtType": "short",
+                      "nbt": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:fishing_rod",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "harvestcraft:rawtofishitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "harvestcraft:jellyfishrawitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0019995670299977064,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "immersivepetroleum:schematic",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "multiblock": {
+              "nbtType": "string",
+              "nbt": "IT:SteelSheetmetalTank"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.20703016221523285,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyclicmagic:glove_climb",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {}
+        }
+      }
+    },
+    {
+      "weight": 0.0976562350988388,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cyclicmagic:crafting_food",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 7,
+      "item": {
+        "id": "dynamictreesphc:rambutanseed",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "dynamictreesphc:figseed",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.23224952816963196,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "dynamictreesphc:lemonseed",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.08515378087759018,
+      "min": 1,
+      "max": 12,
+      "item": {
+        "id": "dynamictreesphc:grapefruitseed",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0014766963431611657,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "tconstruct:edible",
+        "damage": 23,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.016732392832636833,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tconstruct:axe_head",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Material": {
+              "nbtType": "string",
+              "nbt": "boron_nitride"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.7755888104438782,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tconstruct:excavator_head",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Material": {
+              "nbtType": "string",
+              "nbt": "iron"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tconstruct:tough_binding",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Material": {
+              "nbtType": "string",
+              "nbt": "electrum"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 4,
+      "max": 8,
+      "item": {
+        "id": "cuisine:food",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.366908550262451,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cuisine:kitchen_knife",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.002661055652424693,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cuisine:placed_dish",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

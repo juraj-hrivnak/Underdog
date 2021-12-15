@@ -1,0 +1,24 @@
+[
+    {
+		"__comment" : "Dead trees",
+		"select": { "name": "minecraft:forest" },
+		"apply": {
+			"species" : "dynamictrees:oak",
+			"chance": 0.2
+		} 
+	},
+    {
+		"select": { "name": "minecraft:swampland" },
+		"apply": {
+			"species": {
+				"random": {
+					"willow": 30,
+					"oakswamp": 3,
+					"dead": 2
+				},
+				"method": "replace"
+			},
+			"chance": 0.85
+		}
+	}
+]

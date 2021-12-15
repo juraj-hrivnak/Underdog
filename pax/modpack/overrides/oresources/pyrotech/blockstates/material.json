@@ -1,0 +1,48 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "pyrotech:item/generated"
+  },
+  "variants": {
+    "variant": {
+      "pit_ash": {"textures": {"layer0": "pyrotech:items/pit_ash"}},
+      "coal_coke": {"textures": {"layer0": "pyrotech:items/coal_coke"}},
+      "straw": {"textures": {"layer0": "pyrotech:items/straw"}},
+      "flint_clay_ball": {"textures": {"layer0": "pyrotech:items/flint_clay_ball"}},
+      "refractory_clay_ball": {"textures": {"layer0": "pyrotech:items/refractory_clay_ball"}},
+      "refractory_clay_lump": {"textures": {"layer0": "pyrotech:items/refractory_clay_lump"}},
+      "pottery_fragments": {"textures": {"layer0": "pyrotech:items/clay_fragments"}},
+      "pottery_shard": {"textures": {"layer0": "pyrotech:items/clay_shard"}},
+      "slaked_lime": {"textures": {"layer0": "pyrotech:items/slaked_lime"}},
+      "refractory_brick": {"textures": {"layer0": "pyrotech:items/refractory_brick"}},
+      "unfired_refractory_brick": {"textures": {"layer0": "pyrotech:items/unfired_refractory_brick"}},
+      "unfired_brick": {"textures": {"layer0": "pyrotech:items/unfired_brick"}},
+      "flint_shard": {"textures": {"layer0": "pyrotech:items/flint_shard"}},
+      "bone_shard": {"textures": {"layer0": "pyrotech:items/bone_shard"}},
+      "plant_fibers": {"textures": {"layer0": "pyrotech:items/plant_fibers"}},
+      "plant_fibers_dried": {"textures": {"layer0": "pyrotech:items/plant_fibers_dried"}},
+      "twine": {"textures": {"layer0": "pyrotech:items/twine"}},
+      "charcoal_flakes": {"textures": {"layer0": "pyrotech:items/charcoal_flakes"}},
+      "brick_stone": {"textures": {"layer0": "pyrotech:items/stone_brick"}},
+      "clay_lump": {"textures": {"layer0": "pyrotech:items/clay_lump"}},
+      "diamond_shard": {"textures": {"layer0": "pyrotech:items/diamond_shard"}},
+      "iron_shard": {"textures": {"layer0": "pyrotech:items/iron_shard"}},
+      "board": {"textures": {"layer0": "pyrotech:items/board"}},
+      "coal_pieces": {"textures": {"layer0": "pyrotech:items/coal_pieces"}},
+      "quicklime": {"textures": {"layer0": "pyrotech:items/quicklime"}},
+      "board_tarred": {"textures": {"layer0": "pyrotech:items/board_tarred"}},
+      "pulp": {"textures": {"layer0": "pyrotech:items/pulp"}},
+      "twine_durable": {"textures": {"layer0": "pyrotech:items/twine_durable"}},
+      "stick_stone": {"textures": {"layer0": "pyrotech:items/stone_stick"}},
+      "dust_limestone": {"textures": {"layer0": "pyrotech:items/dust_limestone"}},
+      "kindling": {"textures": {"layer0": "pyrotech:items/kindling"}},
+      "kindling_tarred": {"textures": {"layer0": "pyrotech:items/kindling_tarred"}},
+      "dust_flint": {"textures": {"layer0": "pyrotech:items/dust_flint"}},
+      "glass_shard": {"textures": {"layer0": "pyrotech:items/glass_shard"}},
+      "obsidian_shard": {"textures": {"layer0": "pyrotech:items/obsidian_shard"}},
+      "gold_shard": {"textures": {"layer0": "pyrotech:items/gold_shard"}},
+      "dense_redstone": {"textures": {"layer0": "pyrotech:items/dense_redstone"}},
+      "dense_quartz": {"textures": {"layer0": "pyrotech:items/dense_quartz"}}
+    }
+  }
+}

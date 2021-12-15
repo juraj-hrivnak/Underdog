@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	dependencies: [
+		"e7110521",
+		"d997fbc0"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "c1c4a7c3",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_collector"
+		}]
+	}]
+}

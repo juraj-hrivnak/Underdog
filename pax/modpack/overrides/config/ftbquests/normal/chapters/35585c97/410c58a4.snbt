@@ -1,0 +1,29 @@
+{
+	title: "Blast Furnace",
+	icon: "immersiveengineering:stone_device 1 2",
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"fc3ace5c"
+	],
+	tasks: [{
+		uid: "3e02d957",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 2"
+		}],
+		count: 27L
+	},
+	{
+		uid: "f0176e3a",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "4270ba29",
+		type: "loot",
+		table: 1
+	}]
+}

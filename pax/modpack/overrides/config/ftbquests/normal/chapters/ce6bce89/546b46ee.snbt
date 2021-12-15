@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	dependencies: [
+		"d997fbc0"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "441c57f7",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}]
+	}]
+}

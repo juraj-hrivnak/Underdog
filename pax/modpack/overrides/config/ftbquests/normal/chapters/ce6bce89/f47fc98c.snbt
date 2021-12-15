@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"078f1222"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "b0bdcaad",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	}]
+}

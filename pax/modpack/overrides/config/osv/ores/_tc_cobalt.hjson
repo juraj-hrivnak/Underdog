@@ -1,0 +1,38 @@
+{
+  name: _cobalt
+  mod: tconstruct
+  block: {
+    location: tconstruct:ore
+    level: 4
+    material: ROCK
+    soundType: STONE
+    lightLevel: 0
+    resistance: 50
+    hardness: 10
+    ticksRandomly: false
+    slipperiness: 0.6000000238418579
+    tool: pickaxe
+  }
+  texture: {}
+  
+  loot: [
+    {
+      item: divergentunderground:ore_tconstruct_cobalt
+      count: [ 1, 1 ]
+      xp: [ 0, 0 ]
+      chance: 1
+    }
+  ]
+  "gen": [
+    {
+      "height": [
+        10,
+        128
+      ],
+      "size": 20,
+      # The number of tries per chunk to spawn clusters.
+      "count": 1,
+      "chance": 2
+    }
+  ]
+}

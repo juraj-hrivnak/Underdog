@@ -1,0 +1,142 @@
+{
+  "Salmon": {
+    "fishId": "Salmon",
+    "itemId": "minecraft:fish",
+    "itemMetaData": 1,
+    "description": "a huge silvery body fish with some dark crosses and spots on the head, body, and fins",
+    "minFishTime": 1750,
+    "maxFishTime": 3000,
+    "minReelAmount": 40,
+    "maxReelAmount": 48,
+    "minErrorVariance": 1,
+    "maxErrorVariance": 4,
+    "minWeight": 45,
+    "maxWeight": 60,
+    "time": "any",
+    "rainRequired": false,
+    "rarity": 50,
+    "minDeepLevel": 14,
+    "maxDeepLevel": 24,
+    "reproductionTime": 4,
+    "eatingFrequency": 1,
+    "trackable": true,
+    "biomeBlacklist": false,
+    "biomeList": [
+      0,
+      10,
+      24
+    ],
+    "timeOutsideOfWater": 12,
+    "resultingItem": "minecraft:iron_ingot",
+    "resultingItemMetadata": 0,
+    "resultQuantityUseWeight": true,
+    "baitItemMap": {
+      "minecraft:fish": 0
+    }
+  },
+  "Pufferfish": {
+    "fishId": "Pufferfish",
+    "itemId": "minecraft:fish",
+    "itemMetaData": 3,
+    "description": "a large brown tadpole, with bulging eyes and an elongated snout",
+    "minFishTime": 1500,
+    "maxFishTime": 2300,
+    "minReelAmount": 25,
+    "maxReelAmount": 35,
+    "minErrorVariance": 2,
+    "maxErrorVariance": 4,
+    "minWeight": 20,
+    "maxWeight": 30,
+    "time": "any",
+    "rainRequired": false,
+    "rarity": 80,
+    "minDeepLevel": 2,
+    "maxDeepLevel": 4,
+    "reproductionTime": 4,
+    "eatingFrequency": 1,
+    "trackable": true,
+    "biomeBlacklist": false,
+    "biomeList": [
+      0,
+      10,
+      24
+    ],
+    "timeOutsideOfWater": 8,
+    "resultingItem": "minecraft:arrow",
+    "resultingItemMetadata": 0,
+    "resultQuantityUseWeight": true,
+    "baitItemMap": {
+      "minecraft:dye": 0
+    }
+  },
+  "Cod": {
+    "fishId": "Cod",
+    "itemId": "minecraft:fish",
+    "itemMetaData": 0,
+    "description": "a relatively large yellowish and stout bodied fish with a large head and long chin barbel",
+    "minFishTime": 2000,
+    "maxFishTime": 2800,
+    "minReelAmount": 25,
+    "maxReelAmount": 40,
+    "minErrorVariance": 2,
+    "maxErrorVariance": 5,
+    "minWeight": 20,
+    "maxWeight": 25,
+    "time": "any",
+    "rainRequired": false,
+    "rarity": 200,
+    "minDeepLevel": 4,
+    "maxDeepLevel": 6,
+    "reproductionTime": 3,
+    "eatingFrequency": 1,
+    "trackable": true,
+    "biomeBlacklist": false,
+    "biomeList": [
+      0,
+      10,
+      24
+    ],
+    "timeOutsideOfWater": 12,
+    "resultingItem": "minecraft:slime_ball",
+    "resultingItemMetadata": 0,
+    "resultQuantityUseWeight": true,
+    "baitItemMap": {
+      "minecraft:red_mushroom": 0
+    }
+  },
+  "Clownfish": {
+    "fishId": "Clownfish",
+    "itemId": "minecraft:fish",
+    "itemMetaData": 2,
+    "description": "a fish with bright orange with white stripes and black edges",
+    "minFishTime": 900,
+    "maxFishTime": 1300,
+    "minReelAmount": 2,
+    "maxReelAmount": 8,
+    "minErrorVariance": 1,
+    "maxErrorVariance": 4,
+    "minWeight": 1,
+    "maxWeight": 5,
+    "time": "any",
+    "rainRequired": false,
+    "rarity": 30,
+    "minDeepLevel": 10,
+    "maxDeepLevel": 20,
+    "reproductionTime": 5,
+    "eatingFrequency": 2,
+    "trackable": true,
+    "biomeBlacklist": false,
+    "biomeList": [
+      0,
+      10,
+      24
+    ],
+    "timeOutsideOfWater": 10,
+    "resultingItem": "minecraft:emerald",
+    "resultingItemMetadata": 0,
+    "resultQuantityUseWeight": true,
+    "baitItemMap": {
+      "minecraft:carrot": 0
+    }
+  }
+}

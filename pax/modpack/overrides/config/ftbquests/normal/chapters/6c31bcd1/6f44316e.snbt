@@ -1,0 +1,28 @@
+{
+	title: "Adventure",
+	x: -3.5d,
+	y: -2.5d,
+	dependencies: [
+		"e1a5f78a"
+	],
+	tasks: [{
+		uid: "95c42b89",
+		type: "checkmark",
+		icon: {
+			id: "forestry:forester_bag",
+			tag: {
+				UID: 1998417999
+			}
+		}
+	}],
+	rewards: [{
+		uid: "72f5c336",
+		type: "item",
+		item: {
+			id: "forestry:forester_bag",
+			tag: {
+				UID: 1998417999
+			}
+		}
+	}]
+}

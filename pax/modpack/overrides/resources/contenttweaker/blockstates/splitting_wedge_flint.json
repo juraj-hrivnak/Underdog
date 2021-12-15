@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "contenttweaker:splitting_wedge_flint"
+      }
+    ]
+  }
+}

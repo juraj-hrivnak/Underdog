@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	dependencies: [
+		"9328f94d"
+	],
+	tasks: [{
+		uid: "bd556b22",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:vertical"
+			}
+		}]
+	}]
+}

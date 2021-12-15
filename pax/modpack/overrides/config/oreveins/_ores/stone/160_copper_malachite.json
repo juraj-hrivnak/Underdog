@@ -1,0 +1,46 @@
+{
+  "Andesite_Copper--Malachite": {
+    "type": "cluster",
+    "rarity": 160,
+    "count": 1,
+    "clusters": 2,
+    "stone": [
+      {
+        "block": "minecraft:stone",
+        "meta": 0
+      },
+      {
+        "block": "divergentunderground:hard_stone"
+      }
+    ],
+    "min_y": -38,
+    "max_y": -8,
+    "use_relative_y": true,
+    "density": 700,
+    "vertical_size": 10,
+    "horizontal_size": 14,
+    "ore": [
+      {
+        "block": "osv:_malachite",
+        "meta": "0",
+        "weight": 90
+      },
+      {
+        "block": "osv:_malachite",
+        "meta": "1",
+        "weight": 10
+      }
+    ],
+    "indicator": {
+      "rarity": 48,
+      "blocks": [
+        {
+          "block": "geolosys:ore_sample",
+          "meta": "2",
+          "weight": 60
+        }
+      ],
+      "max_depth": 100
+    }
+  }
+}

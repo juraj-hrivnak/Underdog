@@ -1,0 +1,24 @@
+{
+	title: "Realism",
+	disable_toast: true,
+	x: -9.5d,
+	y: -2.5d,
+	shape: "hexagon",
+	text: [
+		"&7   In Underdog, there is a rule that you should always be able to ask yourself, \"would that make sense in real life?\""
+	],
+	dependencies: [
+		"2d912241"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa63cbb8",
+		type: "checkmark",
+		icon: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:underdog"
+			}
+		}
+	}]
+}
