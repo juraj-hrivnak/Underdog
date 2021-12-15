@@ -75,7 +75,7 @@ val dustMap as IItemStack[] = [
     <immersiveengineering:metal:15>     ,   // Constantan
     <immersiveengineering:metal:16>     ,   // Electrum
     <immersiveengineering:metal:17>     ,   // Steel
-    
+
     <mekanism:otherdust>                ,   // Diamond
     <mekanism:otherdust:4>              ,   // Lithium
 

@@ -34,7 +34,7 @@ val ingotMap as IItemStack[][][IOreDictEntry] = {
     <ore:ingotConstantan>          : [[<immersiveengineering:metal:6>       ], [                                                    ]],
     <ore:ingotElectrum>            : [[<immersiveengineering:metal:7>       ], [                                                    ]],
     <ore:ingotSteel>               : [[<immersiveengineering:metal:8>       ], [<mekanism:ingot:4>                                  ]],
-    
+
     <ore:ingotBronze>              : [[<mekanism:ingot:2>                   ], [<forestry:ingot_bronze>                             ]],
 
 };

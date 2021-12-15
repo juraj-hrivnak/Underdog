@@ -23,10 +23,12 @@ val nuggetMap as IItemStack[][][IOreDictEntry] = {
     <ore:nuggetOsmium>              : [[<mekanism:nugget:1>             ], [                                ], [<mekanism:ingot:1>                   ]],
     <ore:nuggetCobalt>              : [[<tconstruct:nuggets>            ], [                                ], [<tconstruct:ingots>                  ]],
     <ore:nuggetArdite>              : [[<tconstruct:nuggets:1>          ], [                                ], [<tconstruct:ingots:1>                ]],
-        
+
     <ore:nuggetConstantan>          : [[<immersiveengineering:metal:26> ], [                                ], [<immersiveengineering:metal:6>       ]],
     <ore:nuggetElectrum>            : [[<immersiveengineering:metal:27> ], [                                ], [<immersiveengineering:metal:7>       ]],
     <ore:nuggetSteel>               : [[<immersiveengineering:metal:28> ], [<mekanism:nugget:4>             ], [<immersiveengineering:metal:8>       ]],
+
+    <ore:nuggetBronze>              : [[<mekanism:nugget:2>             ], [                                ], [<mekanism:ingot:2>                   ]],
 
 };
 
@@ -43,9 +45,9 @@ for oredict, item in nuggetMap {
     }
     for i in item[2] {
         recipes.remove(i);
-        recipes.addShaped(i, 
+        recipes.addShaped(i,
            [[oredict, oredict, oredict],
             [oredict, oredict, oredict],
             [oredict, oredict, oredict]]);
-    } 
+    }
 }
