@@ -12,7 +12,7 @@ val liquidsAndOres as ILiquidStack[IOreDictEntry] = {
 
     // Ores
     <ore:obsidian>        : <liquid:obsidian> * 288     ,
-    <ore:blockGlass>      : <liquid:glass> * 375        ,
+    <ore:blockGlass>      : <liquid:glass> * 1000       ,
     <ore:cobblestone>     : <liquid:lava> * 250         ,
     <ore:oreCopper>       : <liquid:copper> * 288       ,
     <ore:oreTin>          : <liquid:tin> * 288          ,

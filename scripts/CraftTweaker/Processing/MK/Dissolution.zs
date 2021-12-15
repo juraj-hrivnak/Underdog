@@ -9,7 +9,7 @@ import mods.mekanism.chemical.dissolution as MKDissolution;
 
 val dissolutions as IGasStack[IIngredient] = {
 
-//  IIngredient input,            IGasStack output                
+//  IIngredient input,            IGasStack output
     <ore:oreIron>               : <gas:iron>      ,
     <ore:oreGold>               : <gas:gold>      ,
     <ore:oreCopper>             : <gas:copper>    ,
@@ -23,7 +23,7 @@ val dissolutions as IGasStack[IIngredient] = {
 //  <ore:oreUranium>            : <gas:uranium>   ,
 //  <ore:oreZinc>               : <gas:zinc>      ,
 //  <ore:oreYellorium>          : <gas:yellorium> ,
-    
+
 };
 
 for input, output in dissolutions {

@@ -40,11 +40,11 @@ recipes.remove(<immersiveengineering:connector:2>);
 recipes.remove(<immersiveengineering:connector:4>);
 
 // Relays
-recipes.addShaped(<contenttweaker:unfired_lv_relay> * 2,
+recipes.addShaped(<contenttweaker:unfired_lv_relay> * 4,
    [[clayLump       , <ore:ingotCopper> , clayLump      ],
     [clayLump       , <ore:clayball>    , clayLump      ]]);
 
-recipes.addShaped(<contenttweaker:unfired_mv_relay> * 2,
+recipes.addShaped(<contenttweaker:unfired_mv_relay> * 4,
    [[clayLump       , <ore:ingotCopper> , clayLump      ],
     [<ore:clayball> , clayLump          , <ore:clayball>],
     [clayLump       , <ore:clayball>    , clayLump      ]]);

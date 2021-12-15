@@ -16,7 +16,7 @@ val listOfWoods as IItemStack[][][IOreDictEntry[]] = {
             [<contenttweaker:lumber_magic>                   , <biomesoplenty:log_1:5>  , <biomesoplenty:planks_0:5>    , <contenttweaker:firewood_magic>               ],
             [<contenttweaker:lumber_redwood>                 , <biomesoplenty:log_2:4>  , <biomesoplenty:planks_0:8>    , <contenttweaker:firewood_redwood>             ],
             [<contenttweaker:lumber_pine>                    , <biomesoplenty:log_2:6>  , <biomesoplenty:planks_0:10>   , <contenttweaker:firewood_pine>                ],
-            
+
         // Forestry
             [<contenttweaker:lumber_planks.larch>            , <forestry:logs.0>        , <forestry:planks.0>           , <contenttweaker:forestry_firewood_larch>      ],
             [<contenttweaker:lumber_planks.sequoia>          , <forestry:logs.1:3>      , <forestry:planks.0:7>         , <contenttweaker:forestry_firewood_sequoia>    ],
@@ -86,7 +86,7 @@ val listOfWoods as IItemStack[][][IOreDictEntry[]] = {
     //         [<contenttweaker:lumber_planks.palm>             , <forestry:logs.4:2>      , <forestry:planks.1:2>         , <contenttweaker:forestry_firewood_palm>       ],
     //         [<contenttweaker:lumber_planks.papaya>           , <forestry:logs.4:3>      , <forestry:planks.1:3>         , <contenttweaker:forestry_firewood_papaya>     ],
     // ]
-    
+
 };
 
 for oredict, items in listOfWoods {
@@ -112,7 +112,7 @@ furnace.setFuel(<ore:softFirewood>  , 100);
 furnace.setFuel(<ore:hardwoodLumber>, 240 / 2);
 furnace.setFuel(<ore:hardwoodLog>   , 0);       // 900
 furnace.setFuel(<ore:hardwoodPlanks>, 440 / 2);
-furnace.setFuel(<ore:hardFirewood>  , 200);
+furnace.setFuel(<ore:hardFirewood>  , 201);
 
 furnace.setFuel(<minecraft:stick>, 25);
 
