@@ -12,11 +12,14 @@ config/Weather2/EZGUIConfigServerData.dat
 # /config/craftpresence.properties
 config/cherishedworlds/favorites.dat
 config/activity.json
-config/jei/worldSettings.cfg
 config/AppliedEnergistics2/items.csv
 config/customloadingscreen_timings.nbt
-config/jei/bookmarks.ini
 config/cherishedworlds/favorites.dat
+config/jei/bookmarks.ini
+config/jei/worldSettings.cfg
+pax/modpack/overrides/config/jei/bookmarks.ini
+pax/modpack/overrides/config/jei/worldSettings.cfg
+
 
 # Folders in .minecraft
 /mods/
