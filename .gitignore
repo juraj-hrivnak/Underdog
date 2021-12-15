@@ -1,20 +1,22 @@
 
 # Configs
-/config/BiomeTweaker/output/
-/config/fantasticlib/
-/config/codechicken/supporters.json/
-/config/splash.properties/
-/config/waila/waila.cfg/
-/config/fantasticlib.cfg/
-/config/InvTweaks.cfg/
-/config/Weather2/EZGUIConfigClientData.dat/
-/config/Weather2/EZGUIConfigServerData.dat/
-/config/craftpresence.properties/
-/config/cherishedworlds/favorites.dat/
-/config/activity.json/
-/config/jei/worldSettings.cfg/
-/config/AppliedEnergistics2/items.csv/
-/config/customloadingscreen_timings.nbt/
+config/BiomeTweaker/output/
+config/fantasticlib/
+config/codechicken/supporters.json
+config/splash.properties
+config/waila/waila.cfg
+config/fantasticlib.cfg
+config/InvTweaks.cfg/
+config/Weather2/EZGUIConfigClientData.dat
+config/Weather2/EZGUIConfigServerData.dat
+# /config/craftpresence.properties
+config/cherishedworlds/favorites.dat
+config/activity.json
+config/jei/worldSettings.cfg
+config/AppliedEnergistics2/items.csv
+config/customloadingscreen_timings.nbt
+config/jei/bookmarks.ini
+config/cherishedworlds/favorites.dat
 
 # Folders in .minecraft
 /mods/
@@ -39,7 +41,6 @@
 **/*.log
 
 # Client data
-config/cherishedworlds/favorites.dat
 local/client/rtdata.json
 .ReAuth.cfg
 usernamecache.json
