@@ -69,7 +69,7 @@
     },
     {
       "projectID": 220318,
-      "fileID": 2842510,
+      "fileID": 3558882,
       "required": true,
       "__meta": {
         "name": "Biomes O' Plenty"
@@ -814,7 +814,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3537908,
+      "fileID": 3553559,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -925,6 +925,17 @@
       "required": true,
       "__meta": {
         "name": "Scannable"
+      }
+    },
+    {
+      "projectID": 266824,
+      "fileID": 2810222,
+      "required": true,
+      "__meta": {
+        "name": "Caliper",
+        "dependencies": [
+          228525
+        ]
       }
     },
     {
@@ -1475,6 +1486,17 @@
       }
     },
     {
+      "projectID": 298584,
+      "fileID": 2745002,
+      "required": true,
+      "__meta": {
+        "name": "Charset Storage - Chests",
+        "dependencies": [
+          284523
+        ]
+      }
+    },
+    {
       "projectID": 299263,
       "fileID": 2626921,
       "required": true,
@@ -1578,6 +1600,14 @@
       "required": true,
       "__meta": {
         "name": "Tips"
+      }
+    },
+    {
+      "projectID": 306555,
+      "fileID": 2707092,
+      "required": true,
+      "__meta": {
+        "name": "Sound Device Options"
       }
     },
     {
@@ -1838,6 +1868,14 @@
       }
     },
     {
+      "projectID": 356349,
+      "fileID": 3424173,
+      "required": true,
+      "__meta": {
+        "name": "DupeFix Project"
+      }
+    },
+    {
       "projectID": 356646,
       "fileID": 3168863,
       "required": true,
@@ -1865,6 +1903,14 @@
       }
     },
     {
+      "projectID": 363102,
+      "fileID": 3234684,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic Darkness"
+      }
+    },
+    {
       "projectID": 363860,
       "fileID": 3048407,
       "required": true,
@@ -1882,7 +1928,7 @@
     },
     {
       "projectID": 366256,
-      "fileID": 3518479,
+      "fileID": 3561095,
       "required": true,
       "__meta": {
         "name": "MAtmos"
@@ -1972,7 +2018,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 3534953,
+      "fileID": 3553466,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2047,7 +2093,7 @@
     },
     {
       "projectID": 409087,
-      "fileID": 3533274,
+      "fileID": 3565771,
       "required": true,
       "__meta": {
         "name": "Entity Culling"
@@ -2096,7 +2142,7 @@
     },
     {
       "projectID": 446253,
-      "fileID": 3394150,
+      "fileID": 3554486,
       "required": true,
       "__meta": {
         "name": "Better Biome Blend"
