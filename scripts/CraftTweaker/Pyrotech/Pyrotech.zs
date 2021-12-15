@@ -145,6 +145,8 @@ recipes.remove(<pyrotech:brick_kiln>);
 recipes.remove(<pyrotech:brick_oven>);
 recipes.remove(<pyrotech:brick_sawmill>);
 recipes.remove(<pyrotech:brick_crucible>);
+recipes.remove(<pyrotech:bloomery>);
+
 // Kiln
 recipes.addShaped(<pyrotech:brick_kiln>,
    [[refracBrick, refracLump  , refracBrick ],
@@ -164,6 +166,11 @@ recipes.addShaped(<pyrotech:brick_sawmill>,
 recipes.addShaped(<pyrotech:brick_crucible>,
    [[refracBrick, null        , refracBrick ],
     [refracLump , refracLump  , refracLump  ],
+    [refracBrick, refracBlock , refracBrick ]]);
+// Bloomery
+recipes.addShaped(<pyrotech:bloomery>,
+   [[refracBrick, null        , refracBrick ],
+    [refracBrick, null        , refracBrick ],
     [refracBrick, refracBlock , refracBrick ]]);
 
 
@@ -196,3 +203,88 @@ recipes.addShaped(<pyrotech:stone_crucible>,
    [[masonryBrick , null        , masonryBrick  ],
     [clayLump     , clayLump    , clayLump      ],
     [masonryBrick , masonryBlock, masonryBrick  ]]);
+
+
+// Soaking Pot
+recipes.remove(<pyrotech:soaking_pot>);
+recipes.addShaped(<pyrotech:soaking_pot>,
+   [[<ore:lumber> , masonryBrick, <ore:lumber>  ],
+    [masonryBrick , clayLump    , masonryBrick  ],
+    [<ore:lumber> , masonryBrick, <ore:lumber>  ]]);
+
+// Bellows
+recipes.remove(<pyrotech:bellows>);
+recipes.addShaped(<pyrotech:bellows>,
+   [[<ore:lumber> , masonryBrick    , <ore:lumber>  ],
+    [<ore:leather>, <ore:leather>   , <ore:leather> ],
+    [masonryBrick , masonryBrick    , masonryBrick  ]]);
+
+
+val boatFix as IItemStack[IItemStack] = {
+    <minecraft:boat>            : <contenttweaker:lumber_vanilla_oak>     ,
+    <minecraft:spruce_boat>     : <contenttweaker:lumber_vanilla_spruce>  ,
+    <minecraft:birch_boat>      : <contenttweaker:lumber_vanilla_birch>   ,
+    <minecraft:jungle_boat>     : <contenttweaker:lumber_vanilla_jungle>  ,
+    <minecraft:acacia_boat>     : <contenttweaker:lumber_vanilla_acacia>  ,
+    <minecraft:dark_oak_boat>   : <contenttweaker:lumber_vanilla_dark_oak>
+};
+
+for output, input in boatFix {
+    recipes.remove(output);
+    recipes.addShaped(output * 6,
+       [[input, null, input],
+        [input, input, input]]);
+}
+
+
+recipes.remove(<pyrotech:shelf_stone>);
+recipes.remove(<pyrotech:stash_stone>);
+recipes.remove(<pyrotech:crate_stone>);
+recipes.remove(<pyrotech:mechanical_hopper>);
+recipes.remove(<pyrotech:mechanical_bellows>);
+recipes.remove(<pyrotech:mechanical_compacting_bin>);
+recipes.remove(<pyrotech:mechanical_mulch_spreader>);
+
+val treatLumber = <contenttweaker:treated_wood_lumber>;
+
+// Durable Shelf
+recipes.addShaped(<pyrotech:shelf_stone>,
+   [[masonryBrick , treatLumber     , masonryBrick  ],
+    [treatLumber  , <pyrotech:shelf>, treatLumber   ],
+    [masonryBrick , treatLumber     , masonryBrick  ]]);
+
+// Durable Stash
+recipes.addShaped(<pyrotech:stash_stone>,
+   [[masonryBrick , treatLumber     , masonryBrick  ],
+    [treatLumber  , <pyrotech:stash>, treatLumber   ],
+    [masonryBrick , treatLumber     , masonryBrick  ]]);
+
+// Durable Crate
+recipes.addShaped(<pyrotech:crate_stone>,
+   [[masonryBrick , treatLumber     , masonryBrick  ],
+    [treatLumber  , <pyrotech:crate>, treatLumber   ],
+    [masonryBrick , treatLumber     , masonryBrick  ]]);
+
+// Mechanical Hopper
+recipes.addShaped(<pyrotech:mechanical_hopper>,
+   [[masonryBrick , null            , masonryBrick  ],
+    [treatLumber  , <ore:rodStone>  , treatLumber   ],
+    [null         , masonryBrick     , null         ]]);
+
+// Mechanical Bellows
+recipes.addShaped(<pyrotech:mechanical_bellows>,
+   [[treatLumber    , <minecraft:piston>, treatLumber   ],
+    [<ore:rodStone> , <pyrotech:bellows>, <ore:rodStone>],
+    [treatLumber    , null              , treatLumber   ]]);
+
+// Mechanical Compacting Bin
+recipes.addShaped(<pyrotech:mechanical_compacting_bin>,
+   [[masonryBrick                   , treatLumber   , masonryBrick      ],
+    [<pyrotech:mechanical_hopper>   , null          , <minecraft:piston>],
+    [masonryBrick                   , treatLumber   , masonryBrick      ]]);
+
+// Mechanical Mulch Spreader
+recipes.addShaped(<pyrotech:mechanical_mulch_spreader>,
+   [[masonryBrick                   , treatLumber   , masonryBrick                  ],
+    [<pyrotech:mechanical_hopper>   , null          , <pyrotech:mechanical_hopper>  ],
+    [masonryBrick                   , treatLumber   , masonryBrick                  ]]);

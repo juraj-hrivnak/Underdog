@@ -59,7 +59,10 @@ for input, output in cutting {
 
     MKSawmill.addRecipe(input, output[0], output[1], 1.0);
 
-    BrickSawmill.addRecipe("sawmill_" + input.items[0].displayName, output[0], input, 200, 
+    StoneSawmill.addRecipe("sawmill_" + input.items[0].displayName, output[0], input, 200,
+        <pyrotech:sawmill_blade_obsidian:*> | <pyrotech:sawmill_blade_diamond:*> | <pyrotech:sawmill_blade_iron:*>, 1
+    );
+    BrickSawmill.addRecipe("sawmill_" + input.items[0].displayName, output[0], input, 60,
         <pyrotech:sawmill_blade_obsidian:*> | <pyrotech:sawmill_blade_diamond:*> | <pyrotech:sawmill_blade_iron:*>, 1
     );
 
