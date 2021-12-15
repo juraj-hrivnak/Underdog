@@ -235,13 +235,13 @@
       "temperature": 4.0
     }
   ],
-  "tconstruct:molten_iron": [
+  "minecraft:bedrock": [
     {
       "properties": {},
-      "temperature": 12.5
+      "temperature": 40.0
     }
   ],
-  "tconstruct:molten_emerald": [
+  "tconstruct:molten_iron": [
     {
       "properties": {},
       "temperature": 12.5
@@ -253,6 +253,12 @@
         "type": "BOTTOM_LIT"
       },
       "temperature": 5.0
+    }
+  ],
+  "tconstruct:molten_emerald": [
+    {
+      "properties": {},
+      "temperature": 12.5
     }
   ],
   "pyrotech:brick_kiln": [
@@ -313,18 +319,18 @@
       "temperature": 5.0
     }
   ],
-  "tconstruct:molten_steel": [
-    {
-      "properties": {},
-      "temperature": 12.5
-    }
-  ],
   "pyrotech:brick_sawmill": [
     {
       "properties": {
         "type": "BOTTOM_LIT"
       },
       "temperature": 4.0
+    }
+  ],
+  "tconstruct:molten_steel": [
+    {
+      "properties": {},
+      "temperature": 12.5
     }
   ],
   "tconstruct:molten_obsidian": [

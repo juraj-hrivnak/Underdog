@@ -29,6 +29,26 @@
       "thirstyChance": 0.0
     }
   ],
+  "futuremc:sweet_berries": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 1,
+      "saturation": 2.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "rustic:wildberries": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 1,
+      "saturation": 2.0,
+      "thirstyChance": 0.0
+    }
+  ],
   "harvestcraft:eggnogitem": [
     {
       "identity": {
@@ -296,6 +316,16 @@
       },
       "amount": 12,
       "saturation": 10.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "biomesoplenty:berries": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 1,
+      "saturation": 2.0,
       "thirstyChance": 0.0
     }
   ],
