@@ -16,8 +16,8 @@
             {
                 "mob": "tropicraft:sardine",
                 "weight": 2,
-                "groupcountmin": 3,
-                "groupcountmax": 6
+                "groupcountmin": 1,
+                "groupcountmax": 3
             }
         ]
     },
@@ -60,8 +60,8 @@
             {
                 "mob": "tropicraft:seahorse",
                 "weight": 2,
-                "groupcountmin": 3,
-                "groupcountmax": 4
+                "groupcountmin": 2,
+                "groupcountmax": 3
             }
         ]
     },
@@ -83,7 +83,7 @@
                 "mob": "tropicraft:marlin",
                 "weight": 2,
                 "groupcountmin": 1,
-                "groupcountmax": 6
+                "groupcountmax": 3
             }
         ]
     },
@@ -93,8 +93,8 @@
             {
                 "mob": "tropicraft:fish",
                 "weight": 2,
-                "groupcountmin": 2,
-                "groupcountmax": 4
+                "groupcountmin": 1,
+                "groupcountmax": 2
             }
         ]
     }
