@@ -61,7 +61,7 @@
       invert: true
       interp: Linear
       fractal: FBM
-      threshold: -0.05 // [Default: -0.12] [Can be: -1.0 to 0.0] A higher number means smaller caverns
+      threshold: -0.04 // [Default: -0.12] [Can be: -1.0 to 0.0] A higher number means smaller caverns
       stretch: 2.36
     }
   }
