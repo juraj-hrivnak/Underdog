@@ -99,7 +99,7 @@ val woodworking as IItemStack[][IItemStack] = {
 
     // Pyrotech
     <contenttweaker:tarred_lumber>                  : [null                     , <pyrotech:planks_tarred>              ],
-    
+
 };
 
 val woodenNail = <contenttweaker:nail_wooden>;
@@ -122,7 +122,8 @@ for lumber, x in woodworking {
         lumber.onlyWithTag({raw: true}).addTooltip(format.gray(format.bold("Raw")));
 
         MKSawmill.addRecipe(log, lumber.withTag({raw: true}) * 8, <pyrotech:rock:7>, 0.5);
-        BrickSawmill.addRecipe("lumber_from_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}) * 8, log, 200, sawmillBlades, 1);
+        StoneSawmill.addRecipe("lumber_from_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}) * 8, log, 300, sawmillBlades, 1);
+        BrickSawmill.addRecipe("lumber_from_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}) * 8, log, 60, sawmillBlades, 1);
     }
 
     // Adding "plankWood" oredict to lumber
@@ -148,7 +149,7 @@ for lumber, x in woodworking {
     [[null    , null                           , ironNail                        ],
      [null    , lumber.onlyWithTag({raw: true}), lumber.onlyWithTag({raw: true}) ],
      [ironNail, lumber.onlyWithTag({raw: true}), lumber.onlyWithTag({raw: true}) ]],
-    null, function(out,cInfo,player) { 
+    null, function(out,cInfo,player) {
         player.xp += 1;
         server.commandManager.executeCommand(server, "/playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z);
     }, true);
@@ -159,7 +160,8 @@ for lumber, x in woodworking {
      [ironNail, lumber, lumber   ]]);
 
     MKSawmill.addRecipe(planks, lumber * 2);
-    BrickSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 200, sawmillBlades, 0);
+    StoneSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 200, sawmillBlades, 0);
+    BrickSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 20, sawmillBlades, 0);
 }
 
 Chopping.addRecipe("chopping_nail", woodenNail, <ore:hardwoodLumber>, [1], [2]);
