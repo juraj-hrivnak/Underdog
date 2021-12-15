@@ -31,10 +31,22 @@
       chance: 1
     }
     {
+      item: geolosys:coal:1
+      count: [ 1, 1 ]
+      xp: [ 0, 0.8266666531562805 ]
+      chance: 0.31333332657814026
+    }
+    {
+      item: geolosys:coal:2
+      count: [ 1, 1 ]
+      xp: [ 0, 0.8266666531562805 ]
+      chance: 0.21333332657814026
+    }
+    {
       item: geolosys:coal:3
       count: [ 1, 1 ]
       xp: [ 0, 0.8266666531562805 ]
-      chance: 0.41333332657814026
+      chance: 0.11333332657814026
     }
   ]
 }

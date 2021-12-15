@@ -30,4 +30,11 @@
       chance: 1
     }
   ]
+  gen: [
+    {
+      height: [ 40, 150 ]
+      size: 7
+      count: 1
+    }
+  ]
 }
