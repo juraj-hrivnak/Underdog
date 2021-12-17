@@ -1,6 +1,0 @@
-
-{
-  "Name": "exoticbirds.pelican",
-  "Registry ID": "exoticbirds:pelican",
-  "Class": "pavocado.exoticbirds.entity.Birds.EntityPelican"
-}
