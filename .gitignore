@@ -8,8 +8,6 @@ config/waila/waila.cfg
 config/fantasticlib.cfg
 config/InvTweaks.cfg/
 config/Weather2/EZGUIConfigClientData.dat
-config/Weather2/EZGUIConfigServerData.dat
-# /config/craftpresence.properties
 config/cherishedworlds/favorites.dat
 config/activity.json
 config/AppliedEnergistics2/items.csv
@@ -58,10 +56,18 @@ options.txt
 
 # Pax
 /pax/logs/
-# /pax/modpack/overrides/config
-# /pax/modpack/overrides/local
-# /pax/modpack/overrides/oresources
-# /pax/modpack/overrides/patchouli_books
-# /pax/modpack/overrides/resources
-# /pax/modpack/overrides/scripts
-# /pax/modpack/overrides/structures
+pax/modpack/overrides/config/BiomeTweaker/output/
+pax/modpack/overrides/config/fantasticlib/
+pax/modpack/overrides/config/codechicken/supporters.json
+pax/modpack/overrides/config/splash.properties
+pax/modpack/overrides/config/waila/waila.cfg
+pax/modpack/overrides/config/fantasticlib.cfg
+pax/modpack/overrides/config/InvTweaks.cfg/
+pax/modpack/overrides/config/Weather2/EZGUIConfigClientData.dat
+pax/modpack/overrides/config/cherishedworlds/favorites.dat
+pax/modpack/overrides/config/activity.json
+pax/modpack/overrides/config/AppliedEnergistics2/items.csv
+pax/modpack/overrides/config/customloadingscreen_timings.nbt
+pax/modpack/overrides/config/cherishedworlds/favorites.dat
+pax/modpack/overrides/config/jei/bookmarks.ini
+pax/modpack/overrides/config/jei/worldSettings.cfg
