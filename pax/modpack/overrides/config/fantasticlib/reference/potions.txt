@@ -53,12 +53,12 @@ immersiveengineering:concretefeet
 immersiveengineering:flashed
 conarm:superhotpotion
 cuisine:effect_resistance
-cuisine:dispersal
-cuisine:sustained_release
-cuisine:toughness
 cuisine:hot
-cuisine:cold_blood
+cuisine:dispersal
 cuisine:drunk
+cuisine:cold_blood
+cuisine:toughness
+cuisine:sustained_release
 pyrotech:comfort
 pyrotech:well_fed
 pyrotech:resting

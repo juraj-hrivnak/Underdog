@@ -51,7 +51,6 @@ key_quark.emote.jet:0:NONE
 key_quark.emote.exorcist:73:NONE
 key_quark.emote.zombie:0:NONE
 key_quark.keybind.lockBuilding:37:NONE
-key_quark.keybind.toggleAutojump:48:NONE
 key_quark.keybind.dropoff:0:NONE
 key_quark.keybind.changeHotbar:44:NONE
 key_quark.keybind.chestSort:0:NONE
@@ -59,6 +58,7 @@ key_quark.keybind.chestDropoff:0:NONE
 key_quark.keybind.chestMerge:0:NONE
 key_quark.keybind.chestRestock:0:NONE
 key_quark.keybind.chestExtract:0:NONE
+key_quark.keybind.toggleAutojump:48:NONE
 key_keybind.baublesinventory:48:NONE
 key_keybind.openSelectionWheel:56:NONE
 key_keybind.openBaubleBag:19:NONE
@@ -75,17 +75,13 @@ key_openblocks.keybind.vario_vol_down:0:NONE
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
 key_key.toggleTimeOfDayOverlay:0:NONE
-key_key.togglePotionParticles:66:CONTROL
 key_keys.servertabinfo.show:29:NONE
 key_keys.servertabinfo.show2:157:NONE
 key_walljump.key.walljump:42:NONE
-key_dshuds.keybind.SelectionBox:48:NONE
-key_dshuds.keybind.LightLevel:88:NONE
-key_dshuds.keybind.ChunkBorders:67:NONE
+key_World Tooltips Configuration:74:NONE
 key_key.pickup.item:0:NONE
 key_key.dismount:42:NONE
 key_key.narrator:48:CONTROL
-key_key.cofh.multimode:47:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0:NONE
@@ -98,7 +94,6 @@ key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
 key_key.toggle_focus.desc:15:NONE
-key_Seamoth descend:0:NONE
 key_key.settings_menu:34:NONE
 key_key.range:19:NONE
 key_key.undo:22:NONE
@@ -149,11 +144,26 @@ key_key.clienttweaks.disable_step_assist:0:NONE
 key_key.clienttweaks.hide_offhand_item:0:NONE
 key_key.immersiveengineering.magnetEquip:31:NONE
 key_key.immersiveengineering.chemthrowerSwitch:0:NONE
+key_key.craftingtweaks.rotate:0:NONE
+key_key.craftingtweaks.rotate_counter_clockwise:0:NONE
+key_key.craftingtweaks.balance:0:NONE
+key_key.craftingtweaks.spread:0:NONE
+key_key.craftingtweaks.clear:0:NONE
+key_key.craftingtweaks.force_clear:0:NONE
+key_key.craftingtweaks.toggleButtons:0:NONE
+key_key.craftingtweaks.compressOne:37:CONTROL
+key_key.craftingtweaks.compressStack:37:NONE
+key_key.craftingtweaks.compressAll:37:SHIFT
+key_key.craftingtweaks.decompressOne:0:NONE
+key_key.craftingtweaks.decompressStack:0:NONE
+key_key.craftingtweaks.decompressAll:0:NONE
+key_key.craftingtweaks.refill_last:15:NONE
+key_key.craftingtweaks.refill_last_stack:15:NONE
 key_key.keyExtraInvo:45:NONE
 key_key.keyWheel:47:NONE
 key_key.keyExtraCraftin:46:NONE
 key_mekanism.key.mode:50:NONE
-key_mekanism.key.armorMode:78:NONE
+key_mekanism.key.armorMode:34:NONE
 key_mekanism.key.feetMode:35:NONE
 key_mekanism.key.voice:22:NONE
 key_waila.keybind.wailaconfig:82:NONE
@@ -177,6 +187,10 @@ key_key.plustic_mots.desc:13:ALT
 key_key.arms.desc:39:NONE
 key_key.mod.desc:38:NONE
 key_key.head.desc:35:NONE
+key_key.toolbelt.open:19:NONE
+key_key.toolbelt.cycle.left:0:NONE
+key_key.toolbelt.cycle.right:0:NONE
+key_key.toolbelt.slot:47:NONE
 key_Open Skill GUI:21:NONE
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE

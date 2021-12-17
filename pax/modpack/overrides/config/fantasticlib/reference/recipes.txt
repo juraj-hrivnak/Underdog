@@ -3370,7 +3370,6 @@ mekanism:plasticblock_0
 mekanism:paper
 mekanism:obsidiantnt
 mekanism:nugget_3
-mekanism:nugget_2
 mekanism:nugget_0
 mekanism:networkreader
 mekanism:mufflingupgrade
@@ -3441,8 +3440,6 @@ mekanism:machineblock2_0
 mekanism:jetpack
 mekanism:ingot_3_alt
 mekanism:ingot_3
-mekanism:ingot_2_alt
-mekanism:ingot_2
 mekanism:ingot_0_alt
 mekanism:ingot_0
 mekanism:glowplasticblock_9_alt
@@ -4768,63 +4765,34 @@ appliedenergistics2:facade
 akashictome:attachment
 akashictome:tome
 akashictome:tome_1
-quark:paper_wall
-quark:paper_wall_big
-quark:paper_wall_sakura
-quark:iron_ladder
-quark:paper_lantern
-quark:paper_lantern_1
-quark:colored_flowerpot_white
-quark:colored_flowerpot_orange
-quark:colored_flowerpot_magenta
-quark:colored_flowerpot_light_blue
-quark:colored_flowerpot_yellow
-quark:colored_flowerpot_lime
-quark:colored_flowerpot_pink
-quark:colored_flowerpot_gray
-quark:colored_flowerpot_silver
-quark:colored_flowerpot_cyan
-quark:colored_flowerpot_purple
-quark:colored_flowerpot_blue
-quark:colored_flowerpot_brown
-quark:colored_flowerpot_green
-quark:colored_flowerpot_red
-quark:colored_flowerpot_black
-quark:lit_lamp
-quark:candle
-quark:candle_1
-quark:candle_2
-quark:candle_3
-quark:candle_4
-quark:candle_5
-quark:candle_6
-quark:candle_7
-quark:candle_8
-quark:candle_9
-quark:candle_10
-quark:candle_11
-quark:candle_12
-quark:candle_13
-quark:candle_14
-quark:candle_15
-quark:candle_16
-quark:candle_17
-quark:candle_18
-quark:candle_19
-quark:candle_20
-quark:candle_21
-quark:candle_22
-quark:candle_23
-quark:candle_24
-quark:candle_25
-quark:candle_26
-quark:candle_27
-quark:candle_28
-quark:candle_29
-quark:candle_30
-quark:candle_31
-quark:rope
-quark:grate
+quark:clay_ball
+quark:glass
+quark:stained_glass
+quark:stained_glass_1
+quark:stained_glass_2
+quark:stained_glass_3
+quark:stained_glass_4
+quark:stained_glass_5
+quark:stained_glass_6
+quark:stained_glass_7
+quark:stained_glass_8
+quark:stained_glass_9
+quark:stained_glass_10
+quark:stained_glass_11
+quark:stained_glass_12
+quark:stained_glass_13
+quark:stained_glass_14
+quark:stained_glass_15
+quark:sugar_block
+quark:sugar
+quark:obsidian_pressure_plate
+quark:chain
+quark:chainmail_helmet
+quark:chainmail_chestplate
+quark:chainmail_leggings
+quark:chainmail_boots
+quark:elytra_dyeing
+quark:firework_cloning
 quark:sandstone_new
 quark:sandstone_new_1
 quark:sandstone_new_2
@@ -5057,15 +5025,75 @@ quark:quilted_wool_12
 quark:quilted_wool_13
 quark:quilted_wool_14
 quark:quilted_wool_15
-quark:chute
-quark:sugar_block
-quark:sugar
-quark:obsidian_pressure_plate
-quark:chain
-quark:chainmail_helmet
-quark:chainmail_chestplate
-quark:chainmail_leggings
-quark:chainmail_boots
+quark:backpackdye
+quark:tiny_potato
+quark:tiny_potato_1
+quark:map_pinning
+quark:dispenser
+quark:repeater
+quark:chest_minecart
+quark:furnace_minecart
+quark:hopper_minecart
+quark:tnt_minecart
+quark:chest_minecart_1
+quark:horse_whistle
+quark:paper_wall
+quark:paper_wall_big
+quark:paper_wall_sakura
+quark:iron_ladder
+quark:paper_lantern
+quark:paper_lantern_1
+quark:colored_flowerpot_white
+quark:colored_flowerpot_orange
+quark:colored_flowerpot_magenta
+quark:colored_flowerpot_light_blue
+quark:colored_flowerpot_yellow
+quark:colored_flowerpot_lime
+quark:colored_flowerpot_pink
+quark:colored_flowerpot_gray
+quark:colored_flowerpot_silver
+quark:colored_flowerpot_cyan
+quark:colored_flowerpot_purple
+quark:colored_flowerpot_blue
+quark:colored_flowerpot_brown
+quark:colored_flowerpot_green
+quark:colored_flowerpot_red
+quark:colored_flowerpot_black
+quark:lit_lamp
+quark:candle
+quark:candle_1
+quark:candle_2
+quark:candle_3
+quark:candle_4
+quark:candle_5
+quark:candle_6
+quark:candle_7
+quark:candle_8
+quark:candle_9
+quark:candle_10
+quark:candle_11
+quark:candle_12
+quark:candle_13
+quark:candle_14
+quark:candle_15
+quark:candle_16
+quark:candle_17
+quark:candle_18
+quark:candle_19
+quark:candle_20
+quark:candle_21
+quark:candle_22
+quark:candle_23
+quark:candle_24
+quark:candle_25
+quark:candle_26
+quark:candle_27
+quark:candle_28
+quark:candle_29
+quark:candle_30
+quark:candle_31
+quark:rope
+quark:grate
 quark:stone_marble_slab
 quark:stone_marble_stairs
 quark:marble_wall
@@ -5082,80 +5110,6 @@ quark:stone_slate_slab
 quark:stone_slate_stairs
 quark:slate_wall
 quark:slate
-quark:elytra_dyeing
-quark:firework_cloning
-quark:clay_ball
-quark:glass
-quark:stained_glass
-quark:stained_glass_1
-quark:stained_glass_2
-quark:stained_glass_3
-quark:stained_glass_4
-quark:stained_glass_5
-quark:stained_glass_6
-quark:stained_glass_7
-quark:stained_glass_8
-quark:stained_glass_9
-quark:stained_glass_10
-quark:stained_glass_11
-quark:stained_glass_12
-quark:stained_glass_13
-quark:stained_glass_14
-quark:stained_glass_15
-quark:map_pinning
-quark:dispenser
-quark:repeater
-quark:chest_minecart
-quark:furnace_minecart
-quark:hopper_minecart
-quark:tnt_minecart
-quark:chest_minecart_1
-quark:horse_whistle
-quark:backpackdye
-quark:tiny_potato
-quark:tiny_potato_1
-quark:leaf_carpet
-quark:leaf_carpet_1
-quark:leaf_carpet_2
-quark:leaf_carpet_3
-quark:leaf_carpet_4
-quark:leaf_carpet_5
-quark:world_stone_bricks
-quark:world_stone_carved
-quark:world_stone_bricks_1
-quark:world_stone_carved_1
-quark:world_stone_bricks_2
-quark:world_stone_carved_2
-quark:world_stone_bricks_3
-quark:world_stone_carved_3
-quark:world_stone_bricks_4
-quark:world_stone_carved_4
-quark:world_stone_bricks_5
-quark:world_stone_carved_5
-quark:world_stone_bricks_6
-quark:world_stone_carved_6
-quark:world_stone_pavement
-quark:world_stone_pavement_1
-quark:world_stone_pavement_2
-quark:world_stone_pavement_3
-quark:world_stone_pavement_4
-quark:world_stone_pavement_5
-quark:world_stone_pavement_6
-quark:slime
-quark:color_slime
-quark:color_slime_1
-quark:color_slime_2
-quark:color_slime_3
-quark:color_slime_4
-quark:stone_speleothem
-quark:granite_speleothem
-quark:diorite_speleothem
-quark:andesite_speleothem
-quark:netherrack_speleothem
-quark:marble_speleothem
-quark:limestone_speleothem
-quark:jasper_speleothem
-quark:slate_speleothem
 quark:slabs_to_stairs
 quark:stairs_to_blocks
 quark:wool
@@ -5222,7 +5176,49 @@ quark:wool_30
 quark:wool_31
 quark:quilted_wool_46
 quark:quilted_wool_47
+quark:slime
+quark:color_slime
+quark:color_slime_1
+quark:color_slime_2
+quark:color_slime_3
+quark:color_slime_4
+quark:world_stone_bricks
+quark:world_stone_carved
+quark:world_stone_bricks_1
+quark:world_stone_carved_1
+quark:world_stone_bricks_2
+quark:world_stone_carved_2
+quark:world_stone_bricks_3
+quark:world_stone_carved_3
+quark:world_stone_bricks_4
+quark:world_stone_carved_4
+quark:world_stone_bricks_5
+quark:world_stone_carved_5
+quark:world_stone_bricks_6
+quark:world_stone_carved_6
+quark:world_stone_pavement
+quark:world_stone_pavement_1
+quark:world_stone_pavement_2
+quark:world_stone_pavement_3
+quark:world_stone_pavement_4
+quark:world_stone_pavement_5
+quark:world_stone_pavement_6
 quark:pipe
+quark:leaf_carpet
+quark:leaf_carpet_1
+quark:leaf_carpet_2
+quark:leaf_carpet_3
+quark:leaf_carpet_4
+quark:leaf_carpet_5
+quark:stone_speleothem
+quark:granite_speleothem
+quark:diorite_speleothem
+quark:andesite_speleothem
+quark:netherrack_speleothem
+quark:marble_speleothem
+quark:limestone_speleothem
+quark:jasper_speleothem
+quark:slate_speleothem
 chisel:antiblock
 chisel:autochisel
 chisel:bookshelf0
@@ -6382,10 +6378,10 @@ rustic:candle_lever_silver
 rustic:chain_silver
 rustic:chandelier_silver
 rustic:silver_lantern
-adpother:1xtile.diamond_filter@0
-adpother:1xitem.aerometer@0
 adpother:1xtile.gold_filter@0
 adpother:1xtile.iron_filter@0
+adpother:1xtile.diamond_filter@0
+adpother:1xitem.aerometer@0
 forestry:sturdy_casing
 forestry:tin_can
 forestry:wax_capsule
@@ -6420,12 +6416,100 @@ forestry:tin_block
 forestry:bronze_block
 forestry:ash_brick
 forestry:ash_stairs
-forestry:cake_can
-forestry:cake_capsule
-forestry:cake_refractory
+forestry:letter
+forestry:stamps_1n
+forestry:stamps_2n
+forestry:stamps_5n
+forestry:stamps_10n
+forestry:letter_recycling
+forestry:catalogue
+forestry:mailbox
+forestry:trade_station
+forestry:greenhouse_plain
+forestry:greenhouse_control
+forestry:greenhouse_hygro
+forestry:greenhouse_heater
+forestry:greenhouse_fan
+forestry:greenhouse_dehumidifier
+forestry:greenhouse_humidifier
+forestry:greenhouse_window
+forestry:greenhouse_window_roof
+forestry:habitat_former
+forestry:bottler
+forestry:carpenter
+forestry:centrifuge
+forestry:fermenter
+forestry:moistener
+forestry:squeezer
+forestry:still
+forestry:rainmaker
+forestry:fabricator
+forestry:raintank
+forestry:peat_engine
+forestry:biogas_engine
+forestry:backpack_bee
+forestry:backpack_butterfly
+forestry:backpack_mining
+forestry:backpack_digging
+forestry:backpack_foresting
+forestry:backpack_hunting
+forestry:backpack_adventuring
+forestry:backpack_building
+forestry:charcoal_block
+forestry:charcoal
+forestry:loam
+forestry:apiarist_hat
+forestry:apiarist_chest
+forestry:apiarist_legs
+forestry:apiarist_boots
+forestry:habitat_locator
+forestry:scoop
+forestry:smoker
+forestry:propolis_to_slime
+forestry:honey_melon
+forestry:frame_untreated
+forestry:frame_impregnated
+forestry:bee_house_minecart
+forestry:apiary_minecart
+forestry:comb.0
+forestry:comb.1
+forestry:comb.2
+forestry:comb.3
+forestry:comb.4
+forestry:comb.5
+forestry:comb.6
+forestry:comb.7
+forestry:comb.8
+forestry:comb.9
+forestry:comb.10
+forestry:comb.11
+forestry:comb.12
+forestry:comb.13
+forestry:comb.14
+forestry:comb.15
+forestry:comb.16
+forestry:honeyed_slice
+forestry:honey_pot
+forestry:ambrosia
+forestry:bituminous_peat
+forestry:pulsating_mesh
+forestry:wax_cast
+forestry:alveary_plain
+forestry:alveary_swarmer
+forestry:alveary_fan
+forestry:alveary_heater
+forestry:alveary_hygro
+forestry:alveary_stabiliser
+forestry:alveary_sieve
+forestry:candle_unlit_reset
+forestry:candle_lit_reset
+forestry:bee_chest
 forestry:book_honey
 forestry:book_tree
 forestry:book_butterfly
+forestry:cake_can
+forestry:cake_capsule
+forestry:cake_refractory
 forestry:fireproof_planks_larch
 forestry:fireproof_slabs_larch
 forestry:fireproof_fences_larch
@@ -6632,43 +6716,8 @@ forestry:fireproof_stairs_dark_oak
 forestry:fireproof_doors_dark_oak
 forestry:grafter
 forestry:tree_chest
-forestry:letter
-forestry:stamps_1n
-forestry:stamps_2n
-forestry:stamps_5n
-forestry:stamps_10n
-forestry:letter_recycling
-forestry:catalogue
-forestry:mailbox
-forestry:trade_station
-forestry:greenhouse_plain
-forestry:greenhouse_control
-forestry:greenhouse_hygro
-forestry:greenhouse_heater
-forestry:greenhouse_fan
-forestry:greenhouse_dehumidifier
-forestry:greenhouse_humidifier
-forestry:greenhouse_window
-forestry:greenhouse_window_roof
-forestry:bottler
-forestry:carpenter
-forestry:centrifuge
-forestry:fermenter
-forestry:moistener
-forestry:squeezer
-forestry:still
-forestry:rainmaker
-forestry:fabricator
-forestry:raintank
-forestry:habitat_former
-forestry:backpack_bee
-forestry:backpack_butterfly
-forestry:backpack_mining
-forestry:backpack_digging
-forestry:backpack_foresting
-forestry:backpack_hunting
-forestry:backpack_adventuring
-forestry:backpack_building
+forestry:butterflymating
+forestry:butterfly_chest
 forestry:farm_basic_brick_stone
 forestry:farm_gearbox_brick_stone
 forestry:farm_hatch_brick_stone
@@ -6733,72 +6782,19 @@ forestry:farm_nether
 forestry:farm_ender
 forestry:peat_bog_manual_managed
 forestry:peat_bog_managed_manual
-forestry:farm_gourd_manual_managed
-forestry:farm_gourd_managed_manual
 forestry:arboretum_manual_managed
 forestry:arboretum_managed_manual
+forestry:farm_ender_manual_managed
+forestry:farm_ender_managed_manual
+forestry:farm_gourd_manual_managed
+forestry:farm_gourd_managed_manual
+forestry:farm_mushroom_manual_managed
+forestry:farm_mushroom_managed_manual
 forestry:farm_nether_manual_managed
 forestry:farm_nether_managed_manual
 forestry:farm_crop_manual_managed
 forestry:farm_crop_managed_manual
-forestry:farm_ender_manual_managed
-forestry:farm_ender_managed_manual
-forestry:farm_mushroom_manual_managed
-forestry:farm_mushroom_managed_manual
-forestry:apiarist_hat
-forestry:apiarist_chest
-forestry:apiarist_legs
-forestry:apiarist_boots
-forestry:habitat_locator
-forestry:scoop
-forestry:smoker
-forestry:propolis_to_slime
-forestry:honey_melon
-forestry:frame_untreated
-forestry:frame_impregnated
-forestry:bee_house_minecart
-forestry:apiary_minecart
-forestry:comb.0
-forestry:comb.1
-forestry:comb.2
-forestry:comb.3
-forestry:comb.4
-forestry:comb.5
-forestry:comb.6
-forestry:comb.7
-forestry:comb.8
-forestry:comb.9
-forestry:comb.10
-forestry:comb.11
-forestry:comb.12
-forestry:comb.13
-forestry:comb.14
-forestry:comb.15
-forestry:comb.16
-forestry:honeyed_slice
-forestry:honey_pot
-forestry:ambrosia
-forestry:bituminous_peat
-forestry:pulsating_mesh
-forestry:wax_cast
-forestry:alveary_plain
-forestry:alveary_swarmer
-forestry:alveary_fan
-forestry:alveary_heater
-forestry:alveary_hygro
-forestry:alveary_stabiliser
-forestry:alveary_sieve
-forestry:candle_unlit_reset
-forestry:candle_lit_reset
-forestry:bee_chest
 forestry:worktable
-forestry:charcoal_block
-forestry:charcoal
-forestry:loam
-forestry:butterflymating
-forestry:butterfly_chest
-forestry:peat_engine
-forestry:biogas_engine
 forestry:pam_compost_barley
 forestry:pam_compost_oats
 forestry:pam_compost_rye
@@ -6957,33 +6953,35 @@ practicallogistics2:item.transceiver111
 practicallogistics2:item.operator112
 practicallogistics2:item.wirelessstorage113
 practicallogistics2:item.entitytransceiver114
-adchimneys:4xtile.cobblestone_andesite@1
-adchimneys:4xtile.iron_block@1
-adchimneys:8xtile.cobblestone_basalt@0
-adchimneys:4xtile.cobblestone_marble@1
-adchimneys:4xtile.cobblestone_granite@2
-adchimneys:4xtile.cobblestone@2
-adchimneys:4xtile.cobblestone_basalt@2
-adchimneys:4xtile.cobblestone_marble@2
+adchimneys:2xtile.refractory_brick_block@0
 adchimneys:2xtile.stone_bricks@0
+adchimneys:4xtile.iron_block@1
+adchimneys:4xtile.stone_bricks@2
+adchimneys:4xtile.smoker@0
+adchimneys:4xtile.cobblestone_diorite@2
+adchimneys:16xtile.iron_block@0
+adchimneys:4xtile.cobblestone_andesite@1
+adchimneys:4xtile.cobblestone_basalt@1
+adchimneys:4xtile.cobblestone@2
+adchimneys:8xtile.cobblestone_basalt@0
+adchimneys:4xtile.stone_bricks@1
 adchimneys:4xtile.cobblestone_granite@1
 adchimneys:4xtile.cobblestone_limestone@2
-adchimneys:4xtile.smoker@0
-adchimneys:2xtile.refractory_brick_block@0
-adchimneys:4xtile.refractory_brick_block@2
-adchimneys:16xtile.iron_block@0
-adchimneys:4xtile.stone_bricks@1
-adchimneys:4xtile.iron_block@2
 adchimneys:4xtile.cobblestone_diorite@1
-adchimneys:4xtile.refractory_brick_block@1
-adchimneys:4xtile.cobblestone_diorite@2
-adchimneys:4xtile.cobblestone_andesite@2
-adchimneys:4xtile.cobblestone_limestone@1
-adchimneys:4xtile.stone_bricks@2
+adchimneys:4xtile.cobblestone_marble@1
+adchimneys:4xtile.cobblestone_granite@2
 adchimneys:4xtile.cobblestone@1
-adchimneys:4xtile.cobblestone_basalt@1
+adchimneys:4xtile.cobblestone_limestone@1
+adchimneys:4xtile.cobblestone_andesite@2
+adchimneys:4xtile.cobblestone_basalt@2
+adchimneys:4xtile.refractory_brick_block@1
+adchimneys:4xtile.refractory_brick_block@2
+adchimneys:4xtile.iron_block@2
+adchimneys:4xtile.cobblestone_marble@2
 crafttweaker:ct_shapeless1941329487
 crafttweaker:ct_shaped-1421511452
+crafttweaker:ct_shapeless-1354974264
+crafttweaker:ct_shaped1116563917
 crafttweaker:ct_shapeless1605681424
 crafttweaker:ct_shaped-1804361232
 crafttweaker:ct_shapeless-2060688947
@@ -7012,20 +7010,20 @@ crafttweaker:ct_shapeless2109281581
 crafttweaker:ct_shaped1438941206
 crafttweaker:ct_shapeless-1367213912
 crafttweaker:ct_shaped-2103430464
-crafttweaker:ct_shaped-474071360
 crafttweaker:ct_shaped-133248765
-crafttweaker:ct_shaped2092027792
-crafttweaker:ct_shaped-1738165710
 crafttweaker:ct_shaped1445440793
+crafttweaker:ct_shaped-1738165710
+crafttweaker:ct_shaped2092027792
 crafttweaker:ct_shaped-1152100373
+crafttweaker:ct_shaped-474071360
+crafttweaker:ct_shapeless-1502194213
 crafttweaker:ct_shapeless-1740940463
+crafttweaker:ct_shapeless-2096983950
+crafttweaker:ct_shapeless-1505445903
+crafttweaker:ct_shapeless46686601
+crafttweaker:ct_shapeless1908598537
 crafttweaker:ct_shapeless1072687547
 crafttweaker:ct_shapeless1001982159
-crafttweaker:ct_shapeless-2096983950
-crafttweaker:ct_shapeless46686601
-crafttweaker:ct_shapeless-1505445903
-crafttweaker:ct_shapeless1908598537
-crafttweaker:ct_shapeless-1502194213
 crafttweaker:ct_shaped559830166
 crafttweaker:wireless_booster_fixed
 crafttweaker:ct_shaped-497212657
@@ -7042,16 +7040,16 @@ crafttweaker:ct_shapeless-1286670396
 crafttweaker:overgrown stone1
 crafttweaker:overgrown stone2
 crafttweaker:overgrown stone3
-crafttweaker:ct_shapeless868530723
-crafttweaker:ct_shapeless1229848112
-crafttweaker:ct_shapeless-747893228
-crafttweaker:ct_shapeless-2018073904
-crafttweaker:ct_shapeless1968873125
 crafttweaker:ct_shapeless443129620
-crafttweaker:ct_shapeless2088988676
 crafttweaker:ct_shapeless-1335409575
-crafttweaker:ct_shapeless-1860574173
 crafttweaker:ct_shapeless-1803249279
+crafttweaker:ct_shapeless2088988676
+crafttweaker:ct_shapeless-747893228
+crafttweaker:ct_shapeless868530723
+crafttweaker:ct_shapeless-1860574173
+crafttweaker:ct_shapeless1968873125
+crafttweaker:ct_shapeless-2018073904
+crafttweaker:ct_shapeless1229848112
 crafttweaker:ct_shaped-812719268
 crafttweaker:ct_shaped518061307
 crafttweaker:ct_shaped1511595817
@@ -7061,22 +7059,22 @@ crafttweaker:ct_shaped1167554515
 crafttweaker:ct_shaped931749413
 crafttweaker:ct_shaped500998905
 crafttweaker:ct_shaped-1774217033
+crafttweaker:ct_shapeless-797109770
+crafttweaker:ct_shapeless-2037974807
+crafttweaker:ct_shapeless-1534916418
+crafttweaker:ct_shapeless1957107692
+crafttweaker:ct_shapeless266218116
+crafttweaker:ct_shapeless-307426452
+crafttweaker:ct_shapeless824840620
+crafttweaker:ct_shapeless2015528839
+crafttweaker:ct_shapeless-810525468
 crafttweaker:ct_shapeless-1776380068
 crafttweaker:ct_shapeless-1439693524
-crafttweaker:ct_shapeless-1555047507
-crafttweaker:ct_shapeless-810525468
-crafttweaker:ct_shapeless-1534916418
-crafttweaker:ct_shapeless-307426452
-crafttweaker:ct_shapeless-1796511157
-crafttweaker:ct_shapeless2015528839
-crafttweaker:ct_shapeless-2037974807
-crafttweaker:ct_shapeless824840620
-crafttweaker:ct_shapeless-1293452768
-crafttweaker:ct_shapeless266218116
-crafttweaker:ct_shapeless1723006700
-crafttweaker:ct_shapeless1957107692
 crafttweaker:ct_shapeless-1051989118
-crafttweaker:ct_shapeless-797109770
+crafttweaker:ct_shapeless-1796511157
+crafttweaker:ct_shapeless-1555047507
+crafttweaker:ct_shapeless-1293452768
+crafttweaker:ct_shapeless1723006700
 crafttweaker:ct_shaped2060341867
 crafttweaker:ct_shaped1966080476
 crafttweaker:ct_shaped1188779629
@@ -7084,16 +7082,16 @@ crafttweaker:ct_shaped1080138559
 crafttweaker:ct_shaped1950049039
 crafttweaker:ct_shaped-1099132971
 crafttweaker:ct_shaped-968490643
+crafttweaker:ct_shapeless-1445842544
+crafttweaker:ct_shapeless750988509
+crafttweaker:ct_shapeless35792512
+crafttweaker:ct_shapeless657563737
+crafttweaker:ct_shapeless1756061650
+crafttweaker:ct_shapeless-1837141415
 crafttweaker:ct_shapeless-1853935104
 crafttweaker:ct_shapeless-2113351847
 crafttweaker:ct_shapeless-1411829120
 crafttweaker:ct_shapeless-1797199107
-crafttweaker:ct_shapeless1756061650
-crafttweaker:ct_shapeless-1837141415
-crafttweaker:ct_shapeless35792512
-crafttweaker:ct_shapeless657563737
-crafttweaker:ct_shapeless-1445842544
-crafttweaker:ct_shapeless750988509
 crafttweaker:ct_shaped-539564804
 crafttweaker:ct_shaped192664779
 crafttweaker:ct_shaped-37284714
@@ -7138,20 +7136,20 @@ crafttweaker:ct_shaped-1253860882
 crafttweaker:ct_shaped1570060517
 crafttweaker:ct_shaped-844458280
 crafttweaker:ct_shapeless1847225437
-crafttweaker:ct_shaped402104440
 crafttweaker:ct_shaped-1097294201
-crafttweaker:ct_shaped-1144424893
-crafttweaker:ct_shaped1779067648
 crafttweaker:ct_shaped1752099299
-crafttweaker:ct_shaped426181286
-crafttweaker:ct_shaped1093304877
-crafttweaker:ct_shaped-1191555585
-crafttweaker:ct_shaped-46128741
-crafttweaker:ct_shaped-1238686277
-crafttweaker:ct_shaped-1769178009
 crafttweaker:ct_shaped-460642986
-crafttweaker:ct_shaped-1050163509
+crafttweaker:ct_shaped-46128741
+crafttweaker:ct_shaped-1144424893
+crafttweaker:ct_shaped402104440
 crafttweaker:ct_shaped-259720582
+crafttweaker:ct_shaped-1769178009
+crafttweaker:ct_shaped1779067648
+crafttweaker:ct_shaped-1191555585
+crafttweaker:ct_shaped426181286
+crafttweaker:ct_shaped-1050163509
+crafttweaker:ct_shaped-1238686277
+crafttweaker:ct_shaped1093304877
 crafttweaker:ct_shaped-1363447192
 crafttweaker:ct_shaped-192390487
 crafttweaker:ct_shaped-589452803
@@ -7168,16 +7166,16 @@ crafttweaker:ct_shaped-529437310
 crafttweaker:ct_shaped-111574118
 crafttweaker:ct_shaped-1127348438
 crafttweaker:ct_shaped1497835254
-crafttweaker:ct_shaped1906621422
 crafttweaker:ct_shaped-802634388
-crafttweaker:ct_shaped-1509203676
 crafttweaker:ct_shaped1649435992
+crafttweaker:ct_shaped-1509203676
+crafttweaker:ct_shaped1906621422
 crafttweaker:ct_shaped-1891479940
 crafttweaker:ct_shaped2085961059
 crafttweaker:ct_shaped-167689715
 crafttweaker:ct_shaped1468176369
 crafttweaker:ct_shaped-1463112760
-crafttweaker:ct_shaped-371834118
+crafttweaker:ct_shaped698040230
 crafttweaker:ct_shaped50888091
 crafttweaker:ct_shaped-1158783124
 crafttweaker:ct_shaped-318522246
@@ -7190,423 +7188,423 @@ crafttweaker:ct_shaped-1710818986
 crafttweaker:piston_fixed
 crafttweaker:oak_trapdoor_fixed
 crafttweaker:treated_wood_lumber
-crafttweaker:ct_shaped-1218859337
-crafttweaker:ct_shaped-1011562406
+crafttweaker:ct_shaped-1377960676
+crafttweaker:ct_shaped1538175729
+crafttweaker:ct_shaped-1405507726
+crafttweaker:ct_shaped-1195614619
+crafttweaker:ct_shaped923707688
+crafttweaker:ct_shaped69455565
+crafttweaker:ct_shaped1696900443
 crafttweaker:ct_shaped-913221917
 crafttweaker:ct_shaped988472656
 crafttweaker:ct_shaped945721141
-crafttweaker:ct_shaped672827243
-crafttweaker:ct_shaped-1405507726
-crafttweaker:ct_shaped923707688
-crafttweaker:ct_shaped-1377960676
-crafttweaker:ct_shaped1696900443
-crafttweaker:ct_shaped-1195614619
-crafttweaker:ct_shaped1538175729
+crafttweaker:ct_shaped-1218859337
 crafttweaker:ct_shaped1937454687
-crafttweaker:ct_shaped69455565
+crafttweaker:ct_shaped-1011562406
 crafttweaker:ct_shaped1144035866
 crafttweaker:ct_shaped1859231503
+crafttweaker:ct_shaped672827243
 crafttweaker:cabinet_fixed
 crafttweaker:ct_shaped187088236
-crafttweaker:ct_shapeless-637238910
-crafttweaker:_wooden_nail_2x_birch wood planksminecraft
-crafttweaker:_iron_nail_4x_birch wood planksminecraft
-crafttweaker:_iron_nail_2x_birch wood planksminecraft
-crafttweaker:ct_shapeless670076379
-crafttweaker:_wooden_nail_2x_balsa wood planksforestry
-crafttweaker:_iron_nail_4x_balsa wood planksforestry
-crafttweaker:_iron_nail_2x_balsa wood planksforestry
-crafttweaker:ct_shapeless790459308
-crafttweaker:_wooden_nail_2x_greenheart wood planksforestry
-crafttweaker:_iron_nail_4x_greenheart wood planksforestry
-crafttweaker:_iron_nail_2x_greenheart wood planksforestry
-crafttweaker:ct_shapeless-1400784424
-crafttweaker:_wooden_nail_2x_light gray painted woodrustic
-crafttweaker:_iron_nail_4x_light gray painted woodrustic
-crafttweaker:_iron_nail_2x_light gray painted woodrustic
-crafttweaker:ct_shapeless1705900530
-crafttweaker:_wooden_nail_2x_blue painted woodrustic
-crafttweaker:_iron_nail_4x_blue painted woodrustic
-crafttweaker:_iron_nail_2x_blue painted woodrustic
-crafttweaker:ct_shapeless-1203069184
-crafttweaker:_wooden_nail_2x_giant sequoia wood planksforestry
-crafttweaker:_iron_nail_4x_giant sequoia wood planksforestry
-crafttweaker:_iron_nail_2x_giant sequoia wood planksforestry
-crafttweaker:ct_shapeless-1365534685
-crafttweaker:_wooden_nail_2x_cocobolo wood planksforestry
-crafttweaker:_iron_nail_4x_cocobolo wood planksforestry
-crafttweaker:_iron_nail_2x_cocobolo wood planksforestry
-crafttweaker:ct_shapeless-111541998
-crafttweaker:_wooden_nail_2x_treated wood planksimmersiveengineering
-crafttweaker:_iron_nail_4x_treated wood planksimmersiveengineering
-crafttweaker:_iron_nail_2x_treated wood planksimmersiveengineering
-crafttweaker:ct_shapeless-1325201309
-crafttweaker:_wooden_nail_2x_walnut wood planksforestry
-crafttweaker:_iron_nail_4x_walnut wood planksforestry
-crafttweaker:_iron_nail_2x_walnut wood planksforestry
-crafttweaker:ct_shapeless-734972924
-crafttweaker:_wooden_nail_2x_light blue painted woodrustic
-crafttweaker:_iron_nail_4x_light blue painted woodrustic
-crafttweaker:_iron_nail_2x_light blue painted woodrustic
-crafttweaker:ct_shapeless-572541208
-crafttweaker:_wooden_nail_2x_lime painted woodrustic
-crafttweaker:_iron_nail_4x_lime painted woodrustic
-crafttweaker:_iron_nail_2x_lime painted woodrustic
-crafttweaker:ct_shapeless-139904252
-crafttweaker:_wooden_nail_2x_desert acacia wood planksforestry
-crafttweaker:_iron_nail_4x_desert acacia wood planksforestry
-crafttweaker:_iron_nail_2x_desert acacia wood planksforestry
-crafttweaker:ct_shapeless2129422724
-crafttweaker:_wooden_nail_2x_cyan painted woodrustic
-crafttweaker:_iron_nail_4x_cyan painted woodrustic
-crafttweaker:_iron_nail_2x_cyan painted woodrustic
-crafttweaker:ct_shapeless-1997981917
-crafttweaker:_wooden_nail_2x_zebrawood wood planksforestry
-crafttweaker:_iron_nail_4x_zebrawood wood planksforestry
-crafttweaker:_iron_nail_2x_zebrawood wood planksforestry
-crafttweaker:ct_shapeless1949522929
-crafttweaker:_wooden_nail_2x_mahoe wood planksforestry
-crafttweaker:_iron_nail_4x_mahoe wood planksforestry
-crafttweaker:_iron_nail_2x_mahoe wood planksforestry
-crafttweaker:ct_shapeless-351708810
-crafttweaker:_wooden_nail_2x_purple painted woodrustic
-crafttweaker:_iron_nail_4x_purple painted woodrustic
-crafttweaker:_iron_nail_2x_purple painted woodrustic
-crafttweaker:ct_shapeless-502063004
-crafttweaker:_wooden_nail_2x_ipe wood planksforestry
-crafttweaker:_iron_nail_4x_ipe wood planksforestry
-crafttweaker:_iron_nail_2x_ipe wood planksforestry
-crafttweaker:ct_shapeless-1076595670
-crafttweaker:_wooden_nail_2x_pink painted woodrustic
-crafttweaker:_iron_nail_4x_pink painted woodrustic
-crafttweaker:_iron_nail_2x_pink painted woodrustic
-crafttweaker:ct_shapeless1421112990
-crafttweaker:_wooden_nail_2x_jungle wood planksminecraft
-crafttweaker:_iron_nail_4x_jungle wood planksminecraft
-crafttweaker:_iron_nail_2x_jungle wood planksminecraft
-crafttweaker:ct_shapeless1357653489
-crafttweaker:_wooden_nail_2x_ironwood planksrustic
-crafttweaker:_iron_nail_4x_ironwood planksrustic
-crafttweaker:_iron_nail_2x_ironwood planksrustic
-crafttweaker:ct_shapeless-1298014470
-crafttweaker:_wooden_nail_2x_tarred plankspyrotech
-crafttweaker:_iron_nail_4x_tarred plankspyrotech
-crafttweaker:_iron_nail_2x_tarred plankspyrotech
-crafttweaker:ct_shapeless1038879423
-crafttweaker:_wooden_nail_2x_eucalyptus wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_eucalyptus wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_eucalyptus wood planksbiomesoplenty
-crafttweaker:ct_shapeless210398335
-crafttweaker:_wooden_nail_2x_wenge wood planksforestry
-crafttweaker:_iron_nail_4x_wenge wood planksforestry
-crafttweaker:_iron_nail_2x_wenge wood planksforestry
-crafttweaker:ct_shapeless-1015615760
-crafttweaker:_wooden_nail_2x_citrus wood planksforestry
-crafttweaker:_iron_nail_4x_citrus wood planksforestry
-crafttweaker:_iron_nail_2x_citrus wood planksforestry
-crafttweaker:ct_shapeless-1421611304
-crafttweaker:_wooden_nail_2x_maple wood planksforestry
-crafttweaker:_iron_nail_4x_maple wood planksforestry
-crafttweaker:_iron_nail_2x_maple wood planksforestry
-crafttweaker:ct_shapeless-1161693194
-crafttweaker:_wooden_nail_2x_citrus wood plankscuisine
-crafttweaker:_iron_nail_4x_citrus wood plankscuisine
-crafttweaker:_iron_nail_2x_citrus wood plankscuisine
-crafttweaker:ct_shapeless719039660
-crafttweaker:_wooden_nail_2x_brown painted woodrustic
-crafttweaker:_iron_nail_4x_brown painted woodrustic
-crafttweaker:_iron_nail_2x_brown painted woodrustic
-crafttweaker:ct_shapeless256712332
-crafttweaker:_wooden_nail_2x_red painted woodrustic
-crafttweaker:_iron_nail_4x_red painted woodrustic
-crafttweaker:_iron_nail_2x_red painted woodrustic
-crafttweaker:ct_shapeless-542897930
-crafttweaker:_wooden_nail_2x_jacaranda wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_jacaranda wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_jacaranda wood planksbiomesoplenty
-crafttweaker:ct_shapeless-355934985
-crafttweaker:_wooden_nail_2x_cherry wood planksforestry
-crafttweaker:_iron_nail_4x_cherry wood planksforestry
-crafttweaker:_iron_nail_2x_cherry wood planksforestry
-crafttweaker:ct_shapeless879891148
-crafttweaker:_wooden_nail_2x_black painted woodrustic
-crafttweaker:_iron_nail_4x_black painted woodrustic
-crafttweaker:_iron_nail_2x_black painted woodrustic
-crafttweaker:ct_shapeless-1129288895
-crafttweaker:_wooden_nail_2x_mangrove wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_mangrove wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_mangrove wood planksbiomesoplenty
-crafttweaker:ct_shapeless-158958656
-crafttweaker:_wooden_nail_2x_plum wood planksforestry
-crafttweaker:_iron_nail_4x_plum wood planksforestry
-crafttweaker:_iron_nail_2x_plum wood planksforestry
-crafttweaker:ct_shapeless-107483142
-crafttweaker:_wooden_nail_2x_kapok wood planksforestry
-crafttweaker:_iron_nail_4x_kapok wood planksforestry
-crafttweaker:_iron_nail_2x_kapok wood planksforestry
-crafttweaker:ct_shapeless-1125935654
-crafttweaker:_wooden_nail_2x_orange painted woodrustic
-crafttweaker:_iron_nail_4x_orange painted woodrustic
-crafttweaker:_iron_nail_2x_orange painted woodrustic
-crafttweaker:ct_shapeless1639288448
-crafttweaker:_wooden_nail_2x_mahogany wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_mahogany wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_mahogany wood planksbiomesoplenty
-crafttweaker:ct_shapeless-1282164266
-crafttweaker:_wooden_nail_2x_chestnut wood planksforestry
-crafttweaker:_iron_nail_4x_chestnut wood planksforestry
-crafttweaker:_iron_nail_2x_chestnut wood planksforestry
-crafttweaker:ct_shapeless1693323995
-crafttweaker:_wooden_nail_2x_palm wood planksforestry
-crafttweaker:_iron_nail_4x_palm wood planksforestry
-crafttweaker:_iron_nail_2x_palm wood planksforestry
-crafttweaker:ct_shapeless-754918231
-crafttweaker:_wooden_nail_2x_palm wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_palm wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_palm wood planksbiomesoplenty
-crafttweaker:ct_shapeless1936662668
-crafttweaker:_wooden_nail_2x_magenta painted woodrustic
-crafttweaker:_iron_nail_4x_magenta painted woodrustic
-crafttweaker:_iron_nail_2x_magenta painted woodrustic
-crafttweaker:ct_shapeless1183801000
-crafttweaker:_wooden_nail_2x_sacred oak wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_sacred oak wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_sacred oak wood planksbiomesoplenty
-crafttweaker:ct_shapeless-1348393184
-crafttweaker:_wooden_nail_2x_acacia wood planksminecraft
-crafttweaker:_iron_nail_4x_acacia wood planksminecraft
-crafttweaker:_iron_nail_2x_acacia wood planksminecraft
-crafttweaker:ct_shapeless1633556993
-crafttweaker:_wooden_nail_2x_oak wood planksminecraft
-crafttweaker:_iron_nail_4x_oak wood planksminecraft
-crafttweaker:_iron_nail_2x_oak wood planksminecraft
-crafttweaker:ct_shapeless823334812
-crafttweaker:_wooden_nail_2x_cherry wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_cherry wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_cherry wood planksbiomesoplenty
-crafttweaker:ct_shapeless-1714247156
-crafttweaker:_wooden_nail_2x_white painted woodrustic
-crafttweaker:_iron_nail_4x_white painted woodrustic
-crafttweaker:_iron_nail_2x_white painted woodrustic
-crafttweaker:ct_shapeless-1151697121
-crafttweaker:_wooden_nail_2x_baobab wood planksforestry
-crafttweaker:_iron_nail_4x_baobab wood planksforestry
-crafttweaker:_iron_nail_2x_baobab wood planksforestry
-crafttweaker:ct_shapeless638639851
-crafttweaker:_wooden_nail_2x_mahogany wood planksforestry
-crafttweaker:_iron_nail_4x_mahogany wood planksforestry
-crafttweaker:_iron_nail_2x_mahogany wood planksforestry
-crafttweaker:ct_shapeless-843148594
-crafttweaker:_wooden_nail_2x_redwood wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_redwood wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_redwood wood planksbiomesoplenty
-crafttweaker:ct_shapeless-465506370
-crafttweaker:_wooden_nail_2x_lime wood planksforestry
-crafttweaker:_iron_nail_4x_lime wood planksforestry
-crafttweaker:_iron_nail_2x_lime wood planksforestry
-crafttweaker:ct_shapeless1187822071
-crafttweaker:_wooden_nail_2x_spruce wood planksminecraft
-crafttweaker:_iron_nail_4x_spruce wood planksminecraft
-crafttweaker:_iron_nail_2x_spruce wood planksminecraft
-crafttweaker:ct_shapeless1194810145
-crafttweaker:_wooden_nail_2x_umbran wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_umbran wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_umbran wood planksbiomesoplenty
-crafttweaker:ct_shapeless357861748
-crafttweaker:_wooden_nail_2x_olive wood planksrustic
-crafttweaker:_iron_nail_4x_olive wood planksrustic
-crafttweaker:_iron_nail_2x_olive wood planksrustic
-crafttweaker:ct_shapeless-283062778
-crafttweaker:_wooden_nail_2x_padauk wood planksforestry
-crafttweaker:_iron_nail_4x_padauk wood planksforestry
-crafttweaker:_iron_nail_2x_padauk wood planksforestry
-crafttweaker:ct_shapeless-1037815053
-crafttweaker:_wooden_nail_2x_hellbark wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_hellbark wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_hellbark wood planksbiomesoplenty
-crafttweaker:ct_shapeless738737678
-crafttweaker:_wooden_nail_2x_ebony wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_ebony wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_ebony wood planksbiomesoplenty
-crafttweaker:ct_shapeless-734972152
-crafttweaker:_wooden_nail_2x_larch wood planksforestry
-crafttweaker:_iron_nail_4x_larch wood planksforestry
-crafttweaker:_iron_nail_2x_larch wood planksforestry
-crafttweaker:ct_shapeless41703428
-crafttweaker:_wooden_nail_2x_gray painted woodrustic
-crafttweaker:_iron_nail_4x_gray painted woodrustic
-crafttweaker:_iron_nail_2x_gray painted woodrustic
-crafttweaker:ct_shapeless659679259
-crafttweaker:_wooden_nail_2x_pine wood planksforestry
-crafttweaker:_iron_nail_4x_pine wood planksforestry
-crafttweaker:_iron_nail_2x_pine wood planksforestry
-crafttweaker:ct_shapeless902434562
-crafttweaker:_wooden_nail_2x_ebony wood planksforestry
-crafttweaker:_iron_nail_4x_ebony wood planksforestry
-crafttweaker:_iron_nail_2x_ebony wood planksforestry
 crafttweaker:ct_shapeless1296074029
 crafttweaker:_wooden_nail_2x_pine wood planksbiomesoplenty
 crafttweaker:_iron_nail_4x_pine wood planksbiomesoplenty
 crafttweaker:_iron_nail_2x_pine wood planksbiomesoplenty
-crafttweaker:ct_shapeless-1524383123
-crafttweaker:_wooden_nail_2x_dark oak wood planksminecraft
-crafttweaker:_iron_nail_4x_dark oak wood planksminecraft
-crafttweaker:_iron_nail_2x_dark oak wood planksminecraft
-crafttweaker:ct_shapeless287521432
-crafttweaker:_wooden_nail_2x_fir wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_fir wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_fir wood planksbiomesoplenty
-crafttweaker:ct_shapeless5028674
-crafttweaker:_wooden_nail_2x_teak wood planksforestry
-crafttweaker:_iron_nail_4x_teak wood planksforestry
-crafttweaker:_iron_nail_2x_teak wood planksforestry
+crafttweaker:ct_shapeless638639851
+crafttweaker:_wooden_nail_2x_mahogany wood planksforestry
+crafttweaker:_iron_nail_4x_mahogany wood planksforestry
+crafttweaker:_iron_nail_2x_mahogany wood planksforestry
+crafttweaker:ct_shapeless-572541208
+crafttweaker:_wooden_nail_2x_lime painted woodrustic
+crafttweaker:_iron_nail_4x_lime painted woodrustic
+crafttweaker:_iron_nail_2x_lime painted woodrustic
+crafttweaker:ct_shapeless670076379
+crafttweaker:_wooden_nail_2x_balsa wood planksforestry
+crafttweaker:_iron_nail_4x_balsa wood planksforestry
+crafttweaker:_iron_nail_2x_balsa wood planksforestry
 crafttweaker:ct_shapeless-1411457900
 crafttweaker:_wooden_nail_2x_poplar wood planksforestry
 crafttweaker:_iron_nail_4x_poplar wood planksforestry
 crafttweaker:_iron_nail_2x_poplar wood planksforestry
+crafttweaker:ct_shapeless1187822071
+crafttweaker:_wooden_nail_2x_spruce wood planksminecraft
+crafttweaker:_iron_nail_4x_spruce wood planksminecraft
+crafttweaker:_iron_nail_2x_spruce wood planksminecraft
+crafttweaker:ct_shapeless-1348393184
+crafttweaker:_wooden_nail_2x_acacia wood planksminecraft
+crafttweaker:_iron_nail_4x_acacia wood planksminecraft
+crafttweaker:_iron_nail_2x_acacia wood planksminecraft
+crafttweaker:ct_shapeless-158958656
+crafttweaker:_wooden_nail_2x_plum wood planksforestry
+crafttweaker:_iron_nail_4x_plum wood planksforestry
+crafttweaker:_iron_nail_2x_plum wood planksforestry
+crafttweaker:ct_shapeless-1365534685
+crafttweaker:_wooden_nail_2x_cocobolo wood planksforestry
+crafttweaker:_iron_nail_4x_cocobolo wood planksforestry
+crafttweaker:_iron_nail_2x_cocobolo wood planksforestry
+crafttweaker:ct_shapeless-734972924
+crafttweaker:_wooden_nail_2x_light blue painted woodrustic
+crafttweaker:_iron_nail_4x_light blue painted woodrustic
+crafttweaker:_iron_nail_2x_light blue painted woodrustic
+crafttweaker:ct_shapeless1633556993
+crafttweaker:_wooden_nail_2x_oak wood planksminecraft
+crafttweaker:_iron_nail_4x_oak wood planksminecraft
+crafttweaker:_iron_nail_2x_oak wood planksminecraft
+crafttweaker:ct_shapeless-107483142
+crafttweaker:_wooden_nail_2x_kapok wood planksforestry
+crafttweaker:_iron_nail_4x_kapok wood planksforestry
+crafttweaker:_iron_nail_2x_kapok wood planksforestry
+crafttweaker:ct_shapeless-139904252
+crafttweaker:_wooden_nail_2x_desert acacia wood planksforestry
+crafttweaker:_iron_nail_4x_desert acacia wood planksforestry
+crafttweaker:_iron_nail_2x_desert acacia wood planksforestry
+crafttweaker:ct_shapeless1194810145
+crafttweaker:_wooden_nail_2x_umbran wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_umbran wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_umbran wood planksbiomesoplenty
+crafttweaker:ct_shapeless1357653489
+crafttweaker:_wooden_nail_2x_ironwood planksrustic
+crafttweaker:_iron_nail_4x_ironwood planksrustic
+crafttweaker:_iron_nail_2x_ironwood planksrustic
+crafttweaker:ct_shapeless1693323995
+crafttweaker:_wooden_nail_2x_palm wood planksforestry
+crafttweaker:_iron_nail_4x_palm wood planksforestry
+crafttweaker:_iron_nail_2x_palm wood planksforestry
+crafttweaker:ct_shapeless1421112990
+crafttweaker:_wooden_nail_2x_jungle wood planksminecraft
+crafttweaker:_iron_nail_4x_jungle wood planksminecraft
+crafttweaker:_iron_nail_2x_jungle wood planksminecraft
+crafttweaker:ct_shapeless1705900530
+crafttweaker:_wooden_nail_2x_blue painted woodrustic
+crafttweaker:_iron_nail_4x_blue painted woodrustic
+crafttweaker:_iron_nail_2x_blue painted woodrustic
+crafttweaker:ct_shapeless-1151697121
+crafttweaker:_wooden_nail_2x_baobab wood planksforestry
+crafttweaker:_iron_nail_4x_baobab wood planksforestry
+crafttweaker:_iron_nail_2x_baobab wood planksforestry
+crafttweaker:ct_shapeless-1421611304
+crafttweaker:_wooden_nail_2x_maple wood planksforestry
+crafttweaker:_iron_nail_4x_maple wood planksforestry
+crafttweaker:_iron_nail_2x_maple wood planksforestry
+crafttweaker:ct_shapeless1183801000
+crafttweaker:_wooden_nail_2x_sacred oak wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_sacred oak wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_sacred oak wood planksbiomesoplenty
+crafttweaker:ct_shapeless-1325201309
+crafttweaker:_wooden_nail_2x_walnut wood planksforestry
+crafttweaker:_iron_nail_4x_walnut wood planksforestry
+crafttweaker:_iron_nail_2x_walnut wood planksforestry
+crafttweaker:ct_shapeless902434562
+crafttweaker:_wooden_nail_2x_ebony wood planksforestry
+crafttweaker:_iron_nail_4x_ebony wood planksforestry
+crafttweaker:_iron_nail_2x_ebony wood planksforestry
+crafttweaker:ct_shapeless738737678
+crafttweaker:_wooden_nail_2x_ebony wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_ebony wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_ebony wood planksbiomesoplenty
+crafttweaker:ct_shapeless790459308
+crafttweaker:_wooden_nail_2x_greenheart wood planksforestry
+crafttweaker:_iron_nail_4x_greenheart wood planksforestry
+crafttweaker:_iron_nail_2x_greenheart wood planksforestry
+crafttweaker:ct_shapeless-1161693194
+crafttweaker:_wooden_nail_2x_citrus wood plankscuisine
+crafttweaker:_iron_nail_4x_citrus wood plankscuisine
+crafttweaker:_iron_nail_2x_citrus wood plankscuisine
+crafttweaker:ct_shapeless-283062778
+crafttweaker:_wooden_nail_2x_padauk wood planksforestry
+crafttweaker:_iron_nail_4x_padauk wood planksforestry
+crafttweaker:_iron_nail_2x_padauk wood planksforestry
+crafttweaker:ct_shapeless-351708810
+crafttweaker:_wooden_nail_2x_purple painted woodrustic
+crafttweaker:_iron_nail_4x_purple painted woodrustic
+crafttweaker:_iron_nail_2x_purple painted woodrustic
+crafttweaker:ct_shapeless1639288448
+crafttweaker:_wooden_nail_2x_mahogany wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_mahogany wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_mahogany wood planksbiomesoplenty
+crafttweaker:ct_shapeless-637238910
+crafttweaker:_wooden_nail_2x_birch wood planksminecraft
+crafttweaker:_iron_nail_4x_birch wood planksminecraft
+crafttweaker:_iron_nail_2x_birch wood planksminecraft
+crafttweaker:ct_shapeless1949522929
+crafttweaker:_wooden_nail_2x_mahoe wood planksforestry
+crafttweaker:_iron_nail_4x_mahoe wood planksforestry
+crafttweaker:_iron_nail_2x_mahoe wood planksforestry
 crafttweaker:ct_shapeless-1245081906
 crafttweaker:_wooden_nail_2x_ethereal wood planksbiomesoplenty
 crafttweaker:_iron_nail_4x_ethereal wood planksbiomesoplenty
 crafttweaker:_iron_nail_2x_ethereal wood planksbiomesoplenty
-crafttweaker:ct_shapeless2073575612
-crafttweaker:_wooden_nail_2x_magic wood planksbiomesoplenty
-crafttweaker:_iron_nail_4x_magic wood planksbiomesoplenty
-crafttweaker:_iron_nail_2x_magic wood planksbiomesoplenty
-crafttweaker:ct_shapeless637832852
-crafttweaker:_wooden_nail_2x_sequoia wood planksforestry
-crafttweaker:_iron_nail_4x_sequoia wood planksforestry
-crafttweaker:_iron_nail_2x_sequoia wood planksforestry
-crafttweaker:ct_shapeless-1927011308
-crafttweaker:_wooden_nail_2x_papaya wood planksforestry
-crafttweaker:_iron_nail_4x_papaya wood planksforestry
-crafttweaker:_iron_nail_2x_papaya wood planksforestry
 crafttweaker:ct_shapeless559297267
 crafttweaker:_wooden_nail_2x_willow wood planksforestry
 crafttweaker:_iron_nail_4x_willow wood planksforestry
 crafttweaker:_iron_nail_2x_willow wood planksforestry
-crafttweaker:ct_shapeless340494156
-crafttweaker:_wooden_nail_2x_green painted woodrustic
-crafttweaker:_iron_nail_4x_green painted woodrustic
-crafttweaker:_iron_nail_2x_green painted woodrustic
+crafttweaker:ct_shapeless-1927011308
+crafttweaker:_wooden_nail_2x_papaya wood planksforestry
+crafttweaker:_iron_nail_4x_papaya wood planksforestry
+crafttweaker:_iron_nail_2x_papaya wood planksforestry
+crafttweaker:ct_shapeless-1714247156
+crafttweaker:_wooden_nail_2x_white painted woodrustic
+crafttweaker:_iron_nail_4x_white painted woodrustic
+crafttweaker:_iron_nail_2x_white painted woodrustic
+crafttweaker:ct_shapeless1936662668
+crafttweaker:_wooden_nail_2x_magenta painted woodrustic
+crafttweaker:_iron_nail_4x_magenta painted woodrustic
+crafttweaker:_iron_nail_2x_magenta painted woodrustic
 crafttweaker:ct_shapeless-771024733
 crafttweaker:_wooden_nail_2x_willow wood planksbiomesoplenty
 crafttweaker:_iron_nail_4x_willow wood planksbiomesoplenty
 crafttweaker:_iron_nail_2x_willow wood planksbiomesoplenty
+crafttweaker:ct_shapeless-355934985
+crafttweaker:_wooden_nail_2x_cherry wood planksforestry
+crafttweaker:_iron_nail_4x_cherry wood planksforestry
+crafttweaker:_iron_nail_2x_cherry wood planksforestry
+crafttweaker:ct_shapeless823334812
+crafttweaker:_wooden_nail_2x_cherry wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_cherry wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_cherry wood planksbiomesoplenty
+crafttweaker:ct_shapeless5028674
+crafttweaker:_wooden_nail_2x_teak wood planksforestry
+crafttweaker:_iron_nail_4x_teak wood planksforestry
+crafttweaker:_iron_nail_2x_teak wood planksforestry
+crafttweaker:ct_shapeless-502063004
+crafttweaker:_wooden_nail_2x_ipe wood planksforestry
+crafttweaker:_iron_nail_4x_ipe wood planksforestry
+crafttweaker:_iron_nail_2x_ipe wood planksforestry
+crafttweaker:ct_shapeless719039660
+crafttweaker:_wooden_nail_2x_brown painted woodrustic
+crafttweaker:_iron_nail_4x_brown painted woodrustic
+crafttweaker:_iron_nail_2x_brown painted woodrustic
+crafttweaker:ct_shapeless-1015615760
+crafttweaker:_wooden_nail_2x_citrus wood planksforestry
+crafttweaker:_iron_nail_4x_citrus wood planksforestry
+crafttweaker:_iron_nail_2x_citrus wood planksforestry
+crafttweaker:ct_shapeless256712332
+crafttweaker:_wooden_nail_2x_red painted woodrustic
+crafttweaker:_iron_nail_4x_red painted woodrustic
+crafttweaker:_iron_nail_2x_red painted woodrustic
+crafttweaker:ct_shapeless-734972152
+crafttweaker:_wooden_nail_2x_larch wood planksforestry
+crafttweaker:_iron_nail_4x_larch wood planksforestry
+crafttweaker:_iron_nail_2x_larch wood planksforestry
+crafttweaker:ct_shapeless-1129288895
+crafttweaker:_wooden_nail_2x_mangrove wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_mangrove wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_mangrove wood planksbiomesoplenty
+crafttweaker:ct_shapeless-111541998
+crafttweaker:_wooden_nail_2x_treated wood planksimmersiveengineering
+crafttweaker:_iron_nail_4x_treated wood planksimmersiveengineering
+crafttweaker:_iron_nail_2x_treated wood planksimmersiveengineering
+crafttweaker:ct_shapeless287521432
+crafttweaker:_wooden_nail_2x_fir wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_fir wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_fir wood planksbiomesoplenty
+crafttweaker:ct_shapeless659679259
+crafttweaker:_wooden_nail_2x_pine wood planksforestry
+crafttweaker:_iron_nail_4x_pine wood planksforestry
+crafttweaker:_iron_nail_2x_pine wood planksforestry
+crafttweaker:ct_shapeless-1282164266
+crafttweaker:_wooden_nail_2x_chestnut wood planksforestry
+crafttweaker:_iron_nail_4x_chestnut wood planksforestry
+crafttweaker:_iron_nail_2x_chestnut wood planksforestry
+crafttweaker:ct_shapeless-754918231
+crafttweaker:_wooden_nail_2x_palm wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_palm wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_palm wood planksbiomesoplenty
+crafttweaker:ct_shapeless-542897930
+crafttweaker:_wooden_nail_2x_jacaranda wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_jacaranda wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_jacaranda wood planksbiomesoplenty
+crafttweaker:ct_shapeless357861748
+crafttweaker:_wooden_nail_2x_olive wood planksrustic
+crafttweaker:_iron_nail_4x_olive wood planksrustic
+crafttweaker:_iron_nail_2x_olive wood planksrustic
+crafttweaker:ct_shapeless-843148594
+crafttweaker:_wooden_nail_2x_redwood wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_redwood wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_redwood wood planksbiomesoplenty
+crafttweaker:ct_shapeless2073575612
+crafttweaker:_wooden_nail_2x_magic wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_magic wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_magic wood planksbiomesoplenty
 crafttweaker:ct_shapeless-1403685658
 crafttweaker:_wooden_nail_2x_yellow painted woodrustic
 crafttweaker:_iron_nail_4x_yellow painted woodrustic
 crafttweaker:_iron_nail_2x_yellow painted woodrustic
+crafttweaker:ct_shapeless-1076595670
+crafttweaker:_wooden_nail_2x_pink painted woodrustic
+crafttweaker:_iron_nail_4x_pink painted woodrustic
+crafttweaker:_iron_nail_2x_pink painted woodrustic
+crafttweaker:ct_shapeless-1125935654
+crafttweaker:_wooden_nail_2x_orange painted woodrustic
+crafttweaker:_iron_nail_4x_orange painted woodrustic
+crafttweaker:_iron_nail_2x_orange painted woodrustic
+crafttweaker:ct_shapeless2129422724
+crafttweaker:_wooden_nail_2x_cyan painted woodrustic
+crafttweaker:_iron_nail_4x_cyan painted woodrustic
+crafttweaker:_iron_nail_2x_cyan painted woodrustic
+crafttweaker:ct_shapeless879891148
+crafttweaker:_wooden_nail_2x_black painted woodrustic
+crafttweaker:_iron_nail_4x_black painted woodrustic
+crafttweaker:_iron_nail_2x_black painted woodrustic
+crafttweaker:ct_shapeless1038879423
+crafttweaker:_wooden_nail_2x_eucalyptus wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_eucalyptus wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_eucalyptus wood planksbiomesoplenty
+crafttweaker:ct_shapeless41703428
+crafttweaker:_wooden_nail_2x_gray painted woodrustic
+crafttweaker:_iron_nail_4x_gray painted woodrustic
+crafttweaker:_iron_nail_2x_gray painted woodrustic
+crafttweaker:ct_shapeless-1298014470
+crafttweaker:_wooden_nail_2x_tarred plankspyrotech
+crafttweaker:_iron_nail_4x_tarred plankspyrotech
+crafttweaker:_iron_nail_2x_tarred plankspyrotech
+crafttweaker:ct_shapeless-465506370
+crafttweaker:_wooden_nail_2x_lime wood planksforestry
+crafttweaker:_iron_nail_4x_lime wood planksforestry
+crafttweaker:_iron_nail_2x_lime wood planksforestry
+crafttweaker:ct_shapeless340494156
+crafttweaker:_wooden_nail_2x_green painted woodrustic
+crafttweaker:_iron_nail_4x_green painted woodrustic
+crafttweaker:_iron_nail_2x_green painted woodrustic
+crafttweaker:ct_shapeless210398335
+crafttweaker:_wooden_nail_2x_wenge wood planksforestry
+crafttweaker:_iron_nail_4x_wenge wood planksforestry
+crafttweaker:_iron_nail_2x_wenge wood planksforestry
+crafttweaker:ct_shapeless-1524383123
+crafttweaker:_wooden_nail_2x_dark oak wood planksminecraft
+crafttweaker:_iron_nail_4x_dark oak wood planksminecraft
+crafttweaker:_iron_nail_2x_dark oak wood planksminecraft
+crafttweaker:ct_shapeless-1997981917
+crafttweaker:_wooden_nail_2x_zebrawood wood planksforestry
+crafttweaker:_iron_nail_4x_zebrawood wood planksforestry
+crafttweaker:_iron_nail_2x_zebrawood wood planksforestry
+crafttweaker:ct_shapeless-1203069184
+crafttweaker:_wooden_nail_2x_giant sequoia wood planksforestry
+crafttweaker:_iron_nail_4x_giant sequoia wood planksforestry
+crafttweaker:_iron_nail_2x_giant sequoia wood planksforestry
+crafttweaker:ct_shapeless637832852
+crafttweaker:_wooden_nail_2x_sequoia wood planksforestry
+crafttweaker:_iron_nail_4x_sequoia wood planksforestry
+crafttweaker:_iron_nail_2x_sequoia wood planksforestry
+crafttweaker:ct_shapeless-1400784424
+crafttweaker:_wooden_nail_2x_light gray painted woodrustic
+crafttweaker:_iron_nail_4x_light gray painted woodrustic
+crafttweaker:_iron_nail_2x_light gray painted woodrustic
+crafttweaker:ct_shapeless-1037815053
+crafttweaker:_wooden_nail_2x_hellbark wood planksbiomesoplenty
+crafttweaker:_iron_nail_4x_hellbark wood planksbiomesoplenty
+crafttweaker:_iron_nail_2x_hellbark wood planksbiomesoplenty
 crafttweaker:sticks
 crafttweaker:table_top
 crafttweaker:ct_shapeless721507681
 crafttweaker:ct_shapeless2084730702
 crafttweaker:ct_shapeless656466284
-crafttweaker:ct_shaped-1623370808
-crafttweaker:ct_shaped-1367950736
-crafttweaker:ct_shaped90851735
-crafttweaker:ct_shaped-442716369
-crafttweaker:ct_shaped428047016
-crafttweaker:ct_shaped2047184464
-crafttweaker:ct_shaped-858048702
-crafttweaker:ct_shaped581306522
-crafttweaker:ct_shaped691295207
-crafttweaker:ct_shaped1021032079
-crafttweaker:ct_shaped863215937
-crafttweaker:ct_shaped1710260265
-crafttweaker:ct_shaped-934091538
-crafttweaker:ct_shaped1394615638
-crafttweaker:ct_shaped189522911
-crafttweaker:ct_shaped231855479
-crafttweaker:ct_shaped788370283
-crafttweaker:ct_shaped-943597885
-crafttweaker:ct_shaped1575421952
-crafttweaker:ct_shaped1004612248
-crafttweaker:ct_shaped1386164300
-crafttweaker:ct_shaped-360026652
-crafttweaker:ct_shaped-924576735
-crafttweaker:ct_shaped2014620873
-crafttweaker:ct_shaped189315441
-crafttweaker:ct_shaped-228476343
-crafttweaker:ct_shaped678453147
-crafttweaker:ct_shaped-760393741
-crafttweaker:ct_shaped1665960706
-crafttweaker:ct_shaped241807338
-crafttweaker:ct_shaped-1284501594
-crafttweaker:ct_shaped-1056698754
-crafttweaker:ct_shaped586787502
-crafttweaker:ct_shaped1303786646
-crafttweaker:ct_shaped450668817
-crafttweaker:ct_shaped1505499513
-crafttweaker:ct_shaped652144751
-crafttweaker:ct_shaped-924148793
-crafttweaker:ct_shaped960813554
-crafttweaker:ct_shaped1557997402
-crafttweaker:ct_shaped-684949210
-crafttweaker:ct_shaped-1143910594
-crafttweaker:ct_shaped1239135692
-crafttweaker:ct_shaped-288977372
-crafttweaker:ct_shaped-679940324
-crafttweaker:ct_shaped1643898628
-crafttweaker:ct_shaped1103738615
-crafttweaker:ct_shaped-685991393
-crafttweaker:ct_shaped205993431
-crafttweaker:ct_shaped-1103877009
-crafttweaker:ct_shaped1516120780
-crafttweaker:ct_shaped866370724
-crafttweaker:ct_shaped-1449336114
-crafttweaker:ct_shaped25161638
-crafttweaker:ct_shaped2064652929
-crafttweaker:ct_shaped1818892713
-crafttweaker:ct_shaped570752522
-crafttweaker:ct_shaped-1066642654
-crafttweaker:ct_shaped1117257651
-crafttweaker:ct_shaped-433429733
-crafttweaker:ct_shaped-1639209233
-crafttweaker:ct_shaped1745232279
-crafttweaker:ct_shaped-1844316008
-crafttweaker:ct_shaped-1396362304
-crafttweaker:ct_shaped269043828
-crafttweaker:ct_shaped-1645741156
-crafttweaker:ct_shaped-753423899
-crafttweaker:ct_shaped-351057667
-crafttweaker:ct_shaped-1235393201
-crafttweaker:ct_shaped-1944073817
-crafttweaker:ct_shaped1521601518
-crafttweaker:ct_shaped67998982
-crafttweaker:ct_shaped-380795220
-crafttweaker:ct_shaped856435348
-crafttweaker:ct_shaped151113141
-crafttweaker:ct_shaped340010893
-crafttweaker:ct_shaped614093206
-crafttweaker:ct_shaped-1669062402
-crafttweaker:ct_shaped1082083090
-crafttweaker:ct_shaped873405226
-crafttweaker:ct_shaped-177063369
-crafttweaker:ct_shaped-375517473
-crafttweaker:ct_shaped674148480
-crafttweaker:ct_shaped-889840168
 crafttweaker:ct_shaped-305510887
 crafttweaker:ct_shaped1306356913
-crafttweaker:ct_shaped1702807067
-crafttweaker:ct_shaped-233636813
-crafttweaker:ct_shaped-1625652468
-crafttweaker:ct_shaped1403221620
-crafttweaker:ct_shaped-1985941776
-crafttweaker:ct_shaped-1197035368
+crafttweaker:ct_shaped-1639209233
+crafttweaker:ct_shaped1745232279
+crafttweaker:ct_shaped90851735
+crafttweaker:ct_shaped-442716369
 crafttweaker:ct_shaped691726558
 crafttweaker:ct_shaped-1355785914
+crafttweaker:ct_shaped-753423899
+crafttweaker:ct_shaped-351057667
+crafttweaker:ct_shaped-1449336114
+crafttweaker:ct_shaped25161638
+crafttweaker:ct_shaped960813554
+crafttweaker:ct_shaped1557997402
+crafttweaker:ct_shaped691295207
+crafttweaker:ct_shaped1021032079
+crafttweaker:ct_shaped2064652929
+crafttweaker:ct_shaped1818892713
+crafttweaker:ct_shaped-684949210
+crafttweaker:ct_shaped-1143910594
+crafttweaker:ct_shaped-934091538
+crafttweaker:ct_shaped1394615638
+crafttweaker:ct_shaped-1235393201
+crafttweaker:ct_shaped-1944073817
+crafttweaker:ct_shaped-924576735
+crafttweaker:ct_shaped2014620873
+crafttweaker:ct_shaped1103738615
+crafttweaker:ct_shaped-685991393
+crafttweaker:ct_shaped1386164300
+crafttweaker:ct_shaped-360026652
+crafttweaker:ct_shaped1117257651
+crafttweaker:ct_shaped-433429733
+crafttweaker:ct_shaped-1284501594
+crafttweaker:ct_shaped-1056698754
+crafttweaker:ct_shaped1516120780
+crafttweaker:ct_shaped866370724
+crafttweaker:ct_shaped863215937
+crafttweaker:ct_shaped1710260265
+crafttweaker:ct_shaped674148480
+crafttweaker:ct_shaped-889840168
+crafttweaker:ct_shaped614093206
+crafttweaker:ct_shaped-1669062402
+crafttweaker:ct_shaped428047016
+crafttweaker:ct_shaped2047184464
+crafttweaker:ct_shaped-380795220
+crafttweaker:ct_shaped856435348
+crafttweaker:ct_shaped1239135692
+crafttweaker:ct_shaped-288977372
+crafttweaker:ct_shaped-1623370808
+crafttweaker:ct_shaped-1367950736
+crafttweaker:ct_shaped788370283
+crafttweaker:ct_shaped-943597885
 crafttweaker:ct_shaped-2128379652
 crafttweaker:ct_shaped-1987662380
-crafttweaker:ct_shaped1654377132
-crafttweaker:ct_shaped58824084
-crafttweaker:ct_shaped-1211772950
-crafttweaker:ct_shaped1182247106
-crafttweaker:ct_shaped249997918
-crafttweaker:ct_shaped-1589728186
 crafttweaker:ct_shaped1573985587
 crafttweaker:ct_shaped-1977830565
+crafttweaker:ct_shaped249997918
+crafttweaker:ct_shaped-1589728186
 crafttweaker:ct_shaped36788497
 crafttweaker:ct_shaped1534142505
+crafttweaker:ct_shaped450668817
+crafttweaker:ct_shaped1505499513
+crafttweaker:ct_shaped570752522
+crafttweaker:ct_shaped-1066642654
+crafttweaker:ct_shaped-1985941776
+crafttweaker:ct_shaped-1197035368
+crafttweaker:ct_shaped1575421952
+crafttweaker:ct_shaped1004612248
+crafttweaker:ct_shaped1665960706
+crafttweaker:ct_shaped241807338
+crafttweaker:ct_shaped1082083090
+crafttweaker:ct_shaped873405226
+crafttweaker:ct_shaped652144751
+crafttweaker:ct_shaped-924148793
+crafttweaker:ct_shaped-1625652468
+crafttweaker:ct_shaped1403221620
+crafttweaker:ct_shaped-177063369
+crafttweaker:ct_shaped-375517473
+crafttweaker:ct_shaped-679940324
+crafttweaker:ct_shaped1643898628
+crafttweaker:ct_shaped205993431
+crafttweaker:ct_shaped-1103877009
+crafttweaker:ct_shaped586787502
+crafttweaker:ct_shaped1303786646
+crafttweaker:ct_shaped1521601518
+crafttweaker:ct_shaped67998982
+crafttweaker:ct_shaped-1844316008
+crafttweaker:ct_shaped-1396362304
+crafttweaker:ct_shaped1654377132
+crafttweaker:ct_shaped58824084
+crafttweaker:ct_shaped189315441
+crafttweaker:ct_shaped-228476343
+crafttweaker:ct_shaped269043828
+crafttweaker:ct_shaped-1645741156
+crafttweaker:ct_shaped678453147
+crafttweaker:ct_shaped-760393741
+crafttweaker:ct_shaped1702807067
+crafttweaker:ct_shaped-233636813
+crafttweaker:ct_shaped189522911
+crafttweaker:ct_shaped231855479
+crafttweaker:ct_shaped-858048702
+crafttweaker:ct_shaped581306522
+crafttweaker:ct_shaped-1211772950
+crafttweaker:ct_shaped1182247106
+crafttweaker:ct_shaped151113141
+crafttweaker:ct_shaped340010893
 crafttweaker:minecraft_wooden_pressure_plate_modified
 crafttweaker:minecraft_wooden_door_modified
 crafttweaker:minecraft_wooden_button_modified
@@ -8205,6 +8203,9 @@ crafttweaker:storagedrawersunlimited_basicdrawers_rustic_olive_fulldrawers1_rust
 crafttweaker:storagedrawersunlimited_basicdrawers_rustic_olive_fulldrawers2_rustic_olive.0_modified
 crafttweaker:storagedrawersunlimited_basicdrawers_rustic_olive_fulldrawers4_rustic_olive.0_modified
 crafttweaker:storagedrawersunlimited_trim_rustic_olive.0_modified
+crafttweaker:forestry_clockwork_engine_modified
+crafttweaker:forestry_apiary_modified
+crafttweaker:forestry_bee_house_modified
 crafttweaker:forestry_genetic_filter_api_modified
 crafttweaker:forestry_genetic_filter_arb_modified
 crafttweaker:forestry_genetic_filter_lep_modified
@@ -8365,9 +8366,6 @@ crafttweaker:forestry_database_butterfly_chest_bee_chest_royal_jelly_modified
 crafttweaker:forestry_database_butterfly_chest_bee_chest_fruits_modified
 crafttweaker:forestry_database_butterfly_chest_tree_chest_royal_jelly_modified
 crafttweaker:forestry_database_butterfly_chest_tree_chest_fruits_modified
-crafttweaker:forestry_apiary_modified
-crafttweaker:forestry_bee_house_modified
-crafttweaker:forestry_clockwork_engine_modified
 crafttweaker:logisticspipes_pipe_remote_orderer_modified
 crafttweaker:logisticspipes_pipe_inventory_system_connector_modified
 crafttweaker:logisticspipes_pipe_firewall_modified
