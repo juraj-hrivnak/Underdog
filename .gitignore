@@ -15,9 +15,6 @@ config/customloadingscreen_timings.nbt
 config/cherishedworlds/favorites.dat
 config/jei/bookmarks.ini
 config/jei/worldSettings.cfg
-pax/modpack/overrides/config/jei/bookmarks.ini
-pax/modpack/overrides/config/jei/worldSettings.cfg
-
 
 # Folders in .minecraft
 /mods/
@@ -50,9 +47,9 @@ servers.dat
 patchouli_data.json
 seen_buildersbag_addons.txt
 pack.zip
-knownkeys.txt
-optionsof.txt
-options.txt
+/knownkeys.txt
+/optionsof.txt
+/options.txt
 
 # Pax
 /pax/logs/
