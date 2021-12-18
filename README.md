@@ -15,6 +15,7 @@ Some mods will crash the game if you run them on server. So they must be removed
 Also everything around resources is not neceseary to run on server.
 
 Folowing mods must be removed:
+- Custom Loading Screen
 - Custom Main Menu
 - Resource Loader
 - Matmos
