@@ -106,7 +106,7 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
 
 
     if (event.blockState == <blockstate:crocodilite:stone>) {
-		
+
 		if (event.world.getBlockState(event.position.getOffset(IFacing.up, 1)) == <blockstate:contenttweaker:pick_up_block>) {
 
 			// Replacing the ~ ~1 ~ block
