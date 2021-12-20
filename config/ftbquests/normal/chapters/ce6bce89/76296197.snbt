@@ -1,17 +1,16 @@
 {
-	x: 5.699999999999999d,
-	y: 4.5d,
+	x: 6.699999999999999d,
+	y: 3.5999999999999996d,
 	dependencies: [
-		"763d8497",
 		"4bd5caea"
 	],
 	hide: true,
 	size: 0.8d,
 	tasks: [{
-		uid: "07ec7403",
+		uid: "31910054",
 		type: "item",
 		items: [{
-			item: "pyrotech:stone_crucible"
+			item: "minecraft:bread"
 		}]
 	}]
 }

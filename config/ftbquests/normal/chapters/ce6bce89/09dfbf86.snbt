@@ -1,16 +1,17 @@
 {
-	x: -1.5d,
-	y: 5.0d,
+	x: 0.0d,
+	y: 2.76d,
 	hide_dependency_lines: true,
 	dependencies: [
-		"a63cf0b2"
+		"2df431ba"
 	],
 	hide: true,
+	size: 0.8d,
 	tasks: [{
-		uid: "a969f851",
+		uid: "442e9571",
 		type: "item",
 		items: [{
-			item: "minecraft:stone_shovel"
+			item: "pyrotech:flint_and_tinder"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

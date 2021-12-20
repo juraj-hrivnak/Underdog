@@ -1,7 +1,7 @@
 {
-	title: "Where I am?",
-	x: -4.2d,
-	y: 2.8d,
+	title: "Where am I?",
+	x: -5.1809523809523625d,
+	y: 2.842857142857156d,
 	shape: "heart",
 	description: "You find yourself abandoned in wild nature. How did you get here?",
 	text: [
@@ -9,11 +9,11 @@
 		"&7Pick up some of the rock laying on the ground.",
 		"",
 		"&rNote:",
-		"&7Pick them up using &rright-click&7.",
+		"&7Pick them up using &b(Right-Click)&r&7.",
 		"Every item must be picked up by right-clicking.",
-		"You can also pick up items by crouching and being near to them."
+		"You can also collect items by crouching. "
 	],
-	size: 1.4d,
+	size: 1.45478d,
 	tasks: [{
 		uid: "abf0fab4",
 		type: "item",

@@ -1,7 +1,7 @@
 {
 	title: "Life of a savage",
-	x: -2.5d,
-	y: 3.5d,
+	x: -3.4809523809523624d,
+	y: 3.542857142857156d,
 	shape: "heart",
 	description: "&7Collect sticks from breaking leaves or the thin tree branches.",
 	text: [

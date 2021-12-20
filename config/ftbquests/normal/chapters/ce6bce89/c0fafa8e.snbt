@@ -1,17 +1,16 @@
 {
-	x: 1.2d,
-	y: 4.0d,
+	x: 6.699999999999999d,
+	y: 4.5d,
 	dependencies: [
-		"1fdb348f",
-		"2df431ba"
+		"59530f87"
 	],
 	hide: true,
 	size: 0.8d,
 	tasks: [{
-		uid: "80127bd7",
+		uid: "e4699e81",
 		type: "item",
 		items: [{
-			item: "pyrotech:log_pile"
+			item: "pyrotech:faucet_stone"
 		}]
 	}]
 }

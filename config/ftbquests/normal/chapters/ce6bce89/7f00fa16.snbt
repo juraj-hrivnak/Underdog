@@ -1,17 +1,16 @@
 {
 	x: 3.0d,
-	y: 4.0d,
-	hide_dependency_lines: true,
+	y: 6.4d,
 	dependencies: [
-		"605a727e"
+		"89675ea2"
 	],
 	hide: true,
 	size: 0.8d,
 	tasks: [{
-		uid: "c8d2b223",
+		uid: "f67d1278",
 		type: "item",
 		items: [{
-			item: "pyrotech:material 1 16"
+			item: "contenttweaker:treated_wood_lumber"
 		}]
 	}]
 }
