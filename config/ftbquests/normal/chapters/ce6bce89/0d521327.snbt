@@ -1,6 +1,6 @@
 {
-	x: 7.699999999999999d,
-	y: 2.5d,
+	x: 8.0d,
+	y: 3.3d,
 	shape: "heart",
 	dependencies: [
 		"6357763b",

@@ -1,5 +1,6 @@
 {
 	title: "Where am I?",
+	icon: "divergentunderground:rock_stone",
 	x: -5.1809523809523625d,
 	y: 2.842857142857156d,
 	shape: "heart",

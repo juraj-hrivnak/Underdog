@@ -10,7 +10,7 @@
 			}
 		}
 	},
-	x: 3.0d,
+	x: 4.8d,
 	y: 5.6d,
 	dependencies: [
 		"ef0c520d"

@@ -1,0 +1,17 @@
+{
+	icon: "engineersdecor:treated_wood_pole_support",
+	x: 6.7d,
+	y: 5.6d,
+	dependencies: [
+		"7f00fa16"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "fbe50f08",
+		type: "item",
+		items: [{
+			item: "engineersdecor:treated_wood_pole"
+		}]
+	}]
+}
