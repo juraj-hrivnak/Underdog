@@ -3,7 +3,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-val rocksOredict = <ore:rocks>;
 
 val rocks = [
     <divergentunderground:rock_stone>,
@@ -16,7 +15,28 @@ val rocks = [
 ] as IItemStack[];
 
 for item in rocks {
-    rocksOredict.add(item);
+    <ore:rocks>.add(item);
 }
 
 recipes.replaceAllOccurences(<ore:cobblestone>, <ore:rocks>, <*>);
+
+val stones = [
+    <minecraft:stone>   ,
+    <minecraft:stone:5> ,
+    <minecraft:stone:3> ,
+    <minecraft:stone:1> ,
+    <quark:limestone>   ,
+    <quark:marble>      ,
+] as IItemStack[];
+
+for item in rocks {
+    <ore:stones>.add(item);
+}
+
+// Pressure Plate
+recipes.remove(<minecraft:stone_pressure_plate>);
+recipes.addShaped(<minecraft:stone_pressure_plate>, [[<ore:stones>, <ore:stones>]]);
+
+// Slab
+recipes.remove(<minecraft:stone_slab:3>);
+recipes.addShaped(<minecraft:stone_slab:3> * 6, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
