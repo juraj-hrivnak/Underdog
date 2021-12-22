@@ -15,6 +15,7 @@ config/customloadingscreen_timings.nbt
 config/cherishedworlds/favorites.dat
 config/jei/bookmarks.ini
 config/jei/worldSettings.cfg
+config/moresoundconfig.cfg
 
 # Folders in .minecraft
 /mods/
@@ -68,3 +69,4 @@ pax/modpack/overrides/config/customloadingscreen_timings.nbt
 pax/modpack/overrides/config/cherishedworlds/favorites.dat
 pax/modpack/overrides/config/jei/bookmarks.ini
 pax/modpack/overrides/config/jei/worldSettings.cfg
+pax/modpack/overrides/config/moresoundconfig.cfg
