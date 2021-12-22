@@ -33,10 +33,31 @@ for item in rocks {
     <ore:stones>.add(item);
 }
 
-// Pressure Plate
-recipes.remove(<minecraft:stone_pressure_plate>);
-recipes.addShaped(<minecraft:stone_pressure_plate>, [[<ore:stones>, <ore:stones>]]);
+recipes.replaceAllOccurences(<ore:stone>, <ore:stones>, <*>);
 
 // Slab
 recipes.remove(<minecraft:stone_slab:3>);
 recipes.addShaped(<minecraft:stone_slab:3> * 6, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+
+// Fix
+recipes.remove(<quark:stone_stairs>);
+recipes.addShaped(<quark:stone_stairs> * 8,
+   [[<ore:stone>, null       , null       ],
+    [<ore:stone>, <ore:stone>, null       ],
+    [<ore:stone>, <ore:stone>, <ore:stone>]]);
+
+recipes.remove(<minecraft:stonebrick>);
+recipes.addShaped(<minecraft:stonebrick> * 4,
+   [[<ore:stone>, <ore:stone>],
+    [<ore:stone>, <ore:stone>]]);
+
+recipes.remove(<quark:stone_wall>);
+recipes.addShaped(<quark:stone_wall> * 6,
+   [[<ore:stone>, <ore:stone>, <ore:stone>],
+    [<ore:stone>, <ore:stone>, <ore:stone>]]);
+
+recipes.remove(<quark:stone_speleothem>);
+recipes.addShaped(<quark:stone_speleothem> * 6,
+   [[<ore:stone>],
+    [<ore:stone>],
+    [<ore:stone>]]);
