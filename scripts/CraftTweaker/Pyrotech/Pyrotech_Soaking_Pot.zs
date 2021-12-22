@@ -28,7 +28,8 @@ SoakingPot.addRecipe("pyrotech_rock_7"         , <pyrotech:material:25>         
 SoakingPot.addRecipe("pyrotech_material_20"    , <pyrotech:material:23>              , <liquid:wood_tar>       * 50, <pyrotech:material:20>   , 1200);
 SoakingPot.addRecipe("tarred_lumber"           , <contenttweaker:tarred_lumber>      , <liquid:wood_tar>       * 50, <ore:lumber>             , 1200);
 
-SoakingPot.addRecipe("treated_lumber"          , <contenttweaker:treated_wood_lumber>, <liquid:creosote>       * 50, <ore:lumber>             , 1200);
+// Treated Lumber
+SoakingPot.addRecipe("treated_lumber"          , <contenttweaker:treated_wood_lumber>, <liquid:creosote>      * 1000, <ore:lumber>            , 200);
 
 SoakingPot.addRecipe("minecraft_dirt_1"        , <minecraft:dirt:2>                  , <liquid:water>         * 250, <minecraft:dirt:1>       , 1200);
 SoakingPot.addRecipe("minecraft_stonebrick"    , <minecraft:stonebrick:1>            , <liquid:water>         * 250, <minecraft:stonebrick>   , 1200);
