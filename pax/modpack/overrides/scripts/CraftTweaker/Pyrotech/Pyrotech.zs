@@ -118,10 +118,9 @@ Dropt.list("torch")
 // Wood Pile
 recipes.remove(<pyrotech:log_pile>);
 recipes.addShaped(<pyrotech:log_pile>,
-   [[<ore:firewood>, <ore:firewood>, <ore:firewood>],
-    [<ore:firewood>, <ore:firewood>, <ore:firewood>],
-    [<ore:firewood>, <ore:firewood>, <ore:firewood>]]);
-furnace.setFuel(<pyrotech:log_pile>  , 1080);
+   [[<ore:firewood>, <ore:firewood>],
+    [<ore:firewood>, <ore:firewood>]]);
+furnace.setFuel(<pyrotech:log_pile>  , 480);
 
 // Masonry Brick
 recipes.addShaped(<pyrotech:material:16>,

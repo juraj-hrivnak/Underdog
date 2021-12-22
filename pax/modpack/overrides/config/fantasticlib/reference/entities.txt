@@ -309,13 +309,13 @@ animania:ram_jacob
 animania:wagon
 animania:cart
 animania:tiller
-quark:seat
+quark:archaeologist
+quark:crab
 quark:parrot_egg
 quark:chest_passenger
 quark:flat_item_frame
 quark:leash_knot
-quark:archaeologist
-quark:crab
+quark:seat
 bibliocraft:biblioseat
 buildinggadgets:blockbuildentity
 buildinggadgets:constructionblockentity
@@ -480,9 +480,9 @@ immersiveengineering:revolvershotflare
 immersiveengineering:explosive
 immersiveengineering:fluorescenttube
 coroutil:bat_smart
+forestry:butterflyge
 forestry:cart.beehouse
 forestry:cart.apiary
-forestry:butterflyge
 platforms:gui-item
 rfp2:playerdummy
 tumbleweed:tumbleweed

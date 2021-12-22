@@ -1,16 +1,17 @@
 {
-	x: 1.2d,
-	y: 5.0d,
+	x: 6.5d,
+	y: 2.0d,
 	dependencies: [
-		"d997fbc0"
+		"8663106b",
+		"ca5925c4"
 	],
 	hide: true,
 	size: 0.8d,
 	tasks: [{
-		uid: "441c57f7",
+		uid: "dffba4a2",
 		type: "item",
 		items: [{
-			item: "minecraft:coal 1 1"
+			item: "pyrotech:material 1 8"
 		}]
 	}]
 }

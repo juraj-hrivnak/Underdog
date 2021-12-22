@@ -1,8 +1,8 @@
 {
-	x: 1.0d,
-	y: 5.0d,
-	shape: "square",
+	x: 1.2d,
+	y: 4.0d,
 	dependencies: [
+		"1fdb348f",
 		"2df431ba"
 	],
 	hide: true,

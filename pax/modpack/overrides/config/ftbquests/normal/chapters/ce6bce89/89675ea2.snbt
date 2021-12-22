@@ -1,0 +1,25 @@
+{
+	title: "Creosote Oil",
+	icon: {
+		id: "pyrotech:bucket_wood",
+		tag: {
+			durability: 8,
+			fluids: {
+				FluidName: "creosote",
+				Amount: 1000
+			}
+		}
+	},
+	x: 3.0d,
+	y: 6.0d,
+	dependencies: [
+		"ef0c520d"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "1fe33658",
+		type: "fluid",
+		fluid: "creosote"
+	}]
+}

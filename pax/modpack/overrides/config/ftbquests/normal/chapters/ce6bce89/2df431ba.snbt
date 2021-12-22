@@ -2,7 +2,7 @@
 	title: "Firewood",
 	icon: "contenttweaker:firewood_pine",
 	x: 0.0d,
-	y: 5.0d,
+	y: 3.5d,
 	description: "Log splitting.",
 	text: [
 		"&lTask:",

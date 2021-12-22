@@ -1,7 +1,7 @@
 {
 	title: "Cuisine",
 	icon: "cuisine:kitchen_knife",
-	always_invisible: false,
+	always_invisible: true,
 	group: 0,
 	default_quest_shape: ""
 }

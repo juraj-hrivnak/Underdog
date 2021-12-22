@@ -1,10 +1,9 @@
 {
-	x: 1.0d,
+	x: 3.0d,
 	y: 4.0d,
 	hide_dependency_lines: true,
 	dependencies: [
-		"605a727e",
-		"b52f5a6b"
+		"605a727e"
 	],
 	hide: true,
 	size: 0.8d,

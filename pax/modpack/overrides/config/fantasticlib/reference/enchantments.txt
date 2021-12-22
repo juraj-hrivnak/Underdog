@@ -37,6 +37,9 @@ futuremc:loyalty
 futuremc:channeling
 futuremc:riptide
 futuremc:impaling
+locks:shocking
+locks:sturdy
+locks:complexity
 simpledifficulty:chilling
 simpledifficulty:heating
 walljump:walljump

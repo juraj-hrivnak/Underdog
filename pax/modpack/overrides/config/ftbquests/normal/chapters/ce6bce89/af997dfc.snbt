@@ -1,7 +1,7 @@
 {
 	title: "Wood 'hard' working",
 	icon: "contenttweaker:lumber_pine",
-	x: 1.0d,
+	x: 1.2d,
 	y: 2.0d,
 	dependencies: [
 		"2999c1d7"
