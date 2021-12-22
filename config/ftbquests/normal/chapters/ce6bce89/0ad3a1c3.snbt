@@ -1,11 +1,13 @@
 {
 	icon: "divergentunderground:ore_ie_copper",
-	x: 6.5d,
-	y: 6.0d,
+	x: 10.2d,
+	y: 1.7999999999999998d,
 	shape: "heart",
 	hide_dependency_lines: true,
 	dependencies: [
-		"0d521327"
+		"0d521327",
+		"89675ea2",
+		"3b5aef75"
 	],
 	hide: true,
 	size: 1.2d,

@@ -1,7 +1,7 @@
 {
 	icon: "minecraft:clay_ball",
 	x: 0.0d,
-	y: 5.0d,
+	y: 5.7d,
 	shape: "square",
 	dependencies: [
 		"078f1222"
