@@ -29,7 +29,7 @@ val stones = [
     <quark:marble>      ,
 ] as IItemStack[];
 
-for item in rocks {
+for item in stones {
     <ore:stones>.add(item);
 }
 
