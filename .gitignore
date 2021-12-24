@@ -38,6 +38,7 @@ config/moresoundconfig.cfg
 
 # Logs
 **/*.log
+**/*.gz
 
 # Client data
 local/client/rtdata.json
@@ -53,7 +54,7 @@ pack.zip
 /options.txt
 
 # Pax
-/pax/logs/
+pax/logs/
 pax/modpack/overrides/config/BiomeTweaker/output/
 pax/modpack/overrides/config/fantasticlib/
 pax/modpack/overrides/config/codechicken/supporters.json
@@ -70,3 +71,8 @@ pax/modpack/overrides/config/cherishedworlds/favorites.dat
 pax/modpack/overrides/config/jei/bookmarks.ini
 pax/modpack/overrides/config/jei/worldSettings.cfg
 pax/modpack/overrides/config/moresoundconfig.cfg
+
+# Server Pack
+pax/serverpack/work
+pax/serverpack/server-packs
+pax/serverpack/logs
