@@ -121,13 +121,13 @@ jobs:
           esac
           echo "::set-output name=type::$rel_type"
       - name: Create release
-        uses: itsmeow/curseforge-upload@v3
+        uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
         with:
-          token: ${{ secrets.CF_API_TOKEN }}
-          project_id: ${{ env.PROJECT_ID }}
-          game_endpoint: minecraft
-          file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          api-token: ${{ secrets.CF_API_TOKEN }}
+          project-id: ${{ env.PROJECT_ID }}
+          modpack-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}
           changelog: "${{ needs.changelog.outputs.changelog }}"
-          changelog_type: markdown
-          game_versions: ${{ needs.modpack-info.outputs.version }}
-          release_type: ${{ steps.release-type.outputs.type }}
+          changelog-format: markdown
+          game-version: ${{ needs.modpack-info.outputs.version }}
+          release-type: ${{ steps.release-type.outputs.type }}
