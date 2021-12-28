@@ -35,10 +35,6 @@ for item in stones {
 
 recipes.replaceAllOccurences(<ore:stone>, <ore:stones>, <*>);
 
-// Slab
-recipes.remove(<minecraft:stone_slab:3>);
-recipes.addShaped(<minecraft:stone_slab:3> * 6, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
-
 // Fix
 recipes.remove(<quark:stone_stairs>);
 recipes.addShaped(<quark:stone_stairs> * 8,
