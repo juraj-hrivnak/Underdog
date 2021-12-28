@@ -136,7 +136,7 @@ for lumber, x in woodworking {
         recipes.addShaped(slab * 3, [[lumber, lumber, lumber]]);
 
         // Adding recipes for planks from slabs
-        recipes.addShaped(planks, [[slab], [slab]]);
+        recipes.addShapedMirrored(planks, [[null, slab], [woodenNail, slab]]);
 
     }
 
