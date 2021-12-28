@@ -1,3 +1,4 @@
+
 #priority -100
 #modloaded pyrotech
 import crafttweaker.item.IIngredient;
