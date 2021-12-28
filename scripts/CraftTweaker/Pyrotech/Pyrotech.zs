@@ -1,3 +1,4 @@
+
 #modloaded pyrotech
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack as IItemStack;
@@ -65,27 +66,6 @@ furnace.remove(<minecraft:stone:1>, <pyrotech:cobblestone:2>);
 
 val clayLump = <pyrotech:material:17>;
 
-val slabsFix as IItemStack[IItemStack] = {
-    <minecraft:stone_slab:1>  : <minecraft:sandstone>,
-    <minecraft:stone_slab:3>  : <minecraft:cobblestone>,
-    <minecraft:stone_slab:4>  : <minecraft:brick_block>,
-    <minecraft:stone_slab:5>  : <minecraft:stonebrick>,
-    <minecraft:stone_slab:6>  : <minecraft:nether_brick>,
-    <minecraft:stone_slab:7>  : <minecraft:quartz_block>,
-    <minecraft:wooden_slab>   : <minecraft:planks>,
-    <minecraft:wooden_slab:1> : <minecraft:planks:1>,
-    <minecraft:wooden_slab:2> : <minecraft:planks:2>,
-    <minecraft:wooden_slab:3> : <minecraft:planks:3>,
-    <minecraft:wooden_slab:4> : <minecraft:planks:4>,
-    <minecraft:wooden_slab:5> : <minecraft:planks:5>,
-    <minecraft:stone_slab2>   : <minecraft:red_sandstone>,
-    <minecraft:purpur_slab>   : <minecraft:purpur_block>
-};
-
-for output, input in slabsFix {
-    recipes.addShaped(output * 6, [[input, input, input]]);
-}
-
 // Torch
 val coal = <minecraft:coal> | <minecraft:coal:1> | <geolosys:coal:1> | <geolosys:coal:2> | <geolosys:coal:3> | <pyrotech:material:21>;
 
@@ -118,12 +98,13 @@ Dropt.list("torch")
 // Wood Pile
 recipes.remove(<pyrotech:log_pile>);
 recipes.addShaped(<pyrotech:log_pile>,
-   [[<ore:firewood>, <ore:firewood>],
-    [<ore:firewood>, <ore:firewood>]]);
-furnace.setFuel(<pyrotech:log_pile>  , 480);
+   [[<ore:firewood>, <ore:firewood>, <ore:firewood>],
+    [<ore:firewood>, <ore:firewood>, <ore:firewood>],
+    [<ore:firewood>, <ore:firewood>, <ore:firewood>]]);
+furnace.setFuel(<pyrotech:log_pile>, 480);
 
 // Masonry Brick
-recipes.addShaped(<pyrotech:material:16>,
+recipes.addShapedMirrored(<pyrotech:material:16>,
    [[null       , clayLump    ],
     [<ore:rocks>, <ore:rocks> ]]);
 
@@ -230,7 +211,7 @@ val boatFix as IItemStack[IItemStack] = {
 
 for output, input in boatFix {
     recipes.remove(output);
-    recipes.addShaped(output * 6,
+    recipes.addShaped(output,
        [[input, null, input],
         [input, input, input]]);
 }
@@ -277,7 +258,7 @@ recipes.addShaped(<pyrotech:mechanical_bellows>,
     [treatLumber    , null              , treatLumber   ]]);
 
 // Mechanical Compacting Bin
-recipes.addShaped(<pyrotech:mechanical_compacting_bin>,
+recipes.addShapedMirrored(<pyrotech:mechanical_compacting_bin>,
    [[masonryBrick                   , treatLumber   , masonryBrick      ],
     [<pyrotech:mechanical_hopper>   , null          , <minecraft:piston>],
     [masonryBrick                   , treatLumber   , masonryBrick      ]]);
@@ -287,3 +268,18 @@ recipes.addShaped(<pyrotech:mechanical_mulch_spreader>,
    [[masonryBrick                   , treatLumber   , masonryBrick                  ],
     [<pyrotech:mechanical_hopper>   , null          , <pyrotech:mechanical_hopper>  ],
     [masonryBrick                   , treatLumber   , masonryBrick                  ]]);
+
+
+// Drying Rack
+recipes.remove(<pyrotech:drying_rack:1>);
+recipes.addShaped(<pyrotech:drying_rack:1>,
+   [[<ore:stickWood>    , <ore:stickWood>   , <ore:stickWood>   ],
+    [<ore:lumber>       , null              , <ore:lumber>      ],
+    [<ore:stickWood>    , null              , <ore:stickWood>   ]]);
+
+// Composting Bin
+recipes.remove(<pyrotech:compost_bin>);
+recipes.addShaped(<pyrotech:compost_bin>,
+   [[<ore:stickWood>    , null              , <ore:stickWood>   ],
+    [<ore:stickWood>    , <ore:stickWood>   , <ore:stickWood>   ],
+    [<ore:lumber>       , null              , <ore:lumber>      ]]);
