@@ -1,18 +1,18 @@
 {
-	x: 4.2d,
-	y: 3.5d,
+	x: 3.0d,
+	y: 2.0d,
 	dependencies: [
-		"605a727e",
-		"5c583b74"
+		"5c583b74",
+		"6293f06e"
 	],
 	hide: true,
 	dependency_requirement: "one_completed",
 	size: 0.8d,
 	tasks: [{
-		uid: "c8d2b223",
+		uid: "71768d80",
 		type: "item",
 		items: [{
-			item: "pyrotech:material 1 16"
+			item: "pyrotech:drying_rack 1 1"
 		}]
 	}]
 }

@@ -8,7 +8,7 @@
 	},
 	disable_toast: true,
 	always_invisible: false,
-	group: -831795575,
+	group: 0,
 	default_quest_shape: "",
 	images: [{
 		x: -5.0d,

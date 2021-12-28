@@ -1,15 +1,21 @@
 {
-	x: 4.8d,
-	y: 5.7d,
+	x: 5.4d,
+	y: 4.2d,
 	shape: "hexagon",
 	dependencies: [
-		"763d8497"
+		"e7110521"
 	],
+	hide: true,
 	tasks: [{
-		uid: "b81ed041",
+		uid: "37291cfe",
 		type: "item",
 		items: [{
-			item: "pyrotech:stone_oven"
+			item: "pyrotech:stone_crucible"
 		}]
+	}],
+	rewards: [{
+		uid: "eb004081",
+		type: "item",
+		item: "adchimneys:stone_bricks 1 1"
 	}]
 }

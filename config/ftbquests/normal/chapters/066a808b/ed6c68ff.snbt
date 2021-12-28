@@ -1,0 +1,40 @@
+{
+	icon: "pyrotech:bloomery",
+	x: 0.5d,
+	y: 3.5d,
+	shape: "hexagon",
+	dependencies: [
+		"9ea34339",
+		"6905b422"
+	],
+	hide: true,
+	size: 1.4d,
+	tasks: [{
+		uid: "971aabd2",
+		type: "item",
+		items: [{
+			item: "pyrotech:bloomery"
+		}]
+	},
+	{
+		uid: "b63e2bfe",
+		type: "item",
+		items: [{
+			item: "pyrotech:bellows"
+		}]
+	},
+	{
+		uid: "d84deda1",
+		type: "item",
+		items: [{
+			item: "pyrotech:tongs_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9277cb8c",
+		type: "item",
+		item: "cookingforblockheads:tool_rack"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: 1.2d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"6293f06e",
+		"4171d7ce"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "5d7a1cde",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}]
+	}]
+}
