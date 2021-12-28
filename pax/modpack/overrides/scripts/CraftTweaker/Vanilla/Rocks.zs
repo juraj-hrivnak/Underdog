@@ -3,7 +3,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-val rocksOredict = <ore:rocks>;
 
 val rocks = [
     <divergentunderground:rock_stone>,
@@ -16,7 +15,45 @@ val rocks = [
 ] as IItemStack[];
 
 for item in rocks {
-    rocksOredict.add(item);
+    <ore:rocks>.add(item);
 }
 
 recipes.replaceAllOccurences(<ore:cobblestone>, <ore:rocks>, <*>);
+
+val stones = [
+    <minecraft:stone>   ,
+    <minecraft:stone:5> ,
+    <minecraft:stone:3> ,
+    <minecraft:stone:1> ,
+    <quark:limestone>   ,
+    <quark:marble>      ,
+] as IItemStack[];
+
+for item in stones {
+    <ore:stones>.add(item);
+}
+
+recipes.replaceAllOccurences(<ore:stone>, <ore:stones>, <*>);
+
+// Fix
+recipes.remove(<quark:stone_stairs>);
+recipes.addShaped(<quark:stone_stairs> * 8,
+   [[<ore:stone>, null       , null       ],
+    [<ore:stone>, <ore:stone>, null       ],
+    [<ore:stone>, <ore:stone>, <ore:stone>]]);
+
+recipes.remove(<minecraft:stonebrick>);
+recipes.addShaped(<minecraft:stonebrick> * 4,
+   [[<ore:stone>, <ore:stone>],
+    [<ore:stone>, <ore:stone>]]);
+
+recipes.remove(<quark:stone_wall>);
+recipes.addShaped(<quark:stone_wall> * 6,
+   [[<ore:stone>, <ore:stone>, <ore:stone>],
+    [<ore:stone>, <ore:stone>, <ore:stone>]]);
+
+recipes.remove(<quark:stone_speleothem>);
+recipes.addShaped(<quark:stone_speleothem> * 6,
+   [[<ore:stone>],
+    [<ore:stone>],
+    [<ore:stone>]]);

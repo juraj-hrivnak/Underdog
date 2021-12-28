@@ -1,11 +1,12 @@
 {
-	x: 3.0d,
-	y: 4.0d,
-	hide_dependency_lines: true,
+	x: 4.2d,
+	y: 3.5d,
 	dependencies: [
-		"605a727e"
+		"605a727e",
+		"5c583b74"
 	],
 	hide: true,
+	dependency_requirement: "one_completed",
 	size: 0.8d,
 	tasks: [{
 		uid: "c8d2b223",

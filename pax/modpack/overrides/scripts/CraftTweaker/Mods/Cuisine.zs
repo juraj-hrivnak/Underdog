@@ -50,17 +50,15 @@ recipes.addHiddenShaped("Chopping Boards", <cuisine:chopping_board>,
 
 // Mill
 recipes.removeShaped(<cuisine:mill>);
-recipes.addShaped(<cuisine:mill>, [
-    [<ore:handleWood>],
-    [<ore:stone>]
-]);
+recipes.addShaped(<cuisine:mill>,
+ [[<ore:handleWood>],
+  [<ore:stones>]]);
 
 // Fire Pit
 recipes.remove(<cuisine:fire_pit>);
-recipes.addShapedMirrored(<cuisine:fire_pit>, [
-    [<ore:stickWood>, <ore:stickWood>],
-    [<ore:rocks>, <ore:rocks>]
-]);
+recipes.addShapedMirrored(<cuisine:fire_pit>,
+ [[<ore:stickWood>, <ore:stickWood> ],
+  [<ore:rocks>    , <ore:rocks>     ]]);
 
 // Wooden Handle
 recipes.removeShaped(<cuisine:material:1>);
@@ -78,26 +76,26 @@ recipes.addShaped(<cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);
 //     [<minecraft:iron_bars>, <ore:plateClay>, <minecraft:iron_bars>]]);
 
 val basins = {
-    <cuisine:earthen_basin_colored> : <minecraft:dye:15>,
-    <cuisine:earthen_basin_colored:1> : <minecraft:dye:14>,
-    <cuisine:earthen_basin_colored:2> : <minecraft:dye:13>,
-    <cuisine:earthen_basin_colored:3> : <minecraft:dye:12>,
-    <cuisine:earthen_basin_colored:4> : <minecraft:dye:11>,
-    <cuisine:earthen_basin_colored:5> : <minecraft:dye:10>,
-    <cuisine:earthen_basin_colored:6> : <minecraft:dye:9>,
-    <cuisine:earthen_basin_colored:7> : <minecraft:dye:8>,
-    <cuisine:earthen_basin_colored:8> : <minecraft:dye:7>,
-    <cuisine:earthen_basin_colored:9> : <minecraft:dye:6>,
-    <cuisine:earthen_basin_colored:10> : <minecraft:dye:5>,
-    <cuisine:earthen_basin_colored:11> : <minecraft:dye:4>,
-    <cuisine:earthen_basin_colored:12> : <minecraft:dye:3>,
-    <cuisine:earthen_basin_colored:13> : <minecraft:dye:2>,
-    <cuisine:earthen_basin_colored:14> : <minecraft:dye:1>,
-    <cuisine:earthen_basin_colored:15> : <minecraft:dye>
+  <cuisine:earthen_basin_colored>     : <minecraft:dye:15>,
+  <cuisine:earthen_basin_colored:1>   : <minecraft:dye:14>,
+  <cuisine:earthen_basin_colored:2>   : <minecraft:dye:13>,
+  <cuisine:earthen_basin_colored:3>   : <minecraft:dye:12>,
+  <cuisine:earthen_basin_colored:4>   : <minecraft:dye:11>,
+  <cuisine:earthen_basin_colored:5>   : <minecraft:dye:10>,
+  <cuisine:earthen_basin_colored:6>   : <minecraft:dye:9>,
+  <cuisine:earthen_basin_colored:7>   : <minecraft:dye:8>,
+  <cuisine:earthen_basin_colored:8>   : <minecraft:dye:7>,
+  <cuisine:earthen_basin_colored:9>   : <minecraft:dye:6>,
+  <cuisine:earthen_basin_colored:10>  : <minecraft:dye:5>,
+  <cuisine:earthen_basin_colored:11>  : <minecraft:dye:4>,
+  <cuisine:earthen_basin_colored:12>  : <minecraft:dye:3>,
+  <cuisine:earthen_basin_colored:13>  : <minecraft:dye:2>,
+  <cuisine:earthen_basin_colored:14>  : <minecraft:dye:1>,
+  <cuisine:earthen_basin_colored:15>  : <minecraft:dye>
 } as IItemStack[IItemStack];
 
 for basin, dye in basins {
-    recipes.remove(basin);
-    recipes.addShapeless(basin, [<cuisine:earthen_basin>, dye]);
+  recipes.remove(basin);
+  recipes.addShapeless(basin, [<cuisine:earthen_basin>, dye]);
 }
 

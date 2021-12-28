@@ -38,5 +38,5 @@ furnace.remove(<minecraft:bread>, <appliedenergistics2:material:4>);
 // New recipe for Wireless Booster
 recipes.remove(<appliedenergistics2:material:42>);
 recipes.addShaped("wireless_booster_fixed", <appliedenergistics2:material:42> * 6,
-    [[<appliedenergistics2:material:8>, crystals],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+   [[<appliedenergistics2:material:8>   , crystals              ],
+    [<minecraft:iron_ingot>             , <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);

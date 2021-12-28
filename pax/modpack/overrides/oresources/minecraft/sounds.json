@@ -1,15 +1,15 @@
-		
-		{ "custom.manaf": { 
+
+		{ "custom.manaf": {
 		"sounds": [ "custom/manaf" ] },
-		 
+
 		 "custom.conv_belt": {
 		 "sounds": [ "custom/conv_belt" ]
 		 },
-		 
+
 		 "custom.ahh": {
 		 "sounds": [ "custom/ahh" ]
 		 },
-		 
+
 		 "custom.secret": {
 		 "sounds": [ "custom/secret" ]
 		 },
@@ -17,17 +17,17 @@
 		 "huskburn": {
 		 "sounds": [ "custom/huskburn" ]
 		 },
-		 
+
 
 
 		 "custom.pipewind_up": {
 		 "sounds": [ "custom/pipewind_up" ]
 		 },
-		
+
 		 "custom.pipewind_up2": {
 		 "sounds": [ "custom/pipewind_up2" ]
 		 },
-		 
+
 		 "custom.pipewind_up3": {
 		 "sounds": [ "custom/pipewind_up3" ]
 		 },
@@ -39,21 +39,21 @@
 		 "custom.pipewind_down": {
 		 "sounds": [ "custom/pipewind_down" ]
 		 },
-		 
+
 
 
 		 "krasch": {
 		 "sounds": [ "custom/krasch" ]
 		 },
-		 
+
 		 "breaker_on": {
 		 "sounds": [ "custom/breaker" ]
 		 },
-		 
+
 		 "breaker_off": {
 		 "sounds": [ "custom/breaker2" ]
 		 },
-		 
+
 		 "rotor_startup": {
 		 	"sounds": [ "custom/rotor_startup" ]
 		 },

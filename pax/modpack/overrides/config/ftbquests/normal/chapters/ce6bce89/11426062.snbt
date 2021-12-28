@@ -1,0 +1,21 @@
+{
+	x: 5.4d,
+	y: 4.2d,
+	shape: "hexagon",
+	dependencies: [
+		"e7110521"
+	],
+	hide: true,
+	tasks: [{
+		uid: "37291cfe",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "eb004081",
+		type: "item",
+		item: "adchimneys:stone_bricks 1 1"
+	}]
+}

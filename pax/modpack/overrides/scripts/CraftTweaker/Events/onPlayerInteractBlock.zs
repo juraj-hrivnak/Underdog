@@ -14,6 +14,7 @@ import crafttweaker.item.IMutableItemStack;
 import mods.zenutils.DelayManager;
 import mods.contenttweaker.Commands;
 
+var mill as bool[] = [false];
 
 events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {
 	if (isNull(event.world) || event.world.isRemote()) {
@@ -48,6 +49,18 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 			event.world.setBlockState(<blockstate:minecraft:air>, event.position.getOffset(IFacing.up, 1));
 			Commands.call("particle endRod " + event.x + " " + (event.y - 0.8) + " " + event.z + " 0.1 0.1 0.1 0.08 3 normal @a", event.player, event.world);
 		}
+	}
+
+
+	// Mill
+	if isNull(event.item) && (event.blockState == <blockstate:cuisine:mill:facing=west> || event.blockState == <blockstate:cuisine:mill:facing=north> || event.blockState == <blockstate:cuisine:mill:facing=east> || event.blockState == <blockstate:cuisine:mill:facing=south>) {
+		if (mill[0] == false) {
+			Commands.call("playsound hand_mill block @a " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+			DelayManager.addDelayWork(function() {
+				return mill[0] = false;
+			}, 64);
+		}
+		mill[0] = true;
 	}
 
 });

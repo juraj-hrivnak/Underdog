@@ -49,10 +49,10 @@ quark:long_resistance
 quark:strong_resistance
 quark:danger_sight
 quark:long_danger_sight
-cuisine:cuisine.dispersal
+cuisine:cuisine.cold_blood
 cuisine:cuisine.toughness
 cuisine:cuisine.hot
-cuisine:cuisine.cold_blood
+cuisine:cuisine.dispersal
 simpledifficulty:cold_resist_type
 simpledifficulty:long_cold_resist_type
 simpledifficulty:heat_resist_type

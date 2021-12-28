@@ -1,0 +1,12 @@
+{
+	"biomes": [
+		{
+			"conditions": "biome.name == 'Wasteland'",
+			"fog": true,
+			"fogDensity": 0.07,
+			"fogColor": "64,64,18",
+			"precipitation": false,
+			"dust": false
+		}
+	]
+}

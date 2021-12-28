@@ -311,11 +311,11 @@ animania:cart
 animania:tiller
 quark:archaeologist
 quark:crab
-quark:parrot_egg
-quark:chest_passenger
 quark:flat_item_frame
 quark:leash_knot
+quark:chest_passenger
 quark:seat
+quark:parrot_egg
 bibliocraft:biblioseat
 buildinggadgets:blockbuildentity
 buildinggadgets:constructionblockentity

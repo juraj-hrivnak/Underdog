@@ -80,18 +80,18 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 		<blockstate:forestry:logs.6:axis=y,variant=padauk>						: <blockstate:contenttweaker:chopped.padauk>			,
 		<blockstate:forestry:logs.6:axis=y,variant=cocobolo>					: <blockstate:contenttweaker:chopped.cocobolo>			,
 		<blockstate:forestry:logs.7:axis=y,variant=zebrawood>					: <blockstate:contenttweaker:chopped.zebrawood>			,
-		
+
 		// Cuisine
 		<blockstate:cuisine:log:axis=y>											: <blockstate:contenttweaker:chopped_cuisine_citrus>	,
 	};
-	
+
 	if (!isNull(event.item) && <ore:toolHammer> has event.item) {
 
 		// Checking for the ~ ~ ~ block
 		if (event.blockState == <blockstate:contenttweaker:splitting_wedge>) {
 			event.damageItem(1);
 			event.player.setCooldown(event.player.currentItem, 10);
-			
+
 			// Replacing the ~ ~ ~ block
 			event.world.setBlockState(<blockstate:contenttweaker:splitting_wedge_hammered>, event.position);
 
@@ -103,7 +103,7 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 				// Replacing the ~ ~-1 ~ block
 				event.world.setBlockState(blockTrasformers[event.world.getBlockState(event.position.getOffset(IFacing.down, 1))], event.position.getOffset(IFacing.down, 1));
 				server.commandManager.executeCommand(server, "/playsound tconstruct:wood_hit block @a " + event.x + " " + event.y + " " + event.z);
-				
+
 			} else {
 
 				// Destroy the ~ ~ ~ block
@@ -117,7 +117,7 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 			event.player.give(<pyrotech:material:10> * 3);
 			event.damageItem(1);
 			event.player.setCooldown(event.player.currentItem, 10);
-			
+
 			// Replacing the ~ ~ ~ block
 			event.world.setBlockState(<blockstate:minecraft:air>, event.position);
 
@@ -129,7 +129,7 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 				// Replacing the ~ ~-1 ~ block
 				event.world.setBlockState(blockTrasformers[event.world.getBlockState(event.position.getOffset(IFacing.down, 1))], event.position.getOffset(IFacing.down, 1));
 				server.commandManager.executeCommand(server, "/playsound tconstruct:wood_hit block @a " + event.x + " " + event.y + " " + event.z);
-				
+
 			} else {
 
 				// Destroy the ~ ~ ~ block

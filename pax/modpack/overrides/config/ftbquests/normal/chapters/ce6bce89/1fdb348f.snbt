@@ -1,6 +1,6 @@
 {
 	x: 1.2d,
-	y: 3.1d,
+	y: 3.0d,
 	dependencies: [
 		"af997dfc",
 		"2df431ba"

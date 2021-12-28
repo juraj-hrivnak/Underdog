@@ -1,0 +1,17 @@
+{
+	x: 6.6d,
+	y: 5.0d,
+	dependencies: [
+		"89675ea2",
+		"ca5925c4"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "5c24019d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:treated_wood_lumber"
+		}]
+	}]
+}

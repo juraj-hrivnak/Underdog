@@ -1,8 +1,8 @@
 {
-	x: 6.5d,
-	y: 4.4d,
+	x: 7.2d,
+	y: 4.2d,
 	dependencies: [
-		"59530f87"
+		"11426062"
 	],
 	hide: true,
 	size: 0.8d,
