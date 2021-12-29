@@ -2,7 +2,8 @@ name: test
 
 on:
   push:
-    branches: [main]
+    tags:
+      - 'test*'
 
 jobs:
   modpack-info:
@@ -10,7 +11,7 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
-      tag: v0.0.1-alpha
+      tag: ${{ steps.version.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
