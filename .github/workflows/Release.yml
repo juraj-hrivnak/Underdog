@@ -129,8 +129,8 @@ jobs:
         with:
           body_path: CHANGELOG.md
           files: |
-            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -157,7 +157,7 @@ jobs:
           esac
           echo "::set-output name=type::$rel_type"
       - name: Create release
-        uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
+        uses: juraj-hrivnak/upload-curseforge-modpack-action@v1.0.1
         with:
           api-token: ${{ secrets.CF_API_TOKEN }}
           project-id: ${{ env.PROJECT_ID }}
