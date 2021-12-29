@@ -33,6 +33,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Download Modpack Downloader CLI
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/downloader
+          mkdir ${GITHUB_WORKSPACE}/mods
+          wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.6.1/ModpackDownloader-cli-0.6.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar
+      - name: Download Mods
+        run: sudo ${JAVA_HOME_11_X64}/bin/java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/pax/modpack/manifest.json -folder ${GITHUB_WORKSPACE}/mods
       - name: Export serverpack
         run: |
           cd pax/serverpack/
@@ -45,3 +52,4 @@ jobs:
         with:
           name: serverpack
           path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+
