@@ -4,8 +4,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.liquid.ILiquidStack as ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.pyrotech.StoneCrucible;
 import mods.pyrotech.BrickCrucible;
-import mods.tconstruct.Casting as Casting;
 
 BrickCrucible.removeAllRecipes();
 
@@ -107,3 +107,7 @@ for input, output in liquidsAndOres {
     );
 
 }
+
+// Liquid Clay
+StoneCrucible.removeRecipes(<liquid:liquid_clay>);
+StoneCrucible.addRecipe("melting_liquid_clay", <liquid:liquid_clay>, <minecraft:clay_ball>, 60);
