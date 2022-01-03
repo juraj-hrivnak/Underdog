@@ -6,7 +6,7 @@
         "maxheight": 50,
         "maxcount": {
                   "amount": 2,
-                  "perplayer": true
+                  "perplayer": false
               },
         "result": "allow"
         },
@@ -22,7 +22,7 @@
         "maxheight": 60,
         "maxcount": {
                   "amount": 2,
-                  "perplayer": true
+                  "perplayer": false
               },
         "result": "allow"
         },
@@ -38,7 +38,7 @@
         "maxheight": 62,
         "maxcount": {
                 "amount": 20,
-                "perplayer": true
+                "perplayer": false
         },
         "result": "allow"
         },
@@ -54,7 +54,7 @@
         "maxheight": 50,
         "maxcount": {
                 "amount": 2,
-                "perplayer": true
+                "perplayer": false
         },
         "result": "allow"
         },
@@ -71,7 +71,7 @@
         "minheight": 50,
         "maxcount": {
                 "amount": 2,
-                "perplayer": true
+                "perplayer": false
         },
         "result": "allow"
         },
@@ -88,7 +88,7 @@
         "minheight": 50,
         "maxcount": {
                 "amount": 2,
-                "perplayer": true
+                "perplayer": false
         },
         "result": "allow"
         },
@@ -105,7 +105,7 @@
         "minheight": 59,
         "maxcount": {
                 "amount": 2,
-                "perplayer": true
+                "perplayer": false
         },
         "result": "allow"
         },
@@ -121,7 +121,7 @@
         "maxheight": 40,
         "maxcount": {
                 "amount": 1,
-                "perplayer": true
+                "perplayer": false
         },
         "result": "allow"
         },
@@ -138,7 +138,7 @@
         "minheight": 59,
         "maxcount": {
                 "amount": 2,
-                "perplayer": true
+                "perplayer": false
         },
         "result": "allow"
         },
