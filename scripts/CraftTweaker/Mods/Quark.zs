@@ -27,18 +27,16 @@ recipes.removeByRecipeName("quark:bookshelf");
 
 // Iron Rod Braker
 recipes.removeShaped(<quark:iron_rod>);
-recipes.addShapedMirrored(<quark:iron_rod>, [
-    [null, null, <ore:stickIron>],
+recipes.addShapedMirrored(<quark:iron_rod>,
+   [[null, null, <ore:stickIron>],
     [null, <ore:stickIron>, null],
-    [<ore:plateIron>, null, null]
-]);
+    [<ore:plateIron>, null, null]]);
 
 // Backpack
-recipes.addShapedMirrored(<quark:backpack>, [
-    [<ore:fiberHemp>, <ore:itemLeather>, <ore:fiberHemp>],
-    [<ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather>],
-    [<ore:itemLeather>, <ore:furCut>, <ore:itemLeather>]
-]);
+recipes.addShapedMirrored(<quark:backpack>,
+   [[<ore:fiberHemp>    , <ore:itemLeather> , <ore:fiberHemp>   ],
+    [<ore:itemLeather>  , <ore:itemLeather> , <ore:itemLeather> ],
+    [<ore:itemLeather>  , null              , <ore:itemLeather> ]]);
 
 // Wheat Thatch
 <quark:thatch>.displayName = "Wheat Thatch";
