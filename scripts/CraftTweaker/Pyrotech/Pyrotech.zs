@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.jei.JEI.hideCategory as hc;
+import mods.jei.JEI.hide as h;
 import mods.dropt.Dropt;
 
 import mods.pyrotech.BrickCrucible;
@@ -43,17 +44,15 @@ val itemsToRemove as IItemStack[] = [
 for i in itemsToRemove { furnace.remove(i); rh(i); }
 rh(<pyrotech:crude_hammer>);
 
-recipes.remove(<pyrotech:cog_stone>);
-recipes.addShaped(<pyrotech:cog_stone>,
-   [[<ore:rocks>, <ore:rocks>, <ore:rocks>],
-    [<ore:rocks>, <ore:stickStone>, <ore:rocks>],
-    [<ore:rocks>, <ore:rocks>, <ore:rocks>]]);
+// Stone Rod removal
+h(<pyrotech:material:27>);
+<ore:stickStone>.remove(<pyrotech:material:27>);
 
 recipes.remove(<pyrotech:sawmill_blade_stone>);
 recipes.addShaped(<pyrotech:sawmill_blade_stone>,
-   [[<ore:rocks>, <ore:rocks>, <ore:rocks>],
-    [<ore:rocks>, <ore:stone>, <ore:rocks>],
-    [<ore:rocks>, <ore:rocks>, <ore:rocks>]]);
+   [[<ore:rocks>, <ore:rocks> , <ore:rocks>],
+    [<ore:rocks>, <ore:stones>, <ore:rocks>],
+    [<ore:rocks>, <ore:rocks> , <ore:rocks>]]);
 
 recipes.remove(<pyrotech:flint_and_tinder>);
 recipes.addShapeless(<pyrotech:flint_and_tinder>, [<pyrotech:material:10>, <pyrotech:material:13>, <divergentunderground:rock_stone>]);
@@ -116,11 +115,11 @@ recipes.addShaped(<pyrotech:stone_hammer>, [
 ]);
 
 
+// Refractory
 val refracLump  = <pyrotech:material:35>;
 val refracBrick = <pyrotech:material:5>;
 val refracBlock = <pyrotech:refractory_brick_block>;
 
-// Refractory
 recipes.remove(<pyrotech:brick_kiln>);
 recipes.remove(<pyrotech:brick_oven>);
 recipes.remove(<pyrotech:brick_sawmill>);
@@ -154,10 +153,10 @@ recipes.addShaped(<pyrotech:bloomery>,
     [refracBrick, refracBlock , refracBrick ]]);
 
 
+// Stone
 val masonryBrick = <pyrotech:material:16>;
 val masonryBlock = <pyrotech:stone_bricks>;
 
-// Stone
 recipes.remove(<pyrotech:stone_kiln>);
 recipes.remove(<pyrotech:stone_oven>);
 recipes.remove(<pyrotech:stone_sawmill>);
@@ -200,7 +199,7 @@ recipes.addShaped(<pyrotech:bellows>,
     [masonryBrick , masonryBrick    , masonryBrick  ]]);
 
 
-val boatFix as IItemStack[IItemStack] = {
+val boatFix as IIngredient[IItemStack] = {
     <minecraft:boat>            : <contenttweaker:lumber_vanilla_oak>     ,
     <minecraft:spruce_boat>     : <contenttweaker:lumber_vanilla_spruce>  ,
     <minecraft:birch_boat>      : <contenttweaker:lumber_vanilla_birch>   ,
@@ -214,6 +213,38 @@ for output, input in boatFix {
     recipes.addShaped(output,
        [[input, null, input],
         [input, input, input]]);
+}
+
+val tongsFix as IIngredient[IItemStack] = {
+    <pyrotech:tongs_stone>      : <pyrotech:material:16>,
+    <pyrotech:tongs_flint>      : <pyrotech:material:10>,
+    <pyrotech:tongs_bone>       : <pyrotech:material:11>,
+    <pyrotech:tongs_iron>       : <pyrotech:material:19>,
+    <pyrotech:tongs_gold>       : <pyrotech:material:34>,
+    <pyrotech:tongs_diamond>    : <pyrotech:material:18>,
+    <pyrotech:tongs_obsidian>   : <pyrotech:material:33>
+};
+
+for output, input in tongsFix {
+    recipes.remove(output);
+    recipes.addShaped(output,
+       [[null           , input         , null  ],
+        [<ore:rodStone> , input         , input ],
+        [null           , <ore:rodStone>, null  ]]);
+}
+
+val cogFix as IIngredient[IItemStack] = {
+    <pyrotech:cog_stone>    : <ore:rocks>           ,
+    <pyrotech:cog_flint>    : <pyrotech:material:10>,
+    <pyrotech:cog_bone>     : <pyrotech:material:11>
+};
+
+for output, input in cogFix {
+    recipes.remove(output);
+    recipes.addShaped(output,
+       [[input, input         , input ],
+        [input, <ore:rodStone>, input ],
+        [input, input         , input ]]);
 }
 
 
