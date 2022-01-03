@@ -36,15 +36,6 @@ cd ..\..\..\..
 xcopy /s patchouli_books pax\modpack\overrides\patchouli_books\
 cd pax
 
-@REM rem resourcepacks
-@REM cd modpack\overrides
-@REM if not exist "resourcepacks" mkdir "resourcepacks"
-@REM cd resourcepacks
-@REM for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
-@REM cd ..\..\..\..
-@REM xcopy /s resourcepacks pax\modpack\overrides\resourcepacks\
-@REM cd pax
-
 rem resources
 cd modpack\overrides
 if not exist "resources" mkdir "resources"

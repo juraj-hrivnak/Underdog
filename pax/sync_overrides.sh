@@ -63,4 +63,4 @@ cd ../../..
 cp -r scripts pax/modpack/overrides
 cd pax
 
-read -p "Done!"
+read "Done!"

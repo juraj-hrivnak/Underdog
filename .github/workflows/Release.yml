@@ -94,7 +94,10 @@ jobs:
           mkdir ${GITHUB_WORKSPACE}/mods
           wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.6.1/ModpackDownloader-cli-0.6.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar
       - name: Download Mods
-        run: sudo ${JAVA_HOME_11_X64}/bin/java -jar ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar -manifest ${GITHUB_WORKSPACE}/pax/modpack/manifest.json -folder ${GITHUB_WORKSPACE}/mods
+        run: |
+          cd pax/
+          sudo chmod +x ./sync_mods.sh
+          ./sync_mods.sh
       - name: Export serverpack
         run: |
           cd pax/serverpack/
