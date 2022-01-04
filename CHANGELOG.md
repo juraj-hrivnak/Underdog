@@ -14,7 +14,7 @@ https://bisecthosting.com/underdog
 - Implemented Less Grind™ (Wooden Planks are now less tedious to make)
 - Reworked casting:
 - - Permanent casts are now made from steel
-- - Reworked Clay Casts was  to Sand Casts
+- - Reworked Clay Casts to Sand Casts
 - - Textures will remain the same as they can't be retextured.
 - Fixed uncraftable Quark Backpack recipe
 - Fixed issues with the playsound command ran from events in multiplayer

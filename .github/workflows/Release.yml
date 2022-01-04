@@ -32,8 +32,6 @@ jobs:
 
   changelog:
     runs-on: ubuntu-latest
-    outputs:
-      changelog: ${{ steps.changelog.outputs.changelog }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -125,8 +123,8 @@ jobs:
         with:
           body_path: CHANGELOG.md
           files: |
-            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -142,10 +140,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: serverpack
-      - name: Download changelog
-        uses: actions/download-artifact@v2
-        with:
-          name: changelog
       - name: Get release type
         id: release-type
         run: |
@@ -165,7 +159,7 @@ jobs:
           display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}
           modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
           server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack
-          changelog: "${{ needs.changelog.outputs.changelog }}"
+          changelog: "See https://github.com/juraj-hrivnak/Underdog/blob/main/CHANGELOG.md"
           changelog-format: markdown
           game-version: ${{ needs.modpack-info.outputs.version }}
           release-type: ${{ steps.release-type.outputs.type }}
