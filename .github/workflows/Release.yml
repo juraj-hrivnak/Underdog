@@ -32,19 +32,8 @@ jobs:
 
   changelog:
     runs-on: ubuntu-latest
-    outputs:
-      changelog: ${{ steps.changelog.outputs.changelog }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Generate changelog
-        id: changelog
-        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          output: CHANGELOG.md
-          stripGeneratorNotice: true
-      - name: Store changelog
+      - name: Upload changelog
         uses: actions/upload-artifact@v2
         with:
           name: changelog
@@ -149,6 +138,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: serverpack
+      - name: Download changelog
+        uses: actions/download-artifact@v2
+        with:
+          name: changelog
       - name: Get release type
         id: release-type
         run: |
@@ -168,7 +161,7 @@ jobs:
           display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}
           modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
           server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack
-          changelog: "${{ needs.changelog.outputs.changelog }}"
+          changelog: CHANGELOG.md
           changelog-format: markdown
           game-version: ${{ needs.modpack-info.outputs.version }}
           release-type: ${{ steps.release-type.outputs.type }}
