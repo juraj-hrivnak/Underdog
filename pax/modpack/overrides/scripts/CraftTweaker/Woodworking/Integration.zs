@@ -113,6 +113,7 @@ for lumber, x in woodworking {
 
     val sawmillBlades = <pyrotech:sawmill_blade_obsidian:*> | <pyrotech:sawmill_blade_diamond:*> | <pyrotech:sawmill_blade_iron:*>;
 
+    val rawLumber = lumber.onlyWithTag({raw: true});
 
     if !isNull(log) {
 
@@ -120,7 +121,7 @@ for lumber, x in woodworking {
         Chopping.addRecipe("chopping_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}), log, [4], [8]);
 
         // Adding tooltip for lumber with "raw: true" tag
-        lumber.onlyWithTag({raw: true}).addTooltip(format.gray(format.bold("Raw")));
+        rawLumber.addTooltip(format.gray(format.bold("Raw")));
 
         MKSawmill.addRecipe(log, lumber.withTag({raw: true}) * 8, <pyrotech:rock:7>, 0.5);
         StoneSawmill.addRecipe("lumber_from_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}) * 8, log, 300, sawmillBlades, 1);
@@ -136,7 +137,7 @@ for lumber, x in woodworking {
         recipes.addShaped(slab * 3, [[lumber, lumber, lumber]]);
 
         // Adding recipes for planks from slabs
-        recipes.addShapedMirrored(planks, [[null, slab], [woodenNail, slab]]);
+        recipes.addShapedMirrored(planks, [[woodenNail, slab], [woodenNail, slab]]);
 
     }
 
@@ -160,9 +161,9 @@ for lumber, x in woodworking {
 
     // Adding bunus recipe for using "raw" lumber with iron nails
     recipes.addHiddenShaped("_iron_nail_4x_" + planks.displayName + planks.definition.owner, planks * 4,
-    [[null    , null                           , ironNail                        ],
-     [null    , lumber.onlyWithTag({raw: true}), lumber.onlyWithTag({raw: true}) ],
-     [ironNail, lumber.onlyWithTag({raw: true}), lumber.onlyWithTag({raw: true}) ]],
+    [[null    , null     , ironNail  ],
+     [null    , rawLumber, rawLumber ],
+     [ironNail, rawLumber, rawLumber ]],
     null, function(out,cInfo,player) {
         player.xp += 1;
         server.commandManager.executeCommand(server, "/playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z);
@@ -178,7 +179,7 @@ for lumber, x in woodworking {
     BrickSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 20, sawmillBlades, 0);
 }
 
-Chopping.addRecipe("chopping_nail", woodenNail, <ore:hardwoodLumber>, [1], [2]);
+Chopping.addRecipe("chopping_nail", woodenNail, <ore:hardwoodLumber>, [1], [4]);
 Chopping.addRecipe("chopping_sticks", <minecraft:stick>, <ore:firewood>, [1], [4]);
 
 // 1 log => 8 lumber = 16 sticks
