@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: changelog
-          path: ./CHANGELOG.md
+          path: ${GITHUB_WORKSPACE}/CHANGELOG.md
 
   build-modpack:
     runs-on: ubuntu-latest
