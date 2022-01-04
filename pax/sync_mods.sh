@@ -11,5 +11,3 @@ cp -r * ../../../mods/
 cd ../../
 
 java -jar ModpackDownloader-cli-0.6.1.jar -manifest modpack/manifest.json -folder ../mods
-
-read "Done!"

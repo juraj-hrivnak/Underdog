@@ -62,5 +62,3 @@ fi
 cd ../../..
 cp -r scripts pax/modpack/overrides
 cd pax
-
-read "Done!"
