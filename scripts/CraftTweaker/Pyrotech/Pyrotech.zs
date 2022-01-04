@@ -94,6 +94,11 @@ Dropt.list("torch")
 <ore:listAllmilk>.add(<pyrotech:bucket_wood:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_stone:1>);
 
+// Water
+<ore:listAllwater>.add(<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water"}}));
+<ore:listAllwater>.add(<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "water"}}));
+<ore:listAllwater>.add(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "water"}}));
+
 // Wood Pile
 recipes.remove(<pyrotech:log_pile>);
 recipes.addShaped(<pyrotech:log_pile>,
@@ -259,19 +264,19 @@ recipes.remove(<pyrotech:mechanical_mulch_spreader>);
 val treatLumber = <contenttweaker:treated_wood_lumber>;
 
 // Durable Shelf
-recipes.addShaped(<pyrotech:shelf_stone>,
+recipes.addShaped(<pyrotech:shelf_stone> * 2,
    [[masonryBrick , treatLumber     , masonryBrick  ],
     [treatLumber  , <pyrotech:shelf>, treatLumber   ],
     [masonryBrick , treatLumber     , masonryBrick  ]]);
 
 // Durable Stash
-recipes.addShaped(<pyrotech:stash_stone>,
+recipes.addShaped(<pyrotech:stash_stone> * 2,
    [[masonryBrick , treatLumber     , masonryBrick  ],
     [treatLumber  , <pyrotech:stash>, treatLumber   ],
     [masonryBrick , treatLumber     , masonryBrick  ]]);
 
 // Durable Crate
-recipes.addShaped(<pyrotech:crate_stone>,
+recipes.addShaped(<pyrotech:crate_stone> * 2,
    [[masonryBrick , treatLumber     , masonryBrick  ],
     [treatLumber  , <pyrotech:crate>, treatLumber   ],
     [masonryBrick , treatLumber     , masonryBrick  ]]);
