@@ -17,6 +17,7 @@ jobs:
           cp pax/changelogs/TEMPLATE.md CHANGELOG.md
       - name: Commit files
         run: |
+          git add .
           git config --local user.name "Juraj Hrivnak"
           git config --local user.email "juraj-hrivnak@users.noreply.github.com"
           git commit -m "Update CHANGELOG.md" -a
