@@ -1,0 +1,32 @@
+name: Test
+
+on:
+  push:
+    tags:
+      - 'test*'
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Rename Changelog
+        run: |
+          mv CHANGELOG.md pax/changelogs/${{ needs.modpack-info.outputs.tag }}.md
+          cp pax/changelogs/TEMPLATE.md CHANGELOG.md
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Update CHANGELOG.md" -a
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+      - name: Upload changelog
+        uses: actions/upload-artifact@v2
+        with:
+          name: changelog
+          path: pax/changelogs/${{ needs.modpack-info.outputs.tag }}.md
