@@ -29,7 +29,7 @@ jobs:
 
       - name: Rename Changelog
         run: |
-          mv CHANGELOG.md pax/changelogs/${{ steps.previoustag.outputs.tag }}.md
+          mv CHANGELOG.md pax/changelogs/${{ steps.version.outputs.tag }}.md
           cp pax/changelogs/TEMPLATE.md CHANGELOG.md
       - name: Commit files
         run: |
