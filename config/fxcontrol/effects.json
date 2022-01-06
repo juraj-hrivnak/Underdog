@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "timeout": 20,
+        "biome": "Wasteland",
+        "potion": [
+            "minecraft:weakness,201,1",
+            "minecraft:mining_fatigue,201,1"
+        ]
+    }
+]
