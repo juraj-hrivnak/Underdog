@@ -27,15 +27,9 @@ jobs:
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
-  changelog:
-    runs-on: ubuntu-latest
-    needs: [modpack-info]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Rename Changelog
         run: |
-          mv CHANGELOG.md pax/changelogs/${{ needs.modpack-info.outputs.tag }}.md
+          mv CHANGELOG.md pax/changelogs/${{ steps.previoustag.outputs.tag }}.md
           cp pax/changelogs/TEMPLATE.md CHANGELOG.md
       - name: Commit files
         run: |
@@ -52,4 +46,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: changelog
-          path: pax/changelogs/${{ needs.modpack-info.outputs.tag }}.md
+          path: pax/changelogs/${{ steps.previoustag.outputs.tag }}.md
