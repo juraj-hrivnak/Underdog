@@ -9,8 +9,8 @@ mods.rustic.CrushingTub.addRecipe(<liquid:edible_oil> * 10, <harvestcraft:barley
 
 recipes.remove(<rustic:evaporating_basin>);
 recipes.addShaped(<rustic:evaporating_basin>,
-   [[<ore:plateClay>, null, <ore:plateClay>],
-    [null, <ore:plateClay>, null]]);
+   [[<ore:ingotBrick>, null          , <ore:ingotBrick>   ],
+    [null       , <ore:ingotBrick>   , null          ]]);
 
 
 val clayLump = <pyrotech:material:17>;
