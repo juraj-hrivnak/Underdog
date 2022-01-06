@@ -94,7 +94,7 @@ Dropt.list("torch")
 <ore:listAllmilk>.add(<pyrotech:bucket_wood:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_stone:1>);
 
-// Water
+// Water compat
 <ore:listAllwater>.add(<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water"}}));
 <ore:listAllwater>.add(<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "water"}}));
 <ore:listAllwater>.add(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "water"}}));

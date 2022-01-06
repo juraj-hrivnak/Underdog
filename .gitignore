@@ -56,7 +56,16 @@ pack.zip
 # Pax
 pax/logs/
 pax/modpack/overrides/config/BiomeTweaker/output/
-pax/modpack/overrides/config/fantasticlib/
+pax/modpack/overrides/config/fantasticlib/reference/blocks.txt
+pax/modpack/overrides/config/fantasticlib/reference/blockstates.txt
+pax/modpack/overrides/config/fantasticlib/reference/entities.txt
+pax/modpack/overrides/config/fantasticlib/reference/items.txt
+pax/modpack/overrides/config/fantasticlib/reference/oredict.txt
+pax/modpack/overrides/config/fantasticlib/reference/potion_types.txt
+pax/modpack/overrides/config/fantasticlib/reference/potions.txt
+pax/modpack/overrides/config/fantasticlib/reference/recipes.txt
+pax/modpack/overrides/config/fantasticlib/reference/sounds.txt
+pax/modpack/overrides/config/fantasticlib/reference/villager_professions.txt
 pax/modpack/overrides/config/codechicken/supporters.json
 pax/modpack/overrides/config/splash.properties
 pax/modpack/overrides/config/waila/waila.cfg
@@ -76,3 +85,4 @@ pax/modpack/overrides/config/moresoundconfig.cfg
 pax/serverpack/work
 pax/serverpack/server-packs
 pax/serverpack/logs
+

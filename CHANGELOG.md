@@ -8,9 +8,11 @@ The best place to set up a server to play the Underdog modpack is at: \
 https://bisecthosting.com/underdog
 
 ## What's new?
--
+- Added new texture for iron chimney
+- Updated recipes using 'plateClay' to use bricks
 
 ## Mod Changes:
 ```markdown
-
+Updated:
+- Logistics Pipes
 ```

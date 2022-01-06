@@ -64,16 +64,16 @@ recipes.addShapedMirrored(<cuisine:fire_pit>,
 recipes.removeShaped(<cuisine:material:1>);
 recipes.addShaped(<cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);
 
-// recipes.remove(<cuisine:jar>);
-// recipes.addShaped(<cuisine:jar>,
-//    [[<ore:plateClay>, <ore:plateClay>, <ore:plateClay>],
-//     [<ore:plateClay>, null, <ore:plateClay>],
-//     [<ore:plateClay>, <ore:plateClay>, <ore:plateClay>]]);
+recipes.remove(<cuisine:jar>);
+recipes.addShaped(<cuisine:jar>,
+   [[<ore:ingotBrick>, <ore:ingotBrick> , <ore:ingotBrick>],
+    [<ore:ingotBrick>, null        , <ore:ingotBrick>],
+    [<ore:ingotBrick>, <ore:ingotBrick> , <ore:ingotBrick>]]);
 
-// recipes.remove(<cuisine:earthen_basin>);
-// recipes.addShaped(<cuisine:earthen_basin>,
-//    [[<ore:plateClay>, null, <ore:plateClay>],
-//     [<minecraft:iron_bars>, <ore:plateClay>, <minecraft:iron_bars>]]);
+recipes.remove(<cuisine:earthen_basin>);
+recipes.addShaped(<cuisine:earthen_basin>,
+   [[<ore:ingotBrick>          , null        , <ore:ingotBrick>           ],
+    [<minecraft:iron_bars>, <ore:ingotBrick> , <minecraft:iron_bars> ]]);
 
 val basins = {
   <cuisine:earthen_basin_colored>     : <minecraft:dye:15>,
