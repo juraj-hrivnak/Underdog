@@ -26,18 +26,17 @@ jobs:
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
-      - name: Rename Changelog
+      - name: Process changelog
         run: |
           mv CHANGELOG.md pax/changelogs/${{ steps.version.outputs.tag }}.md
           cp pax/changelogs/TEMPLATE.md CHANGELOG.md
-      - name: Commit files
+      - name: Commit changelog
         run: |
           git add .
           git config --local user.name "Juraj Hrivnak"
           git config --local user.email "juraj-hrivnak@users.noreply.github.com"
           git commit -m "Update CHANGELOG.md" -a
-      - name: GitHub Push
+      - name: Push changelog
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -46,4 +45,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: changelog
-          path: pax/changelogs/${{ steps.previoustag.outputs.tag }}.md
+          path: pax/changelogs/${{ steps.version.outputs.tag }}.md

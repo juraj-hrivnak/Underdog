@@ -29,21 +29,30 @@ jobs:
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
-
-  changelog:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Process changelog
+        run: |
+          mv CHANGELOG.md pax/changelogs/${{ steps.version.outputs.tag }}.md
+          cp pax/changelogs/TEMPLATE.md CHANGELOG.md
+      - name: Commit changelog
+        run: |
+          git add .
+          git config --local user.name "Juraj Hrivnak"
+          git config --local user.email "juraj-hrivnak@users.noreply.github.com"
+          git commit -m "Update CHANGELOG.md" -a
+      - name: Push changelog
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
       - name: Upload changelog
         uses: actions/upload-artifact@v2
         with:
           name: changelog
-          path: CHANGELOG.md
+          path: pax/changelogs/${{ steps.version.outputs.tag }}.md
 
   build-modpack:
     runs-on: ubuntu-latest
-    needs: [changelog, modpack-info]
+    needs: [modpack-info]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -120,7 +129,7 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
-          body_path: CHANGELOG.md
+          body_path: ${{ needs.modpack-info.outputs.tag }}.md
           files: |
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
@@ -158,7 +167,7 @@ jobs:
           display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}
           modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
           server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack
-          changelog: "See https://github.com/juraj-hrivnak/Underdog/blob/main/CHANGELOG.md"
+          changelog: See https://github.com/juraj-hrivnak/Underdog/releases/tag/${{ needs.modpack-info.outputs.tag }}
           changelog-format: markdown
           game-version: ${{ needs.modpack-info.outputs.version }}
           release-type: ${{ steps.release-type.outputs.type }}
