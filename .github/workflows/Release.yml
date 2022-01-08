@@ -91,7 +91,7 @@ jobs:
         run: |
           mkdir ${GITHUB_WORKSPACE}/downloader
           mkdir ${GITHUB_WORKSPACE}/mods
-          wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.6.1/ModpackDownloader-cli-0.6.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.6.1.jar
+          wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.6.1/ModpackDownloader-cli-0.7.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.7.1.jar
       - name: Download Mods
         run: |
           cd pax/
