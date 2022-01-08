@@ -7,27 +7,3 @@ A realistic survival/  tech/ exploration modpack
 
 > Fully playable releases are available on curseforge!
 > [here](https://www.curseforge.com/minecraft/modpacks/underdog)
-
-
-## Making server pack
-
-Some mods will crash the game if you run them on server. So they must be removed.
-Also everything around resources is not neceseary to run on server.
-
-Folowing mods must be removed:
-- Better Chat
-- Custom Loading Screen
-- Custom Main Menu
-- Resource Loader
-- Matmos
-- Journey Map
-- Journey Map Stages
-- Tips
-- InvMove
-
-Folowing folder are required on the server:
-- config
-- local
-- mods
-- scripts
-- structures
