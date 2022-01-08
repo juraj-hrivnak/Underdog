@@ -56,6 +56,10 @@ pack.zip
 # Pax
 pax/logs/
 pax/modpack/overrides/config/BiomeTweaker/output/
+pax/modpack/overrides/config/fantasticlib/reference/biomes.txt
+pax/modpack/overrides/config/fantasticlib/reference/enchantments.txt
+pax/modpack/overrides/config/fantasticlib/reference/players.txt
+pax/modpack/overrides/config/fantasticlib/reference/slottings.txt
 pax/modpack/overrides/config/fantasticlib/reference/blocks.txt
 pax/modpack/overrides/config/fantasticlib/reference/blockstates.txt
 pax/modpack/overrides/config/fantasticlib/reference/entities.txt

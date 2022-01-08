@@ -37,7 +37,7 @@
         "biometype": [ "BEACH" ],
         "maxheight": 62,
         "maxcount": {
-                "amount": 20,
+                "amount": 15,
                 "perplayer": false
         },
         "result": "allow"
