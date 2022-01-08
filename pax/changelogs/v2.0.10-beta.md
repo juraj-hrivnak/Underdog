@@ -8,9 +8,11 @@ The best place to set up a server to play the Underdog modpack is at: \
 https://bisecthosting.com/underdog
 
 ## What's new?
--
+- Fixed invisible slabs issue. More info [here](https://github.com/amadornes/MCMultiPart/issues/146)
+- Some tweaks here and there
 
 ## Mod Changes:
 ```markdown
-
+Updated:
+- Zen Utils
 ```
