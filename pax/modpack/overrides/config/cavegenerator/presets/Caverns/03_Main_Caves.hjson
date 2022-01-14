@@ -200,4 +200,28 @@
       integrity: 1
     }
   ]
+  stalactites: [
+    {
+      state: quark:limestone
+      # Type may be `stalactite`, `stalagmite`, or `speleothem`.
+      type: speleothem
+      # The width of this feature.
+      # Possible options are: `small`, `medium`, `large`, and `giant`.
+      size: giant
+      length: [ 4, 10 ]
+      chance: 0.167
+      height: [
+        40
+        70
+      ]
+      matchers: [
+        quark:limestone
+      ]
+      # ABSENT BY DEFAULT
+      // region: {
+      //   frequency: 0.025
+      //   threshold: 0.42500000000000004
+      // }
+    }
+  ]
 }

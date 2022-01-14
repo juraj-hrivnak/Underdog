@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "2.0.10",
+  "version": "2.0.12",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -1631,7 +1631,7 @@
     },
     {
       "projectID": 306676,
-      "fileID": 3592697,
+      "fileID": 3604905,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
@@ -1815,7 +1815,7 @@
     },
     {
       "projectID": 321792,
-      "fileID": 3586861,
+      "fileID": 3603327,
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics"
@@ -1920,7 +1920,7 @@
     },
     {
       "projectID": 360779,
-      "fileID": 3548175,
+      "fileID": 3605125,
       "required": true,
       "__meta": {
         "name": "SimpleDifficulty"
