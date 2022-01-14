@@ -81,34 +81,34 @@ jobs:
           name: modpack
           path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
 
-  build-serverpack:
-    runs-on: ubuntu-latest
-    needs: [modpack-info]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Download Modpack Downloader CLI
-        run: |
-          mkdir ${GITHUB_WORKSPACE}/downloader
-          mkdir ${GITHUB_WORKSPACE}/mods
-          wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.7.1/ModpackDownloader-cli-0.7.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.7.1.jar
-      - name: Download Mods
-        run: |
-          cd pax/
-          sudo chmod +x ./sync_mods.sh
-          ./sync_mods.sh
-      - name: Export serverpack
-        run: |
-          cd pax/serverpack/
-          java -jar ServerPackCreator-3.0.0-alpha.12.jar -cli
-      - name: Rename zip
-        run: |
-          mv pax/serverpack/server-packs/_server_pack.zip pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
-      - name: Upload zip
-        uses: actions/upload-artifact@v2
-        with:
-          name: serverpack
-          path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+  # build-serverpack:
+  #   runs-on: ubuntu-latest
+  #   needs: [modpack-info]
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v2
+  #     - name: Download Modpack Downloader CLI
+  #       run: |
+  #         mkdir ${GITHUB_WORKSPACE}/downloader
+  #         mkdir ${GITHUB_WORKSPACE}/mods
+  #         wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.7.1/ModpackDownloader-cli-0.7.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.7.1.jar
+  #     - name: Download Mods
+  #       run: |
+  #         cd pax/
+  #         sudo chmod +x ./sync_mods.sh
+  #         ./sync_mods.sh
+  #     - name: Export serverpack
+  #       run: |
+  #         cd pax/serverpack/
+  #         java -jar ServerPackCreator-3.0.0-alpha.12.jar -cli
+  #     - name: Rename zip
+  #       run: |
+  #         mv pax/serverpack/server-packs/_server_pack.zip pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+  #     - name: Upload zip
+  #       uses: actions/upload-artifact@v2
+  #       with:
+  #         name: serverpack
+  #         path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
 
   release-github:
     runs-on: ubuntu-latest
@@ -132,7 +132,7 @@ jobs:
           body_path: ${{ needs.modpack-info.outputs.tag }}.md
           files: |
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+    # ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -165,8 +165,8 @@ jobs:
           project-id: ${{ env.PROJECT_ID }}
           modpack-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}
-          modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
-          server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack
+          # modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+          # server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack
           changelog: See https://github.com/juraj-hrivnak/Underdog/releases/tag/${{ needs.modpack-info.outputs.tag }}
           changelog-format: markdown
           game-version: ${{ needs.modpack-info.outputs.version }}
