@@ -8,9 +8,10 @@ The best place to set up a server to play the Underdog modpack is at: \
 https://bisecthosting.com/underdog
 
 ## What's new?
--
+- Fixed the inability to add slabs to Pyrotech kilns, this time for real - Closes #29, Closes #28.
 
 ## Mod Changes:
 ```markdown
-
+Added:
+- Lava Tweaks
 ```
