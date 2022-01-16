@@ -43,7 +43,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 
 
 	// Pick Up Block
-	if (event.blockState == <blockstate:crocodilite:stone>) {
+	if (event.blockState == <blockstate:crocodilite:quartzite_rock>) {
 		if (event.world.getBlockState(event.position.getOffset(IFacing.up, 1)) == <blockstate:contenttweaker:pick_up_block>) {
 			// Replacing the ~ ~1 ~ block
 			event.world.setBlockState(<blockstate:minecraft:air>, event.position.getOffset(IFacing.up, 1));

@@ -6,7 +6,7 @@
 		"osv:_clay_biomesoplenty_dirt": "dirt",
 		"osv:_clay_biomesoplenty_dirt_1": "dirt",
 		"osv:_clay_biomesoplenty_dirt_2": "dirt",
-		"crocodilite:stone": "dirt,stone",
+		"crocodilite:quartzite_rock": "dirt,stone",
 		"minecraft:netherrack": "stone"
 	}
 }

@@ -105,7 +105,7 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
     }
 
 
-    if (event.blockState == <blockstate:crocodilite:stone>) {
+    if (event.blockState == <blockstate:crocodilite:quartzite_rock>) {
 
 		if (event.world.getBlockState(event.position.getOffset(IFacing.up, 1)) == <blockstate:contenttweaker:pick_up_block>) {
 

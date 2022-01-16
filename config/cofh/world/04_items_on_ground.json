@@ -6,20 +6,19 @@
 				"type": "decoration",
 				"block": [
 					{
-						"name": "crocodilite:stone"
+						"name": "crocodilite:quartzite_rock"
 					}
 				],
 				"material": [
-					{
-						"name": "minecraft:air"
-					}
+					{ "name": "minecraft:air" }
 				],
 				"surface": [
-					"minecraft:gravel",
-					"minecraft:grass",
-					"minecraft:dirt",
-					"biomesoplenty:grass",
-					"biomesoplenty:dirt"
+					{ "name": "minecraft:gravel"		},
+					{ "name": "minecraft:grass"			},
+					{ "name": "minecraft:dirt"			},
+
+					{ "name": "biomesoplenty:grass",	"properties": {"variant" : "sandy"} },
+					{ "name": "biomesoplenty:dirt",		"properties": {"variant" : "sandy"} }
 				],
 				"cluster-size": 1,
 				"see-sky": false,
