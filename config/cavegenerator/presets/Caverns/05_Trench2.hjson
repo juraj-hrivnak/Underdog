@@ -2,7 +2,7 @@
   imports: [
     common_values.hjson::NATURAL_STONE
   ]
-  enabled: false
+  enabled: true
   replaceableBlocks: $NATURAL_STONE
   biomes: {
     names: [
@@ -36,16 +36,16 @@
         lacunarity: -1.5 // [Default: -1.5]
         gain: -0.8 // [Default: -0.8]
         perturb: true
-        perturbAmp: 2 // [Default: 2] You can mess around with this
-        perturbFreq: 0.07 // [Default: 0.07] You can mess around with this
-        jitterY: 0 // You can mess around with this
-        jitterX: 0 // You can mess around with this
-        jitterZ: 0 // You can mess around with this
+        perturbAmp: 5 // [Default: 2] You can mess around with this
+        perturbFreq: 0.1 // [Default: 0.07] You can mess around with this
+        jitterY: -1.8 // You can mess around with this
+        jitterX: 2.7 // You can mess around with this
+        jitterZ: 2.7 // You can mess around with this
         returnType: NoiseLookup
         cellularLookup: CubicFractal
         distFunc: Natural
         invert: false
-        interp: "Linear" // [Default: Linear] - Both Hermite and Quintic works good
+        interp: "Quintic" // [Default: Linear] - Both Hermite and Quintic works good
         fractal: "RigidMulti" // [Default: RigidMulti]
         stretch: 3 // [Default: 3] - Decrease to make floating island | Increase = more steep
       }

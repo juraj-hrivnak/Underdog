@@ -38,7 +38,7 @@
   replaceableBlocks: $NATURAL_STONE
   caverns: {
     ###########################################
-    # Underground Caverns
+    # UNDERGROUND Caverns
     ###########################################
     height: [
       25
