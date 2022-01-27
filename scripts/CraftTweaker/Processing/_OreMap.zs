@@ -1,3 +1,4 @@
+
 #priority 100
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack as IItemStack;
@@ -89,9 +90,9 @@ for oredict, i in richOres {
 for oredict, item in oreMap {
 
     oredict.removeItems(item);
-    
-    for i in item { 
-        rh(i); 
+
+    for i in item {
+        rh(i);
         i.addTooltip(format.red(format.bold("Block should be unused!")));
     }
 
