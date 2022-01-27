@@ -1,11 +1,13 @@
 {
   imports: [
-    layers_default_ceiling.cave::OVERGROUND
-    layers_default_ceiling.cave::UNDERGROUND
-    layers_default_ceiling.cave::underground()
+    layers.hjson::OVERGROUND
+    layers.hjson::UNDERGROUND
+    layers.hjson::tectonics()
   ]
   biomes: {
     names: [
+      minecraft:beaches
+      minecraft:cold_beach
       minecraft:ocean
       minecraft:deep_ocean
       biomesoplenty:gravel_beach
@@ -23,13 +25,13 @@
       // Earth's Crust
       state: minecraft:magma
       height: 0
-      ceiling: $underground(10)
+      ceiling: $tectonics(10)
     }
     {
       // Magma
       state: minecraft:netherrack
       height: 0
-      ceiling: $underground(13)
+      ceiling: $tectonics(13)
       ###########################################
     }
   ]

@@ -1,7 +1,6 @@
 {
   imports: [
-    layers_default_ceiling.cave::OVERGROUND
-    layers_default_ceiling.cave::UNDERGROUND
+    layers.hjson
   ]
   enabled: true
   biomes: {
@@ -19,13 +18,11 @@
   }
   layers: [
     ###########################################
-    # Underground
+    # Ocean
     ###########################################
-    {
-      state: quark:limestone
-      height: [ 0, 60 ]
-      ceiling: $OVERGROUND
-    }
+    # UNDERGROUND
+    #
+    $u_limestone( 0, 60 )
     ###########################################
   ]
 }

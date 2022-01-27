@@ -15,12 +15,11 @@
       height: [ 70, 100 ]
       ceiling: {
         seed: 1
-        dummy: true
         cache: true
         frequency: 0.009
         range: [
           0
-          5
+          20
         ]
       }
       ###########################################
@@ -38,12 +37,11 @@
       height: [ 70, 100 ]
       ceiling: {
         seed: 1
-        dummy: true
         cache: true
         frequency: 0.009
         range: [
           0
-          5
+          20
         ]
       }
       ###########################################

@@ -3,15 +3,17 @@
   blacklistBiomes: true
   biomes: {
     names: [
-      biomesoplenty:volcanic_island
-      minecraft:ocean
+      minecraft:beaches
+      minecraft:cold_beach
       minecraft:deep_ocean
+      minecraft:ocean
       minecraft:river
       minecraft:frozen_river
       biomesoplenty:gravel_beach
       biomesoplenty:white_beach
       biomesoplenty:coral_reef
       biomesoplenty:kelp_forest
+      biomesoplenty:volcanic_island
     ]
     types: [
       SWAMP
@@ -267,7 +269,7 @@
       # Possible options are: `small`, `medium`, `large`, and `giant`.
       size: giant
       length: [ 4, 10 ]
-      chance: 0.167
+      chance: 0.067
       height: [
         40
         70
@@ -275,11 +277,10 @@
       matchers: [
         quark:limestone
       ]
-      # ABSENT BY DEFAULT
-      // region: {
-      //   frequency: 0.025
-      //   threshold: 0.42500000000000004
-      // }
+      region: {
+        frequency: 0.025
+        threshold: 0.425
+      }
     }
   ]
 }

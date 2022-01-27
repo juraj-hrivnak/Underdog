@@ -1,0 +1,31 @@
+{
+  imports: [
+    layers.hjson
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:mesa
+      minecraft:mesa_rock
+      minecraft:mesa_clear_rock
+    ]
+  }
+  layers: [
+    ###########################################
+    # UNDERGROUND
+    #
+    $u_granite( 0, 30 )
+    $u_quartzite( 30, 60 )
+    ###########################################
+    # OVERGROUND
+    #
+    $o_limestone( 60, 90 )
+    {
+      #Jasper
+      state: quark:jasper
+      height: [ 90, 225 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+  ]
+}

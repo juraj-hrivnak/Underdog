@@ -1,36 +1,28 @@
 {
   enabled: true
+  blacklistBiomes: true
   biomes: {
     names: [
       minecraft:ocean
       minecraft:deep_ocean
+      minecraft:beaches
+      minecraft:stone_beach
       biomesoplenty:gravel_beach
       biomesoplenty:white_beach
       biomesoplenty:coral_reef
       biomesoplenty:kelp_forest
     ]
-    types: [
-      BEACH
-    ]
   }
   layers: [
-    ###########################################
-    # UNDERGROUND
-    #
     {
-      state: quark:limestone
-      height: [ 0, 60 ]
+      state: simpledifficulty:purifiedwater
+      height: [ 52, 255 ]
+      matchers: minecraft:water
       ceiling: {
         seed: 1
         dummy: true
         cache: true
-        frequency: 0.009
-        range: [
-          0
-          5
-        ]
       }
     }
-    ###########################################
   ]
 }

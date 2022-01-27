@@ -1,7 +1,6 @@
 {
   imports: [
-    layers_default_ceiling.cave::OVERGROUND
-    layers_default_ceiling.cave::UNDERGROUND
+    layers.hjson
   ]
   enabled: true
   biomes: {
@@ -25,30 +24,15 @@
   }
   layers: [
     ###########################################
-    # Underground
-    ###########################################
-    {
-      state: minecraft:stone:1
-      height: [ 0, 30 ]
-      ceiling: $OVERGROUND
-    }
-    {
-      state: minecraft:stone
-      height: [ 30, 60 ]
-      ceiling: $OVERGROUND
-    }
+    # UNDERGROUND
+    #
+    $u_granite( 0, 30 )
+    $u_quartzite( 30, 60 )
     ###########################################
     # OVERGROUND
+    #
+    $o_limestone( 60, 90 )
+    $o_marble( 90, 225 )
     ###########################################
-    {
-      state: quark:limestone
-      height: [ 60, 90 ]
-      ceiling: $OVERGROUND
-    }
-    {
-      state: quark:marble
-      height: [ 90, 225 ]
-      ceiling: $OVERGROUND
-    }
   ]
 }

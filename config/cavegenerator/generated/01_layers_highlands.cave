@@ -8,14 +8,16 @@
   }
   layers: [
     ###########################################
-    # Underground
-    ###########################################
+    # UNDERGROUND
+    #
     {
       #red granite
       state: minecraft:stone:1
       height: [ 0, 30 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0
@@ -29,6 +31,8 @@
       height: [ 30, 60 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0
@@ -38,13 +42,15 @@
     }
     ###########################################
     # OVERGROUND
-    ###########################################
+    #
     {
       #limestone
       state: quark:limestone
       height: [ 60, 90 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0
@@ -58,6 +64,8 @@
       height: [ 90, 116 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0
@@ -71,6 +79,8 @@
       height: [ 116, 135 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0
@@ -84,6 +94,8 @@
       height: [ 135, 225 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0

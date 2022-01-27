@@ -9,31 +9,48 @@
     ]
   }
   layers: [
-    ###########################################
-    # UNDERGROUND
-    #
-    {
-      #andesite
-      state: minecraft:stone:1
-      height: [ 0, 30 ]
-      ceiling: {
-        seed: 1
-        dummy: true
-        cache: true
-        frequency: 0.007
-        range: [
+    [
+      {
+        state: minecraft:stone:5
+        height: [
           0
-          14
+          30
         ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
       }
-    }
+      {
+        state: divergentunderground:andesite_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          55
+          30
+        ]
+        ceiling: {
+          seed: 1
+          dummy: true
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+    ]
     {
-      #sandstone
+      #Sandstone
       state: minecraft:sandstone
       height: [ 30, 90 ]
       ceiling: {
         seed: 1
-        dummy: true
         cache: true
         frequency: 0.007
         range: [
@@ -46,32 +63,33 @@
     # OVERGROUND
     #
     {
+      #Jasper
       state: quark:jasper
       height: [ 90, 150 ]
       ceiling: {
         seed: 1
-        dummy: true
         cache: true
         frequency: 0.009
         range: [
           0
-          5
+          20
         ]
       }
     }
     {
+      #Sandstone
       state: minecraft:sandstone
       height: [ 150, 225 ]
       ceiling: {
         seed: 1
-        dummy: true
         cache: true
         frequency: 0.009
         range: [
           0
-          5
+          20
         ]
       }
     }
+    ###########################################
   ]
 }

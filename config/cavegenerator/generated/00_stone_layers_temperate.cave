@@ -11,8 +11,8 @@
   }
   layers: [
     ###########################################
-    # Underground
-    ###########################################
+    # UNDERGROUND
+    #
     {
       #red granite
       state: minecraft:stone:1
@@ -40,7 +40,7 @@
     }
     ###########################################
     # OVERGROUND
-    ###########################################
+    #
     {
       #green schist
       state: minecraft:stone

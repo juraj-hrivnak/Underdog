@@ -8,8 +8,8 @@
   }
   layers: [
     ###########################################
-    # Underground
-    ###########################################
+    # UNDERGROUND
+    #
     {
       #red granite
       state: minecraft:stone:1
@@ -38,7 +38,7 @@
     }
     ###########################################
     # OVERGROUND
-    ###########################################
+    #
     {
       #shale sandstone
       state: minecraft:sandstone

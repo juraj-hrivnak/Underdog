@@ -1,7 +1,6 @@
 {
   imports: [
-    layers_default_ceiling.cave::OVERGROUND
-    layers_default_ceiling.cave::UNDERGROUND
+    layers.hjson
   ]
   enabled: true
   biomes: {
@@ -14,32 +13,30 @@
   }
   layers: [
     ###########################################
-    # Underground
-    ###########################################
+    # UNDERGROUND
+    #
+    $u_andesite( 0, 30 )
     {
-      #andesite
-      state: minecraft:stone:1
-      height: [ 0, 30 ]
-      ceiling: $OVERGROUND
-    }
-    {
-      #sandstone
+      #Sandstone
       state: minecraft:sandstone
       height: [ 30, 90 ]
-      ceiling: $OVERGROUND
+      ceiling: $UNDERGROUND
     }
     ###########################################
     # OVERGROUND
-    ###########################################
+    #
     {
+      #Jasper
       state: quark:jasper
       height: [ 90, 150 ]
       ceiling: $OVERGROUND
     }
     {
+      #Sandstone
       state: minecraft:sandstone
       height: [ 150, 225 ]
       ceiling: $OVERGROUND
     }
+    ###########################################
   ]
 }

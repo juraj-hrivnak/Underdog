@@ -1,7 +1,6 @@
 {
   imports: [
-    layers_default_ceiling.cave::OVERGROUND
-    layers_default_ceiling.cave::UNDERGROUND
+    layers.hjson
   ]
   enabled: true
   layers: [
