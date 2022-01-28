@@ -174,7 +174,8 @@
         "{item:\"minecraft:nether_star\",count:1,id:\"item\"}",
         "{count:1,block:\"minecraft:bedrock\",id:\"block\"}",
         "{count:1,block:\"minecraft:obsidian\",id:\"block\"}",
-        "{material:\"minecraft:barrier\",count:1,id:\"material\"}"
+        "{material:\"minecraft:barrier\",count:1,id:\"material\"}",
+        "{item:\"geolosys:cluster\",count:1,id:\"item\"}"
       ],
       "isWhitelist": true
     },
