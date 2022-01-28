@@ -1,5 +1,5 @@
 {
-  // Hills preset by TeksturePako
+  // Hills v2 preset by TeksturePako
   enabled: false
   replaceableBlocks: [ "air", "grass", "water" ]
   blacklistBiomes: true
