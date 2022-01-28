@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "2.0.12",
+  "version": "2.1.0",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -701,7 +701,7 @@
     },
     {
       "projectID": 252818,
-      "fileID": 3575001,
+      "fileID": 3613721,
       "required": true,
       "__meta": {
         "name": "Dynamic Trees"
@@ -985,6 +985,14 @@
       "required": true,
       "__meta": {
         "name": "CraftStudio API"
+      }
+    },
+    {
+      "projectID": 269379,
+      "fileID": 2912448,
+      "required": true,
+      "__meta": {
+        "name": "RedstonePlusPlus"
       }
     },
     {
@@ -1815,7 +1823,7 @@
     },
     {
       "projectID": 321792,
-      "fileID": 3603327,
+      "fileID": 3614190,
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics"
@@ -1865,6 +1873,14 @@
       "required": true,
       "__meta": {
         "name": "Realistic Horse Genetics"
+      }
+    },
+    {
+      "projectID": 341787,
+      "fileID": 3132376,
+      "required": true,
+      "__meta": {
+        "name": "Mineral Tracker"
       }
     },
     {
@@ -1928,7 +1944,7 @@
     },
     {
       "projectID": 360779,
-      "fileID": 3605125,
+      "fileID": 3613814,
       "required": true,
       "__meta": {
         "name": "SimpleDifficulty"
@@ -2073,14 +2089,6 @@
       }
     },
     {
-      "projectID": 405327,
-      "fileID": 3045381,
-      "required": true,
-      "__meta": {
-        "name": "Mixin 0.7-0.8 Compatibility"
-      }
-    },
-    {
       "projectID": 407632,
       "fileID": 3213139,
       "required": true,
@@ -2117,7 +2125,7 @@
     },
     {
       "projectID": 408853,
-      "fileID": 3530681,
+      "fileID": 3608582,
       "required": true,
       "__meta": {
         "name": "Particle Culling"
@@ -2145,7 +2153,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 3575119,
+      "fileID": 3614763,
       "required": true,
       "__meta": {
         "name": "MixinBooter",
@@ -2246,6 +2254,22 @@
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
+      }
+    },
+    {
+      "projectID": 568579,
+      "fileID": 3621563,
+      "required": true,
+      "__meta": {
+        "name": "Ore Visual Detector"
+      }
+    },
+    {
+      "projectID": 570458,
+      "fileID": 3622041,
+      "required": true,
+      "__meta": {
+        "name": "AE2 Unofficial Extended Life"
       }
     }
   ]
