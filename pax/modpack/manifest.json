@@ -798,7 +798,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3537907,
+      "fileID": 3626833,
       "required": true,
       "__meta": {
         "name": "CreativeCore"
@@ -1823,7 +1823,7 @@
     },
     {
       "projectID": 321792,
-      "fileID": 3614190,
+      "fileID": 3619657,
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics"
@@ -1943,14 +1943,6 @@
       }
     },
     {
-      "projectID": 360779,
-      "fileID": 3613814,
-      "required": true,
-      "__meta": {
-        "name": "SimpleDifficulty"
-      }
-    },
-    {
       "projectID": 363102,
       "fileID": 3234684,
       "required": true,
@@ -2026,17 +2018,6 @@
       }
     },
     {
-      "projectID": 385654,
-      "fileID": 3218329,
-      "required": true,
-      "__meta": {
-        "name": "Backported Flora",
-        "dependencies": [
-          248453
-        ]
-      }
-    },
-    {
       "projectID": 386753,
       "fileID": 3098571,
       "required": true,
@@ -2066,7 +2047,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 3598337,
+      "fileID": 3627721,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2153,7 +2134,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 3614763,
+      "fileID": 3635867,
       "required": true,
       "__meta": {
         "name": "MixinBooter",
@@ -2266,10 +2247,29 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3622041,
+      "fileID": 3632074,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
+      }
+    },
+    {
+      "projectID": 574029,
+      "fileID": 3627239,
+      "required": true,
+      "__meta": {
+        "name": "Backported Flora for Underdog",
+        "dependencies": [
+          248453
+        ]
+      }
+    },
+    {
+      "projectID": 574162,
+      "fileID": 3635701,
+      "required": true,
+      "__meta": {
+        "name": "SimpleDifficulty for Underdog"
       }
     }
   ]
