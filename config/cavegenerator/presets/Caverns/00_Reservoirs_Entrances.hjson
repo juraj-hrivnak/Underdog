@@ -63,7 +63,7 @@
   }
   caveBlocks: [
     {
-      states: simpledifficulty:purifiedwater
+      states: minecraft:water
       height: [
         0
         26
@@ -77,7 +77,7 @@
         28
       ]
       depth: 2
-      states: simpledifficulty:purifiedwater
+      states: minecraft:water
     }
   ]
 }

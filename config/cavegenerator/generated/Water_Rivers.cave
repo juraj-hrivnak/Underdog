@@ -1,0 +1,28 @@
+{
+  enabled: true
+  blacklistBiomes: true
+  biomes: {
+    names: [
+      minecraft:ocean
+      minecraft:deep_ocean
+      minecraft:beaches
+      minecraft:stone_beach
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+    ]
+  }
+  layers: [
+    {
+      state: simpledifficulty:purifiedwater
+      height: [ 0, 255 ]
+      matchers: minecraft:water
+      ceiling: {
+        seed: 1
+        dummy: true
+        cache: true
+      }
+    }
+  ]
+}

@@ -113,6 +113,6 @@
       }
     } ]
   caveBlocks: [
-    { states: "minecraft:water", height: [ 0, 62 ] }
+    { states: "simpledifficulty:saltwater", height: [ 0, 62 ] }
   ]
 }
