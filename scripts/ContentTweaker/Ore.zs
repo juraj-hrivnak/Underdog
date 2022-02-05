@@ -9,6 +9,13 @@ import mods.contenttweaker.AxisAlignedBB;
 
 val clusters as string[string] = {
 
+    // Ore Mixture
+    bronze_ore_mixture                   : "ore_mixture_bronze"       ,
+    constantan_ore_mixture               : "ore_mixture_constantan"   ,
+    electrum_ore_mixture                 : "ore_mixture_electrum"     ,
+    invar_ore_mixture                    : "ore_mixture_invar"        ,
+
+
     // Vannila
     berylCluster                        : "beryl_cluster"           ,
     // kimberliteCluster                   : "kimberlite_cluster"      ,

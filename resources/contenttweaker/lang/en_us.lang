@@ -1,10 +1,16 @@
 
+# Ore mixures
+item.contenttweaker.ore_mixture_bronze.name=Bronze Ore Mixture
+item.contenttweaker.ore_mixture_constantan.name=Constantan Ore Mixture
+item.contenttweaker.ore_mixture_electrum.name=Electrum Ore Mixture
+item.contenttweaker.ore_mixture_invar.name=Invar Ore Mixture
+
 # Gravels
-tile.contenttweaker.gravel_andesite.name=Andesite Gravel 
-tile.contenttweaker.gravel_diorite.name=Diorite Gravel  
-tile.contenttweaker.gravel_granite.name=Granite Gravel  
+tile.contenttweaker.gravel_andesite.name=Andesite Gravel
+tile.contenttweaker.gravel_diorite.name=Diorite Gravel
+tile.contenttweaker.gravel_granite.name=Granite Gravel
 tile.contenttweaker.gravel_limestone.name=Limestone Gravel
-tile.contenttweaker.gravel_marble.name=Marble Gravel   
+tile.contenttweaker.gravel_marble.name=Marble Gravel
 
 # Unfired things
 item.contenttweaker.unfired_pot.name=Unfired Pot
@@ -19,7 +25,7 @@ tile.contenttweaker.splitting_wedge.name=Splitting Wedge
 tile.contenttweaker.splitting_wedge_hammered.name=Splitting Wedge
 tile.contenttweaker.splitting_wedge_flint.name=Flint
 
-# Pick Up Block 
+# Pick Up Block
 tile.contenttweaker.pick_up_block.name=Pick Up Block
 
 # Crafting Top
