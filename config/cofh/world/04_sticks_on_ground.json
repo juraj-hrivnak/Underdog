@@ -1,0 +1,60 @@
+{
+	"populate": {
+		"mini_stick_rock": {
+			"distribution": "surface",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "crocodilite:stick"
+					}
+				],
+				"material": [
+					{ "name": "minecraft:air" }
+				],
+				"surface": [
+					{ "name": "minecraft:gravel"		},
+					{ "name": "minecraft:grass"			},
+					{ "name": "minecraft:dirt"			},
+
+					{ "name": "biomesoplenty:grass",	"properties": {"variant" : "sandy"} },
+					{ "name": "biomesoplenty:dirt",		"properties": {"variant" : "sandy"} },
+
+					{ "name": "biomesoplenty:grass",	"properties": {"variant" : "loamy"} },
+					{ "name": "biomesoplenty:dirt",		"properties": {"variant" : "loamy"} },
+
+					{ "name": "biomesoplenty:grass",	"properties": {"variant" : "silty"} },
+					{ "name": "biomesoplenty:dirt",		"properties": {"variant" : "silty"} },
+
+					{ "name": "biomesoplenty:grass",	"properties": {"variant" : "daisy"} }
+				],
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": true
+			},
+			"cluster-count": 25,
+			"min-height": 50,
+			"max-height": 256,
+			"low-terrain": true,
+			"retrogen": true,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"SNOWY"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
