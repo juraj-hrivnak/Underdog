@@ -1,6 +1,6 @@
 {
   imports: common_values.hjson::NATURAL_STONE
-  enabled: true
+  enabled: false
   // replaceableBlocks: [ "air", "grass", "water", "simpledifficulty:purifiedwater" ]
   replaceableBlocks: $NATURAL_STONE
   blacklistBiomes: true

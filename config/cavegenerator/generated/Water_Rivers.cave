@@ -16,7 +16,7 @@
   layers: [
     {
       state: simpledifficulty:purifiedwater
-      height: [ 0, 255 ]
+      height: [ 30, 255 ]
       matchers: minecraft:water
       ceiling: {
         seed: 1
