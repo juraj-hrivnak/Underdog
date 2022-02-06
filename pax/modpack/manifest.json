@@ -2143,7 +2143,7 @@
     },
     {
       "projectID": 438294,
-      "fileID": 3627341,
+      "fileID": 3638843,
       "required": true,
       "__meta": {
         "name": "Crocodilite",
@@ -2254,6 +2254,17 @@
       "required": true,
       "__meta": {
         "name": "SimpleDifficulty for Underdog"
+      }
+    },
+    {
+      "projectID": 575972,
+      "fileID": 3636578,
+      "required": true,
+      "__meta": {
+        "name": "Salt Water Patcher",
+        "dependencies": [
+          419286
+        ]
       }
     }
   ]
