@@ -10,18 +10,20 @@
   }
   layers: [
     ###########################################
-    # Underground
-    ###########################################
+    # UNDERGROUND
+    #
     {
       #andesite
       state: minecraft:stone:1
       height: [ 0, 30 ]
       ceiling: {
         seed: 1
-        frequency: 0.009
+        dummy: true
+        cache: true
+        frequency: 0.007
         range: [
           0
-          5
+          14
         ]
       }
     }
@@ -31,21 +33,25 @@
       height: [ 30, 90 ]
       ceiling: {
         seed: 1
-        frequency: 0.009
+        dummy: true
+        cache: true
+        frequency: 0.007
         range: [
           0
-          5
+          14
         ]
       }
     }
     ###########################################
     # OVERGROUND
-    ###########################################
+    #
     {
       state: quark:jasper
       height: [ 90, 150 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0
@@ -58,6 +64,8 @@
       height: [ 150, 225 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0

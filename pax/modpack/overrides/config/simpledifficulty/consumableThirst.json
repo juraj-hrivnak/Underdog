@@ -919,6 +919,16 @@
       "thirstyChance": 0.0
     }
   ],
+  "minecraft:water_bucket": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 2,
+      "saturation": 0.0,
+      "thirstyChance": 100.0
+    }
+  ],
   "harvestcraft:lemonsmoothieitem": [
     {
       "identity": {

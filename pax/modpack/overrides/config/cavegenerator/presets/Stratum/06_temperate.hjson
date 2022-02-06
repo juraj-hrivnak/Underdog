@@ -1,0 +1,27 @@
+# temperate forest-like biomes like what can be found in national parks in the US
+{
+  imports: [
+    layers.hjson
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:grassland
+      biomesoplenty:temperate_rainforest
+      biomesoplenty:redwood_forest
+      biomesoplenty:seasonal_forest
+    ]
+  }
+  layers: [
+    ###########################################
+    # UNDERGROUND
+    #
+    $u_granite( 0, 30 )
+    $u_andesite( 30, 60 )
+    ###########################################
+    # OVERGROUND
+    #
+    $o_quartzite( 60, 204 )
+    ###########################################
+  ]
+}

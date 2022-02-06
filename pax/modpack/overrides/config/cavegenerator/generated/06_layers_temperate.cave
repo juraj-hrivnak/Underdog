@@ -11,14 +11,16 @@
   }
   layers: [
     ###########################################
-    # Underground
-    ###########################################
+    # UNDERGROUND
+    #
     {
       #red granite
       state: minecraft:stone:1
       height: [ 0, 30 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0
@@ -31,6 +33,8 @@
       height: [ 30, 60 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0
@@ -40,13 +44,15 @@
     }
     ###########################################
     # OVERGROUND
-    ###########################################
+    #
     {
       #green schist
       state: minecraft:stone
       height: [ 60, 204 ]
       ceiling: {
         seed: 1
+        dummy: true
+        cache: true
         frequency: 0.009
         range: [
           0

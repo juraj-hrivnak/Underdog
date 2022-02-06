@@ -1,0 +1,27 @@
+{
+  imports: [
+    layers.hjson
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:land_of_lakes
+      biomesoplenty:shield
+      biomesoplenty:tropical_island
+      biomesoplenty:volcanic_island
+    ]
+  }
+  layers: [
+    ###########################################
+    # UNDERGROUND
+    #
+    $u_granite( 0, 30 )
+    $u_andesite( 30, 60 )
+    ###########################################
+    # OVERGROUND
+    #
+    $o_granite( 60, 90 )
+    $o_andesite( 90, 225 )
+    ###########################################
+  ]
+}

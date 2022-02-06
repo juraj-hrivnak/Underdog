@@ -2,7 +2,7 @@
   imports: [
     common_values.hjson::NATURAL_STONE
   ]
-  enabled: true
+  enabled: false
   replaceableBlocks: $NATURAL_STONE
   biomes: {
     names: [
@@ -51,38 +51,6 @@
       }
     } ]
   caveBlocks: [
-    { states: "minecraft:water", height: [ 0, 62 ] }
+    { states: "simpledifficulty:saltwater", height: [ 0, 62 ] }
   ]
-  burrows: {
-    height: [ 0, 62 ]
-    offset: {
-      frequency: 0.1
-      dummy: true
-      dummyOutput: 15
-    }
-    map: {
-      perturb: true
-      perturbAmp: 0.5
-      perturbFreq: 2.5
-      frequency: 0.005
-    }
-    replaceableBlocks: minecraft:netherrack
-    caveBlocks: {
-      states: minecraft:netherrack
-      height: [ 0, 62 ]
-    }
-    floor: {
-      seed: 1
-      dummy: true
-      cache: true
-    }
-    ceiling: {
-      seed: 1
-      dummy: true
-      dummyOutput: 20
-      cache: true
-      frequency: 0.001
-      range: [ 90, 0 ]
-    }
-  }
 }

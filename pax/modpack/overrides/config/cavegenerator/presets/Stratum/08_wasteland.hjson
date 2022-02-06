@@ -1,0 +1,25 @@
+{
+  imports: [
+    layers.hjson
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:wasteland
+    ]
+  }
+  layers: [
+    ###########################################
+    # UNDERGROUND
+    #
+    $u_granite( 0, 30 )
+    {
+      state: biomesoplenty:dried_sand
+      height: [ 30, 225 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+    # OVERGROUND
+    #
+  ]
+}

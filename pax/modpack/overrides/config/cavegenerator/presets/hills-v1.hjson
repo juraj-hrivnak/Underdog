@@ -1,5 +1,5 @@
 {
-  // Hills preset by TeksturePako
+  // Hills v1 preset by TeksturePako
   enabled: false
   replaceableBlocks: [ "air", "grass", "water" ]
   biomes: {
@@ -18,14 +18,6 @@
         cache: true
         frequency: 0.02
         range: [ -30, 30 ]
-      }
-      walls: {
-        frequency: 0.02
-        range: [ 9, 15 ]
-      }
-      wallOffset: {
-        frequency: 0.05
-        range: [ 0, 255 ]
       }
       wallCurveRatio: 1
       wallInterpolation: true

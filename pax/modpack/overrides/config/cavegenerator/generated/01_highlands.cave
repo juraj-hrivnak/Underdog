@@ -1,0 +1,203 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:highland
+      biomesoplenty:overgrown_cliffs
+    ]
+  }
+  layers: [
+    [
+      {
+        state: minecraft:stone:1
+        height: [
+          0
+          30
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+      {
+        state: divergentunderground:granite_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          55
+          30
+        ]
+        ceiling: {
+          seed: 1
+          dummy: true
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+    ]
+    [
+      {
+        state: minecraft:stone:3
+        height: [
+          30
+          60
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+      {
+        state: divergentunderground:diorite_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          55
+          60
+        ]
+        ceiling: {
+          seed: 1
+          dummy: true
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+    ]
+    [
+      {
+        state: quark:limestone
+        height: [
+          60
+          90
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+      {
+        state: divergentunderground:quark_limestone_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          60
+          90
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+    ]
+    {
+      #Slate
+      state: quark:slate
+      height: [ 90, 116 ]
+      ceiling: {
+        seed: 1
+        cache: true
+        frequency: 0.009
+        range: [
+          0
+          20
+        ]
+      }
+    }
+    [
+      {
+        state: minecraft:stone
+        height: [
+          116
+          135
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+      {
+        state: minecraft:cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          116
+          135
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+    ]
+    [
+      {
+        state: minecraft:stone:3
+        height: [
+          135
+          225
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+      {
+        state: divergentunderground:diorite_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          135
+          225
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+    ]
+    ###########################################
+  ]
+}

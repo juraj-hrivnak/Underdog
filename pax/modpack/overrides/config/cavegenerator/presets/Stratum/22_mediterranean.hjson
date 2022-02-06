@@ -1,0 +1,26 @@
+{
+  imports: [
+    layers.hjson
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:chaparral
+    ]
+  }
+  layers: [
+    ###########################################
+    # Mediterranean
+    ###########################################
+    # UNDERGROUND
+    #
+    $u_diorite( 0, 30 )
+    $u_limestone( 30, 60 )
+    ###########################################
+    # OVERGROUND
+    #
+    $o_marble( 65, 90 )
+    $o_andesite( 90, 120 )
+    ###########################################
+  ]
+}

@@ -1,6 +1,5 @@
 {
-  // Hills preset by TeksturePako
-  enabled: true
+  enabled: false
   replaceableBlocks: [
     minecraft:gravel
     minecraft:clay
@@ -67,10 +66,17 @@
     minecraft:stained_hardened_clay:14
     minecraft:stained_hardened_clay:15
   ]
+  blacklistBiomes: true
   biomes: {
     names: [
       minecraft:ocean
       minecraft:deep_ocean
+      minecraft:beaches
+      minecraft:stone_beach
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
     ]
   }
   caverns: [ {
@@ -89,29 +95,39 @@
       height: [ 5, 100 ]
       generators: {
         seed: 1
-        threshold: 0.6 // [Default: 0.8]
-        frequency: -0.006 // [Default: -0.006]
-        offset: -30 // [Default: -30]
+        threshold: 0.14 // [Default: 0.8]
+        frequency: -0.013 // [Default: -0.006]
+        offset: -60 // [Default: -30] - Lower = higher
         type: "ValueFractal" // [Default: ValueFractal]
-        octaves: 4 // [Default: 4]
-        lacunarity: -1.5 // [Default: -1.5]
+        octaves: 6 // [Default: 4]
+        lacunarity: -1.18 // [Default: -1.5]
         gain: -0.8 // [Default: -0.8]
         perturb: true
-        perturbAmp: 2 // [Default: 2] You can mess around with this
-        perturbFreq: 0.07 // [Default: 0.07] You can mess around with this
-        jitterY: 0 // You can mess around with this
-        jitterX: 0 // You can mess around with this
-        jitterZ: 0 // You can mess around with this
+        perturbAmp: 5 // [Default: 2] You can mess around with this
+        perturbFreq: 0.1 // [Default: 0.07] You can mess around with this
+        jitterY: -1.8 // You can mess around with this
+        jitterX: 2.7 // You can mess around with this
+        jitterZ: 2.7 // You can mess around with this
         returnType: NoiseLookup
         cellularLookup: CubicFractal
         distFunc: Natural
         invert: false
-        interp: "Linear" // [Default: Linear] - Both Hermite and Quintic works good
+        interp: "Quintic" // [Default: Linear] - Both Hermite and Quintic works good
         fractal: "RigidMulti" // [Default: RigidMulti]
-        stretch: 3 // [Default: 3] - Decrease to make floating island | Increase = more steep
+        stretch: 2.4 // [Default: 3] - Decrease to make floating island | Increase = more steep
       }
     } ]
-  caveBlocks: [
-    { states: "minecraft:water", height: [ 0, 62 ] }
-  ]
+  // caveBlocks: [
+  //   { states: "minecraft:grass", height: [ 0, 240 ] }
+  // ]
+  // wallDecorators: [
+  //   {
+  //     states: stone
+  //     directions: down
+  //     matchers: minecraft:grass
+  //     height: [ 0, 240 ]
+  //     placement: EMBED
+  //     integrity: 1
+  //   }
+  // ]
 }

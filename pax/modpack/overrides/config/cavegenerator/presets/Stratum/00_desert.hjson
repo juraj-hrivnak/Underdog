@@ -1,0 +1,42 @@
+{
+  imports: [
+    layers.hjson
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:desert
+      minecraft:desert_hills
+      minecraft:mutated_desert
+      biomesoplenty:oasis
+    ]
+  }
+  layers: [
+    ###########################################
+    # UNDERGROUND
+    #
+    $u_andesite( 0, 30 )
+    {
+      #Sandstone
+      state: minecraft:sandstone
+      height: [ 30, 90 ]
+      ceiling: $UNDERGROUND
+    }
+    ###########################################
+    # OVERGROUND
+    #
+    {
+      #Jasper
+      state: quark:jasper
+      height: [ 90, 150 ]
+      ceiling: $OVERGROUND
+    }
+    {
+      #Sandstone
+      state: minecraft:sandstone
+      height: [ 150, 225 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+  ]
+}

@@ -10,16 +10,23 @@
 					}
 				],
 				"material": [
-					{
-						"name": "minecraft:air"
-					}
+					{ "name": "minecraft:air" }
 				],
 				"surface": [
-					"minecraft:gravel",
-					"minecraft:grass",
-					"minecraft:dirt",
-					"biomesoplenty:grass",
-					"biomesoplenty:dirt"
+					{ "name": "minecraft:gravel"		},
+					{ "name": "minecraft:grass"			},
+					{ "name": "minecraft:dirt"			},
+
+					{ "name": "biomesoplenty:grass",	"properties": {"variant" : "sandy"} },
+					{ "name": "biomesoplenty:dirt",		"properties": {"variant" : "sandy"} },
+
+					{ "name": "biomesoplenty:grass",	"properties": {"variant" : "loamy"} },
+					{ "name": "biomesoplenty:dirt",		"properties": {"variant" : "loamy"} },
+
+					{ "name": "biomesoplenty:grass",	"properties": {"variant" : "silty"} },
+					{ "name": "biomesoplenty:dirt",		"properties": {"variant" : "silty"} },
+
+					{ "name": "biomesoplenty:grass",	"properties": {"variant" : "daisy"} }
 				],
 				"cluster-size": 1,
 				"see-sky": false,

@@ -1,0 +1,31 @@
+{
+  imports: [
+    layers.hjson
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:ice_flats
+      minecraft:ice_mountains
+      minecraft:frozen_ocean
+      minecraft:frozen_river
+      minecraft:mutated_ice_flats
+      biomesoplenty:snowy_tundra
+      biomesoplenty:glacier
+      biomesoplenty:tundra
+      biomesoplenty:cold_desert
+    ]
+  }
+  layers: [
+    ###########################################
+    # UNDERGROUND
+    #
+    $u_granite( 0, 30 )
+    $u_quartzite( 30, 60 )
+    ###########################################
+    # OVERGROUND
+    #
+    $o_marble( 60, 225 )
+    ###########################################
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      minecraft:ocean
+      minecraft:deep_ocean
+      biomesoplenty:gravel_beach
+      biomesoplenty:white_beach
+      biomesoplenty:coral_reef
+      biomesoplenty:kelp_forest
+    ]
+    types: [
+      BEACH
+    ]
+  }
+  layers: [
+    [
+      {
+        state: quark:limestone
+        height: [
+          0
+          60
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+      {
+        state: divergentunderground:quark_limestone_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          55
+          60
+        ]
+        ceiling: {
+          seed: 1
+          dummy: true
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+    ]
+    ###########################################
+  ]
+}

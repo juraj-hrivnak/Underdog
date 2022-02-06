@@ -26,7 +26,7 @@ import mods.dropt.Dropt;
 // var kimberlite  = <geolosys:ore_vanilla:5>;
 // var beryl       = <geolosys:ore_vanilla:6>;
 
-val exploding as IItemStack[][string] = {
+val blasting as IItemStack[][string] = {
 
 //  IIngredient input,             IItemStack output,                          IItemStack secondaryOutput
     "geolosys:ore"              : [<immersiveengineering:metal:18>        , null                              ],
@@ -51,7 +51,7 @@ val exploding as IItemStack[][string] = {
 
 };
 
-for input, output in exploding {
+for input, output in blasting {
 
     if isNull(output[1]) {
         Dropt.list("blast_" + input).add(Dropt.rule()

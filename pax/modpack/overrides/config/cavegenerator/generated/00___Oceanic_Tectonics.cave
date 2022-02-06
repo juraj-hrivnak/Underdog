@@ -1,6 +1,8 @@
 {
   biomes: {
     names: [
+      minecraft:beaches
+      minecraft:cold_beach
       minecraft:ocean
       minecraft:deep_ocean
       biomesoplenty:gravel_beach
@@ -20,6 +22,7 @@
       height: 0
       ceiling: {
         seed: 1
+        cache: true
         frequency: 0.006
         range: [
           10
@@ -33,6 +36,7 @@
       height: 0
       ceiling: {
         seed: 1
+        cache: true
         frequency: 0.006
         range: [
           13

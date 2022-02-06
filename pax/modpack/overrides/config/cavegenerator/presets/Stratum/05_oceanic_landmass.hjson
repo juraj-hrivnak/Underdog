@@ -1,0 +1,29 @@
+{
+  imports: [
+    layers.hjson
+  ]
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:outback
+      biomesoplenty:brushland
+    ]
+  }
+  layers: [
+    ###########################################
+    # UNDERGROUND
+    #
+    $u_granite( 0, 30 )
+    $u_marble( 30, 60 )
+    ###########################################
+    # OVERGROUND
+    #
+    {
+      #Sandstone
+      state: minecraft:sandstone
+      height: [ 60, 225 ]
+      ceiling: $OVERGROUND
+    }
+    ###########################################
+  ]
+}

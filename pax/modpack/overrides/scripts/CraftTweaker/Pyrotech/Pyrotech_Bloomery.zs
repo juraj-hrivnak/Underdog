@@ -56,16 +56,22 @@ for output, input in commonOres {
 
 val richOres as IIngredient[IItemStack] = {
 
-    <minecraft:iron_ingot>          : <ore:richOreIron>,
-    <minecraft:gold_ingot>          : <ore:richOreGold>,
+    <minecraft:iron_ingot>          : <ore:richOreIron>         ,
+    <minecraft:gold_ingot>          : <ore:richOreGold>         ,
     <geolosys:ingot>                : <ore:richOreCopper> | <ore:richOreMKCopper>,
-    <geolosys:ingot:4>              : <ore:richOreAluminum>,
-    <geolosys:ingot:3>              : <ore:richOreLead>,
-    <geolosys:ingot:2>              : <ore:richOreSilver>,
-    <geolosys:ingot:5>              : <ore:richOreNickel>,
-    <immersiveengineering:metal:5>  : <ore:richOreUranium>,
-    <mekanism:ingot:1>              : <ore:richOreMKOsmium>,
-    <geolosys:ingot:1>              : <ore:richOreMKTin>   
+    <geolosys:ingot:4>              : <ore:richOreAluminum>     ,
+    <geolosys:ingot:3>              : <ore:richOreLead>         ,
+    <geolosys:ingot:2>              : <ore:richOreSilver>       ,
+    <geolosys:ingot:5>              : <ore:richOreNickel>       ,
+    <immersiveengineering:metal:5>  : <ore:richOreUranium>      ,
+    <mekanism:ingot:1>              : <ore:richOreMKOsmium>     ,
+    <geolosys:ingot:1>              : <ore:richOreMKTin>        ,
+
+    // // Ore Mixture
+    // <mekanism:ingot:2>              : <ore:mixtureBronze>       ,
+    // <immersiveengineering:metal:6>  : <ore:mixtureConstantan>   ,
+    // <immersiveengineering:metal:7>  : <ore:mixtureElectrum>     ,
+    // <plustic:invaringot>            : <ore:mixtureInvar>        ,
 
 };
 
