@@ -7,9 +7,10 @@ https://www.patreon.com/teksturepako
 The best place to set up a server to play the Underdog modpack is at: \
 https://bisecthosting.com/underdog
 
+- `❗` **Warning** in the next update `Charset Storage: Chests` mod will be removed! Move all your items from these chests to a different!
 
 ## What's new?
-- Added Salt & Fresh water! \
+- Added Salt & Fresh water! _Requires new chunks to be generated._ \
 Salt Water gives you a thirsty effect and decreases your thirst. \
 Regular Water (found in rivers) has a 20% chance to give you parasites. \
 Spring Water (found in reservoirs) has no bad effects. \
