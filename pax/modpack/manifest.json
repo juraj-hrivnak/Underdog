@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "2.1.1",
+  "version": "2.1.12",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -1823,7 +1823,7 @@
     },
     {
       "projectID": 321792,
-      "fileID": 3640111,
+      "fileID": 3637594,
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics"
@@ -2126,7 +2126,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 3614763,
+      "fileID": 3642000,
       "required": true,
       "__meta": {
         "name": "MixinBooter",
