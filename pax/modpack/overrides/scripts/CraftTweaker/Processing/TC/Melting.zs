@@ -10,7 +10,7 @@ TCMelting.addRecipe(<liquid:iron> * 18, <contenttweaker:nail_iron>);
 <liquid:liquidoxygen>.definition.temperature = 1538;
 mods.tconstruct.Fuel.registerFuel(<liquid:liquidoxygen>, 300);
 
-// Ore Mixture
+// Ore Mixtures
 TCMelting.addRecipe(<liquid:bronze> * 1152, <ore:mixtureBronze>);
 TCMelting.addRecipe(<liquid:constantan> * 576, <ore:mixtureConstantan>);
 TCMelting.addRecipe(<liquid:electrum> * 576, <ore:mixtureElectrum>);

@@ -11,7 +11,7 @@ BrickCrucible.removeAllRecipes();
 
 val liquidsAndOres as ILiquidStack[IOreDictEntry] = {
 
-    // Ore Mixture
+    // Ore Mixtures
     <ore:mixtureBronze>     : <liquid:bronze>         * 1152  ,
     <ore:mixtureConstantan> : <liquid:constantan>     * 576   ,
     <ore:mixtureElectrum>   : <liquid:electrum>       * 576   ,

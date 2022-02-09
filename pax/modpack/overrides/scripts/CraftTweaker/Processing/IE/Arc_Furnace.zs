@@ -25,7 +25,7 @@ val commonOres as IIngredient[][IItemStack] = {
     <tconstruct:ingots>             * 2 : [<ore:oreCobalt>   , <pyrotech:generated_slag_cobalt>   ],
     <tconstruct:ingots:1>           * 2 : [<ore:oreArdite>   , <pyrotech:generated_slag_ardite>   ],
 
-    // Ore Mixture
+    // Ore Mixtures
     <mekanism:ingot:2>              * 8 : [<ore:mixtureBronze>       , <pyrotech:slag>            ],
     <immersiveengineering:metal:6>  * 4 : [<ore:mixtureConstantan>   , <pyrotech:slag>            ],
     <immersiveengineering:metal:7>  * 4 : [<ore:mixtureElectrum>     , <pyrotech:slag>            ],

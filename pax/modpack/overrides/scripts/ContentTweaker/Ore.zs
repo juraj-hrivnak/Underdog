@@ -7,29 +7,24 @@ import mods.contenttweaker.Block;
 import mods.contenttweaker.SoundType;
 import mods.contenttweaker.AxisAlignedBB;
 
-val clusters as string[string] = {
 
-    // Ore Mixture
-    bronze_ore_mixture                   : "ore_mixture_bronze"       ,
-    constantan_ore_mixture               : "ore_mixture_constantan"   ,
-    electrum_ore_mixture                 : "ore_mixture_electrum"     ,
-    invar_ore_mixture                    : "ore_mixture_invar"        ,
+// Ore Mixtures
+VanillaFactory.createItem("ore_mixture_bronze").register();
+VanillaFactory.createItem("ore_mixture_constantan").register();
+VanillaFactory.createItem("ore_mixture_electrum").register();
+VanillaFactory.createItem("ore_mixture_invar").register();
 
+// Clusters
+VanillaFactory.createItem("beryl_cluster").register();
+    // "kimberlite_cluster"
+    // "lapis_cluster"
 
-    // Vannila
-    berylCluster                        : "beryl_cluster"           ,
-    // kimberliteCluster                   : "kimberlite_cluster"      ,
+// NuclearCraft
+VanillaFactory.createItem("thorium_cluster").register();
+VanillaFactory.createItem("boron_cluster").register();
+VanillaFactory.createItem("lithium_cluster").register();
+VanillaFactory.createItem("magnesium_cluster").register();
 
-    // lapisCluster                        : "lapis_cluster"           ,
-
-
-    // NuclearCraft
-    thoriumCluster                      : "thorium_cluster"         ,
-    boronCluster                        : "boron_cluster"           ,
-    lithiumCluster                      : "lithium_cluster"         ,
-    magnesiumCluster                    : "magnesium_cluster"       ,
-
-};
 
 val blocks as string[string] = {
 
@@ -38,7 +33,7 @@ val blocks as string[string] = {
     sassolite                           : "sassolite"               ,
     borax                               : "borax"                   ,
     lepidolite                          : "lepidolite"              ,
-    magnesite                           : "magnesite"               ,
+    magnesite                           : "magnesite"
 
 };
 
@@ -49,14 +44,9 @@ val samples as string[string] = {
     sassolite_sample                    : "sassolite_sample"        ,
     borax_sample                        : "borax_sample"            ,
     lepidolite_sample                   : "lepidolite_sample"       ,
-    magnesite_sample                    : "magnesite_sample"        ,
+    magnesite_sample                    : "magnesite_sample"
 
 };
-
-for x, y in clusters {
-    var x = VanillaFactory.createItem(y);
-    x.register();
-}
 
 for x, y in blocks {
     var x = VanillaFactory.createBlock(y, <blockmaterial:rock>);
