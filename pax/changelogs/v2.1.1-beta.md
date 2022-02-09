@@ -8,9 +8,12 @@ The best place to set up a server to play the Underdog modpack is at: \
 https://bisecthosting.com/underdog
 
 ## What's new?
--
+- Fixed crash at startup.
 
 ## Mod Changes:
 ```markdown
-
+Updated:
+- Dropt
+- Aqua Acrobatics
+- MixinBooter
 ```
