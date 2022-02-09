@@ -1,16 +1,13 @@
 # Underdog Changelog
 **Using** forge-14.23.5.2860
 
-If you like Underdog and you would like to support the project financially, consider donating to my Patreon: \
-https://www.patreon.com/teksturepako
-
-The best place to set up a server to play the Underdog modpack is at: \
-https://bisecthosting.com/underdog
+- `❗` **Warning** in the next update `Charset Storage: Chests` mod will be removed! Move all your items from these chests to a different!
 
 ## What's new?
--
+- Fixed crash at joining the world.
 
 ## Mod Changes:
 ```markdown
-
+Downgraded:
+- MixinBooter
 ```
