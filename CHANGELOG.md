@@ -1,14 +1,16 @@
 # Underdog Changelog
 **Using** forge-14.23.5.2860
 
-- `❗` **Warning** in the next update `Charset Storage: Chests` mod will be removed! Move all your items from these chests to a different!
+If you like Underdog and you would like to support the project financially, consider donating to my Patreon: \
+https://www.patreon.com/teksturepako
+
+The best place to set up a server to play the Underdog modpack is at: \
+https://bisecthosting.com/underdog
 
 ## What's new?
-- Fixed crash when entering the world. (Aqua Acrobatics)
-- Fixed script errors.
+-
 
 ## Mod Changes:
 ```markdown
-Downgraded:
-- Aqua Acrobatics
+
 ```
