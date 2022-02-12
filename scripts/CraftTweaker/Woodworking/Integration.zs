@@ -167,7 +167,7 @@ for lumber, x in woodworking {
      [ironNail, rawLumber, rawLumber ]],
     null, function(out,cInfo,player) {
         player.xp += 1;
-        Commands.call("playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z, player, world);
+        Commands.call("playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z, player, player.world);
     }, true);
 
     recipes.addShapedMirrored("_iron_nail_2x_" + planks.displayName + planks.definition.owner, planks * 2,
