@@ -9,6 +9,7 @@ import mods.mekanism.sawmill as MKSawmill;
 import mods.pyrotech.StoneSawmill;
 import mods.pyrotech.BrickSawmill;
 import mods.pyrotech.Chopping;
+import mods.contenttweaker.Commands;
 
 val woodworking as IItemStack[][IItemStack] = {
 
@@ -166,7 +167,7 @@ for lumber, x in woodworking {
      [ironNail, rawLumber, rawLumber ]],
     null, function(out,cInfo,player) {
         player.xp += 1;
-        server.commandManager.executeCommand(server, "/playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z);
+        Commands.call("playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z, player, world);
     }, true);
 
     recipes.addShapedMirrored("_iron_nail_2x_" + planks.displayName + planks.definition.owner, planks * 2,
