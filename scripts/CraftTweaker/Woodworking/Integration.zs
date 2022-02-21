@@ -178,7 +178,31 @@ for lumber, x in woodworking {
     MKSawmill.addRecipe(planks, lumber * 2);
     StoneSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 200, sawmillBlades, 0);
     BrickSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 20, sawmillBlades, 0);
+
+    // Chests recipes
+    recipes.addShaped("_chest_" + planks.displayName + planks.definition.owner, <charset:chest>.withTag({wood: planks.definition.owner + ":" + planks.definition.name + ":" + planks.metadata}),
+    [[lumber, lumber, lumber ],
+     [lumber, null  , lumber ],
+     [lumber, lumber, lumber ]]);
 }
+
+
+// recipes.addShaped("Chests", <charset:chest>,
+//    [[<tconstruct:pattern>],
+//     [<ore:plankWood>.only(function(item) {return item.isItemBlock;})
+//       .reuse()
+//       .marked("source")]],
+//   function(out, ins, cInfo) {
+//     return out.withTag({
+//       "wood":{
+//         id: ins.source.definition.id,
+//         Count: 1 as byte,
+//         Damage: ins.source.damage
+//       }
+//     });
+//   }, null
+// );
+
 
 Chopping.addRecipe("chopping_nail", woodenNail, <ore:hardwoodLumber>, [1], [4]);
 Chopping.addRecipe("chopping_sticks", <minecraft:stick>, <ore:firewood>, [1], [4]);
@@ -186,11 +210,15 @@ Chopping.addRecipe("chopping_sticks", <minecraft:stick>, <ore:firewood>, [1], [4
 // 1 log => 8 lumber = 16 sticks
 // 1 log => 6 firewood = 24 sticks
 
-recipes.addShaped("sticks", <minecraft:stick> * 4,
+recipes.addShaped("Sticks", <minecraft:stick> * 4,
     [[<ore:lumber>],
      [<ore:lumber>]]);
 
-recipes.addShaped("table_top", <contenttweaker:table_top>,
+recipes.addShaped("Splitting Wedge", <contenttweaker:splitting_wedge>,
+    [[<ore:ingotSteel> ],
+     [<ore:nuggetSteel>]]);
+
+recipes.addShapedMirrored("Table Top", <contenttweaker:table_top>,
     [[<ore:rocks>   , <pyrotech:material:10>],
      [<ore:lumber>  , <ore:lumber>          ]]);
 
