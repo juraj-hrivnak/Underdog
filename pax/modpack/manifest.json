@@ -2143,7 +2143,7 @@
     },
     {
       "projectID": 438294,
-      "fileID": 3638843,
+      "fileID": 3656438,
       "required": true,
       "__meta": {
         "name": "Crocodilite",
@@ -2219,14 +2219,6 @@
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
-      }
-    },
-    {
-      "projectID": 568579,
-      "fileID": 3621563,
-      "required": true,
-      "__meta": {
-        "name": "Ore Visual Detector"
       }
     },
     {
