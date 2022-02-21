@@ -2,6 +2,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.jei.JEI.removeAndHide as rh;
 import mods.advancedmortars.Mortar;
 
 
@@ -75,7 +76,7 @@ val paste as string[][IIngredient] = {
 
 for input, output in paste {
 
-    Mortar.addRecipe(["iron", "stone"], <cuisine:ingredient>.withTag({
+    Mortar.addRecipe(["stone"], <cuisine:ingredient>.withTag({
         characteristics: [] as int[],
         effects: output[1],
         material: output[0],
@@ -84,3 +85,14 @@ for input, output in paste {
     }), 2, [input]);
 
 }
+
+
+val mortars = [
+    <advancedmortars:mortar>,
+    <advancedmortars:mortar:2>,
+    <advancedmortars:mortar:3>,
+    <advancedmortars:mortar:4>,
+    <advancedmortars:mortar:5>,
+    <advancedmortars:mortar:6>
+] as IItemStack[];
+for i in mortars { rh(i); }

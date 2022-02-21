@@ -1,9 +1,9 @@
 
 # Ore mixures
-item.contenttweaker.ore_mixture_bronze.name=Bronze Ore Mixture
-item.contenttweaker.ore_mixture_constantan.name=Constantan Ore Mixture
-item.contenttweaker.ore_mixture_electrum.name=Electrum Ore Mixture
-item.contenttweaker.ore_mixture_invar.name=Invar Ore Mixture
+item.contenttweaker.ore_mixture_bronze.name=Bronze Mixture
+item.contenttweaker.ore_mixture_constantan.name=Constantan Mixture
+item.contenttweaker.ore_mixture_electrum.name=Electrum Mixture
+item.contenttweaker.ore_mixture_invar.name=Invar Mixture
 
 # Gravels
 tile.contenttweaker.gravel_andesite.name=Andesite Gravel

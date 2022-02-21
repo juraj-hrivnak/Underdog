@@ -1,5 +1,12 @@
 {
   NATURAL_STONE: [
+    pyrotech:rock_grass
+    pyrotech:rock:4
+    pyrotech:rock:5
+    //
+    simpledifficulty:saltwater
+    minecraft:water
+    simpledifficulty:purifiedwater
     //
     //Gravel, Clay, Ash
     minecraft:gravel

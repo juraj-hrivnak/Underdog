@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient;
 // import mods.jei.JEI.hide as h;
 
 val lumbersAndStencilTables = {
-    
+
     // Vanilla
     <contenttweaker:lumber_vanilla_oak> : <tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}),
     <contenttweaker:lumber_vanilla_spruce> : <tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 1 as short}}),
@@ -66,7 +66,7 @@ val lumbersAndStencilTables = {
     <contenttweaker:lumber_planks.padauk> : <tconstruct:tooltables:1>.withTag({textureBlock: {id: "forestry:planks.1", Count: 1 as byte, Damage: 10 as short}}),
     <contenttweaker:lumber_planks.cocobolo> : <tconstruct:tooltables:1>.withTag({textureBlock: {id: "forestry:planks.1", Count: 1 as byte, Damage: 11 as short}}),
     <contenttweaker:lumber_planks.zebrawood> : <tconstruct:tooltables:1>.withTag({textureBlock: {id: "forestry:planks.1", Count: 1 as byte, Damage: 12 as short}})
-    
+
 } as IItemStack[IItemStack];
 
 recipes.remove(<tconstruct:tooltables:1>);
@@ -76,11 +76,11 @@ val ironNail = <contenttweaker:nail_iron>;
 
 for lumber, stencilTable in lumbersAndStencilTables {
 
-	recipes.addShaped(stencilTable, 
+	recipes.addShaped(stencilTable,
        [[woodenNail, <tconstruct:pattern>],
         [woodenNail, lumber              ]]);
 
-	recipes.addShaped(stencilTable, 
+	recipes.addShaped(stencilTable,
        [[null    , <tconstruct:pattern>],
         [ironNail, lumber              ]]);
 

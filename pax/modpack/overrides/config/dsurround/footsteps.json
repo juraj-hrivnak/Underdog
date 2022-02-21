@@ -7,6 +7,11 @@
 		"osv:_clay_biomesoplenty_dirt_1": "dirt",
 		"osv:_clay_biomesoplenty_dirt_2": "dirt",
 		"crocodilite:quartzite_rock": "dirt,stone",
-		"minecraft:netherrack": "stone"
+		"minecraft:netherrack": "stone",
+		"crocodilite:overgrown_marble": "grass",
+		"crocodilite:overgrown_limestone": "grass",
+		"crocodilite:overgrown_granite": "grass",
+		"crocodilite:overgrown_andesite": "grass",
+		"crocodilite:overgrown_diorite": "grass"
 	}
 }

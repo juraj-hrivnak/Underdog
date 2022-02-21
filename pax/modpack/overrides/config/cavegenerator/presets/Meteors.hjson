@@ -1,0 +1,109 @@
+{
+  imports: [
+    craters.hjson
+    common_values.hjson::NATURAL_STONE
+  ]
+  enabled: false
+  // blacklistBiomes: true
+  // biomes: {
+  //   names: [
+  //     minecraft:beaches
+  //     minecraft:cold_beach
+  //     minecraft:deep_ocean
+  //     minecraft:ocean
+  //     minecraft:river
+  //     minecraft:frozen_river
+  //     biomesoplenty:gravel_beach
+  //     biomesoplenty:white_beach
+  //     biomesoplenty:coral_reef
+  //     biomesoplenty:kelp_forest
+  //     biomesoplenty:volcanic_island
+  //   ]
+  //   types: [
+  //     SWAMP
+  //   ]
+  // }
+  replaceableBlocks: $replacebles
+  replaceDecorators: true
+  caverns: {
+    ceiling: {
+      frequency: 0.2
+      range: [ 80, 80 ]
+      dummy: true
+      cache: true
+    }
+    floor: {
+      frequency: 0.2
+      range: [ 75, 75 ]
+      dummy: true
+      cache: true
+    }
+    height: [ 0, 255 ]
+    // resolution: 16
+    generators: [
+      $crater(40)
+    ]
+  }
+  wallDecorators: [
+    {
+      states: biomesoplenty:ash_block
+      directions: all
+      matchers: $NATURAL_STONE
+      height: [ 0, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+  ]
+  // shell: {
+  //   radius: 2
+  //   sphereResolution: 2
+  //   noiseThreshold: 1
+  //   decorators: [
+  //     {
+  //       states: minecraft:gray_glazed_terracotta
+  //       matchers: $NATURAL_STONE
+  //       height: [ 40, 200 ]
+  //       integrity: 1
+  //       noise: {
+  //         perturb: true
+  //         perturbAmp: 5 // [Default: 2] You can mess around with this
+  //         perturbFreq: 0.1 // [Default: 0.07] You can mess around with this
+  //         jitterY: -1.8 // You can mess around with this
+  //         jitterX: 2.7 // You can mess around with this
+  //         jitterZ: 2.7 // You can mess around with this
+  //       }
+  //     }
+  //   ]
+  // }
+  // caveBlocks: [
+  //   { states: "minecraft:stained_glass:4", height: [ 0, 255 ] }
+  // ]
+  // structures: [
+  //   {
+  //     name: meteor
+  //     height: [ 40, 200 ]
+  //     offset: [ 0, 1, 0 ]
+  //     matchers: [
+  //       biomesoplenty:ash_block
+  //     ]
+  //     directions: down
+  //     airChecks: [
+  //       [ 0, 1, 0 ]
+  //       [ 0, 2, 0 ]
+  //       [ 0, 3, 0 ]
+  //       [ 0, 4, 0 ]
+  //       [ 0, 5, 0 ]
+  //       [ 0, 6, 0 ]
+  //       [ 0, 7, 0 ]
+  //       [ 0, 8, 0 ]
+  //       [ 0, 9, 0 ]
+  //       [ 0, 10, 0 ]
+  //     ]
+  //     integrity: 1
+  //     count: 1
+  //     chance: 1
+  //     debugSpawns: true
+  //     checkSurface: false
+  //   }
+  // ]
+}

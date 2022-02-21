@@ -69,17 +69,17 @@ val dusts as IItemStack[IIngredient] = {
 val aloys as IIngredient[][IItemStack] = {
 
     // Bronze
-    <mekanism:ingot:2>              * 4 : [<ore:dustTin>                        , <ore:dustCopper>      * 3],
+    <mekanism:ingot:2>              * 4 : [<ore:dustTin>        , <ore:dustCopper>      * 3],
     // Constantan
-    <immersiveengineering:metal:6>  * 2 : [<ore:dustCopper>                     , <ore:dustNickel>      * 1],
+    <immersiveengineering:metal:6>  * 2 : [<ore:dustCopper>     , <ore:dustNickel>      * 1],
     // Electrum
-    <immersiveengineering:metal:7>  * 2 : [<ore:dustGold>                       , <ore:dustSilver>      * 1],
+    <immersiveengineering:metal:7>  * 2 : [<ore:dustGold>       , <ore:dustSilver>      * 1],
     // Invar
-    <plustic:invaringot>            * 3 : [<ore:dustNickel>                     , <ore:dustIron>        * 2],
+    <plustic:invaringot>            * 3 : [<ore:dustNickel>     , <ore:dustIron>        * 2],
     // Aluminum Brass
-    <tconstruct:ingots:5>           * 4 : [<ore:dustCopper>                     , <ore:dustAluminum>    * 3],
+    <tconstruct:ingots:5>           * 4 : [<ore:dustCopper>     , <ore:dustAluminum>    * 3],
     // Manyullyn
-    <tconstruct:ingots:2>           * 1 : [<ore:ingotCobalt>                    , <ore:ingotArdite>     * 1],
+    <tconstruct:ingots:2>           * 1 : [<ore:ingotCobalt>    , <ore:ingotArdite>     * 1],
 
 };
 

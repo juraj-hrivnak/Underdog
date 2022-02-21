@@ -1,0 +1,20 @@
+{
+  enabled: false
+  biomes: {
+    names: [
+      minecraft:river
+    ]
+  }
+  layers: [
+    {
+      state: minecraft:gravel
+      height: [ 50, 63 ]
+      matchers: [ "grass", "dirt", "stone" ]
+      ceiling: {
+        seed: 1
+        dummy: true
+        cache: true
+      }
+    }
+  ]
+}

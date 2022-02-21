@@ -47,7 +47,7 @@ for output, input in commonOres {
         .setBurnTimeTicks(1200)
         .setFailureChance(0.0)
         .setBloomYield(1, 4)
-        .setSlagItem(input[1].items[0], 4)
+        .setSlagItem(input[1].items[0], 1)
         .register();
     MKSmelter.addRecipe(input[0], output);
 }
@@ -67,7 +67,7 @@ val richOres as IIngredient[IItemStack] = {
     <mekanism:ingot:1>              : <ore:richOreMKOsmium>     ,
     <geolosys:ingot:1>              : <ore:richOreMKTin>        ,
 
-    // // Ore Mixture
+    // // Ore Mixures
     // <mekanism:ingot:2>              : <ore:mixtureBronze>       ,
     // <immersiveengineering:metal:6>  : <ore:mixtureConstantan>   ,
     // <immersiveengineering:metal:7>  : <ore:mixtureElectrum>     ,
@@ -86,7 +86,7 @@ for output, input in richOres {
         .setBurnTimeTicks(1200)
         .setFailureChance(0.0)
         .setBloomYield(2, 6)
-        .setSlagItem(<pyrotech:slag>, 4)
+        .setSlagItem(<pyrotech:slag>, 2)
         .register();
     MKSmelter.addRecipe(input, output * 2);
 }
