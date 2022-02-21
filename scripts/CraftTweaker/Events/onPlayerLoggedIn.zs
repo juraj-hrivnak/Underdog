@@ -2,11 +2,12 @@
 #loader crafttweaker reloadableevents
 
 import crafttweaker.events.IEventManager;
+import crafttweaker.player.IPlayer;
 import crafttweaker.server.IServer;
 
 
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
-	if (isNull(event.world) || event.world.isRemote()) {
+	if (isNull(event.player.world) || event.player.world.isRemote()) {
 		return;
 	}
 
