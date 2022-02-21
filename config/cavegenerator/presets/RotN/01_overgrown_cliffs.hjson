@@ -6,7 +6,6 @@
   biomes: {
     names: [
       biomesoplenty:crag
-      biomesoplenty:overgrown_cliffs
     ]
     types: []
   }
