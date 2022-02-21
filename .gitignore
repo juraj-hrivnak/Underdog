@@ -16,6 +16,7 @@ config/cherishedworlds/favorites.dat
 config/jei/bookmarks.ini
 config/jei/worldSettings.cfg
 config/moresoundconfig.cfg
+config/cavegenerator/generated/*
 
 # Folders in .minecraft
 /mods/
@@ -90,4 +91,5 @@ pax/modpack/overrides/config/moresoundconfig.cfg
 pax/serverpack/work
 pax/serverpack/server-packs
 pax/serverpack/logs
+
 
