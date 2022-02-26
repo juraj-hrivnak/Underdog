@@ -10,6 +10,7 @@ import mods.pyrotech.StoneSawmill;
 import mods.pyrotech.BrickSawmill;
 import mods.pyrotech.Chopping;
 import mods.contenttweaker.Commands;
+import mods.zenutils.StaticString;
 
 val woodworking as IItemStack[][IItemStack] = {
 
@@ -106,6 +107,9 @@ val woodworking as IItemStack[][IItemStack] = {
 val woodenNail = <contenttweaker:nail_wooden>;
 val ironNail = <contenttweaker:nail_iron>;
 
+recipes.remove(<charset:chest:*>);
+
+
 for lumber, x in woodworking {
 
     var log = x[0];
@@ -180,28 +184,12 @@ for lumber, x in woodworking {
     BrickSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 20, sawmillBlades, 0);
 
     // Chests recipes
-    recipes.addShaped("_chest_" + planks.displayName + planks.definition.owner, <charset:chest>.withTag({wood: planks.definition.owner + ":" + planks.definition.name + ":" + planks.metadata}),
+    recipes.addShaped("_chest_" + planks.displayName + planks.definition.owner, <charset:chest>
+        .withTag({wood: planks.definition.owner + ":" + toString(planks.definition.name).replace("tile.", "") + ";" + planks.metadata}),
     [[lumber, lumber, lumber ],
      [lumber, null  , lumber ],
      [lumber, lumber, lumber ]]);
 }
-
-
-// recipes.addShaped("Chests", <charset:chest>,
-//    [[<tconstruct:pattern>],
-//     [<ore:plankWood>.only(function(item) {return item.isItemBlock;})
-//       .reuse()
-//       .marked("source")]],
-//   function(out, ins, cInfo) {
-//     return out.withTag({
-//       "wood":{
-//         id: ins.source.definition.id,
-//         Count: 1 as byte,
-//         Damage: ins.source.damage
-//       }
-//     });
-//   }, null
-// );
 
 
 Chopping.addRecipe("chopping_nail", woodenNail, <ore:hardwoodLumber>, [1], [4]);
