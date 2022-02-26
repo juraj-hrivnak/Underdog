@@ -184,11 +184,29 @@ for lumber, x in woodworking {
     BrickSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 20, sawmillBlades, 0);
 
     // Chests recipes
-    recipes.addShaped("_chest_" + planks.displayName + planks.definition.owner, <charset:chest>
-        .withTag({wood: planks.definition.owner + ":" + toString(planks.definition.name).replace("tile.", "") + ";" + planks.metadata}),
-    [[lumber, lumber, lumber ],
-     [lumber, null  , lumber ],
-     [lumber, lumber, lumber ]]);
+    if (planks.metadata == 0) {
+		recipes.addShaped("_chest_" + planks.displayName + planks.definition.owner, <charset:chest>
+			.withTag({wood: toString(planks)
+				.replace("<", "")
+				.replace(">", ";0")
+				.replace(":", ";")
+				.replace(planks.definition.owner + ";", planks.definition.owner + ":")}),
+        [[lumber, lumber, lumber ],
+         [lumber, null  , lumber ],
+         [lumber, lumber, lumber ]]);
+        mods.jei.JEI.addItem(<charset:chest>.withTag({wood: toString(planks).replace("<", "").replace(">", ";0").replace(":", ";").replace(planks.definition.owner + ";", planks.definition.owner + ":")}));
+	} else {
+		recipes.addShaped("_chest_" + planks.displayName + planks.definition.owner, <charset:chest>
+			.withTag({wood: toString(planks)
+				.replace("<", "")
+				.replace(">", "")
+				.replace(":", ";")
+				.replace(planks.definition.owner + ";", planks.definition.owner + ":")}),
+        [[lumber, lumber, lumber ],
+         [lumber, null  , lumber ],
+         [lumber, lumber, lumber ]]);
+        mods.jei.JEI.addItem(<charset:chest>.withTag({wood: toString(planks).replace("<", "").replace(">", "").replace(":", ";").replace(planks.definition.owner + ";", planks.definition.owner + ":")}));
+	}
 }
 
 
@@ -206,17 +224,17 @@ recipes.addShaped("Splitting Wedge", <contenttweaker:splitting_wedge>,
     [[<ore:ingotSteel> ],
      [<ore:nuggetSteel>]]);
 
-recipes.addShapedMirrored("Table Top", <contenttweaker:table_top>,
-    [[<ore:rocks>   , <pyrotech:material:10>],
-     [<ore:lumber>  , <ore:lumber>          ]]);
+recipes.addShapeless("Table Top", <contenttweaker:table_top>,
+    [<ore:rocks> , <pyrotech:material:10>,
+     <ore:lumber>, <ore:lumber>          ]);
 
 // Removing default recipes for crafting tables
 recipes.remove(<minecraft:crafting_table>);
 recipes.remove(<tconstruct:tooltables>);
 
 recipes.addShapeless(<tconstruct:tooltables>,
-    [<contenttweaker:table_top>, woodenNail,
-     <ore:lumber>, <ore:lumber>]);
+    [<contenttweaker:table_top>, woodenNail     ,
+     <ore:lumber>              , <ore:lumber>   ]);
 
 recipes.addShapeless(<minecraft:crafting_table>, [<tconstruct:tooltables>]);
 recipes.addShapeless(<tconstruct:tooltables>, [<minecraft:crafting_table>]);
