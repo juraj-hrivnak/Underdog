@@ -38,22 +38,22 @@ recipes.replaceAllOccurences(<ore:stone>, <ore:stones>, <*>);
 // Fix
 recipes.remove(<quark:stone_stairs>);
 recipes.addShaped(<quark:stone_stairs> * 8,
-   [[<ore:stone>, null       , null       ],
-    [<ore:stone>, <ore:stone>, null       ],
-    [<ore:stone>, <ore:stone>, <ore:stone>]]);
+   [[<ore:stone>, null       , null        ],
+    [<ore:stone>, <ore:stone>, null        ],
+    [<ore:stone>, <ore:stone>, <ore:stone> ]]);
 
 recipes.remove(<minecraft:stonebrick>);
 recipes.addShaped(<minecraft:stonebrick> * 4,
-   [[<ore:stone>, <ore:stone>],
-    [<ore:stone>, <ore:stone>]]);
+   [[<ore:stone>, <ore:stone> ],
+    [<ore:stone>, <ore:stone> ]]);
 
 recipes.remove(<quark:stone_wall>);
 recipes.addShaped(<quark:stone_wall> * 6,
-   [[<ore:stone>, <ore:stone>, <ore:stone>],
-    [<ore:stone>, <ore:stone>, <ore:stone>]]);
+   [[<ore:stone>, <ore:stone>, <ore:stone> ],
+    [<ore:stone>, <ore:stone>, <ore:stone> ]]);
 
 recipes.remove(<quark:stone_speleothem>);
 recipes.addShaped(<quark:stone_speleothem> * 6,
-   [[<ore:stone>],
-    [<ore:stone>],
-    [<ore:stone>]]);
+   [[<ore:stone> ],
+    [<ore:stone> ],
+    [<ore:stone> ]]);

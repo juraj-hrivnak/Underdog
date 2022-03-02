@@ -1,3 +1,4 @@
+
 #modloaded quark
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
@@ -28,15 +29,15 @@ recipes.removeByRecipeName("quark:bookshelf");
 // Iron Rod Braker
 recipes.removeShaped(<quark:iron_rod>);
 recipes.addShapedMirrored(<quark:iron_rod>,
-   [[null, null, <ore:stickIron>],
-    [null, <ore:stickIron>, null],
-    [<ore:plateIron>, null, null]]);
+   [[null           , null           , <ore:stickIron> ],
+    [null           , <ore:stickIron>, null            ],
+    [<ore:plateIron>, null           , null            ]]);
 
 // Backpack
 recipes.addShapedMirrored(<quark:backpack>,
-   [[<ore:fiberHemp>    , <ore:itemLeather> , <ore:fiberHemp>   ],
-    [<ore:itemLeather>  , <ore:itemLeather> , <ore:itemLeather> ],
-    [<ore:itemLeather>  , null              , <ore:itemLeather> ]]);
+   [[<ore:fiberHemp>  , <ore:itemLeather>, <ore:fiberHemp>   ],
+    [<ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather> ],
+    [<ore:itemLeather>, null             , <ore:itemLeather> ]]);
 
 // Wheat Thatch
 <quark:thatch>.displayName = "Wheat Thatch";

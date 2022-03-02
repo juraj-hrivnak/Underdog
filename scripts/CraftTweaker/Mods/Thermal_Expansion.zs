@@ -1,3 +1,4 @@
+
 #modloaded thermalexpansion
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
@@ -5,14 +6,11 @@ import mods.jei.JEI.removeAndHide as rh;
 import mods.thermalexpansion.CompressionDynamo;
 import mods.thermalexpansion.Pulverizer;
 
-
-#####################################
-// Items removal
+// Item removal
 val itemsToRemove as IItemStack[] = [
     <thermalfoundation:material:894>,
     <thermalfoundation:ore_fluid:3>
 ]; for i in itemsToRemove { rh(i); }
-#####################################
 
 // Forestry seed oil to Compression Dynamo
 mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:seed.oil>, 80);
