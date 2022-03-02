@@ -14,6 +14,7 @@ import crafttweaker.item.IMutableItemStack;
 import mods.zenutils.DelayManager;
 import mods.contenttweaker.Commands;
 
+
 val mill as bool[] = [false];
 
 events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {
