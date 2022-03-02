@@ -1,15 +1,16 @@
 {
 	x: -2.5d,
-	y: -3.0d,
+	y: -0.5d,
 	dependencies: [
-		"f2d65ffe"
+		"763d8497"
 	],
 	hide: true,
+	size: 1.2d,
 	tasks: [{
-		uid: "c4dfc82e",
+		uid: "92f9411d",
 		type: "item",
 		items: [{
-			item: "cuisine:wok"
+			item: "cuisine:mill"
 		}]
 	}]
 }
