@@ -1,70 +1,70 @@
+{
+		"custom.manaf": {
+			"sounds": [ "custom/manaf" ] },
 
-		{ "custom.manaf": {
-		"sounds": [ "custom/manaf" ] },
+		"custom.conv_belt": {
+			"sounds": [ "custom/conv_belt" ]
+		},
 
-		 "custom.conv_belt": {
-		 "sounds": [ "custom/conv_belt" ]
-		 },
+		"custom.ahh": {
+			"sounds": [ "custom/ahh" ]
+		},
 
-		 "custom.ahh": {
-		 "sounds": [ "custom/ahh" ]
-		 },
+		"custom.secret": {
+			"sounds": [ "custom/secret" ]
+		},
 
-		 "custom.secret": {
-		 "sounds": [ "custom/secret" ]
-		 },
-
-		 "huskburn": {
-		 "sounds": [ "custom/huskburn" ]
-		 },
-
-
-
-		 "custom.pipewind_up": {
-		 "sounds": [ "custom/pipewind_up" ]
-		 },
-
-		 "custom.pipewind_up2": {
-		 "sounds": [ "custom/pipewind_up2" ]
-		 },
-
-		 "custom.pipewind_up3": {
-		 "sounds": [ "custom/pipewind_up3" ]
-		 },
-
-		 "custom.pipewind_up4": {
-		 "sounds": [ "custom/pipewind_up4" ]
-		 },
-
-		 "custom.pipewind_down": {
-		 "sounds": [ "custom/pipewind_down" ]
-		 },
+		"huskburn": {
+			"sounds": [ "custom/huskburn" ]
+		},
 
 
 
-		 "krasch": {
-		 "sounds": [ "custom/krasch" ]
-		 },
+		"custom.pipewind_up": {
+			"sounds": [ "custom/pipewind_up" ]
+		},
 
-		 "breaker_on": {
-		 "sounds": [ "custom/breaker" ]
-		 },
+		"custom.pipewind_up2": {
+			"sounds": [ "custom/pipewind_up2" ]
+		},
 
-		 "breaker_off": {
-		 "sounds": [ "custom/breaker2" ]
-		 },
+		"custom.pipewind_up3": {
+			"sounds": [ "custom/pipewind_up3" ]
+		},
 
-		 "rotor_startup": {
-		 	"sounds": [ "custom/rotor_startup" ]
-		 },
+		"custom.pipewind_up4": {
+			"sounds": [ "custom/pipewind_up4" ]
+		},
 
-		 "hand_mill": {
-			"category": "block",
-			"sounds": [
-			  "custom/stonedrag1",
-			  "custom/stonedrag2"
+		"custom.pipewind_down": {
+			"sounds": [ "custom/pipewind_down" ]
+		},
+
+
+
+		"krasch": {
+			"sounds": [ "custom/krasch" ]
+		},
+
+		"breaker_on": {
+			"sounds": [ "custom/breaker" ]
+		},
+
+		"breaker_off": {
+			"sounds": [ "custom/breaker2" ]
+		},
+
+		"rotor_startup": {
+			"sounds": [ "custom/rotor_startup" ]
+		},
+
+		"hand_mill": {
+		"category": "block",
+		"sounds": [
+				"custom/stonedrag1",
+				"custom/stonedrag2"
 			]
-		  }
+		}
 
 
  }
