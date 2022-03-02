@@ -139,10 +139,13 @@ for lumber, x in woodworking {
         recipes.remove(slab);
 
         // Adding recipes for slabs
-        recipes.addShaped(slab * 3, [[lumber, lumber, lumber]]);
+        recipes.addShaped(slab * 3,
+           [[lumber, lumber, lumber ]]);
 
         // Adding recipes for planks from slabs
-        recipes.addShapedMirrored(planks, [[woodenNail, slab], [woodenNail, slab]]);
+        recipes.addShaped(planks,
+           [[slab ],
+            [slab ]]);
 
     }
 
@@ -159,25 +162,37 @@ for lumber, x in woodworking {
     recipes.addShapeless(lumber * 2, [planks]);
 
     // Adding recipe for planks block from four lumbers
-    recipes.addShapedMirrored("_wooden_nail_2x_" + planks.displayName + planks.definition.owner, planks * 2,
-    [[null      , woodenNail, woodenNail ],
-     [woodenNail, lumber    , lumber     ],
-     [woodenNail, lumber    , lumber     ]]);
+    recipes.addShaped("_wooden_nail_2x_" + planks.displayName + planks.definition.owner, planks * 2,
+      [[lumber, lumber ],
+       [lumber, lumber ]],
+        null,
+        function(out,cInfo,player) {
+            Commands.call("playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z, player, player.world);
+        }
+    );
 
     // Adding bunus recipe for using "raw" lumber with iron nails
-    recipes.addHiddenShaped("_iron_nail_4x_" + planks.displayName + planks.definition.owner, planks * 4,
-    [[null    , null     , ironNail  ],
-     [null    , rawLumber, rawLumber ],
-     [ironNail, rawLumber, rawLumber ]],
-    null, function(out,cInfo,player) {
-        player.xp += 1;
-        Commands.call("playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z, player, player.world);
-    }, true);
+    recipes.addShapedMirrored("_iron_nail_4x_" + planks.displayName + planks.definition.owner, planks * 4,
+       [[null    , null     , ironNail  ],
+        [null    , rawLumber, rawLumber ],
+        [ironNail, rawLumber, rawLumber ]],
+        null,
+        function(out,cInfo,player) {
+            player.xp += 1;
+            Commands.call("playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z, player, player.world);
+        }
+    );
 
-    recipes.addShapedMirrored("_iron_nail_2x_" + planks.displayName + planks.definition.owner, planks * 2,
-    [[null    , null  , ironNail ],
-     [null    , lumber, lumber   ],
-     [ironNail, lumber, lumber   ]]);
+    recipes.addHiddenShaped("_iron_nail_2x_" + planks.displayName + planks.definition.owner, planks * 2,
+       [[null    , null  , ironNail ],
+        [null    , lumber, lumber   ],
+        [ironNail, lumber, lumber   ]],
+        null,
+        function(out,cInfo,player) {
+            Commands.call("playsound tconstruct:wood_hit block @a " + player.x + " " + player.y + " " + player.z, player, player.world);
+        },
+        true
+    );
 
     MKSawmill.addRecipe(planks, lumber * 2);
     StoneSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 200, sawmillBlades, 0);
@@ -191,9 +206,9 @@ for lumber, x in woodworking {
 				.replace(">", ";0")
 				.replace(":", ";")
 				.replace(planks.definition.owner + ";", planks.definition.owner + ":")}),
-        [[lumber, lumber, lumber ],
-         [lumber, null  , lumber ],
-         [lumber, lumber, lumber ]]);
+           [[lumber, lumber, lumber ],
+            [lumber, null  , lumber ],
+            [lumber, lumber, lumber ]]);
         mods.jei.JEI.addItem(<charset:chest>.withTag({wood: toString(planks).replace("<", "").replace(">", ";0").replace(":", ";").replace(planks.definition.owner + ";", planks.definition.owner + ":")}));
 	} else {
 		recipes.addShaped("_chest_" + planks.displayName + planks.definition.owner, <charset:chest>
@@ -202,9 +217,9 @@ for lumber, x in woodworking {
 				.replace(">", "")
 				.replace(":", ";")
 				.replace(planks.definition.owner + ";", planks.definition.owner + ":")}),
-        [[lumber, lumber, lumber ],
-         [lumber, null  , lumber ],
-         [lumber, lumber, lumber ]]);
+           [[lumber, lumber, lumber ],
+            [lumber, null  , lumber ],
+            [lumber, lumber, lumber ]]);
         mods.jei.JEI.addItem(<charset:chest>.withTag({wood: toString(planks).replace("<", "").replace(">", "").replace(":", ";").replace(planks.definition.owner + ";", planks.definition.owner + ":")}));
 	}
 }
@@ -217,24 +232,20 @@ Chopping.addRecipe("chopping_sticks", <minecraft:stick>, <ore:firewood>, [1], [4
 // 1 log => 6 firewood = 24 sticks
 
 recipes.addShaped("Sticks", <minecraft:stick> * 4,
-    [[<ore:lumber>],
-     [<ore:lumber>]]);
+   [[<ore:lumber> ],
+    [<ore:lumber> ]]);
 
 recipes.addShaped("Splitting Wedge", <contenttweaker:splitting_wedge>,
-    [[<ore:ingotSteel> ],
-     [<ore:nuggetSteel>]]);
+   [[<ore:ingotSteel>  ],
+    [<ore:nuggetSteel> ]]);
 
-recipes.addShapeless("Table Top", <contenttweaker:table_top>,
-    [<ore:rocks> , <pyrotech:material:10>,
-     <ore:lumber>, <ore:lumber>          ]);
+recipes.addShapeless("Table Top", <contenttweaker:table_top>, [<ore:rocks> , <pyrotech:material:10>, <ore:lumber>, <ore:lumber>]);
 
 // Removing default recipes for crafting tables
 recipes.remove(<minecraft:crafting_table>);
 recipes.remove(<tconstruct:tooltables>);
 
-recipes.addShapeless(<tconstruct:tooltables>,
-    [<contenttweaker:table_top>, woodenNail     ,
-     <ore:lumber>              , <ore:lumber>   ]);
+recipes.addShapeless(<tconstruct:tooltables>, [<contenttweaker:table_top>, <ore:lumber>, <ore:lumber>]);
 
 recipes.addShapeless(<minecraft:crafting_table>, [<tconstruct:tooltables>]);
 recipes.addShapeless(<tconstruct:tooltables>, [<minecraft:crafting_table>]);
