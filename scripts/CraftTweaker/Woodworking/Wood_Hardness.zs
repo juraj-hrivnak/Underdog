@@ -75,17 +75,17 @@ val listOfWoods as IItemStack[][][IOreDictEntry[]] = {
         // Cuisine
             [<contenttweaker:cuisine_citrus_lumber>          , <cuisine:log>            , <cuisine:planks>              , <contenttweaker:cuisine_firewood_citrus>      ],
 
+    ],
+
+    [<ore:pseudowoodLumber>, <ore:pseudowoodLog>, <ore:pseudowoodPlanks>, <ore:pseudoFirewood>] : [
+        // Biomes O Plenty
+            [<contenttweaker:lumber_palm>                    , <biomesoplenty:log_1:7>  , <biomesoplenty:planks_0:7>    , <contenttweaker:firewood_palm>                ],
+
+        // Forestry
+            [<contenttweaker:lumber_planks.baobab>           , <forestry:logs.1:2>      , <forestry:planks.0:6>         , <contenttweaker:forestry_firewood_baobab>     ],
+            [<contenttweaker:lumber_planks.palm>             , <forestry:logs.4:2>      , <forestry:planks.1:2>         , <contenttweaker:forestry_firewood_palm>       ],
+            [<contenttweaker:lumber_planks.papaya>           , <forestry:logs.4:3>      , <forestry:planks.1:3>         , <contenttweaker:forestry_firewood_papaya>     ],
     ]
-
-    // <ore:pseudowoods> : [
-    //     // Biomes O Plenty
-    //         [<contenttweaker:lumber_palm>                    , <biomesoplenty:log_1:7>  , <biomesoplenty:planks_0:7>    , <contenttweaker:firewood_palm>                ],
-
-    //     Forestry
-    //         [<contenttweaker:lumber_planks.baobab>           , <forestry:logs.1:2>      , <forestry:planks.0:6>         , <contenttweaker:forestry_firewood_baobab>     ],
-    //         [<contenttweaker:lumber_planks.palm>             , <forestry:logs.4:2>      , <forestry:planks.1:2>         , <contenttweaker:forestry_firewood_palm>       ],
-    //         [<contenttweaker:lumber_planks.papaya>           , <forestry:logs.4:3>      , <forestry:planks.1:3>         , <contenttweaker:forestry_firewood_papaya>     ],
-    // ]
 
 };
 
@@ -104,15 +104,20 @@ for oredict, items in listOfWoods {
     }
 }
 
-furnace.setFuel(<ore:softwoodLumber>, 160 / 2);
-furnace.setFuel(<ore:softwoodLog>   , 0);       // 600
-furnace.setFuel(<ore:softwoodPlanks>, 300 / 2);
-furnace.setFuel(<ore:softFirewood>  , 100);
+furnace.setFuel(<ore:softwoodLumber>, 80);
+furnace.setFuel(<ore:softwoodLog>   , 0);
+furnace.setFuel(<ore:softwoodPlanks>, 150);
+furnace.setFuel(<ore:softFirewood>  , 105);
 
-furnace.setFuel(<ore:hardwoodLumber>, 240 / 2);
-furnace.setFuel(<ore:hardwoodLog>   , 0);       // 900
-furnace.setFuel(<ore:hardwoodPlanks>, 440 / 2);
-furnace.setFuel(<ore:hardFirewood>  , 201);
+furnace.setFuel(<ore:hardwoodLumber>, 120);
+furnace.setFuel(<ore:hardwoodLog>   , 0);
+furnace.setFuel(<ore:hardwoodPlanks>, 220);
+furnace.setFuel(<ore:hardFirewood>  , 205);
+
+furnace.setFuel(<ore:pseudowoodLumber>, 80);
+furnace.setFuel(<ore:pseudowoodLog>   , 0);
+furnace.setFuel(<ore:pseudowoodPlanks>, 105);
+furnace.setFuel(<ore:pseudoFirewood>  , 105);
 
 furnace.setFuel(<minecraft:stick>, 25);
 
@@ -126,12 +131,19 @@ furnace.setFuel(<minecraft:stick>, 25);
 <ore:hardwoodPlanks>.addShiftTooltip(format.yellow(format.bold("Hardwood")));
 <ore:hardFirewood>  .addShiftTooltip(format.yellow(format.bold("Hardwood")));
 
+<ore:pseudowoodLumber>.addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
+<ore:pseudowoodLog>   .addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
+<ore:pseudowoodPlanks>.addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
+<ore:pseudoFirewood>  .addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
+
 <ore:tooBig>.addAll(<ore:softwoodLog>);
 <ore:tooBig>.addAll(<ore:hardwoodLog>);
+<ore:tooBig>.addAll(<ore:pseudowoodLog>);
 <ore:tooBig>.addShiftTooltip(format.red(format.bold("Big")));
 
 <ore:firewood>.addAll(<ore:softFirewood>);
 <ore:firewood>.addAll(<ore:hardFirewood>);
+<ore:firewood>.addAll(<ore:pseudoFirewood>);
 
     // // Rustic Painted Wood
     // <contenttweaker:painted_wood_white_lumber>      , null                     , <rustic:painted_wood_white>
