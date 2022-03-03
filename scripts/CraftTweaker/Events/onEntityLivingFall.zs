@@ -30,15 +30,4 @@ events.onEntityLivingFall(function(event as crafttweaker.event.EntityLivingFallE
 	event.entity.motionZ = event.entity.lookingDirection.z * random.nextDouble(0.5, 1.2);
 	event.entity.motionX = event.entity.lookingDirection.x * random.nextDouble(0.5, 1.2);
 
-	// Todo: check for biome
-	// val biome = event.entity.world.getBiome(event.entity.position).types;
-	// for i in biome {
-	// 	if i.name == "MOUNTAIN" {
-	// 		return mountain[0] = true;
-	// 	}
-	// }
-	// if mountain[0] == true {
-	// event.entityLivingBase.addPotionEffect(<potion:immersiveengineering:slippery>.makePotionEffect(random.nextInt(50, 200), random.nextInt(1, 4), false, true));
-	// }
-
 });
