@@ -7,3 +7,7 @@ A realistic survival/  tech/ exploration modpack
 
 > Fully playable releases are available on curseforge!
 > [here](https://www.curseforge.com/minecraft/modpacks/underdog)
+
+
+<p align="center"><img src="https://raw.githubusercontent.com/juraj-hrivnak/Underdog/main/.github/border.png" alt="Logo" width="4000">
+</p>
