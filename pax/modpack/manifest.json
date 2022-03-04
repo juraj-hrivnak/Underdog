@@ -1106,6 +1106,14 @@
       }
     },
     {
+      "projectID": 278385,
+      "fileID": 2482543,
+      "required": true,
+      "__meta": {
+        "name": "Diet Hoppers"
+      }
+    },
+    {
       "projectID": 278493,
       "fileID": 3319307,
       "required": true,
@@ -1216,7 +1224,7 @@
     },
     {
       "projectID": 284523,
-      "fileID": 3066682,
+      "fileID": 3656492,
       "required": true,
       "__meta": {
         "name": "Charset Lib"
@@ -1256,6 +1264,14 @@
       "required": true,
       "__meta": {
         "name": "Reskillable"
+      }
+    },
+    {
+      "projectID": 287443,
+      "fileID": 3231446,
+      "required": true,
+      "__meta": {
+        "name": "Better Animal Models"
       }
     },
     {
@@ -1354,14 +1370,6 @@
         "dependencies": [
           286382
         ]
-      }
-    },
-    {
-      "projectID": 290659,
-      "fileID": 3067807,
-      "required": true,
-      "__meta": {
-        "name": "Pretty Beaches"
       }
     },
     {
@@ -1514,7 +1522,7 @@
     },
     {
       "projectID": 298584,
-      "fileID": 2745002,
+      "fileID": 3656498,
       "required": true,
       "__meta": {
         "name": "Charset Storage - Chests",
@@ -1769,7 +1777,7 @@
     },
     {
       "projectID": 313866,
-      "fileID": 3468576,
+      "fileID": 3657641,
       "required": true,
       "__meta": {
         "name": "Engineer's Decor"
@@ -1925,7 +1933,7 @@
     },
     {
       "projectID": 359407,
-      "fileID": 3534436,
+      "fileID": 3658279,
       "required": true,
       "__meta": {
         "name": "Immersive Technology",
@@ -2039,7 +2047,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 3627721,
+      "fileID": 3668460,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2106,7 +2114,7 @@
     },
     {
       "projectID": 409087,
-      "fileID": 3653009,
+      "fileID": 3668442,
       "required": true,
       "__meta": {
         "name": "Entity Culling"
@@ -2131,6 +2139,18 @@
       "__meta": {
         "name": "MixinBooter",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 433235,
+      "fileID": 3280303,
+      "required": true,
+      "__meta": {
+        "name": "Onslaught",
+        "pinned": true,
+        "dependencies": [
+          284350
+        ]
       }
     },
     {
@@ -2215,7 +2235,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 3568778,
+      "fileID": 3671148,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2223,7 +2243,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3649419,
+      "fileID": 3661725,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
