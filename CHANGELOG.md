@@ -41,4 +41,5 @@ Updated:
 - Entity Culling
 - Had Enough Items
 - AE2 Unofficial Extended Life
+- Crocodilite
 ```
