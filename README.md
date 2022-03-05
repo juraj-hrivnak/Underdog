@@ -16,7 +16,7 @@ Knowledge of [`Git`] is required.
 If installing/removing/updating mods, knowledge of [`PAX`] is required.
 
 Also, after setting up the pack, take a look into the [`pax`](pax) folder.  
-That folder contains all the development tools required when exporting the pack.
+This folder contains all the development tools required when exporting the pack.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/juraj-hrivnak/Underdog/main/.github/border.png" alt="Logo" width="4000">
