@@ -1,11 +1,14 @@
 {
   imports: [
     common_values.hjson::NATURAL_STONE
+    types.cave::vines()
   ]
   variables: {
     COMMON_CEILING: {
       seed: 1
       cache: true
+      frequency: 0.04 // 1 makes basalt comulns
+      range: [ -100, 200 ]
     }
     COMMON_FLOOR: {
       seed: 1
@@ -13,75 +16,84 @@
       frequency: 0.06
       range: [ 0, 8 ]
     }
-  }
-  enabled: false
-  blacklistBiomes: true
-  biomes: {
-    names: [
-      minecraft:beaches
-      minecraft:cold_beach
-      minecraft:deep_ocean
-      minecraft:ocean
-      minecraft:river
-      minecraft:frozen_river
-      biomesoplenty:gravel_beach
-      biomesoplenty:white_beach
-      biomesoplenty:coral_reef
-      biomesoplenty:kelp_forest
-      biomesoplenty:volcanic_island
-      minecraft:jungle
-      minecraft:jungle_hills
-      minecraft:jungle_edge
-      minecraft:mutated_jungle
-      minecraft:mutated_jungle_edge
-    ]
-    types: [
-      SWAMP
-    ]
-  }
-  replaceDecorators: false
-  replaceableBlocks: $NATURAL_STONE
-  caverns: {
-    ###########################################
-    # Main Caves
-    ###########################################
-    height: [
-      40
-      70
-    ]
-    ceiling: {
-      seed: 1
-      cache: true
-      range: [
-        0.8
-        7
+    bush(): {
+      name: @1
+      height: [
+        40
+        70
+      ]
+      count: 6
+      chance: 0.25
+      offset: [ 0, 0, 0 ]
+      directions: down
+      rotateRandomly: false
+      matchers: $NATURAL_STONE
+      airChecks: [
+        [ 1, 1, 1 ]
+        [ 0, 1, -1 ]
+        [ -1, 1, 0 ]
+        [ -1, 1, -1 ]
       ]
     }
-    floor: $COMMON_FLOOR
-    generators: {
+    cave(): {
       seed: 1
-      frequency: 0.0105
+      threshold: -0.001 * @1
+      frequency: 0.0055 * (@1 * -1)
       offset: 550
-      lacunarity: 1.2
-      octaves: 2
-      gain: 0.2
-      perturb: true
-      perturbAmp: 4
-      perturbFreq: 0.12
+      lacunarity: 0.7 * @1
+      octaves: 6
+      gain: 0.7 // 0.7 makes basalt comulns
+      perturb: false
+      perturbAmp: 5 // [Default: 2] You can mess around with this
+      perturbFreq: 0.1 // [Default: 0.07] You can mess around with this
       type: Cellular
       jitterX: 0.45
       jitterY: 1.25
       jitterZ: 1.25
-      returnType: Distance3Div
-      distFunc: Euclidean
+      returnType: Distance3Add
+      distFunc: Natural
       invert: true
       interp: Quintic
       fractal: RigidMulti
-      threshold: -0.15
-      stretch: 0.36
+      stretch: 10
     }
   }
+  enabled: false
+  // biomes: {
+  //   names: [
+  //     minecraft:jungle
+  //     minecraft:jungle_hills
+  //     minecraft:jungle_edge
+  //     minecraft:mutated_jungle
+  //     minecraft:mutated_jungle_edge
+  //   ]
+  // }
+  replaceDecorators: false
+  replaceableBlocks: [
+    air
+    grass
+  ]
+  caverns: {
+    height: [
+      -60
+      -60
+    ]
+    region: {
+      frequency: 0.015
+      threshold: 0.001
+    }
+    ceiling: $COMMON_CEILING
+    floor: $COMMON_FLOOR
+    generators: [
+      $cave(0)
+      $cave(0.1)
+      $cave(0.2)
+      $cave(0.3)
+      $cave(0.4)
+    ]
+  }
   wallDecorators: [
+    $vines(0.1, [45, 255])
     {
       states: [
         pyrotech:rock_grass
@@ -205,10 +217,35 @@
       placement: EMBED
       integrity: 1
     }
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: minecraft:clay
+      height: [ 0, 255 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:stone
+      directions: side
+      matchers: minecraft:clay
+      height: [ 0, 255 ]
+      placement: EMBED
+      integrity: 1
+    }
+  ]
+  caveBlocks: [
+    {
+      states: stone
+      height: [
+        0
+        255
+      ]
+    }
   ]
   stalactites: [
     {
-      state: quark:limestone
+      state: minecraft:stone:3
       # Type may be `stalactite`, `stalagmite`, or `speleothem`.
       type: speleothem
       # The width of this feature.
@@ -217,16 +254,44 @@
       length: [ 4, 10 ]
       chance: 0.067
       height: [
-        40
+        10
         70
       ]
       matchers: [
-        quark:limestone
+        minecraft:stone:3
       ]
       region: {
         frequency: 0.025
         threshold: 0.425
       }
     }
+  ]
+  ponds: [
+    {
+      states: simpledifficulty:purifiedwater
+      integrity: 1
+      height: [ 44, 200 ]
+      depth: 2
+      matchers: [
+        clay
+        stone
+      ]
+    }
+  ]
+  shell: {
+    radius: 3
+    decorators: [
+      {
+        states: clay
+        height: [ 0, 225 ]
+        integrity: 0.8
+      }
+    ]
+  }
+  structures: [
+    $bush(oak_twiglet)
+    $bush(oak_twiglet)
+    $bush(oak_twiglet)
+    $bush(oak_twiglet)
   ]
 }

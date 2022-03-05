@@ -4,9 +4,9 @@
     pyrotech:rock:4
     pyrotech:rock:5
     //
-    simpledifficulty:saltwater
-    minecraft:water
-    simpledifficulty:purifiedwater
+    // simpledifficulty:saltwater
+    // minecraft:water
+    // simpledifficulty:purifiedwater
     //
     //Gravel, Clay, Ash
     minecraft:gravel
@@ -40,6 +40,11 @@
     divergentunderground:granite_cobblestone
     divergentunderground:quark_limestone_cobblestone
     divergentunderground:quark_marble_cobblestone
+    crocodilite:overgrown_marble
+    crocodilite:overgrown_limestone
+    crocodilite:overgrown_granite
+    crocodilite:overgrown_andesite
+    crocodilite:overgrown_diorite
     //
     //Sandstone
     minecraft:red_sandstone

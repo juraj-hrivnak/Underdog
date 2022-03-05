@@ -13,13 +13,12 @@
     # UNDERGROUND
     #
     $u_granite( 0, 30 )
-    {
-      state: biomesoplenty:dried_sand
-      height: [ 30, 225 ]
-      ceiling: $OVERGROUND
-    }
+    $u_quartzite( 30, 60 )
     ###########################################
     # OVERGROUND
     #
+    $o_granite( 60, 90 )
+    $o_andesite( 90, 225 )
+    ###########################################
   ]
 }

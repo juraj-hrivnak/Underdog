@@ -1,4 +1,3 @@
-# temperate forest-like biomes like what can be found in national parks in the US
 {
   imports: [
     layers.hjson
