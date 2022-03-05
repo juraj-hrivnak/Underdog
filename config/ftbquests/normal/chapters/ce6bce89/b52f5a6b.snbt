@@ -2,6 +2,10 @@
 	x: -1.5d,
 	y: 3.5d,
 	shape: "square",
+	text: [
+		"&rTask:",
+		"&7Make a hammer."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"078f1222",

@@ -3,7 +3,6 @@
 	icon: "contenttweaker:firewood_pine",
 	x: 0.0d,
 	y: 3.5d,
-	description: "Log splitting.",
 	text: [
 		"&lTask:",
 		"&7Place the flint on top of a log &b(Right-Click)&r&7 and smash it with a hammer &b(Left-Click)&r&7 to get 6* firewood."

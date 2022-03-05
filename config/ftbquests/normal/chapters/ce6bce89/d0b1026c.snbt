@@ -1,6 +1,13 @@
 {
 	x: -1.5d,
 	y: 2.0d,
+	text: [
+		"&rTask:",
+		"&7Make an axe.",
+		"",
+		"&rNote: ",
+		"&7The recipe for an axe is different from vanilla! Always don't forget to check JEI."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"a63cf0b2"
