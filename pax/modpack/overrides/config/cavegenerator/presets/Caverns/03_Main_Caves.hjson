@@ -14,7 +14,7 @@
       range: [ 0, 8 ]
     }
   }
-  enabled: true
+  enabled: false
   blacklistBiomes: true
   biomes: {
     names: [
@@ -29,6 +29,11 @@
       biomesoplenty:coral_reef
       biomesoplenty:kelp_forest
       biomesoplenty:volcanic_island
+      minecraft:jungle
+      minecraft:jungle_hills
+      minecraft:jungle_edge
+      minecraft:mutated_jungle
+      minecraft:mutated_jungle_edge
     ]
     types: [
       SWAMP
@@ -57,7 +62,7 @@
       seed: 1
       frequency: 0.0105
       offset: 550
-      lacunarity: 1
+      lacunarity: 1.2
       octaves: 2
       gain: 0.2
       perturb: true
@@ -67,7 +72,6 @@
       jitterX: 0.45
       jitterY: 1.25
       jitterZ: 1.25
-      cellularLookup: Cellular
       returnType: Distance3Div
       distFunc: Euclidean
       invert: true
@@ -197,7 +201,7 @@
       states: minecraft:stone
       directions: all
       matchers: minecraft:water
-      height: [ 30, 70 ]
+      height: [ 47, 70 ]
       placement: EMBED
       integrity: 1
     }

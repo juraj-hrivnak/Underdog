@@ -1,5 +1,5 @@
 {
-  enabled: true
+  enabled: false
   biomes: {
     names: [
       minecraft:river

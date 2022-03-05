@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	dependencies: [
+		"763d8497"
+	],
+	hide: true,
+	size: 1.2d,
+	tasks: [{
+		uid: "92f9411d",
+		type: "item",
+		items: [{
+			item: "cuisine:mill"
+		}]
+	}]
+}

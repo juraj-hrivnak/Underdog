@@ -7,10 +7,11 @@
         ],
         "extra": {
             "connect_to": [
+                { "block": "simpledifficulty:saltwater" },
                 { "block": "simpledifficulty:purifiedwater" },
+	            { "block": "ice"},
                 { "block": "water" },
-                { "block": "flowing_water" },
-	            { "block": "ice"}
+                { "block": "flowing_water" }
             ]
         }
     }

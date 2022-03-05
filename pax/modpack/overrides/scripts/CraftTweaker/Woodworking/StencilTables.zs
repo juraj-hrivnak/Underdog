@@ -77,12 +77,8 @@ val ironNail = <contenttweaker:nail_iron>;
 for lumber, stencilTable in lumbersAndStencilTables {
 
 	recipes.addShaped(stencilTable,
-       [[woodenNail, <tconstruct:pattern>],
-        [woodenNail, lumber              ]]);
-
-	recipes.addShaped(stencilTable,
-       [[null    , <tconstruct:pattern>],
-        [ironNail, lumber              ]]);
+       [[<tconstruct:pattern>],
+        [lumber              ]]);
 
 }
 

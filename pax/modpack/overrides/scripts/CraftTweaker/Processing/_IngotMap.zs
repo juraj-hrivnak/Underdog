@@ -42,7 +42,7 @@ val ingotMap as IItemStack[][][IOreDictEntry] = {
 
 for oredict, item in ingotMap {
     for i in item[0] {
-        i.addTooltip(format.green(format.bold("Default ingot!")));
+        i.addShiftTooltip(format.green(format.bold("Default ingot!")));
     }
     for i in item[1] {
         oredict.remove(i);

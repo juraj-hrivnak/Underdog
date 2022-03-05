@@ -2,11 +2,10 @@
   // Hills preset by TeksturePako
   enabled: true
   replaceableBlocks: [ "air", "grass", "water" ]
-  blacklistBiomes: false
   biomes: {
     names: [
       biomesoplenty:crag
-      biomesoplenty:overgrown_cliffs
+      biomesoplenty:temperate_rainforest
     ]
     types: []
   }
@@ -26,7 +25,7 @@
       height: [ 5, 300 ]
       generators: {
         seed: 1
-        threshold: -0.65 // [Default: 0.8]
+        threshold: -0.57 // [Default: 0.8]
         frequency: -0.055 // [Default: -0.006]
         offset: 42 // [Default: -30]
         type: "Cellular" // [Default: ValueFractal]
@@ -42,9 +41,9 @@
         returnType: Distance3Div
         distFunc: Manhattan
         invert: false
-        interp: "Quintic" // [Default: Linear] - Both Hermite and Quintic works good
+        interp: "Hermite" // [Default: Linear] - Both Hermite and Quintic works good
         fractal: "RigidMulti" // [Default: RigidMulti]
-        stretch: 10 // [Default: 3] - Decrease to make floating island | Increase = more steep
+        stretch: 20 // [Default: 3] - Decrease to make floating island | Increase = more steep
       }
     } ]
   caveBlocks: [

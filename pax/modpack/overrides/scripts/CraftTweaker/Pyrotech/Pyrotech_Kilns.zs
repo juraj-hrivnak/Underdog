@@ -67,20 +67,24 @@ val nonPotteryItems as IIngredient[IItemStack] = {
     <pyrotech:material:22>      : <divergentunderground:rock_quark_limestone>           ,
     <pyrotech:slag_glass>       : <ore:slagHeap>                                        ,
 
+    // Cooking For Blockheads
+    <cookingforblockheads:recipe_book:1> : <minecraft:book>                             ,
+    <cookingforblockheads:recipe_book:1> : <cookingforblockheads:recipe_book>           ,
+
 };
 
 for output, input in potteryItems {
     furnace.remove(output, input);
     PitKiln.addRecipe(  "pit_kiln_"   + output.displayName, output, input, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
-    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 1200, 0.16,  [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
-    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 1200);
+    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 600, 0.16,  [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
+    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 600);
     MKSmelter.addRecipe(input, output);
 }
 
 for output, input in nonPotteryItems {
     furnace.remove(output, input);
     PitKiln.addRecipe(  "pitkiln_"    + output.displayName, output, input, 2400, 0.33, [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
-    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 1200, 0.16,  [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
-    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 1200);
+    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 600, 0.16,  [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
+    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 600);
     MKSmelter.addRecipe(input, output);
 }

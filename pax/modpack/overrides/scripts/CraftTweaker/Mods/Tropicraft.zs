@@ -1,6 +1,7 @@
+
+#modloaded tropicraft
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
-#modloaded tropicraft
 
 val pinacolada = {
     pineappleCubesCoconutChunk : <tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 10 as byte}, {IngredientID: 12 as byte}], Color: 15724527, DrinkID: 6 as byte}),
@@ -18,20 +19,19 @@ recipes.addShapeless(pinacolada.pineappleCoconutChunk, [<harvestcraft:pineapplei
 
 // Bongo drums
 recipes.remove(<tropicraft:bongo>);
-recipes.addShaped(<tropicraft:bongo>, [
-    [<ore:leather>],
-    [<ore:lumber>],
-    [<ore:lumber>]
-]);
+recipes.addShaped(<tropicraft:bongo>,
+   [[<ore:leather>],
+    [<ore:lumber> ],
+    [<ore:lumber> ]]);
+
 recipes.remove(<tropicraft:bongo:1>);
-recipes.addShaped(<tropicraft:bongo:1>, [
-    [<ore:leather>, <ore:leather>],
+recipes.addShaped(<tropicraft:bongo:1>,
+   [[<ore:leather>, <ore:leather>],
     [<ore:lumber>, <ore:lumber>],
-    [<ore:lumber>, <ore:lumber>]
-]);
+    [<ore:lumber>, <ore:lumber>]]);
+
 recipes.remove(<tropicraft:bongo:2>);
-recipes.addShaped(<tropicraft:bongo:2>, [
-    [<ore:leather>, <ore:leather>, <ore:leather>],
+recipes.addShaped(<tropicraft:bongo:2>,
+   [[<ore:leather>, <ore:leather>, <ore:leather>],
     [<ore:lumber>, <ore:lumber>, <ore:lumber>],
-    [<ore:lumber>, <ore:lumber>, <ore:lumber>]
-]);
+    [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);

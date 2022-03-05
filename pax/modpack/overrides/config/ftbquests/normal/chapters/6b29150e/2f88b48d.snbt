@@ -2,13 +2,14 @@
 	x: -1.0d,
 	y: -0.5d,
 	dependencies: [
-		"73aa05d5"
+		"3b8903a3"
 	],
+	hide: true,
 	tasks: [{
 		uid: "cf683b22",
 		type: "item",
 		items: [{
-			item: "cuisine:mortar"
+			item: "advancedmortars:mortar 1 1"
 		}]
 	}]
 }

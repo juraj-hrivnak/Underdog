@@ -1,0 +1,187 @@
+{
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:chaparral
+    ]
+  }
+  layers: [
+    [
+      {
+        state: minecraft:stone:3
+        height: [
+          0
+          30
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+      {
+        state: divergentunderground:diorite_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          55
+          30
+        ]
+        ceiling: {
+          seed: 1
+          dummy: true
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+    ]
+    [
+      {
+        state: quark:limestone
+        height: [
+          30
+          60
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+      {
+        state: divergentunderground:quark_limestone_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          55
+          60
+        ]
+        ceiling: {
+          seed: 1
+          dummy: true
+          cache: true
+          frequency: 0.007
+          range: [
+            0
+            14
+          ]
+        }
+      }
+    ]
+    [
+      {
+        state: quark:marble
+        height: [
+          65
+          90
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+      {
+        state: divergentunderground:quark_marble_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          65
+          90
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+      {
+        state: crocodilite:overgrown_marble
+        matchers: biomesoplenty:grass:1
+        height: [
+          65
+          90
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+    ]
+    [
+      {
+        state: minecraft:stone:5
+        height: [
+          90
+          120
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+      {
+        state: divergentunderground:andesite_cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          90
+          120
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+      {
+        state: crocodilite:overgrown_andesite
+        matchers: biomesoplenty:grass:1
+        height: [
+          90
+          120
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            20
+          ]
+        }
+      }
+    ]
+    ###########################################
+  ]
+}

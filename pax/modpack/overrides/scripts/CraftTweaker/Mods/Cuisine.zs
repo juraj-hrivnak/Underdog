@@ -1,3 +1,4 @@
+
 #modloaded cuisine
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
@@ -99,3 +100,5 @@ for basin, dye in basins {
   recipes.addShapeless(basin, [<cuisine:earthen_basin>, dye]);
 }
 
+// Bamboo compat
+<ore:bamboo>.add(<cuisine:bamboo>);

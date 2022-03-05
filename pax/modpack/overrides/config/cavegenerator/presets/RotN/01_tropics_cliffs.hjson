@@ -4,7 +4,13 @@
   replaceableBlocks: [ "air", "gravel", "water" ]
   blacklistBiomes: false
   biomes: {
-    names: []
+    names: [
+      minecraft:jungle
+      minecraft:jungle_hills
+      minecraft:jungle_edge
+      minecraft:mutated_jungle
+      minecraft:mutated_jungle_edge
+    ]
     types: []
   }
   caverns: [ {
@@ -46,13 +52,13 @@
       }
     } ]
   caveBlocks: [
-    { states: "grass", height: [ 0, 255 ] }
+    { states: "biomesoplenty:grass:1", height: [ 0, 255 ] }
   ]
   wallDecorators: [
     {
       states: stone
       directions: down
-      matchers: grass
+      matchers: biomesoplenty:grass:1
       height: [ 0, 255 ]
       placement: EMBED
       integrity: 1

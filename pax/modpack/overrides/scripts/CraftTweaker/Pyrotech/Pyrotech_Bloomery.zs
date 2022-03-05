@@ -108,6 +108,6 @@ val slags as IItemStack[][] = [
 ];
 
 for i in slags {
-    <ore:slag>.add(i[0]);
+    <ore:itemSlag>.add(i[0]);
     <ore:slagHeap>.add(i[1]);
 }

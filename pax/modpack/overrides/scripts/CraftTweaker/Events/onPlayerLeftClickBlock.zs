@@ -90,6 +90,7 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 
 		// Checking for the ~ ~ ~ block
 		if (event.blockState == <blockstate:contenttweaker:splitting_wedge>) {
+
 			event.damageItem(1);
 			event.player.setCooldown(event.player.currentItem, 10);
 
@@ -115,7 +116,8 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 
 		// Checking for the ~ ~ ~ block
 		if (event.blockState == <blockstate:contenttweaker:splitting_wedge_flint>) {
-			event.player.give(<pyrotech:material:10> * 3);
+
+			event.player.give(<pyrotech:material:10>);
 			event.damageItem(1);
 			event.player.setCooldown(event.player.currentItem, 10);
 

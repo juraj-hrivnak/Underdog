@@ -1,6 +1,11 @@
 {
   enabled: false
   replaceableBlocks: [
+    crocodilite:overgrown_marble
+    crocodilite:overgrown_limestone
+    crocodilite:overgrown_granite
+    crocodilite:overgrown_andesite
+    crocodilite:overgrown_diorite
     pyrotech:rock_grass
     pyrotech:rock:4
     pyrotech:rock:5
@@ -105,19 +110,19 @@
       dummy: true
       cache: true
     }
-    height: [ 0, 255 ]
+    height: [ -20, 255 ]
     // resolution: 16
     generators: [
       {
-        offset: 40
+        offset: 80
         seed: 1
         type: SimplexFractal
         fractal: FBM
         threshold: [
           -1
-          -0.55
+          -0.7
         ]
-        frequency: 0.0023
+        frequency: -0.004999999999999999
         stretch: 0.3
         octaves: 1
         lacunarity: 2.2
@@ -133,87 +138,16 @@
       }
     ]
   }
-  wallDecorators: [
-    {
-      states: biomesoplenty:ash_block
-      directions: all
-      matchers: [
-        pyrotech:rock_grass
-        pyrotech:rock:4
-        pyrotech:rock:5
-        simpledifficulty:saltwater
-        minecraft:water
-        simpledifficulty:purifiedwater
-        minecraft:gravel
-        minecraft:clay
-        biomesoplenty:ash_block
-        minecraft:grass
-        biomesoplenty:grass
-        biomesoplenty:grass:1
-        biomesoplenty:grass:2
-        biomesoplenty:grass:3
-        biomesoplenty:grass:4
-        biomesoplenty:grass:7
-        minecraft:end_stone
-        minecraft:stone:0
-        minecraft:stone:1
-        minecraft:stone:2
-        minecraft:stone:3
-        minecraft:stone:4
-        minecraft:stone:5
-        minecraft:stone:6
-        minecraft:stone:7
-        minecraft:cobblestone
-        divergentunderground:andesite_cobblestone
-        divergentunderground:diorite_cobblestone
-        divergentunderground:granite_cobblestone
-        divergentunderground:quark_limestone_cobblestone
-        divergentunderground:quark_marble_cobblestone
-        minecraft:red_sandstone
-        minecraft:sandstone
-        minecraft:sand:1
-        minecraft:sand
-        quark:limestone
-        quark:marble
-        quark:jasper
-        quark:slate
-        minecraft:dirt
-        minecraft:dirt:1
-        minecraft:dirt:2
-        biomesoplenty:dirt
-        biomesoplenty:dirt:1
-        biomesoplenty:dirt:2
-        biomesoplenty:dirt:3
-        biomesoplenty:dirt:4
-        biomesoplenty:dirt:5
-        biomesoplenty:dirt:6
-        biomesoplenty:dirt:7
-        biomesoplenty:dirt:8
-        biomesoplenty:dirt:9
-        biomesoplenty:dirt:10
-        minecraft:hardened_clay
-        minecraft:stained_hardened_clay:0
-        minecraft:stained_hardened_clay:1
-        minecraft:stained_hardened_clay:2
-        minecraft:stained_hardened_clay:3
-        minecraft:stained_hardened_clay:4
-        minecraft:stained_hardened_clay:5
-        minecraft:stained_hardened_clay:6
-        minecraft:stained_hardened_clay:7
-        minecraft:stained_hardened_clay:8
-        minecraft:stained_hardened_clay:9
-        minecraft:stained_hardened_clay:10
-        minecraft:stained_hardened_clay:11
-        minecraft:stained_hardened_clay:12
-        minecraft:stained_hardened_clay:13
-        minecraft:stained_hardened_clay:14
-        minecraft:stained_hardened_clay:15
-      ]
-      height: [ 0, 240 ]
-      placement: EMBED
-      integrity: 1
-    }
-  ]
+  // wallDecorators: [
+  //   {
+  //     states: stone
+  //     directions: all
+  //     matchers: $decorators
+  //     height: [ 0, 240 ]
+  //     placement: EMBED
+  //     integrity: 1
+  //   }
+  // ]
   // shell: {
   //   radius: 2
   //   sphereResolution: 2
@@ -235,35 +169,35 @@
   //     }
   //   ]
   // }
-  // caveBlocks: [
-  //   { states: "minecraft:stained_glass:4", height: [ 0, 255 ] }
-  // ]
-  // structures: [
-  //   {
-  //     name: meteor
-  //     height: [ 40, 200 ]
-  //     offset: [ 0, 1, 0 ]
-  //     matchers: [
-  //       biomesoplenty:ash_block
-  //     ]
-  //     directions: down
-  //     airChecks: [
-  //       [ 0, 1, 0 ]
-  //       [ 0, 2, 0 ]
-  //       [ 0, 3, 0 ]
-  //       [ 0, 4, 0 ]
-  //       [ 0, 5, 0 ]
-  //       [ 0, 6, 0 ]
-  //       [ 0, 7, 0 ]
-  //       [ 0, 8, 0 ]
-  //       [ 0, 9, 0 ]
-  //       [ 0, 10, 0 ]
-  //     ]
-  //     integrity: 1
-  //     count: 1
-  //     chance: 1
-  //     debugSpawns: true
-  //     checkSurface: false
-  //   }
-  // ]
+  caveBlocks: [
+    { states: "minecraft:water", height: [ 0, 62 ] }
+  ]
+  structures: [
+    {
+      name: meteor
+      height: [ 40, 200 ]
+      offset: [ 0, 1, 0 ]
+      matchers: [
+        biomesoplenty:ash_block
+      ]
+      directions: down
+      airChecks: [
+        [ 0, 1, 0 ]
+        [ 0, 2, 0 ]
+        [ 0, 3, 0 ]
+        [ 0, 4, 0 ]
+        [ 0, 5, 0 ]
+        [ 0, 6, 0 ]
+        [ 0, 7, 0 ]
+        [ 0, 8, 0 ]
+        [ 0, 9, 0 ]
+        [ 0, 10, 0 ]
+      ]
+      integrity: 1
+      count: 1
+      chance: 1
+      debugSpawns: true
+      checkSurface: false
+    }
+  ]
 }

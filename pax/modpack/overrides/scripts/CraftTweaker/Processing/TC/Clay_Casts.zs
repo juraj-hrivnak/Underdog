@@ -3,8 +3,11 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.liquid.ILiquidStack as ILiquidStack;
+import mods.contenttweaker.Commands;
 import mods.tconstruct.Casting as Casting;
 
+
+import scripts.CraftTweaker.Vanilla.Water.allWater;
 
 val clayCasts as IItemStack[IIngredient] = {
 
@@ -54,6 +57,10 @@ for part, cast in clayCasts {
 
     Casting.removeTableRecipe(cast);
 
-    recipes.addShapeless(cast, [<ore:sand>, part.reuse(), <ore:listAllwater>, <ore:clayball>]);
+    recipes.addShapeless(cast, [<ore:sand>, part.reuse(), allWater, <ore:clayball>], null,
+        function(out,cInfo,player) {
+            Commands.call("playsound minecraft:item.bucket.empty block @a[r=20] " + player.x + " " + player.y + " " + player.z, player, player.world);
+        }
+    );
 
 }

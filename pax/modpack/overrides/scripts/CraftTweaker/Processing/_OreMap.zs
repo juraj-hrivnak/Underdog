@@ -93,7 +93,7 @@ for oredict, item in oreMap {
 
     for i in item {
         rh(i);
-        i.addTooltip(format.red(format.bold("Block should be unused!")));
+        i.addShiftTooltip(format.red(format.bold("Block should be unused!")));
     }
 
     oredict.removeItems(richOres.values);

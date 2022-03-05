@@ -1,0 +1,832 @@
+{
+  enabled: false
+  // biomes: {
+  //   names: [
+  //     minecraft:jungle
+  //     minecraft:jungle_hills
+  //     minecraft:jungle_edge
+  //     minecraft:mutated_jungle
+  //     minecraft:mutated_jungle_edge
+  //   ]
+  // }
+  replaceDecorators: false
+  replaceableBlocks: [
+    air
+    grass
+  ]
+  caverns: {
+    height: [
+      -60
+      -60
+    ]
+    region: {
+      frequency: 0.015
+      threshold: 0.001
+    }
+    ceiling: {
+      seed: 1
+      cache: true
+      frequency: 0.04
+      range: [
+        -100
+        200
+      ]
+    }
+    floor: {
+      seed: 1
+      cache: true
+      frequency: 0.06
+      range: [
+        0
+        8
+      ]
+    }
+    generators: [
+      {
+        seed: 1
+        threshold: 0
+        frequency: 0
+        offset: 550
+        lacunarity: 0
+        octaves: 6
+        gain: 0.7
+        perturb: false
+        perturbAmp: 5
+        perturbFreq: 0.1
+        type: Cellular
+        jitterX: 0.45
+        jitterY: 1.25
+        jitterZ: 1.25
+        returnType: Distance3Add
+        distFunc: Natural
+        invert: true
+        interp: Quintic
+        fractal: RigidMulti
+        stretch: 10
+      }
+      {
+        seed: 1
+        threshold: -0.00010
+        frequency: -0.00055
+        offset: 550
+        lacunarity: 0.06999999999999999
+        octaves: 6
+        gain: 0.7
+        perturb: false
+        perturbAmp: 5
+        perturbFreq: 0.1
+        type: Cellular
+        jitterX: 0.45
+        jitterY: 1.25
+        jitterZ: 1.25
+        returnType: Distance3Add
+        distFunc: Natural
+        invert: true
+        interp: Quintic
+        fractal: RigidMulti
+        stretch: 10
+      }
+      {
+        seed: 1
+        threshold: -0.00020
+        frequency: -0.0011
+        offset: 550
+        lacunarity: 0.13999999999999999
+        octaves: 6
+        gain: 0.7
+        perturb: false
+        perturbAmp: 5
+        perturbFreq: 0.1
+        type: Cellular
+        jitterX: 0.45
+        jitterY: 1.25
+        jitterZ: 1.25
+        returnType: Distance3Add
+        distFunc: Natural
+        invert: true
+        interp: Quintic
+        fractal: RigidMulti
+        stretch: 10
+      }
+      {
+        seed: 1
+        threshold: -0.00030
+        frequency: -0.0016499999999999998
+        offset: 550
+        lacunarity: 0.21
+        octaves: 6
+        gain: 0.7
+        perturb: false
+        perturbAmp: 5
+        perturbFreq: 0.1
+        type: Cellular
+        jitterX: 0.45
+        jitterY: 1.25
+        jitterZ: 1.25
+        returnType: Distance3Add
+        distFunc: Natural
+        invert: true
+        interp: Quintic
+        fractal: RigidMulti
+        stretch: 10
+      }
+      {
+        seed: 1
+        threshold: -0.00040
+        frequency: -0.0022
+        offset: 550
+        lacunarity: 0.27999999999999997
+        octaves: 6
+        gain: 0.7
+        perturb: false
+        perturbAmp: 5
+        perturbFreq: 0.1
+        type: Cellular
+        jitterX: 0.45
+        jitterY: 1.25
+        jitterZ: 1.25
+        returnType: Distance3Add
+        distFunc: Natural
+        invert: true
+        interp: Quintic
+        fractal: RigidMulti
+        stretch: 10
+      }
+    ]
+  }
+  wallDecorators: [
+    [
+      {
+        placement: overlay
+        states: vine:1
+        directions: south
+        integrity: 0.1
+        height: [ 45, 255 ]
+      }
+      {
+        placement: overlay
+        states: vine:2
+        directions: west
+        integrity: 0.1
+        height: [ 45, 255 ]
+      }
+      {
+        placement: overlay
+        states: vine:4
+        directions: north
+        integrity: 0.1
+        height: [ 45, 255 ]
+      }
+      {
+        placement: overlay
+        states: vine:8
+        directions: east
+        integrity: 0.1
+        height: [ 45, 255 ]
+      }
+    ]
+    {
+      states: [
+        pyrotech:rock_grass
+        pyrotech:rock:4
+      ]
+      directions: down
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+        minecraft:end_stone
+        minecraft:stone:0
+        minecraft:stone:1
+        minecraft:stone:2
+        minecraft:stone:3
+        minecraft:stone:4
+        minecraft:stone:5
+        minecraft:stone:6
+        minecraft:stone:7
+        quark:limestone
+        quark:marble
+        quark:jasper
+        quark:slate
+      ]
+      height: [ 57, 240 ]
+      placement: OVERLAY
+      integrity: 0.1
+    }
+    {
+      states: pyrotech:rock:5
+      directions: down
+      matchers: [
+        minecraft:sandstone
+        minecraft:sand
+      ]
+      height: [ 57, 240 ]
+      placement: OVERLAY
+      integrity: 0.1
+    }
+    {
+      states: pyrotech:rock:9
+      directions: down
+      matchers: [
+        minecraft:red_sandstone
+        minecraft:sand:1
+      ]
+      height: [ 57, 240 ]
+      placement: OVERLAY
+      integrity: 0.1
+    }
+    ###########################################
+    // Sand / Sandstone fixage
+    {
+      states: minecraft:sandstone
+      directions: up
+      matchers: minecraft:sand
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:red_sandstone
+      directions: up
+      matchers: minecraft:sand:1
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    // Gravel / Stone fixage
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: minecraft:gravel
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    ###########################################
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: [
+        minecraft:dirt
+        minecraft:dirt:1
+        biomesoplenty:dirt
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:10
+      ]
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: [
+        minecraft:grass
+        minecraft:dirt:2
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+      ]
+      height: [ 40, 240 ]
+      placement: EMBED
+      integrity: 0.8
+    }
+    {
+      states: minecraft:stone
+      directions: all
+      matchers: minecraft:water
+      height: [ 47, 70 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:stone
+      directions: up
+      matchers: minecraft:clay
+      height: [ 0, 255 ]
+      placement: EMBED
+      integrity: 1
+    }
+    {
+      states: minecraft:stone
+      directions: side
+      matchers: minecraft:clay
+      height: [ 0, 255 ]
+      placement: EMBED
+      integrity: 1
+    }
+  ]
+  caveBlocks: [
+    {
+      states: stone
+      height: [
+        0
+        255
+      ]
+    }
+  ]
+  stalactites: [
+    {
+      state: minecraft:stone:3
+      # Type may be `stalactite`, `stalagmite`, or `speleothem`.
+      type: speleothem
+      # The width of this feature.
+      # Possible options are: `small`, `medium`, `large`, and `giant`.
+      size: giant
+      length: [ 4, 10 ]
+      chance: 0.067
+      height: [
+        10
+        70
+      ]
+      matchers: [
+        minecraft:stone:3
+      ]
+      region: {
+        frequency: 0.025
+        threshold: 0.425
+      }
+    }
+  ]
+  ponds: [
+    {
+      states: simpledifficulty:purifiedwater
+      integrity: 1
+      height: [ 44, 200 ]
+      depth: 2
+      matchers: [
+        clay
+        stone
+      ]
+    }
+  ]
+  shell: {
+    radius: 3
+    decorators: [
+      {
+        states: clay
+        height: [ 0, 225 ]
+        integrity: 0.8
+      }
+    ]
+  }
+  structures: [
+    {
+      name: oak_twiglet
+      height: [
+        40
+        70
+      ]
+      count: 6
+      chance: 0.25
+      offset: [
+        0
+        0
+        0
+      ]
+      directions: down
+      rotateRandomly: false
+      matchers: [
+        pyrotech:rock_grass
+        pyrotech:rock:4
+        pyrotech:rock:5
+        minecraft:gravel
+        minecraft:clay
+        biomesoplenty:ash_block
+        minecraft:grass
+        biomesoplenty:grass
+        biomesoplenty:grass:1
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+        minecraft:end_stone
+        minecraft:stone:0
+        minecraft:stone:1
+        minecraft:stone:2
+        minecraft:stone:3
+        minecraft:stone:4
+        minecraft:stone:5
+        minecraft:stone:6
+        minecraft:stone:7
+        minecraft:cobblestone
+        divergentunderground:andesite_cobblestone
+        divergentunderground:diorite_cobblestone
+        divergentunderground:granite_cobblestone
+        divergentunderground:quark_limestone_cobblestone
+        divergentunderground:quark_marble_cobblestone
+        crocodilite:overgrown_marble
+        crocodilite:overgrown_limestone
+        crocodilite:overgrown_granite
+        crocodilite:overgrown_andesite
+        crocodilite:overgrown_diorite
+        minecraft:red_sandstone
+        minecraft:sandstone
+        minecraft:sand:1
+        minecraft:sand
+        quark:limestone
+        quark:marble
+        quark:jasper
+        quark:slate
+        minecraft:dirt
+        minecraft:dirt:1
+        minecraft:dirt:2
+        biomesoplenty:dirt
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:3
+        biomesoplenty:dirt:4
+        biomesoplenty:dirt:5
+        biomesoplenty:dirt:6
+        biomesoplenty:dirt:7
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:10
+        minecraft:hardened_clay
+        minecraft:stained_hardened_clay:0
+        minecraft:stained_hardened_clay:1
+        minecraft:stained_hardened_clay:2
+        minecraft:stained_hardened_clay:3
+        minecraft:stained_hardened_clay:4
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:6
+        minecraft:stained_hardened_clay:7
+        minecraft:stained_hardened_clay:8
+        minecraft:stained_hardened_clay:9
+        minecraft:stained_hardened_clay:10
+        minecraft:stained_hardened_clay:11
+        minecraft:stained_hardened_clay:12
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:14
+        minecraft:stained_hardened_clay:15
+      ]
+      airChecks: [
+        [
+          1
+          1
+          1
+        ]
+        [
+          0
+          1
+          -1
+        ]
+        [
+          -1
+          1
+          0
+        ]
+        [
+          -1
+          1
+          -1
+        ]
+      ]
+    }
+    {
+      name: oak_twiglet
+      height: [
+        40
+        70
+      ]
+      count: 6
+      chance: 0.25
+      offset: [
+        0
+        0
+        0
+      ]
+      directions: down
+      rotateRandomly: false
+      matchers: [
+        pyrotech:rock_grass
+        pyrotech:rock:4
+        pyrotech:rock:5
+        minecraft:gravel
+        minecraft:clay
+        biomesoplenty:ash_block
+        minecraft:grass
+        biomesoplenty:grass
+        biomesoplenty:grass:1
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+        minecraft:end_stone
+        minecraft:stone:0
+        minecraft:stone:1
+        minecraft:stone:2
+        minecraft:stone:3
+        minecraft:stone:4
+        minecraft:stone:5
+        minecraft:stone:6
+        minecraft:stone:7
+        minecraft:cobblestone
+        divergentunderground:andesite_cobblestone
+        divergentunderground:diorite_cobblestone
+        divergentunderground:granite_cobblestone
+        divergentunderground:quark_limestone_cobblestone
+        divergentunderground:quark_marble_cobblestone
+        crocodilite:overgrown_marble
+        crocodilite:overgrown_limestone
+        crocodilite:overgrown_granite
+        crocodilite:overgrown_andesite
+        crocodilite:overgrown_diorite
+        minecraft:red_sandstone
+        minecraft:sandstone
+        minecraft:sand:1
+        minecraft:sand
+        quark:limestone
+        quark:marble
+        quark:jasper
+        quark:slate
+        minecraft:dirt
+        minecraft:dirt:1
+        minecraft:dirt:2
+        biomesoplenty:dirt
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:3
+        biomesoplenty:dirt:4
+        biomesoplenty:dirt:5
+        biomesoplenty:dirt:6
+        biomesoplenty:dirt:7
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:10
+        minecraft:hardened_clay
+        minecraft:stained_hardened_clay:0
+        minecraft:stained_hardened_clay:1
+        minecraft:stained_hardened_clay:2
+        minecraft:stained_hardened_clay:3
+        minecraft:stained_hardened_clay:4
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:6
+        minecraft:stained_hardened_clay:7
+        minecraft:stained_hardened_clay:8
+        minecraft:stained_hardened_clay:9
+        minecraft:stained_hardened_clay:10
+        minecraft:stained_hardened_clay:11
+        minecraft:stained_hardened_clay:12
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:14
+        minecraft:stained_hardened_clay:15
+      ]
+      airChecks: [
+        [
+          1
+          1
+          1
+        ]
+        [
+          0
+          1
+          -1
+        ]
+        [
+          -1
+          1
+          0
+        ]
+        [
+          -1
+          1
+          -1
+        ]
+      ]
+    }
+    {
+      name: oak_twiglet
+      height: [
+        40
+        70
+      ]
+      count: 6
+      chance: 0.25
+      offset: [
+        0
+        0
+        0
+      ]
+      directions: down
+      rotateRandomly: false
+      matchers: [
+        pyrotech:rock_grass
+        pyrotech:rock:4
+        pyrotech:rock:5
+        minecraft:gravel
+        minecraft:clay
+        biomesoplenty:ash_block
+        minecraft:grass
+        biomesoplenty:grass
+        biomesoplenty:grass:1
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+        minecraft:end_stone
+        minecraft:stone:0
+        minecraft:stone:1
+        minecraft:stone:2
+        minecraft:stone:3
+        minecraft:stone:4
+        minecraft:stone:5
+        minecraft:stone:6
+        minecraft:stone:7
+        minecraft:cobblestone
+        divergentunderground:andesite_cobblestone
+        divergentunderground:diorite_cobblestone
+        divergentunderground:granite_cobblestone
+        divergentunderground:quark_limestone_cobblestone
+        divergentunderground:quark_marble_cobblestone
+        crocodilite:overgrown_marble
+        crocodilite:overgrown_limestone
+        crocodilite:overgrown_granite
+        crocodilite:overgrown_andesite
+        crocodilite:overgrown_diorite
+        minecraft:red_sandstone
+        minecraft:sandstone
+        minecraft:sand:1
+        minecraft:sand
+        quark:limestone
+        quark:marble
+        quark:jasper
+        quark:slate
+        minecraft:dirt
+        minecraft:dirt:1
+        minecraft:dirt:2
+        biomesoplenty:dirt
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:3
+        biomesoplenty:dirt:4
+        biomesoplenty:dirt:5
+        biomesoplenty:dirt:6
+        biomesoplenty:dirt:7
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:10
+        minecraft:hardened_clay
+        minecraft:stained_hardened_clay:0
+        minecraft:stained_hardened_clay:1
+        minecraft:stained_hardened_clay:2
+        minecraft:stained_hardened_clay:3
+        minecraft:stained_hardened_clay:4
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:6
+        minecraft:stained_hardened_clay:7
+        minecraft:stained_hardened_clay:8
+        minecraft:stained_hardened_clay:9
+        minecraft:stained_hardened_clay:10
+        minecraft:stained_hardened_clay:11
+        minecraft:stained_hardened_clay:12
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:14
+        minecraft:stained_hardened_clay:15
+      ]
+      airChecks: [
+        [
+          1
+          1
+          1
+        ]
+        [
+          0
+          1
+          -1
+        ]
+        [
+          -1
+          1
+          0
+        ]
+        [
+          -1
+          1
+          -1
+        ]
+      ]
+    }
+    {
+      name: oak_twiglet
+      height: [
+        40
+        70
+      ]
+      count: 6
+      chance: 0.25
+      offset: [
+        0
+        0
+        0
+      ]
+      directions: down
+      rotateRandomly: false
+      matchers: [
+        pyrotech:rock_grass
+        pyrotech:rock:4
+        pyrotech:rock:5
+        minecraft:gravel
+        minecraft:clay
+        biomesoplenty:ash_block
+        minecraft:grass
+        biomesoplenty:grass
+        biomesoplenty:grass:1
+        biomesoplenty:grass:2
+        biomesoplenty:grass:3
+        biomesoplenty:grass:4
+        biomesoplenty:grass:7
+        minecraft:end_stone
+        minecraft:stone:0
+        minecraft:stone:1
+        minecraft:stone:2
+        minecraft:stone:3
+        minecraft:stone:4
+        minecraft:stone:5
+        minecraft:stone:6
+        minecraft:stone:7
+        minecraft:cobblestone
+        divergentunderground:andesite_cobblestone
+        divergentunderground:diorite_cobblestone
+        divergentunderground:granite_cobblestone
+        divergentunderground:quark_limestone_cobblestone
+        divergentunderground:quark_marble_cobblestone
+        crocodilite:overgrown_marble
+        crocodilite:overgrown_limestone
+        crocodilite:overgrown_granite
+        crocodilite:overgrown_andesite
+        crocodilite:overgrown_diorite
+        minecraft:red_sandstone
+        minecraft:sandstone
+        minecraft:sand:1
+        minecraft:sand
+        quark:limestone
+        quark:marble
+        quark:jasper
+        quark:slate
+        minecraft:dirt
+        minecraft:dirt:1
+        minecraft:dirt:2
+        biomesoplenty:dirt
+        biomesoplenty:dirt:1
+        biomesoplenty:dirt:2
+        biomesoplenty:dirt:3
+        biomesoplenty:dirt:4
+        biomesoplenty:dirt:5
+        biomesoplenty:dirt:6
+        biomesoplenty:dirt:7
+        biomesoplenty:dirt:8
+        biomesoplenty:dirt:9
+        biomesoplenty:dirt:10
+        minecraft:hardened_clay
+        minecraft:stained_hardened_clay:0
+        minecraft:stained_hardened_clay:1
+        minecraft:stained_hardened_clay:2
+        minecraft:stained_hardened_clay:3
+        minecraft:stained_hardened_clay:4
+        minecraft:stained_hardened_clay:5
+        minecraft:stained_hardened_clay:6
+        minecraft:stained_hardened_clay:7
+        minecraft:stained_hardened_clay:8
+        minecraft:stained_hardened_clay:9
+        minecraft:stained_hardened_clay:10
+        minecraft:stained_hardened_clay:11
+        minecraft:stained_hardened_clay:12
+        minecraft:stained_hardened_clay:13
+        minecraft:stained_hardened_clay:14
+        minecraft:stained_hardened_clay:15
+      ]
+      airChecks: [
+        [
+          1
+          1
+          1
+        ]
+        [
+          0
+          1
+          -1
+        ]
+        [
+          -1
+          1
+          0
+        ]
+        [
+          -1
+          1
+          -1
+        ]
+      ]
+    }
+  ]
+}

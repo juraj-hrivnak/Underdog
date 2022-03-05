@@ -35,7 +35,7 @@ val nuggetMap as IItemStack[][][IOreDictEntry] = {
 
 for oredict, item in nuggetMap {
     for i in item[0] {
-        i.addTooltip(format.green(format.bold("Default nugget!")));
+        i.addShiftTooltip(format.green(format.bold("Default nugget!")));
         recipes.remove(i);
         recipes.addShapeless(i * 9, item[2]);
     }

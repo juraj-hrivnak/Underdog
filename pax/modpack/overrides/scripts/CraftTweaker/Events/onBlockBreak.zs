@@ -94,7 +94,7 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
         <blockstate:dynamictreesforestry:poplarbranch:radius=7>         : <blockstate:pyrotech:chopping_block>,
         <blockstate:rustic:olivebranch:radius=7>                        : <blockstate:pyrotech:chopping_block>,
         <blockstate:rustic:ironwoodbranch:radius=7>                     : <blockstate:pyrotech:chopping_block>,
-    } as IBlockState[IBlockState];
+    };
 
     if ((blockBreakTransforms.keySet has event.blockState) &&
         (event.world.getBlockState(event.position.getOffset(IFacing.down, 1)) != <blockstate:minecraft:air>)) {

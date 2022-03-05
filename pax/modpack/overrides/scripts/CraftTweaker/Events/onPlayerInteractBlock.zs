@@ -14,7 +14,8 @@ import crafttweaker.item.IMutableItemStack;
 import mods.zenutils.DelayManager;
 import mods.contenttweaker.Commands;
 
-var mill as bool[] = [false];
+
+val mill as bool[] = [false];
 
 events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {
 	if (isNull(event.world) || event.world.isRemote()) {
@@ -63,4 +64,36 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		mill[0] = true;
 	}
 
+
+	// Lever
+	val levers as bool[IBlockState] = {
+		<blockstate:minecraft:lever:facing=up_x,powered=true> 		: true	,
+		<blockstate:minecraft:lever:facing=up_z,powered=true> 		: true	,
+		<blockstate:minecraft:lever:facing=down_x,powered=true> 	: true	,
+		<blockstate:minecraft:lever:facing=down_z,powered=true> 	: true	,
+		<blockstate:minecraft:lever:facing=west,powered=true> 		: true	,
+		<blockstate:minecraft:lever:facing=north,powered=true> 		: true	,
+		<blockstate:minecraft:lever:facing=east,powered=true> 		: true	,
+		<blockstate:minecraft:lever:facing=south,powered=true> 		: true	,
+
+		<blockstate:minecraft:lever:facing=up_x,powered=false> 		: false	,
+		<blockstate:minecraft:lever:facing=up_z,powered=false> 		: false	,
+		<blockstate:minecraft:lever:facing=down_x,powered=false> 	: false	,
+		<blockstate:minecraft:lever:facing=down_z,powered=false> 	: false	,
+		<blockstate:minecraft:lever:facing=west,powered=false> 		: false	,
+		<blockstate:minecraft:lever:facing=north,powered=false> 	: false	,
+		<blockstate:minecraft:lever:facing=east,powered=false> 		: false	,
+		<blockstate:minecraft:lever:facing=south,powered=false> 	: false
+	};
+	if (levers.keySet has event.blockState) {
+		if (levers[event.blockState] == true) {
+			Commands.call("playsound breaker_off block @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+		} else {
+			Commands.call("playsound breaker_on block @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+		}
+	}
+
+
+	// // Secret
+	// Commands.call("playsound custom.secret master @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 });

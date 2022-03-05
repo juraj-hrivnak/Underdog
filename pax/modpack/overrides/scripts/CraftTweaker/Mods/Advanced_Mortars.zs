@@ -1,13 +1,13 @@
-#modloaded pyrotech
+
+#modloaded advancedmortars
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.advancedmortars.Mortar;
 
-
-Mortar.addRecipe(["iron", "stone"], <cuisine:food:4>, 4, [<ore:cropRice>]);
-Mortar.addRecipe(["iron", "stone"], <cuisine:material:2>, 4, [<ore:dustCrudesalt>]);
+Mortar.addRecipe(["stone"], <cuisine:food:4>, 4, [<ore:cropRice>]);
+Mortar.addRecipe(["stone"], <cuisine:material:2>, 4, [<ore:dustCrudesalt>]);
 
 val paste as string[][IIngredient] = {
     <ore:cropBellpepper>                : ["red_pepper"             , ""                    ],
@@ -64,7 +64,7 @@ val paste as string[][IIngredient] = {
     <ore:cropLeek>                      : ["leek"                   , ""                    ],
     <minecraft:apple>                   : ["apple"                  , ""                    ],
     <ore:cropCabbage>                   : ["chinese_cabbage"        , ""                    ],
-    <harvestcraft:seaweeditem>          : ["seaweed"                , ""                    ],
+    <ore:cropSeaweed>                   : ["seaweed"                , ""                    ],
     <harvestcraft:okraitem>             : ["okra"                   , ""                    ],
     <ore:cropEggplant>                  : ["eggplant"               , ""                    ],
     <ore:listAllporkraw>                : ["pork"                   , ""                    ],
@@ -85,7 +85,6 @@ for input, output in paste {
     }), 2, [input]);
 
 }
-
 
 val mortars = [
     <advancedmortars:mortar>,

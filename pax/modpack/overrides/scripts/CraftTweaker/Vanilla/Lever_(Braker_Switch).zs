@@ -7,6 +7,5 @@ import mods.jei.JEI.removeAndHide as rh;
 
 recipes.remove(<minecraft:lever>);
 recipes.addShapedMirrored(<minecraft:lever>,
-    [[<ore:ingotTin>, <minecraft:stick>],
-    [<minecraft:stick>, <ore:plateIron>]]
-);
+   [[<ore:ingotTin>, <minecraft:stick>],
+    [<minecraft:stick>, <ore:plateIron>]]);

@@ -20,6 +20,7 @@ val liquidsAndOres as ILiquidStack[IOreDictEntry] = {
 
     // Blocks
     <ore:blockGlass>        : <liquid:glass>          * 1000  ,
+    <ore:paneGlass>         : <liquid:glass>          * 375   ,
     <ore:cobblestone>       : <liquid:lava>           * 250   ,
     <ore:obsidian>          : <liquid:obsidian>       * 288   ,
 

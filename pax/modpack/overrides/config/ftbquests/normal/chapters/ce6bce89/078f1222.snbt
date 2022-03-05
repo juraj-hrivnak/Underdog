@@ -1,6 +1,10 @@
 {
 	x: -1.5d,
 	y: 5.0d,
+	text: [
+		"&rTask:",
+		"&7Make a shovel."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"a63cf0b2"

@@ -2,7 +2,7 @@
   imports: [
     common_values.hjson::NATURAL_STONE
   ]
-  enabled: true
+  enabled: false
   replaceableBlocks: $NATURAL_STONE
   biomes: {
     names: [

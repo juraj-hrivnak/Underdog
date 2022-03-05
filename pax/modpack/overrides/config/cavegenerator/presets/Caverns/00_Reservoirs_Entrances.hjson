@@ -27,6 +27,11 @@
       biomesoplenty:white_beach
       biomesoplenty:coral_reef
       biomesoplenty:kelp_forest
+      minecraft:jungle
+      minecraft:jungle_hills
+      minecraft:jungle_edge
+      minecraft:mutated_jungle
+      minecraft:mutated_jungle_edge
     ]
     types: [
       MOUNTAIN
@@ -64,10 +69,7 @@
   caveBlocks: [
     {
       states: minecraft:water
-      height: [
-        0
-        26
-      ]
+      height: [ 0, 26 ]
     }
   ]
   ponds: [

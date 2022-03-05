@@ -1,0 +1,103 @@
+{
+  imports: [
+    common_values.hjson::NATURAL_STONE
+  ]
+  variables: {
+    COMMON_CEILING: {
+      seed: 1
+      cache: true
+      frequency: 0.04 // "1" makes basalt comulns
+      range: [ -100, 200 ]
+    }
+    COMMON_FLOOR: {
+      seed: 1
+      cache: true
+      frequency: 0.06
+      range: [ 0, 8 ]
+    }
+    cave(): {
+      seed: 1
+      /*
+        Default:
+          threshold: -0.001 * @1
+          frequency: 0.0055 * (@1 * -1)
+      */
+      threshold: -0.1 * @1
+      frequency: 0.0055 * (@1 * -1)
+      offset: 550
+      lacunarity: 0.7 * @1
+      octaves: 6 // [Default: 6]
+      gain: 0.7
+      perturb: false
+      // [Default: 5] You can mess around with this
+      perturbAmp: 5 * @1
+      perturbFreq: 0.1 // [Default: 0.1] You can mess around with this
+      type: Cellular
+      jitterX: 0.45 * @1
+      jitterY: 1.25 * @1
+      jitterZ: 1.25 * @1
+      returnType: Distance3Add
+      distFunc: Natural
+      invert: true
+      interp: Quintic
+      fractal: RigidMulti
+      stretch: 10
+    }
+  }
+  enabled: true
+  biomes: {
+    names: [
+      biomesoplenty:overgrown_cliffs
+    ]
+  }
+  replaceDecorators: false
+  replaceableBlocks: [
+    air
+    grass
+    water
+  ]
+  caverns: {
+    height: [
+      -60
+      -30
+    ]
+    region: {
+      frequency: 0.015
+      threshold: 0.001
+    }
+    ceiling: $COMMON_CEILING
+    floor: $COMMON_FLOOR
+    generators: [
+      $cave(0)
+      $cave(0.1)
+      $cave(0.2)
+      $cave(0.3)
+      $cave(0.4)
+      $cave(0.5)
+      $cave(0.6)
+      $cave(0.7)
+      $cave(0.8)
+      $cave(0.9)
+      $cave(1.0)
+    ]
+  }
+  wallDecorators: [
+    {
+      states: stone
+      directions: down
+      matchers: biomesoplenty:grass:1
+      height: [ 0, 240 ]
+      placement: EMBED
+      integrity: 1
+    }
+  ]
+  caveBlocks: [
+    {
+      states: biomesoplenty:grass:1
+      height: [
+        0
+        255
+      ]
+    }
+  ]
+}

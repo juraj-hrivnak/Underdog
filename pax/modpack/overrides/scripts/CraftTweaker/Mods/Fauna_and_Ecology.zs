@@ -1,3 +1,4 @@
+
 #modloaded faunaandecology
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
@@ -7,30 +8,30 @@ import crafttweaker.oredict.IOreDictEntry;
 <ore:slimeball>.add(<faunaandecology:resin>);
 <ore:slimeballMagma>.add(<faunaandecology:resin>);
 
-recipes.addShaped(<faunaandecology:knife_wood>, [
-    [ null, <ore:plankWood>],
-    [<ore:stickWood>, null]
-]);
-recipes.addShaped(<faunaandecology:knife_stone>, [
-    [ null, <ore:rocks>],
-    [<ore:stickWood>, null]
-]);
-recipes.addShaped(<faunaandecology:knife_iron>, [
-    [ null, <ore:ingotIron>],
-    [<ore:stickWood>, null]
-]);
-recipes.addShaped(<faunaandecology:knife_gold>, [
-    [ null, <ore:ingotGold>],
-    [<ore:stickWood>, null]
-]);
-recipes.addShaped(<faunaandecology:knife_diamond>, [
-    [ null, <ore:gemDiamond>],
-    [<ore:stickWood>, null]
-]);
-recipes.addShaped(<faunaandecology:knife_flint>, [
-    [ null, <minecraft:flint>],
-    [<ore:stickWood>, null]
-]);
+recipes.addShaped(<faunaandecology:knife_wood>,
+   [[null           , <ore:plankWood> ],
+    [<ore:stickWood>, null            ]]);
+
+recipes.addShaped(<faunaandecology:knife_stone>,
+   [[null           , <ore:rocks> ],
+    [<ore:stickWood>, null        ]]);
+
+recipes.addShaped(<faunaandecology:knife_iron>,
+   [[null           , <ore:ingotIron> ],
+    [<ore:stickWood>, null            ]]);
+
+recipes.addShaped(<faunaandecology:knife_gold>,
+   [[null           , <ore:ingotGold> ],
+    [<ore:stickWood>, null            ]]);
+
+recipes.addShaped(<faunaandecology:knife_diamond>,
+   [[null           , <ore:gemDiamond> ],
+    [<ore:stickWood>, null             ]]);
+
+recipes.addShaped(<faunaandecology:knife_flint>,
+   [[null           , <minecraft:flint> ],
+    [<ore:stickWood>, null              ]]);
+
 
 //Bone Shards recipes
 recipes.removeShaped(<faunaandecology:shards_bone>);

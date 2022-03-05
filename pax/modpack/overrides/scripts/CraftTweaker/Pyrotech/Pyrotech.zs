@@ -94,17 +94,12 @@ Dropt.list("torch")
 <ore:listAllmilk>.add(<pyrotech:bucket_wood:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_stone:1>);
 
-// Water compat
-<ore:listAllwater>.add(<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water"}}, true));
-<ore:listAllwater>.add(<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "water"}}, true));
-<ore:listAllwater>.add(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "water"}}, true));
-
 // Wood Pile
 recipes.remove(<pyrotech:log_pile>);
 recipes.addShaped(<pyrotech:log_pile>,
-   [[<ore:firewood>, <ore:firewood>, <ore:firewood>],
-    [<ore:firewood>, <ore:firewood>, <ore:firewood>],
-    [<ore:firewood>, <ore:firewood>, <ore:firewood>]]);
+   [[<ore:firewood>, <ore:firewood>, <ore:firewood> ],
+    [<ore:firewood>, <ore:firewood>, <ore:firewood> ],
+    [<ore:firewood>, <ore:firewood>, <ore:firewood> ]]);
 furnace.setFuel(<pyrotech:log_pile>, 480);
 
 // Masonry Brick
@@ -196,6 +191,13 @@ recipes.addShaped(<pyrotech:soaking_pot>,
     [masonryBrick , clayLump    , masonryBrick  ],
     [<ore:lumber> , masonryBrick, <ore:lumber>  ]]);
 
+// Compacting Bin
+recipes.remove(<pyrotech:compacting_bin>);
+recipes.addShaped(<pyrotech:compacting_bin>,
+   [[masonryBrick , <ore:lumber>, masonryBrick  ],
+    [<ore:lumber> , null        , <ore:lumber>  ],
+    [masonryBrick , <ore:lumber>, masonryBrick  ]]);
+
 // Bellows
 recipes.remove(<pyrotech:bellows>);
 recipes.addShaped(<pyrotech:bellows>,
@@ -265,57 +267,57 @@ val treatLumber = <contenttweaker:treated_wood_lumber>;
 
 // Durable Shelf
 recipes.addShaped(<pyrotech:shelf_stone> * 2,
-   [[masonryBrick , treatLumber     , masonryBrick  ],
-    [treatLumber  , <pyrotech:shelf>, treatLumber   ],
-    [masonryBrick , treatLumber     , masonryBrick  ]]);
+   [[masonryBrick, treatLumber     , masonryBrick  ],
+    [treatLumber , <pyrotech:shelf>, treatLumber   ],
+    [masonryBrick, treatLumber     , masonryBrick  ]]);
 
 // Durable Stash
 recipes.addShaped(<pyrotech:stash_stone> * 2,
-   [[masonryBrick , treatLumber     , masonryBrick  ],
-    [treatLumber  , <pyrotech:stash>, treatLumber   ],
-    [masonryBrick , treatLumber     , masonryBrick  ]]);
+   [[masonryBrick, treatLumber     , masonryBrick  ],
+    [treatLumber , <pyrotech:stash>, treatLumber   ],
+    [masonryBrick, treatLumber     , masonryBrick  ]]);
 
 // Durable Crate
 recipes.addShaped(<pyrotech:crate_stone> * 2,
-   [[masonryBrick , treatLumber     , masonryBrick  ],
-    [treatLumber  , <pyrotech:crate>, treatLumber   ],
-    [masonryBrick , treatLumber     , masonryBrick  ]]);
+   [[masonryBrick, treatLumber     , masonryBrick  ],
+    [treatLumber , <pyrotech:crate>, treatLumber   ],
+    [masonryBrick, treatLumber     , masonryBrick  ]]);
 
 // Mechanical Hopper
 recipes.addShaped(<pyrotech:mechanical_hopper>,
-   [[masonryBrick , null            , masonryBrick  ],
-    [treatLumber  , <ore:rodStone>  , treatLumber   ],
-    [null         , masonryBrick     , null         ]]);
+   [[masonryBrick, null            , masonryBrick  ],
+    [treatLumber , <ore:rodStone>  , treatLumber   ],
+    [null        , masonryBrick     , null         ]]);
 
 // Mechanical Bellows
 recipes.addShaped(<pyrotech:mechanical_bellows>,
-   [[treatLumber    , <minecraft:piston>, treatLumber   ],
-    [<ore:rodStone> , <pyrotech:bellows>, <ore:rodStone>],
-    [treatLumber    , null              , treatLumber   ]]);
+   [[treatLumber   , <minecraft:piston>, treatLumber    ],
+    [<ore:rodStone>, <pyrotech:bellows>, <ore:rodStone> ],
+    [treatLumber   , null              , treatLumber    ]]);
 
 // Mechanical Compacting Bin
 recipes.addShapedMirrored(<pyrotech:mechanical_compacting_bin>,
-   [[masonryBrick                   , treatLumber   , masonryBrick      ],
-    [<pyrotech:mechanical_hopper>   , null          , <minecraft:piston>],
-    [masonryBrick                   , treatLumber   , masonryBrick      ]]);
+   [[masonryBrick                , treatLumber, masonryBrick       ],
+    [<pyrotech:mechanical_hopper>, null       , <minecraft:piston> ],
+    [masonryBrick                , treatLumber, masonryBrick       ]]);
 
 // Mechanical Mulch Spreader
 recipes.addShaped(<pyrotech:mechanical_mulch_spreader>,
-   [[masonryBrick                   , treatLumber   , masonryBrick                  ],
-    [<pyrotech:mechanical_hopper>   , null          , <pyrotech:mechanical_hopper>  ],
-    [masonryBrick                   , treatLumber   , masonryBrick                  ]]);
+   [[masonryBrick                , treatLumber, masonryBrick                 ],
+    [<pyrotech:mechanical_hopper>, null       , <pyrotech:mechanical_hopper> ],
+    [masonryBrick                , treatLumber, masonryBrick                 ]]);
 
 
 // Drying Rack
 recipes.remove(<pyrotech:drying_rack:1>);
 recipes.addShaped(<pyrotech:drying_rack:1>,
-   [[<ore:stickWood>    , <ore:stickWood>   , <ore:stickWood>   ],
-    [<ore:lumber>       , null              , <ore:lumber>      ],
-    [<ore:stickWood>    , null              , <ore:stickWood>   ]]);
+   [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood> ],
+    [<ore:lumber>   , null           , <ore:lumber>    ],
+    [<ore:stickWood>, null           , <ore:stickWood> ]]);
 
 // Composting Bin
 recipes.remove(<pyrotech:compost_bin>);
 recipes.addShaped(<pyrotech:compost_bin>,
-   [[<ore:stickWood>    , null              , <ore:stickWood>   ],
-    [<ore:stickWood>    , <ore:stickWood>   , <ore:stickWood>   ],
-    [<ore:lumber>       , null              , <ore:lumber>      ]]);
+   [[<ore:stickWood>, null           , <ore:stickWood> ],
+    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood> ],
+    [<ore:lumber>   , null           , <ore:lumber>    ]]);
