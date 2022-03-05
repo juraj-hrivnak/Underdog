@@ -3,11 +3,30 @@
 	<a href="https://www.curseforge.com/minecraft/modpacks/underdog"><img src="http://cf.way2muchnoise.eu/399664.svg" alt="CF"></a><br><br>
 </p>
 
-A realistic survival/  tech/ exploration modpack
+# About
+Underdog is a modpack for Minecraft Java Edition that makes the game realistic in every possible way.
 
-> Fully playable releases are available on curseforge!
-> [here](https://www.curseforge.com/minecraft/modpacks/underdog)
+- Fully playable releases are available on curseforge! [here](https://www.curseforge.com/minecraft/modpacks/underdog)
+
+***
+
+# Development
+For the set-up guide, please head over to the [`CONTRIBUTING.md`](Underdog/CONTRIBUTING.md).  
+
+Knowledge of [Git] is required.  
+If installing/removing/updating mods, knowledge of [Pax] is required.
+
+Also, after setting up the pack, take a look into the [`pax`](pax) folder.  
+That folder contains all the development tools required when exporting the pack.
 
 
 <p align="center"><img src="https://raw.githubusercontent.com/juraj-hrivnak/Underdog/main/.github/border.png" alt="Logo" width="4000">
 </p>
+
+
+
+<!-- Links: -->
+[Git]: https://git-scm.com/
+[Pax]: https://github.com/froehlichA/pax
+[ModPackDownloader]: https://github.com/Nincraft/ModPackDownloader
+[CurseForge]: https://www.curseforge.com/minecraft/modpacks/underdog2
