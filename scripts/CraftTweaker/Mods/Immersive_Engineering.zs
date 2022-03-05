@@ -7,6 +7,8 @@ import mods.jei.JEI.hide as h;
 import mods.immersiveengineering.Fermenter as Fermenter;
 import mods.immersiveengineering.Squeezer as Squeezer;
 
+import scripts.CraftTweaker.Vanilla.Water.allWater;
+
 // // Treated Wood Crate
 // recipes.removeShaped(<immersiveengineering:wooden_device0>);
 // recipes.addShapedMirrored(<immersiveengineering:wooden_device0>, [
@@ -71,9 +73,9 @@ h(<immersiveengineering:material:7>);
 // Concrete
 recipes.remove(<immersiveengineering:stone_decoration:5>);
 recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12,
-   [[<ore:itemSlag>, <ore:clay>        , <ore:itemSlag> ],
-    [<ore:gravel>  , <ore:listAllwater>, <ore:gravel>   ],
-    [<ore:itemSlag>, <ore:clay>        , <ore:itemSlag> ]]);
+   [[<ore:itemSlag>, <ore:clay>, <ore:itemSlag> ],
+    [<ore:gravel>  , allWater  , <ore:gravel>   ],
+    [<ore:itemSlag>, <ore:clay>, <ore:itemSlag> ]]);
 
 
 ///////////////////////////////////////
@@ -90,6 +92,7 @@ recipes.addShaped(<immersiveengineering:stone_decoration:5> * 12,
 //     unpacking : <immersiveengineering:mold:7>
 // } as IItemStack[string];
 
+
 // Pam's HarvestCraft crops now create ethanol
 val ethanol = <liquid:ethanol>;
 Fermenter.addRecipe(null, ethanol * 80, <ore:listAllveggie>, 80);
@@ -100,7 +103,7 @@ Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
 Squeezer.addRecipe(<immersiveengineering:material:18>, null, <ore:dustCoke> * 8, 80);
 
 // Seed oil Pam's HarvestCraft compat
-Squeezer.addRecipe(null, <liquid:plantoil> * 80, <ore:listAllseed> * 8, 80);
+Squeezer.addRecipe(null, <liquid:plantoil> * 80, <ore:listAllseed>, 80);
 Squeezer.removeByInput(<minecraft:wheat_seeds>);
 Squeezer.removeByInput(<minecraft:pumpkin_seeds>);
 Squeezer.removeByInput(<minecraft:melon_seeds>);
