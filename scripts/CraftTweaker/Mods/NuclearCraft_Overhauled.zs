@@ -9,8 +9,6 @@ import mods.nuclearcraft.AlloyFurnace as alloyFurnace;
 alloyFurnace.removeRecipeWithOutput(<ore:blockSteel>);
 alloyFurnace.removeRecipeWithOutput(<ore:ingotSteel>);
 
-
-
 // Decay Generator fix
 recipes.remove(<nuclearcraft:decay_generator>);
 recipes.addShaped("decay_generator_fixed", <nuclearcraft:decay_generator>, [

@@ -94,11 +94,6 @@ Dropt.list("torch")
 <ore:listAllmilk>.add(<pyrotech:bucket_wood:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_stone:1>);
 
-// Water compat
-<ore:listAllwater>.add(<pyrotech:bucket_clay>.withTag({fluids: {FluidName: "water"}}, true));
-<ore:listAllwater>.add(<pyrotech:bucket_wood>.withTag({fluids: {FluidName: "water"}}, true));
-<ore:listAllwater>.add(<pyrotech:bucket_stone>.withTag({fluids: {FluidName: "water"}}, true));
-
 // Wood Pile
 recipes.remove(<pyrotech:log_pile>);
 recipes.addShaped(<pyrotech:log_pile>,
@@ -195,6 +190,13 @@ recipes.addShaped(<pyrotech:soaking_pot>,
    [[<ore:lumber> , masonryBrick, <ore:lumber>  ],
     [masonryBrick , clayLump    , masonryBrick  ],
     [<ore:lumber> , masonryBrick, <ore:lumber>  ]]);
+
+// Compacting Bin
+recipes.remove(<pyrotech:compacting_bin>);
+recipes.addShaped(<pyrotech:compacting_bin>,
+   [[masonryBrick , <ore:lumber>, masonryBrick  ],
+    [<ore:lumber> , null        , <ore:lumber>  ],
+    [masonryBrick , <ore:lumber>, masonryBrick  ]]);
 
 // Bellows
 recipes.remove(<pyrotech:bellows>);
