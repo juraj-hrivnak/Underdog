@@ -11,7 +11,7 @@ Underdog is a modpack for Minecraft Java Edition that makes the game realistic i
 ***
 
 # Development
-For the set-up guide, please head over to the [`CONTRIBUTING.md`](Underdog/CONTRIBUTING.md).  
+For the set-up guide, please head over to the [`CONTRIBUTING.md`](CONTRIBUTING.md).  
 
 Knowledge of [Git] is required.  
 If installing/removing/updating mods, knowledge of [Pax] is required.
