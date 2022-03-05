@@ -1,22 +1,19 @@
 
-# Syncing mods
-To sync the mods with the ones that are writen in the manifest.json, run `sync_mods.bat`.
+## Syncing mods
+To sync the mods with the ones that are written in the manifest.json, run the `syncmods.bat` (Windows) or `syncmods.sh` (Linux/MacOS) script.
 
-# Syncing overrides
-Everyting that is not writen in the manifest.json is an override. (For example: configs, scrips, resources)
-To copy the overides you changed to the pax/modpack/overides folder, run `sync_overrides.bat`.
+## Syncing overrides
+Everything that is not written in the manifest.json is an override. (For example configs, scripts, resources)  
+To copy the overrides you changed to the pax/modpack/overrides folder, run the `sync_overrides.bat` (Windows) or `sync_overrides.sh` (Linux/MacOS) script.
 
+## Pax usage
+Use pax using cmd or terminal.
+To see how [PAX] works it's recommended to go check out its wiki: [here](https://github.com/froehlichA/pax/wiki)
 
+### Locating pax folder
+To tocate the pax folder on your computer, use `./cd` to do that.
 
-# Pax usage
-Use pax using command like or terminal.
-To see how [Pax] works it's recommended to go checkout its wiki: [here](https://github.com/froehlichA/pax/wiki)
-
-## Locating pax folder
-Locate the pax folder in your computer.
-On both Windows and Linux you can use `cd` to do that.
-
-### Examples:
+#### Examples:
 ```cmd
 Windows:
 $ cd .\minecraft\pax
@@ -26,4 +23,5 @@ $ cd ./minecraft/pax
 ```
 
 <!-- Links: -->
-[Pax]: https://github.com/froehlichA/pax
+[Git]: https://git-scm.com/
+[PAX]: https://github.com/froehlichA/pax
