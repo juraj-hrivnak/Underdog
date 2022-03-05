@@ -4,9 +4,8 @@
 </p>
 
 # About
-Underdog is a modpack for Minecraft Java Edition that makes the game realistic in every possible way.
-
-- Fully playable releases are available on curseforge! [here](https://www.curseforge.com/minecraft/modpacks/underdog)
+Underdog is a modpack for Minecraft Java Edition that makes the game realistic in every possible way.  
+Fully playable releases are available on curseforge! [here](https://www.curseforge.com/minecraft/modpacks/underdog)
 
 ***
 
