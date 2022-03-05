@@ -8,7 +8,7 @@ To copy the overrides you changed to the pax/modpack/overrides folder, run the `
 
 ## Pax usage
 Use pax using cmd or terminal.
-To see how [Pax] works it's recommended to go check out its wiki: [here](https://github.com/froehlichA/pax/wiki)
+To see how [PAX] works it's recommended to go check out its wiki: [here](https://github.com/froehlichA/pax/wiki)
 
 ### Locating pax folder
 To tocate the pax folder on your computer, use `./cd` to do that.
@@ -24,4 +24,4 @@ $ cd ./minecraft/pax
 
 <!-- Links: -->
 [Git]: https://git-scm.com/
-[Pax]: https://github.com/froehlichA/pax
+[PAX]: https://github.com/froehlichA/pax
