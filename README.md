@@ -14,7 +14,7 @@ Underdog is a modpack for Minecraft Java Edition that makes the game realistic i
 For the set-up guide, please head over to the [`CONTRIBUTING.md`](CONTRIBUTING.md).  
 
 Knowledge of [Git] is required.  
-If installing/removing/updating mods, knowledge of [Pax] is required.
+If installing/removing/updating mods, knowledge of [PAX] is required.
 
 Also, after setting up the pack, take a look into the [`pax`](pax) folder.  
 That folder contains all the development tools required when exporting the pack.
@@ -27,6 +27,6 @@ That folder contains all the development tools required when exporting the pack.
 
 <!-- Links: -->
 [Git]: https://git-scm.com/
-[Pax]: https://github.com/froehlichA/pax
+[PAX]: https://github.com/froehlichA/pax
 [ModPackDownloader]: https://github.com/Nincraft/ModPackDownloader
-[CurseForge]: https://www.curseforge.com/minecraft/modpacks/underdog2
+[CurseForge]: https://www.curseforge.com/minecraft/modpacks/underdog
