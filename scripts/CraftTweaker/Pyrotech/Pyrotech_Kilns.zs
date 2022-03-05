@@ -67,6 +67,10 @@ val nonPotteryItems as IIngredient[IItemStack] = {
     <pyrotech:material:22>      : <divergentunderground:rock_quark_limestone>           ,
     <pyrotech:slag_glass>       : <ore:slagHeap>                                        ,
 
+    // Cooking For Blockheads
+    <cookingforblockheads:recipe_book:1> : <minecraft:book>                             ,
+    <cookingforblockheads:recipe_book:1> : <cookingforblockheads:recipe_book>           ,
+
 };
 
 for output, input in potteryItems {
