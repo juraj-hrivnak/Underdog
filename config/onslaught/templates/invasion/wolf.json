@@ -51,7 +51,7 @@
             "mobs": [
               {
                 "id": "wolf_reinforcement_00",
-                "count": [4, 10],
+                "count": [1, 4],
                 "spawn": {
                   "type": "ground",
                   "light": [0, 15],
@@ -66,7 +66,7 @@
             "mobs": [
               {
                 "id": "wolf_reinforcement_01",
-                "count": [4, 10],
+                "count": [1, 4],
                 "spawn": {
                   "type": "ground",
                   "light": [0, 15],
@@ -86,7 +86,7 @@
             "mobs": [
               {
                 "id": "wolf_boss",
-                "count": [1, 4],
+                "count": [2, 4],
                 "spawn": {
                   "type": "ground",
                   "light": [0, 15],
