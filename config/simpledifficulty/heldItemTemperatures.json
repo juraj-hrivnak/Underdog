@@ -125,6 +125,14 @@
       "temperature": 1.0
     }
   ],
+  "pyrotech:torch_fiber": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
   "harvestcraft:candledeco16": [
     {
       "identity": {

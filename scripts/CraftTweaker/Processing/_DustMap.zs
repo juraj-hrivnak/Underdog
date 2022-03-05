@@ -84,7 +84,7 @@ val dustMap as IItemStack[] = [
 
 for oredict, item in dustMapTwo {
     for i in item[0] {
-        i.addTooltip(format.green(format.bold("Default dust!")));
+        i.addShiftTooltip(format.green(format.bold("Default dust!")));
     }
     for i in item[1] {
         oredict.remove(i);
