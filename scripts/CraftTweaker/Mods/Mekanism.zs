@@ -1,5 +1,5 @@
 
 #modloaded mekanism
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 
 recipes.addShapeless(<mekanism:biofuel> * 8, [<pyrotech:mulch>]);

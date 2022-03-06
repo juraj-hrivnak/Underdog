@@ -1,7 +1,7 @@
 
 #modloaded immersivepetroleum
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
 import scripts.CraftTweaker.Vanilla.Water.allWater;

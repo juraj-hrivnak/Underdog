@@ -1,6 +1,6 @@
 
 #modloaded adpother
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
 <adpother:iron_filter>.displayName = game.localize("underdog.displayname.iron_filter");

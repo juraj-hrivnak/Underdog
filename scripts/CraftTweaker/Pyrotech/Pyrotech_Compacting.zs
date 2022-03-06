@@ -1,7 +1,7 @@
 
 #modloaded pyrotech
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.pyrotech.CompactingBin;
 import mods.pyrotech.MechanicalCompactor;
 

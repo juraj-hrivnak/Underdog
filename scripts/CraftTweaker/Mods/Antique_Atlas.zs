@@ -1,6 +1,6 @@
 
 #modloaded antiqueatlas
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 
 // Atlas
 recipes.removeShapeless(<antiqueatlas:empty_antique_atlas>);

@@ -1,7 +1,7 @@
 
 #priority 100
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.jei.JEI.hide as h;
@@ -93,7 +93,7 @@ for oredict, item in oreMap {
 
     for i in item {
         rh(i);
-        i.addShiftTooltip(format.red(format.bold(game.localize("underdog.tooltip.block_should_be_unused"))));
+        i.addTooltip(format.red(format.bold(game.localize("underdog.tooltip.block_should_be_unused"))));
     }
 
     oredict.removeItems(richOres.values);

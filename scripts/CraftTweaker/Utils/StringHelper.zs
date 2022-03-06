@@ -33,7 +33,7 @@ function toLowerCamelCase(arg as string) as string {
             if (i == 0) {
                 temp ~= j;
             } else if (i >= 1) {
-                temp ~= (j[0].toUpperCase() ~ j.substring(1)); 
+                temp ~= (j[0].toUpperCase() ~ j.substring(1));
             }
         }
         return temp;

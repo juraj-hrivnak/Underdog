@@ -1,6 +1,6 @@
 
 #modloaded charcoalpit
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.charcoalpit;
 

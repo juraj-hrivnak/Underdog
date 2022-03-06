@@ -1,6 +1,6 @@
 
 #modloaded platforms
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 
 import scripts.CraftTweaker.Utils.RecipeUtils;
 

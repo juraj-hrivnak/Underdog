@@ -1,6 +1,6 @@
 
 #modloaded cuisine
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.jei.JEI.hideCategory as hc;
 import mods.jei.JEI.hide as h;

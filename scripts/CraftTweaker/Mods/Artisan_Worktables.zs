@@ -1,5 +1,5 @@
 
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.jei.JEI.hide as h;
 

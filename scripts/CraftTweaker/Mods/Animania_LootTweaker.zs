@@ -1,6 +1,6 @@
 
 #modloaded loottweaker animania
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;

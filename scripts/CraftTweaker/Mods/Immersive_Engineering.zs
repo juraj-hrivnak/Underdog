@@ -1,7 +1,7 @@
 
 #modloaded immersiveengineering
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.jei.JEI.hide as h;
 import mods.immersiveengineering.Fermenter as Fermenter;
@@ -72,9 +72,9 @@ h(<immersiveengineering:material:7>);
 
 // Concrete
 RecipeUtils.tweakRecipe(true,<immersiveengineering:stone_decoration:5> * 12,
-   [[<ore:itemSlag>, <ore:clay>        , <ore:itemSlag> ],
-    [<ore:gravel>  , allWater, <ore:gravel>   ],
-    [<ore:itemSlag>, <ore:clay>        , <ore:itemSlag> ]]);
+   [[<ore:itemSlag>, <ore:clay>, <ore:itemSlag> ],
+    [<ore:gravel>  , allWater  , <ore:gravel>   ],
+    [<ore:itemSlag>, <ore:clay>, <ore:itemSlag> ]]);
 
 
 ///////////////////////////////////////

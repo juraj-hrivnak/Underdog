@@ -1,3 +1,4 @@
+
 #priority 20
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -44,6 +45,6 @@ val toAdd as IItemStack[] = [
     <unlimitedchiselworks:chisel_planks_oak_rustic_planks_1:*>
 ];
 
-for add in toAdd {
-    <ore:plankWood>.add(add);
+for item in toAdd {
+    <ore:plankWood>.add(item);
 }

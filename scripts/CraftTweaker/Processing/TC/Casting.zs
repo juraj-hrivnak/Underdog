@@ -1,7 +1,7 @@
 
 #priority -50
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack as ILiquidStack;
 import mods.tconstruct.Casting as Casting;
 
@@ -18,9 +18,9 @@ function conarmCastGetter(type as string) as IItemStack {
 val casts as IItemStack[IIngredient] = {
 
     <pyrotech:bucket_stone> |
-        <tcomplement:materials>       : <tcomplement:cast>                                                     ,
+        <tcomplement:materials>       : <tcomplement:cast>                   ,
 
-    null                              : <tconstruct:cast>                                                      ,
+    null                              : <tconstruct:cast>                    ,
     <tconstruct:broad_axe_head:*>     : tconCastGetter("broad_axe_head")     ,
     <tconstruct:binding:*>            : tconCastGetter("binding")            ,
     <tconstruct:bow_limb:*>           : tconCastGetter("bow_limb")           ,
@@ -48,7 +48,7 @@ val casts as IItemStack[IIngredient] = {
     <tconstruct:sword_blade:*>        : tconCastGetter("sword_blade")        ,
     <tconstruct:shard:*>              : tconCastGetter("shard")              ,
 
-    <tcomplement:chisel_head:*>       : <tconstruct:cast>.withTag({PartType: "tcomplement:chisel_head"})       ,
+    <tcomplement:chisel_head:*>       : <tconstruct:cast>.withTag({PartType: "tcomplement:chisel_head"}),
 
     <conarm:helmet_core:*>            : conarmCastGetter("helmet_core")      ,
     <conarm:armor_trim:*>             : conarmCastGetter("armor_trim")       ,

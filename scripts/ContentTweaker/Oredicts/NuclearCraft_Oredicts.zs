@@ -1,5 +1,5 @@
 #priority 11
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 <ore:oreThorium>.add(<contenttweaker:thorium_cluster>);

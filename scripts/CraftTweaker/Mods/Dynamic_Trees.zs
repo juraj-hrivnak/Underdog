@@ -1,5 +1,5 @@
 #norun
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition as IItemDefinition;
 import crafttweaker.oredict.IOreDictEntry;
 

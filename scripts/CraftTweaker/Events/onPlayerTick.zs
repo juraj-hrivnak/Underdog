@@ -1,7 +1,7 @@
 
 #loader crafttweaker reloadableevents
 #priority -10
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.events.IEventManager;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.PlayerTickEvent;

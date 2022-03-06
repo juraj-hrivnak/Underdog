@@ -1,6 +1,6 @@
 
 #norun
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
 recipes.removeShaped(<minecraft:chest>);

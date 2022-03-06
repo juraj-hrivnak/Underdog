@@ -1,6 +1,6 @@
 
 #priority -20
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.CraftTweaker.Utils.RecipeUtils;

@@ -1,5 +1,5 @@
 
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
 <minecraft:end_rod>.displayName = game.localize("underdog.displayname.end_rod");

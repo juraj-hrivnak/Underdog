@@ -1,7 +1,7 @@
 
 #priority -50
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack as ILiquidStack;
 import mods.contenttweaker.Commands;
 import mods.tconstruct.Casting as Casting;

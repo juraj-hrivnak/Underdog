@@ -1,5 +1,5 @@
 
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 
 // renaming from Nether Quartz to Quartz
 <minecraft:quartz>.displayName =                                game.localize("underdog.displayname.quartz");

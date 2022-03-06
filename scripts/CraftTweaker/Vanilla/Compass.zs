@@ -1,5 +1,5 @@
 
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 
 <minecraft:compass>.addTooltip(game.localize("underdog.tooltip.compass.1"));
 <minecraft:compass>.addTooltip(game.localize("underdog.tooltip.compass.2"));
