@@ -1259,6 +1259,14 @@
       }
     },
     {
+      "projectID": 285742,
+      "fileID": 2949817,
+      "required": true,
+      "__meta": {
+        "name": "Smooth Font"
+      }
+    },
+    {
       "projectID": 286382,
       "fileID": 2815686,
       "required": true,
