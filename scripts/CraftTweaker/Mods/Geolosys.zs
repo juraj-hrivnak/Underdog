@@ -2,9 +2,10 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
 // Prospector's Pick
-recipes.removeShaped(<geolosys:pro_pick>);
-recipes.addShaped(<geolosys:pro_pick>,
+RecipeUtils.tweakRecipe(true, <geolosys:pro_pick>,
    [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
     [null, <ore:stickWood>, <ore:ingotIron>],
     [null, <ore:stickWood>, null]]);

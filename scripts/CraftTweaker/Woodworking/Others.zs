@@ -1,25 +1,22 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.item.IIngredient;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
 // Piston
-recipes.remove(<minecraft:piston>);
-recipes.addShaped("piston_fixed", <minecraft:piston>,
+RecipeUtils.tweakRecipe(true, <minecraft:piston>,
 [[<ore:lumber>, <ore:lumber>      , <ore:lumber> ],
  [<ore:rocks> , <ore:ingotIron>   , <ore:rocks>  ],
  [<ore:rocks> , <ore:dustRedstone>, <ore:rocks>  ]]);
 
 // Oak Trapdoor
-recipes.remove(<minecraft:trapdoor>);
-recipes.addShaped("oak_trapdoor_fixed", <minecraft:trapdoor>,
+RecipeUtils.tweakRecipe(true, <minecraft:trapdoor>,
 [[<contenttweaker:lumber_vanilla_oak>, <contenttweaker:lumber_vanilla_oak>, <contenttweaker:lumber_vanilla_oak>],
  [<contenttweaker:lumber_vanilla_oak>, <contenttweaker:lumber_vanilla_oak>, <contenttweaker:lumber_vanilla_oak>]]);
 
 // Treated Wood  Fix
 val creosoteBucket = <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000});
-recipes.addShaped("treated_wood_lumber", <contenttweaker:treated_wood_lumber> * 8,
-[[<ore:lumber>, <ore:lumber>  , <ore:lumber> ],
- [<ore:lumber>, creosoteBucket, <ore:lumber> ],
- [<ore:lumber>, <ore:lumber>  , <ore:lumber> ]]);
+recipes.addShaped("treated_wood_lumber", <contenttweaker:treated_wood_lumber> * 8, RecipeUtils.createSurround(creosoteBucket, <ore:lumber>));
 
 // Painted Wood Fix
 val paintedWoods = {
@@ -42,12 +39,7 @@ val paintedWoods = {
 } as IItemStack[IItemStack];
 
 for paintedLumber, dye in paintedWoods {
-
-    recipes.addShaped(paintedLumber * 8,
-       [[<ore:lumber>, <ore:lumber>, <ore:lumber> ],
-        [<ore:lumber>, dye         , <ore:lumber> ],
-        [<ore:lumber>, <ore:lumber>, <ore:lumber> ]]);
-
+    recipes.addShaped(paintedLumber * 8, RecipeUtils.createSurround(dye, <ore:lumber>));
 }
 
 // Rustic Cabinet

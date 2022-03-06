@@ -6,62 +6,71 @@ import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.ResourceLocation;
 import mods.contenttweaker.Item;
 
+function createNormalItem(name as string) {
+    VanillaFactory.createItem(name).register();
+}
 
-VanillaFactory.createItem("firewood_oak").register();
-VanillaFactory.createItem("firewood_spruce").register();
-VanillaFactory.createItem("firewood_birch").register();
-VanillaFactory.createItem("firewood_jungle").register();
-VanillaFactory.createItem("firewood_acacia").register();
-VanillaFactory.createItem("firewood_dark_oak").register();
+var toRegister as string[] = [
+    "firewood_oak",
+    "firewood_spruce",
+    "firewood_birch",
+    "firewood_jungle",
+    "firewood_acacia",
+    "firewood_dark_oak",
 
-VanillaFactory.createItem("firewood_sacred_oak").register();
-VanillaFactory.createItem("firewood_cherry").register();
-VanillaFactory.createItem("firewood_umbran").register();
-VanillaFactory.createItem("firewood_fir").register();
-VanillaFactory.createItem("firewood_ethereal").register();
-VanillaFactory.createItem("firewood_magic").register();
-VanillaFactory.createItem("firewood_mangrove").register();
-VanillaFactory.createItem("firewood_palm").register();
-VanillaFactory.createItem("firewood_redwood").register();
-VanillaFactory.createItem("firewood_willow").register();
-VanillaFactory.createItem("firewood_pine").register();
-VanillaFactory.createItem("firewood_hellbark").register();
-VanillaFactory.createItem("firewood_jacaranda").register();
-VanillaFactory.createItem("firewood_mahogany").register();
-VanillaFactory.createItem("firewood_ebony").register();
-VanillaFactory.createItem("firewood_eucalyptus").register();
+    "firewood_sacred_oak",
+    "firewood_cherry",
+    "firewood_umbran",
+    "firewood_fir",
+    "firewood_ethereal",
+    "firewood_magic",
+    "firewood_mangrove",
+    "firewood_palm",
+    "firewood_redwood",
+    "firewood_willow",
+    "firewood_pine",
+    "firewood_hellbark",
+    "firewood_jacaranda",
+    "firewood_mahogany",
+    "firewood_ebony",
+    "firewood_eucalyptus",
 
-VanillaFactory.createItem("rustic_firewood_olive").register();
-VanillaFactory.createItem("rustic_firewood_ironwood").register();
+    "rustic_firewood_olive",
+    "rustic_firewood_ironwood",
 
-VanillaFactory.createItem("forestry_firewood_larch").register();
-VanillaFactory.createItem("forestry_firewood_teak").register();
-VanillaFactory.createItem("forestry_firewood_acacia").register();
-VanillaFactory.createItem("forestry_firewood_lime").register();
-VanillaFactory.createItem("forestry_firewood_chestnut").register();
-VanillaFactory.createItem("forestry_firewood_wenge").register();
-VanillaFactory.createItem("forestry_firewood_baobab").register();
-VanillaFactory.createItem("forestry_firewood_sequoia").register();
-VanillaFactory.createItem("forestry_firewood_kapok").register();
-VanillaFactory.createItem("forestry_firewood_ebony").register();
-VanillaFactory.createItem("forestry_firewood_mahogany").register();
-VanillaFactory.createItem("forestry_firewood_balsa").register();
-VanillaFactory.createItem("forestry_firewood_willow").register();
-VanillaFactory.createItem("forestry_firewood_walnut").register();
-VanillaFactory.createItem("forestry_firewood_greenheart").register();
-VanillaFactory.createItem("forestry_firewood_cherry").register();
-VanillaFactory.createItem("forestry_firewood_mahoe").register();
-VanillaFactory.createItem("forestry_firewood_poplar").register();
-VanillaFactory.createItem("forestry_firewood_palm").register();
-VanillaFactory.createItem("forestry_firewood_papaya").register();
-VanillaFactory.createItem("forestry_firewood_pine").register();
-VanillaFactory.createItem("forestry_firewood_plum").register();
-VanillaFactory.createItem("forestry_firewood_maple").register();
-VanillaFactory.createItem("forestry_firewood_citrus").register();
-VanillaFactory.createItem("forestry_firewood_giganteum").register();
-VanillaFactory.createItem("forestry_firewood_ipe").register();
-VanillaFactory.createItem("forestry_firewood_padauk").register();
-VanillaFactory.createItem("forestry_firewood_cocobolo").register();
-VanillaFactory.createItem("forestry_firewood_zebrawood").register();
+    "forestry_firewood_larch",
+    "forestry_firewood_teak",
+    "forestry_firewood_acacia",
+    "forestry_firewood_lime",
+    "forestry_firewood_chestnut",
+    "forestry_firewood_wenge",
+    "forestry_firewood_baobab",
+    "forestry_firewood_sequoia",
+    "forestry_firewood_kapok",
+    "forestry_firewood_ebony",
+    "forestry_firewood_mahogany",
+    "forestry_firewood_balsa",
+    "forestry_firewood_willow",
+    "forestry_firewood_walnut",
+    "forestry_firewood_greenheart",
+    "forestry_firewood_cherry",
+    "forestry_firewood_mahoe",
+    "forestry_firewood_poplar",
+    "forestry_firewood_palm",
+    "forestry_firewood_papaya",
+    "forestry_firewood_pine",
+    "forestry_firewood_plum",
+    "forestry_firewood_maple",
+    "forestry_firewood_citrus",
+    "forestry_firewood_giganteum",
+    "forestry_firewood_ipe",
+    "forestry_firewood_padauk",
+    "forestry_firewood_cocobolo",
+    "forestry_firewood_zebrawood",
 
-VanillaFactory.createItem("cuisine_firewood_citrus").register();
+    "cuisine_firewood_citrus",
+];
+
+for register in toRegister {
+    createNormalItem(register);
+}

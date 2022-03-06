@@ -97,5 +97,3 @@ for input, output in dusts {
 for output, input in aloys {
     ArcFurnace.addRecipe(output, input[0], null, 100, 512, [input[1]]);
 }
-
-

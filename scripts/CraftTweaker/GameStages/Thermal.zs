@@ -2,6 +2,9 @@
 #modloaded thermalfoundation
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
+import mods.ItemStages;
+
+import scripts.CraftTweaker.Utils.RecipeUtils;
 
 // not "thermalexpansion.smelter"
 val jeiCategories = [
@@ -48,11 +51,10 @@ val jeiCategories = [
 ] as string[];
 
 for i in jeiCategories {
-    mods.ItemStages.stageRecipeCategory("thermal", i);
+    ItemStages.stageRecipeCategory("thermal", i);
 }
 
-recipes.remove(<thermalexpansion:frame>);
-recipes.addShaped("machine_frame", <thermalexpansion:frame>, 
+RecipeUtils.tweakRecipe(true, <thermalexpansion:frame>, 
    [[<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>],
     [<ore:plateSteel>, <ore:gearTin>, <ore:plateSteel>],
     [<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>]],
@@ -65,7 +67,7 @@ recipes.addShaped("machine_frame", <thermalexpansion:frame>,
         player.addGameStage("thermal");
 });
 
-mods.ItemStages.stageModItems("thermal", "thermalexpansion");
+ItemStages.stageModItems("thermal", "thermalexpansion");
 
 val thermalItemsToKeep = [
     <thermalexpansion:frame>,
@@ -74,5 +76,5 @@ val thermalItemsToKeep = [
 ] as IItemStack[];
 
 for i in thermalItemsToKeep {
-    mods.ItemStages.removeItemStage(i);
+    ItemStages.removeItemStage(i);
 }

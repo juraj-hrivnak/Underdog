@@ -4,6 +4,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
 val chimneysAndMaterials = {
     <adchimneys:cobblestone>                : <divergentunderground:rock_stone>             ,
     <adchimneys:cobblestone_andesite>       : <divergentunderground:rock_andesite>          ,
@@ -16,9 +18,7 @@ val chimneysAndMaterials = {
 
 for chimney, material in chimneysAndMaterials {
 
-    recipes.remove(chimney);
-
-    recipes.addShaped(chimney,
+    RecipeUtils.tweakRecipe(true, chimney,
        [[material, null, material ],
         [material, null, material ],
         [material, null, material ]]);

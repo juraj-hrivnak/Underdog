@@ -3,6 +3,8 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
 val rock = <divergentunderground:rock_stone>;
 val dirt = <minecraft:dirt>;
 val gravel = <minecraft:gravel>;
@@ -43,53 +45,41 @@ val pathSlabsAndPaths as IItemStack[IItemStack] = {
 };
 
 for pathSlab, path in pathSlabsAndPaths {
-    recipes.remove(path);
-    recipes.remove(pathSlab);
-
-    recipes.addShapeless(path, [pathSlab, pathSlab]);
-    recipes.addShapeless(pathSlab * 2, [path]);
+    RecipeUtils.tweakRecipe(false, path, [[pathSlab, pathSlab]]);
+    RecipeUtils.tweakRecipe(false, pathSlab * 2, [[path]]);
 }
 
 // Removing Cobbled Limestone (Is duped)
 rh(<dawnoftimebuilder:cobbled_limestone>);
 
 // Limestone Bricks
-recipes.remove(<dawnoftimebuilder:limestone_brick>);
-recipes.addShaped(<dawnoftimebuilder:limestone_brick>,
-   [[limestoneCobble, limestoneCobble ],
-    [limestoneCobble, limestoneCobble ]]);
+RecipeUtils.tweakRecipe(true, <dawnoftimebuilder:limestone_brick>,
+   RecipeUtils.createFull2(limestoneCobble));
 
 // // Sake Bottle
-// recipes.remove(<dawnoftimebuilder:sake_bottle>);
-// recipes.addShaped(<dawnoftimebuilder:sake_bottle>,
+// RecipeUtils.tweakRecipe(true, (<dawnoftimebuilder:sake_bottle>,
 //       [[null, porcelain, null],
 //     [porcelain, null, porcelain],
 //     [porcelain, porcelain, porcelain]]);
 
 // // Sake Cup
-// recipes.remove(<dawnoftimebuilder:sake_cup>);
-// recipes.addShaped(<dawnoftimebuilder:sake_cup>,
+// RecipeUtils.tweakRecipe(true, <dawnoftimebuilder:sake_cup>,
 //       [[porcelain, null, porcelain],
 //     [null, porcelain, null]]);
 
 // Bamboo Thatch
-recipes.remove(<dawnoftimebuilder:thatch_bamboo>);
-recipes.addShaped(<dawnoftimebuilder:thatch_bamboo>,
-   [[<cuisine:bamboo>, <cuisine:bamboo> ],
-    [<cuisine:bamboo>, <cuisine:bamboo> ]]);
+RecipeUtils.tweakRecipe(true, <dawnoftimebuilder:thatch_bamboo>,
+   RecipeUtils.createFull2(<cuisine:bamboo>));
 
 // Mouldy Wheat Thatch
-recipes.remove(<dawnoftimebuilder:thatch_wheat>);
-recipes.addShaped(<dawnoftimebuilder:thatch_wheat>,
-   [[<forestry:mouldy_wheat>, <forestry:mouldy_wheat> ],
-    [<forestry:mouldy_wheat>, <forestry:mouldy_wheat> ]]);
+RecipeUtils.tweakRecipe(true, <dawnoftimebuilder:thatch_wheat>,
+   RecipeUtils.createFull2(<forestry:mouldy_wheat>));
 
-<dawnoftimebuilder:thatch_wheat>.displayName = "Mouldy Wheat Thatch";
-<dawnoftimebuilder:thatch_wheat_stairs>.displayName = "Mouldy Wheat Thatch Stairs";
-<dawnoftimebuilder:thatch_wheat_slab>.displayName = "Mouldy Wheat Thatch Slab";
+<dawnoftimebuilder:thatch_wheat>.displayName = game.localize("underdog.displayname.thatch_wheat");
+<dawnoftimebuilder:thatch_wheat_stairs>.displayName = game.localize("underdog.displayname.thatch_wheat_stairs");
+<dawnoftimebuilder:thatch_wheat_slab>.displayName = game.localize("underdog.displayname.thatch_wheat_slab");
 
 // Bamboo Hat
-recipes.remove(<dawnoftimebuilder:bamboo_hat>);
-recipes.addShaped(<dawnoftimebuilder:bamboo_hat>,
+RecipeUtils.tweakRecipe(true, <dawnoftimebuilder:bamboo_hat>,
    [[<ore:bamboo>, <ore:bamboo>, <ore:bamboo> ],
     [<ore:bamboo>, null        , <ore:bamboo> ]]);

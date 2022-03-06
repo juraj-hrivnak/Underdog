@@ -9,5 +9,5 @@ recipes.addShapedMirrored(<antiqueatlas:empty_antique_atlas>, [
     [<ore:leather>, <ore:leather>]
 ]);
 
-<antiqueatlas:empty_antique_atlas>.displayName = "Atlas";
-<antiqueatlas:antique_atlas>.displayName = "Atlas";
+<antiqueatlas:empty_antique_atlas>.displayName = game.localize("underdog.displayname.empty_antique_atlas");
+<antiqueatlas:antique_atlas>.displayName = game.localize("underdog.displayname.antique_atlas");

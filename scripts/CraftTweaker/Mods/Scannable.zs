@@ -2,19 +2,18 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
 val circuit = <mekanism:controlcircuit:1> | <immersiveengineering:material:27>;
 
-recipes.remove(<scannable:scanner>);
-recipes.addShaped(<scannable:scanner>,
+RecipeUtils.tweakRecipe(true, <scannable:scanner>,
    [[<ore:wireAluminum>           , null              , <ore:wireAluminum>            ],
     [<ore:plateIron>              , circuit           , <ore:plateIron>               ],
     [<forestry:thermionic_tubes:4>, <ore:wireAluminum>, <forestry:thermionic_tubes:4> ]]);
 
-recipes.remove(<scannable:module_range>);
-recipes.addShapeless(<scannable:module_range>, [<scannable:module_blank>, circuit]);
+RecipeUtils.tweakRecipe(false, <scannable:module_range>, [[<scannable:module_blank>, circuit]]);
 
-recipes.remove(<scannable:module_blank>);
-recipes.addShaped(<scannable:module_blank>,
+RecipeUtils.tweakRecipe(true, <scannable:module_blank>,
    [[<ore:dyeGreen>  , <ore:dyeGreen>         , <ore:dyeGreen>   ],
     [<ore:itemRubber>, <minecraft:redstone>   , <ore:itemRubber> ],
     [<ore:itemRubber>, <minecraft:gold_nugget>, <ore:itemRubber> ]]);

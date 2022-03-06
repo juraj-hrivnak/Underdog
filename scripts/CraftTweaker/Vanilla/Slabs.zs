@@ -3,6 +3,8 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
 val slabsFix as IItemStack[IItemStack] = {
     <minecraft:stone_slab:1>  : <divergentunderground:rock_sandstone>,
     <minecraft:stone_slab:4>  : <minecraft:brick>,
@@ -18,5 +20,4 @@ for output, input in slabsFix {
 }
 
 // Cobblestone Slab
-recipes.removeShaped(<minecraft:stone_slab:3>);
-recipes.addShaped(<minecraft:stone_slab:3> * 6, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+RecipeUtils.tweakRecipe(true, <minecraft:stone_slab:3> * 6, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);

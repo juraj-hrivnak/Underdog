@@ -9,7 +9,7 @@ recipes.removeShaped(<fishingmadebetter:diamond_fishing_rod>);
 recipes.removeShaped(<fishingmadebetter:basic_fishing_rod>);
 recipes.removeShaped(<fishingmadebetter:iron_fishing_rod>);
 
-<fishingmadebetter:diamond_fishing_rod>.displayName = "Precision Fishing Rod";
+<fishingmadebetter:diamond_fishing_rod>.displayName = game.localize("underdog.displayname.diamond_fishing_rod");
 
 recipes.addShapedMirrored(<fishingmadebetter:diamond_fishing_rod>,
    [[null, null, <ore:ingotOsmium>],

@@ -84,7 +84,7 @@ val richOres as IItemStack[IOreDictEntry] = {
 
 for oredict, i in richOres {
     oredict.add(i);
-    i.displayName = "Rich " + i.displayName;
+    i.displayName = game.localize("underdog.displayname.rich_prefix") + i.displayName;
 }
 
 for oredict, item in oreMap {
@@ -93,7 +93,7 @@ for oredict, item in oreMap {
 
     for i in item {
         rh(i);
-        i.addShiftTooltip(format.red(format.bold("Block should be unused!")));
+        i.addShiftTooltip(format.red(format.bold(game.localize("underdog.tooltip.block_should_be_unused"))));
     }
 
     oredict.removeItems(richOres.values);
