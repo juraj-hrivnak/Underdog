@@ -6,6 +6,7 @@
 	],
 	hide: true,
 	size: 0.8d,
+	optional: true,
 	tasks: [{
 		uid: "2e4798a2",
 		type: "item",
