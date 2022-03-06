@@ -121,25 +121,25 @@ furnace.setFuel(<ore:pseudoFirewood>  , 105);
 
 furnace.setFuel(<minecraft:stick>, 25);
 
-<ore:softwoodLumber>.addShiftTooltip(format.yellow(format.bold("Softwood")));
-<ore:softwoodLog>   .addShiftTooltip(format.yellow(format.bold("Softwood")));
-<ore:softwoodPlanks>.addShiftTooltip(format.yellow(format.bold("Softwood")));
-<ore:softFirewood>  .addShiftTooltip(format.yellow(format.bold("Softwood")));
+<ore:softwoodLumber>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.soft_wood"))));
+<ore:softwoodLog>   .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.soft_wood"))));
+<ore:softwoodPlanks>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.soft_wood"))));
+<ore:softFirewood>  .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.soft_wood"))));
 
-<ore:hardwoodLumber>.addShiftTooltip(format.yellow(format.bold("Hardwood")));
-<ore:hardwoodLog>   .addShiftTooltip(format.yellow(format.bold("Hardwood")));
-<ore:hardwoodPlanks>.addShiftTooltip(format.yellow(format.bold("Hardwood")));
-<ore:hardFirewood>  .addShiftTooltip(format.yellow(format.bold("Hardwood")));
+<ore:hardwoodLumber>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.hard_wood"))));
+<ore:hardwoodLog>   .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.hard_wood"))));
+<ore:hardwoodPlanks>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.hard_wood"))));
+<ore:hardFirewood>  .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.hard_wood"))));
 
-<ore:pseudowoodLumber>.addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
-<ore:pseudowoodLog>   .addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
-<ore:pseudowoodPlanks>.addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
-<ore:pseudoFirewood>  .addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
+<ore:pseudowoodLumber>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.pseudo_wood"))));
+<ore:pseudowoodLog>   .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.pseudo_wood"))));
+<ore:pseudowoodPlanks>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.pseudo_wood"))));
+<ore:pseudoFirewood>  .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.pseudo_wood"))));
 
 <ore:tooBig>.addAll(<ore:softwoodLog>);
 <ore:tooBig>.addAll(<ore:hardwoodLog>);
 <ore:tooBig>.addAll(<ore:pseudowoodLog>);
-<ore:tooBig>.addShiftTooltip(format.red(format.bold("Big")));
+<ore:tooBig>.addShiftTooltip(format.red(format.bold(game.localize("underdog.tooltip.too_big"))));
 
 <ore:firewood>.addAll(<ore:softFirewood>);
 <ore:firewood>.addAll(<ore:hardFirewood>);

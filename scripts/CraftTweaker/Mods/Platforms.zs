@@ -2,9 +2,10 @@
 #modloaded platforms
 import crafttweaker.item.IItemStack as IItemStack;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
 // Platformer
-recipes.remove(<platforms:platform:50>);
-recipes.addShapeless(<platforms:platform:50>, [<contenttweaker:table_top>, <ore:dyeRed>, <ore:lumber>, <ore:lumber>]);
+RecipeUtils.tweakRecipe(false, <platforms:platform:50>, [[<contenttweaker:table_top>, <ore:dyeRed>, <ore:lumber>, <ore:lumber>]]);
 
 // Monkey Wrench
 recipes.remove(<platforms:wrench>);

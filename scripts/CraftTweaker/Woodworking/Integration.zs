@@ -120,7 +120,7 @@ for lumber, x in woodworking {
 
     val rawLumber = lumber.withTag({raw: true});
 
-    if !isNull(log) {
+    if (!isNull(log)) {
 
         // Adding recipe for 8 lumbers with "raw: true" tag from one log
         Chopping.addRecipe("chopping_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}), log, [4], [8]);
@@ -133,7 +133,7 @@ for lumber, x in woodworking {
         BrickSawmill.addRecipe("lumber_from_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}) * 8, log, 60, sawmillBlades, 1);
     }
 
-    if !isNull(slab) {
+    if (!isNull(slab)) {
 
         // Removing default recipes for slabs
         recipes.remove(slab);

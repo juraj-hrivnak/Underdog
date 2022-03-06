@@ -3,6 +3,8 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
 rh(<animania:carving_knife>);
 
 val knifeCarving = {
@@ -17,6 +19,5 @@ val knifeCarving = {
 } as IItemStack[IItemStack];
 
 for smallChunk, bigChunk in knifeCarving {
-    recipes.remove(smallChunk);
-    recipes.addShapeless(smallChunk * 4, [ <cuisine:kitchen_knife>, bigChunk ]);
+    RecipeUtils.tweakRecipe(false, smallChunk * 4, [[ <cuisine:kitchen_knife>, bigChunk ]]);
 }

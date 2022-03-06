@@ -3,11 +3,11 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-<adpother:iron_filter>.displayName = "Basic Filter";
-<adpother:iron_filter>.addTooltip("§aHolds 16");
+<adpother:iron_filter>.displayName = game.localize("underdog.displayname.iron_filter");
+<adpother:iron_filter>.addTooltip(game.localize("underdog.tooltip.iron_filter"));
 
-<adpother:gold_filter>.displayName = "Advanced Filter";
-<adpother:gold_filter>.addTooltip("§aHolds 32");
+<adpother:gold_filter>.displayName = game.localize("underdog.displayname.gold_filter");
+<adpother:gold_filter>.addTooltip(game.localize("underdog.tooltip.gold_filter"));
 
-<adpother:diamond_filter>.displayName = "Elite Filter";
-<adpother:diamond_filter>.addTooltip("§aHolds 64");
+<adpother:diamond_filter>.displayName = game.localize("underdog.displayname.diamond_filter");
+<adpother:diamond_filter>.addTooltip(game.localize("underdog.tooltip.diamond_filter"));

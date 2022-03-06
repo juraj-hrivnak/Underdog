@@ -1,7 +1,8 @@
 
 #modloaded locks
 
-recipes.remove(<locks:key_blank>);
-recipes.addShaped(<locks:key_blank>,
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
+RecipeUtils.tweakRecipe(true, <locks:key_blank>,
    [[<ore:stickIron>],
     [<ore:stickIron>]]);

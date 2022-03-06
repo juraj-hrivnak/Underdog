@@ -40,6 +40,6 @@ recipes.addShapedMirrored(<quark:backpack>,
     [<ore:itemLeather>, null             , <ore:itemLeather> ]]);
 
 // Wheat Thatch
-<quark:thatch>.displayName = "Wheat Thatch";
-<quark:thatch_stairs>.displayName = "Wheat Thatch Stairs";
-<quark:thatch_slab>.displayName = "Wheat Thatch Slab";
+<quark:thatch>.displayName = game.localize("underdog.displayname.thatch");
+<quark:thatch_stairs>.displayName = game.localize("underdog.displayname.thatch_stairs");
+<quark:thatch_slab>.displayName = game.localize("underdog.displayname.thatch_slab");

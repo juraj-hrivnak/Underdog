@@ -53,7 +53,7 @@ val blasting as IItemStack[][string] = {
 
 for input, output in blasting {
 
-    if isNull(output[1]) {
+    if (isNull(output[1])) {
         Dropt.list("blast_" + input).add(Dropt.rule()
             .matchBlocks([input])
             .matchHarvester(Dropt.harvester().type("EXPLOSION"))

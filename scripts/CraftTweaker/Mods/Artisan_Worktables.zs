@@ -1,6 +1,11 @@
 
+import crafttweaker.item.IItemStack as IItemStack;
 import mods.artisanworktables.builder.RecipeBuilder;
 import mods.jei.JEI.hide as h;
+
+function ieBlueprintGetter(bp as string) as IItemStack{
+    return <immersiveengineering:blueprint>.withTag({blueprint: bp});
+}
 
 // Removing stuff
 h(<artisanworktables:workstation:9>);
@@ -22,7 +27,7 @@ RecipeBuilder.get("designer")
     [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
   .setSecondaryIngredients([<ore:dyeBlue> * 16])
   .addTool(<ore:artisansLens>, 1)
-  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "components"}))
+  .addOutput(ieBlueprintGetter("components"))
   .setExtraOutputOne(<minecraft:iron_ingot>, 1.0)
   .setExtraOutputTwo(<geolosys:ingot:4>, 1.0)
   .setExtraOutputThree(<geolosys:ingot>, 1.0)
@@ -35,7 +40,7 @@ RecipeBuilder.get("designer")
     [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
   .setSecondaryIngredients([<ore:dyeBlue> * 16])
   .addTool(<ore:artisansLens>, 1)
-  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}))
+  .addOutput(ieBlueprintGetter("bullet"))
   .setExtraOutputOne(<immersiveengineering:bullet>, 1.0)
   .create();
 
@@ -47,7 +52,7 @@ RecipeBuilder.get("designer")
     [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
   .setSecondaryIngredients([<ore:dyeBlue> * 16])
   .addTool(<ore:artisansLens>, 1)
-  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}))
+  .addOutput(ieBlueprintGetter("specialBullet"))
   .setExtraOutputOne(<immersiveengineering:bullet>, 1.0)
   .create();
 
@@ -58,7 +63,7 @@ RecipeBuilder.get("designer")
     [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
   .setSecondaryIngredients([<ore:dyeBlue> * 16, <immersiveengineering:material:17> * 3])
   .addTool(<ore:artisansLens>, 1)
-  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}))
+  .addOutput(ieBlueprintGetter("electrode"))
   .setExtraOutputOne(<immersiveengineering:material:1>, 1.0)
   .create();
 
@@ -69,6 +74,6 @@ RecipeBuilder.get("designer")
     [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
   .setSecondaryIngredients([<ore:dyeBlue> * 16])
   .addTool(<ore:artisansLens>, 1)
-  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}))
+  .addOutput(ieBlueprintGetter("molds"))
   .setExtraOutputOne(<immersiveengineering:metal:39>, 1.0)
   .create();

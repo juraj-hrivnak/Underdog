@@ -5,7 +5,7 @@ import mods.compatskills.SkillCreator.createSkill;
 import mods.compatskills.Skill;
 
 val mapping = createSkill("mapping", "minecraft:textures/blocks/concrete_white.png");
-mapping.name = "Mapping";
+mapping.name = game.localize("underdog.skill.mapping.name");
 mapping.setRankIcon(0, "minecraft:textures/items/compass_20.png");
 mapping.setRankIcon(1, "minecraft:textures/items/compass_20.png");
 mapping.setRankIcon(2, "minecraft:textures/items/compass_20.png");
@@ -33,4 +33,3 @@ var disabledSkills = [
 for skill in disabledSkills {
 	skill.setEnabled(false);
 }
-

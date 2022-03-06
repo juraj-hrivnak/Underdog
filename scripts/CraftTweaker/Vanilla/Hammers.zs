@@ -1,13 +1,20 @@
 
 #priority 10
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IItemStack;
 
-<ore:toolHammer>.add(<immersiveengineering:tool>);
-<ore:toolHammer>.add(<pyrotech:stone_hammer:*>);
-<ore:toolHammer>.add(<pyrotech:bone_hammer:*>);
-<ore:toolHammer>.add(<pyrotech:flint_hammer:*>);
-<ore:toolHammer>.add(<pyrotech:iron_hammer:*>);
-<ore:toolHammer>.add(<pyrotech:gold_hammer:*>);
-<ore:toolHammer>.add(<pyrotech:diamond_hammer:*>);
-<ore:toolHammer>.add(<pyrotech:obsidian_hammer:*>);
-<ore:toolHammer>.add(<tconstruct:hammer:*>);
+val toAdd as IItemStack[] = [
+    <immersiveengineering:tool>,
+    <pyrotech:stone_hammer:*>,
+    <pyrotech:bone_hammer:*>,
+    <pyrotech:flint_hammer:*>,
+    <pyrotech:iron_hammer:*>,
+    <pyrotech:gold_hammer:*>,
+    <pyrotech:diamond_hammer:*>,
+    <pyrotech:obsidian_hammer:*>,
+    <tconstruct:hammer:*>
+];
+
+for add in toAdd {
+    <ore:toolHammer>.add(add);
+}

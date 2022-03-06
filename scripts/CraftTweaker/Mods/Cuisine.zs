@@ -10,6 +10,8 @@ import mods.cuisine.AxeChopping;
 import mods.cuisine.Mortar;
 import mods.cuisine.Mill as mill;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
+
 // Removing Mortar
 Mortar.removeAll();
 recipes.removeByRecipeName("cuisine:mortar");
@@ -50,8 +52,7 @@ recipes.addHiddenShaped("Chopping Boards", <cuisine:chopping_board>,
 
 
 // Mill
-recipes.removeShaped(<cuisine:mill>);
-recipes.addShaped(<cuisine:mill>,
+RecipeUtils.tweakRecipe(true, <cuisine:mill>,
  [[<ore:handleWood>],
   [<ore:stones>]]);
 
@@ -62,17 +63,12 @@ recipes.addShapedMirrored(<cuisine:fire_pit>,
   [<ore:rocks>    , <ore:rocks>     ]]);
 
 // Wooden Handle
-recipes.removeShaped(<cuisine:material:1>);
-recipes.addShaped(<cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);
+RecipeUtils.tweakRecipe(true, <cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);
 
-recipes.remove(<cuisine:jar>);
-recipes.addShaped(<cuisine:jar>,
-   [[<ore:ingotBrick>, <ore:ingotBrick> , <ore:ingotBrick>],
-    [<ore:ingotBrick>, null        , <ore:ingotBrick>],
-    [<ore:ingotBrick>, <ore:ingotBrick> , <ore:ingotBrick>]]);
+RecipeUtils.tweakRecipe(true, <cuisine:jar>,
+   RecipeUtils.createSurround(null, <ore:ingotBrick>));
 
-recipes.remove(<cuisine:earthen_basin>);
-recipes.addShaped(<cuisine:earthen_basin>,
+RecipeUtils.tweakRecipe(true, <cuisine:earthen_basin>,
    [[<ore:ingotBrick>          , null        , <ore:ingotBrick>           ],
     [<minecraft:iron_bars>, <ore:ingotBrick> , <minecraft:iron_bars> ]]);
 
@@ -96,8 +92,7 @@ val basins = {
 } as IItemStack[IItemStack];
 
 for basin, dye in basins {
-  recipes.remove(basin);
-  recipes.addShapeless(basin, [<cuisine:earthen_basin>, dye]);
+  RecipeUtils.tweakRecipe(false, basin, [[<cuisine:earthen_basin>, dye]]);
 }
 
 // Bamboo compat

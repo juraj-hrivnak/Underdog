@@ -2,7 +2,7 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-<minecraft:end_rod>.displayName = "Neon Tube";
+<minecraft:end_rod>.displayName = game.localize("underdog.displayname.end_rod");
 
 recipes.removeShaped(<minecraft:end_rod> * 4);
 recipes.addShapedMirrored(<minecraft:end_rod> * 2,
