@@ -31,12 +31,24 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		event.player.give(<contenttweaker:splitting_wedge>);
 	}
 
-	if (!isNull(event.item) && <minecraft:flint>.name == event.item.name && event.blockState != <blockstate:contenttweaker:splitting_wedge_flint>) {
+	// Flint placing
+	if (!isNull(event.item) && <minecraft:flint>.name == event.item.name
+		&& event.blockState != <blockstate:contenttweaker:splitting_wedge_flint>
+		&& event.blockState != <blockstate:pyrotech:anvil_granite:damage=0>
+		&& event.blockState != <blockstate:pyrotech:anvil_granite:damage=1>
+		&& event.blockState != <blockstate:pyrotech:anvil_granite:damage=2>
+		&& event.blockState != <blockstate:pyrotech:anvil_granite:damage=3>
+		&& event.blockState != <blockstate:pyrotech:anvil_iron_plated:damage=0>
+		&& event.blockState != <blockstate:pyrotech:anvil_iron_plated:damage=1>
+		&& event.blockState != <blockstate:pyrotech:anvil_iron_plated:damage=2>
+		&& event.blockState != <blockstate:pyrotech:anvil_iron_plated:damage=3>) {
+
 		if (event.world.getBlockState(event.position.getOffset(IFacing.up, 1)) == <blockstate:minecraft:air>) {
 			event.item.mutable().shrink(1);
 			event.world.setBlockState(<blockstate:contenttweaker:splitting_wedge_flint>, event.position.getOffset(IFacing.up, 1));
 		}
 	}
+	// Flint picking up
 	if (event.blockState == <blockstate:contenttweaker:splitting_wedge_flint>) {
 		event.world.setBlockState(<blockstate:minecraft:air>, event.position);
 		event.player.give(<minecraft:flint>);
