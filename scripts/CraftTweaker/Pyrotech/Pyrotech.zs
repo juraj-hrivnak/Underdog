@@ -1,7 +1,7 @@
 
 #modloaded pyrotech
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.jei.JEI.hideCategory as hc;
@@ -53,7 +53,7 @@ h(<pyrotech:material:27>);
 RecipeUtils.tweakRecipe(true, <pyrotech:sawmill_blade_stone>,
     RecipeUtils.createSurround(<ore:stones>, <ore:rocks>));
 
-RecipeUtils.tweakRecipe(false, <pyrotech:flint_and_tinder>, [[<pyrotech:material:10>, <pyrotech:material:13>, <ore:rock>]]);
+RecipeUtils.tweakRecipe(false, <pyrotech:flint_and_tinder>, [[<pyrotech:material:10>, <pyrotech:material:13>, <ore:rocks>]]);
 
 furnace.remove(<pyrotech:material:22>);
 
