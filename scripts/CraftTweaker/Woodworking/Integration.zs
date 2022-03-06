@@ -1,7 +1,7 @@
 
 #priority -100
 import crafttweaker.data.IData;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
@@ -116,7 +116,14 @@ for lumber, x in woodworking {
     var planks = x[1];
     var slab = x[2];
 
-    val sawmillBlades = <pyrotech:sawmill_blade_obsidian:*> | <pyrotech:sawmill_blade_diamond:*> | <pyrotech:sawmill_blade_iron:*>;
+    val sawmillBlades =
+          <pyrotech:sawmill_blade_stone:*>
+        | <pyrotech:sawmill_blade_flint:*>
+        | <pyrotech:sawmill_blade_bone:*>
+        | <pyrotech:sawmill_blade_iron:*>
+        | <pyrotech:sawmill_blade_gold:*>
+        | <pyrotech:sawmill_blade_diamond:*>
+        | <pyrotech:sawmill_blade_obsidian:*>;
 
     val rawLumber = lumber.withTag({raw: true});
 
