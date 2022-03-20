@@ -893,6 +893,14 @@
       }
     },
     {
+      "projectID": 264353,
+      "fileID": 2508268,
+      "required": true,
+      "__meta": {
+        "name": "SwingThroughGrass"
+      }
+    },
+    {
       "projectID": 266515,
       "fileID": 2745321,
       "required": true,
@@ -1568,6 +1576,14 @@
       }
     },
     {
+      "projectID": 300100,
+      "fileID": 2601052,
+      "required": true,
+      "__meta": {
+        "name": "Better Combat Rebirth"
+      }
+    },
+    {
       "projectID": 300262,
       "fileID": 2754456,
       "required": true,
@@ -1839,7 +1855,7 @@
     },
     {
       "projectID": 321792,
-      "fileID": 3648047,
+      "fileID": 3704251,
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics"
@@ -1991,6 +2007,14 @@
       }
     },
     {
+      "projectID": 370420,
+      "fileID": 3655709,
+      "required": true,
+      "__meta": {
+        "name": "RLTweaker"
+      }
+    },
+    {
       "projectID": 375616,
       "fileID": 3511064,
       "required": true,
@@ -2122,10 +2146,18 @@
     },
     {
       "projectID": 409087,
-      "fileID": 3668442,
+      "fileID": 3697183,
       "required": true,
       "__meta": {
         "name": "Entity Culling"
+      }
+    },
+    {
+      "projectID": 411705,
+      "fileID": 3073878,
+      "required": true,
+      "__meta": {
+        "name": "Damage Tilt"
       }
     },
     {
@@ -2142,7 +2174,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 3642000,
+      "fileID": 3687785,
       "required": true,
       "__meta": {
         "name": "MixinBooter",
@@ -2151,11 +2183,10 @@
     },
     {
       "projectID": 433235,
-      "fileID": 3280303,
+      "fileID": 3680566,
       "required": true,
       "__meta": {
         "name": "Onslaught",
-        "pinned": true,
         "dependencies": [
           284350
         ]
@@ -2243,7 +2274,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 3671148,
+      "fileID": 3687729,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2251,7 +2282,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3661725,
+      "fileID": 3695079,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2259,7 +2290,7 @@
     },
     {
       "projectID": 574029,
-      "fileID": 3636594,
+      "fileID": 3704136,
       "required": true,
       "__meta": {
         "name": "Backported Flora for Underdog",
@@ -2278,7 +2309,7 @@
     },
     {
       "projectID": 575972,
-      "fileID": 3654258,
+      "fileID": 3704117,
       "required": true,
       "__meta": {
         "name": "Salt Water Patcher",
