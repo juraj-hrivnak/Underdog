@@ -1,5 +1,5 @@
 {
-	"enabled": false,
+	"enabled": true,
 	"populate": {
 		"mini_stone_rock": {
 			"distribution": "surface",
