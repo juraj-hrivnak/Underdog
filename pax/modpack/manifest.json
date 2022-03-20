@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "2.2.0",
+  "version": "2.2.1",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -2293,7 +2293,7 @@
       "fileID": 3704136,
       "required": true,
       "__meta": {
-        "name": "Backported Flora for Underdog",
+        "name": "Underdog Flora",
         "dependencies": [
           248453
         ]
