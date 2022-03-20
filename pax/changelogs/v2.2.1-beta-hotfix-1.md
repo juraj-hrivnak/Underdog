@@ -8,9 +8,4 @@ The best place to set up a server to play the Underdog modpack is at: \
 https://bisecthosting.com/underdog
 
 ## What's new?
--
-
-## Mod Changes:
-```markdown
-
-```
+- Fixed quartzite rocks not generating.
