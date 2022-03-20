@@ -106,6 +106,13 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	}
 
 
+	// Berry Bush
+	if (event.blockState == <blockstate:biomesoplenty:plant_0:variant=berrybush>) {
+		event.world.setBlockState(<blockstate:biomesoplenty:plant_0:variant=bush>, event.position);
+		event.player.give(<biomesoplenty:berries>);
+	}
+
+
 	// // Secret
 	// Commands.call("playsound custom.secret master @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 });
