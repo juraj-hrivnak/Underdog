@@ -1,6 +1,6 @@
 
 #modloaded better_diving
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
 val itemsToRemove as IItemStack[] = [
@@ -11,4 +11,5 @@ val itemsToRemove as IItemStack[] = [
     <better_diving:high_capacity_o2_tank>,
     <better_diving:reinforced_o2_tank>,
     <better_diving:seamoth>
-]; for i in itemsToRemove { rh(i); }
+];
+for i in itemsToRemove { rh(i); }

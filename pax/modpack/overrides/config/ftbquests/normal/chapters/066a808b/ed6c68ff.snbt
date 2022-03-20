@@ -28,6 +28,12 @@
 		type: "item",
 		items: [{
 			item: "pyrotech:tongs_stone"
+		},
+		{
+			item: "pyrotech:tongs_flint"
+		},
+		{
+			item: "pyrotech:tongs_bone"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

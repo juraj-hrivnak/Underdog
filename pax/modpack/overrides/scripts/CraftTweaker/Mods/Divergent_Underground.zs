@@ -1,11 +1,11 @@
 #modloaded divergentunderground
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.jei.JEI.hide as h;
 
 // Renaming Boulder
-<divergentunderground:boulder>.displayName = "Boulder";
-<divergentunderground:boulder>.addTooltip("§a:/");
+<divergentunderground:boulder>.displayName = game.localize("underdog.displayname.boulder");
+<divergentunderground:boulder>.addTooltip(game.localize("underdog.tooltip.boulder"));
 
 // Crafting rocks from cobblestones, Qol. stuff, you know :D
 recipes.addShapeless(<divergentunderground:rock_stone> * 4, [<minecraft:cobblestone>]);

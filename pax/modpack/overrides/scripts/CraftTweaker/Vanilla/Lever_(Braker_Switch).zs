@@ -1,9 +1,9 @@
 
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-<minecraft:lever>.displayName = "Breaker Switch";
-<minecraft:lever>.addTooltip("§aActs as Lever");
+<minecraft:lever>.displayName = game.localize("underdog.displayname.lever");
+<minecraft:lever>.addTooltip(game.localize("underdog.tooltip.lever"));
 
 recipes.remove(<minecraft:lever>);
 recipes.addShapedMirrored(<minecraft:lever>,

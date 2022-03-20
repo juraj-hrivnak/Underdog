@@ -1,7 +1,7 @@
 
 #priority -50
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 import mod.mekanism.gas.IGasStack;
@@ -9,7 +9,7 @@ import mods.mekanism.chemical.injection as MKInjection;
 
 val dissolutions as IItemStack[IIngredient] = {
 
-//  IIngredient input,            IItemStack output                
+//  IIngredient input,            IItemStack output
     <ore:oreIron>               : <mekanism:shard>   * 4,
     <ore:oreGold>               : <mekanism:shard:1> * 4,
     <ore:oreOsmium>             : <mekanism:shard:2> * 4,

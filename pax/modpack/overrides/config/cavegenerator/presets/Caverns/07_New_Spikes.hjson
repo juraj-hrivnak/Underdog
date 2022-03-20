@@ -1,7 +1,5 @@
 {
-  imports: [
-    common_values.hjson::NATURAL_STONE
-  ]
+  imports: common_values.hjson::NATURAL_STONE
   variables: {
     COMMON_CEILING: {
       seed: 1

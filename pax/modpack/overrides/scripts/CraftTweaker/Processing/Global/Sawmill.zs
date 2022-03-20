@@ -1,7 +1,7 @@
 
 #priority -50
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.mekanism.sawmill as MKSawmill;
@@ -17,7 +17,7 @@ val cutting as IItemStack[][IIngredient] = {
 
 //  IIngredient input,                        IItemStack output,                 IItemStack secondaryOutput
     <minecraft:stick>                       : [<pyrotech:rock:7>               , null                            ],
-    <minecraft:ladder>                  * 3 : [<minecraft:stick>            * 7, null                            ],
+    <minecraft:ladder>                      : [<minecraft:stick>            * 7, null                            ],
 
     <pyrotech:torch_fiber>                  : [<minecraft:stick>               , <pyrotech:material:21>          ],
     <minecraft:redstone_torch>              : [<minecraft:stick>               , <minecraft:redstone>            ],

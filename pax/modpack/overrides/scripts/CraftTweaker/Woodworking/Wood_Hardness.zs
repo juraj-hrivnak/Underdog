@@ -1,6 +1,6 @@
 
 #priority 9
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 val listOfWoods as IItemStack[][][IOreDictEntry[]] = {
@@ -92,14 +92,8 @@ val listOfWoods as IItemStack[][][IOreDictEntry[]] = {
 for oredict, items in listOfWoods {
     for i in items {
         oredict[0].add(i[0]);
-    }
-    for i in items {
         oredict[1].add(i[1]);
-    }
-    for i in items {
         oredict[2].add(i[2]);
-    }
-    for i in items {
         oredict[3].add(i[3]);
     }
 }
@@ -121,50 +115,50 @@ furnace.setFuel(<ore:pseudoFirewood>  , 105);
 
 furnace.setFuel(<minecraft:stick>, 25);
 
-<ore:softwoodLumber>.addShiftTooltip(format.yellow(format.bold("Softwood")));
-<ore:softwoodLog>   .addShiftTooltip(format.yellow(format.bold("Softwood")));
-<ore:softwoodPlanks>.addShiftTooltip(format.yellow(format.bold("Softwood")));
-<ore:softFirewood>  .addShiftTooltip(format.yellow(format.bold("Softwood")));
+<ore:softwoodLumber>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.soft_wood"))));
+<ore:softwoodLog>   .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.soft_wood"))));
+<ore:softwoodPlanks>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.soft_wood"))));
+<ore:softFirewood>  .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.soft_wood"))));
 
-<ore:hardwoodLumber>.addShiftTooltip(format.yellow(format.bold("Hardwood")));
-<ore:hardwoodLog>   .addShiftTooltip(format.yellow(format.bold("Hardwood")));
-<ore:hardwoodPlanks>.addShiftTooltip(format.yellow(format.bold("Hardwood")));
-<ore:hardFirewood>  .addShiftTooltip(format.yellow(format.bold("Hardwood")));
+<ore:hardwoodLumber>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.hard_wood"))));
+<ore:hardwoodLog>   .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.hard_wood"))));
+<ore:hardwoodPlanks>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.hard_wood"))));
+<ore:hardFirewood>  .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.hard_wood"))));
 
-<ore:pseudowoodLumber>.addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
-<ore:pseudowoodLog>   .addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
-<ore:pseudowoodPlanks>.addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
-<ore:pseudoFirewood>  .addShiftTooltip(format.yellow(format.bold("Pseudo Wood")));
+<ore:pseudowoodLumber>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.pseudo_wood"))));
+<ore:pseudowoodLog>   .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.pseudo_wood"))));
+<ore:pseudowoodPlanks>.addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.pseudo_wood"))));
+<ore:pseudoFirewood>  .addShiftTooltip(format.yellow(format.bold(game.localize("underdog.tooltip.pseudo_wood"))));
 
 <ore:tooBig>.addAll(<ore:softwoodLog>);
 <ore:tooBig>.addAll(<ore:hardwoodLog>);
 <ore:tooBig>.addAll(<ore:pseudowoodLog>);
-<ore:tooBig>.addShiftTooltip(format.red(format.bold("Big")));
+<ore:tooBig>.addShiftTooltip(format.red(format.bold(game.localize("underdog.tooltip.too_big"))));
 
 <ore:firewood>.addAll(<ore:softFirewood>);
 <ore:firewood>.addAll(<ore:hardFirewood>);
 <ore:firewood>.addAll(<ore:pseudoFirewood>);
 
-    // // Rustic Painted Wood
-    // <contenttweaker:painted_wood_white_lumber>      , null                     , <rustic:painted_wood_white>
-    // <contenttweaker:painted_wood_orange_lumber>     , null                     , <rustic:painted_wood_orange>
-    // <contenttweaker:painted_wood_magenta_lumber>    , null                     , <rustic:painted_wood_magenta>
-    // <contenttweaker:painted_wood_light_blue_lumber> , null                     , <rustic:painted_wood_light_blue>
-    // <contenttweaker:painted_wood_yellow_lumber>     , null                     , <rustic:painted_wood_yellow>
-    // <contenttweaker:painted_wood_lime_lumber>       , null                     , <rustic:painted_wood_lime>
-    // <contenttweaker:painted_wood_pink_lumber>       , null                     , <rustic:painted_wood_pink>
-    // <contenttweaker:painted_wood_gray_lumber>       , null                     , <rustic:painted_wood_gray>
-    // <contenttweaker:painted_wood_silver_lumber>     , null                     , <rustic:painted_wood_silver>
-    // <contenttweaker:painted_wood_cyan_lumber>       , null                     , <rustic:painted_wood_cyan>
-    // <contenttweaker:painted_wood_purple_lumber>     , null                     , <rustic:painted_wood_purple>
-    // <contenttweaker:painted_wood_blue_lumber>       , null                     , <rustic:painted_wood_blue>
-    // <contenttweaker:painted_wood_brown_lumber>      , null                     , <rustic:painted_wood_brown>
-    // <contenttweaker:painted_wood_green_lumber>      , null                     , <rustic:painted_wood_green>
-    // <contenttweaker:painted_wood_red_lumber>        , null                     , <rustic:painted_wood_red>
-    // <contenttweaker:painted_wood_black_lumber>      , null                     , <rustic:painted_wood_black>
+// // Rustic Painted Wood
+// <contenttweaker:painted_wood_white_lumber>      , null                     , <rustic:painted_wood_white>
+// <contenttweaker:painted_wood_orange_lumber>     , null                     , <rustic:painted_wood_orange>
+// <contenttweaker:painted_wood_magenta_lumber>    , null                     , <rustic:painted_wood_magenta>
+// <contenttweaker:painted_wood_light_blue_lumber> , null                     , <rustic:painted_wood_light_blue>
+// <contenttweaker:painted_wood_yellow_lumber>     , null                     , <rustic:painted_wood_yellow>
+// <contenttweaker:painted_wood_lime_lumber>       , null                     , <rustic:painted_wood_lime>
+// <contenttweaker:painted_wood_pink_lumber>       , null                     , <rustic:painted_wood_pink>
+// <contenttweaker:painted_wood_gray_lumber>       , null                     , <rustic:painted_wood_gray>
+// <contenttweaker:painted_wood_silver_lumber>     , null                     , <rustic:painted_wood_silver>
+// <contenttweaker:painted_wood_cyan_lumber>       , null                     , <rustic:painted_wood_cyan>
+// <contenttweaker:painted_wood_purple_lumber>     , null                     , <rustic:painted_wood_purple>
+// <contenttweaker:painted_wood_blue_lumber>       , null                     , <rustic:painted_wood_blue>
+// <contenttweaker:painted_wood_brown_lumber>      , null                     , <rustic:painted_wood_brown>
+// <contenttweaker:painted_wood_green_lumber>      , null                     , <rustic:painted_wood_green>
+// <contenttweaker:painted_wood_red_lumber>        , null                     , <rustic:painted_wood_red>
+// <contenttweaker:painted_wood_black_lumber>      , null                     , <rustic:painted_wood_black>
 
-    // // Immersive Engineering
-    // <contenttweaker:treated_wood_lumber>            , null                     , <immersiveengineering:treated_wood>
+// // Immersive Engineering
+// <contenttweaker:treated_wood_lumber>            , null                     , <immersiveengineering:treated_wood>
 
-    // // Pyrotech
-    // <contenttweaker:tarred_lumber>                  , null                     , <pyrotech:planks_tarred>
+// // Pyrotech
+// <contenttweaker:tarred_lumber>                  , null                     , <pyrotech:planks_tarred>

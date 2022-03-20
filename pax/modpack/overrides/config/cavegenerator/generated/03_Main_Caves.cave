@@ -1,5 +1,5 @@
 {
-  enabled: false
+  enabled: true
   blacklistBiomes: true
   biomes: {
     names: [

@@ -1,7 +1,7 @@
 
 #modloaded pyrotech
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack as ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.pyrotech.SoakingPot;
@@ -41,4 +41,3 @@ SoakingPot.addRecipe("treated_lumber"           , <contenttweaker:treated_wood_l
 soakingPotWaterRecipe("minecraft_dirt_1"        , <minecraft:dirt:2>                  , 250                         , <minecraft:dirt:1>       , 1200);
 soakingPotWaterRecipe("minecraft_stonebrick"    , <minecraft:stonebrick:1>            , 250                         , <minecraft:stonebrick>   , 1200);
 soakingPotWaterRecipe("minecraft_cobblestone"   , <minecraft:mossy_cobblestone>       , 250                         , <minecraft:cobblestone>  , 1200);
-

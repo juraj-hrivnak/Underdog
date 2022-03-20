@@ -1,7 +1,7 @@
 
 #priority -50
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 import mod.mekanism.gas.IGasStack;
@@ -9,7 +9,7 @@ import mods.mekanism.purification as MKPurification;
 
 val purification as IItemStack[IIngredient] = {
 
-//  IIngredient input,            IItemStack output                
+//  IIngredient input,            IItemStack output
     <ore:oreIron>               : <mekanism:clump>   * 3,
     <ore:oreGold>               : <mekanism:clump:1> * 3,
     <ore:oreOsmium>             : <mekanism:clump:2> * 3,

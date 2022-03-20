@@ -1,8 +1,8 @@
 
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 
-<minecraft:compass>.addTooltip("Hold in the main hand");
-<minecraft:compass>.addTooltip("to enable Journey Map.");
+<minecraft:compass>.addTooltip(game.localize("underdog.tooltip.compass.1"));
+<minecraft:compass>.addTooltip(game.localize("underdog.tooltip.compass.2"));
 
 recipes.removeShaped(<minecraft:compass>);
 recipes.addShapedMirrored(<minecraft:compass>,

@@ -1,8 +1,9 @@
 
 #priority -20
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+import scripts.CraftTweaker.Utils.RecipeUtils;
 
 val rocks = [
     <divergentunderground:rock_stone>           ,
@@ -39,24 +40,20 @@ for item in stones {
 recipes.replaceAllOccurences(<ore:stone>, <ore:stones>, <*>);
 
 // Fix
-recipes.remove(<quark:stone_stairs>);
-recipes.addShaped(<quark:stone_stairs> * 8,
+RecipeUtils.tweakRecipe(true, <quark:stone_stairs> * 8,
    [[<ore:stone>, null       , null        ],
     [<ore:stone>, <ore:stone>, null        ],
     [<ore:stone>, <ore:stone>, <ore:stone> ]]);
 
-recipes.remove(<minecraft:stonebrick>);
-recipes.addShaped(<minecraft:stonebrick> * 4,
+RecipeUtils.tweakRecipe(true, <minecraft:stonebrick> * 4,
    [[<ore:stone>, <ore:stone> ],
     [<ore:stone>, <ore:stone> ]]);
 
-recipes.remove(<quark:stone_wall>);
-recipes.addShaped(<quark:stone_wall> * 6,
+RecipeUtils.tweakRecipe(true, <quark:stone_wall> * 6,
    [[<ore:stone>, <ore:stone>, <ore:stone> ],
     [<ore:stone>, <ore:stone>, <ore:stone> ]]);
 
-recipes.remove(<quark:stone_speleothem>);
-recipes.addShaped(<quark:stone_speleothem> * 6,
+RecipeUtils.tweakRecipe(true, <quark:stone_speleothem> * 6,
    [[<ore:stone> ],
     [<ore:stone> ],
     [<ore:stone> ]]);

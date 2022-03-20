@@ -1,7 +1,7 @@
 
 #priority 100
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 
@@ -42,7 +42,7 @@ val ingotMap as IItemStack[][][IOreDictEntry] = {
 
 for oredict, item in ingotMap {
     for i in item[0] {
-        i.addShiftTooltip(format.green(format.bold("Default ingot!")));
+        i.addShiftTooltip(format.green(format.bold(game.localize("underdog.tooltip.default_ingot"))));
     }
     for i in item[1] {
         oredict.remove(i);

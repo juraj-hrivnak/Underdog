@@ -1,6 +1,6 @@
 
 #priority -101
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 // Adding items from plankWood oredict to plankBig oredict

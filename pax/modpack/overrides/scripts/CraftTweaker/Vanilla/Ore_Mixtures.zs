@@ -1,7 +1,7 @@
 
 #priority -100
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 
 val mixture as IItemStack[][IItemStack] = {
 
@@ -36,17 +36,17 @@ for output, input in mixture {
 
 }
 
-<contenttweaker:ore_mixture_bronze>.addTooltip(format.gray(format.underline("3x") + " - Copper Cluster"));
-<contenttweaker:ore_mixture_bronze>.addTooltip(format.gray(format.underline("1x") + " - Tin Cluster"));
+<contenttweaker:ore_mixture_bronze>.addTooltip(format.gray(format.underline("3x") + " - " ~ game.localize("underdog.tooltip.ore_mixture_cluster_copper")));
+<contenttweaker:ore_mixture_bronze>.addTooltip(format.gray(format.underline("1x") + " - " ~ game.localize("underdog.tooltip.ore_mixture_cluster_tin")));
 
-<contenttweaker:ore_mixture_constantan>.addTooltip(format.gray(format.underline("1x") + " - Copper Cluster"));
-<contenttweaker:ore_mixture_constantan>.addTooltip(format.gray(format.underline("1x") + " - Nickel Cluster"));
+<contenttweaker:ore_mixture_constantan>.addTooltip(format.gray(format.underline("1x") + " - " ~ game.localize("underdog.tooltip.ore_mixture_cluster_copper")));
+<contenttweaker:ore_mixture_constantan>.addTooltip(format.gray(format.underline("1x") + " - " ~ game.localize("underdog.tooltip.ore_mixture_cluster_nickel")));
 
-<contenttweaker:ore_mixture_electrum>.addTooltip(format.gray(format.underline("1x") + " - Gold Cluster"));
-<contenttweaker:ore_mixture_electrum>.addTooltip(format.gray(format.underline("1x") + " - Silver Cluster"));
+<contenttweaker:ore_mixture_electrum>.addTooltip(format.gray(format.underline("1x") + " - " ~ game.localize("underdog.tooltip.ore_mixture_cluster_gold")));
+<contenttweaker:ore_mixture_electrum>.addTooltip(format.gray(format.underline("1x") + " - " ~ game.localize("underdog.tooltip.ore_mixture_cluster_silver")));
 
-<contenttweaker:ore_mixture_invar>.addTooltip(format.gray(format.underline("2x") + " - Iron Cluster"));
-<contenttweaker:ore_mixture_invar>.addTooltip(format.gray(format.underline("1x") + " - Nickel Cluster"));
+<contenttweaker:ore_mixture_invar>.addTooltip(format.gray(format.underline("2x") + " - " ~ game.localize("underdog.tooltip.ore_mixture_cluster_iron")));
+<contenttweaker:ore_mixture_invar>.addTooltip(format.gray(format.underline("1x") + " - " ~ game.localize("underdog.tooltip.ore_mixture_cluster_nickel")));
 
 <ore:mixtureBronze>.add(<contenttweaker:ore_mixture_bronze>);
 <ore:mixtureConstantan>.add(<contenttweaker:ore_mixture_constantan>);

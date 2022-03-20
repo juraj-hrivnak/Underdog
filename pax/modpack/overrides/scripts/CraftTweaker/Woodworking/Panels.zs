@@ -1,5 +1,6 @@
+
 #norun
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 val lumbersAndPanels = {

@@ -1,7 +1,10 @@
 
 #modloaded nuclearcraft
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
+import mods.ItemStages;
+
+import scripts.CraftTweaker.Utils.RecipeUtils;
 
 val jeiCategories = [
     "nuclearcraft_separator",
@@ -39,11 +42,10 @@ val jeiCategories = [
 ] as string[];
 
 for i in jeiCategories {
-    mods.ItemStages.stageRecipeCategory("NuclearCraft", i);
+    ItemStages.stageRecipeCategory("NuclearCraft", i);
 }
 
-recipes.remove(<nuclearcraft:part:10>);
-recipes.addShaped("nuclearcraft_machine_chasis", <nuclearcraft:part:10>, 
+RecipeUtils.tweakRecipe(true, <nuclearcraft:part:10>, 
    [[<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>],
     [<ore:plateSteel>, <ore:ingotTough>, <ore:plateSteel>],
     [<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>]],
@@ -56,7 +58,7 @@ recipes.addShaped("nuclearcraft_machine_chasis", <nuclearcraft:part:10>,
         player.addGameStage("NuclearCraft");
 });
 
-mods.ItemStages.stageModItems("NuclearCraft", "nuclearcraft");
+ItemStages.stageModItems("NuclearCraft", "nuclearcraft");
 
 val itemsToKeep = [
     <nuclearcraft:manufactory>,
@@ -75,5 +77,5 @@ val itemsToKeep = [
 ] as IItemStack[];
 
 for i in itemsToKeep {
-    mods.ItemStages.removeItemStage(i);
+    ItemStages.removeItemStage(i);
 }

@@ -1,9 +1,11 @@
 
 #priority 100
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
+
+import scripts.CraftTweaker.Utils.RecipeUtils;
 
 val nuggetMap as IItemStack[][][IOreDictEntry] = {
 
@@ -35,7 +37,7 @@ val nuggetMap as IItemStack[][][IOreDictEntry] = {
 
 for oredict, item in nuggetMap {
     for i in item[0] {
-        i.addShiftTooltip(format.green(format.bold("Default nugget!")));
+        i.addShiftTooltip(format.green(format.bold(game.localize("underdog.tooltip.default_nugget"))));
         recipes.remove(i);
         recipes.addShapeless(i * 9, item[2]);
     }
@@ -45,10 +47,6 @@ for oredict, item in nuggetMap {
         rh(i);
     }
     for i in item[2] {
-        recipes.remove(i);
-        recipes.addShaped(i,
-           [[oredict, oredict, oredict],
-            [oredict, oredict, oredict],
-            [oredict, oredict, oredict]]);
+        RecipeUtils.tweakRecipe(true, i, RecipeUtils.createFull3(oredict));
     }
 }

@@ -1,7 +1,7 @@
 
 #priority -50
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.immersiveengineering.ArcFurnace as ArcFurnace;
@@ -97,5 +97,3 @@ for input, output in dusts {
 for output, input in aloys {
     ArcFurnace.addRecipe(output, input[0], null, 100, 512, [input[1]]);
 }
-
-

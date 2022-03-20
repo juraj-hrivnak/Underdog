@@ -2,7 +2,7 @@
 #priority -100
 #modloaded pyrotech
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.jei.JEI.hideCategory as hc;
 import crafttweaker.oredict.IOreDictEntry;

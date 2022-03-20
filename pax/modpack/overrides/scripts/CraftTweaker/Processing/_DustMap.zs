@@ -1,7 +1,7 @@
 
 #priority 100
 import crafttweaker.item.IIngredient;
-import crafttweaker.item.IItemStack as IItemStack;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.jei.JEI.hide as h;
@@ -84,7 +84,7 @@ val dustMap as IItemStack[] = [
 
 for oredict, item in dustMapTwo {
     for i in item[0] {
-        i.addShiftTooltip(format.green(format.bold("Default dust!")));
+        i.addShiftTooltip(format.green(format.bold(game.localize("underdog.tooltip.default_dust"))));
     }
     for i in item[1] {
         oredict.remove(i);
