@@ -8,6 +8,7 @@ import crafttweaker.events.IEventManager;
 import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IBlockPos;
+import mods.contenttweaker.Commands;
 
 
 events.onBlockPlace(function(event as crafttweaker.event.BlockPlaceEvent) {
@@ -27,6 +28,7 @@ events.onBlockPlace(function(event as crafttweaker.event.BlockPlaceEvent) {
 	// Checking block
 	if (blockPlaceTransforms.keySet has event.blockState) {
 		event.world.setBlockState(blockPlaceTransforms[event.blockState], event.position);
+		Commands.call("playsound minecraft:item.flintandsteel.use block @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 	}
 
 });
