@@ -50,8 +50,7 @@ rh(<pyrotech:crude_hammer>);
 h(<pyrotech:material:27>);
 <ore:stickStone>.remove(<pyrotech:material:27>);
 
-RecipeUtils.tweakRecipe(true, <pyrotech:sawmill_blade_stone>,
-    RecipeUtils.createSurround(<ore:stones>, <ore:rocks>));
+RecipeUtils.tweakRecipe(true, <pyrotech:sawmill_blade_stone>, RecipeUtils.createSurround(<ore:stones>, <ore:rocks>));
 
 RecipeUtils.tweakRecipe(false, <pyrotech:flint_and_tinder>, [[<pyrotech:material:10>, <pyrotech:material:13>, <ore:rocks>]]);
 
@@ -64,11 +63,10 @@ furnace.remove(<minecraft:stone:1>, <pyrotech:cobblestone:2>);
 val clayLump = <pyrotech:material:17>;
 
 // Torch
-val coal = <minecraft:coal> | <minecraft:coal:1> | <geolosys:coal:1> | <geolosys:coal:2> | <geolosys:coal:3> | <pyrotech:material:21>;
-
 rh(<pyrotech:torch_stone>);
-RecipeUtils.tweakRecipe(true, <pyrotech:torch_fiber>, [[coal], [<ore:stickWood>]]);
 <ore:torch>.add(<pyrotech:torch_fiber>);
+val coal = <minecraft:coal> | <minecraft:coal:1> | <geolosys:coal:1> | <geolosys:coal:2> | <geolosys:coal:3> | <pyrotech:material:21>;
+RecipeUtils.tweakRecipe(true, <pyrotech:torch_fiber>, [[coal], [<ore:stickWood>]]);
 
 Dropt.list("torch")
   .add(Dropt.rule()
@@ -92,8 +90,7 @@ Dropt.list("torch")
 <ore:listAllmilk>.add(<pyrotech:bucket_stone:1>);
 
 // Wood Pile
-RecipeUtils.tweakRecipe(true, <pyrotech:log_pile>,
-   RecipeUtils.createFull3(<ore:firewood>));
+RecipeUtils.tweakRecipe(true, <pyrotech:log_pile>, RecipeUtils.createFull3(<ore:firewood>));
 furnace.setFuel(<pyrotech:log_pile>, 480);
 
 // Masonry Brick
@@ -102,10 +99,9 @@ recipes.addShapedMirrored(<pyrotech:material:16>,
     [<ore:rocks>, <ore:rocks> ]]);
 
 // Stone Hammer
-RecipeUtils.tweakRecipe(true, <pyrotech:stone_hammer>, [
-    [<ore:rocks>    , <ore:rocks>         ],
-    [<ore:stickWood>, <ore:rocks>.reuse() ]
-]);
+RecipeUtils.tweakRecipe(true, <pyrotech:stone_hammer>,
+   [[<ore:rocks>    , <ore:rocks>         ],
+    [<ore:stickWood>, <ore:rocks>.reuse() ]]);
 
 
 // Refractory

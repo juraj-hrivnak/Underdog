@@ -14,7 +14,7 @@
       range: [ 0, 8 ]
     }
   }
-  enabled: false
+  enabled: true
   blacklistBiomes: true
   biomes: {
     names: [
