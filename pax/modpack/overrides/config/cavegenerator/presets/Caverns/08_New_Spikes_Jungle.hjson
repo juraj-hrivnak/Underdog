@@ -1,0 +1,99 @@
+{
+  imports: common_values.hjson::NATURAL_STONE
+  variables: {
+    COMMON_CEILING: {
+      seed: 1
+      cache: true
+      frequency: 0.0095 // "1" makes basalt comulns
+      range: [ -100, 200 ]
+    }
+    COMMON_FLOOR: {
+      seed: 1
+      cache: true
+      frequency: 0.06
+      range: [ 0, 8 ]
+    }
+    cave(): {
+      seed: 1
+      /*
+        Default:
+          threshold: -0.001 * @1
+          frequency: 0.0055 * (@1 * -1)
+      */
+      threshold: -0.5 * @1
+      frequency: 0.0045 * (@1 * -1)
+      offset: 500 * @1
+      lacunarity: 1.7 * (@1 * -0.1)
+      // [Default: 6]
+      octaves: 3
+      gain: 0.7
+      perturb: false
+      // [Default: 5] You can mess around with this
+      perturbAmp: 5 * (@1 * 10)
+      // [Default: 0.1] You can mess around with this
+      perturbFreq: 0.1 * (@1 * 1.2)
+      type: Cellular
+      jitterX: 0.25
+      jitterY: 0.25
+      jitterZ: 0.25
+      returnType: Distance3Add
+      distFunc: Manhattan
+      invert: true
+      interp: Quintic
+      fractal: FBM
+      stretch: -48
+    }
+  }
+  enabled: false
+  biomes: {
+    names: [
+      minecraft:smaller_extreme_hills
+      minecraft:jungle
+      minecraft:jungle_hills
+      minecraft:jungle_edge
+      minecraft:mutated_jungle
+      minecraft:mutated_jungle_edge
+    ]
+  }
+  replaceDecorators: false
+  replaceableBlocks: [
+    air
+    grass
+    water
+  ]
+  caverns: {
+    // This is what defines the generation hight.
+    height: [
+      -60
+      -30
+    ]
+    region: {
+      frequency: 0.015
+      threshold: 0.001
+    }
+    ceiling: $COMMON_CEILING
+    floor: $COMMON_FLOOR
+    generators: [
+      $cave(0.8)
+    ]
+  }
+  wallDecorators: [
+    {
+      states: cobblestone
+      directions: side
+      matchers: stone
+      height: [ 60, 240 ]
+      placement: EMBED
+      integrity: 0.1
+    }
+  ]
+  caveBlocks: [
+    {
+      states: stone
+      height: [
+        0
+        255
+      ]
+    }
+  ]
+}

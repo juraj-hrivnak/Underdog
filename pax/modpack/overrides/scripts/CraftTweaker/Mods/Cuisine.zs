@@ -50,6 +50,7 @@ recipes.addHiddenShaped("Chopping Boards", <cuisine:chopping_board>,
 // mill.add(<ore:gemLapis>, null, <biomesoplenty:blue_dye>, null);
 // mill.add(<ore:gemLapis>, null, <biomesoplenty:blue_dye>, null);
 
+val masonryBrick = <pyrotech:material:16>;
 
 // Mill
 RecipeUtils.tweakRecipe(true, <cuisine:mill>,
@@ -65,12 +66,21 @@ recipes.addShapedMirrored(<cuisine:fire_pit>,
 // Wooden Handle
 RecipeUtils.tweakRecipe(true, <cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);
 
+// Jar
 RecipeUtils.tweakRecipe(true, <cuisine:jar>,
-   RecipeUtils.createSurround(null, <ore:ingotBrick>));
+ [[null            , <ore:ingotBrick>, null             ],
+  [<ore:ingotBrick>, null            , <ore:ingotBrick> ],
+  [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick> ]]);
 
+// Earthen Basin
 RecipeUtils.tweakRecipe(true, <cuisine:earthen_basin>,
-   [[<ore:ingotBrick>          , null        , <ore:ingotBrick>           ],
-    [<minecraft:iron_bars>, <ore:ingotBrick> , <minecraft:iron_bars> ]]);
+ [[<ore:ingotBrick>, null            , <ore:ingotBrick> ],
+  [masonryBrick    , <ore:ingotBrick>, masonryBrick     ]]);
+
+// Wooden Basin
+RecipeUtils.tweakRecipe(true, <cuisine:wooden_basin>,
+ [[<ore:lumber>, null        , <ore:lumber> ],
+  [masonryBrick, <ore:lumber>, masonryBrick ]]);
 
 val basins = {
   <cuisine:earthen_basin_colored>     : <minecraft:dye:15>,

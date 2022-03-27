@@ -65,6 +65,7 @@ val clayLump = <pyrotech:material:17>;
 // Torch
 rh(<pyrotech:torch_stone>);
 <ore:torch>.add(<pyrotech:torch_fiber>);
+<ore:blockTorch>.add(<pyrotech:torch_fiber>);
 val coal = <minecraft:coal> | <minecraft:coal:1> | <geolosys:coal:1> | <geolosys:coal:2> | <geolosys:coal:3> | <pyrotech:material:21>;
 RecipeUtils.tweakRecipe(true, <pyrotech:torch_fiber>, [[coal], [<ore:stickWood>]]);
 
