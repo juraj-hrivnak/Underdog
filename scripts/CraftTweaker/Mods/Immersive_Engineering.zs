@@ -3,6 +3,7 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
+import mods.jei.JEI.hideCategory as hc;
 import mods.jei.JEI.hide as h;
 import mods.immersiveengineering.Fermenter as Fermenter;
 import mods.immersiveengineering.Squeezer as Squeezer;
@@ -23,6 +24,14 @@ import scripts.CraftTweaker.Utils.RecipeUtils;
 //     [<ore:stickIron>, <immersiveengineering:wooden_device0>, <ore:stickIron>],
 //     [null, <ore:plateIron>, null]
 // ]);
+
+
+// Hide Alloy Smelter
+hc("ie.alloysmelter");
+rh(<immersivepetroleum:schematic>.withTag({multiblock: "IE:AlloySmelter"}, true));
+rh(<immersiveengineering:stone_decoration_slab:10>);
+rh(<immersiveengineering:stone_decoration:10>);
+
 
 val clayLump = <pyrotech:material:17>;
 
