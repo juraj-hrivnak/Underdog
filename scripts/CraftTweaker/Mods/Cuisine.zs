@@ -72,11 +72,6 @@ RecipeUtils.tweakRecipe(true, <cuisine:jar>,
   [<ore:ingotBrick>, null            , <ore:ingotBrick> ],
   [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick> ]]);
 
-// Basin
-RecipeUtils.tweakRecipe(true, <cuisine:earthen_basin>,
- [[<ore:ingotBrick>, null            , <ore:ingotBrick> ],
-  [masonryBrick    , <ore:ingotBrick>, masonryBrick     ]]);
-
 // Earthen Basin
 RecipeUtils.tweakRecipe(true, <cuisine:earthen_basin>,
  [[<ore:ingotBrick>, null            , <ore:ingotBrick> ],
