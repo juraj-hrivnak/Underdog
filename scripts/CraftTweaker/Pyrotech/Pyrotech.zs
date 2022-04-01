@@ -46,6 +46,9 @@ val itemsToRemove as IItemStack[] = [
 for i in itemsToRemove { furnace.remove(i); rh(i); }
 rh(<pyrotech:crude_hammer>);
 
+// Refractory Faucet removal
+rh(<pyrotech:faucet_brick>);
+
 // Stone Rod removal
 h(<pyrotech:material:27>);
 <ore:stickStone>.remove(<pyrotech:material:27>);
