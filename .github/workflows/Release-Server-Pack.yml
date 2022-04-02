@@ -1,4 +1,4 @@
-name: Release-Server-Pack
+name: Release-With-Server-Pack
 
 on:
   push:
