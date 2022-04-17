@@ -15,5 +15,22 @@ The best place to set up a server to play the Underdog modpack is at: \
 ## Mod Changes
 
 ```markdown
+Added:
+- Greenery🌿
+- SmoothWater
+- Fish's Undead Rising 👀
+- Immersive Combat (Better Combat Rebirth)
 
+Removed:
+- Underdog Flora
+- Sonar Core
+- Practical Logistics 2
+
+Updated:
+- Cyclic
+- Future MC
+- Entity Culling
+- Had Enough Items
+- AE2 Unofficial Extended Life
+- SimpleDifficulty for Underdog
 ```
