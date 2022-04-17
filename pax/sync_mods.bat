@@ -9,6 +9,6 @@ cd ..\..\.out
 xcopy /s missing_mods ..\..\mods\
 cd ..
 
-cmd /c java -jar ModpackDownloader-cli-0.7.1.jar -manifest modpack/manifest.json -folder ../mods
+cmd /c java -jar ModpackDownloader-cli-0.7.2.jar -manifest modpack/manifest.json -folder ../mods
 
 echo Done!

@@ -486,19 +486,10 @@
     },
     {
       "projectID": 239286,
-      "fileID": 3386442,
+      "fileID": 3722420,
       "required": true,
       "__meta": {
         "name": "Cyclic"
-      }
-    },
-    {
-      "projectID": 239418,
-      "fileID": 2645156,
-      "required": true,
-      "__meta": {
-        "name": "Sonar Core",
-        "explicit": false
       }
     },
     {
@@ -878,18 +869,6 @@
       "required": true,
       "__meta": {
         "name": "Tomb Many Graves 2"
-      }
-    },
-    {
-      "projectID": 263048,
-      "fileID": 2643354,
-      "required": true,
-      "__meta": {
-        "name": "Practical Logistics 2",
-        "dependencies": [
-          239418,
-          239431
-        ]
       }
     },
     {
@@ -1275,6 +1254,14 @@
       }
     },
     {
+      "projectID": 286352,
+      "fileID": 2537363,
+      "required": true,
+      "__meta": {
+        "name": "SmoothWater"
+      }
+    },
+    {
       "projectID": 286382,
       "fileID": 2815686,
       "required": true,
@@ -1576,14 +1563,6 @@
       }
     },
     {
-      "projectID": 300100,
-      "fileID": 2601052,
-      "required": true,
-      "__meta": {
-        "name": "Better Combat Rebirth"
-      }
-    },
-    {
       "projectID": 300262,
       "fileID": 2754456,
       "required": true,
@@ -1744,7 +1723,7 @@
     },
     {
       "projectID": 310059,
-      "fileID": 3582196,
+      "fileID": 3722997,
       "required": true,
       "__meta": {
         "name": "Future MC",
@@ -1851,6 +1830,14 @@
       "required": true,
       "__meta": {
         "name": "Divergent Underground"
+      }
+    },
+    {
+      "projectID": 321139,
+      "fileID": 3565071,
+      "required": true,
+      "__meta": {
+        "name": "Fish's Undead Rising"
       }
     },
     {
@@ -2146,7 +2133,7 @@
     },
     {
       "projectID": 409087,
-      "fileID": 3697183,
+      "fileID": 3749801,
       "required": true,
       "__meta": {
         "name": "Entity Culling"
@@ -2261,6 +2248,14 @@
       }
     },
     {
+      "projectID": 541058,
+      "fileID": 3676225,
+      "required": true,
+      "__meta": {
+        "name": "Immersive Combat (Better Combat Rebirth)"
+      }
+    },
+    {
       "projectID": 545353,
       "fileID": 3519479,
       "required": true,
@@ -2274,7 +2269,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 3687729,
+      "fileID": 3745849,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2282,7 +2277,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3712522,
+      "fileID": 3755096,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2290,7 +2285,7 @@
     },
     {
       "projectID": 574029,
-      "fileID": 3717561,
+      "fileID": 3751798,
       "required": true,
       "__meta": {
         "name": "Underdog Flora",
@@ -2301,7 +2296,7 @@
     },
     {
       "projectID": 574162,
-      "fileID": 3720616,
+      "fileID": 3756901,
       "required": true,
       "__meta": {
         "name": "SimpleDifficulty for Underdog"

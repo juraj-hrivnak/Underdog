@@ -1,0 +1,15 @@
+{
+	x: 1.8d,
+	y: 3.0d,
+	dependencies: [
+		"755477b9"
+	],
+	size: 0.8d,
+	tasks: [{
+		uid: "60f23214",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	}]
+}

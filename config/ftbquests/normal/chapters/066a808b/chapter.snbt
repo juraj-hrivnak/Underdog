@@ -1,6 +1,6 @@
 {
-	title: "The Bronze Age",
-	icon: "divergentunderground:ore_ie_copper",
+	title: "Procesing Metals",
+	icon: "divergentunderground:ore_gold",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "square"

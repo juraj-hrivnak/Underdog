@@ -1,11 +1,11 @@
 {
 	icon: "pyrotech:bloomery",
-	x: 0.5d,
-	y: 3.5d,
+	x: 0.0d,
+	y: 1.0d,
 	shape: "hexagon",
+	hide_dependency_lines: true,
 	dependencies: [
-		"9ea34339",
-		"6905b422"
+		"85d7e4c8"
 	],
 	hide: true,
 	size: 1.4d,
@@ -14,13 +14,6 @@
 		type: "item",
 		items: [{
 			item: "pyrotech:bloomery"
-		}]
-	},
-	{
-		uid: "b63e2bfe",
-		type: "item",
-		items: [{
-			item: "pyrotech:bellows"
 		}]
 	},
 	{

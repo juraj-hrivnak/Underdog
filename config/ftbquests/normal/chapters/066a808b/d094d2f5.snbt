@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	shape: "heart",
+	hide_dependency_lines: true,
+	dependencies: [
+		"85d7e4c8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "26ebbbf5",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 3"
+		}]
+	}]
+}

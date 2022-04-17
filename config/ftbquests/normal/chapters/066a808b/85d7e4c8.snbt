@@ -1,6 +1,6 @@
 {
-	x: 0.5d,
-	y: 0.5d,
+	x: -1.5d,
+	y: 2.0d,
 	shape: "heart",
 	hide_dependency_lines: true,
 	dependencies: [

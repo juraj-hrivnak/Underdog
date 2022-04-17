@@ -8,6 +8,8 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.pyrotech.CrudeDryingRack;
 import mods.pyrotech.DryingRack;
 
+import scripts.CraftTweaker.Utils.RecipeUtils.getNameForRecipe;
+
 CrudeDryingRack.removeAllRecipes();
 DryingRack.removeAllRecipes();
 
@@ -23,7 +25,7 @@ val items as IItemStack[IItemStack] = {
 for output, input in items {
 
     DryingRack.addRecipe(
-        input.name + output.name,   // recipe name
+        getNameForRecipe(output),   // recipe name
         output,                     // output
         input,                      // input
         600                         // duration in ticks

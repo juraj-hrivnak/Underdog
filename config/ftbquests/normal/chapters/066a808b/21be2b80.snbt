@@ -1,0 +1,36 @@
+{
+	title: "Sand Casts",
+	x: 1.8d,
+	y: 3.8d,
+	size: 0.8d,
+	tasks: [{
+		uid: "251e1214",
+		type: "item",
+		items: [{
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "3f297822",
+		type: "item",
+		items: [{
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "ab973f1c",
+		type: "item",
+		items: [{
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	}]
+}

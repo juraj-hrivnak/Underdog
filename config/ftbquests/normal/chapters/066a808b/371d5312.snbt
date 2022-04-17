@@ -1,0 +1,12 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	shape: "heart",
+	tasks: [{
+		uid: "23ae9471",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ore_mixture_bronze"
+		}]
+	}]
+}
