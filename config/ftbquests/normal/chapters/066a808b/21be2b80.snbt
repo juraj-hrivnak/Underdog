@@ -2,6 +2,10 @@
 	title: "Sand Casts",
 	x: 1.8d,
 	y: 3.8d,
+	dependencies: [
+		"460aac9c"
+	],
+	hide: true,
 	size: 0.8d,
 	tasks: [{
 		uid: "251e1214",
