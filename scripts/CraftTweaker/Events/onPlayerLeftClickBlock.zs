@@ -104,7 +104,7 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 
 				// Replacing the ~ ~-1 ~ block
 				event.world.setBlockState(blockTrasformers[event.world.getBlockState(event.position.getOffset(IFacing.down, 1))], event.position.getOffset(IFacing.down, 1));
-				Commands.call("playsound tconstruct:wood_hit block @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+				Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 
 			} else {
 
@@ -131,7 +131,7 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
 
 				// Replacing the ~ ~-1 ~ block
 				event.world.setBlockState(blockTrasformers[event.world.getBlockState(event.position.getOffset(IFacing.down, 1))], event.position.getOffset(IFacing.down, 1));
-				Commands.call("playsound tconstruct:wood_hit block @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+				Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 
 			} else {
 

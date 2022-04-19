@@ -28,7 +28,7 @@ events.onBlockPlace(function(event as crafttweaker.event.BlockPlaceEvent) {
 	// Checking block
 	if (blockPlaceTransforms.keySet has event.blockState) {
 		event.world.setBlockState(blockPlaceTransforms[event.blockState], event.position);
-		Commands.call("playsound minecraft:item.flintandsteel.use block @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+		Commands.call("playsound minecraft:item.flintandsteel.use block @a[r=16] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 	}
 
 });

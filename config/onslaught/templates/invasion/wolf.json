@@ -18,7 +18,7 @@
     },
     "commands": {
       "start": [
-        "/playsound minecraft:entity.wolf.growl hostile @a[r=20] ~ ~ ~"
+        "/playsound minecraft:entity.wolf.growl hostile @a[r=16] ~ ~ ~"
       ]
     },
     "waves": [

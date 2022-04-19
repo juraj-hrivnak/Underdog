@@ -176,7 +176,7 @@ for lumber, x in woodworking {
        [lumber, lumber ]],
         null,
         function(out,cInfo,player) {
-            Commands.call("playsound tconstruct:wood_hit block @a[r=20] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         }
     );
 
@@ -188,7 +188,7 @@ for lumber, x in woodworking {
         null,
         function(out,cInfo,player) {
             player.xp += 1;
-            Commands.call("playsound tconstruct:wood_hit block @a[r=20] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         }
     );
 
@@ -198,7 +198,7 @@ for lumber, x in woodworking {
         [ironNail, lumber, lumber   ]],
         null,
         function(out,cInfo,player) {
-            Commands.call("playsound tconstruct:wood_hit block @a[r=20] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         },
         true
     );
