@@ -17,6 +17,8 @@ val clayCasts as IItemStack[IIngredient] = {
     <pyrotech:bucket_stone> |
         <tcomplement:materials>       : <tcomplement:cast_clay>                     ,
 
+    <ore:ingotCopper>                 : <contenttweaker:cast_sand_ingot>            ,
+
     <tconstruct:broad_axe_head:*>     : getClayCast("tconstruct:broad_axe_head")    ,
     <tconstruct:binding:*>            : getClayCast("tconstruct:binding")           ,
     <tconstruct:bow_limb:*>           : getClayCast("tconstruct:bow_limb")          ,
@@ -62,7 +64,7 @@ for part, cast in clayCasts {
 
     recipes.addShapeless(cast, [<ore:sand>, part.reuse(), allWater, <ore:clayball>], null,
         function(out,cInfo,player) {
-            Commands.call("playsound minecraft:item.bucket.empty block @a[r=20] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            Commands.call("playsound minecraft:item.bucket.empty block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         }
     );
 

@@ -53,11 +53,11 @@ val casts as IItemStack[IIngredient] = {
     <conarm:chest_core:*>             : getCast("conarm:chest_core")            ,
     <conarm:polishing_kit:*>          : getCast("conarm:polishing_kit")         ,
 
-    <ore:ingotIron>                   : <tconstruct:cast_custom>                ,
-    <ore:nuggetIron>                  : <tconstruct:cast_custom:1>              ,
+    <ore:ingotCopper>                 : <tconstruct:cast_custom>                ,
+    <ore:nuggetCopper>                : <tconstruct:cast_custom:1>              ,
     <ore:gemEmerald>                  : <tconstruct:cast_custom:2>              ,
-    <ore:plateIron>                   : <tconstruct:cast_custom:3>              ,
-    <ore:gearIron>                    : <tconstruct:cast_custom:4>              ,
+    <ore:plateCopper>                 : <tconstruct:cast_custom:3>              ,
+    <ore:gearCopper>                  : <tconstruct:cast_custom:4>              ,
 
     <contenttweaker:nail_iron>        : <contenttweaker:cast_nail>              ,
 
@@ -72,3 +72,28 @@ for input, output in casts {
 
 // Iron Nail
 Casting.addTableRecipe(<contenttweaker:nail_iron>, <contenttweaker:cast_nail>, <liquid:iron>, 18, false, 20);
+
+// Ingot Sand Casting
+val casting as ILiquidStack[IItemStack] = {
+    <minecraft:iron_ingot>          : <liquid:iron>         ,
+    <minecraft:gold_ingot>          : <liquid:gold>         ,
+    <geolosys:ingot>                : <liquid:copper>       ,
+    <geolosys:ingot:1>              : <liquid:tin>          ,
+    <geolosys:ingot:2>              : <liquid:silver>       ,
+    <geolosys:ingot:3>              : <liquid:lead>         ,
+    <geolosys:ingot:4>              : <liquid:aluminum>     ,
+    <geolosys:ingot:5>              : <liquid:nickel>       ,
+    <geolosys:ingot:7>              : <liquid:zinc>         ,
+    <immersiveengineering:metal:5>  : <liquid:uranium>      ,
+    <mekanism:ingot:1>              : <liquid:osmium>       ,
+    <tconstruct:ingots>             : <liquid:cobalt>       ,
+    <tconstruct:ingots:1>           : <liquid:ardite>       ,
+    <immersiveengineering:metal:6>  : <liquid:constantan>   ,
+    <immersiveengineering:metal:7>  : <liquid:electrum>     ,
+    <immersiveengineering:metal:8>  : <liquid:steel>        ,
+    <mekanism:ingot:2>              : <liquid:bronze>       ,
+};
+
+for ingot, liquid in casting {
+    Casting.addTableRecipe(ingot, <contenttweaker:cast_sand_ingot>, liquid, 144, true, 20);
+}
