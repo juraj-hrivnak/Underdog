@@ -9,7 +9,9 @@ val chisels as IItemStack[] = [
     <chisel:chisel_diamond:*>,
     <chisel:chisel_hitech:*>,
     <tcomplement:chisel:*>
-]; for i in chisels {
+];
+
+for i in chisels {
     <ore:chisel>.add(i);
 }
 

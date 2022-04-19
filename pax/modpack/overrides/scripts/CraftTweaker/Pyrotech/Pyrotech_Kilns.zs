@@ -11,6 +11,8 @@ import mods.pyrotech.StoneKiln;
 import mods.pyrotech.BrickKiln;
 import mods.pyrotech.PitKiln;
 
+import scripts.CraftTweaker.Utils.RecipeUtils.getNameForRecipe;
+
 BrickKiln.removeAllRecipes();
 StoneKiln.removeAllRecipes();
 PitKiln.removeAllRecipes();
@@ -75,16 +77,16 @@ val nonPotteryItems as IIngredient[IItemStack] = {
 
 for output, input in potteryItems {
     furnace.remove(output, input);
-    PitKiln.addRecipe(  "pit_kiln_"   + output.displayName, output, input, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
-    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 600, 0.16,  [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
-    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 600);
+    PitKiln.addRecipe("pit_kiln_pottery_" ~ getNameForRecipe(output), output, input, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
+    StoneKiln.addRecipe("stone_kiln_pottery_" ~ getNameForRecipe(output), output, input, 600, 0.16, [<pyrotech:material>, <pyrotech:material:6>, <pyrotech:material:7>]);
+    BrickKiln.addRecipe("brick_kiln_pottery_" ~ getNameForRecipe(output), output, input, 600);
     MKSmelter.addRecipe(input, output);
 }
 
 for output, input in nonPotteryItems {
     furnace.remove(output, input);
-    PitKiln.addRecipe(  "pitkiln_"    + output.displayName, output, input, 2400, 0.33, [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
-    StoneKiln.addRecipe("stone_kiln_" + output.displayName, output, input, 600, 0.16,  [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
-    BrickKiln.addRecipe("brick_kiln_" + output.displayName, output, input, 600);
+    PitKiln.addRecipe("pit_kiln_non_pottery_" ~ getNameForRecipe(output), output, input, 2400, 0.33, [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
+    StoneKiln.addRecipe("stone_kiln_non_pottery_" ~ getNameForRecipe(output), output, input, 600, 0.16, [<pyrotech:material>, <pyrotech:material> * 2, <pyrotech:material> * 3]);
+    BrickKiln.addRecipe("brick_kiln_non_pottery_" ~ getNameForRecipe(output), output, input, 600);
     MKSmelter.addRecipe(input, output);
 }

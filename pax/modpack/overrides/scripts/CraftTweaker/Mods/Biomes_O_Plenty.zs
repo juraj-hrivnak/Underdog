@@ -41,3 +41,26 @@ recipes.addShapeless("Overgrown Stone3", <biomesoplenty:grass:1>, [<minecraft:st
 
 // Bamboo compat
 <ore:bamboo>.add(<biomesoplenty:bamboo>);
+
+// Boats removal
+val itemsToRemove as IItemStack[] = [
+    <biomesoplenty:boat_sacred_oak>,
+    <biomesoplenty:boat_cherry>,
+    <biomesoplenty:boat_umbran>,
+    <biomesoplenty:boat_fir>,
+    <biomesoplenty:boat_ethereal>,
+    <biomesoplenty:boat_magic>,
+    <biomesoplenty:boat_mangrove>,
+    <biomesoplenty:boat_palm>,
+    <biomesoplenty:boat_redwood>,
+    <biomesoplenty:boat_willow>,
+    <biomesoplenty:boat_pine>,
+    <biomesoplenty:boat_hellbark>,
+    <biomesoplenty:boat_jacaranda>,
+    <biomesoplenty:boat_mahogany>,
+    <biomesoplenty:boat_ebony>,
+    <biomesoplenty:boat_eucalyptus>
+];
+
+for i in itemsToRemove { rh(i); }
+

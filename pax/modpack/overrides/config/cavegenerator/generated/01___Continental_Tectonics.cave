@@ -18,7 +18,7 @@
       ###########################################
       # Tectonics | maxHight 8
       ###########################################
-      // Earth's Crust
+      // Magma
       state: minecraft:magma
       height: 0
       ceiling: {
@@ -32,7 +32,7 @@
       }
     }
     {
-      // Magma
+      // Earth's Crust
       state: minecraft:stone:1
       height: 0
       ceiling: {

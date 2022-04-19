@@ -12,6 +12,8 @@ import mods.pyrotech.Chopping;
 import mods.contenttweaker.Commands;
 import mods.zenutils.StaticString;
 
+import scripts.CraftTweaker.Utils.RecipeUtils.getNameForRecipe;
+
 val woodworking as IItemStack[][IItemStack] = {
 
     // Vanilla
@@ -130,14 +132,14 @@ for lumber, x in woodworking {
     if (!isNull(log)) {
 
         // Adding recipe for 8 lumbers with "raw: true" tag from one log
-        Chopping.addRecipe("chopping_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}), log, [4], [8]);
+        Chopping.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}), log, [4], [8]);
 
         // Adding tooltip for lumber with "raw: true" tag
         rawLumber.addTooltip(format.gray(format.bold("Raw")));
 
         MKSawmill.addRecipe(log, lumber.withTag({raw: true}) * 8, <pyrotech:rock:7>, 0.5);
-        StoneSawmill.addRecipe("lumber_from_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}) * 8, log, 300, sawmillBlades, 1);
-        BrickSawmill.addRecipe("lumber_from_" + log.displayName + log.definition.owner, lumber.withTag({raw: true}) * 8, log, 60, sawmillBlades, 1);
+        StoneSawmill.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}) * 8, log, 300, sawmillBlades, 1);
+        BrickSawmill.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}) * 8, log, 60, sawmillBlades, 1);
     }
 
     if (!isNull(slab)) {
@@ -169,45 +171,45 @@ for lumber, x in woodworking {
     recipes.addShapeless(lumber * 2, [planks]);
 
     // Adding recipe for planks block from four lumbers
-    recipes.addShaped("_wooden_nail_2x_" + planks.displayName + planks.definition.owner, planks * 2,
+    recipes.addShaped(getNameForRecipe(planks * 2), planks * 2,
       [[lumber, lumber ],
        [lumber, lumber ]],
         null,
         function(out,cInfo,player) {
-            Commands.call("playsound tconstruct:wood_hit block @a[r=20] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         }
     );
 
     // Adding bunus recipe for using "raw" lumber with iron nails
-    recipes.addShapedMirrored("_iron_nail_4x_" + planks.displayName + planks.definition.owner, planks * 4,
+    recipes.addShapedMirrored(getNameForRecipe(planks * 4) ~ "_x4_iron_nails", planks * 4,
        [[null    , null     , ironNail  ],
         [null    , rawLumber, rawLumber ],
         [ironNail, rawLumber, rawLumber ]],
         null,
         function(out,cInfo,player) {
             player.xp += 1;
-            Commands.call("playsound tconstruct:wood_hit block @a[r=20] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         }
     );
 
-    recipes.addHiddenShaped("_iron_nail_2x_" + planks.displayName + planks.definition.owner, planks * 2,
+    recipes.addHiddenShaped(getNameForRecipe(planks * 2) ~ "_x2_iron_nails", planks * 2,
        [[null    , null  , ironNail ],
         [null    , lumber, lumber   ],
         [ironNail, lumber, lumber   ]],
         null,
         function(out,cInfo,player) {
-            Commands.call("playsound tconstruct:wood_hit block @a[r=20] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         },
         true
     );
 
     MKSawmill.addRecipe(planks, lumber * 2);
-    StoneSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 200, sawmillBlades, 0);
-    BrickSawmill.addRecipe("lumber_from_" + planks.displayName + planks.definition.owner, lumber * 2, planks, 20, sawmillBlades, 0);
+    StoneSawmill.addRecipe(getNameForRecipe(lumber * 2), lumber * 2, planks, 200, sawmillBlades, 0);
+    BrickSawmill.addRecipe(getNameForRecipe(lumber * 2), lumber * 2, planks, 20, sawmillBlades, 0);
 
     // Chests recipes
     if (planks.metadata == 0) {
-		recipes.addShaped("_chest_" + planks.displayName + planks.definition.owner, <charset:chest>
+		recipes.addShaped(getNameForRecipe(planks) ~ "_chest", <charset:chest>
 			.withTag({wood: toString(planks)
 				.replace("<", "")
 				.replace(">", ";0")
@@ -218,7 +220,7 @@ for lumber, x in woodworking {
             [lumber, lumber, lumber ]]);
         mods.jei.JEI.addItem(<charset:chest>.withTag({wood: toString(planks).replace("<", "").replace(">", ";0").replace(":", ";").replace(planks.definition.owner + ";", planks.definition.owner + ":")}));
 	} else {
-		recipes.addShaped("_chest_" + planks.displayName + planks.definition.owner, <charset:chest>
+		recipes.addShaped(getNameForRecipe(planks) ~ "_chest", <charset:chest>
 			.withTag({wood: toString(planks)
 				.replace("<", "")
 				.replace(">", "")

@@ -68,10 +68,11 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	// Mill
 	if (isNull(event.item) && (event.blockState == <blockstate:cuisine:mill:facing=west> || event.blockState == <blockstate:cuisine:mill:facing=north> || event.blockState == <blockstate:cuisine:mill:facing=east> || event.blockState == <blockstate:cuisine:mill:facing=south>)) {
 		if (mill[0] == false) {
-			Commands.call("playsound hand_mill block @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 			DelayManager.addDelayWork(function() {
 				return mill[0] = false;
 			}, 64);
+			Commands.call("playsound hand_mill block @a[r=16] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+			event.player.foodStats.addStats(1, 0.5f); // Fix draining too much hunger
 		}
 		mill[0] = true;
 	}
@@ -99,9 +100,9 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	};
 	if (levers.keySet has event.blockState) {
 		if (levers[event.blockState] == true) {
-			Commands.call("playsound breaker_off block @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+			Commands.call("playsound breaker_off block @a[r=16] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 		} else {
-			Commands.call("playsound breaker_on block @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+			Commands.call("playsound breaker_on block @a[r=16] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 		}
 	}
 
@@ -114,5 +115,5 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 
 
 	// // Secret
-	// Commands.call("playsound custom.secret master @a[r=20] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
+	// Commands.call("playsound custom.secret master @a[r=16] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 });

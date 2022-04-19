@@ -27,7 +27,7 @@
           frequency: 0.007
           range: [
             0
-            14
+            20
           ]
         }
       }
@@ -45,7 +45,7 @@
           frequency: 0.007
           range: [
             0
-            14
+            20
           ]
         }
       }
@@ -63,7 +63,7 @@
           frequency: 0.009
           range: [
             0
-            20
+            60
           ]
         }
       }
@@ -80,7 +80,7 @@
           frequency: 0.009
           range: [
             0
-            20
+            60
           ]
         }
       }
@@ -97,7 +97,7 @@
           frequency: 0.009
           range: [
             0
-            20
+            60
           ]
         }
       }

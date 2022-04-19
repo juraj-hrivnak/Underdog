@@ -1,4 +1,7 @@
 
+# Casts
+item.contenttweaker.cast_sand_ingot.name=Ingot Sand Cast
+
 # Ore mixures
 item.contenttweaker.ore_mixture_bronze.name=Bronze Mixture
 item.contenttweaker.ore_mixture_constantan.name=Constantan Mixture

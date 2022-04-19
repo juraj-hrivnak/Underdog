@@ -22,13 +22,13 @@
       ###########################################
       # Tectonics | maxHight 20
       ###########################################
-      // Earth's Crust
+      // Magma
       state: minecraft:magma
       height: 0
       ceiling: $tectonics(10)
     }
     {
-      // Magma
+      // Earth's Crust
       state: minecraft:netherrack
       height: 0
       ceiling: $tectonics(13)

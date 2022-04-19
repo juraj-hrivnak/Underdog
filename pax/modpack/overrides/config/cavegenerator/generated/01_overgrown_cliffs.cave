@@ -5,7 +5,6 @@
   biomes: {
     names: [
       biomesoplenty:crag
-      biomesoplenty:temperate_rainforest
     ]
     types: []
   }
@@ -22,12 +21,12 @@
         frequency: 2
         range: [ 0, 0 ]
       }
-      height: [ 5, 300 ]
+      height: [ 128, 300 ]
       generators: {
         seed: 1
         threshold: -0.57 // [Default: 0.8]
         frequency: -0.055 // [Default: -0.006]
-        offset: 42 // [Default: -30]
+        offset: 0
         type: "Cellular" // [Default: ValueFractal]
         octaves: 4 // [Default: 4]
         lacunarity: 28.4 // [Default: -1.5]

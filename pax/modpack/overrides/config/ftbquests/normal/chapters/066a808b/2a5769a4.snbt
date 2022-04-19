@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	shape: "heart",
+	dependencies: [
+		"3e9ed1da",
+		"88be51ea"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c9b6b8a4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ore_mixture_constantan"
+		}]
+	}]
+}

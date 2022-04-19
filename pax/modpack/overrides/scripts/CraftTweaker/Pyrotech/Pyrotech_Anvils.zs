@@ -8,6 +8,8 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.pyrotech.IroncladAnvil;
 import mods.pyrotech.GraniteAnvil;
 
+import scripts.CraftTweaker.Utils.RecipeUtils.getNameForRecipe;
+
 IroncladAnvil.removeAllRecipes();
 GraniteAnvil.removeAllRecipes();
 
@@ -28,7 +30,7 @@ val items as IIngredient[IItemStack] = {
 for output, input in items {
 
     IroncladAnvil.addRecipe(
-        "IroncladAnvil_" + input.items[0].name,        // recipe name
+        "ironclad_anvil_" ~ getNameForRecipe(output), // recipe name
         output,            // output
         input,             // input
         4,                 // hits
@@ -36,7 +38,7 @@ for output, input in items {
     );
 
     GraniteAnvil.addRecipe(
-        "GraniteAnvil_" + input.items[0].name,        // recipe name
+        "granite_anvil_" ~ getNameForRecipe(output),        // recipe name
         output,            // output
         input,             // input
         4,                 // hits
