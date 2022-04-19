@@ -14,7 +14,5 @@ val grinding as IItemStack[][IOreDictEntry] = {
 };
 
 for input, output in grinding {
-
     BlastFurnace.addRecipe(output[0], input, 1200, output[1]);
-
 }
