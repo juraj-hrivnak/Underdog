@@ -49,6 +49,7 @@ jobs:
         with:
           name: changelog
           path: pax/changelogs/${{ steps.version.outputs.tag }}.md
+          retention-days: 2
 
   build-modpack:
     runs-on: ubuntu-latest
@@ -74,6 +75,7 @@ jobs:
         with:
           name: modpack
           path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          retention-days: 2
 
   build-serverpack:
     runs-on: ubuntu-latest
@@ -103,6 +105,7 @@ jobs:
         with:
           name: serverpack
           path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+          retention-days: 2
 
   release-github:
     runs-on: ubuntu-latest
