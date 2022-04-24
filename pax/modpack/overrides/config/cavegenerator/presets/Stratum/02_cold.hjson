@@ -34,12 +34,7 @@
     # OVERGROUND
     #
     $o_granite( 60, 128 )
-    {
-      #Slate
-      state: quark:slate
-      height: [ 128, 225 ]
-      ceiling: $OVERGROUND
-    }
+    $o_slate( 128, 225 )
     ###########################################
   ]
 }

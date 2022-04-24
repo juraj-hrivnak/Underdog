@@ -128,20 +128,58 @@
         }
       }
     ]
-    {
-      #Slate
-      state: quark:slate
-      height: [ 128, 225 ]
-      ceiling: {
-        seed: 1
-        cache: true
-        frequency: 0.009
-        range: [
-          0
-          60
+    [
+      {
+        state: quark:slate
+        height: [
+          128
+          225
         ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            60
+          ]
+        }
       }
-    }
+      {
+        state: minecraft:cobblestone
+        matchers: minecraft:cobblestone
+        height: [
+          128
+          225
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            60
+          ]
+        }
+      }
+      {
+        state: crocodilite:overgrown_slate
+        matchers: biomesoplenty:grass:1
+        height: [
+          128
+          225
+        ]
+        ceiling: {
+          seed: 1
+          cache: true
+          frequency: 0.009
+          range: [
+            0
+            60
+          ]
+        }
+      }
+    ]
     ###########################################
   ]
 }

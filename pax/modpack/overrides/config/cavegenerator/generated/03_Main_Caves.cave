@@ -32,7 +32,7 @@
     minecraft:gravel
     minecraft:clay
     biomesoplenty:ash_block
-    minecraft:grass
+    greenery:grass
     biomesoplenty:grass
     biomesoplenty:grass:1
     biomesoplenty:grass:2
@@ -252,7 +252,7 @@
       states: minecraft:stone
       directions: up
       matchers: [
-        minecraft:grass
+        greenery:grass
         minecraft:dirt:2
         biomesoplenty:grass:2
         biomesoplenty:grass:3

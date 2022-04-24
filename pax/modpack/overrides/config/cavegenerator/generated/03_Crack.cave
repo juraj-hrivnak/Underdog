@@ -9,7 +9,7 @@
         minecraft:gravel
         minecraft:clay
         biomesoplenty:ash_block
-        minecraft:grass
+        greenery:grass
         biomesoplenty:grass
         biomesoplenty:grass:1
         biomesoplenty:grass:2
@@ -103,7 +103,7 @@
         minecraft:gravel
         minecraft:clay
         biomesoplenty:ash_block
-        minecraft:grass
+        greenery:grass
         biomesoplenty:grass
         biomesoplenty:grass:1
         biomesoplenty:grass:2
@@ -195,7 +195,7 @@
         minecraft:gravel
         minecraft:clay
         biomesoplenty:ash_block
-        minecraft:grass
+        greenery:grass
         biomesoplenty:grass
         biomesoplenty:grass:1
         biomesoplenty:grass:2

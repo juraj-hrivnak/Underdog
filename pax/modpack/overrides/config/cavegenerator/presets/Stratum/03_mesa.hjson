@@ -20,12 +20,7 @@
     # OVERGROUND
     #
     $o_limestone( 60, 90 )
-    {
-      #Jasper
-      state: quark:jasper
-      height: [ 90, 225 ]
-      ceiling: $OVERGROUND
-    }
+    $o_jasper( 90, 225 )
     ###########################################
   ]
 }

@@ -6,6 +6,6 @@ import crafttweaker.item.IItemStack;
 
 recipes.removeShaped(<minecraft:compass>);
 recipes.addShapedMirrored(<minecraft:compass>,
-[[null           , <ore:ingotIron> , null            ],
- [<ore:ingotIron>, <ore:nuggetIron>, <ore:ingotIron> ],
- [null           , <ore:ingotIron> , null            ]]);
+   [[null           , <ore:ingotIron> , null            ],
+    [<ore:ingotIron>, <ore:nuggetIron>, <ore:ingotIron> ],
+    [null           , <ore:ingotIron> , null            ]]);

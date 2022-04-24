@@ -22,6 +22,7 @@ underdog.tooltip.gold_filter=§aHolds 32
 underdog.tooltip.diamond_filter=§aHolds 64
 underdog.tooltip.crushing_tub=§aUsed for crushing stuff by feet
 underdog.tooltip.beryl_cluster=Well-known varieties of beryl include emerald and aquamarine. It is also an ore source of beryllium.
+underdog.tooltip.support=Support
 
 underdog.displayname.end_rod=Neon Tube
 underdog.displayname.end_stone=Dolomite

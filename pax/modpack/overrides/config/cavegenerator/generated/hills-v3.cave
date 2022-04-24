@@ -7,7 +7,7 @@
     minecraft:gravel
     minecraft:clay
     biomesoplenty:ash_block
-    minecraft:grass
+    greenery:grass
     biomesoplenty:grass
     biomesoplenty:grass:1
     biomesoplenty:grass:2
@@ -126,13 +126,13 @@
       }
     } ]
   // caveBlocks: [
-  //   { states: "minecraft:grass", height: [ 0, 240 ] }
+  //   { states: "greenery:grass", height: [ 0, 240 ] }
   // ]
   // wallDecorators: [
   //   {
   //     states: stone
   //     directions: down
-  //     matchers: minecraft:grass
+  //     matchers: greenery:grass
   //     height: [ 0, 240 ]
   //     placement: EMBED
   //     integrity: 1
