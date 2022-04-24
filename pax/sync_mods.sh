@@ -11,3 +11,6 @@ cp -r * ../../../mods/
 cd ../../
 
 java -jar ModpackDownloader-cli-0.7.2.jar -manifest modpack/manifest.json -folder ../mods
+
+cd ../mods
+find . -type f -name '*.zip' -exec rm {} +
