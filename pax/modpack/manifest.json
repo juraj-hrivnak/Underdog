@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "2.3.0",
+  "version": "2.4.0",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -577,6 +577,14 @@
       }
     },
     {
+      "projectID": 247286,
+      "fileID": 2484246,
+      "required": true,
+      "__meta": {
+        "name": "InfiniteFluids"
+      }
+    },
+    {
       "projectID": 248370,
       "fileID": 2490058,
       "required": true,
@@ -715,6 +723,17 @@
       "required": true,
       "__meta": {
         "name": "Locks"
+      }
+    },
+    {
+      "projectID": 254284,
+      "fileID": 3516274,
+      "required": true,
+      "__meta": {
+        "name": "AmbientSounds 5",
+        "dependencies": [
+          257814
+        ]
       }
     },
     {
@@ -1054,6 +1073,15 @@
       }
     },
     {
+      "projectID": 277064,
+      "fileID": 3483816,
+      "required": true,
+      "__meta": {
+        "name": "MysticalLib",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 277616,
       "fileID": 2959847,
       "required": true,
@@ -1098,6 +1126,17 @@
       "required": true,
       "__meta": {
         "name": "Foam​Fix"
+      }
+    },
+    {
+      "projectID": 278882,
+      "fileID": 2716712,
+      "required": true,
+      "__meta": {
+        "name": "Blockcraftery",
+        "dependencies": [
+          277064
+        ]
       }
     },
     {
@@ -1547,6 +1586,14 @@
       }
     },
     {
+      "projectID": 300317,
+      "fileID": 3752540,
+      "required": true,
+      "__meta": {
+        "name": "Modernity"
+      }
+    },
+    {
       "projectID": 300331,
       "fileID": 2754916,
       "required": true,
@@ -1643,6 +1690,14 @@
       "required": true,
       "__meta": {
         "name": "Patchouli"
+      }
+    },
+    {
+      "projectID": 306956,
+      "fileID": 2668311,
+      "required": true,
+      "__meta": {
+        "name": "Cream"
       }
     },
     {
@@ -1774,14 +1829,6 @@
       }
     },
     {
-      "projectID": 318255,
-      "fileID": 2919497,
-      "required": true,
-      "__meta": {
-        "name": "Phosphor (Forge)"
-      }
-    },
-    {
       "projectID": 319175,
       "fileID": 3734987,
       "required": true,
@@ -1810,7 +1857,7 @@
     },
     {
       "projectID": 321792,
-      "fileID": 3717467,
+      "fileID": 3760428,
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics"
@@ -1849,14 +1896,6 @@
       "required": true,
       "__meta": {
         "name": "Realistic Horse Genetics"
-      }
-    },
-    {
-      "projectID": 341787,
-      "fileID": 3132376,
-      "required": true,
-      "__meta": {
-        "name": "Mineral Tracker"
       }
     },
     {
@@ -1935,14 +1974,6 @@
       }
     },
     {
-      "projectID": 366256,
-      "fileID": 3561095,
-      "required": true,
-      "__meta": {
-        "name": "MAtmos"
-      }
-    },
-    {
       "projectID": 367831,
       "fileID": 3543884,
       "required": true,
@@ -1960,7 +1991,7 @@
     },
     {
       "projectID": 375616,
-      "fileID": 3511064,
+      "fileID": 3764955,
       "required": true,
       "__meta": {
         "name": "Realistic Block Physics"
@@ -2105,6 +2136,14 @@
       }
     },
     {
+      "projectID": 412981,
+      "fileID": 3080904,
+      "required": true,
+      "__meta": {
+        "name": "Modern Pyrotech"
+      }
+    },
+    {
       "projectID": 417392,
       "fileID": 3650595,
       "required": true,
@@ -2146,7 +2185,7 @@
     },
     {
       "projectID": 438294,
-      "fileID": 3717565,
+      "fileID": 3766124,
       "required": true,
       "__meta": {
         "name": "Crocodilite",
@@ -2197,11 +2236,11 @@
       }
     },
     {
-      "projectID": 509908,
-      "fileID": 3407318,
+      "projectID": 485654,
+      "fileID": 3720488,
       "required": true,
       "__meta": {
-        "name": "MAtmos 2020 \"Zen\""
+        "name": "Fluidlogged API"
       }
     },
     {
@@ -2226,7 +2265,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 3745849,
+      "fileID": 3763756,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2242,7 +2281,7 @@
     },
     {
       "projectID": 574029,
-      "fileID": 3759519,
+      "fileID": 3765076,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
@@ -2253,7 +2292,7 @@
     },
     {
       "projectID": 574162,
-      "fileID": 3759442,
+      "fileID": 3760032,
       "required": true,
       "__meta": {
         "name": "SimpleDifficulty for Underdog"
