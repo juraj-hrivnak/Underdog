@@ -1,8 +1,7 @@
 name: Release-old
 
 on:
-  workflow_run:
-    on: workflow_dispatch
+  workflow_dispatch
 
 env:
   PROJECT_ID: "399664"
@@ -10,7 +9,6 @@ env:
 jobs:
   modpack-info:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
