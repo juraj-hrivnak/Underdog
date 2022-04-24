@@ -19,12 +19,7 @@
     # OVERGROUND
     #
     $o_limestone( 60, 90 )
-    {
-      #Slate
-      state: quark:slate
-      height: [ 90, 116 ]
-      ceiling: $OVERGROUND
-    }
+    $o_slate( 90, 116 )
     $o_quartzite( 116, 135 )
     $o_diorite( 135, 225 )
     ###########################################
