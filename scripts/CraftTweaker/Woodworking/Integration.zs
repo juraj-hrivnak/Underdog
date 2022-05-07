@@ -132,7 +132,7 @@ for lumber, x in woodworking {
     if (!isNull(log)) {
 
         // Adding recipe for 8 lumbers with "raw: true" tag from one log
-        Chopping.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}), log, [4], [8]);
+        Chopping.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}), log, [1], [8]);
 
         // Adding tooltip for lumber with "raw: true" tag
         rawLumber.addTooltip(format.gray(format.bold("Raw")));
@@ -148,13 +148,30 @@ for lumber, x in woodworking {
         recipes.remove(slab);
 
         // Adding recipes for slabs
-        recipes.addShaped(slab * 3,
-           [[lumber, lumber, lumber ]]);
+        recipes.addShaped(slab * 2,
+           [[lumber, lumber ]],
+            null,
+            function(out, cInfo, player) {
+                Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            }
+        );
 
         // Adding recipes for planks from slabs
         recipes.addShaped(planks,
            [[slab ],
-            [slab ]]);
+            [slab ]],
+            null,
+            function(out, cInfo, player) {
+                Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            }
+        );
+
+        // Adding recipes for lumber from slab
+        recipes.addShapeless(lumber, [slab ], null,
+            function(out, cInfo, player) {
+                Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
+            }
+        );
 
     }
 
@@ -168,14 +185,18 @@ for lumber, x in woodworking {
     recipes.replaceAllOccurences(planks, lumber, <*>);
 
     // Adding recipe for lumber from planks
-    recipes.addShapeless(lumber * 2, [planks]);
+    recipes.addShapeless(lumber * 2, [planks], null,
+        function(out, cInfo, player) {
+            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
+        }
+    );
 
     // Adding recipe for planks block from four lumbers
     recipes.addShaped(getNameForRecipe(planks * 2), planks * 2,
       [[lumber, lumber ],
        [lumber, lumber ]],
         null,
-        function(out,cInfo,player) {
+        function(out, cInfo, player) {
             Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         }
     );
@@ -186,7 +207,7 @@ for lumber, x in woodworking {
         [null    , rawLumber, rawLumber ],
         [ironNail, rawLumber, rawLumber ]],
         null,
-        function(out,cInfo,player) {
+        function(out, cInfo, player) {
             player.xp += 1;
             Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         }
@@ -197,7 +218,7 @@ for lumber, x in woodworking {
         [null    , lumber, lumber   ],
         [ironNail, lumber, lumber   ]],
         null,
-        function(out,cInfo,player) {
+        function(out, cInfo, player) {
             Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         },
         true

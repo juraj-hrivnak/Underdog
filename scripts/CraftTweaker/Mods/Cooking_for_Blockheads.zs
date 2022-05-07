@@ -8,8 +8,12 @@ import scripts.CraftTweaker.Utils.RecipeUtils;
 
 // Tool Rack
 RecipeUtils.tweakRecipe(true, <cookingforblockheads:tool_rack>,
-   [[<ore:lumber>    , <ore:lumber> , <ore:lumber>     ],
-    [<ore:nuggetIron>, null         , <ore:nuggetIron> ]]);
+   [[<ore:lumber>    , <ore:lumber>, <ore:lumber>     ],
+    [<ore:nuggetIron>, null        , <ore:nuggetIron> ]]);
+
+// Spice Rack
+RecipeUtils.tweakRecipe(true, <cookingforblockheads:spice_rack>,
+   [[<ore:lumber>, <ore:slabWood>, <ore:lumber> ]]);
 
 // Cooking Table
 RecipeUtils.tweakRecipe(true, <cookingforblockheads:cooking_table>,
