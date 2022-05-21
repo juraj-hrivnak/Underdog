@@ -1,7 +1,8 @@
 
 # Configs
-config/BiomeTweaker/output/
+config/BiomeTweaker/output/*
 config/fantasticlib/*
+config/cavegenerator/generated/*
 config/codechicken/supporters.json
 config/splash.properties
 config/waila/waila.cfg
@@ -16,35 +17,35 @@ config/cherishedworlds/favorites.dat
 config/jei/bookmarks.ini
 config/jei/worldSettings.cfg
 config/moresoundconfig.cfg
-config/cavegenerator/generated/*
 
 # Folders in .minecraft
-/mods/
-/saves/
-/screenshots/
-/server-resource-packs/
-/texturepacks/
-/pack/
-/nuclearcraft/
-/mineraltracker/
-/logs/
-/journeymap/
-/encyclopedia-servers/
-/crash-reports/
-/dumps/
-/coremods/
-/.mixin.out/
-/downloads/
-/craftpresence/
-/TombManyGraves/
+mods/*
+saves/*
+screenshots/*
+server-resource-packs/*
+texturepacks/*
+pack/*
+nuclearcraft/*
+mineraltracker/*
+logs/*
+journeymap/*
+encyclopedia-servers/*
+crash-reports/*
+dumps/*
+coremods/*
+.mixin.out/*
+downloads/*
+craftpresence/*
+TombManyGraves/*
 
 # Logs
 **/*.log
 **/*.gz
 
 # Client data
-local/client/rtdata.json
 .ReAuth.cfg
+local/client/rtdata.json
+hei_bookmarks.ini
 usernamecache.json
 usercache.json
 servers.dat
@@ -59,13 +60,13 @@ mountains.txt
 
 # Pax
 pax/logs/
-pax/modpack/overrides/config/BiomeTweaker/output/
+pax/modpack/overrides/config/BiomeTweaker/output/*
 pax/modpack/overrides/config/fantasticlib/*
+pax/modpack/overrides/config/InvTweaks.cfg
 pax/modpack/overrides/config/codechicken/supporters.json
 pax/modpack/overrides/config/splash.properties
 pax/modpack/overrides/config/waila/waila.cfg
 pax/modpack/overrides/config/fantasticlib.cfg
-pax/modpack/overrides/config/InvTweaks.cfg/
 pax/modpack/overrides/config/Weather2/EZGUIConfigClientData.dat
 pax/modpack/overrides/config/cherishedworlds/favorites.dat
 pax/modpack/overrides/config/activity.json
