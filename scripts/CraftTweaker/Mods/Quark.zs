@@ -19,7 +19,7 @@ import mods.jei.JEI.removeAndHide as rh;
     <quark:glass_shards:13>,
     <quark:glass_shards:14>,
     <quark:glass_shards:15>,
-    <quark:glass_shards:16>,
+    <quark:glass_shards:16>
 ]);
 
 // Recipe fixes
@@ -35,11 +35,16 @@ recipes.addShapedMirrored(<quark:iron_rod>,
 
 // Backpack
 recipes.addShapedMirrored(<quark:backpack>,
-   [[<ore:fiberHemp>  , <ore:itemLeather>, <ore:fiberHemp>   ],
-    [<ore:itemLeather>, <ore:itemLeather>, <ore:itemLeather> ],
-    [<ore:itemLeather>, null             , <ore:itemLeather> ]]);
+   [[<ore:fiberHemp>, <ore:leather>, <ore:fiberHemp> ],
+    [<ore:leather>  , <ore:leather>, <ore:leather>   ],
+    [<ore:leather>  , null         , <ore:leather>   ]]);
 
 // Wheat Thatch
 <quark:thatch>.displayName = game.localize("underdog.displayname.thatch");
 <quark:thatch_stairs>.displayName = game.localize("underdog.displayname.thatch_stairs");
 <quark:thatch_slab>.displayName = game.localize("underdog.displayname.thatch_slab");
+
+// Archaeologist Hat
+recipes.addShaped(<quark:archaeologist_hat>,
+   [[<ore:leather>, <ore:leather> ],
+    [null         , <ore:leather> ]]);
