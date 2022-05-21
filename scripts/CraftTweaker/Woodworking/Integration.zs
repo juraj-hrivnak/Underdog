@@ -137,11 +137,11 @@ for lumber, x in woodworking {
     if (!isNull(log)) {
 
         // Adding recipe for 8 lumbers with "raw: true" tag from one log
-        Chopping.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}), log, [1], [8]);
+        Chopping.addRecipe(getNameForRecipe(lumber * 8), rawLumber, log, [1], [8]);
 
-        MKSawmill.addRecipe(log, lumber.withTag({raw: true}) * 8, <pyrotech:rock:7>, 0.5);
-        StoneSawmill.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}) * 8, log, 300, sawmillBlades, 1);
-        BrickSawmill.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}) * 8, log, 60, sawmillBlades, 1);
+        MKSawmill.addRecipe(log, rawLumber * 8, <pyrotech:rock:7>, 0.5);
+        StoneSawmill.addRecipe(getNameForRecipe(lumber * 8), rawLumber * 8, log, 300, sawmillBlades, 1);
+        BrickSawmill.addRecipe(getNameForRecipe(lumber * 8), rawLumber * 8, log, 60, sawmillBlades, 1);
     }
 
     if (!isNull(slab)) {
@@ -180,11 +180,11 @@ for lumber, x in woodworking {
     if (!isNull(debarkedLog)) {
 
         // Adding recipe for 8 lumbers with "raw: true" tag from one log
-        Chopping.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", lumber.withTag({raw: true}), log, [1], [8]);
+        Chopping.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", rawLumber, debarkedLog, [1], [8]);
 
-        MKSawmill.addRecipe(log, lumber.withTag({raw: true}) * 8, <pyrotech:rock:7>, 0.5);
-        StoneSawmill.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", lumber.withTag({raw: true}) * 8, log, 300, sawmillBlades, 1);
-        BrickSawmill.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", lumber.withTag({raw: true}) * 8, log, 60, sawmillBlades, 1);
+        MKSawmill.addRecipe(debarkedLog, rawLumber * 8, <pyrotech:rock:7>, 0.5);
+        StoneSawmill.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", rawLumber * 8, debarkedLog, 300, sawmillBlades, 1);
+        BrickSawmill.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", rawLumber * 8, debarkedLog, 60, sawmillBlades, 1);
     }
 
     // Adding "plankWood" oredict to lumber
