@@ -84,7 +84,7 @@ val richOres as IItemStack[IOreDictEntry] = {
 
 for oredict, i in richOres {
     oredict.add(i);
-    i.displayName = game.localize("underdog.displayname.rich_prefix") + i.displayName;
+    i.displayName = game.localize("underdog.displayname.rich_prefix") ~" "~ i.displayName;
 }
 
 for oredict, item in oreMap {

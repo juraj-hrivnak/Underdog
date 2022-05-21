@@ -1,5 +1,4 @@
 
-#norun
 #priority 10
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
