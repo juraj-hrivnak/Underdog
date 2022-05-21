@@ -10,7 +10,12 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ## What's new?
 
--
+- QoL improvements:
+  - Adjusted Pyrotech oven work time to a half minute, the same as the kilns.
+  - Added more woodworking related recipes. Makes using wood a lot easier. Especially slabs.
+  - Added crafting sounds for woodworking recipes.
+- Fixed inability to chisel stones. (Chisels & Bits, Tool Progression)
+- Fixed default resource packs not loading at startup.
 
 ## Mod Changes
 
