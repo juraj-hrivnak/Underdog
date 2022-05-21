@@ -73,20 +73,20 @@ val coal = <minecraft:coal> | <minecraft:coal:1> | <geolosys:coal:1> | <geolosys
 RecipeUtils.tweakRecipe(true, <pyrotech:torch_fiber>, [[coal], [<ore:stickWood>]]);
 
 Dropt.list("torch")
-  .add(Dropt.rule()
-      .matchBlocks(["pyrotech:torch_fiber:*"])
-      .addDrop(Dropt.drop()
-        .force()
-        .items([<minecraft:stick>]) // 100% Sticks
-      )
-      .addDrop(Dropt.drop()
-        .selector(Dropt.weight(50))
-        .items([<pyrotech:material:21>]) // 50% drop coal pieces
-      )
-      .addDrop(Dropt.drop()
-        .selector(Dropt.weight(50)) // drop nothing else 50% of time
-      )
-  );
+    .add(Dropt.rule()
+        .matchBlocks(["pyrotech:torch_fiber:*"])
+        .addDrop(Dropt.drop()
+            .force()
+            .items([<minecraft:stick>]) // 100% Sticks
+        )
+        .addDrop(Dropt.drop()
+            .selector(Dropt.weight(50))
+            .items([<pyrotech:material:21>]) // 50% drop coal pieces
+        )
+        .addDrop(Dropt.drop()
+            .selector(Dropt.weight(50)) // drop nothing else 50% of time
+        )
+    );
 
 // Milk compat
 <ore:listAllmilk>.add(<pyrotech:bucket_clay:1>);

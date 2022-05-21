@@ -29,7 +29,7 @@ Blueprint.addRecipe("molds", molds.nail, [
 val press as IItemStack[][IIngredient] = {
 
 //  IIngredient input,            IItemStack output,                 IItemStack mold
-    <ore:ingotIron>             : [<contenttweaker:nail_iron>   * 8, molds.nail * 1 ]
+    <ore:ingotIron>             : [<contenttweaker:nail_iron>   * 8, molds.nail     ]
 
 };
 

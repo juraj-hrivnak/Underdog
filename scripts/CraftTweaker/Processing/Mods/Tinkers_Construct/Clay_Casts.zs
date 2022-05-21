@@ -63,7 +63,7 @@ for part, cast in clayCasts {
     Casting.removeTableRecipe(cast);
 
     recipes.addShapeless(cast, [<ore:sand>, part.reuse(), allWater, <ore:clayball>], null,
-        function(out,cInfo,player) {
+        function(out, cInfo, player) {
             Commands.call("playsound minecraft:item.bucket.empty block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
         }
     );

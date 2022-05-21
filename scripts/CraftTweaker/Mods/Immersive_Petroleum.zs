@@ -9,6 +9,6 @@ import scripts.CraftTweaker.Vanilla.Water.allWater;
 // Asphalt
 recipes.removeByRecipeName("immersivepetroleum:stone_decoration/asphalt2");
 recipes.addShaped(<immersivepetroleum:stone_decoration> * 12,
-  [[<ore:itemSlag>, <immersivepetroleum:material>, <ore:itemSlag> ],
-   [<ore:gravel>  , allWater                     , <ore:gravel>   ],
-   [<ore:itemSlag>, <immersivepetroleum:material>, <ore:itemSlag> ]]);
+   [[<ore:itemSlag>, <immersivepetroleum:material>, <ore:itemSlag> ],
+    [<ore:gravel>  , allWater                     , <ore:gravel>   ],
+    [<ore:itemSlag>, <immersivepetroleum:material>, <ore:itemSlag> ]]);

@@ -18,13 +18,13 @@ val purification as IItemStack[IIngredient] = {
     <ore:oreSilver>             : <mekanism:clump:5> * 3,
     <ore:oreLead>               : <mekanism:clump:6> * 3,
 
-    <ore:shardIron>             : <mekanism:clump>   * 1,
-    <ore:shardGold>             : <mekanism:clump:1> * 1,
-    <ore:shardOsmium>           : <mekanism:clump:2> * 1,
-    <ore:shardCopper>           : <mekanism:clump:3> * 1,
-    <ore:shardTin>              : <mekanism:clump:4> * 1,
-    <ore:shardSilver>           : <mekanism:clump:5> * 1,
-    <ore:shardLead>             : <mekanism:clump:6> * 1
+    <ore:shardIron>             : <mekanism:clump>      ,
+    <ore:shardGold>             : <mekanism:clump:1>    ,
+    <ore:shardOsmium>           : <mekanism:clump:2>    ,
+    <ore:shardCopper>           : <mekanism:clump:3>    ,
+    <ore:shardTin>              : <mekanism:clump:4>    ,
+    <ore:shardSilver>           : <mekanism:clump:5>    ,
+    <ore:shardLead>             : <mekanism:clump:6>
 
 };
 

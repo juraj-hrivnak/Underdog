@@ -23,19 +23,19 @@ h(<cuisine:mortar:*>);
 
 // Chopping block fix
 recipes.addHiddenShaped("Chopping Boards", <cuisine:chopping_board>,
-   [[<ore:logWood>.only(function(item) {return item.isItemBlock;})
-      .marked("source")]],
-  function(out, ins, cInfo) {
+    [[<ore:logWood>.only(function(item) {return item.isItemBlock;})
+        .marked("source")]],
+    function(out, ins, cInfo) {
     return out.withTag({
-      BlockEntityTag: {
+        BlockEntityTag: {
         cover: {
-          id: ins.source.definition.id,
-          Count: 1 as byte,
-          Damage: ins.source.damage
+            id: ins.source.definition.id,
+            Count: 1 as byte,
+            Damage: ins.source.damage
         }
-      }
+        }
     });
-  }, null
+    }, null
 );
 
 // Harvestcraft Coconut from dynamictreesphc item

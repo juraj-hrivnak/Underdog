@@ -28,8 +28,8 @@ recipes.addShaped(<dawnoftimebuilder:path_cobbled> * 6,
 
 // Tiles Path
 recipes.addShaped(<dawnoftimebuilder:path_ochre_tiles> * 6,
-   [[<ore:ingotBrick>, <minecraft:clay_ball>, <ore:ingotBrick>],
-    [dirt, dirt, dirt ]]);
+   [[<ore:ingotBrick>, <minecraft:clay_ball>, <ore:ingotBrick> ],
+    [dirt            , dirt                 , dirt             ]]);
 
 // Dirt Path
 recipes.addShaped(<dawnoftimebuilder:path_dirt> * 6,
@@ -37,11 +37,11 @@ recipes.addShaped(<dawnoftimebuilder:path_dirt> * 6,
     [dirt, dirt, dirt ]]);
 
 val pathSlabsAndPaths as IItemStack[IItemStack] = {
-    <dawnoftimebuilder:path_gravel_slab> : <dawnoftimebuilder:path_gravel>,
-    <dawnoftimebuilder:path_stepping_stones_slab> : <dawnoftimebuilder:path_stepping_stones>,
-    <dawnoftimebuilder:path_cobbled_slab> : <dawnoftimebuilder:path_cobbled>,
-    <dawnoftimebuilder:path_ochre_tiles_slab> : <dawnoftimebuilder:path_ochre_tiles>,
-    <dawnoftimebuilder:path_dirt_slab> : <dawnoftimebuilder:path_dirt>
+    <dawnoftimebuilder:path_gravel_slab>            : <dawnoftimebuilder:path_gravel>,
+    <dawnoftimebuilder:path_stepping_stones_slab>   : <dawnoftimebuilder:path_stepping_stones>,
+    <dawnoftimebuilder:path_cobbled_slab>           : <dawnoftimebuilder:path_cobbled>,
+    <dawnoftimebuilder:path_ochre_tiles_slab>       : <dawnoftimebuilder:path_ochre_tiles>,
+    <dawnoftimebuilder:path_dirt_slab>              : <dawnoftimebuilder:path_dirt>
 };
 
 for pathSlab, path in pathSlabsAndPaths {
@@ -54,7 +54,7 @@ rh(<dawnoftimebuilder:cobbled_limestone>);
 
 // Limestone Bricks
 RecipeUtils.tweakRecipe(true, <dawnoftimebuilder:limestone_brick>,
-   RecipeUtils.createFull2(limestoneCobble));
+    RecipeUtils.createFull2(limestoneCobble));
 
 // // Sake Bottle
 // RecipeUtils.tweakRecipe(true, (<dawnoftimebuilder:sake_bottle>,
@@ -81,5 +81,5 @@ RecipeUtils.tweakRecipe(true, <dawnoftimebuilder:thatch_wheat>,
 
 // Bamboo Hat
 RecipeUtils.tweakRecipe(true, <dawnoftimebuilder:bamboo_hat>,
-   [[<ore:bamboo>, <ore:bamboo>, <ore:bamboo> ],
-    [<ore:bamboo>, null        , <ore:bamboo> ]]);
+   [[<ore:bamboo>, <ore:bamboo> ],
+    [null        , <ore:bamboo> ]]);
