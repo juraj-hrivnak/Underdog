@@ -17,92 +17,92 @@ import scripts.CraftTweaker.Utils.RecipeUtils.getNameForRecipe;
 val woodworking as IItemStack[][IItemStack] = {
 
     // Vanilla
-    <contenttweaker:lumber_vanilla_oak>             : [<minecraft:log>          , <minecraft:planks>                    , <minecraft:wooden_slab>                   ],
-    <contenttweaker:lumber_vanilla_spruce>          : [<minecraft:log:1>        , <minecraft:planks:1>                  , <minecraft:wooden_slab:1>                 ],
-    <contenttweaker:lumber_vanilla_birch>           : [<minecraft:log:2>        , <minecraft:planks:2>                  , <minecraft:wooden_slab:2>                 ],
-    <contenttweaker:lumber_vanilla_jungle>          : [<minecraft:log:3>        , <minecraft:planks:3>                  , <minecraft:wooden_slab:3>                 ],
-    <contenttweaker:lumber_vanilla_acacia>          : [<minecraft:log2>         , <minecraft:planks:4>                  , <minecraft:wooden_slab:4>                 ],
-    <contenttweaker:lumber_vanilla_dark_oak>        : [<minecraft:log2:1>       , <minecraft:planks:5>                  , <minecraft:wooden_slab:5>                 ],
+    <contenttweaker:lumber_vanilla_oak>             : [<minecraft:log>          , <minecraft:planks>                    , <minecraft:wooden_slab>                   , <debark:debarked_log_minecraft_log>           ],
+    <contenttweaker:lumber_vanilla_spruce>          : [<minecraft:log:1>        , <minecraft:planks:1>                  , <minecraft:wooden_slab:1>                 , <debark:debarked_log_minecraft_log:1>         ],
+    <contenttweaker:lumber_vanilla_birch>           : [<minecraft:log:2>        , <minecraft:planks:2>                  , <minecraft:wooden_slab:2>                 , <debark:debarked_log_minecraft_log:3>         ],
+    <contenttweaker:lumber_vanilla_jungle>          : [<minecraft:log:3>        , <minecraft:planks:3>                  , <minecraft:wooden_slab:3>                 , <debark:debarked_log_minecraft_log:2>         ],
+    <contenttweaker:lumber_vanilla_acacia>          : [<minecraft:log2>         , <minecraft:planks:4>                  , <minecraft:wooden_slab:4>                 , <debark:debarked_log_minecraft_log2>          ],
+    <contenttweaker:lumber_vanilla_dark_oak>        : [<minecraft:log2:1>       , <minecraft:planks:5>                  , <minecraft:wooden_slab:5>                 , <debark:debarked_log_minecraft_log2:1>        ],
 
     // Biomes O Plenty
-    <contenttweaker:lumber_sacred_oak>              : [<biomesoplenty:log_0:4>  , <biomesoplenty:planks_0>              , <biomesoplenty:wood_slab_0>               ],
-    <contenttweaker:lumber_cherry>                  : [<biomesoplenty:log_0:5>  , <biomesoplenty:planks_0:1>            , <biomesoplenty:wood_slab_0:1>             ],
-    <contenttweaker:lumber_umbran>                  : [<biomesoplenty:log_0:6>  , <biomesoplenty:planks_0:2>            , <biomesoplenty:wood_slab_0:2>             ],
-    <contenttweaker:lumber_fir>                     : [<biomesoplenty:log_0:7>  , <biomesoplenty:planks_0:3>            , <biomesoplenty:wood_slab_0:3>             ],
-    <contenttweaker:lumber_ethereal>                : [<biomesoplenty:log_1:4>  , <biomesoplenty:planks_0:4>            , <biomesoplenty:wood_slab_0:4>             ],
-    <contenttweaker:lumber_magic>                   : [<biomesoplenty:log_1:5>  , <biomesoplenty:planks_0:5>            , <biomesoplenty:wood_slab_0:5>             ],
-    <contenttweaker:lumber_mangrove>                : [<biomesoplenty:log_1:6>  , <biomesoplenty:planks_0:6>            , <biomesoplenty:wood_slab_0:6>             ],
-    <contenttweaker:lumber_palm>                    : [<biomesoplenty:log_1:7>  , <biomesoplenty:planks_0:7>            , <biomesoplenty:wood_slab_0:7>             ],
-    <contenttweaker:lumber_redwood>                 : [<biomesoplenty:log_2:4>  , <biomesoplenty:planks_0:8>            , <biomesoplenty:wood_slab_1>               ],
-    <contenttweaker:lumber_willow>                  : [<biomesoplenty:log_2:5>  , <biomesoplenty:planks_0:9>            , <biomesoplenty:wood_slab_1:1>             ],
-    <contenttweaker:lumber_pine>                    : [<biomesoplenty:log_2:6>  , <biomesoplenty:planks_0:10>           , <biomesoplenty:wood_slab_1:2>             ],
-    <contenttweaker:lumber_hellbark>                : [<biomesoplenty:log_2:7>  , <biomesoplenty:planks_0:11>           , <biomesoplenty:wood_slab_1:3>             ],
-    <contenttweaker:lumber_jacaranda>               : [<biomesoplenty:log_3:4>  , <biomesoplenty:planks_0:12>           , <biomesoplenty:wood_slab_1:4>             ],
-    <contenttweaker:lumber_mahogany>                : [<biomesoplenty:log_3:5>  , <biomesoplenty:planks_0:13>           , <biomesoplenty:wood_slab_1:5>             ],
-    <contenttweaker:lumber_ebony>                   : [<biomesoplenty:log_3:6>  , <biomesoplenty:planks_0:14>           , <biomesoplenty:wood_slab_1:6>             ],
-    <contenttweaker:lumber_eucalyptus>              : [<biomesoplenty:log_3:7>  , <biomesoplenty:planks_0:15>           , <biomesoplenty:wood_slab_1:7>             ],
+    <contenttweaker:lumber_sacred_oak>              : [<biomesoplenty:log_0:4>  , <biomesoplenty:planks_0>              , <biomesoplenty:wood_slab_0>               , <debark:debarked_log_biomesoplenty_log_0>     ],
+    <contenttweaker:lumber_cherry>                  : [<biomesoplenty:log_0:5>  , <biomesoplenty:planks_0:1>            , <biomesoplenty:wood_slab_0:1>             , <debark:debarked_log_biomesoplenty_log_0:1>   ],
+    <contenttweaker:lumber_umbran>                  : [<biomesoplenty:log_0:6>  , <biomesoplenty:planks_0:2>            , <biomesoplenty:wood_slab_0:2>             , <debark:debarked_log_biomesoplenty_log_0:2>   ],
+    <contenttweaker:lumber_fir>                     : [<biomesoplenty:log_0:7>  , <biomesoplenty:planks_0:3>            , <biomesoplenty:wood_slab_0:3>             , <debark:debarked_log_biomesoplenty_log_0:3>   ],
+    <contenttweaker:lumber_ethereal>                : [<biomesoplenty:log_1:4>  , <biomesoplenty:planks_0:4>            , <biomesoplenty:wood_slab_0:4>             , <debark:debarked_log_biomesoplenty_log_1>     ],
+    <contenttweaker:lumber_magic>                   : [<biomesoplenty:log_1:5>  , <biomesoplenty:planks_0:5>            , <biomesoplenty:wood_slab_0:5>             , <debark:debarked_log_biomesoplenty_log_1:1>   ],
+    <contenttweaker:lumber_mangrove>                : [<biomesoplenty:log_1:6>  , <biomesoplenty:planks_0:6>            , <biomesoplenty:wood_slab_0:6>             , <debark:debarked_log_biomesoplenty_log_1:2>   ],
+    <contenttweaker:lumber_palm>                    : [<biomesoplenty:log_1:7>  , <biomesoplenty:planks_0:7>            , <biomesoplenty:wood_slab_0:7>             , <debark:debarked_log_biomesoplenty_log_1:3>   ],
+    <contenttweaker:lumber_redwood>                 : [<biomesoplenty:log_2:4>  , <biomesoplenty:planks_0:8>            , <biomesoplenty:wood_slab_1>               , <debark:debarked_log_biomesoplenty_log_2>     ],
+    <contenttweaker:lumber_willow>                  : [<biomesoplenty:log_2:5>  , <biomesoplenty:planks_0:9>            , <biomesoplenty:wood_slab_1:1>             , <debark:debarked_log_biomesoplenty_log_2:1>   ],
+    <contenttweaker:lumber_pine>                    : [<biomesoplenty:log_2:6>  , <biomesoplenty:planks_0:10>           , <biomesoplenty:wood_slab_1:2>             , <debark:debarked_log_biomesoplenty_log_2:2>   ],
+    <contenttweaker:lumber_hellbark>                : [<biomesoplenty:log_2:7>  , <biomesoplenty:planks_0:11>           , <biomesoplenty:wood_slab_1:3>             , <debark:debarked_log_biomesoplenty_log_2:3>   ],
+    <contenttweaker:lumber_jacaranda>               : [<biomesoplenty:log_3:4>  , <biomesoplenty:planks_0:12>           , <biomesoplenty:wood_slab_1:4>             , <debark:debarked_log_biomesoplenty_log_3>     ],
+    <contenttweaker:lumber_mahogany>                : [<biomesoplenty:log_3:5>  , <biomesoplenty:planks_0:13>           , <biomesoplenty:wood_slab_1:5>             , <debark:debarked_log_biomesoplenty_log_3:1>   ],
+    <contenttweaker:lumber_ebony>                   : [<biomesoplenty:log_3:6>  , <biomesoplenty:planks_0:14>           , <biomesoplenty:wood_slab_1:6>             , <debark:debarked_log_biomesoplenty_log_3:2>   ],
+    <contenttweaker:lumber_eucalyptus>              : [<biomesoplenty:log_3:7>  , <biomesoplenty:planks_0:15>           , <biomesoplenty:wood_slab_1:7>             , <debark:debarked_log_biomesoplenty_log_3:3>   ],
 
     // Rustic
-    <contenttweaker:lumber_planks_olive>            : [<rustic:log>             , <rustic:planks>                       , <rustic:olive_slab_item>                  ],
-    <contenttweaker:lumber_planks_ironwood>         : [<rustic:log:1>           , <rustic:planks:1>                     , <rustic:ironwood_slab_item>               ],
+    <contenttweaker:lumber_planks_olive>            : [<rustic:log>             , <rustic:planks>                       , <rustic:olive_slab_item>                  , <debark:debarked_log_rustic_log>              ],
+    <contenttweaker:lumber_planks_ironwood>         : [<rustic:log:1>           , <rustic:planks:1>                     , <rustic:ironwood_slab_item>               , <debark:debarked_log_rustic_log:1>            ],
 
     // Forestry
-    <contenttweaker:lumber_planks.larch>            : [<forestry:logs.0>        , <forestry:planks.0>                   , <forestry:slabs.0>                        ],
-    <contenttweaker:lumber_planks.teak>             : [<forestry:logs.0:1>      , <forestry:planks.0:1>                 , <forestry:slabs.0:1>                      ],
-    <contenttweaker:lumber_planks.acacia>           : [<forestry:logs.0:2>      , <forestry:planks.0:2>                 , <forestry:slabs.0:2>                      ],
-    <contenttweaker:lumber_planks.lime>             : [<forestry:logs.0:3>      , <forestry:planks.0:3>                 , <forestry:slabs.0:3>                      ],
-    <contenttweaker:lumber_planks.chestnut>         : [<forestry:logs.1>        , <forestry:planks.0:4>                 , <forestry:slabs.0:4>                      ],
-    <contenttweaker:lumber_planks.wenge>            : [<forestry:logs.1:1>      , <forestry:planks.0:5>                 , <forestry:slabs.0:5>                      ],
-    <contenttweaker:lumber_planks.baobab>           : [<forestry:logs.1:2>      , <forestry:planks.0:6>                 , <forestry:slabs.0:6>                      ],
-    <contenttweaker:lumber_planks.sequoia>          : [<forestry:logs.1:3>      , <forestry:planks.0:7>                 , <forestry:slabs.0:7>                      ],
-    <contenttweaker:lumber_planks.kapok>            : [<forestry:logs.2>        , <forestry:planks.0:8>                 , <forestry:slabs.1>                        ],
-    <contenttweaker:lumber_planks.ebony>            : [<forestry:logs.2:1>      , <forestry:planks.0:9>                 , <forestry:slabs.1:1>                      ],
-    <contenttweaker:lumber_planks.mahogany>         : [<forestry:logs.2:2>      , <forestry:planks.0:10>                , <forestry:slabs.1:2>                      ],
-    <contenttweaker:lumber_planks.balsa>            : [<forestry:logs.2:3>      , <forestry:planks.0:11>                , <forestry:slabs.1:3>                      ],
-    <contenttweaker:lumber_planks.willow>           : [<forestry:logs.3>        , <forestry:planks.0:12>                , <forestry:slabs.1:4>                      ],
-    <contenttweaker:lumber_planks.walnut>           : [<forestry:logs.3:1>      , <forestry:planks.0:13>                , <forestry:slabs.1:5>                      ],
-    <contenttweaker:lumber_planks.greenheart>       : [<forestry:logs.3:2>      , <forestry:planks.0:14>                , <forestry:slabs.1:6>                      ],
-    <contenttweaker:lumber_planks.cherry>           : [<forestry:logs.3:3>      , <forestry:planks.0:15>                , <forestry:slabs.1:7>                      ],
-    <contenttweaker:lumber_planks.mahoe>            : [<forestry:logs.4>        , <forestry:planks.1>                   , <forestry:slabs.2>                        ],
-    <contenttweaker:lumber_planks.poplar>           : [<forestry:logs.4:1>      , <forestry:planks.1:1>                 , <forestry:slabs.2:1>                      ],
-    <contenttweaker:lumber_planks.palm>             : [<forestry:logs.4:2>      , <forestry:planks.1:2>                 , <forestry:slabs.2:2>                      ],
-    <contenttweaker:lumber_planks.papaya>           : [<forestry:logs.4:3>      , <forestry:planks.1:3>                 , <forestry:slabs.2:3>                      ],
-    <contenttweaker:lumber_planks.pine>             : [<forestry:logs.5>        , <forestry:planks.1:4>                 , <forestry:slabs.2:4>                      ],
-    <contenttweaker:lumber_planks.plum>             : [<forestry:logs.5:1>      , <forestry:planks.1:5>                 , <forestry:slabs.2:5>                      ],
-    <contenttweaker:lumber_planks.maple>            : [<forestry:logs.5:2>      , <forestry:planks.1:6>                 , <forestry:slabs.2:6>                      ],
-    <contenttweaker:lumber_planks.citrus>           : [<forestry:logs.5:3>      , <forestry:planks.1:7>                 , <forestry:slabs.2:7>                      ],
-    <contenttweaker:lumber_planks.giganteum>        : [<forestry:logs.6>        , <forestry:planks.1:8>                 , <forestry:slabs.3>                        ],
-    <contenttweaker:lumber_planks.ipe>              : [<forestry:logs.6:1>      , <forestry:planks.1:9>                 , <forestry:slabs.3:1>                      ],
-    <contenttweaker:lumber_planks.padauk>           : [<forestry:logs.6:2>      , <forestry:planks.1:10>                , <forestry:slabs.3:2>                      ],
-    <contenttweaker:lumber_planks.cocobolo>         : [<forestry:logs.6:3>      , <forestry:planks.1:11>                , <forestry:slabs.3:3>                      ],
-    <contenttweaker:lumber_planks.zebrawood>        : [<forestry:logs.7>        , <forestry:planks.1:12>                , <forestry:slabs.3:4>                      ],
+    <contenttweaker:lumber_planks.larch>            : [<forestry:logs.0>        , <forestry:planks.0>                   , <forestry:slabs.0>                        , <debark:debarked_log_forestry_logs_0>         ],
+    <contenttweaker:lumber_planks.teak>             : [<forestry:logs.0:1>      , <forestry:planks.0:1>                 , <forestry:slabs.0:1>                      , <debark:debarked_log_forestry_logs_0:1>       ],
+    <contenttweaker:lumber_planks.acacia>           : [<forestry:logs.0:2>      , <forestry:planks.0:2>                 , <forestry:slabs.0:2>                      , <debark:debarked_log_forestry_logs_0:2>       ],
+    <contenttweaker:lumber_planks.lime>             : [<forestry:logs.0:3>      , <forestry:planks.0:3>                 , <forestry:slabs.0:3>                      , <debark:debarked_log_forestry_logs_0:3>       ],
+    <contenttweaker:lumber_planks.chestnut>         : [<forestry:logs.1>        , <forestry:planks.0:4>                 , <forestry:slabs.0:4>                      , <debark:debarked_log_forestry_logs_1>         ],
+    <contenttweaker:lumber_planks.wenge>            : [<forestry:logs.1:1>      , <forestry:planks.0:5>                 , <forestry:slabs.0:5>                      , <debark:debarked_log_forestry_logs_1:1>       ],
+    <contenttweaker:lumber_planks.baobab>           : [<forestry:logs.1:2>      , <forestry:planks.0:6>                 , <forestry:slabs.0:6>                      , <debark:debarked_log_forestry_logs_1:2>       ],
+    <contenttweaker:lumber_planks.sequoia>          : [<forestry:logs.1:3>      , <forestry:planks.0:7>                 , <forestry:slabs.0:7>                      , <debark:debarked_log_forestry_logs_1:3>       ],
+    <contenttweaker:lumber_planks.kapok>            : [<forestry:logs.2>        , <forestry:planks.0:8>                 , <forestry:slabs.1>                        , <debark:debarked_log_forestry_logs_2>         ],
+    <contenttweaker:lumber_planks.ebony>            : [<forestry:logs.2:1>      , <forestry:planks.0:9>                 , <forestry:slabs.1:1>                      , <debark:debarked_log_forestry_logs_2:1>       ],
+    <contenttweaker:lumber_planks.mahogany>         : [<forestry:logs.2:2>      , <forestry:planks.0:10>                , <forestry:slabs.1:2>                      , <debark:debarked_log_forestry_logs_2:2>       ],
+    <contenttweaker:lumber_planks.balsa>            : [<forestry:logs.2:3>      , <forestry:planks.0:11>                , <forestry:slabs.1:3>                      , <debark:debarked_log_forestry_logs_2:3>       ],
+    <contenttweaker:lumber_planks.willow>           : [<forestry:logs.3>        , <forestry:planks.0:12>                , <forestry:slabs.1:4>                      , <debark:debarked_log_forestry_logs_3>         ],
+    <contenttweaker:lumber_planks.walnut>           : [<forestry:logs.3:1>      , <forestry:planks.0:13>                , <forestry:slabs.1:5>                      , <debark:debarked_log_forestry_logs_3:1>       ],
+    <contenttweaker:lumber_planks.greenheart>       : [<forestry:logs.3:2>      , <forestry:planks.0:14>                , <forestry:slabs.1:6>                      , <debark:debarked_log_forestry_logs_3:2>       ],
+    <contenttweaker:lumber_planks.cherry>           : [<forestry:logs.3:3>      , <forestry:planks.0:15>                , <forestry:slabs.1:7>                      , <debark:debarked_log_forestry_logs_3:3>       ],
+    <contenttweaker:lumber_planks.mahoe>            : [<forestry:logs.4>        , <forestry:planks.1>                   , <forestry:slabs.2>                        , <debark:debarked_log_forestry_logs_4>         ],
+    <contenttweaker:lumber_planks.poplar>           : [<forestry:logs.4:1>      , <forestry:planks.1:1>                 , <forestry:slabs.2:1>                      , <debark:debarked_log_forestry_logs_4:1>       ],
+    <contenttweaker:lumber_planks.palm>             : [<forestry:logs.4:2>      , <forestry:planks.1:2>                 , <forestry:slabs.2:2>                      , <debark:debarked_log_forestry_logs_4:2>       ],
+    <contenttweaker:lumber_planks.papaya>           : [<forestry:logs.4:3>      , <forestry:planks.1:3>                 , <forestry:slabs.2:3>                      , <debark:debarked_log_forestry_logs_4:3>       ],
+    <contenttweaker:lumber_planks.pine>             : [<forestry:logs.5>        , <forestry:planks.1:4>                 , <forestry:slabs.2:4>                      , <debark:debarked_log_forestry_logs_5>         ],
+    <contenttweaker:lumber_planks.plum>             : [<forestry:logs.5:1>      , <forestry:planks.1:5>                 , <forestry:slabs.2:5>                      , <debark:debarked_log_forestry_logs_5:1>       ],
+    <contenttweaker:lumber_planks.maple>            : [<forestry:logs.5:2>      , <forestry:planks.1:6>                 , <forestry:slabs.2:6>                      , <debark:debarked_log_forestry_logs_5:2>       ],
+    <contenttweaker:lumber_planks.citrus>           : [<forestry:logs.5:3>      , <forestry:planks.1:7>                 , <forestry:slabs.2:7>                      , <debark:debarked_log_forestry_logs_5:3>       ],
+    <contenttweaker:lumber_planks.giganteum>        : [<forestry:logs.6>        , <forestry:planks.1:8>                 , <forestry:slabs.3>                        , <debark:debarked_log_forestry_logs_6>         ],
+    <contenttweaker:lumber_planks.ipe>              : [<forestry:logs.6:1>      , <forestry:planks.1:9>                 , <forestry:slabs.3:1>                      , <debark:debarked_log_forestry_logs_6:1>       ],
+    <contenttweaker:lumber_planks.padauk>           : [<forestry:logs.6:2>      , <forestry:planks.1:10>                , <forestry:slabs.3:2>                      , <debark:debarked_log_forestry_logs_6:2>       ],
+    <contenttweaker:lumber_planks.cocobolo>         : [<forestry:logs.6:3>      , <forestry:planks.1:11>                , <forestry:slabs.3:3>                      , <debark:debarked_log_forestry_logs_6:3>       ],
+    <contenttweaker:lumber_planks.zebrawood>        : [<forestry:logs.7>        , <forestry:planks.1:12>                , <forestry:slabs.3:4>                      , null                                          ],
 
     // Cuisine
-    <contenttweaker:cuisine_citrus_lumber>          : [<cuisine:log>            , <cuisine:planks>                      , null                                      ],
+    <contenttweaker:cuisine_citrus_lumber>          : [<cuisine:log>            , <cuisine:planks>                      , null                                      , null                                          ],
 
     // Rustic Painted Wood
-    <contenttweaker:painted_wood_white_lumber>      : [null                     , <rustic:painted_wood_white>           , null                                      ],
-    <contenttweaker:painted_wood_orange_lumber>     : [null                     , <rustic:painted_wood_orange>          , null                                      ],
-    <contenttweaker:painted_wood_magenta_lumber>    : [null                     , <rustic:painted_wood_magenta>         , null                                      ],
-    <contenttweaker:painted_wood_light_blue_lumber> : [null                     , <rustic:painted_wood_light_blue>      , null                                      ],
-    <contenttweaker:painted_wood_yellow_lumber>     : [null                     , <rustic:painted_wood_yellow>          , null                                      ],
-    <contenttweaker:painted_wood_lime_lumber>       : [null                     , <rustic:painted_wood_lime>            , null                                      ],
-    <contenttweaker:painted_wood_pink_lumber>       : [null                     , <rustic:painted_wood_pink>            , null                                      ],
-    <contenttweaker:painted_wood_gray_lumber>       : [null                     , <rustic:painted_wood_gray>            , null                                      ],
-    <contenttweaker:painted_wood_silver_lumber>     : [null                     , <rustic:painted_wood_silver>          , null                                      ],
-    <contenttweaker:painted_wood_cyan_lumber>       : [null                     , <rustic:painted_wood_cyan>            , null                                      ],
-    <contenttweaker:painted_wood_purple_lumber>     : [null                     , <rustic:painted_wood_purple>          , null                                      ],
-    <contenttweaker:painted_wood_blue_lumber>       : [null                     , <rustic:painted_wood_blue>            , null                                      ],
-    <contenttweaker:painted_wood_brown_lumber>      : [null                     , <rustic:painted_wood_brown>           , null                                      ],
-    <contenttweaker:painted_wood_green_lumber>      : [null                     , <rustic:painted_wood_green>           , null                                      ],
-    <contenttweaker:painted_wood_red_lumber>        : [null                     , <rustic:painted_wood_red>             , null                                      ],
-    <contenttweaker:painted_wood_black_lumber>      : [null                     , <rustic:painted_wood_black>           , null                                      ],
+    <contenttweaker:painted_wood_white_lumber>      : [null                     , <rustic:painted_wood_white>           , null                                      , null                                          ],
+    <contenttweaker:painted_wood_orange_lumber>     : [null                     , <rustic:painted_wood_orange>          , null                                      , null                                          ],
+    <contenttweaker:painted_wood_magenta_lumber>    : [null                     , <rustic:painted_wood_magenta>         , null                                      , null                                          ],
+    <contenttweaker:painted_wood_light_blue_lumber> : [null                     , <rustic:painted_wood_light_blue>      , null                                      , null                                          ],
+    <contenttweaker:painted_wood_yellow_lumber>     : [null                     , <rustic:painted_wood_yellow>          , null                                      , null                                          ],
+    <contenttweaker:painted_wood_lime_lumber>       : [null                     , <rustic:painted_wood_lime>            , null                                      , null                                          ],
+    <contenttweaker:painted_wood_pink_lumber>       : [null                     , <rustic:painted_wood_pink>            , null                                      , null                                          ],
+    <contenttweaker:painted_wood_gray_lumber>       : [null                     , <rustic:painted_wood_gray>            , null                                      , null                                          ],
+    <contenttweaker:painted_wood_silver_lumber>     : [null                     , <rustic:painted_wood_silver>          , null                                      , null                                          ],
+    <contenttweaker:painted_wood_cyan_lumber>       : [null                     , <rustic:painted_wood_cyan>            , null                                      , null                                          ],
+    <contenttweaker:painted_wood_purple_lumber>     : [null                     , <rustic:painted_wood_purple>          , null                                      , null                                          ],
+    <contenttweaker:painted_wood_blue_lumber>       : [null                     , <rustic:painted_wood_blue>            , null                                      , null                                          ],
+    <contenttweaker:painted_wood_brown_lumber>      : [null                     , <rustic:painted_wood_brown>           , null                                      , null                                          ],
+    <contenttweaker:painted_wood_green_lumber>      : [null                     , <rustic:painted_wood_green>           , null                                      , null                                          ],
+    <contenttweaker:painted_wood_red_lumber>        : [null                     , <rustic:painted_wood_red>             , null                                      , null                                          ],
+    <contenttweaker:painted_wood_black_lumber>      : [null                     , <rustic:painted_wood_black>           , null                                      , null                                          ],
 
     // Immersive Engineering
-    <contenttweaker:treated_wood_lumber>            : [null                     , <immersiveengineering:treated_wood>   , <immersiveengineering:treated_wood_slab>  ],
+    <contenttweaker:treated_wood_lumber>            : [null                     , <immersiveengineering:treated_wood>   , <immersiveengineering:treated_wood_slab>  , null                                          ],
 
     // Pyrotech
-    <contenttweaker:tarred_lumber>                  : [null                     , <pyrotech:planks_tarred>              , null                                      ],
+    <contenttweaker:tarred_lumber>                  : [null                     , <pyrotech:planks_tarred>              , null                                      , null                                          ],
 
 };
 
@@ -117,6 +117,7 @@ for lumber, x in woodworking {
     var log = x[0];
     var planks = x[1];
     var slab = x[2];
+    var debarkedLog = x[3];
 
     val sawmillBlades =
           <pyrotech:sawmill_blade_stone:*>
@@ -127,15 +128,16 @@ for lumber, x in woodworking {
         | <pyrotech:sawmill_blade_diamond:*>
         | <pyrotech:sawmill_blade_obsidian:*>;
 
+    // Raw Lumber
     val rawLumber = lumber.withTag({raw: true});
+
+    // Adding tooltip for lumber with "raw: true" tag
+    rawLumber.addTooltip(format.gray(format.bold("Raw")));
 
     if (!isNull(log)) {
 
         // Adding recipe for 8 lumbers with "raw: true" tag from one log
         Chopping.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}), log, [1], [8]);
-
-        // Adding tooltip for lumber with "raw: true" tag
-        rawLumber.addTooltip(format.gray(format.bold("Raw")));
 
         MKSawmill.addRecipe(log, lumber.withTag({raw: true}) * 8, <pyrotech:rock:7>, 0.5);
         StoneSawmill.addRecipe(getNameForRecipe(lumber * 8), lumber.withTag({raw: true}) * 8, log, 300, sawmillBlades, 1);
@@ -173,6 +175,16 @@ for lumber, x in woodworking {
             }
         );
 
+    }
+
+    if (!isNull(debarkedLog)) {
+
+        // Adding recipe for 8 lumbers with "raw: true" tag from one log
+        Chopping.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", lumber.withTag({raw: true}), log, [1], [8]);
+
+        MKSawmill.addRecipe(log, lumber.withTag({raw: true}) * 8, <pyrotech:rock:7>, 0.5);
+        StoneSawmill.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", lumber.withTag({raw: true}) * 8, log, 300, sawmillBlades, 1);
+        BrickSawmill.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", lumber.withTag({raw: true}) * 8, log, 60, sawmillBlades, 1);
     }
 
     // Adding "plankWood" oredict to lumber
