@@ -174,7 +174,6 @@ for lumber, x in woodworking {
                 Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
             }
         );
-
     }
 
     if (!isNull(debarkedLog)) {
@@ -225,6 +224,7 @@ for lumber, x in woodworking {
         }
     );
 
+    // Adding recipe for lumber with iron nails
     recipes.addHiddenShaped(getNameForRecipe(planks * 2) ~ "_x2_iron_nails", planks * 2,
        [[null    , null  , ironNail ],
         [null    , lumber, lumber   ],
@@ -263,7 +263,7 @@ for lumber, x in woodworking {
             [lumber, null  , lumber ],
             [lumber, lumber, lumber ]]);
         mods.jei.JEI.addItem(<charset:chest>.withTag({wood: toString(planks).replace("<", "").replace(">", "").replace(":", ";").replace(planks.definition.owner + ";", planks.definition.owner + ":")}));
-	}
+    }
 }
 
 

@@ -45,18 +45,15 @@ for i in jeiCategories {
     ItemStages.stageRecipeCategory("NuclearCraft", i);
 }
 
-RecipeUtils.tweakRecipe(true, <nuclearcraft:part:10>, 
-   [[<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>],
-    [<ore:plateSteel>, <ore:ingotTough>, <ore:plateSteel>],
-    [<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>]],
-
-    function(out, ins, cInfo) {
-        return out;
-    },
-    //IRecipeAction
+RecipeUtils.tweakRecipe(true, <nuclearcraft:part:10>,
+   [[<ore:plateIron> , <ore:plateSteel>, <ore:plateIron>  ],
+    [<ore:plateSteel>, <ore:ingotTough>, <ore:plateSteel> ],
+    [<ore:plateIron> , <ore:plateSteel>, <ore:plateIron>  ]],
+    null,
     function(out, cInfo, player) {
         player.addGameStage("NuclearCraft");
-});
+    }
+);
 
 ItemStages.stageModItems("NuclearCraft", "nuclearcraft");
 

@@ -54,18 +54,15 @@ for i in jeiCategories {
     ItemStages.stageRecipeCategory("thermal", i);
 }
 
-RecipeUtils.tweakRecipe(true, <thermalexpansion:frame>, 
+RecipeUtils.tweakRecipe(true, <thermalexpansion:frame>,
    [[<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>],
     [<ore:plateSteel>, <ore:gearTin>, <ore:plateSteel>],
     [<ore:plateIron>, <ore:plateSteel>, <ore:plateIron>]],
-
-    function(out, ins, cInfo) {
-        return out;
-    },
-    //IRecipeAction
+    null,
     function(out, cInfo, player) {
         player.addGameStage("thermal");
-});
+    }
+);
 
 ItemStages.stageModItems("thermal", "thermalexpansion");
 

@@ -52,8 +52,8 @@ val paste as string[][IIngredient] = {
     <harvestcraft:wintersquashitem>     : ["winter_squash"          , ""                    ],
 
     <ore:cropGarlic>                    : ["garlic"                 , ""                    ],
-    <cuisine:crops:15> |
-        <harvestcraft:bellpepperitem>   : ["green_pepper"           , ""                    ],
+    <cuisine:crops:15>
+        | <harvestcraft:bellpepperitem> : ["green_pepper"           , ""                    ],
     <harvestcraft:celeryitem>           : ["celery"                 , ""                    ],
     <harvestcraft:peasitem>             : ["peas"                   , ""                    ],
     <ore:cropPeanut>                    : ["peanut"                 , ""                    ],
@@ -94,4 +94,5 @@ val mortars = [
     <advancedmortars:mortar:5>,
     <advancedmortars:mortar:6>
 ] as IItemStack[];
+
 for i in mortars { rh(i); }
