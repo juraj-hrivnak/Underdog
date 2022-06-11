@@ -247,7 +247,7 @@
     },
     {
       "projectID": 229302,
-      "fileID": 3486258,
+      "fileID": 3769828,
       "required": true,
       "__meta": {
         "name": "Custom Loading Screen"
@@ -416,7 +416,7 @@
     },
     {
       "projectID": 237701,
-      "fileID": 2560638,
+      "fileID": 3784942,
       "required": true,
       "__meta": {
         "name": "ReAuth"
@@ -462,7 +462,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3642364,
+      "fileID": 3784010,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -800,7 +800,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3584330,
+      "fileID": 3781003,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -907,17 +907,6 @@
       "required": true,
       "__meta": {
         "name": "Scannable"
-      }
-    },
-    {
-      "projectID": 266824,
-      "fileID": 2810222,
-      "required": true,
-      "__meta": {
-        "name": "Caliper",
-        "dependencies": [
-          228525
-        ]
       }
     },
     {
@@ -1046,6 +1035,14 @@
           74072,
           74924
         ]
+      }
+    },
+    {
+      "projectID": 273279,
+      "fileID": 2856128,
+      "required": true,
+      "__meta": {
+        "name": "AntiGhost"
       }
     },
     {
@@ -1270,10 +1267,18 @@
     },
     {
       "projectID": 285742,
-      "fileID": 2949817,
+      "fileID": 3783384,
       "required": true,
       "__meta": {
         "name": "Smooth Font"
+      }
+    },
+    {
+      "projectID": 286066,
+      "fileID": 3327633,
+      "required": true,
+      "__meta": {
+        "name": "Better HUD"
       }
     },
     {
@@ -1460,14 +1465,6 @@
       "required": true,
       "__meta": {
         "name": "Serene Seasons"
-      }
-    },
-    {
-      "projectID": 292785,
-      "fileID": 2915154,
-      "required": true,
-      "__meta": {
-        "name": "VanillaFix"
       }
     },
     {
@@ -1811,7 +1808,7 @@
     },
     {
       "projectID": 313866,
-      "fileID": 3657641,
+      "fileID": 3783239,
       "required": true,
       "__meta": {
         "name": "Engineer's Decor"
@@ -1857,7 +1854,7 @@
     },
     {
       "projectID": 321792,
-      "fileID": 3760428,
+      "fileID": 3795823,
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics"
@@ -1904,6 +1901,14 @@
       "required": true,
       "__meta": {
         "name": "ChunkGenLimiter"
+      }
+    },
+    {
+      "projectID": 346073,
+      "fileID": 2843391,
+      "required": true,
+      "__meta": {
+        "name": "Debark"
       }
     },
     {
@@ -2006,14 +2011,6 @@
         "dependencies": [
           74072
         ]
-      }
-    },
-    {
-      "projectID": 381597,
-      "fileID": 3299987,
-      "required": true,
-      "__meta": {
-        "name": "Regrowth"
       }
     },
     {
@@ -2121,7 +2118,7 @@
     },
     {
       "projectID": 409087,
-      "fileID": 3749801,
+      "fileID": 3777319,
       "required": true,
       "__meta": {
         "name": "Entity Culling"
@@ -2224,6 +2221,17 @@
       }
     },
     {
+      "projectID": 460609,
+      "fileID": 3781801,
+      "required": true,
+      "__meta": {
+        "name": "CensoredASM",
+        "dependencies": [
+          419286
+        ]
+      }
+    },
+    {
       "projectID": 465506,
       "fileID": 3261366,
       "required": true,
@@ -2240,7 +2248,8 @@
       "fileID": 3720488,
       "required": true,
       "__meta": {
-        "name": "Fluidlogged API"
+        "name": "Fluidlogged API",
+        "pinned": true
       }
     },
     {
@@ -2265,7 +2274,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 3763756,
+      "fileID": 3779488,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2273,7 +2282,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3755096,
+      "fileID": 3791235,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2304,6 +2313,28 @@
       "required": true,
       "__meta": {
         "name": "Salt Water Patcher",
+        "dependencies": [
+          419286
+        ]
+      }
+    },
+    {
+      "projectID": 617696,
+      "fileID": 3791246,
+      "required": true,
+      "__meta": {
+        "name": "Configurable Item Entities (CIE)",
+        "dependencies": [
+          419286
+        ]
+      }
+    },
+    {
+      "projectID": 620262,
+      "fileID": 3778566,
+      "required": true,
+      "__meta": {
+        "name": "燐/Hesperus",
         "dependencies": [
           419286
         ]
