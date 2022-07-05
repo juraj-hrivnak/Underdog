@@ -2,6 +2,10 @@
 	disable_toast: true,
 	x: -4.0d,
 	y: -1.5d,
+	dependencies: [
+		"764aeb72"
+	],
+	hide: true,
 	tasks: [{
 		uid: "f89e3a87",
 		type: "checkmark",
@@ -12,10 +16,5 @@
 		uid: "6e40bf31",
 		type: "item",
 		item: "forestry:scoop"
-	},
-	{
-		uid: "d4b10495",
-		type: "item",
-		item: "forestry:book_forester"
 	}]
 }

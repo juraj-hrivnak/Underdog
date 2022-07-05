@@ -19,16 +19,16 @@
 		uid: "3459e07d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "lumber",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any lumber"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "lumber"
 				}
 			}
 		}],

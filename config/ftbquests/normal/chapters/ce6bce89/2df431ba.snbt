@@ -17,16 +17,16 @@
 		uid: "037cf240",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "firewood",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any firewood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "firewood"
 				}
 			}
 		}]

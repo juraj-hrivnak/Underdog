@@ -8,13 +8,13 @@
 		uid: "a75a5e95",
 		type: "item",
 		items: [{
+			id: "immersiveengineering:chemthrower",
 			ForgeCaps: {
 				Parent: {
 					Size: 1,
 					Items: []
 				}
-			},
-			id: "immersiveengineering:chemthrower"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,0 +1,18 @@
+{
+	title: "Blast Furnace",
+	x: 4.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ad70493a"
+	],
+	size: 1.4d,
+	tasks: [{
+		uid: "30ed2093",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_device 1 2"
+		}]
+	}]
+}

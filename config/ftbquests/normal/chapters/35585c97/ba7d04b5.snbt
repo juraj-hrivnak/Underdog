@@ -1,17 +1,17 @@
 {
 	icon: {
+		id: "immersiveengineering:drill",
 		ForgeCaps: {
 			Parent: {
-				Size: 5,
 				Items: [{
 					Slot: 0,
 					id: "immersiveengineering:drillhead",
 					Count: 1b,
 					Damage: 0s
-				}]
+				}],
+				Size: 5
 			}
-		},
-		id: "immersiveengineering:drill"
+		}
 	},
 	x: -5.5d,
 	y: -3.0d,
@@ -22,13 +22,13 @@
 		uid: "99159644",
 		type: "item",
 		items: [{
+			id: "immersiveengineering:drill",
 			ForgeCaps: {
 				Parent: {
-					Size: 5,
-					Items: []
+					Items: [],
+					Size: 5
 				}
-			},
-			id: "immersiveengineering:drill"
+			}
 		}],
 		ignore_nbt: 1b
 	},

@@ -1,15 +1,15 @@
 {
 	x: 1.8d,
-	y: 2.6d,
+	y: 4.4d,
 	dependencies: [
-		"755477b9"
+		"88be51ea"
 	],
 	size: 0.8d,
 	tasks: [{
-		uid: "60f23214",
+		uid: "a834fdfe",
 		type: "item",
 		items: [{
-			item: "tconstruct:casting"
+			item: "geolosys:ingot"
 		}]
 	}]
 }

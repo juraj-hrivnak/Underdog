@@ -12,6 +12,7 @@
 		"a63cf0b2"
 	],
 	hide: true,
+	dependency_requirement: "one_started",
 	tasks: [{
 		uid: "bb5fbc53",
 		type: "item",

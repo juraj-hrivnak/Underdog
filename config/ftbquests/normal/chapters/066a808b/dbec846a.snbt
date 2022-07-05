@@ -1,4 +1,5 @@
 {
+	title: "Hammer",
 	icon: "pyrotech:anvil_granite",
 	x: 1.8d,
 	y: 1.0d,
@@ -7,26 +8,19 @@
 	],
 	size: 0.8d,
 	tasks: [{
-		uid: "93f7fd62",
-		type: "item",
-		items: [{
-			item: "pyrotech:anvil_granite"
-		}]
-	},
-	{
 		uid: "4b40da40",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "toolHammer",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any toolHammer"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolHammer"
 				}
 			}
 		}],

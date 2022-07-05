@@ -1,0 +1,16 @@
+{
+	x: 4.2d,
+	y: 6.0d,
+	dependencies: [
+		"e7110521"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "03d10921",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_granite"
+		}]
+	}]
+}
