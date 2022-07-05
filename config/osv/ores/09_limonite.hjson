@@ -18,7 +18,6 @@
     shade: false
     original: geolosys:blocks/limonite
   }
-  
   loot: [
     {
       item: geolosys:cluster

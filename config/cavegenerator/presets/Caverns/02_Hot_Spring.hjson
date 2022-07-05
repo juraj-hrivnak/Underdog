@@ -67,11 +67,10 @@
   }
   caveBlocks: [
     { states: "biomesoplenty:hot_spring_water", height: [ 0, 200 ] }
-    // { states: "minecraft:magma", height: [ 0, 20 ] }
   ]
   wallDecorators: [
     {
-      states: minecraft:stone
+      states: minecraft:netherrack
       directions: all
       matchers: $NATURAL_STONE
       height: [ 20, 200 ]
@@ -79,20 +78,36 @@
       integrity: 1
     }
     {
-      states: minecraft:stone
+      states: minecraft:netherrack
       directions: side
       matchers: air
       height: [ 20, 200 ]
       placement: EMBED
-      integrity: 1
+      integrity: 0.6
     }
     {
-      states: minecraft:stone
+      states: [ "osv:_pyrite_netherrack:1" ]
+      directions: side
+      matchers: air
+      height: [ 20, 200 ]
+      placement: EMBED
+      integrity: 0.4
+    }
+    {
+      states: minecraft:netherrack
       directions: side
       matchers: air
       height: [ 20, 200 ]
       placement: OVERLAY
-      integrity: 1
+      integrity: 0.6
+    }
+    {
+      states: [ "osv:_pyrite_netherrack", "osv:_pyrite_netherrack:1" ]
+      directions: side
+      matchers: air
+      height: [ 20, 200 ]
+      placement: OVERLAY
+      integrity: 0.4
     }
   ]
 }

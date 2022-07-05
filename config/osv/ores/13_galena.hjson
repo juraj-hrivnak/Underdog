@@ -18,7 +18,6 @@
     shade: false
     original: geolosys:blocks/galena
   }
-  
   loot: [
     {
       item: geolosys:cluster:4
@@ -31,6 +30,12 @@
       count: [ 1, 1 ]
       xp: [ 0, 0 ]
       chance: 3
+    }
+    {
+      item: minecraft:blaze_powder
+      count: [ 1, 1 ]
+      xp: [ 0, 0 ]
+      chance: 0.5
     }
   ]
 }

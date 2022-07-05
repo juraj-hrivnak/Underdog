@@ -1,4 +1,24 @@
 {
+  small_crater(): {
+    offset: @1
+    seed: 1
+    type: SimplexFractal
+    fractal: FBM
+    threshold: [ -1, -0.98 ]
+    frequency: 0.0103
+    stretch: 1 // [Default: 5]
+    octaves: 1
+    lacunarity: 2.2 // [Default: 2.2]
+    gain: 0 // [Default: 0]
+    perturb: true
+    perturbAmp: 50 // [Default: 50] You can mess around with this
+    perturbFreq: 0.00050 // [Default: 0.00050] You can mess around with this
+    jitterY: 10 // You can mess around with this
+    jitterX: 10 // You can mess around with this
+    jitterZ: 10 // You can mess around with this
+    distFunc: Natural
+    interp: Quintic
+  }
   big_crater(): {
     offset: @1
     seed: 1
@@ -31,21 +51,24 @@
       -1
       -1 + @2
     ]
-    frequency: 0.01 - @2 * @3
+    frequency: 0.01 - @2 * (@2 / 3) / 2
     stretch: 0.3 // [Default: 1 / 0.3]
     octaves: 1
-    lacunarity: 2.2 // [Default: 2.2]
-    gain: 0 // [Default: 0]
+    lacunarity: 0.2 // [Default: 2.2]
+    gain: 1 // [Default: 0]
     perturb: true
-    perturbAmp: 50 // [Default: 50] You can mess around with this
-    perturbFreq: 0.00050 // [Default: 0.00050] You can mess around with this
-    jitterY: 10 // You can mess around with this
-    jitterX: 10 // You can mess around with this
-    jitterZ: 10 // You can mess around with this
+    perturbAmp: 1 // [Default: 50] You can mess around with this
+    perturbFreq: 0.5 // [Default: 0.00050] You can mess around with this
+    jitterY: 0 // You can mess around with this
+    jitterX: -40 // You can mess around with this
+    jitterZ: -40 // You can mess around with this
     distFunc: Natural
     interp: Quintic
   }
   replacebles: [
+    // simpledifficulty:saltwater
+    // minecraft:water
+    // simpledifficulty:purifiedwater
     crocodilite:overgrown_marble
     crocodilite:overgrown_limestone
     crocodilite:overgrown_granite
@@ -54,9 +77,6 @@
     pyrotech:rock_grass
     pyrotech:rock:4
     pyrotech:rock:5
-    simpledifficulty:saltwater
-    minecraft:water
-    simpledifficulty:purifiedwater
     biomesoplenty:hot_spring_water
     minecraft:netherrack
     minecraft:end_stone
