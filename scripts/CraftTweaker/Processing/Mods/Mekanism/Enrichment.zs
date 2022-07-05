@@ -21,6 +21,8 @@ val dissolutions as IItemStack[IIngredient] = {
     <ore:oreUranium>                    : <immersiveengineering:metal:14> * 2,
     <ore:oreOsmium>                     : <mekanism:dust:2>               * 2,
 
+    <ore:orePyrite>                     : <minecraft:blaze_powder>        * 2,
+
     <mekanism:plasticblock:15>          : <mekanism:slickplasticblock:15>    ,
     <mekanism:plasticblock:14>          : <mekanism:slickplasticblock:14>    ,
     <mekanism:plasticblock:13>          : <mekanism:slickplasticblock:13>    ,

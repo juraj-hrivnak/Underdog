@@ -34,3 +34,12 @@ RecipeUtils.tweakRecipe(true, <tropicraft:bongo:2>,
    [[<ore:leather>, <ore:leather>, <ore:leather>],
     [<ore:lumber>, <ore:lumber>, <ore:lumber>],
     [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);
+
+// Adding tropicraft to oredict
+<ore:tropicraftSand>.addItems([
+    <tropicraft:sand>,
+    <tropicraft:sand:1>,
+    <tropicraft:sand:2>,
+    <tropicraft:sand:3>,
+    <tropicraft:sand:4>
+]);
