@@ -106,11 +106,18 @@ val woodworking as IItemStack[][IItemStack] = {
 
 };
 
-val woodenNail = <contenttweaker:nail_wooden>;
-val ironNail = <contenttweaker:nail_iron>;
-
 recipes.remove(<charset:chest:*>);
 
+val woodenNail = <contenttweaker:nail_wooden>;
+val ironNail = <contenttweaker:nail_iron>;
+val sawmillBlades =
+      <pyrotech:sawmill_blade_stone:*>
+    | <pyrotech:sawmill_blade_flint:*>
+    | <pyrotech:sawmill_blade_bone:*>
+    | <pyrotech:sawmill_blade_iron:*>
+    | <pyrotech:sawmill_blade_gold:*>
+    | <pyrotech:sawmill_blade_diamond:*>
+    | <pyrotech:sawmill_blade_obsidian:*>;
 
 for lumber, x in woodworking {
 
@@ -119,31 +126,25 @@ for lumber, x in woodworking {
     var slab = x[2];
     var debarkedLog = x[3];
 
-    val sawmillBlades =
-          <pyrotech:sawmill_blade_stone:*>
-        | <pyrotech:sawmill_blade_flint:*>
-        | <pyrotech:sawmill_blade_bone:*>
-        | <pyrotech:sawmill_blade_iron:*>
-        | <pyrotech:sawmill_blade_gold:*>
-        | <pyrotech:sawmill_blade_diamond:*>
-        | <pyrotech:sawmill_blade_obsidian:*>;
-
     // Raw Lumber
     val rawLumber = lumber.withTag({raw: true});
 
     // Adding tooltip for lumber with "raw: true" tag
     rawLumber.addTooltip(format.gray(format.bold("Raw")));
 
+
+    // Recipes for logs
     if (!isNull(log)) {
 
         // Adding recipe for 8 lumbers with "raw: true" tag from one log
-        Chopping.addRecipe(getNameForRecipe(lumber * 8), rawLumber, log, [1], [8]);
+        Chopping.addRecipe(getNameForRecipe([lumber * 8]), rawLumber, log, [1], [8]);
 
         MKSawmill.addRecipe(log, rawLumber * 8, <pyrotech:rock:7>, 0.5);
-        StoneSawmill.addRecipe(getNameForRecipe(lumber * 8), rawLumber * 8, log, 300, sawmillBlades, 1);
-        BrickSawmill.addRecipe(getNameForRecipe(lumber * 8), rawLumber * 8, log, 60, sawmillBlades, 1);
+        StoneSawmill.addRecipe(getNameForRecipe([lumber * 8]), rawLumber * 8, log, 300, sawmillBlades, 1);
+        BrickSawmill.addRecipe(getNameForRecipe([lumber * 8]), rawLumber * 8, log, 60, sawmillBlades, 1);
     }
 
+    // Recipes for slabs
     if (!isNull(slab)) {
 
         // Removing default recipes for slabs
@@ -176,14 +177,15 @@ for lumber, x in woodworking {
         );
     }
 
+    // Recipes for debarked logs
     if (!isNull(debarkedLog)) {
 
         // Adding recipe for 8 lumbers with "raw: true" tag from one log
-        Chopping.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", rawLumber, debarkedLog, [1], [8]);
+        Chopping.addRecipe(getNameForRecipe([lumber * 8]) ~"_debarked", rawLumber, debarkedLog, [1], [8]);
 
         MKSawmill.addRecipe(debarkedLog, rawLumber * 8, <pyrotech:rock:7>, 0.5);
-        StoneSawmill.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", rawLumber * 8, debarkedLog, 300, sawmillBlades, 1);
-        BrickSawmill.addRecipe(getNameForRecipe(lumber * 8) ~"_debarked", rawLumber * 8, debarkedLog, 60, sawmillBlades, 1);
+        StoneSawmill.addRecipe(getNameForRecipe([lumber * 8]) ~"_debarked", rawLumber * 8, debarkedLog, 300, sawmillBlades, 1);
+        BrickSawmill.addRecipe(getNameForRecipe([lumber * 8]) ~"_debarked", rawLumber * 8, debarkedLog, 60, sawmillBlades, 1);
     }
 
     // Adding "plankWood" oredict to lumber
@@ -203,7 +205,7 @@ for lumber, x in woodworking {
     );
 
     // Adding recipe for planks block from four lumbers
-    recipes.addShaped(getNameForRecipe(planks * 2), planks * 2,
+    recipes.addShaped(getNameForRecipe([planks * 2]), planks * 2,
       [[lumber, lumber ],
        [lumber, lumber ]],
         null,
@@ -213,7 +215,7 @@ for lumber, x in woodworking {
     );
 
     // Adding bunus recipe for using "raw" lumber with iron nails
-    recipes.addShapedMirrored(getNameForRecipe(planks * 4) ~ "_x4_iron_nails", planks * 4,
+    recipes.addShapedMirrored(getNameForRecipe([planks * 4]) ~ "_x4_iron_nails", planks * 4,
        [[null    , null     , ironNail  ],
         [null    , rawLumber, rawLumber ],
         [ironNail, rawLumber, rawLumber ]],
@@ -225,7 +227,7 @@ for lumber, x in woodworking {
     );
 
     // Adding recipe for lumber with iron nails
-    recipes.addHiddenShaped(getNameForRecipe(planks * 2) ~ "_x2_iron_nails", planks * 2,
+    recipes.addHiddenShaped(getNameForRecipe([planks * 2]) ~ "_x2_iron_nails", planks * 2,
        [[null    , null  , ironNail ],
         [null    , lumber, lumber   ],
         [ironNail, lumber, lumber   ]],
@@ -237,12 +239,12 @@ for lumber, x in woodworking {
     );
 
     MKSawmill.addRecipe(planks, lumber * 2);
-    StoneSawmill.addRecipe(getNameForRecipe(lumber * 2), lumber * 2, planks, 200, sawmillBlades, 0);
-    BrickSawmill.addRecipe(getNameForRecipe(lumber * 2), lumber * 2, planks, 20, sawmillBlades, 0);
+    StoneSawmill.addRecipe(getNameForRecipe([lumber * 2]), lumber * 2, planks, 200, sawmillBlades, 0);
+    BrickSawmill.addRecipe(getNameForRecipe([lumber * 2]), lumber * 2, planks, 20, sawmillBlades, 0);
 
     // Chests recipes
     if (planks.metadata == 0) {
-		recipes.addShaped(getNameForRecipe(planks) ~ "_chest", <charset:chest>
+		recipes.addShaped(getNameForRecipe([planks]) ~ "_chest", <charset:chest>
 			.withTag({wood: toString(planks)
 				.replace("<", "")
 				.replace(">", ";0")
@@ -253,7 +255,7 @@ for lumber, x in woodworking {
             [lumber, lumber, lumber ]]);
         mods.jei.JEI.addItem(<charset:chest>.withTag({wood: toString(planks).replace("<", "").replace(">", ";0").replace(":", ";").replace(planks.definition.owner + ";", planks.definition.owner + ":")}));
 	} else {
-		recipes.addShaped(getNameForRecipe(planks) ~ "_chest", <charset:chest>
+		recipes.addShaped(getNameForRecipe([planks]) ~ "_chest", <charset:chest>
 			.withTag({wood: toString(planks)
 				.replace("<", "")
 				.replace(">", "")
@@ -267,7 +269,7 @@ for lumber, x in woodworking {
 }
 
 
-Chopping.addRecipe("chopping_nail", woodenNail, <ore:hardwoodLumber>, [1], [4]);
+// Chopping.addRecipe("chopping_nail", woodenNail, <ore:hardwoodLumber>, [1], [4]);
 Chopping.addRecipe("chopping_sticks", <minecraft:stick>, <ore:firewood>, [1], [4]);
 
 // 1 log => 8 lumber = 16 sticks
@@ -281,7 +283,7 @@ recipes.addShaped("Splitting Wedge", <contenttweaker:splitting_wedge>,
    [[<ore:ingotSteel>  ],
     [<ore:nuggetSteel> ]]);
 
-recipes.addShapeless("Table Top", <contenttweaker:table_top>, [<ore:rocks> , <pyrotech:material:10>, <ore:lumber>, <ore:lumber>]);
+recipes.addShapeless("Table Top", <contenttweaker:table_top>, [<ore:rocks>, <pyrotech:material:10>, <ore:lumber>, <ore:lumber>]);
 
 // Removing default recipes for crafting tables
 recipes.remove(<minecraft:crafting_table>);

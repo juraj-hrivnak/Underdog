@@ -98,7 +98,7 @@ RecipeUtils.tweakRecipe(true, <pyrotech:log_pile>, RecipeUtils.createFull3(<ore:
 furnace.setFuel(<pyrotech:log_pile>, 480);
 
 // Masonry Brick
-recipes.addShapedMirrored(<pyrotech:material:16>,
+recipes.addShapedMirrored(<pyrotech:material:16> * 2,
    [[null       , clayLump    ],
     [<ore:rocks>, <ore:rocks> ]]);
 

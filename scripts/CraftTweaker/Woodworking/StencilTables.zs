@@ -2,7 +2,6 @@
 #priority -102
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-// import mods.jei.JEI.hide as h;
 
 val lumbersAndStencilTables = {
 
