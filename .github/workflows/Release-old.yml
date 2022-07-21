@@ -1,7 +1,9 @@
 name: Release-old
 
 on:
-  workflow_dispatch
+  push:
+    tags:
+      - 'v*'
 
 env:
   PROJECT_ID: "399664"
