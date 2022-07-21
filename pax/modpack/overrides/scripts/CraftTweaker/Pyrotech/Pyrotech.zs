@@ -142,7 +142,7 @@ RecipeUtils.tweakRecipe(true, <pyrotech:bloomery>,
 
 // Stone
 val masonryBrick = <pyrotech:material:16>;
-val masonryBlock = <pyrotech:stone_bricks>;
+val masonryBlock = <pyrotech:masonry_brick_block>;
 
 // Kiln
 RecipeUtils.tweakRecipe(true, <pyrotech:stone_kiln>,

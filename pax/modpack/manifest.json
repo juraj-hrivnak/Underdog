@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "2.4.0",
+  "version": "2.5.0",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -30,14 +30,6 @@
       "required": true,
       "__meta": {
         "name": "Forestry"
-      }
-    },
-    {
-      "projectID": 60089,
-      "fileID": 3359843,
-      "required": true,
-      "__meta": {
-        "name": "Mouse Tweaks"
       }
     },
     {
@@ -88,13 +80,10 @@
     },
     {
       "projectID": 220954,
-      "fileID": 3488553,
+      "fileID": 3840577,
       "required": true,
       "__meta": {
-        "name": "ModTweaker",
-        "dependencies": [
-          253211
-        ]
+        "name": "ModTweaker"
       }
     },
     {
@@ -293,7 +282,7 @@
       "fileID": 2720655,
       "required": true,
       "__meta": {
-        "name": "Chisels & Bits"
+        "name": "Chisels & Bits - For Forge"
       }
     },
     {
@@ -340,20 +329,11 @@
       }
     },
     {
-      "projectID": 233071,
-      "fileID": 2562139,
-      "required": true,
-      "__meta": {
-        "name": "Crafting Tweaks"
-      }
-    },
-    {
       "projectID": 233105,
       "fileID": 2745846,
       "required": true,
       "__meta": {
-        "name": "McJtyLib",
-        "explicit": false
+        "name": "McJtyLib"
       }
     },
     {
@@ -416,7 +396,7 @@
     },
     {
       "projectID": 237701,
-      "fileID": 3784942,
+      "fileID": 3826315,
       "required": true,
       "__meta": {
         "name": "ReAuth"
@@ -454,15 +434,12 @@
       "fileID": 3497269,
       "required": true,
       "__meta": {
-        "name": "Dynamic Surroundings",
-        "dependencies": [
-          307806
-        ]
+        "name": "Dynamic Surroundings"
       }
     },
     {
       "projectID": 239197,
-      "fileID": 3784010,
+      "fileID": 3882858,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -684,7 +661,7 @@
     },
     {
       "projectID": 252818,
-      "fileID": 3613721,
+      "fileID": 3812473,
       "required": true,
       "__meta": {
         "name": "Dynamic Trees"
@@ -753,17 +730,6 @@
       "required": true,
       "__meta": {
         "name": "Tropicraft"
-      }
-    },
-    {
-      "projectID": 255257,
-      "fileID": 3507866,
-      "required": true,
-      "__meta": {
-        "name": "LootTweaker",
-        "dependencies": [
-          239197
-        ]
       }
     },
     {
@@ -1074,8 +1040,7 @@
       "fileID": 3483816,
       "required": true,
       "__meta": {
-        "name": "MysticalLib",
-        "explicit": false
+        "name": "MysticalLib"
       }
     },
     {
@@ -1151,8 +1116,8 @@
       "__meta": {
         "name": "Item Stages",
         "dependencies": [
-          239197,
-          268655
+          268655,
+          239197
         ]
       }
     },
@@ -1214,8 +1179,7 @@
       "fileID": 3533386,
       "required": true,
       "__meta": {
-        "name": "Athenaeum",
-        "explicit": false
+        "name": "Athenaeum"
       }
     },
     {
@@ -1251,7 +1215,6 @@
       "required": true,
       "__meta": {
         "name": "Dropt",
-        "explicit": false,
         "dependencies": [
           284350
         ]
@@ -1271,14 +1234,6 @@
       "required": true,
       "__meta": {
         "name": "Smooth Font"
-      }
-    },
-    {
-      "projectID": 286066,
-      "fileID": 3327633,
-      "required": true,
-      "__meta": {
-        "name": "Better HUD"
       }
     },
     {
@@ -1532,7 +1487,10 @@
       "fileID": 3587417,
       "required": true,
       "__meta": {
-        "name": "Cave Generator"
+        "name": "Cave Generator",
+        "dependencies": [
+          513391
+        ]
       }
     },
     {
@@ -1584,7 +1542,7 @@
     },
     {
       "projectID": 300317,
-      "fileID": 3752540,
+      "fileID": 3864852,
       "required": true,
       "__meta": {
         "name": "Modernity"
@@ -1629,7 +1587,7 @@
       "fileID": 2704824,
       "required": true,
       "__meta": {
-        "name": "Kiwi 🥝"
+        "name": "Kiwi 🥝 (Forge)"
       }
     },
     {
@@ -1670,14 +1628,14 @@
     },
     {
       "projectID": 306676,
-      "fileID": 3604905,
+      "fileID": 3873886,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
         "dependencies": [
+          306770,
           284350,
-          284973,
-          306770
+          284973
         ]
       }
     },
@@ -1699,7 +1657,7 @@
     },
     {
       "projectID": 307560,
-      "fileID": 3108742,
+      "fileID": 3812463,
       "required": true,
       "__meta": {
         "name": "Dynamic Trees - Pam's Harvestcraft",
@@ -1738,7 +1696,7 @@
       "fileID": 3541266,
       "required": true,
       "__meta": {
-        "name": "Snow! Real Magic! ⛄"
+        "name": "Snow! Real Magic! ⛄ (Forge)"
       }
     },
     {
@@ -1746,12 +1704,12 @@
       "fileID": 3003364,
       "required": true,
       "__meta": {
-        "name": "Item Filters (Forge)"
+        "name": "Item Filters"
       }
     },
     {
       "projectID": 310059,
-      "fileID": 3722997,
+      "fileID": 3842790,
       "required": true,
       "__meta": {
         "name": "Future MC",
@@ -1826,8 +1784,25 @@
       }
     },
     {
+      "projectID": 315773,
+      "fileID": 3341793,
+      "required": true,
+      "__meta": {
+        "name": "Fantastic Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 318255,
+      "fileID": 2919497,
+      "required": true,
+      "__meta": {
+        "name": "Phosphor (Forge)"
+      }
+    },
+    {
       "projectID": 319175,
-      "fileID": 3734987,
+      "fileID": 3820064,
       "required": true,
       "__meta": {
         "name": "Sledgehammer"
@@ -1854,10 +1829,13 @@
     },
     {
       "projectID": 321792,
-      "fileID": 3795823,
+      "fileID": 3861484,
       "required": true,
       "__meta": {
-        "name": "Aqua Acrobatics"
+        "name": "Aqua Acrobatics [Forge]",
+        "dependencies": [
+          357178
+        ]
       }
     },
     {
@@ -1877,6 +1855,17 @@
       "required": true,
       "__meta": {
         "name": "Smooth Scrolling Everywhere (Forge)"
+      }
+    },
+    {
+      "projectID": 327592,
+      "fileID": 2853556,
+      "required": true,
+      "__meta": {
+        "name": "No Advancements",
+        "dependencies": [
+          315773
+        ]
       }
     },
     {
@@ -1944,12 +1933,21 @@
       }
     },
     {
+      "projectID": 357178,
+      "fileID": 3437402,
+      "required": true,
+      "__meta": {
+        "name": "MixinBootstrap"
+      }
+    },
+    {
       "projectID": 359407,
       "fileID": 3658279,
       "required": true,
       "__meta": {
         "name": "Immersive Technology",
         "dependencies": [
+          231951,
           231951
         ]
       }
@@ -1988,7 +1986,7 @@
     },
     {
       "projectID": 370420,
-      "fileID": 3655709,
+      "fileID": 3846836,
       "required": true,
       "__meta": {
         "name": "RLTweaker"
@@ -2056,8 +2054,8 @@
       "__meta": {
         "name": "Zen Utils",
         "dependencies": [
-          270789,
-          239197
+          239197,
+          270789
         ]
       }
     },
@@ -2113,15 +2111,22 @@
       "fileID": 3608582,
       "required": true,
       "__meta": {
-        "name": "Particle Culling"
+        "name": "Particle Culling",
+        "dependencies": [
+          357178
+        ]
       }
     },
     {
       "projectID": 409087,
-      "fileID": 3777319,
+      "fileID": 3852750,
       "required": true,
       "__meta": {
-        "name": "Entity Culling"
+        "name": "Entity Culling",
+        "dependencies": [
+          357178,
+          624967
+        ]
       }
     },
     {
@@ -2145,10 +2150,9 @@
       "fileID": 3650595,
       "required": true,
       "__meta": {
-        "name": "Quark - RotN Edition",
+        "name": "Quark: RotN Edition",
         "dependencies": [
-          250363,
-          227083
+          250363
         ]
       }
     },
@@ -2157,13 +2161,12 @@
       "fileID": 3687785,
       "required": true,
       "__meta": {
-        "name": "MixinBooter",
-        "explicit": false
+        "name": "MixinBooter"
       }
     },
     {
       "projectID": 433235,
-      "fileID": 3680566,
+      "fileID": 3873356,
       "required": true,
       "__meta": {
         "name": "Onslaught",
@@ -2174,7 +2177,7 @@
     },
     {
       "projectID": 435044,
-      "fileID": 3536896,
+      "fileID": 3834411,
       "required": true,
       "__meta": {
         "name": "Better Third Person"
@@ -2222,13 +2225,21 @@
     },
     {
       "projectID": 460609,
-      "fileID": 3781801,
+      "fileID": 3834448,
       "required": true,
       "__meta": {
         "name": "CensoredASM",
         "dependencies": [
           419286
         ]
+      }
+    },
+    {
+      "projectID": 461660,
+      "fileID": 3251426,
+      "required": true,
+      "__meta": {
+        "name": "dan's Mouse Tweaks"
       }
     },
     {
@@ -2245,16 +2256,15 @@
     },
     {
       "projectID": 485654,
-      "fileID": 3720488,
+      "fileID": 3851192,
       "required": true,
       "__meta": {
-        "name": "Fluidlogged API",
-        "pinned": true
+        "name": "Fluidlogged API"
       }
     },
     {
       "projectID": 541058,
-      "fileID": 3676225,
+      "fileID": 3846527,
       "required": true,
       "__meta": {
         "name": "Immersive Combat (Better Combat Rebirth)"
@@ -2274,7 +2284,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 3779488,
+      "fileID": 3862733,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2282,7 +2292,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3791235,
+      "fileID": 3874386,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2290,7 +2300,7 @@
     },
     {
       "projectID": 574029,
-      "fileID": 3765076,
+      "fileID": 3882839,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
@@ -2319,24 +2329,44 @@
       }
     },
     {
-      "projectID": 617696,
-      "fileID": 3791246,
+      "projectID": 605580,
+      "fileID": 3815917,
       "required": true,
       "__meta": {
-        "name": "Configurable Item Entities (CIE)",
+        "name": "Entity Desync Fix",
         "dependencies": [
-          419286
+          357178
         ]
       }
     },
     {
-      "projectID": 620262,
-      "fileID": 3778566,
+      "projectID": 624967,
+      "fileID": 3875583,
       "required": true,
       "__meta": {
-        "name": "燐/Hesperus",
+        "name": "RenderLib",
         "dependencies": [
-          419286
+          357178
+        ]
+      }
+    },
+    {
+      "projectID": 633720,
+      "fileID": 3852709,
+      "required": true,
+      "__meta": {
+        "name": "dan's Crafting Tweaks"
+      }
+    },
+    {
+      "projectID": 637556,
+      "fileID": 3854424,
+      "required": true,
+      "__meta": {
+        "name": "Tabulator",
+        "dependencies": [
+          419286,
+          239197
         ]
       }
     }

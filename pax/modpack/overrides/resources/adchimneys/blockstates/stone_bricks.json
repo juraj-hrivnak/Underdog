@@ -3,7 +3,7 @@
 	"defaults": {
 		"transform": "forge:default-block",
 		"textures": {
-			"0": "pyrotech:blocks/stone_bricks",
+			"0": "pyrotech:blocks/masonry_brick_block",
 			"particle": "#0"
 		}
 	},

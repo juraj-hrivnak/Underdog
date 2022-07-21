@@ -16,7 +16,7 @@
 	rewards: [{
 		uid: "fbb00ee3",
 		type: "item",
-		item: "adchimneys:stone_bricks",
+		item: "adchimneys:masonry_brick_block",
 		count: 3
 	}]
 }
