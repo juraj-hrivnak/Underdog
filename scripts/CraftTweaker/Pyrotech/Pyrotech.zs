@@ -65,6 +65,10 @@ furnace.remove(<minecraft:stone:1>, <pyrotech:cobblestone:2>);
 
 val clayLump = <pyrotech:material:17>;
 
+// Removing Washed Hide recipes
+recipes.remove(<pyrotech:hide_washed>);
+recipes.remove(<pyrotech:hide_small_washed>);
+
 // Torch
 rh(<pyrotech:torch_stone>);
 <ore:torch>.add(<pyrotech:torch_fiber>);
@@ -107,9 +111,14 @@ RecipeUtils.tweakRecipe(true, <pyrotech:stone_hammer>,
    [[<ore:rocks>    , <ore:rocks>         ],
     [<ore:stickWood>, <ore:rocks>.reuse() ]]);
 
+// Anvil Granite => Stone Anvil
+RecipeUtils.tweakRecipe(true, <pyrotech:anvil_granite>,
+   [[<minecraft:stone_slab> ],
+    [<ore:cobblestone>      ]]);
+
 
 // Refractory
-val refracLump  = <pyrotech:material:35>;
+val refracLump = <pyrotech:material:35>;
 val refracBrick = <pyrotech:material:5>;
 val refracBlock = <pyrotech:refractory_brick_block>;
 
@@ -142,48 +151,48 @@ RecipeUtils.tweakRecipe(true, <pyrotech:bloomery>,
 
 // Stone
 val masonryBrick = <pyrotech:material:16>;
-val masonryBlock = <pyrotech:stone_bricks>;
+val masonryBlock = <pyrotech:masonry_brick_block>;
 
 // Kiln
 RecipeUtils.tweakRecipe(true, <pyrotech:stone_kiln>,
-   [[masonryBrick , clayLump    , masonryBrick  ],
-    [clayLump     , null        , clayLump      ],
-    [masonryBrick , masonryBlock, masonryBrick  ]]);
+   [[masonryBrick, clayLump    , masonryBrick ],
+    [clayLump    , null        , clayLump     ],
+    [masonryBrick, masonryBlock, masonryBrick ]]);
 // Oven
 RecipeUtils.tweakRecipe(true, <pyrotech:stone_oven>,
-   [[masonryBrick , masonryBrick  , masonryBrick],
-    [clayLump     , null        , clayLump      ],
-    [masonryBrick , masonryBlock, masonryBrick  ]]);
+   [[masonryBrick, masonryBrick, masonryBrick ],
+    [clayLump    , null        , clayLump     ],
+    [masonryBrick, masonryBlock, masonryBrick ]]);
 // Sawmill
 RecipeUtils.tweakRecipe(true, <pyrotech:stone_sawmill>,
-   [[masonryBrick , null        , masonryBrick  ],
-    [clayLump     , null        , clayLump      ],
-    [masonryBrick , masonryBlock, masonryBrick  ]]);
+   [[masonryBrick, null        , masonryBrick ],
+    [clayLump    , null        , clayLump     ],
+    [masonryBrick, masonryBlock, masonryBrick ]]);
 // Crucible
 RecipeUtils.tweakRecipe(true, <pyrotech:stone_crucible>,
-   [[masonryBrick , null        , masonryBrick  ],
-    [clayLump     , clayLump    , clayLump      ],
-    [masonryBrick , masonryBlock, masonryBrick  ]]);
+   [[masonryBrick, null        , masonryBrick ],
+    [clayLump    , clayLump    , clayLump     ],
+    [masonryBrick, masonryBlock, masonryBrick ]]);
 
 
 // Soaking Pot
 RecipeUtils.tweakRecipe(true, <pyrotech:soaking_pot>,
-   [[<ore:lumber> , masonryBrick, <ore:lumber>  ],
-    [masonryBrick , clayLump    , masonryBrick  ],
-    [<ore:lumber> , masonryBrick, <ore:lumber>  ]]);
+   [[<ore:lumber>, masonryBrick, <ore:lumber> ],
+    [masonryBrick, clayLump    , masonryBrick ],
+    [<ore:lumber>, masonryBrick, <ore:lumber> ]]);
 
 // Compacting Bin
 RecipeUtils.tweakRecipe(true, <pyrotech:compacting_bin>,
-   [[masonryBrick , <ore:lumber>, masonryBrick  ],
-    [<ore:lumber> , null        , <ore:lumber>  ],
-    [masonryBrick , <ore:lumber>, masonryBrick  ]]);
+   [[masonryBrick, <ore:lumber>, masonryBrick ],
+    [<ore:lumber>, null        , <ore:lumber> ],
+    [masonryBrick, <ore:lumber>, masonryBrick ]]);
 
 
 // Bellows
 RecipeUtils.tweakRecipe(true, <pyrotech:bellows>,
-   [[<ore:lumber> , masonryBrick    , <ore:lumber>  ],
-    [<ore:leather>, <ore:leather>   , <ore:leather> ],
-    [masonryBrick , masonryBrick    , masonryBrick  ]]);
+   [[<ore:lumber> , masonryBrick , <ore:lumber>  ],
+    [<ore:leather>, <ore:leather>, <ore:leather> ],
+    [masonryBrick , masonryBrick , masonryBrick  ]]);
 
 
 val boatFix as IIngredient[IItemStack] = {
@@ -197,8 +206,8 @@ val boatFix as IIngredient[IItemStack] = {
 
 for output, input in boatFix {
     RecipeUtils.tweakRecipe(true, output,
-       [[input, null, input],
-        [input, input, input]]);
+       [[input, null , input ],
+        [input, input, input ]]);
 }
 
 val tongsFix as IIngredient[IItemStack] = {
@@ -213,9 +222,9 @@ val tongsFix as IIngredient[IItemStack] = {
 
 for output, input in tongsFix {
     RecipeUtils.tweakRecipe(true, output,
-       [[null           , input         , null  ],
-        [<ore:rodStone> , input         , input ],
-        [null           , <ore:rodStone>, null  ]]);
+       [[null          , input         , null  ],
+        [<ore:rodStone>, input         , input ],
+        [null          , <ore:rodStone>, null  ]]);
 }
 
 val cogFix as IIngredient[IItemStack] = {
@@ -235,27 +244,27 @@ val treatLumber = <contenttweaker:treated_wood_lumber>;
 
 // Durable Shelf
 RecipeUtils.tweakRecipe(true, <pyrotech:shelf_stone> * 2,
-   [[masonryBrick, treatLumber     , masonryBrick  ],
-    [treatLumber , <pyrotech:shelf>, treatLumber   ],
-    [masonryBrick, treatLumber     , masonryBrick  ]]);
+   [[masonryBrick, treatLumber     , masonryBrick ],
+    [treatLumber , <pyrotech:shelf>, treatLumber  ],
+    [masonryBrick, treatLumber     , masonryBrick ]]);
 
 // Durable Stash
 RecipeUtils.tweakRecipe(true, <pyrotech:stash_stone> * 2,
-   [[masonryBrick, treatLumber     , masonryBrick  ],
-    [treatLumber , <pyrotech:stash>, treatLumber   ],
-    [masonryBrick, treatLumber     , masonryBrick  ]]);
+   [[masonryBrick, treatLumber     , masonryBrick ],
+    [treatLumber , <pyrotech:stash>, treatLumber  ],
+    [masonryBrick, treatLumber     , masonryBrick ]]);
 
 // Durable Crate
 RecipeUtils.tweakRecipe(true, <pyrotech:crate_stone> * 2,
-   [[masonryBrick, treatLumber     , masonryBrick  ],
-    [treatLumber , <pyrotech:crate>, treatLumber   ],
-    [masonryBrick, treatLumber     , masonryBrick  ]]);
+   [[masonryBrick, treatLumber     , masonryBrick ],
+    [treatLumber , <pyrotech:crate>, treatLumber  ],
+    [masonryBrick, treatLumber     , masonryBrick ]]);
 
 // Mechanical Hopper
 RecipeUtils.tweakRecipe(true, <pyrotech:mechanical_hopper>,
-   [[masonryBrick, null            , masonryBrick  ],
-    [treatLumber , <ore:rodStone>  , treatLumber   ],
-    [null        , masonryBrick     , null         ]]);
+   [[masonryBrick, null            , masonryBrick ],
+    [treatLumber , <ore:rodStone>  , treatLumber  ],
+    [null        , masonryBrick     , null        ]]);
 
 // Mechanical Bellows
 RecipeUtils.tweakRecipe(true, <pyrotech:mechanical_bellows>,
@@ -276,6 +285,12 @@ RecipeUtils.tweakRecipe(true, <pyrotech:mechanical_mulch_spreader>,
     [<pyrotech:mechanical_hopper>, null       , <pyrotech:mechanical_hopper> ],
     [masonryBrick                , treatLumber, masonryBrick                 ]]);
 
+// Trip Hammer
+RecipeUtils.tweakRecipe(true, <pyrotech:trip_hammer>,
+   [[masonryBrick                , treatLumber        , masonryBrick ],
+    [<pyrotech:mechanical_hopper>, <pyrotech:cog_iron>, treatLumber  ],
+    [masonryBrick                , treatLumber        , masonryBrick ]]);
+
 
 // Drying Rack
 RecipeUtils.tweakRecipe(true, <pyrotech:drying_rack:1>,
@@ -288,3 +303,25 @@ RecipeUtils.tweakRecipe(true, <pyrotech:compost_bin>,
    [[<ore:stickWood>, null           , <ore:stickWood> ],
     [<ore:stickWood>, <ore:stickWood>, <ore:stickWood> ],
     [<ore:lumber>   , null           , <ore:lumber>    ]]);
+
+// Tanning Rack
+RecipeUtils.tweakRecipe(true, <pyrotech:tanning_rack>,
+   [[null           , <ore:stickWood>, <ore:stickWood> ],
+    [<ore:stickWood>, null           , <ore:stickWood> ],
+    [<ore:lumber>   , <ore:stickWood>, <ore:lumber>    ]]);
+
+// Barrel
+RecipeUtils.tweakRecipe(true, <pyrotech:barrel>,
+   [[<ore:lumber>, null        , <ore:lumber> ],
+    [<ore:lumber>, null        , <ore:lumber> ],
+    [<ore:lumber>, <ore:lumber>, <ore:lumber> ]]);
+
+// Barrel Lid
+RecipeUtils.tweakRecipe(true, <pyrotech:barrel_lid> * 3,
+   [[<minecraft:wooden_pressure_plate>, <minecraft:wooden_pressure_plate>, <minecraft:wooden_pressure_plate> ]]);
+
+// Butchers Block
+RecipeUtils.tweakRecipe(true, <pyrotech:butchers_block>,
+   [[<ore:slabWood>, <ore:slabWood> , <ore:slabWood> ],
+    [<ore:lumber>  , null           , <ore:lumber>   ],
+    [<ore:lumber>  , <ore:stickWood>, <ore:lumber>   ]]);
