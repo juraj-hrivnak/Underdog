@@ -122,4 +122,3 @@ for input, output in liquidsAndOres {
 // Liquid Clay
 StoneCrucible.removeRecipes(<liquid:liquid_clay>);
 StoneCrucible.addRecipe("melting_liquid_clay", <liquid:liquid_clay> * 144, <minecraft:clay_ball>, 60);
-StoneCrucible.addRecipe("water_purifying", <liquid:water> * 1000, <liquid:purifiedwater> * 1000, 60);

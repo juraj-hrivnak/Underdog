@@ -2,7 +2,7 @@
 #modloaded pyrotech
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-import crafttweaker.liquid.ILiquidStack as ILiquidStack;
+import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.pyrotech.SoakingPot;
 
@@ -40,3 +40,9 @@ SoakingPot.addRecipe("treated_lumber"           , <contenttweaker:treated_wood_l
 soakingPotWaterRecipe("minecraft_dirt_1"        , <minecraft:dirt:2>                  , 250                         , <minecraft:dirt:1>       , 1200);
 soakingPotWaterRecipe("minecraft_stonebrick"    , <minecraft:stonebrick:1>            , 250                         , <minecraft:stonebrick>   , 1200);
 soakingPotWaterRecipe("minecraft_cobblestone"   , <minecraft:mossy_cobblestone>       , 250                         , <minecraft:cobblestone>  , 1200);
+
+SoakingPot.addRecipe("hide_tanned"              , <pyrotech:hide_tanned>              , <liquid:tannin>        * 250, <pyrotech:hide_washed>        , 200);
+SoakingPot.addRecipe("hide_small_tanned"        , <pyrotech:hide_small_tanned>        , <liquid:tannin>        * 125, <pyrotech:hide_small_washed>  , 200);
+
+soakingPotWaterRecipe("hide_washed"             , <pyrotech:hide_washed>              , 250, <pyrotech:hide_scraped>       , 200);
+soakingPotWaterRecipe("hide_small_washed"       , <pyrotech:hide_small_washed>        , 125, <pyrotech:hide_small_scraped> , 200);
