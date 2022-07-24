@@ -107,7 +107,7 @@ val chickens as IItemStack[][IEntityDefinition] = {
 
 function addDrops(entities as IItemStack[][IEntityDefinition], event as crafttweaker.event.EntityLivingDeathDropsEvent) {
     for entity, items in entities {
-        if (event.entity.definition.name == entity.name) {
+        if (!isNull(event.entity.definition) && event.entity.definition.name == entity.name) {
             for item in items {
                 event.addItem(item);
             }
@@ -117,6 +117,9 @@ function addDrops(entities as IItemStack[][IEntityDefinition], event as crafttwe
 }
 
 events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivingDeathDropsEvent) {
+    if (isNull(event.entity.world) || event.entity.world.isRemote()) {
+        return;
+	}
 
     addDrops(pigs, event);
     addDrops(goats, event);
