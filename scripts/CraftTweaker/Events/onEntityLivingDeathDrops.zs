@@ -3,6 +3,7 @@
 
 import crafttweaker.events.IEventManager;
 import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.entity.IEntityItem;
 import crafttweaker.entity.IEntity;
 import crafttweaker.item.IItemStack;
 
@@ -73,19 +74,19 @@ val cows as IItemStack[][IEntityDefinition] = {
  * Sheeps => Lamb(Baby), Ewe(Female), Ram(Male)
  */
 val sheeps as IItemStack[][IEntityDefinition] = {
-    <entity:animania:ewe_dorper>            : [<minecraft:bone> * 3, <pyrotech:pelt_sheep_white>],
-    <entity:animania:ewe_dorset>            : [<minecraft:bone> * 3, <pyrotech:pelt_sheep_brown>],
-    <entity:animania:ewe_friesian>          : [<minecraft:bone> * 3, <pyrotech:pelt_sheep_black>],
-    <entity:animania:ewe_jacob>             : [<minecraft:bone> * 3, <pyrotech:pelt_sheep_white>],
-    <entity:animania:ewe_merino>            : [<minecraft:bone> * 3, <pyrotech:pelt_sheep_white>],
-    <entity:animania:ewe_suffolk>           : [<minecraft:bone> * 3, <pyrotech:pelt_sheep_white>],
+    <entity:animania:ewe_dorper>            : [<minecraft:bone> * 3, <animania:raw_prime_mutton> * 3],
+    <entity:animania:ewe_dorset>            : [<minecraft:bone> * 3, <animania:raw_prime_mutton> * 3],
+    <entity:animania:ewe_friesian>          : [<minecraft:bone> * 3, <animania:raw_prime_mutton> * 3],
+    <entity:animania:ewe_jacob>             : [<minecraft:bone> * 3, <animania:raw_prime_mutton> * 3],
+    <entity:animania:ewe_merino>            : [<minecraft:bone> * 3, <animania:raw_prime_mutton> * 3],
+    <entity:animania:ewe_suffolk>           : [<minecraft:bone> * 3, <animania:raw_prime_mutton> * 3],
 
-    <entity:animania:ram_dorper>            : [<minecraft:bone> * 4, <pyrotech:pelt_sheep_white>],
-    <entity:animania:ram_dorset>            : [<minecraft:bone> * 4, <pyrotech:pelt_sheep_brown>],
-    <entity:animania:ram_friesian>          : [<minecraft:bone> * 4, <pyrotech:pelt_sheep_black>],
-    <entity:animania:ram_jacob>             : [<minecraft:bone> * 4, <pyrotech:pelt_sheep_white>],
-    <entity:animania:ram_merino>            : [<minecraft:bone> * 4, <pyrotech:pelt_sheep_white>],
-    <entity:animania:ram_suffolk>           : [<minecraft:bone> * 4, <pyrotech:pelt_sheep_white>]
+    <entity:animania:ram_dorper>            : [<minecraft:bone> * 4, <animania:raw_prime_mutton> * 4],
+    <entity:animania:ram_dorset>            : [<minecraft:bone> * 4, <animania:raw_prime_mutton> * 4],
+    <entity:animania:ram_friesian>          : [<minecraft:bone> * 4, <animania:raw_prime_mutton> * 4],
+    <entity:animania:ram_jacob>             : [<minecraft:bone> * 4, <animania:raw_prime_mutton> * 4],
+    <entity:animania:ram_merino>            : [<minecraft:bone> * 4, <animania:raw_prime_mutton> * 4],
+    <entity:animania:ram_suffolk>           : [<minecraft:bone> * 4, <animania:raw_prime_mutton> * 4]
 };
 
 /**
@@ -105,26 +106,97 @@ val chickens as IItemStack[][IEntityDefinition] = {
     <entity:animania:rooster_wyandotte>         : [<minecraft:bone> * 2]
 };
 
-function addDrops(entities as IItemStack[][IEntityDefinition], event as crafttweaker.event.EntityLivingDeathDropsEvent) {
+/**
+ * Others => Wolf, Polar Bear, Llama, Horse, Bat
+ */
+val others as IItemStack[][IEntityDefinition] = {
+    <entity:minecraft:wolf>                     : [<minecraft:bone> * 3, <pyrotech:pelt_wolf>],
+    <entity:minecraft:polar_bear>               : [<minecraft:bone> * 6, <pyrotech:pelt_polar_bear>],
+    <entity:minecraft:llama>                    : [<minecraft:bone> * 3, <pyrotech:pelt_llama_white>],
+    <entity:horse_colors:donkey>                : [<minecraft:bone> * 4, <pyrotech:pelt_horse>, <animania:raw_horse> * 4 ],
+    <entity:horse_colors:horse_felinoid>        : [<minecraft:bone> * 4, <pyrotech:pelt_horse>, <animania:raw_horse> * 4 ],
+    <entity:horse_colors:mule>                  : [<minecraft:bone> * 4, <pyrotech:pelt_horse>, <animania:raw_horse> * 4 ],
+    <entity:minecraft:bat>                      : [<pyrotech:pelt_bat>],
+};
+
+val sheepPelts as IItemStack[IItemStack] = {
+    <minecraft:wool>    : <pyrotech:pelt_sheep_white>           ,
+    <minecraft:wool:1>  : <pyrotech:pelt_sheep_orange>          ,
+    <minecraft:wool:2>  : <pyrotech:pelt_sheep_magenta>         ,
+    <minecraft:wool:3>  : <pyrotech:pelt_sheep_blue_light>      ,
+    <minecraft:wool:4>  : <pyrotech:pelt_sheep_yellow>          ,
+    <minecraft:wool:5>  : <pyrotech:pelt_sheep_lime>            ,
+    <minecraft:wool:6>  : <pyrotech:pelt_sheep_pink>            ,
+    <minecraft:wool:7>  : <pyrotech:pelt_sheep_gray>            ,
+    <minecraft:wool:8>  : <pyrotech:pelt_sheep_gray_light>      ,
+    <minecraft:wool:9>  : <pyrotech:pelt_sheep_cyan>            ,
+    <minecraft:wool:10> : <pyrotech:pelt_sheep_purple>          ,
+    <minecraft:wool:11> : <pyrotech:pelt_sheep_blue>            ,
+    <minecraft:wool:12> : <pyrotech:pelt_sheep_brown>           ,
+    <minecraft:wool:13> : <pyrotech:pelt_sheep_green>           ,
+    <minecraft:wool:14> : <pyrotech:pelt_sheep_red>             ,
+    <minecraft:wool:15> : <pyrotech:pelt_sheep_black>           ,
+
+    <animania:wool>     : <pyrotech:pelt_sheep_brown>           ,
+    <animania:wool:1>   : <pyrotech:pelt_sheep_black>           ,
+    <animania:wool:2>   : <pyrotech:pelt_sheep_brown>           ,
+    <animania:wool:3>   : <pyrotech:pelt_sheep_white>           ,
+    <animania:wool:4>   : <pyrotech:pelt_sheep_brown>           ,
+    <animania:wool:5>   : <pyrotech:pelt_sheep_white>           ,
+    <animania:wool:6>   : <pyrotech:pelt_sheep_brown>
+};
+
+function addDrops(entities as IItemStack[][IEntityDefinition], event as crafttweaker.event.EntityLivingDeathDropsEvent, removeDrops as bool) as void {
     for entity, items in entities {
         if (!isNull(event.entity.definition) && event.entity.definition.name == entity.name) {
-            for item in items {
-                event.addItem(item);
-            }
+            if (removeDrops) event.drops = [];
+            for item in items event.addItem(item);
         }
-        entity.removeDrop(<minecraft:leather>);
     }
 }
+
+function dropColoredPelt(pelts as IItemStack[IItemStack], drop as IItemStack, event as crafttweaker.event.EntityLivingDeathDropsEvent) as void {
+    for wool, pelt in pelts {
+        if (wool.name == drop.name) {
+            event.drops = [];
+            event.addItem(pelt);
+            break;
+        }
+    }
+}
+
+function addDropsSheep(entities as IItemStack[][IEntityDefinition], pelts as IItemStack[IItemStack], event as crafttweaker.event.EntityLivingDeathDropsEvent) as void {
+    for entity, items in entities {
+        if (!isNull(event.entity.definition) && event.entity.definition.name == entity.name) {
+
+            // Store drops for later use.
+            val storedDrops = event.drops;
+
+            // Remove all drops and add sheared hide.
+            event.drops = [];
+            event.addItem(<pyrotech:hide_sheep_sheared>);
+
+            // Replace wool with the correct types of pelt.
+            // If successful, remove all drops again.
+            for drop in storedDrops dropColoredPelt(pelts, drop.item, event);
+
+            // Add remaining items.
+            for item in items event.addItem(item);
+        }
+    }
+}
+
 
 events.onEntityLivingDeathDrops(function(event as crafttweaker.event.EntityLivingDeathDropsEvent) {
     if (isNull(event.entity.world) || event.entity.world.isRemote()) {
         return;
 	}
 
-    addDrops(pigs, event);
-    addDrops(goats, event);
-    addDrops(cows, event);
-    addDrops(sheeps, event);
-    addDrops(chickens, event);
+    addDrops(pigs, event, false);
+    addDrops(goats, event, false);
+    addDrops(cows, event, false);
+    addDropsSheep(sheeps, sheepPelts, event);
+    addDrops(chickens, event, false);
+    addDrops(others, event, true);
 
 });
