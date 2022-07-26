@@ -422,14 +422,6 @@
       }
     },
     {
-      "projectID": 237989,
-      "fileID": 2782568,
-      "required": true,
-      "__meta": {
-        "name": "Realistic Terrain Generation"
-      }
-    },
-    {
       "projectID": 238891,
       "fileID": 3497269,
       "required": true,
@@ -439,7 +431,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3882858,
+      "fileID": 3888587,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -470,6 +462,14 @@
         "dependencies": [
           238222
         ]
+      }
+    },
+    {
+      "projectID": 241140,
+      "fileID": 2499252,
+      "required": true,
+      "__meta": {
+        "name": "Default World Generator (port)"
       }
     },
     {
@@ -1431,19 +1431,19 @@
       }
     },
     {
+      "projectID": 296045,
+      "fileID": 3882806,
+      "required": true,
+      "__meta": {
+        "name": "Gliby's Voice Chat Reloaded"
+      }
+    },
+    {
       "projectID": 296057,
       "fileID": 2573063,
       "required": true,
       "__meta": {
         "name": "No Nether Portals"
-      }
-    },
-    {
-      "projectID": 296289,
-      "fileID": 3581715,
-      "required": true,
-      "__meta": {
-        "name": "JustEnoughIDs"
       }
     },
     {
@@ -1628,7 +1628,7 @@
     },
     {
       "projectID": 306676,
-      "fileID": 3873886,
+      "fileID": 3900668,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
@@ -1829,7 +1829,7 @@
     },
     {
       "projectID": 321792,
-      "fileID": 3861484,
+      "fileID": 3900663,
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics [Forge]",
@@ -2049,7 +2049,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 3668460,
+      "fileID": 3894642,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2147,7 +2147,7 @@
     },
     {
       "projectID": 417392,
-      "fileID": 3650595,
+      "fileID": 3895715,
       "required": true,
       "__meta": {
         "name": "Quark: RotN Edition",
@@ -2158,7 +2158,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 3687785,
+      "fileID": 3886235,
       "required": true,
       "__meta": {
         "name": "MixinBooter"
@@ -2225,7 +2225,7 @@
     },
     {
       "projectID": 460609,
-      "fileID": 3834448,
+      "fileID": 3898244,
       "required": true,
       "__meta": {
         "name": "CensoredASM",
@@ -2263,14 +2263,6 @@
       }
     },
     {
-      "projectID": 541058,
-      "fileID": 3846527,
-      "required": true,
-      "__meta": {
-        "name": "Immersive Combat (Better Combat Rebirth)"
-      }
-    },
-    {
       "projectID": 545353,
       "fileID": 3519479,
       "required": true,
@@ -2292,7 +2284,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3874386,
+      "fileID": 3888235,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2300,7 +2292,7 @@
     },
     {
       "projectID": 574029,
-      "fileID": 3882839,
+      "fileID": 3892341,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
@@ -2326,6 +2318,14 @@
         "dependencies": [
           419286
         ]
+      }
+    },
+    {
+      "projectID": 602731,
+      "fileID": 3728182,
+      "required": true,
+      "__meta": {
+        "name": "Loading Progress Bar"
       }
     },
     {
@@ -2368,6 +2368,14 @@
           419286,
           239197
         ]
+      }
+    },
+    {
+      "projectID": 648514,
+      "fileID": 3891379,
+      "required": true,
+      "__meta": {
+        "name": "Realistic Terrain Generation - Unofficial"
       }
     }
   ]
