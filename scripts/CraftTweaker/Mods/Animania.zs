@@ -59,3 +59,10 @@ RecipeUtils.tweakRecipe(false, <minecraft:milk_bucket>, [[ bucketIron.noReturn()
 recipes.addShapeless(<pyrotech:bucket_stone:1>, [ bucketStone.noReturn() ]);
 recipes.addShapeless(<pyrotech:bucket_wood:1>, [ bucketWood.noReturn() ]);
 recipes.addShapeless(<pyrotech:bucket_clay:1>, [ bucketClay.noReturn() ]);
+
+// Meats oredict support
+<ore:listAllrabbitraw>.add(<animania:raw_prime_rabbit>);
+<ore:listAllchickenraw>.add(<animania:raw_peacock>);
+<ore:listAllchickenraw>.add(<animania:raw_prime_peacock>);
+<ore:listAllmuttonraw>.add(<animania:raw_prime_mutton>);
+<ore:listAllmuttonraw>.add(<animania:raw_prime_chevon>);
