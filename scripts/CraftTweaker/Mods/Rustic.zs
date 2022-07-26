@@ -18,5 +18,14 @@ val clayLump = <pyrotech:material:17>;
 
 // Pot
 recipes.addShaped(<contenttweaker:unfired_pot>,
-   RecipeUtils.createCrossWithCore(null, clayLump, <ore:clayball>));
+    RecipeUtils.createCrossWithCore(null, clayLump, <ore:clayball>));
+
+// Vase
 recipes.remove(<rustic:vase>);
+
+// Crop Stake 4x
+RecipeUtils.tweakRecipe(true, <rustic:crop_stake> * 4,
+   [[<ore:lumber>],
+    [<ore:lumber>],
+    [<ore:lumber>]]);
+
