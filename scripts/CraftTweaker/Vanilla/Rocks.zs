@@ -5,7 +5,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.CraftTweaker.Utils.RecipeUtils;
 
-val rocks = [
+val rocks as IItemStack[] = [
     <divergentunderground:rock_stone>           ,
     <divergentunderground:rock_endstone>        ,
     <divergentunderground:rock_netherrack>      ,
@@ -14,7 +14,7 @@ val rocks = [
     <divergentunderground:rock_granite>         ,
     <divergentunderground:rock_quark_limestone> ,
     <divergentunderground:rock_quark_marble>
-] as IItemStack[];
+];
 
 for item in rocks {
     <ore:rocks>.add(item);
@@ -22,7 +22,7 @@ for item in rocks {
 
 recipes.replaceAllOccurences(<ore:cobblestone>, <ore:rocks>, <*>);
 
-val stones = [
+val stones as IItemStack[] = [
     <minecraft:stone>       ,
     <minecraft:end_stone>   ,
     <minecraft:netherrack>  ,
@@ -31,7 +31,7 @@ val stones = [
     <minecraft:stone:1>     ,
     <quark:limestone>       ,
     <quark:marble>          ,
-] as IItemStack[];
+];
 
 for item in stones {
     <ore:stones>.add(item);

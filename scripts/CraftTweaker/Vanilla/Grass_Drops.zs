@@ -17,15 +17,14 @@ for i in seedsToRemove {
 
 Dropt.list("hemp_seeds")
     .add(Dropt.rule()
-        .matchBlocks(["minecraft:tallgrass:*", "greenery:tallfern:*", "greenery:tallgrass:*"])
+        .matchBlocks(["greenery:tallfern:*", "greenery:tallgrass:*"])
         .matchVerticalRange(100, 255)
         .replaceStrategy("ADD")
         .addDrop(Dropt.drop()
-            .selector(Dropt.weight(85))
+            .selector(Dropt.weight(50))
         )
         .addDrop(Dropt.drop()
-            .selector(Dropt.weight(15))
-            .items([<immersiveengineering:seed> * 1])
-
+            .selector(Dropt.weight(50))
+            .items([<immersiveengineering:seed>])
         )
     );
