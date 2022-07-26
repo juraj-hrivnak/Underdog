@@ -116,7 +116,8 @@ val supports as IItemStack[] = [
     <engineersdecor:thin_steel_pole>,
     <engineersdecor:thick_steel_pole>,
     <engineersdecor:thin_steel_pole_head>,
-    <engineersdecor:thick_steel_pole_head>
+    <engineersdecor:thick_steel_pole_head>,
+    <rustic:crop_stake>
 ];
 
 for item in supports {
