@@ -11,7 +11,7 @@ import crafttweaker.world.IBlockPos;
 import crafttweaker.server.IServer;
 import crafttweaker.world.IFacing;
 import crafttweaker.item.IMutableItemStack;
-import mods.zenutils.DelayManager;
+import mods.zenutils.Catenation;
 import mods.contenttweaker.Commands;
 
 
@@ -68,9 +68,16 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	// Mill
 	if (isNull(event.item) && (event.blockState == <blockstate:cuisine:mill:facing=west> || event.blockState == <blockstate:cuisine:mill:facing=north> || event.blockState == <blockstate:cuisine:mill:facing=east> || event.blockState == <blockstate:cuisine:mill:facing=south>)) {
 		if (mill[0] == false) {
-			DelayManager.addDelayWork(function() {
-				return mill[0] = false;
-			}, 64);
+            event.player.world.catenation()
+                .sleep(64)
+                .run(function(world) {
+                    return mill[0] = false;
+                })
+                .stopWhen(function(world) {
+                    return !event.player.alive;
+                })
+                .start();
+
 			Commands.call("playsound hand_mill block @a[r=16] " + event.x + " " + event.y + " " + event.z, event.player, event.world);
 			event.player.foodStats.addStats(1, 0.5f); // Fix draining too much hunger
 		}

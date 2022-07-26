@@ -11,7 +11,7 @@ import crafttweaker.world.IBlockPos;
 import crafttweaker.server.IServer;
 import crafttweaker.world.IFacing;
 import crafttweaker.damage.IDamageSource;
-import mods.zenutils.DelayManager;
+import mods.zenutils.Catenation;
 import mods.contenttweaker.Commands;
 
 
@@ -100,9 +100,15 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
     if ((blockBreakTransforms.keySet has event.blockState) &&
         (event.world.getBlockState(event.position.getOffset(IFacing.down, 1)) != <blockstate:minecraft:air>)) {
 
-        DelayManager.addDelayWork(function() {
-            event.world.setBlockState(blockBreakTransforms[event.blockState], event.position);
-        }, 2);
+        event.player.world.catenation()
+            .sleep(2)
+            .run(function(world) {
+                event.world.setBlockState(blockBreakTransforms[event.blockState], event.position);
+            })
+            .stopWhen(function(world) {
+                return !event.player.alive;
+            })
+            .start();
     }
 
     // First quest
