@@ -15,6 +15,18 @@ Dropt.list("plant_fibers")
             .selector(Dropt.weight(15))
             .items([<pyrotech:material:13>])
         )
+    )
+    .add(Dropt.rule()
+        .matchBlocks(["greenery:tallfern:*", "greenery:tallgrass:*"])
+        .matchVerticalRange(100, 255)
+        .replaceStrategy("ADD")
+        .addDrop(Dropt.drop()
+            .selector(Dropt.weight(50))
+        )
+        .addDrop(Dropt.drop()
+            .selector(Dropt.weight(50))
+            .items([<immersiveengineering:seed>])
+        )
     );
 
 recipes.addShapeless(<pyrotech:material:12>, [<greenery:tallfern>]);
