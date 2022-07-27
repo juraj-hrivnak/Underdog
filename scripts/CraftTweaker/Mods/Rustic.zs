@@ -1,6 +1,7 @@
 #modloaded rustic
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
+import mods.dropt.Dropt;
 
 import scripts.CraftTweaker.Utils.RecipeUtils;
 
@@ -29,3 +30,9 @@ RecipeUtils.tweakRecipe(true, <rustic:crop_stake> * 4,
     [<ore:lumber>],
     [<ore:lumber>]]);
 
+// Remove Mooncap Mushroom drops
+Dropt.list("mooncap_mushroom")
+    .add(Dropt.rule()
+        .matchBlocks(["rustic:mooncap_mushroom:*"])
+        .addDrop(Dropt.drop())
+    );
