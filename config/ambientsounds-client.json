@@ -20,7 +20,7 @@
     "forest.owl": 1,
     "cold-forest.crow": 1,
     "taiga.bird-ambience-huge": 1,
-    "highland.heavy-wind": 1,
+    "highland.heavy-wind": 0.5,
     "mesa.wind-mesa": 1,
     "roofed-forest.bird-ambience-spooky": 1,
     "grass.cricket": 1,
