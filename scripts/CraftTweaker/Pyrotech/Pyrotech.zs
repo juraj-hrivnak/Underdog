@@ -306,7 +306,7 @@ RecipeUtils.tweakRecipe(true, <pyrotech:compost_bin>,
 
 // Tanning Rack
 RecipeUtils.tweakRecipe(true, <pyrotech:tanning_rack>,
-   [[null           , <ore:stickWood>, <ore:stickWood> ],
+   [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood> ],
     [<ore:stickWood>, null           , <ore:stickWood> ],
     [<ore:lumber>   , <ore:stickWood>, <ore:lumber>    ]]);
 
