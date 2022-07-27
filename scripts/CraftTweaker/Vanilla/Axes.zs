@@ -24,5 +24,5 @@ val toAdd as IItemStack[] = [
 ];
 
 for add in toAdd {
-    <ore:axes>.add(add);
+    <ore:toolAxe>.add(add);
 }

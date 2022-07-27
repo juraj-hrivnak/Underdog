@@ -60,6 +60,6 @@ val lumbersAndPanels = {
 } as IItemStack[IItemStack];
 
 for lumber, panel in lumbersAndPanels {
-	recipes.addShapeless(panel, [lumber, <ore:axes>.reuse().transformDamage()]);
-    recipes.addShapeless(lumber, [panel, <ore:axes>.reuse().transformDamage()]);
+	recipes.addShapeless(panel, [lumber, <ore:toolAxe>.reuse().transformDamage()]);
+    recipes.addShapeless(lumber, [panel, <ore:toolAxe>.reuse().transformDamage()]);
 }
