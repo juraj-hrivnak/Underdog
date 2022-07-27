@@ -152,6 +152,7 @@ function addDrops(entities as IItemStack[][IEntityDefinition], event as crafttwe
             if (removeDrops) event.drops = [];
             for item in items event.addItem(item);
         }
+        entity.removeDrop(<minecraft:leather>);
     }
 }
 
