@@ -7,6 +7,9 @@
     "Item strings are in the format: (domain):(path):(meta)"
   ],
   "oreDict": {
+    "blockCharcoal": [
+      "pyrotech:charcoal_block"
+    ],
     "blockFuelCoke": [
       "pyrotech:coal_coke_block"
     ],
@@ -56,8 +59,55 @@
     "dustLimestone": [
       "pyrotech:material:28"
     ],
+    "dustWheat": [
+      "pyrotech:material:51"
+    ],
+    "foodDough": [
+      "pyrotech:material:50"
+    ],
     "fuelCoke": [
       "pyrotech:material:1"
+    ],
+    "hideScrapeable": [
+      "pyrotech:pelt_cow",
+      "pyrotech:pelt_horse",
+      "pyrotech:pelt_mooshroom",
+      "pyrotech:pelt_polar_bear",
+      "pyrotech:pelt_sheep_black",
+      "pyrotech:pelt_sheep_blue",
+      "pyrotech:pelt_sheep_blue_light",
+      "pyrotech:pelt_sheep_brown",
+      "pyrotech:pelt_sheep_cyan",
+      "pyrotech:pelt_sheep_gray",
+      "pyrotech:pelt_sheep_gray_light",
+      "pyrotech:pelt_sheep_green",
+      "pyrotech:pelt_sheep_lime",
+      "pyrotech:pelt_sheep_magenta",
+      "pyrotech:pelt_sheep_orange",
+      "pyrotech:pelt_sheep_pink",
+      "pyrotech:pelt_sheep_purple",
+      "pyrotech:pelt_sheep_red",
+      "pyrotech:pelt_sheep_white",
+      "pyrotech:pelt_sheep_yellow",
+      "pyrotech:hide_pig",
+      "pyrotech:hide_sheep_sheared",
+      "pyrotech:hide_llama",
+      "pyrotech:pelt_llama_white",
+      "pyrotech:pelt_llama_creamy",
+      "pyrotech:pelt_llama_gray",
+      "pyrotech:pelt_llama_brown",
+      "pyrotech:pelt_wolf"
+    ],
+    "hideSmallScrapeable": [
+      "pyrotech:pelt_bat",
+      "minecraft:rabbit_hide"
+    ],
+    "kitRepairLeather": [
+      "pyrotech:leather_repair_kit:*",
+      "pyrotech:leather_durable_repair_kit:*"
+    ],
+    "leatherDurable": [
+      "pyrotech:material:41"
     ],
     "milk": [
       "minecraft:milk_bucket",
@@ -77,11 +127,27 @@
       "pyrotech:rock:8",
       "pyrotech:rock:10"
     ],
+    "rockLimestone": [
+      "pyrotech:rock:8"
+    ],
+    "shard": [
+      "pyrotech:material:7",
+      "pyrotech:material:11",
+      "pyrotech:material:10",
+      "pyrotech:material:32",
+      "pyrotech:material:34",
+      "pyrotech:material:18",
+      "pyrotech:material:19",
+      "pyrotech:material:33"
+    ],
     "stickStone": [
       "pyrotech:material:27"
     ],
     "stoneLimestone": [
       "pyrotech:limestone"
+    ],
+    "straw": [
+      "pyrotech:material:2"
     ],
     "toolAxe": [
       "minecraft:stone_axe:*",
@@ -93,6 +159,27 @@
       "pyrotech:bone_axe:*",
       "pyrotech:obsidian_axe:*",
       "pyrotech:redstone_axe:*"
+    ],
+    "toolHammer": [
+      "pyrotech:bone_hammer_durable:*",
+      "pyrotech:flint_hammer_durable:*",
+      "pyrotech:bone_hammer:*",
+      "pyrotech:flint_hammer:*",
+      "pyrotech:crude_hammer:*",
+      "pyrotech:diamond_hammer:*",
+      "pyrotech:gold_hammer:*",
+      "pyrotech:iron_hammer:*",
+      "pyrotech:stone_hammer:*",
+      "pyrotech:obsidian_hammer:*"
+    ],
+    "toolHuntersKnife": [
+      "pyrotech:flint_hunters_knife:*",
+      "pyrotech:bone_hunters_knife:*",
+      "pyrotech:stone_hunters_knife:*",
+      "pyrotech:iron_hunters_knife:*",
+      "pyrotech:gold_hunters_knife:*",
+      "pyrotech:diamond_hunters_knife:*",
+      "pyrotech:obsidian_hunters_knife:*"
     ],
     "toolSharp": [
       "minecraft:stone_axe:*",
@@ -111,7 +198,24 @@
       "pyrotech:flint_sword:*",
       "pyrotech:bone_sword:*",
       "pyrotech:obsidian_sword:*",
-      "pyrotech:redstone_sword:*"
+      "pyrotech:redstone_sword:*",
+      "pyrotech:flint_hunters_knife:*",
+      "pyrotech:bone_hunters_knife:*",
+      "pyrotech:stone_hunters_knife:*",
+      "pyrotech:iron_hunters_knife:*",
+      "pyrotech:gold_hunters_knife:*",
+      "pyrotech:diamond_hunters_knife:*",
+      "pyrotech:obsidian_hunters_knife:*"
+    ],
+    "toolShears": [
+      "minecraft:shears:*",
+      "pyrotech:clay_shears:*",
+      "pyrotech:stone_shears:*",
+      "pyrotech:bone_shears:*",
+      "pyrotech:flint_shears:*",
+      "pyrotech:gold_shears:*",
+      "pyrotech:diamond_shears:*",
+      "pyrotech:obsidian_shears:*"
     ],
     "twine": [
       "minecraft:string",
