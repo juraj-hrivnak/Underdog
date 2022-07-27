@@ -1,11 +1,11 @@
 {
 	icon: "pyrotech:bloomery",
-	x: 0.0d,
-	y: 1.0d,
+	x: 3.5d,
+	y: 3.0d,
 	shape: "hexagon",
 	hide_dependency_lines: true,
 	dependencies: [
-		"85d7e4c8"
+		"d5975f15"
 	],
 	hide: true,
 	size: 1.4d,

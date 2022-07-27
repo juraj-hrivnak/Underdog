@@ -1,17 +1,16 @@
 {
-	x: 3.5d,
-	y: 4.5d,
+	x: -2.0d,
+	y: 3.0d,
 	shape: "heart",
 	dependencies: [
-		"764aeb72",
-		"ed6c68ff"
+		"0d521327"
 	],
 	hide: true,
 	tasks: [{
-		uid: "168283f1",
+		uid: "fe934d15",
 		type: "item",
 		items: [{
-			item: "geolosys:cluster"
+			item: "pyrotech:material 1 5"
 		}]
 	}]
 }

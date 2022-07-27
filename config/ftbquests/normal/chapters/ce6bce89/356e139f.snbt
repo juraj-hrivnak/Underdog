@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 1.2d,
+	dependencies: [
+		"108d6ebd"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "e41b778b",
+		type: "fluid",
+		fluid: "tannin"
+	}]
+}

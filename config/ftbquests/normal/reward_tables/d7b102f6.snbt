@@ -6,110 +6,106 @@
 	use_title: true,
 	rewards: [{
 		item: "harvestcraft:sushiitem",
-		count: 16
+		count: 4
 	},
 	{
 		item: "harvestcraft:bananasmoothieitem",
-		count: 16
+		count: 4
 	},
 	{
-		item: "harvestcraft:extremechiliitem",
-		count: 16
+		item: "harvestcraft:extremechiliitem"
 	},
 	{
 		item: "harvestcraft:mixedsaladitem",
-		count: 16
+		count: 2
 	},
 	{
 		item: "harvestcraft:limesmoothieitem",
-		count: 16
+		count: 4
 	},
 	{
 		item: "harvestcraft:strawberrysmoothieitem",
-		count: 16
+		count: 4
 	},
 	{
 		item: "harvestcraft:frosteddonutitem",
-		count: 16
+		count: 2
 	},
 	{
 		item: "harvestcraft:melonsmoothieitem",
-		count: 16
+		count: 4
 	},
 	{
 		item: "harvestcraft:tacoitem",
-		count: 16
+		count: 4
 	},
 	{
-		item: "harvestcraft:bltitem",
-		count: 16
+		item: "harvestcraft:bltitem"
 	},
 	{
-		item: "harvestcraft:redvelvetcakeitem",
-		count: 16
+		item: "harvestcraft:redvelvetcakeitem"
 	},
 	{
 		item: "harvestcraft:kiwijuiceitem",
-		count: 16
+		count: 4
 	},
 	{
 		item: "harvestcraft:melonjuiceitem",
-		count: 16
+		count: 4
 	},
 	{
 		item: "cuisine:food",
-		count: 16
+		count: 8
 	},
 	{
 		item: "harvestcraft:peppermintitem",
-		count: 16
+		count: 4
 	},
 	{
 		item: "harvestcraft:garlicbreaditem",
-		count: 16
+		count: 2
 	},
 	{
-		item: "harvestcraft:garlicchickenitem",
-		count: 16
+		item: "harvestcraft:garlicchickenitem"
 	},
 	{
 		item: "harvestcraft:friedbolognasandwichitem",
-		count: 16
+		count: 2
 	},
 	{
 		item: "harvestcraft:lemonjellysandwichitem",
-		count: 16
+		count: 2
 	},
 	{
 		item: "harvestcraft:meatloafsandwichitem",
-		count: 16
+		random_bonus: 2
 	},
 	{
 		item: "harvestcraft:cookiesandmilkitem",
-		count: 16
+		count: 4
 	},
 	{
-		item: "harvestcraft:netherwingsitem",
-		count: 16
+		item: "harvestcraft:netherwingsitem"
 	},
 	{
 		item: "harvestcraft:bentoboxitem",
-		count: 16
+		count: 2,
+		random_bonus: 2
 	},
 	{
 		item: "harvestcraft:steakandchipsitem",
-		count: 16
+		count: 2
 	},
 	{
 		item: "harvestcraft:generaltsochickenitem",
-		count: 16
+		random_bonus: 3
 	},
 	{
-		item: "harvestcraft:epicbaconitem",
-		count: 16
+		item: "harvestcraft:epicbaconitem"
 	},
 	{
 		item: "harvestcraft:spagettiitem",
-		count: 16
+		count: 2,
+		random_bonus: 1
 	}]
 }

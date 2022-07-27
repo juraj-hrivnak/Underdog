@@ -1,6 +1,10 @@
 {
 	x: 0.0d,
 	y: 4.264d,
+	text: [
+		"&r&lTask:",
+		"&7Get flint from gravel."
+	],
 	dependencies: [
 		"078f1222"
 	],

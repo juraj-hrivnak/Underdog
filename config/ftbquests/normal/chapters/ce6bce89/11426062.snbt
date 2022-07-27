@@ -16,6 +16,6 @@
 	rewards: [{
 		uid: "eb004081",
 		type: "item",
-		item: "adchimneys:stone_bricks 1 1"
+		item: "adchimneys:masonry_brick_block 1 1"
 	}]
 }

@@ -1,4 +1,5 @@
 {
+	title: "Copper",
 	x: 1.8d,
 	y: 4.4d,
 	dependencies: [

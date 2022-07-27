@@ -1,16 +1,15 @@
 {
 	x: 4.2d,
-	y: 6.0d,
+	y: 4.8d,
+	shape: "hexagon",
 	dependencies: [
 		"e7110521"
 	],
-	hide: true,
-	size: 0.8d,
 	tasks: [{
-		uid: "03d10921",
+		uid: "56ff7cfd",
 		type: "item",
 		items: [{
-			item: "pyrotech:anvil_granite"
+			item: "pyrotech:stone_oven"
 		}]
 	}]
 }

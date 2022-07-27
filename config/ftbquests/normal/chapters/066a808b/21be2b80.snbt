@@ -42,5 +42,17 @@
 		items: [{
 			item: "contenttweaker:cast_sand_ingot"
 		}]
+	},
+	{
+		uid: "e5b31481",
+		type: "item",
+		items: [{
+			item: "tcomplement:cast_clay"
+		}]
+	}],
+	rewards: [{
+		uid: "12d4b408",
+		type: "item",
+		item: "pyrotech:shelf"
 	}]
 }

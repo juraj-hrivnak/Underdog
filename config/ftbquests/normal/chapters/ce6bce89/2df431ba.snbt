@@ -5,10 +5,14 @@
 	y: 3.5d,
 	text: [
 		"&lTask:",
-		"&7Place the flint on top of a log &b(Right-Click)&r&7 and smash it with a hammer &b(Left-Click)&r&7 to get 6* firewood."
+		"&7Place the flint on top of a log &b(Right-Click)&r&7 and smash it with a hammer &b(Left-Click)&r&7 to get 6* firewood.",
+		"",
+		"&r&lNote:",
+		"&7By splitting the wooden log using a flint, you get one flint shard as a by-product."
 	],
 	dependencies: [
 		"b52f5a6b",
+		"2999c1d7",
 		"f47fc98c"
 	],
 	hide: true,

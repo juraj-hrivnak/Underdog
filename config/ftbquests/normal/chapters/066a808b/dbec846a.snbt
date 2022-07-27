@@ -1,8 +1,8 @@
 {
-	title: "Hammer",
+	title: "Anvil & Hammer",
 	icon: "pyrotech:anvil_granite",
-	x: 1.8d,
-	y: 1.0d,
+	x: 5.3d,
+	y: 3.0d,
 	dependencies: [
 		"4be76860"
 	],
@@ -26,5 +26,12 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "381780d4",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_granite"
+		}]
 	}]
 }

@@ -1,15 +1,16 @@
 {
-	x: -5.0d,
-	y: 1.0d,
+	x: 8.0d,
+	y: 4.0d,
 	dependencies: [
-		"410c58a4"
+		"e8872920"
 	],
+	hide: true,
+	size: 0.8d,
 	tasks: [{
-		uid: "4253ec4d",
+		uid: "15852c91",
 		type: "item",
 		items: [{
 			item: "immersiveengineering:metal_device1"
-		}],
-		count: 2L
+		}]
 	}]
 }

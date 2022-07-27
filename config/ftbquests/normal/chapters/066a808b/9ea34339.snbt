@@ -4,7 +4,7 @@
 	shape: "hexagon",
 	hide_dependency_lines: true,
 	dependencies: [
-		"85d7e4c8"
+		"d5975f15"
 	],
 	hide: true,
 	size: 1.4d,
@@ -14,5 +14,10 @@
 		items: [{
 			item: "pyrotech:brick_crucible"
 		}]
+	}],
+	rewards: [{
+		uid: "54272820",
+		type: "choice",
+		table: 2
 	}]
 }

@@ -4,10 +4,10 @@
 	x: 1.2d,
 	y: 2.0d,
 	text: [
-		"&rTask:",
+		"&r&lTask:",
 		"&7To get lumber, chop the logs you got from the tree on the chopping block.",
 		"",
-		"&rNote:",
+		"&r&lNote:",
 		"&7Place the Chopping Block down and  &b(Right-Click)&r&7 on it with an axe."
 	],
 	dependencies: [

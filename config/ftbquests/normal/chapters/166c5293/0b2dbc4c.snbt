@@ -1,0 +1,17 @@
+{
+	title: "Patterns",
+	x: -1.0d,
+	y: 0.5d,
+	dependencies: [
+		"af997dfc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "933dd2d0",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 8L
+	}]
+}
