@@ -13,10 +13,10 @@
 	images: [{
 		x: -5.0d,
 		y: -4.0d,
-		width: 11.61d,
-		height: 1.87d,
+		width: 14.9d,
+		height: 2.2d,
 		rotation: 0.0d,
-		image: "modpack:textures/gui/underdog_7.png",
+		image: "modpack:textures/gui/banner_underdog_only.png",
 		hover: [],
 		click: "",
 		dev: false

@@ -9,6 +9,3 @@ net.minecraft.client.gui.GuiIngameMenu {
 net.minecraft.client.gui.GuiCreateWorld {
 }
 
-com.ezrol.terry.minecraft.defaultworldgenerator.gui.GuiCreateCustomWorld {
-}
-
