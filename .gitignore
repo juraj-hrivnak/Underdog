@@ -30,6 +30,7 @@ mineraltracker/*
 logs/*
 journeymap/*
 encyclopedia-servers/*
+fancymenu_data/*
 crash-reports/*
 dumps/*
 coremods/*
