@@ -2,7 +2,7 @@
     "wolf": {
         "id": "minecraft:wolf"
     },
-    "wolf_reinforcement_00": {
+    "wolf_00": {
         "id": "minecraft:wolf",
         "nbt": {
             "ForgeData": {
@@ -16,7 +16,7 @@
             }
         }
     },
-    "wolf_reinforcement_01": {
+    "wolf_01": {
         "id": "minecraft:wolf",
         "HandItems": [
             { "Count": 1, "id": "minecraft:bone" }
