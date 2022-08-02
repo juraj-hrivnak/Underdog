@@ -1,11 +1,11 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.5
-fov:0.0
+mouseSensitivity:0.57746476
+fov:0.7
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:0
+guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Better Default 1.12.2.zip","Modernity-format3-v3.6.0.zip","Modern Pyrotech [1.12] [v1.2].zip","§c§lCream §7Cuisine Resource Pack - 0.5.0.zip","AntiqueAtlasExtra-v1.2.zip","underdog_stone_texture_improvements.zip"]
+resourcePacks:["underdog_stone_texture_improvements.zip","Modern Pyrotech [1.12] [v1.2].zip","Modernity-format3-v3.7.0.zip","AntiqueAtlasExtra-v1.2.zip","§c§lCream §7Cuisine Resource Pack - 0.5.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -25,9 +25,9 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
-fullscreen:true
+fullscreen:false
 enableVsync:true
-useVbo:true
+useVbo:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
@@ -52,7 +52,7 @@ enableWeakAttacks:false
 autoJump:false
 narrator:0
 tutorialStep:none
-soundCategory_master:1.0
+soundCategory_master:0.58450705
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
@@ -60,7 +60,7 @@ soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.1056338
 soundCategory_voice:1.0
 soundCategory_ds_footsteps:0.1056338
 soundCategory_ds_biome:0.2535211
