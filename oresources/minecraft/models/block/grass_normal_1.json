@@ -1,8 +1,8 @@
 {
     "parent": "block/grass",
     "textures": {
-        "particle": "blocks/dirt_1",
-        "bottom": "blocks/dirt_1",
+        "particle": "blocks/dirt",
+        "bottom": "blocks/dirt",
         "top": "blocks/grass_top_1",
         "side": "blocks/grass_side_1",
         "overlay": "blocks/grass_side_overlay_1"
