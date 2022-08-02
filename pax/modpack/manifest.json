@@ -2385,6 +2385,19 @@
       "__meta": {
         "name": "Realistic Terrain Generation - Unofficial"
       }
+    },
+    {
+      "projectID": 653506,
+      "fileID": 3910446,
+      "required": true,
+      "__meta": {
+        "name": "Tweaked Petroleum",
+        "dependencies": [
+          419286,
+          268250,
+          239197
+        ]
+      }
     }
   ]
 }
