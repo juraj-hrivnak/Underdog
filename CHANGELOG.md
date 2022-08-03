@@ -10,7 +10,7 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ## What's new?
 
-- Improved Quality of Life:
+- QoL impovements
   - Adjusted Pyrotech oven work time to a half minute, the same as the kilns.
   - Added more woodworking-related recipes. Makes using wood a lot easier. Especially slabs.
   - Added a simpler recipe for Nature's Compass.
@@ -23,16 +23,16 @@ The best place to set up a server to play the Underdog modpack is at: \
   - Added 4x more output from recipes for Rustic stake and sand casts.
   - Made Rustic wood stake valid support.
 
-- Improved Quests:
+- Quests impovements
   - Added a new quest line to guide you after moving from the "stone age."
   - Added rewards to all the harder quests.
   - Added new descriptions to a bunch of quests.
 
-- Added a whole new process to get leather:
+- A whole new process to get leather.
   - All animals now drop hides/pelts that need to be scraped, washed and tanned to get leather.
   - Added barrel, a new early game block that can be used to make tannin or collect rainwater.
 
-- Added Pyrite ore, a new source of sulfur and iron:
+- Pyrite ore, a new source of sulfur and iron.
   - Generates as vein with a rarity of 190.
   - It also has a small chance to generate in hot springs and explode when broken.
 
