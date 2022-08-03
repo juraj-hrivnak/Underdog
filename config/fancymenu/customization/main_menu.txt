@@ -24,7 +24,7 @@ customization {
   orientation = mid-centered
   x = 3
   action = movebutton
-  y = -12
+  y = -1
 }
 
 customization {
@@ -48,7 +48,7 @@ customization {
   orientation = mid-centered
   x = -153
   action = movebutton
-  y = 1
+  y = 12
 }
 
 customization {
@@ -72,7 +72,7 @@ customization {
   orientation = mid-centered
   x = -153
   action = movebutton
-  y = 55
+  y = 66
 }
 
 customization {
@@ -96,7 +96,7 @@ customization {
   orientation = mid-centered
   x = 3
   action = movebutton
-  y = 42
+  y = 53
 }
 
 customization {
@@ -126,7 +126,7 @@ customization {
   orientation = mid-centered
   x = -153
   action = movebutton
-  y = -26
+  y = -15
 }
 
 customization {
@@ -150,7 +150,7 @@ customization {
   orientation = mid-centered
   x = 3
   action = movebutton
-  y = 15
+  y = 26
 }
 
 customization {
@@ -177,7 +177,7 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 186
+  x = 79
   width = 268
   action = deep_customization_element:title_screen_forge_top
   actionid = 08b4b22e-dcd9-4d5b-8932-a9cf0b72f5ec1659215009183
@@ -199,11 +199,11 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 411
+  x = 198
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 3d406119-8896-4aba-b83e-e2a32116063a1659215009194
-  y = 319
+  y = 220
   height = 9
 }
 
@@ -249,7 +249,7 @@ customization {
   width = 404
   actionid = ec39d150-4a68-4f1c-bf21-a14410323f1b1659218890673
   action = addtexture
-  y = -115
+  y = -110
   height = 59
 }
 
@@ -264,7 +264,7 @@ customization {
   width = 150
   actionid = de9b47f3-943c-424e-8fbe-1dec4a9668951659438432892
   action = addbutton
-  y = 28
+  y = 39
   backgroundnormal = resources\modpack\textures\gui\buttons\button.png
   value = https://github.com/juraj-hrivnak/Underdog/issues
   height = 20
@@ -276,7 +276,7 @@ customization {
   x = 171
   actionid = 44468d44-aa0f-424d-a180-27e03ce524111659438719090
   action = addtext
-  y = -54
+  y = -48
   scale = 1.0
   alignment = left
   value = v3.0.0
