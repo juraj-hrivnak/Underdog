@@ -919,6 +919,16 @@
       "thirstyChance": 0.0
     }
   ],
+  "pyrotech:bucket_wood": [
+    {
+      "identity": {
+        "metadata": 1
+      },
+      "amount": 4,
+      "saturation": 1.0,
+      "thirstyChance": 0.2
+    }
+  ],
   "harvestcraft:raspberryjuiceitem": [
     {
       "identity": {

@@ -50,7 +50,7 @@
             "forceSpawn": true,
             "mobs": [
               {
-                "id": "wolf_reinforcement_00",
+                "id": "wolf_00",
                 "count": [1, 4],
                 "spawn": {
                   "type": "ground",
@@ -65,7 +65,7 @@
             "forceSpawn": true,
             "mobs": [
               {
-                "id": "wolf_reinforcement_01",
+                "id": "wolf_01",
                 "count": [1, 4],
                 "spawn": {
                   "type": "ground",

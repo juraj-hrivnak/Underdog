@@ -16,15 +16,15 @@
     cave(): {
       seed: 1
       /*
-        Default:
-          threshold: -0.001 * @1
-          frequency: 0.0055 * (@1 * -1)
+      / Default:
+      / threshold: -0.001 * @1
+      / frequency: 0.0055 * (@1 * -1)
       */
       threshold: -0.1 * @1
       frequency: 0.0055 * (@1 * -1)
       offset: 550
       lacunarity: 0.7 * @1
-      octaves: 6 // [Default: 6]
+      octaves: 3 // [Default: 6]
       gain: 0.7
       perturb: false
       // [Default: 5] You can mess around with this

@@ -41,7 +41,7 @@ val commonOres as IIngredient[][IItemStack] = {
 for output, input in commonOres {
     furnace.remove(output);
     Bloomery.createBloomeryBuilder(
-            "bloomery_common_" ~ getNameForRecipe(output),  // recipe name
+            "bloomery_common_" ~ getNameForRecipe([output]),  // recipe name
             output,                                         // output
             input[0]                                        // input
         )
@@ -80,7 +80,7 @@ val richOres as IIngredient[IItemStack] = {
 for output, input in richOres {
     furnace.remove(output, input);
     Bloomery.createBloomeryBuilder(
-            "bloomery_rich_" ~ getNameForRecipe(output),    // recipe name
+            "bloomery_rich_" ~ getNameForRecipe([output]),    // recipe name
             output,                                         // output
             input                                           // input
         )

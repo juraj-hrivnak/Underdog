@@ -30,7 +30,7 @@ val items as IIngredient[IItemStack] = {
 for output, input in items {
 
     IroncladAnvil.addRecipe(
-        "ironclad_anvil_" ~ getNameForRecipe(output), // recipe name
+        "ironclad_anvil_" ~ getNameForRecipe([output]), // recipe name
         output,            // output
         input,             // input
         4,                 // hits
@@ -38,7 +38,7 @@ for output, input in items {
     );
 
     GraniteAnvil.addRecipe(
-        "granite_anvil_" ~ getNameForRecipe(output),        // recipe name
+        "granite_anvil_" ~ getNameForRecipe([output]),        // recipe name
         output,            // output
         input,             // input
         4,                 // hits

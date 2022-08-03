@@ -38,13 +38,13 @@
       }
     } ]
   caveBlocks: [
-    { states: "greenery:grass", height: [ 0, 240 ] }
+    { states: "minecraft:grass", height: [ 0, 240 ] }
   ]
   wallDecorators: [
     {
       states: stone
       directions: down
-      matchers: greenery:grass
+      matchers: minecraft:grass
       height: [ 0, 240 ]
       placement: EMBED
       integrity: 1

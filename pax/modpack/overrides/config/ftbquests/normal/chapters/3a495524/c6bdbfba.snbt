@@ -1,8 +1,13 @@
 {
+	title: "Anemometer",
 	disable_toast: true,
 	x: -0.47959183673471983d,
 	y: -0.46938775510206554d,
 	shape: "octagon",
+	dependencies: [
+		"2372283d"
+	],
+	hide: true,
 	tasks: [{
 		uid: "1969ce95",
 		type: "checkmark",

@@ -5,9 +5,9 @@
 		item: "harvestcraft:carrotjuiceitem"
 	},
 	{
-		item: "harvestcraft:blueberryjuiceitem"
+		item: "harvestcraft:raspberryjuiceitem"
 	},
 	{
-		item: "harvestcraft:applejuiceitem"
+		item: "harvestcraft:blueberryjuiceitem"
 	}]
 }

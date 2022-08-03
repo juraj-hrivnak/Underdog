@@ -32,7 +32,7 @@
     minecraft:gravel
     minecraft:clay
     biomesoplenty:ash_block
-    greenery:grass
+    minecraft:grass
     biomesoplenty:grass
     biomesoplenty:grass:1
     biomesoplenty:grass:2
@@ -148,61 +148,61 @@
     }
   }
   wallDecorators: [
-    {
-      states: [
-        pyrotech:rock_grass
-        pyrotech:rock:4
-      ]
-      directions: down
-      matchers: [
-        minecraft:dirt
-        minecraft:dirt:1
-        biomesoplenty:dirt
-        biomesoplenty:dirt:8
-        biomesoplenty:dirt:1
-        biomesoplenty:dirt:9
-        biomesoplenty:dirt:2
-        biomesoplenty:dirt:10
-        minecraft:end_stone
-        minecraft:stone:0
-        minecraft:stone:1
-        minecraft:stone:2
-        minecraft:stone:3
-        minecraft:stone:4
-        minecraft:stone:5
-        minecraft:stone:6
-        minecraft:stone:7
-        quark:limestone
-        quark:marble
-        quark:jasper
-        quark:slate
-      ]
-      height: [ 57, 240 ]
-      placement: OVERLAY
-      integrity: 0.1
-    }
-    {
-      states: pyrotech:rock:5
-      directions: down
-      matchers: [
-        minecraft:sandstone
-        minecraft:sand
-      ]
-      height: [ 57, 240 ]
-      placement: OVERLAY
-      integrity: 0.1
-    }
-    {
-      states: pyrotech:rock:9
-      directions: down
-      matchers: [
-        minecraft:red_sandstone
-        minecraft:sand:1
-      ]
-      height: [ 57, 240 ]
-      placement: OVERLAY
-      integrity: 0.1
-    }
+    // {
+    //   states: [
+    //     pyrotech:rock_grass
+    //     pyrotech:rock:4
+    //   ]
+    //   directions: down
+    //   matchers: [
+    //     minecraft:dirt
+    //     minecraft:dirt:1
+    //     biomesoplenty:dirt
+    //     biomesoplenty:dirt:8
+    //     biomesoplenty:dirt:1
+    //     biomesoplenty:dirt:9
+    //     biomesoplenty:dirt:2
+    //     biomesoplenty:dirt:10
+    //     minecraft:end_stone
+    //     minecraft:stone:0
+    //     minecraft:stone:1
+    //     minecraft:stone:2
+    //     minecraft:stone:3
+    //     minecraft:stone:4
+    //     minecraft:stone:5
+    //     minecraft:stone:6
+    //     minecraft:stone:7
+    //     quark:limestone
+    //     quark:marble
+    //     quark:jasper
+    //     quark:slate
+    //   ]
+    //   height: [ 57, 240 ]
+    //   placement: OVERLAY
+    //   integrity: 0.1
+    // }
+    // {
+    //   states: pyrotech:rock:5
+    //   directions: down
+    //   matchers: [
+    //     minecraft:sandstone
+    //     minecraft:sand
+    //   ]
+    //   height: [ 57, 240 ]
+    //   placement: OVERLAY
+    //   integrity: 0.1
+    // }
+    // {
+    //   states: pyrotech:rock:9
+    //   directions: down
+    //   matchers: [
+    //     minecraft:red_sandstone
+    //     minecraft:sand:1
+    //   ]
+    //   height: [ 57, 240 ]
+    //   placement: OVERLAY
+    //   integrity: 0.1
+    // }
     ###########################################
     // Sand / Sandstone fixage
     {
@@ -252,7 +252,7 @@
       states: minecraft:stone
       directions: up
       matchers: [
-        greenery:grass
+        minecraft:grass
         minecraft:dirt:2
         biomesoplenty:grass:2
         biomesoplenty:grass:3
@@ -271,24 +271,32 @@
       placement: EMBED
       integrity: 1
     }
+    {
+      states: minecraft:stone
+      directions: down
+      matchers: minecraft:dirt
+      height: [ 47, 240 ]
+      placement: EMBED
+      integrity: 0.3
+    }
+    {
+      states: minecraft:dirt:1
+      directions: down
+      matchers: minecraft:dirt
+      height: [ 47, 240 ]
+      placement: EMBED
+      integrity: 0.7
+    }
   ]
   stalactites: [
     {
       state: quark:limestone
-      # Type may be `stalactite`, `stalagmite`, or `speleothem`.
       type: speleothem
-      # The width of this feature.
-      # Possible options are: `small`, `medium`, `large`, and `giant`.
       size: giant
       length: [ 4, 10 ]
       chance: 0.067
-      height: [
-        40
-        70
-      ]
-      matchers: [
-        quark:limestone
-      ]
+      height: [ 40, 70 ]
+      matchers: quark:limestone
       region: {
         frequency: 0.025
         threshold: 0.425

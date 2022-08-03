@@ -12,4 +12,5 @@ val itemsToRemove as IItemStack[] = [
     <better_diving:reinforced_o2_tank>,
     <better_diving:seamoth>
 ];
+
 for i in itemsToRemove { rh(i); }

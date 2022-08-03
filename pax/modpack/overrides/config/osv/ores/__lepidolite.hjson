@@ -17,7 +17,6 @@
     tool: pickaxe
   }
   texture: {}
-  
   loot: [
     {
       item: contenttweaker:lithium_cluster

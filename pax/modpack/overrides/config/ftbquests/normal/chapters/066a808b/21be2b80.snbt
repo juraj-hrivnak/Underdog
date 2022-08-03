@@ -1,11 +1,10 @@
 {
 	title: "Sand Casts",
 	x: 1.8d,
-	y: 3.8d,
+	y: 3.4d,
 	dependencies: [
-		"460aac9c"
+		"755477b9"
 	],
-	hide: true,
 	size: 0.8d,
 	tasks: [{
 		uid: "251e1214",
@@ -36,5 +35,24 @@
 				PartType: "tconstruct:binding"
 			}
 		}]
+	},
+	{
+		uid: "988dfa04",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cast_sand_ingot"
+		}]
+	},
+	{
+		uid: "e5b31481",
+		type: "item",
+		items: [{
+			item: "tcomplement:cast_clay"
+		}]
+	}],
+	rewards: [{
+		uid: "12d4b408",
+		type: "item",
+		item: "pyrotech:shelf"
 	}]
 }

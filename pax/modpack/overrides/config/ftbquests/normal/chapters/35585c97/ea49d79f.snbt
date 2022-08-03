@@ -8,13 +8,13 @@
 		uid: "509b9695",
 		type: "item",
 		items: [{
+			id: "immersiveengineering:railgun",
 			ForgeCaps: {
 				Parent: {
 					Size: 1,
 					Items: []
 				}
-			},
-			id: "immersiveengineering:railgun"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

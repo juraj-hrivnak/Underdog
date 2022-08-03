@@ -10,7 +10,8 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.server.IServer;
 import crafttweaker.world.IFacing;
-import mods.zenutils.DelayManager;
+import crafttweaker.damage.IDamageSource;
+import mods.zenutils.Catenation;
 import mods.contenttweaker.Commands;
 
 
@@ -99,19 +100,32 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
     if ((blockBreakTransforms.keySet has event.blockState) &&
         (event.world.getBlockState(event.position.getOffset(IFacing.down, 1)) != <blockstate:minecraft:air>)) {
 
-        DelayManager.addDelayWork(function() {
-            event.world.setBlockState(blockBreakTransforms[event.blockState], event.position);
-        }, 2);
+        event.player.world.catenation()
+            .sleep(2)
+            .run(function(world) {
+                event.world.setBlockState(blockBreakTransforms[event.blockState], event.position);
+            })
+            .stopWhen(function(world) {
+                return !event.player.alive;
+            })
+            .start();
     }
 
-
+    // First quest
     if (event.blockState == <blockstate:crocodilite:quartzite_rock>) {
-
 		if (event.world.getBlockState(event.position.getOffset(IFacing.up, 1)) == <blockstate:contenttweaker:pick_up_block>) {
 
 			// Replacing the ~ ~1 ~ block
 			event.world.setBlockState(<blockstate:minecraft:air>, event.position.getOffset(IFacing.up, 1));
 			Commands.call("particle endRod " + event.x + " " + (event.y - 0.8) + " " + event.z + " 0.1 0.1 0.1 0.08 3 normal @a", event.player, event.world);
 		}
+	}
+
+    // Dense Pyrite
+    if (event.blockState == <blockstate:osv:_pyrite_netherrack:dense=true>) {
+        if (event.world.random.nextInt(6) == 0) {
+            event.player.attackEntityFrom(IDamageSource.createExplosionDamage, 2.0f);
+            event.world.performExplosion(event.player, event.x, event.y, event.z, 0.5f, true, true);
+        }
 	}
 });

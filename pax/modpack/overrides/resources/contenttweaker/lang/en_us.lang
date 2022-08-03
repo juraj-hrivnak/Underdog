@@ -168,6 +168,9 @@ tile.contenttweaker.borax_sample.name=Borax Sample
 tile.contenttweaker.lepidolite_sample.name=Lepidolite Sample
 tile.contenttweaker.magnesite_sample.name=Magnesite Sample
 
+tile.contenttweaker.pyrite.name=Pyrite
+tile.contenttweaker.pyrite_sample.name=Pyrite Sample
+
 #######################################################
 ########################################### Lumbers ###
 
@@ -270,6 +273,9 @@ item.contenttweaker.magnesium_cluster.name=Magnesium Cluster
 # Beryl Cluster
 item.contenttweaker.beryl_cluster.name=Beryl Cluster
 item.contenttweaker.kimberlite_cluster.name=Kimberlite Cluster
+
+# Pyrite Cluster
+item.contenttweaker.pyrite_cluster.name=Pyrite Cluster
 
 
 #######################################################

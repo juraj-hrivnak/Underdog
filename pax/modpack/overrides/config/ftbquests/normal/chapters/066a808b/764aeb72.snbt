@@ -1,0 +1,20 @@
+{
+	title: "Bronze",
+	x: 3.5d,
+	y: 6.1d,
+	dependencies: [
+		"371d5312"
+	],
+	tasks: [{
+		uid: "65ad28e0",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ef060d66",
+		type: "loot",
+		table: 3
+	}]
+}

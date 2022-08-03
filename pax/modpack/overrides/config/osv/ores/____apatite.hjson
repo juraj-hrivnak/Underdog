@@ -29,12 +29,18 @@
       xp: [ 1, 4 ]
       chance: 1
     }
+    {
+      item: minecraft:glowstone_dust
+      count: [ 2, 4 ]
+      xp: [ 1, 4 ]
+      chance: 0.8
+    }
   ]
   gen: [
     {
       height: [ 40, 150 ]
       size: 7
-      count: 1
+      count: 3
     }
   ]
 }

@@ -13,12 +13,11 @@ h(<artisanworktables:workstation:12>);
 h(<artisanworktables:workshop:9>);
 
 recipes.addShaped(<artisanworktables:design_pattern>,
- [[<ore:dyeBlue> ],
-  [<ore:paper>   ]]);
+   [[<ore:dyeBlue> ],
+    [<ore:paper>   ]]);
 
 recipes.addShapeless(<artisanworktables:workshop:12>,
-    [<contenttweaker:table_top>, <artisanworktables:design_pattern>,
-     <ore:lumber>, <ore:lumber>]);
+   [<contenttweaker:table_top>, <artisanworktables:design_pattern>, <ore:lumber>, <ore:lumber>]);
 
 // Components
 RecipeBuilder.get("designer")

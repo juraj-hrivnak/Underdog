@@ -4,7 +4,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
-// Does not work (all buckets return iron bucket)
+// Doesn't work (all buckets return iron bucket)
 static allWaterLiquids as IIngredient = <liquid:water> * 1000 | <liquid:purifiedwater> * 1000 | <liquid:saltwater> * 1000;
 
 static allWater as IIngredient = <minecraft:water_bucket>

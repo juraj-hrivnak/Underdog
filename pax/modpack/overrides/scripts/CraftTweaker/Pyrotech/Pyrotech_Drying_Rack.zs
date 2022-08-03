@@ -25,7 +25,7 @@ val items as IItemStack[IItemStack] = {
 for output, input in items {
 
     DryingRack.addRecipe(
-        getNameForRecipe(output),   // recipe name
+        getNameForRecipe([output]),   // recipe name
         output,                     // output
         input,                      // input
         600                         // duration in ticks

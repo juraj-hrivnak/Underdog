@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "podzol"
+      },
+      {
+        "model": "podzol_0"
+      },
+      {
+        "model": "podzol_1"
+      }
+    ],
+    "snowy=true": [
+      {
+        "model": "podzol_snowed"
+      },
+      {
+        "model": "podzol_snowed_0"
+      },
+      {
+        "model": "podzol_snowed_1"
+      }
+    ]
+  }
+}

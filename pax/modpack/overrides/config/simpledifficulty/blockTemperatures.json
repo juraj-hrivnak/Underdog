@@ -206,7 +206,7 @@
   "minecraft:snow": [
     {
       "properties": {},
-      "temperature": -4.0
+      "temperature": -8.0
     }
   ],
   "tconstruct:molten_alubrass": [
@@ -476,7 +476,7 @@
   "minecraft:snow_layer": [
     {
       "properties": {},
-      "temperature": -2.0
+      "temperature": -4.0
     }
   ],
   "minecraft:lava": [

@@ -11,11 +11,8 @@ import scripts.CraftTweaker.Utils.RecipeUtils;
 alloyFurnace.removeRecipeWithOutput(<ore:blockSteel>);
 alloyFurnace.removeRecipeWithOutput(<ore:ingotSteel>);
 
-
-
 // Decay Generator fix
-RecipeUtils.tweakRecipe(true, <nuclearcraft:decay_generator>, [
-    [<ore:ingotLead>, <ore:rocks>, <ore:ingotLead>],
-    [<ore:rocks>, <ore:dustRedstone>, <ore:rocks>],
-    [<ore:ingotLead>, <ore:rocks>, <ore:ingotLead>]
-]);
+RecipeUtils.tweakRecipe(true, <nuclearcraft:decay_generator>,
+   [[<ore:ingotLead>, <ore:rocks>       , <ore:ingotLead> ],
+    [<ore:rocks>    , <ore:dustRedstone>, <ore:rocks>     ],
+    [<ore:ingotLead>, <ore:rocks>       , <ore:ingotLead> ]]);

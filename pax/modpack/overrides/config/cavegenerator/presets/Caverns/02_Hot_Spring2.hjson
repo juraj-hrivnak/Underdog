@@ -66,6 +66,25 @@
     }
   }
   caveBlocks: [
-    { states: "minecraft:netherrack", height: [ 0, 200 ] }
+    {
+      states: minecraft:netherrack
+      height: [ 0, 200 ]
+      integrity: 1
+    }
+    {
+      states: [ "osv:_pyrite_netherrack", "osv:_pyrite_netherrack:1" ]
+      height: [ 0, 200 ]
+      integrity: 0.05
+    }
+    {
+      states: [ "osv:_kimberlite_netherrack:1" ]
+      height: [ 0, 100 ]
+      integrity: 0.1
+    }
+    {
+      states: [ "osv:_kimberlite_netherrack" ]
+      height: [ 0, 100 ]
+      integrity: 0.025
+    }
   ]
 }

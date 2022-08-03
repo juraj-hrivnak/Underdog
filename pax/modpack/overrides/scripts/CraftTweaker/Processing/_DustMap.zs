@@ -8,7 +8,7 @@ import mods.jei.JEI.hide as h;
 
 val dustMapTwo as IItemStack[][][IOreDictEntry] = {
 
-//  Oredict,                         Default,                                 To remove
+//  Oredict,                        Default,                                 To remove
     <ore:dustIron>              : [[<immersiveengineering:metal:18>      ], [<appliedenergistics2:material:49>, <mekanism:dust>]],
     <ore:dustGold>              : [[<immersiveengineering:metal:19>      ], [<appliedenergistics2:material:51>, <mekanism:dust:1>]],
     // <ore:dustCoal>              : [[],[]],
@@ -48,6 +48,8 @@ val dustMapTwo as IItemStack[][][IOreDictEntry] = {
     <ore:dustElectrum>          : [[<immersiveengineering:metal:16>      ], []],
     <ore:dustSteel>             : [[<immersiveengineering:metal:17>      ], [<mekanism:otherdust:1>]],
 
+    <ore:dustSulfur>            : [[<mekanism:otherdust:3>               ], [<immersiveengineering:material:25>]],
+
 };
 
 val dustMap as IItemStack[] = [
@@ -79,6 +81,7 @@ val dustMap as IItemStack[] = [
 
     <mekanism:otherdust>                ,   // Diamond
     <mekanism:otherdust:4>              ,   // Lithium
+    <mekanism:otherdust:3>              ,   // Sulfur
 
 ];
 

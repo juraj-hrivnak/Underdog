@@ -1,0 +1,20 @@
+{
+	title: "Iron",
+	x: 5.3d,
+	y: 4.5d,
+	dependencies: [
+		"5049e8ff"
+	],
+	tasks: [{
+		uid: "d1d6b93c",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "6a2d038b",
+		type: "item",
+		item: "harvestcraft:coffeeitem"
+	}]
+}

@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = underdog.bugs
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\modpack\textures\gui\buttons\button_hover.png
+  label = Open GitHub
+  loopbackgroundanimations = true
+  x = -75
+  width = 150
+  actionid = 2e0d484d-2db6-4875-8c6d-396e69c9dcd41659455593991
+  action = addbutton
+  y = -10
+  backgroundnormal = resources\modpack\textures\gui\buttons\button.png
+  value = https://github.com/juraj-hrivnak/Underdog/issues
+  height = 20
+}
+

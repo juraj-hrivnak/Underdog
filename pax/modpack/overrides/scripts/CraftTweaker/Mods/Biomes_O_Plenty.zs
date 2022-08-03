@@ -11,7 +11,7 @@ import scripts.CraftTweaker.Utils.RecipeUtils;
 
 // Poison bucket recipe fix (bucket could be duped)
 RecipeUtils.tweakRecipe(false, <forge:bucketfilled>.withTag({FluidName: "poison", Amount: 1000}),
-[[<minecraft:water_bucket>.noReturn(), <minecraft:spider_eye:*>, <minecraft:poisonous_potato:*>, <minecraft:sugar:*>]]);
+    [[<minecraft:water_bucket>.noReturn(), <minecraft:spider_eye:*>, <minecraft:poisonous_potato:*>, <minecraft:sugar:*>]]);
 
 // Terrestrial Artifact
 <biomesoplenty:terrestrial_artifact>.maxStackSize = 64;

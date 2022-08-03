@@ -2,149 +2,162 @@
     {
         "dimension": 0,
         "mob": "tropicraft:eagleray",
-        "biometype": [ "OCEAN" ],
+        "biometype": [
+            "OCEAN",
+            "BEACH"
+        ],
         "maxheight": 50,
         "maxcount": {
-                  "amount": 2,
-                  "perplayer": false
-              },
-        "result": "allow"
+            "amount": 2,
+            "perplayer": false
         },
-        {
-            "dimension": 0,
-            "mob": "tropicraft:eagleray",
-            "result": "deny"
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "tropicraft:eagleray",
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
+        "mob": "tropicraft:sardine",
+        "biometype": [
+            "OCEAN",
+            "BEACH"
+        ],
+        "maxheight": 60,
+        "maxcount": {
+            "amount": 2,
+            "perplayer": false
+        },
+        "result": "allow"
     },
     {
         "dimension": 0,
         "mob": "tropicraft:sardine",
-        "biometype": [ "OCEAN" ],
-        "maxheight": 60,
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
+        "mob": "tropicraft:seaurchin",
+        "biometype": [
+            "BEACH"
+        ],
+        "maxheight": 62,
         "maxcount": {
-                  "amount": 2,
-                  "perplayer": false
-              },
-        "result": "allow"
+            "amount": 15,
+            "perplayer": false
         },
-        {
-            "dimension": 0,
-            "mob": "tropicraft:sardine",
-            "result": "deny"
+        "result": "allow"
     },
     {
         "dimension": 0,
         "mob": "tropicraft:seaurchin",
-        "biometype": [ "BEACH" ],
-        "maxheight": 62,
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
+        "mob": "tropicraft:turtle",
+        "biometype": [
+            "OCEAN",
+            "BEACH"
+        ],
+        "maxheight": 50,
         "maxcount": {
-                "amount": 15,
-                "perplayer": false
+            "amount": 2,
+            "perplayer": false
         },
         "result": "allow"
-        },
-        {
-            "dimension": 0,
-            "mob": "tropicraft:seaurchin",
-            "result": "deny"
     },
     {
         "dimension": 0,
         "mob": "tropicraft:turtle",
-        "biometype": [ "OCEAN" ],
-        "maxheight": 50,
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
+        "mob": "tropicraft:dolphin",
+        "biometype": [
+            "OCEAN",
+            "BEACH"
+        ],
+        "maxheight": 60,
+        "minheight": 50,
         "maxcount": {
-                "amount": 2,
-                "perplayer": false
+            "amount": 2,
+            "perplayer": false
         },
         "result": "allow"
-        },
-        {
-            "dimension": 0,
-            "mob": "tropicraft:turtle",
-            "result": "deny"
     },
     {
         "dimension": 0,
         "mob": "tropicraft:dolphin",
-        "biometype": [ "OCEAN" ],
-        "maxheight": 60,
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
+        "mob": "tropicraft:seahorse",
+        "biometype": [
+            "OCEAN",
+            "BEACH"
+        ],
+        "maxheight": 52,
         "minheight": 50,
         "maxcount": {
-                "amount": 2,
-                "perplayer": false
+            "amount": 2,
+            "perplayer": false
         },
         "result": "allow"
-        },
-        {
-            "dimension": 0,
-            "mob": "tropicraft:dolphin",
-            "result": "deny"
     },
     {
         "dimension": 0,
         "mob": "tropicraft:seahorse",
-        "biometype": [ "OCEAN" ],
-        "maxheight": 52,
-        "minheight": 50,
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
+        "mob": "tropicraft:mow",
+        "biometype": [
+            "OCEAN",
+            "BEACH"
+        ],
+        "maxheight": 60,
+        "minheight": 59,
         "maxcount": {
-                "amount": 2,
-                "perplayer": false
+            "amount": 2,
+            "perplayer": false
         },
         "result": "allow"
-        },
-        {
-            "dimension": 0,
-            "mob": "tropicraft:seahorse",
-            "result": "deny"
     },
     {
         "dimension": 0,
         "mob": "tropicraft:mow",
-        "biometype": [ "OCEAN" ],
-        "maxheight": 60,
-        "minheight": 59,
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
+        "mob": "tropicraft:marlin",
+        "biometype": [
+            "OCEAN",
+            "BEACH"
+        ],
+        "maxheight": 40,
         "maxcount": {
-                "amount": 2,
-                "perplayer": false
+            "amount": 1,
+            "perplayer": false
         },
         "result": "allow"
-        },
-        {
-            "dimension": 0,
-            "mob": "tropicraft:mow",
-            "result": "deny"
     },
     {
         "dimension": 0,
         "mob": "tropicraft:marlin",
-        "biometype": [ "OCEAN" ],
-        "maxheight": 40,
-        "maxcount": {
-                "amount": 1,
-                "perplayer": false
-        },
-        "result": "allow"
-        },
-        {
-            "dimension": 0,
-            "mob": "tropicraft:marlin",
-            "result": "deny"
-    },
-    {
-        "dimension": 0,
-        "mob": "tropicraft:fish",
-        "biometype": [ "RIVER" ],
-        "maxheight": 61,
-        "minheight": 59,
-        "maxcount": {
-                "amount": 2,
-                "perplayer": false
-        },
-        "result": "allow"
-        },
-        {
-            "dimension": 0,
-            "mob": "tropicraft:fish",
-            "result": "deny"
+        "result": "deny"
     }
 ]

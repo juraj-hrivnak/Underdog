@@ -10,6 +10,7 @@
 		type: "item",
 		items: [{
 			id: "cuisine:spice_bottle",
+			Damage: 1s,
 			tag: {
 				volume: 10,
 				Size: 1,
@@ -19,8 +20,7 @@
 					Count: 1b,
 					Damage: 4s
 				}]
-			},
-			Damage: 1s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

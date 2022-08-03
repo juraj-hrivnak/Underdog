@@ -1,5 +1,4 @@
 
-#norun
 #priority 10
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -25,5 +24,5 @@ val toAdd as IItemStack[] = [
 ];
 
 for add in toAdd {
-    <ore:axes>.add(add);
+    <ore:toolAxe>.add(add);
 }

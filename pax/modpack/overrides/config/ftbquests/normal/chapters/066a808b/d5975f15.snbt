@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	shape: "heart",
+	dependencies: [
+		"0d521327"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe934d15",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 5"
+		}]
+	}]
+}

@@ -4,10 +4,10 @@
 	x: 1.2d,
 	y: 2.0d,
 	text: [
-		"&rTask:",
+		"&r&lTask:",
 		"&7To get lumber, chop the logs you got from the tree on the chopping block.",
 		"",
-		"&rNote:",
+		"&r&lNote:",
 		"&7Place the Chopping Block down and  &b(Right-Click)&r&7 on it with an axe."
 	],
 	dependencies: [
@@ -19,16 +19,16 @@
 		uid: "3459e07d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "lumber",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any lumber"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "lumber"
 				}
 			}
 		}],

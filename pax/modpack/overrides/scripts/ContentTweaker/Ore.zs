@@ -7,6 +7,8 @@ import mods.contenttweaker.Block;
 import mods.contenttweaker.SoundType;
 import mods.contenttweaker.AxisAlignedBB;
 
+import crafttweaker.item.IItemStack;
+
 
 // Ore Mixtures
 VanillaFactory.createItem("ore_mixture_bronze").register();
@@ -25,6 +27,9 @@ VanillaFactory.createItem("boron_cluster").register();
 VanillaFactory.createItem("lithium_cluster").register();
 VanillaFactory.createItem("magnesium_cluster").register();
 
+// Pyrite
+VanillaFactory.createItem("pyrite_cluster").register();
+
 
 val blocks as string[string] = {
 
@@ -33,7 +38,10 @@ val blocks as string[string] = {
     sassolite                           : "sassolite"               ,
     borax                               : "borax"                   ,
     lepidolite                          : "lepidolite"              ,
-    magnesite                           : "magnesite"
+    magnesite                           : "magnesite"               ,
+
+    // Sulfur
+    pyrite                              : "pyrite"
 
 };
 
@@ -44,7 +52,10 @@ val samples as string[string] = {
     sassolite_sample                    : "sassolite_sample"        ,
     borax_sample                        : "borax_sample"            ,
     lepidolite_sample                   : "lepidolite_sample"       ,
-    magnesite_sample                    : "magnesite_sample"
+    magnesite_sample                    : "magnesite_sample"        ,
+
+    // Sulfur
+    pyrite_sample                       : "pyrite_sample"
 
 };
 

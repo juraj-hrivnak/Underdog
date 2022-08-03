@@ -41,6 +41,8 @@ val grinding as IItemStack[][IOreDictEntry] = {
     <ore:oreUranium>            : [<immersiveengineering:metal:14>       * 2, <immersiveengineering:metal:11>       ],
     <ore:oreOsmium>             : [<mekanism:dust:2>                     * 2, null                                  ],
 
+    <ore:orePyrite>             : [<minecraft:blaze_powder>              * 2, <immersiveengineering:metal:18>       ],
+
     <ore:blockFuelCoke>         : [<immersiveengineering:material:17>    * 9, null                                  ],
     <ore:fuelCoke>              : [<immersiveengineering:material:17>       , null                                  ],
 

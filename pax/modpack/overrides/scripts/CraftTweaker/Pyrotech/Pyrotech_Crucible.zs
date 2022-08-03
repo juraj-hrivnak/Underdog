@@ -11,7 +11,7 @@ import scripts.CraftTweaker.Utils.RecipeUtils.getNameForRecipe;
 
 BrickCrucible.removeAllRecipes();
 
-val liquidsAndOres as ILiquidStack[IOreDictEntry] = {
+val liquidsAndOres as ILiquidStack[IIngredient] = {
 
     // Ore Mixtures
     <ore:mixtureBronze>     : <liquid:bronze>         * 1152  ,
@@ -111,7 +111,7 @@ val liquidsAndOres as ILiquidStack[IOreDictEntry] = {
 for input, output in liquidsAndOres {
 
     BrickCrucible.addRecipe(
-        "melting_" ~ getNameForRecipe(input) ~ "_to_" ~ getNameForRecipe(output),  // recipe name
+        "melting_" ~ getNameForRecipe([input, output]),  // recipe name
         output,                                 // output
         input,                                  // input
         1200                                    // duration in ticks

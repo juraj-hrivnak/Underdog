@@ -11,7 +11,7 @@ val blocks as string[string] = {
     gravelDiorite     : "gravel_diorite"      ,
     gravelGranite     : "gravel_granite"      ,
     gravelLimestone   : "gravel_limestone"    ,
-    gravelMarble      : "gravel_marble"       
+    gravelMarble      : "gravel_marble"
 
 };
 

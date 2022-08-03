@@ -1,11 +1,12 @@
 {
-	x: -2.5d,
-	y: 3.0d,
+	x: 0.0d,
+	y: 5.2d,
 	shape: "heart",
 	dependencies: [
-		"85d7e4c8"
+		"9ea34339"
 	],
 	hide: true,
+	size: 0.8d,
 	tasks: [{
 		uid: "26ebbbf5",
 		type: "item",

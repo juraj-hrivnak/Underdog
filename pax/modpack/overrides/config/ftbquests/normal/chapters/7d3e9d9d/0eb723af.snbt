@@ -1,7 +1,12 @@
 {
+	title: "Industrial Foregoing",
 	disable_toast: true,
 	x: -1.5d,
 	y: -3.0d,
+	dependencies: [
+		"ad70493a"
+	],
+	hide: true,
 	tasks: [{
 		uid: "73e484fc",
 		type: "item",

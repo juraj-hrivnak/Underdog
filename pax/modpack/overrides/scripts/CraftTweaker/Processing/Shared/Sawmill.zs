@@ -70,8 +70,8 @@ for input, output in cutting {
 
     MKSawmill.addRecipe(input, output[0], output[1], 1.0);
 
-    StoneSawmill.addRecipe("stone_sawmill_" ~ getNameForRecipe(input) ~ "_to_" ~ getNameForRecipe(output[0]), output[0], input, 200, sawmillBlades, 1);
+    StoneSawmill.addRecipe("stone_sawmill_" ~ getNameForRecipe([input, output[0]]), output[0], input, 200, sawmillBlades, 1);
 
-    BrickSawmill.addRecipe("brick_sawmill_" ~ getNameForRecipe(input) ~ "_to_" ~ getNameForRecipe(output[0]), output[0], input, 60, sawmillBlades, 1);
+    BrickSawmill.addRecipe("brick_sawmill_" ~ getNameForRecipe([input, output[0]]), output[0], input, 60, sawmillBlades, 1);
 
 }

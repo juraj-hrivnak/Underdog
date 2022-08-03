@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["underdog_stone_texture_improvements.zip","Better Default 1.12.2.zip","Modernity-format3-v3.5.3.zip","Modern+Pyrotech+[1.12]+[v1.2].zip","AntiqueAtlasExtra-v1.2.zip","§c§lCream+§7Cuisine+Resource+Pack+-+0.5.0.zip"]
+resourcePacks:["underdog_stone_texture_improvements.zip","Modern Pyrotech [1.12] [v1.2].zip","Modernity-format3-v3.7.0.zip","AntiqueAtlasExtra-v1.2.zip","§c§lCream §7Cuisine Resource Pack - 0.5.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -25,7 +25,7 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:false
-fullscreen:true
+fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
@@ -53,14 +53,14 @@ autoJump:false
 narrator:0
 tutorialStep:none
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.1056338
 soundCategory_voice:1.0
 soundCategory_ds_footsteps:0.1056338
 soundCategory_ds_biome:0.2535211

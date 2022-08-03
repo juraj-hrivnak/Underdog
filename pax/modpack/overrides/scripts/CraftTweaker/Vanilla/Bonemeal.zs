@@ -1,7 +1,5 @@
 
-import crafttweaker.item.IItemStack;
-import mods.jei.JEI.removeAndHide as rh;
-import crafttweaker.oredict.IOreDictEntry;
+import scripts.CraftTweaker.Utils.RecipeUtils;
 
 var bonemeal = <minecraft:dye:15>;
 
@@ -14,6 +12,5 @@ var bonemeal = <minecraft:dye:15>;
 bonemeal.displayName = game.localize("underdog.displayname.bonemeal");
 bonemeal.addTooltip(game.localize("underdog.tooltip.bonemeal"));
 
-//Removing Default Bonemeal Recipe
-recipes.removeShapeless(bonemeal * 3);
-recipes.removeShaped(bonemeal * 1);
+//Adding new bonemeal recipe
+RecipeUtils.tweakRecipe(false, bonemeal * 2, [[<ore:bone>]]);

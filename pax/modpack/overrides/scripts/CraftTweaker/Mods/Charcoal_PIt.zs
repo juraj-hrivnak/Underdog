@@ -4,13 +4,6 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 import mods.charcoalpit;
 
-/* ----------
-    Crafting  */
-
-/* ---------------------------------------------
-    Kilns. The first is input, second is output
-
-Ceramics */
 // charcoalpit.addKilnRecipe(<ceramics:unfired_clay>, <ceramics:clay_bucket>);
 // charcoalpit.addKilnRecipe(<ceramics:unfired_clay:4>, <ceramics:unfired_clay:5>);
 // charcoalpit.addKilnRecipe(<ceramics:unfired_clay:6>, <ceramics:faucet>);

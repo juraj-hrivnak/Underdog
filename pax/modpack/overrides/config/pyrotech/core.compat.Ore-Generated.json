@@ -27,6 +27,14 @@
       ],
       "output": [
         "immersiveengineering:metal:21"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreArdite": {
@@ -44,6 +52,14 @@
       ],
       "output": [
         "tconstruct:nuggets:1"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreCobalt": {
@@ -61,6 +77,14 @@
       ],
       "output": [
         "tconstruct:nuggets:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreCopper": {
@@ -70,6 +94,14 @@
       ],
       "output": [
         "immersiveengineering:metal:20"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreGold": {
@@ -79,6 +111,14 @@
       ],
       "output": [
         "minecraft:gold_nugget:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreIron": {
@@ -88,6 +128,14 @@
       ],
       "output": [
         "minecraft:iron_nugget:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreLead": {
@@ -97,6 +145,14 @@
       ],
       "output": [
         "immersiveengineering:metal:22"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreNickel": {
@@ -106,6 +162,14 @@
       ],
       "output": [
         "immersiveengineering:metal:24"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreOsmium": {
@@ -115,6 +179,14 @@
       ],
       "output": [
         "mekanism:nugget:1"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreSilver": {
@@ -124,6 +196,14 @@
       ],
       "output": [
         "immersiveengineering:metal:23"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreTin": {
@@ -133,6 +213,14 @@
       ],
       "output": [
         "mekanism:nugget:6"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     },
     "oreUranium": {
@@ -142,6 +230,14 @@
       ],
       "output": [
         "immersiveengineering:metal:25"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
       ]
     }
   }
