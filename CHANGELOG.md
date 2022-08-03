@@ -10,7 +10,7 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ## What's new?
 
-- QoL improvements
+- Improved Quality of Life:
   - Adjusted Pyrotech oven work time to a half minute, the same as the kilns.
   - Added more woodworking-related recipes. Makes using wood a lot easier. Especially slabs.
   - Added a simpler recipe for Nature's Compass.
@@ -23,20 +23,20 @@ The best place to set up a server to play the Underdog modpack is at: \
   - Added 4x more output from recipes for Rustic stake and sand casts.
   - Made Rustic wood stake valid support.
 
-- Quests improvements
+- Improved Quests:
   - Added a new quest line to guide you after moving from the "stone age."
   - Added rewards to all the harder quests.
   - Added new descriptions to a bunch of quests.
 
-- Added a whole new process to get leather.
+- Added a whole new process to get leather:
   - All animals now drop hides/pelts that need to be scraped, washed and tanned to get leather.
   - Added barrel, a new early game block that can be used to make tannin or collect rainwater.
 
-- Added Pyrite ore, a new source of sulfur and iron.
+- Added Pyrite ore, a new source of sulfur and iron:
   - Generates as vein with a rarity of 190.
   - It also has a small chance to generate in hot springs and explode when broken.
 
-- Updated to a new version of Pyrotech with a bunch of [*new features*](https://pyrotech.readthedocs.io/en/latest/changelog/#160).
+- Updated to a new version of Pyrotech with a bunch of [*new features*](https://pyrotech.readthedocs.io/en/latest/changelog/#160):
   - Added recipes for the new Pyrotech blocks. (Stone Anvil, Trip Hammer, Tanning Rack, Barrel, Barrel Lid, Butchers Block)
 - Replaced Custom Main Menu with FancyMenu and improved the appearance of various menus.
 - Added log debarking. Debark using right-click with an axe.
