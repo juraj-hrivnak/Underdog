@@ -46,7 +46,7 @@ jobs:
         with:
           name: changelog
       - name: Move changelog
-        run:  mv CHANGELOG.md pax/modpack/CHANGELOG.md
+        run:  mv CHANGELOG.md pax/modpack/changelog-${{ needs.modpack-info.outputs.tag }}.md
       - name: Export modpack
         run: |
           cd pax/
@@ -159,7 +159,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Move changelogs
         run: |
-          mv CHANGELOG.md pax/changelogs/${{ steps.version.outputs.tag }}.md
+          mv CHANGELOG.md pax/changelogs/${{ needs.modpack-info.outputs.tag }}.md
           cp pax/changelogs/TEMPLATE.md CHANGELOG.md
       - name: Commit changelogs
         run: |
