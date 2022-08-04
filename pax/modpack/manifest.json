@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -2284,7 +2284,7 @@
     },
     {
       "projectID": 574029,
-      "fileID": 3892341,
+      "fileID": 3918388,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
