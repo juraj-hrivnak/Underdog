@@ -132,5 +132,7 @@
 "torohealth-",
 "toughnessbar-",
 "TravelersTitles-",
-"WorldNameRandomizer-"
+"WorldNameRandomizer-",
+"waterskin-",
+"Loading-Progress-Bar-"
 ```
