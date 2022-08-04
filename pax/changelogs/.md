@@ -10,10 +10,14 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ## What's new?
 
--
+- Fixed server side crash caused by WaterSkin and Greenery.
+- Added configuration for Tweaked Petroleum. Fixes #34
+
+Click [here](https://github.com/juraj-hrivnak/Underdog/releases/tag/v3.0.0) for more info about v3.0.0
 
 ## Mod Changes
 
 ```markdown
-
+Updated:
+- Greenery🌿
 ```
