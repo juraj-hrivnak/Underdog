@@ -1,41 +1,101 @@
 {
-  "Stone_Tin-Cassetirite": {
-    "type": "cluster",
-    "rarity": 180,
-    "count": 1,
-    "clusters": 2,
-    "stone": [
-      {
-        "block": "minecraft:stone",
-        "meta": 0
-      },
-      {
-        "block": "divergentunderground:hard_stone"
-      }
-    ],
-    "min_y": -38,
-    "max_y": -8,
-    "use_relative_y": true,
-    "density": 650,
-    "vertical_size": 10,
-    "horizontal_size": 14,
-    "ore": [
-      {
-        "block": "osv:_cassiterite",
-        "meta": "0",
-        "weight": 100
-      }
-    ],
-    "indicator": {
-      "rarity": 48,
-      "blocks": [
-        {
-          "block": "geolosys:ore_sample",
-          "meta": "4",
-          "weight": 100
+    "Stone_Tin-Cassetirite": {
+        "type": "cluster",
+        "rarity": 180,
+        "count": 1,
+        "clusters": 2,
+        "ore": [
+            {
+                "block": "osv:_cassiterite",
+                "meta": "0",
+                "weight": 1
+            },
+            {
+                "block": "osv:_cassiterite_quark_slate",
+                "meta": "0",
+                "weight": 1
+            },
+            {
+                "block": "osv:_cassiterite_quark_marble",
+                "meta": "0",
+                "weight": 1
+            },
+            {
+                "block": "osv:_cassiterite_quark_limestone",
+                "meta": "0",
+                "weight": 1
+            },
+            {
+                "block": "osv:_cassiterite_quark_jasper",
+                "meta": "0",
+                "weight": 1
+            },
+            {
+                "block": "osv:_cassiterite_1",
+                "meta": "0",
+                "weight": 1
+            },
+            {
+                "block": "osv:_cassiterite_3",
+                "meta": "0",
+                "weight": 1
+            },
+            {
+                "block": "osv:_cassiterite_5",
+                "meta": "0",
+                "weight": 1
+            }
+        ],
+        "stone": [
+            {
+                "block": "minecraft:stone",
+                "meta": 0
+            },
+            {
+                "block": "quark:slate",
+                "meta": 0
+            },
+            {
+                "block": "quark:marble",
+                "meta": 0
+            },
+            {
+                "block": "quark:limestone",
+                "meta": 0
+            },
+            {
+                "block": "quark:jasper",
+                "meta": 0
+            },
+            {
+                "block": "minecraft:stone",
+                "meta": 1
+            },
+            {
+                "block": "minecraft:stone",
+                "meta": 3
+            },
+            {
+                "block": "minecraft:stone",
+                "meta": 5
+            }
+        ],
+        "min_y": 20,
+        "max_y": 160,
+        "use_relative_y": false,
+        "density": 650,
+        "vertical_size": 10,
+        "horizontal_size": 14,
+        "indicator": {
+            "rarity": 48,
+            "blocks": [
+                {
+                    "block": "geolosys:ore_sample",
+                    "meta": "4",
+                    "weight": 100
+                }
+            ],
+            "max_depth": 100
         }
-      ],
-      "max_depth": 100
     }
-  }
 }
