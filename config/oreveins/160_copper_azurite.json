@@ -1,7 +1,7 @@
 {
     "Copper_Azurite": {
         "type": "cluster",
-        "rarity": 30,
+        "rarity": 160,
         "count": 1,
         "clusters": 2,
         "ore": [
