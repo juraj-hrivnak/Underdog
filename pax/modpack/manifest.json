@@ -1423,14 +1423,6 @@
       }
     },
     {
-      "projectID": 296887,
-      "fileID": 2828147,
-      "required": true,
-      "__meta": {
-        "name": "Realistic Ore Veins"
-      }
-    },
-    {
       "projectID": 297038,
       "fileID": 3931758,
       "required": true,
@@ -2389,6 +2381,14 @@
       "required": true,
       "__meta": {
         "name": "Baubley Elytra"
+      }
+    },
+    {
+      "projectID": 661560,
+      "fileID": 3937843,
+      "required": true,
+      "__meta": {
+        "name": "Even More Realistic Ore Veins"
       }
     }
   ]
