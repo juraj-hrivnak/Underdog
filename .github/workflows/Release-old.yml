@@ -29,11 +29,13 @@ jobs:
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
+      - name: Rename changelog
+        run: mv CHANGELOG.md CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md
       - name: Upload changelog
         uses: actions/upload-artifact@v2
         with:
           name: changelog
-          path: CHANGELOG.md
+          path: CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md
 
   build-modpack:
     runs-on: ubuntu-latest
@@ -46,7 +48,7 @@ jobs:
         with:
           name: changelog
       - name: Move changelog
-        run:  mv CHANGELOG.md pax/modpack/changelog-${{ needs.modpack-info.outputs.tag }}.md
+        run:  mv CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md pax/modpack/CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md
       - name: Export modpack
         run: |
           cd pax/
@@ -108,7 +110,7 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
-          body_path: CHANGELOG.md
+          body_path: CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md
           files: |
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
     # ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
@@ -157,16 +159,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Download changelog
+        uses: actions/download-artifact@v2
+        with:
+          name: changelog
+          path: pax/changelogs
       - name: Move changelogs
         run: |
-          mv CHANGELOG.md pax/changelogs/${{ needs.modpack-info.outputs.tag }}.md
+          rm CHANGELOG.md
           cp pax/changelogs/TEMPLATE.md CHANGELOG.md
       - name: Commit changelogs
         run: |
           git add .
           git config --local user.name "Juraj Hrivnak"
           git config --local user.email "juraj-hrivnak@users.noreply.github.com"
-          git commit -m "Update CHANGELOG.md" -a
+          git commit -m "Automatically update CHANGELOG.md" -a
       - name: Push changelogs
         uses: ad-m/github-push-action@v0.6.0
         with:
