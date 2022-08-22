@@ -275,9 +275,13 @@ Chopping.addRecipe("chopping_sticks", <minecraft:stick>, <ore:firewood>, [1], [4
 // 1 log => 8 lumber = 16 sticks
 // 1 log => 6 firewood = 24 sticks
 
+// Treated Sticks workaround
+<ore:nonTreatedLumber>.addAll(<ore:lumber>);
+<ore:nonTreatedLumber>.remove(<contenttweaker:treated_wood_lumber>);
+
 recipes.addShaped("Sticks", <minecraft:stick> * 4,
-   [[<ore:lumber> ],
-    [<ore:lumber> ]]);
+   [[<ore:nonTreatedLumber> ],
+    [<ore:nonTreatedLumber> ]]);
 
 recipes.addShaped("Splitting Wedge", <contenttweaker:splitting_wedge>,
    [[<ore:ingotSteel>  ],
