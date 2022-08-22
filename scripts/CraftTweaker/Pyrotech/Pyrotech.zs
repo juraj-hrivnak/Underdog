@@ -113,8 +113,11 @@ RecipeUtils.tweakRecipe(true, <pyrotech:stone_hammer>,
 
 // Anvil Granite => Stone Anvil
 RecipeUtils.tweakRecipe(true, <pyrotech:anvil_granite>,
-   [[<minecraft:stone_slab> ],
-    [<ore:cobblestone>      ]]);
+   [[<minecraft:stone_slab> | <minecraft:stone_slab:3> ],
+    [<ore:cobblestone>                                 ]]);
+
+// Flint And Tinder
+recipes.addShapeless(<pyrotech:flint_and_tinder>, [<ore:itemRawFlint>, <pyrotech:material:13>, <ore:rocks>]);
 
 
 // Refractory
