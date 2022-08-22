@@ -96,6 +96,7 @@ Dropt.list("torch")
 <ore:listAllmilk>.add(<pyrotech:bucket_clay:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_wood:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_stone:1>);
+<ore:listAllmilk>.add(<pyrotech:bucket_refractory:1>);
 
 // Wood Pile
 RecipeUtils.tweakRecipe(true, <pyrotech:log_pile>, RecipeUtils.createFull3(<ore:firewood>));
