@@ -102,10 +102,10 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
 
         event.player.world.catenation()
             .sleep(2)
-            .run(function(world) {
+            .run(function(world, context) {
                 event.world.setBlockState(blockBreakTransforms[event.blockState], event.position);
             })
-            .stopWhen(function(world) {
+            .stopWhen(function(world, context) {
                 return !event.player.alive;
             })
             .start();
