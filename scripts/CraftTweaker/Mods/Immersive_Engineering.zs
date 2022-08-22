@@ -11,6 +11,10 @@ import mods.immersiveengineering.Squeezer as Squeezer;
 import scripts.CraftTweaker.Vanilla.Water.allWater;
 import scripts.CraftTweaker.Utils.RecipeUtils;
 
+// Treated Sticks
+recipes.removeShaped(<immersiveengineering:material:0>);
+recipes.addShaped("ieTreatedSticks", <immersiveengineering:material:0> * 2, [[<contenttweaker:treated_wood_lumber>], [<contenttweaker:treated_wood_lumber>]]);
+
 // // Treated Wood Crate
 // recipes.removeShaped(<immersiveengineering:wooden_device0>);
 // recipes.addShapedMirrored(<immersiveengineering:wooden_device0>, [
