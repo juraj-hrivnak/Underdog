@@ -37,7 +37,7 @@ body:
       description: What launcher are you using?
       multiple: true
       options:
-        - CurseForge App
+        - CurseForge
         - MultiMC
         - PolyMC
         - GDLauncher
