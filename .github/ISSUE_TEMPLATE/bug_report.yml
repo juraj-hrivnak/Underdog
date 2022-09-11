@@ -1,4 +1,4 @@
-name: "🐛 Bug Report"
+name: "Bug Report"
 description: Create a new ticket for a bug.
 body:
   - type: textarea
