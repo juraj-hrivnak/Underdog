@@ -15,16 +15,13 @@ body:
       value: |
         1. Go to '...'
         2. Click on '....'
-        3. Scroll down to '....'
         4. See an error
-      render: bash
     validations:
       required: true
   - type: textarea
     attributes:
       label: "Screenshots"
       description: If applicable, add screenshots to help explain your problem.
-      render: bash
     validations:
       required: false
   - type: input
