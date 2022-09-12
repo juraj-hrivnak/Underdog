@@ -1,0 +1,58 @@
+name: "Bug Report"
+description: Create a new ticket for a bug.
+body:
+  - type: textarea
+    attributes:
+      label: "Description"
+      description: Please enter an explicit description of your issue
+      placeholder: Short and explicit description of your incident...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Reproduction steps"
+      description: Please enter an explicit description of your issue
+      value: |
+        1. Go to '...'
+        2. Click on '....'
+        4. See an error
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: "The latest.log file"
+      description: |
+        Please provide a [gist](https://gist.github.com/) / [pastebin](https://pastebin.com/) / etc link here. (Make sure that it isn't set to expire!)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: "Launcher"
+      description: What launcher are you using?
+      multiple: true
+      options:
+        - CurseForge
+        - MultiMC
+        - PolyMC
+        - GDLauncher
+        - ATLauncher
+        - Vanilla
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: "OS"
+      description: What is the impacted environment?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - Mac
+    validations:
+      required: true
