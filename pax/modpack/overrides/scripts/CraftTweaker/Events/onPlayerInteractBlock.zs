@@ -70,10 +70,10 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		if (mill[0] == false) {
             event.player.world.catenation()
                 .sleep(64)
-                .run(function(world) {
+                .run(function(world, context) {
                     return mill[0] = false;
                 })
-                .stopWhen(function(world) {
+                .stopWhen(function(world, context) {
                     return !event.player.alive;
                 })
                 .start();

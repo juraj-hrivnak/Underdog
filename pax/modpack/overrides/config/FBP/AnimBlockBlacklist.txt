@@ -1,0 +1,2 @@
+minecraft:snow_layer
+immersiveengineering:wooden_device0

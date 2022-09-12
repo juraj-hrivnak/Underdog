@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["underdog_stone_texture_improvements.zip","Modern Pyrotech [1.12] [v1.2].zip","Modernity-format3-v3.7.0.zip","AntiqueAtlasExtra-v1.2.zip","§c§lCream §7Cuisine Resource Pack - 0.5.0.zip"]
+resourcePacks:["underdog_stone_texture_improvements.zip","Modern Pyrotech [1.12] [v1.2].zip","Modernity-format3-v3.7.1.zip","AntiqueAtlasExtra-v1.2.zip","§c§lCream §7Cuisine Resource Pack - 0.5.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

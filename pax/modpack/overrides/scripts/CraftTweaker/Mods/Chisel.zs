@@ -38,7 +38,9 @@ val stoneToBeChiseled = {
     <divergentunderground:diorite_cobblestone>          : <minecraft:stone:3>   ,
     <divergentunderground:granite_cobblestone>          : <minecraft:stone:1>   ,
     <divergentunderground:quark_limestone_cobblestone>  : <quark:limestone>     ,
-    <divergentunderground:quark_marble_cobblestone>     : <quark:marble>
+    <divergentunderground:quark_marble_cobblestone>     : <quark:marble>        ,
+
+    <minecraft:stone_slab:3>                            : <minecraft:stone_slab>
 } as IItemStack[IItemStack];
 
 for cobblestone, stone in stoneToBeChiseled {

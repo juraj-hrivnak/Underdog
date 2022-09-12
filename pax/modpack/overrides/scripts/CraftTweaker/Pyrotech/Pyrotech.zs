@@ -96,6 +96,10 @@ Dropt.list("torch")
 <ore:listAllmilk>.add(<pyrotech:bucket_clay:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_wood:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_stone:1>);
+<ore:listAllmilk>.add(<pyrotech:bucket_refractory:1>);
+
+// Coal Coke Block
+<ore:blockFuelCoke>.add(<pyrotech:coal_coke_block>);
 
 // Wood Pile
 RecipeUtils.tweakRecipe(true, <pyrotech:log_pile>, RecipeUtils.createFull3(<ore:firewood>));
@@ -113,8 +117,11 @@ RecipeUtils.tweakRecipe(true, <pyrotech:stone_hammer>,
 
 // Anvil Granite => Stone Anvil
 RecipeUtils.tweakRecipe(true, <pyrotech:anvil_granite>,
-   [[<minecraft:stone_slab> ],
-    [<ore:cobblestone>      ]]);
+   [[<minecraft:stone_slab> | <minecraft:stone_slab:3> ],
+    [<ore:cobblestone>                                 ]]);
+
+// Flint And Tinder
+recipes.addShapeless(<pyrotech:flint_and_tinder>, [<ore:itemRawFlint>, <pyrotech:material:13>, <ore:rocks>]);
 
 
 // Refractory
@@ -127,21 +134,25 @@ RecipeUtils.tweakRecipe(true, <pyrotech:brick_kiln>,
    [[refracBrick, refracLump  , refracBrick ],
     [refracLump , null        , refracLump  ],
     [refracBrick, refracBlock , refracBrick ]]);
+
 // Oven
 RecipeUtils.tweakRecipe(true, <pyrotech:brick_oven>,
    [[refracBrick, refracBrick , refracBrick ],
     [refracLump , null        , refracLump  ],
     [refracBrick, refracBlock , refracBrick ]]);
+
 // Sawmill
 RecipeUtils.tweakRecipe(true, <pyrotech:brick_sawmill>,
    [[refracBrick, null        , refracBrick ],
     [refracLump , null        , refracLump  ],
     [refracBrick, refracBlock , refracBrick ]]);
+
 // Crucible
 RecipeUtils.tweakRecipe(true, <pyrotech:brick_crucible>,
    [[refracBrick, null        , refracBrick ],
     [refracLump , refracLump  , refracLump  ],
     [refracBrick, refracBlock , refracBrick ]]);
+
 // Bloomery
 RecipeUtils.tweakRecipe(true, <pyrotech:bloomery>,
    [[refracBrick, null        , refracBrick ],
@@ -158,16 +169,19 @@ RecipeUtils.tweakRecipe(true, <pyrotech:stone_kiln>,
    [[masonryBrick, clayLump    , masonryBrick ],
     [clayLump    , null        , clayLump     ],
     [masonryBrick, masonryBlock, masonryBrick ]]);
+
 // Oven
 RecipeUtils.tweakRecipe(true, <pyrotech:stone_oven>,
    [[masonryBrick, masonryBrick, masonryBrick ],
     [clayLump    , null        , clayLump     ],
     [masonryBrick, masonryBlock, masonryBrick ]]);
+
 // Sawmill
 RecipeUtils.tweakRecipe(true, <pyrotech:stone_sawmill>,
    [[masonryBrick, null        , masonryBrick ],
     [clayLump    , null        , clayLump     ],
     [masonryBrick, masonryBlock, masonryBrick ]]);
+
 // Crucible
 RecipeUtils.tweakRecipe(true, <pyrotech:stone_crucible>,
    [[masonryBrick, null        , masonryBrick ],
