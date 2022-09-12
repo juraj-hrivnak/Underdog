@@ -47,8 +47,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: changelog
-      - name: Move changelog
-        run:  mv CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md pax/modpack/CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md
+          path: pax/modpack
       - name: Export modpack
         run: |
           cd pax/
