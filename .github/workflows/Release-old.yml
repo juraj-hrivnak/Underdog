@@ -30,12 +30,12 @@ jobs:
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
       - name: Rename changelog
-        run: mv CHANGELOG.md CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md
+        run: mv CHANGELOG.md CHANGELOG-${{ steps.modpack-info.outputs.tag }}.md
       - name: Upload changelog
         uses: actions/upload-artifact@v2
         with:
           name: changelog
-          path: CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md
+          path: CHANGELOG-${{ steps.modpack-info.outputs.tag }}.md
 
   build-modpack:
     runs-on: ubuntu-latest
