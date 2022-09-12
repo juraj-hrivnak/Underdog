@@ -172,7 +172,7 @@ jobs:
           git add .
           git config --local user.name "Juraj Hrivnak"
           git config --local user.email "juraj-hrivnak@users.noreply.github.com"
-          git commit -m "Automatically update CHANGELOG.md" -a
+          git commit -m "Automatically update changelogs" -a
       - name: Push changelogs
         uses: ad-m/github-push-action@v0.6.0
         with:
