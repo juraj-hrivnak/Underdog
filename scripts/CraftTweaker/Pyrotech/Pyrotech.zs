@@ -98,6 +98,9 @@ Dropt.list("torch")
 <ore:listAllmilk>.add(<pyrotech:bucket_stone:1>);
 <ore:listAllmilk>.add(<pyrotech:bucket_refractory:1>);
 
+// Coal Coke Block
+<ore:blockFuelCoke>.add(<pyrotech:coal_coke_block>);
+
 // Wood Pile
 RecipeUtils.tweakRecipe(true, <pyrotech:log_pile>, RecipeUtils.createFull3(<ore:firewood>));
 furnace.setFuel(<pyrotech:log_pile>, 480);
