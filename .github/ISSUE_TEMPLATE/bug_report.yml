@@ -12,7 +12,7 @@ body:
     attributes:
       label: "To reproduce"
       description: |
-       Please enter an explicit description of your issue.
+       The steps to reproduce the issue.
     validations:
       required: false
   - type: textarea
