@@ -4,24 +4,22 @@ body:
   - type: textarea
     attributes:
       label: "Description"
-      description: Please enter an explicit description of your issue
+      description: Please enter an explicit description of your issue.
       placeholder: Short and explicit description of your incident...
     validations:
       required: true
   - type: textarea
     attributes:
-      label: "Reproduction steps"
-      description: Please enter an explicit description of your issue
-      value: |
-        1. Go to '...'
-        2. Click on '....'
-        4. See an error
+      label: "To reproduce"
+      description: |
+       Please enter an explicit description of your issue.
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: "Screenshots"
-      description: If applicable, add screenshots to help explain your problem.
+      description: |
+        If applicable, add screenshots to help explain your problem.
     validations:
       required: false
   - type: input
@@ -29,6 +27,13 @@ body:
       label: "The latest.log file"
       description: |
         Please provide a [gist](https://gist.github.com/) / [pastebin](https://pastebin.com/) / etc link here. (Make sure that it isn't set to expire!)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Underdog version"
+      description: |
+        What version of Underdog are you using? **Please** do not just say "latest."
     validations:
       required: true
   - type: dropdown
