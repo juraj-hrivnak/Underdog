@@ -68,17 +68,6 @@
       }
     },
     {
-      "projectID": 220811,
-      "fileID": 2571951,
-      "required": true,
-      "__meta": {
-        "name": "The Spice of Life",
-        "dependencies": [
-          224472
-        ]
-      }
-    },
-    {
       "projectID": 220954,
       "fileID": 3840577,
       "required": true,
@@ -1866,14 +1855,6 @@
       "required": true,
       "__meta": {
         "name": "Emerging Technology"
-      }
-    },
-    {
-      "projectID": 355619,
-      "fileID": 2855115,
-      "required": true,
-      "__meta": {
-        "name": "Homing Exp Orbs"
       }
     },
     {
