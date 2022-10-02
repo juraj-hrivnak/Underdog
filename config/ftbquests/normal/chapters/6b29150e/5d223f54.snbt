@@ -1,8 +1,10 @@
 {
-	x: -2.5d,
-	y: -3.0d,
+	title: "Get Wokking!",
+	icon: "cuisine:fire_pit 1 1",
+	x: -4.0d,
+	y: -0.5d,
 	dependencies: [
-		"f2d65ffe"
+		"451fb1d8"
 	],
 	hide: true,
 	tasks: [{
@@ -10,6 +12,22 @@
 		type: "item",
 		items: [{
 			item: "cuisine:wok"
+		}]
+	},
+	{
+		uid: "395978b7",
+		type: "item",
+		items: [{
+			item: "cuisine:iron_spatula"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea30aa0e",
+		type: "item",
+		items: [{
+			item: "cuisine:placed_dish"
 		}]
 	}]
 }

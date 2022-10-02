@@ -1,9 +1,9 @@
 {
 	icon: "cuisine:wooden_basin",
 	x: -4.0d,
-	y: -0.5d,
+	y: -2.0d,
 	dependencies: [
-		"3b8903a3"
+		"5d223f54"
 	],
 	hide: true,
 	tasks: [{

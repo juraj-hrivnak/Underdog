@@ -1,6 +1,6 @@
 {
 	title: "Industrial Foregoing",
-	disable_toast: true,
+	icon: "industrialforegoing:book_manual",
 	x: -1.5d,
 	y: -3.0d,
 	dependencies: [
@@ -8,10 +8,7 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "73e484fc",
-		type: "item",
-		items: [{
-			item: "industrialforegoing:book_manual"
-		}]
+		uid: "7d6ec230",
+		type: "checkmark"
 	}]
 }
