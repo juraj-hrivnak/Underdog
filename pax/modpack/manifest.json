@@ -84,14 +84,6 @@
       }
     },
     {
-      "projectID": 223094,
-      "fileID": 2923460,
-      "required": true,
-      "__meta": {
-        "name": "Inventory Tweaks [1.12 only] "
-      }
-    },
-    {
       "projectID": 223150,
       "fileID": 2689602,
       "required": true,
@@ -292,7 +284,7 @@
     },
     {
       "projectID": 232838,
-      "fileID": 3985172,
+      "fileID": 4010904,
       "required": true,
       "__meta": {
         "name": "Logistics Pipes",
@@ -489,6 +481,15 @@
       }
     },
     {
+      "projectID": 242998,
+      "fileID": 2851111,
+      "required": true,
+      "__meta": {
+        "name": "Silent Lib (silentlib)",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 244786,
       "fileID": 2616061,
       "required": true,
@@ -540,6 +541,17 @@
       "required": true,
       "__meta": {
         "name": "InfiniteFluids"
+      }
+    },
+    {
+      "projectID": 248027,
+      "fileID": 2816920,
+      "required": true,
+      "__meta": {
+        "name": "Scaling Health",
+        "dependencies": [
+          242998
+        ]
       }
     },
     {
@@ -747,7 +759,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3974790,
+      "fileID": 4000788,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1405,7 +1417,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 3981324,
+      "fileID": 4010987,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1577,7 +1589,7 @@
     },
     {
       "projectID": 306676,
-      "fileID": 3902268,
+      "fileID": 3995519,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
@@ -1703,14 +1715,6 @@
         "dependencies": [
           267602
         ]
-      }
-    },
-    {
-      "projectID": 313477,
-      "fileID": 3002646,
-      "required": true,
-      "__meta": {
-        "name": "Fx Control!"
       }
     },
     {
@@ -2057,7 +2061,7 @@
     },
     {
       "projectID": 409087,
-      "fileID": 3954054,
+      "fileID": 3994522,
       "required": true,
       "__meta": {
         "name": "Entity Culling",
@@ -2234,7 +2238,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3976103,
+      "fileID": 4013344,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2253,7 +2257,7 @@
     },
     {
       "projectID": 574162,
-      "fileID": 3969938,
+      "fileID": 4016985,
       "required": true,
       "__meta": {
         "name": "SimpleDifficulty for Underdog"
@@ -2298,13 +2302,34 @@
       }
     },
     {
+      "projectID": 624243,
+      "fileID": 3895901,
+      "required": true,
+      "__meta": {
+        "name": "ModularUI",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 624967,
-      "fileID": 3954051,
+      "fileID": 3994517,
       "required": true,
       "__meta": {
         "name": "RenderLib",
         "dependencies": [
           357178
+        ]
+      }
+    },
+    {
+      "projectID": 632327,
+      "fileID": 3975184,
+      "required": true,
+      "__meta": {
+        "name": "Inventory Bogo Sorter",
+        "dependencies": [
+          419286,
+          624243
         ]
       }
     },
@@ -2338,7 +2363,7 @@
     },
     {
       "projectID": 653506,
-      "fileID": 3973803,
+      "fileID": 3993966,
       "required": true,
       "__meta": {
         "name": "Tweaked Petroleum",
