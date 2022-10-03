@@ -6,7 +6,7 @@
 		"&7Craft a Flint and Tinder.",
 		"",
 		"&r&lNote:",
-		"&7To start the fire, you need to hold &b(Right-Click)&r&7 and look at a block."
+		"&7To start the fire, you need to &bhold (Right-Click)&r&7 and look at the block you want to start the fire on."
 	],
 	dependencies: [
 		"2df431ba"

@@ -1,6 +1,15 @@
 {
 	x: 3.0d,
 	y: 1.2d,
+	text: [
+		"&r&lTask:",
+		"&7Make one bucket of Tannin using the barrel.",
+		"",
+		"&r&lNote:",
+		"&7The barrel will not work if not covered with the lid!",
+		"",
+		"To cover the barrel &b(Right-Click)&r&7 with the lid on the top side of the barrel."
+	],
 	dependencies: [
 		"108d6ebd"
 	],
