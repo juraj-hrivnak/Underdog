@@ -1,8 +1,12 @@
 {
-	title: "Get Wokking!",
-	icon: "cuisine:fire_pit 1 1",
+	title: "Prepare Utensils",
+	icon: "cuisine:wok",
 	x: -4.0d,
 	y: -0.5d,
+	text: [
+		"&r&lTask:",
+		"&7Make a wok, a spatula and a plate."
+	],
 	dependencies: [
 		"451fb1d8"
 	],
