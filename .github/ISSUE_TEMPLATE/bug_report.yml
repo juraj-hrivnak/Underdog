@@ -6,22 +6,17 @@ body:
       label: "Description"
       description: Please enter an explicit description of your issue.
       placeholder: Short and explicit description of your incident...
+      description: |
+        ### The issue
+        <!--- Description of the issue. --->
+      
+        ### To reproduce
+        <!--- The steps to reproduce the issue. --->
+        
+        ### Screenshots
+        <!--- If applicable, add screenshots to help explain your problem. --->
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: "To reproduce"
-      description: |
-       The steps to reproduce the issue.
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: "Screenshots"
-      description: |
-        If applicable, add screenshots to help explain your problem.
-    validations:
-      required: false
   - type: input
     attributes:
       label: "The latest.log file"
