@@ -26,7 +26,7 @@ body:
     attributes:
       label: "The latest.log file"
       description: |
-        Please provide a [mclo.gs](https://mclo.gs/) / [gist](https://gist.github.com/) / [pastebin](https://pastebin.com/) / etc link here. (Make sure that it isn't set to expire!)
+        Please provide a [mclo.gs](https://mclo.gs/) or [gist](https://gist.github.com/) link here. (Make sure that it isn't set to expire!)
     validations:
       required: true
   - type: input
