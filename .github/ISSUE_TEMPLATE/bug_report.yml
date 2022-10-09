@@ -5,8 +5,8 @@ body:
     attributes:
       label: "Description"
       description: |
-        Please enter an explicit **description** of your issue.
-        You can also add **reproduction steps** and **screenshots** to the description.
+        Please enter an explicit __description__ of your issue.
+        You can also add __reproduction steps__ and __screenshots__ to the description.
       placeholder: |
         Short and explicit description of your incident...
         How do you trigger this bug? Please walk us through it step by step.
