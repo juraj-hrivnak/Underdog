@@ -4,29 +4,20 @@ body:
   - type: textarea
     attributes:
       label: "Description"
-      description: Please enter an explicit description of your issue.
-      placeholder: Short and explicit description of your incident...
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: "To reproduce"
       description: |
-       The steps to reproduce the issue.
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: "Screenshots"
-      description: |
+        Please enter an explicit __description__ of your issue.
+        You can also add __reproduction steps__ and __screenshots__ to the description.
+      placeholder: |
+        Short and explicit description of your incident...
+        How do you trigger this bug? Please walk us through it step by step.
         If applicable, add screenshots to help explain your problem.
     validations:
-      required: false
+      required: true
   - type: input
     attributes:
       label: "The latest.log file"
       description: |
-        Please provide a [mclo.gs](https://mclo.gs/) / [gist](https://gist.github.com/) / [pastebin](https://pastebin.com/) / etc link here. (Make sure that it isn't set to expire!)
+        Please provide a [mclo.gs](https://mclo.gs/) or [gist](https://gist.github.com/) link here. (Make sure that it isn't set to expire!)
     validations:
       required: true
   - type: input
