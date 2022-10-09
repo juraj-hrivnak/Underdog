@@ -6,12 +6,16 @@ body:
       label: "Description"
       description: Please enter an explicit description of your issue.
       placeholder: Short and explicit description of your incident...
-      description: |
+      value: |
         ### The issue
         <!--- Description of the issue. --->
       
         ### To reproduce
-        <!--- The steps to reproduce the issue. --->
+        <!--- How do you trigger this bug? Please walk us through it step by step. --->
+          1.
+          2.
+          3.
+          ...
         
         ### Screenshots
         <!--- If applicable, add screenshots to help explain your problem. --->
