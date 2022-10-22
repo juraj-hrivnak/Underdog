@@ -24,7 +24,7 @@ body:
     attributes:
       label: "Underdog version"
       description: |
-        What version of Underdog are you using? **Please** do not just say "latest."
+        What version of Underdog are you using? Do not just say "latest" please.
     validations:
       required: true
   - type: dropdown
