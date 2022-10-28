@@ -1,22 +1,21 @@
 {
-  "name": "Gravity",
-  "icon": "biomesoplenty:sacred_oak_fence",
-  "category": "01_key_mechanics",
-  "sortnum" : "5",
-  "read_by_default": true,
-  "pages":
-  [
-    {
-      "type": "spotlight",
-	  "title": "Dirt",
-	  "item": "minecraft:dirt",
-      "text": "Unlike in vanilla, gravity-affected blocks are able to fall. This means that without a proper support system, you will not be able to create walls or ceilings out of these blocks."
-    },
-    {
-      "type": "spotlight",
-	  "title": "Support Beams",
-	  "item": "biomesoplenty:sacred_oak_fence",
-      "text": "Any fance can be used as proper support beam."
-    }
-  ]
+    "name": "Gravity",
+    "icon": "biomesoplenty:sacred_oak_fence",
+    "category": "01_key_mechanics",
+    "sortnum": "5",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Dirt",
+            "item": "minecraft:dirt",
+            "text": "Unlike in vanilla, gravity-affected blocks are able to fall. This means that without a proper support system, you will not be able to create walls or ceilings out of these blocks."
+        },
+        {
+            "type": "spotlight",
+            "title": "Support Beams",
+            "item": "biomesoplenty:sacred_oak_fence",
+            "text": "Any fance can be used as proper support beam."
+        }
+    ]
 }

@@ -1,0 +1,22 @@
+{
+    "name": "Nutrition",
+    "icon": "harvestcraft:bentoboxitem",
+    "category": "01_key_mechanics",
+    "sortnum": "4",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "image",
+            "images": [
+                "modpack:textures/patchouli_images/nutrition.png"
+            ],
+            "title": "",
+            "text": "",
+            "border": true
+        },
+        {
+            "type": "text",
+            "text": "Once all of your nutrition categories are nearly depleted negative effects will appear."
+        }
+    ]
+}

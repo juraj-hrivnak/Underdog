@@ -1,16 +1,13 @@
 {
-  "name": "Underdog",
-  "subtitle": "A guide- how to survive!",
-
+    "name": "Underdog",
+    "subtitle": "A guide- how to survive!",
     "landing_text": "This book is all about the Underdog modpack and its features. This guide will help you to get started playing in this realistic survival Modpack.",
     "creative_tab": "tools",
     "show_progress": false,
     "use_blocky_font": false,
-
-  "book_texture": "modpack:textures/gui/patchouli.png",
-  "model": "modpack:patchouli_book",
-
+    "book_texture": "modpack:textures/gui/patchouli.png",
+    "model": "modpack:patchouli_book",
     "macros": {
-      "$(em)": "$(#388e3c)"
+        "$(em)": "$(#388e3c)"
     }
 }

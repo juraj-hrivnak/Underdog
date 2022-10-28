@@ -1,0 +1,15 @@
+{
+    "name": "Skills",
+    "icon": "modpack:textures/items/skills.png",
+    "category": "01_key_mechanics",
+    "sortnum": "7",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Skills",
+            "item": "compatskills:textures/unlockables/map.png",
+            "text": ""
+        }
+    ]
+}
