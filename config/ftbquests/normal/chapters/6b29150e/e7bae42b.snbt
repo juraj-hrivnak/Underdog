@@ -1,10 +1,10 @@
 {
-	title: "Juices",
+	title: "Juice Press",
 	icon: "cuisine:wooden_basin",
-	x: -4.0d,
-	y: -2.0d,
+	x: -5.5d,
+	y: -1.0d,
 	dependencies: [
-		"5d223f54"
+		"451fb1d8"
 	],
 	hide: true,
 	tasks: [{

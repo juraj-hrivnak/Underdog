@@ -1,5 +1,5 @@
 {
-	title: "Prepare Utensils",
+	title: "Prepare the Utensils",
 	icon: "cuisine:wok",
 	x: -4.0d,
 	y: -0.5d,
@@ -8,7 +8,7 @@
 		"&7Make a wok, a spatula and a plate."
 	],
 	dependencies: [
-		"451fb1d8"
+		"ad70493a"
 	],
 	hide: true,
 	tasks: [{
