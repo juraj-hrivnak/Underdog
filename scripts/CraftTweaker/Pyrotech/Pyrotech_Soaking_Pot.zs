@@ -32,7 +32,11 @@ soakingPotWaterRecipe("slaked_lime"             , <pyrotech:material:8>         
 soakingPotWaterRecipe("ore_sugarcane"           , <pyrotech:material:25>              , 125                         , <ore:sugarcane>          , 1200);
 soakingPotWaterRecipe("pyrotech_rock_7"         , <pyrotech:material:25>              , 150                         , <pyrotech:rock:7>        , 1200);
 
-SoakingPot.addRecipe("pyrotech_material_20"     , <pyrotech:material:23>              , <liquid:creosote>       * 50, <pyrotech:material:20>   , 1200);
+// Tarred Board
+SoakingPot.addRecipe("pyrotech_tarred_board"    , <pyrotech:material:23>              , <liquid:creosote>      * 125, <pyrotech:material:20>   , 200);
+
+// Durable Leather
+SoakingPot.addRecipe("pyrotech_durable_leather" , <pyrotech:material:41>              , <liquid:creosote>      * 125, <ore:leather>            , 1200);
 
 // Treated Lumber
 SoakingPot.addRecipe("treated_lumber"           , <contenttweaker:treated_wood_lumber>, <liquid:creosote>      * 125, <ore:lumber>             , 200);
