@@ -284,7 +284,7 @@
     },
     {
       "projectID": 232838,
-      "fileID": 4010904,
+      "fileID": 4020015,
       "required": true,
       "__meta": {
         "name": "Logistics Pipes",
@@ -404,7 +404,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3965470,
+      "fileID": 4036242,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -759,7 +759,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 4000788,
+      "fileID": 4032297,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1251,7 +1251,7 @@
     },
     {
       "projectID": 288885,
-      "fileID": 2838777,
+      "fileID": 4030366,
       "required": true,
       "__meta": {
         "name": "FastWorkbench",
@@ -1417,7 +1417,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 4010987,
+      "fileID": 4048717,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1589,7 +1589,7 @@
     },
     {
       "projectID": 306676,
-      "fileID": 3995519,
+      "fileID": 4054206,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
@@ -1916,7 +1916,7 @@
     },
     {
       "projectID": 367706,
-      "fileID": 3975631,
+      "fileID": 4046875,
       "required": true,
       "__meta": {
         "name": "FancyMenu [Forge]",
@@ -1991,7 +1991,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 3984780,
+      "fileID": 4051734,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2073,7 +2073,7 @@
     },
     {
       "projectID": 410295,
-      "fileID": 3912987,
+      "fileID": 4031711,
       "required": true,
       "__meta": {
         "name": "Konkrete [Forge]",
@@ -2227,7 +2227,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4013344,
+      "fileID": 4054291,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2235,7 +2235,7 @@
     },
     {
       "projectID": 574029,
-      "fileID": 3918388,
+      "fileID": 4023059,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
@@ -2312,7 +2312,7 @@
     },
     {
       "projectID": 632327,
-      "fileID": 3975184,
+      "fileID": 4046413,
       "required": true,
       "__meta": {
         "name": "Inventory Bogo Sorter",
@@ -2332,7 +2332,7 @@
     },
     {
       "projectID": 637556,
-      "fileID": 3854424,
+      "fileID": 4028361,
       "required": true,
       "__meta": {
         "name": "Tabulator",
@@ -2352,7 +2352,7 @@
     },
     {
       "projectID": 653506,
-      "fileID": 3993966,
+      "fileID": 4033447,
       "required": true,
       "__meta": {
         "name": "Tweaked Petroleum",
@@ -2377,6 +2377,14 @@
       "required": true,
       "__meta": {
         "name": "Even More Realistic Ore Veins"
+      }
+    },
+    {
+      "projectID": 687632,
+      "fileID": 4036750,
+      "required": true,
+      "__meta": {
+        "name": "Tweaked Lib"
       }
     }
   ]
