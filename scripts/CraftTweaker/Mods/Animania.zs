@@ -31,6 +31,14 @@ val bucketIron as IIngredient =
     | <forge:bucketfilled>.withTag({FluidName: "milk_goat", Amount: 1000})
     | <forge:bucketfilled>.withTag({FluidName: "milk_sheep", Amount: 1000});
 
+val bucketRefractory as IIngredient =
+      <pyrotech:bucket_refractory>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}})
+    | <pyrotech:bucket_refractory>.withTag({fluids: {FluidName: "milk_friesian", Amount: 1000}})
+    | <pyrotech:bucket_refractory>.withTag({fluids: {FluidName: "milk_jersey", Amount: 1000}})
+    | <pyrotech:bucket_refractory>.withTag({fluids: {FluidName: "milk_goat", Amount: 1000}})
+    | <pyrotech:bucket_refractory>.withTag({fluids: {FluidName: "milk_goat", Amount: 1000}})
+    | <pyrotech:bucket_refractory>.withTag({fluids: {FluidName: "milk_sheep", Amount: 1000}});
+
 val bucketStone as IIngredient =
       <pyrotech:bucket_stone>.withTag({fluids: {FluidName: "milk_holstein", Amount: 1000}})
     | <pyrotech:bucket_stone>.withTag({fluids: {FluidName: "milk_friesian", Amount: 1000}})
@@ -56,9 +64,34 @@ val bucketClay as IIngredient =
     | <pyrotech:bucket_clay>.withTag({fluids: {FluidName: "milk_sheep", Amount: 1000}});
 
 RecipeUtils.tweakRecipe(false, <minecraft:milk_bucket>, [[ bucketIron.noReturn() ]]);
-recipes.addShapeless(<pyrotech:bucket_stone:1>, [ bucketStone.noReturn() ]);
-recipes.addShapeless(<pyrotech:bucket_wood:1>, [ bucketWood.noReturn() ]);
-recipes.addShapeless(<pyrotech:bucket_clay:1>, [ bucketClay.noReturn() ]);
+
+recipes.addShapeless("milk_fix_refractory", <pyrotech:bucket_refractory:1>, [ bucketRefractory.noReturn().marked("bucket") ],
+    function (out, ins, cInfo) {
+        return out.withTag({durability: ins.bucket.tag.durability});
+    },
+    null
+);
+
+recipes.addShapeless("milk_fix_stone", <pyrotech:bucket_stone:1>, [ bucketStone.noReturn().marked("bucket") ],
+    function (out, ins, cInfo) {
+        return out.withTag({durability: ins.bucket.tag.durability});
+    },
+    null
+);
+
+recipes.addShapeless("milk_fix_wood", <pyrotech:bucket_wood:1>, [ bucketWood.noReturn().marked("bucket") ],
+    function (out, ins, cInfo) {
+        return out.withTag({durability: ins.bucket.tag.durability});
+    },
+    null
+);
+
+recipes.addShapeless("milk_fix_clay", <pyrotech:bucket_clay:1>, [ bucketClay.noReturn().marked("bucket") ],
+    function (out, ins, cInfo) {
+        return out.withTag({durability: ins.bucket.tag.durability});
+    },
+    null
+);
 
 // Meats oredict support
 <ore:listAllrabbitraw>.add(<animania:raw_prime_rabbit>);
@@ -66,3 +99,36 @@ recipes.addShapeless(<pyrotech:bucket_clay:1>, [ bucketClay.noReturn() ]);
 <ore:listAllchickenraw>.add(<animania:raw_prime_peacock>);
 <ore:listAllmuttonraw>.add(<animania:raw_prime_mutton>);
 <ore:listAllmuttonraw>.add(<animania:raw_prime_chevon>);
+
+// Trough
+RecipeUtils.tweakRecipe(true, <animania:block_trough>,
+   [[<ore:lumber>   , null           , <ore:lumber>    ],
+    [<ore:lumber>   , <ore:plankWood>, <ore:lumber>    ],
+    [<ore:stickWood>, null           , <ore:stickWood> ]]);
+
+// Horse Cart
+RecipeUtils.tweakRecipe(true, <animania:item_cart>,
+   [[<ore:stickWood> , <ore:lumber>     , <ore:lumber>     ],
+    [<ore:lumber>    , <ore:ingotBronze>, <ore:lumber>     ],
+    [<animania:wheel>, null             , <animania:wheel> ]]);
+
+// Tiller
+RecipeUtils.tweakRecipe(true, <animania:item_tiller>,
+   [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze> ],
+    [<ore:lumber>     , <ore:ingotBronze>, <ore:lumber>      ],
+    [<animania:wheel> , null             , <animania:wheel>  ]]);
+
+// Wheel
+RecipeUtils.tweakRecipe(true, <animania:wheel>,
+    RecipeUtils.createCrossWithCore(<ore:lumber>, null, <ore:stickWood>));
+
+// Cheese Mold
+RecipeUtils.tweakRecipe(true, <animania:cheese_mold>,
+   [[<ore:lumber>   , null        , <ore:lumber>    ],
+    [<ore:stickWood>, <ore:lumber>, <ore:stickWood> ]]);
+
+// Pet Bowl
+val terracotta = <minecraft:stained_hardened_clay>;
+RecipeUtils.tweakRecipe(true, <animania:pet_bowl>,
+   [[terracotta, null      , terracotta ],
+    [null      , terracotta, null      ]]);
