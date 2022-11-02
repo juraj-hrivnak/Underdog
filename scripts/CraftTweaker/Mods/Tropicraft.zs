@@ -43,3 +43,7 @@ RecipeUtils.tweakRecipe(true, <tropicraft:bongo:2>,
     <tropicraft:sand:3>,
     <tropicraft:sand:4>
 ]);
+
+// Iguana Leather compat
+<ore:leather>.remove(<tropicraft:iguana_leather>);
+<ore:hideSmallScrapeable>.add(<tropicraft:iguana_leather>);
