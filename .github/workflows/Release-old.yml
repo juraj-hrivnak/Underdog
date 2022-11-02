@@ -178,3 +178,13 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+
+  close-fixed-issues:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: close-fixed-in-dev
+      uses: bdougie/close-issues-based-on-label@master
+      env:
+        LABEL: "fixed in dev"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
