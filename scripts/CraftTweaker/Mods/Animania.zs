@@ -131,4 +131,4 @@ RecipeUtils.tweakRecipe(true, <animania:cheese_mold>,
 val terracotta = <minecraft:stained_hardened_clay>;
 RecipeUtils.tweakRecipe(true, <animania:pet_bowl>,
    [[terracotta, null      , terracotta ],
-    [null      , terracotta, null      ]]);
+    [null      , terracotta, null       ]]);

@@ -1,5 +1,5 @@
 
-#loader crafttweaker reloadableevents
+#loader crafttweaker reloadable
 
 import crafttweaker.events.IEventManager;
 import crafttweaker.entity.IEntityDefinition;
