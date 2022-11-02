@@ -43,7 +43,7 @@ val cutting as IItemStack[][IIngredient] = {
     <minecraft:bed:14>                      : [oakLumber                    * 3, <minecraft:wool:14>         * 3 ],
     <minecraft:bed:15>                      : [oakLumber                    * 3, <minecraft:wool:15>         * 3 ],
 
-    <minecraft:chest>                       : [<minecraft:planks>              , null                            ],
+    <ore:chestWood>                         : [oakLumber                    * 8, null                            ],
     <minecraft:trapped_chest>               : [<minecraft:planks>              , <minecraft:tripwire_hook>       ],
 
     <minecraft:wooden_slab:*>               : [<minecraft:stick>            * 3, <pyrotech:rock:7>               ],
