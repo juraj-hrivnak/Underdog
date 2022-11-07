@@ -11,9 +11,27 @@ import mods.zenutils.Catenation;
 
 import scripts.CraftTweaker.Utils.CommandUtils;
 
-val canPlay as bool[] = [true];
-val doCatenation as bool[] = [true];
+/**
+ * Crafting Sounds
+ *
+ * Note: When querying the recipe output, the priority is the following: 1. Items, 2. Oredicts, 3. Materials
+ * This is to ensure that item sounds don't get overridden by oredict sounds, etc.
+ *
+ * Get materials from here: https://docs.blamejared.com/1.12/en/Vanilla/Blocks/IMaterial#getting-vanilla-minecraft-materials
+ */
 
+// Items
+val itemsAndSounds as string[IItemStack] = {};
+
+// Oredicts
+val oredictsAndSounds as string[IOreDictEntry] = {
+    <ore:rocks>         : "asmc:block.basalt.hit",
+    <ore:lumber>        : "tconstruct:wood_hit",
+    <ore:stickWood>     : "tconstruct:little_saw",
+    <ore:workbench>     : "tconstruct:wood_hit"
+};
+
+// Materials
 val materialsAndSounds as string[IMaterial] = {
     IMaterial.iron()    : "futuremc:lantern_place",
     IMaterial.rock()    : "asmc:block.basalt.break",
@@ -24,15 +42,20 @@ val materialsAndSounds as string[IMaterial] = {
     IMaterial.piston()  : "tconstruct:frypan_hit",
 };
 
-val oredictsAndSounds as string[IOreDictEntry] = {
-    <ore:rocks>         : "asmc:block.basalt.hit",
-    <ore:lumber>        : "tconstruct:wood_hit",
-    <ore:stickWood>     : "tconstruct:little_saw",
-    <ore:workbench>     : "tconstruct:wood_hit"
-};
 
-function playSounds(event as crafttweaker.event.PlayerCraftedEvent, canPlay as bool[], materialsAndSounds as string[IMaterial], oredictsAndSounds as string[IOreDictEntry]) as void {
-    for oredict, sound in oredictsAndSounds {
+val canPlay as bool[] = [true];
+val doCatenation as bool[] = [true];
+
+function playSounds(event as crafttweaker.event.PlayerCraftedEvent,canPlay as bool[], materials as string[IMaterial], oredicts as string[IOreDictEntry], items as string[IItemStack]) as void {
+    for item, sound in items {
+        if (item.name == event.output.name) {
+            CommandUtils.playsound(sound, "player", event.player);
+            canPlay[0] = false;
+            return;
+        }
+    }
+
+    for oredict, sound in oredicts {
         if (event.output.ores has oredict) {
             CommandUtils.playsound(sound, "player", event.player);
             canPlay[0] = false;
@@ -43,24 +66,24 @@ function playSounds(event as crafttweaker.event.PlayerCraftedEvent, canPlay as b
     if (event.output.isItemBlock) {
         val blockMaterial = event.output.asBlock().definition.defaultState.material;
 
-        for material, sound in materialsAndSounds {
+        for material, sound in materials {
             if (blockMaterial.matches(material)) {
                 CommandUtils.playsound(sound, "player", event.player);
                 canPlay[0] = false;
-                return;
+                break;
             }
         }
     }
 }
 
 events.onPlayerCrafted(function(event as crafttweaker.event.PlayerCraftedEvent) {
-	if (isNull(event.player.world) || event.player.world.isRemote()) {
-		return;
-	}
+    if (isNull(event.player.world) || event.player.world.isRemote()) {
+        return;
+    }
 
     // Crafting sounds
     if (canPlay[0]) {
-        playSounds(event, canPlay, materialsAndSounds, oredictsAndSounds);
+        playSounds(event, canPlay, materialsAndSounds, oredictsAndSounds, itemsAndSounds);
     }
 
     // Time offset
