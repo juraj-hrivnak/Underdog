@@ -35,10 +35,11 @@ body:
       options:
         - CurseForge
         - MultiMC
-        - PolyMC
+        - Prism Launcher
         - GDLauncher
         - ATLauncher
         - Vanilla
+        - Other (Write in the description)
     validations:
       required: true
   - type: dropdown
