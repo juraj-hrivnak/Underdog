@@ -1,5 +1,5 @@
 {
-	title: "Juice Press",
+	title: "Fruit Press",
 	icon: "cuisine:wooden_basin",
 	x: -5.5d,
 	y: -1.0d,
@@ -12,7 +12,21 @@
 		type: "item",
 		items: [{
 			item: "cuisine:wooden_basin"
-		}]
+		},
+		{
+			id: "cuisine:earthen_basin_colored",
+			Damage: 14s,
+			tag: {
+				display: {
+					Name: "Any Colored Earthen Basin"
+				}
+			}
+		},
+		{
+			item: "cuisine:earthen_basin"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "de3598a8",

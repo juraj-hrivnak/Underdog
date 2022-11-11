@@ -6,9 +6,7 @@
 		"&7Make one bucket of Tannin using the barrel.",
 		"",
 		"&r&lNote:",
-		"&7The barrel will not work if not covered with the lid!",
-		"",
-		"To cover the barrel &b(Right-Click)&r&7 with the lid on the top side of the barrel."
+		"&7&lThe barrel must be covered with a lid! &7For more info, read the previous quest description."
 	],
 	dependencies: [
 		"108d6ebd"

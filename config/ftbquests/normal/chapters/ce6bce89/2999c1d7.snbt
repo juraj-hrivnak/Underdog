@@ -1,5 +1,6 @@
 {
 	title: "Chop down a tree",
+	icon: "pyrotech:chopping_block",
 	x: 0.0d,
 	y: 2.0d,
 	text: [
@@ -10,6 +11,7 @@
 	],
 	hide: true,
 	size: 0.8d,
+	or_tasks: true,
 	tasks: [{
 		uid: "f4bad7ca",
 		type: "item",
@@ -34,5 +36,14 @@
 		consume_items: false,
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "791a1ef0",
+		type: "custom",
+		title: "Chop down a tree",
+		icon: "dynamictrees:oakbranch",
+		tags: [
+			"treechop"
+		]
 	}]
 }

@@ -15,6 +15,10 @@ import mods.zenutils.Catenation;
 import mods.contenttweaker.Commands;
 
 
+function updateTreeChopData(chopped as bool, player as IPlayer) {
+    player.update({ treeChop : chopped});
+}
+
 events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
 	if (isNull(event.world) || event.world.isRemote()) {
 		return;
@@ -104,6 +108,7 @@ events.onBlockBreak(function(event as crafttweaker.event.BlockBreakEvent) {
             .sleep(2)
             .run(function(world, context) {
                 event.world.setBlockState(blockBreakTransforms[event.blockState], event.position);
+                updateTreeChopData(true, event.player);
             })
             .stopWhen(function(world, context) {
                 return !event.player.alive;
