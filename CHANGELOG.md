@@ -34,6 +34,24 @@ The best place to set up a server to play the Underdog modpack is at: \
 - Updated forestry plank textures to use the 1.15+ style.
 - Automatically close "fixed in dev" issues.
 
+Greenery🌿 changelog
+
+- Rewritten configs - Breaking change!
+- Improved config parser.
+- Bonemeal will now generate plants based on config.
+- Merged pull request #6 from CatastropheChou/main.
+- Changed code style.
+- Renamed "Rivergrass", "Fern" and "Grass" to "Watermilfoil", "Eagle Fern" and "Foxtail."
+- Added new textures for Watermilfoil.
+- Refactored plant Registry IDs to include their package names (Emergent, Submerged, Upland.) Old Registry IDs are handled and will update automatically when joining an old world.
+
+SimpleDifficulty for Underdog changelog
+
+- Hypothermia and Hyperthermia will now reduce the max health and add negative potion effects instead of dealing damage.
+- Temperature effects now lower max health instead of dealing damage.
+- Made temperature effects not deadly.
+- Unified water light opacity to improve performance.
+
 ## Mod Changes
 
 ```markdown
