@@ -55,7 +55,7 @@ SimpleDifficulty for Underdog changelog
 ## Mod Changes
 
 ```markdown
-Addeded:
+Added:
 - Scaling Health
 - Inventory Bogo Sorter
 - Silent Lib (silentlib)
@@ -69,7 +69,7 @@ Removed:
 - Fx Control!
 - Onslaught
 
-Updatedd:
+Updated:
 - SimpleDifficulty for Underdog
 - Pyrotech
 - CraftPresence
