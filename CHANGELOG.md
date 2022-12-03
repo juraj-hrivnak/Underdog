@@ -15,7 +15,7 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ***
 
-- Added new descriptions to many quests.
+- Added new descriptions to the guidebook and many quests.
 - Added custom quest task that detects tree chopping.
 - How to use a wok is now properly explained.
 
