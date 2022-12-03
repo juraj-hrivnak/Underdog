@@ -1,47 +1,40 @@
 {
-  "name": "Temperature",
-  "icon": "simpledifficulty:thermometer",
-  "category": "01_key_mechanics",
-  "sortnum" : "1",
-  "read_by_default": true,
-  "pages":
-  [
-    {
-    "type": "image",
-    "images":
-      [
-        "modpack:textures/patchouli_images/temperature.png"
-      ],
-    "title": "Temperature",
-    "text": "Temperature is shown above the XP bar. The outer icon is the outside temperature, ...",
-    "border": true
-    },
-    {
-      "type": "text",
-      "text": "... AKA how hot or cold it feels. The inner icon is the core temperature, AKA how warm you actually are. $(br2)If your core temperature is too hot or too cold, the icon will start to shake, and eventually you will take damage. If you are too hot, you will get Hyperthermia , unless you have Heat Resistance. If you are too cold, you will get Hypothermia , unless you have Cold Resistance."
-    },
-
-
-    {
-      "type": "text",
-      "text": "$(em)There are numerous ways for temperature to change:$() $(br2)$(li)Altitude - How high up or below ground you are.$(br1)$(li)Armor - Special Armor heats you up or cools you down. There are also Enchantments.$(li)Biome - Different biomes are naturally hotter or colder.$(li)Blocks - Being near some blocks will heat you up or cool you down. A good example is the Firepit.$(br1)$(li)Season - the season will have an effect."
-    },
-    {
-      "type": "text",
-      "text": "$(br1)$(li)Sprinting - Makes you warmer, so sprinting through a snow storm is a good idea. $(br1)$(li)Tiles - Some 'tile entities' change the temperature, like the Heater and Chiller $(br1)$(li)Weather - If you're in the rain or snow, it will cool you down. $(br1)$(li)Wet - If you're in a pool of water, you'll cool down as if you were in the rain."
-    },
-
-
-    {
-      "type": "spotlight",
-      "title": "Thermometer",
-      "item": "simpledifficulty:thermometer",
-      "text": "You can view the world's temperature accurately with a Thermometer."
-    },
-    {
-      "type": "crafting",
-      "title": "",
-      "recipe": "simpledifficulty:thermometer"
-    }
-  ]
+    "name": "Temperature",
+    "icon": "simpledifficulty:thermometer",
+    "category": "01_key_mechanics",
+    "sortnum": "1",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "image",
+            "images": [
+                "modpack:textures/patchouli_images/temperature.png"
+            ],
+            "title": "Temperature",
+            "text": "Temperature is shown above the XP bar. The outer icon is the outside temperature, ...",
+            "border": true
+        },
+        {
+            "type": "text",
+            "text": "... AKA how hot or cold it feels. The inner icon is the core temperature, AKA how warm you actually are. $(br2)If your core temperature is too hot or too cold, the icon will start to shake, and eventually you will take damage. If you are too hot, you will get Hyperthermia , unless you have Heat Resistance. If you are too cold, you will get Hypothermia , unless you have Cold Resistance."
+        },
+        {
+            "type": "text",
+            "text": "$(em)There are numerous ways for temperature to change:$() $(br2)$(li)Altitude - How high up or below ground you are.$(br1)$(li)Armor - Special Armor heats you up or cools you down. There are also Enchantments.$(li)Biome - Different biomes are naturally hotter or colder.$(li)Blocks - Being near some blocks will heat you up or cool you down. A good example is the Firepit.$(br1)$(li)Season - the season will have an effect."
+        },
+        {
+            "type": "text",
+            "text": "$(br1)$(li)Sprinting - Makes you warmer, so sprinting through a snow storm is a good idea. $(br1)$(li)Tiles - Some 'tile entities' change the temperature, like the Heater and Chiller $(br1)$(li)Weather - If you're in the rain or snow, it will cool you down. $(br1)$(li)Wet - If you're in a pool of water, you'll cool down as if you were in the rain."
+        },
+        {
+            "type": "spotlight",
+            "title": "Thermometer",
+            "item": "simpledifficulty:thermometer",
+            "text": "You can view the world's temperature accurately with a Thermometer."
+        },
+        {
+            "type": "crafting",
+            "recipe": "simpledifficulty:thermometer"
+        }
+    ]
 }

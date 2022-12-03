@@ -1,19 +1,18 @@
 {
-  "name": "Common",
-  "icon": "geolosys:coal:1",
-  "category": "02_ores",
-  "sortnum": "1",
-  "read_by_default": true,
-  "pages": [
-    {
-      "type": "text",
-      "title": "Common",
-      "text": "Common: $(br)▁ 160 Malachite (Copper)$(br) ▁ 160 Azurite (Copper)$(br) ▂ 170 Coal$(br) ▂ 170 Assorted Quartz (Quartz / Certus Quartz)$(br) ▂ 170 Bauxite (Aluminum)$(br) ▃ 180 Galena (Lead / Silver)$(br) ▃ 180 Cassiterite (Tin)"
-    },
-    {
-      "type": "text",
-      "title": "",
-      "text": "Common: $(br)▃ 180 Teallite (Tin)$(br) ▃ 180 Autunite (Uranium)$(br) ▅ 190 Hematite (Iron)$(br) ▅ 190 Limonite (Iron)$(br) ▇ 200 Lapis$(br) ▇ 200 Cinnabar (Redstone)"
-    }
-  ]
+    "name": "Common",
+    "icon": "geolosys:coal:1",
+    "category": "02_ores",
+    "sortnum": "1",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "title": "Common",
+            "text": "▁ 160 Malachite (Copper) $(br)▁ 160 Azurite (Copper) $(br)▂ 170 Coal $(br)▂ 170 Assorted Quartz (Quartz / Certus Quartz) $(br)▂ 170 Bauxite (Aluminum) $(br)▃ 180 Galena (Lead / Silver) $(br)▃ 180 Cassiterite (Tin)"
+        },
+        {
+            "type": "text",
+            "text": "▃ 180 Teallite (Tin) $(br)▃ 180 Autunite (Uranium) $(br)▅ 190 Hematite (Iron) $(br)▅ 190 Limonite (Iron) $(br)▅ 190 Pyrite (Sulfur / Iron) $(br)▇ 200 Lapis $(br)▇ 200 Cinnabar (Redstone)"
+        }
+    ]
 }

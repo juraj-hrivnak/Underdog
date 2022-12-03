@@ -1,0 +1,28 @@
+{
+  "maxLevels": 10,
+  "cutoffDistance": 352,
+  "renderModes": [
+    "voxel",
+    "heightmap"
+  ],
+  "performance": {
+    "gpuFrustumCulling": true,
+    "maxBakesProcessedPerFrame": 1024,
+    "trackingThreads": 1,
+    "terrainThreads": 4,
+    "bakeThreads": 4
+  },
+  "compatibility": {
+    "reversedZ": true,
+    "workaroundAmdVertexPadding": "AUTO",
+    "workaroundIntelMultidrawNotWorking": "AUTO"
+  },
+  "debug": {
+    "backfaceCulling": true,
+    "vanillaTerrainRendering": true,
+    "levelZeroRendering": true,
+    "debugColors": "DISABLED",
+    "exactGeneration": true,
+    "levelZeroTracking": true
+  }
+}

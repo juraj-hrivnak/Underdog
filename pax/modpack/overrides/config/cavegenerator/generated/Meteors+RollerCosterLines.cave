@@ -21,7 +21,7 @@
   }
   // replaceableBlocks: $NATURAL_STONE
   replaceableBlocks: [
-    air
+    // air
     minecraft:end_stone
     minecraft:stone:0
     minecraft:stone:1
@@ -182,9 +182,9 @@
         }
       ]
     }, {
-      caveBlocks: [
-        { states: "minecraft:stained_glass:4", height: [ 0, 255 ] }
-      ]
+      // caveBlocks: [
+      //   { states: "minecraft:stained_glass:4", height: [ 0, 255 ] }
+      // ]
       ceiling: {
         frequency: 0
         range: [ 30, 30 ]
@@ -201,15 +201,17 @@
       // [Default: [ 30, 210 ] ]
       height: [ 0, 255 ]
       deferred: true
+      // RollerCosterLines
       generators: [
         {
           offset: -10
           seed: 1
           type: SimplexFractal
           fractal: Billow
+          // [Default: -1, -0.98 ]
           threshold: [ -1, -0.98 ]
           frequency: 0.0103
-          stretch: 1 // [Default: 5]
+          stretch: 50 // [Default: 5]
           octaves: 1
           lacunarity: 2.2 // [Default: 2.2]
           gain: 0 // [Default: 0]

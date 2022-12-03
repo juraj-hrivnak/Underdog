@@ -1,0 +1,88 @@
+{
+	title: "Get Wokking!",
+	icon: "cuisine:fire_pit 1 1",
+	x: -5.0d,
+	y: 0.5d,
+	text: [
+		"&r&lTask:",
+		"&7Make a dish using the wok.",
+		"",
+		"&r&lHow to use the wok:",
+		"&7&l  1. &7Place the &oWok&7 on a &oFire Pit&7 to make a &oWok on a Fire Pit&7. ",
+		"",
+		"You can &b(Right-Click)&r&7 on the &oFire Pit&7 with the &oWok&7 in the main hand to do it. Or you can combine them in the crafting table.",
+		"",
+		"&7&l  2. &7Make sure you have prepared your Spatula, Plate, ingredients (vegetables, meat...) and some sort of fuel (coal, firewood...) in your inventory or nearby. The long bar on the left side of the wok will indicate the heat of the wok.",
+		"",
+		"&7&l  3. &7&b(Right-Click)&r&7 with the fuel on the wok to heat it, and add the ingredients. Small circles on the left of the wok that indicate how the ingredient cooked will slowly form.",
+		"",
+		"&7&l  4. &7Now wait for the ingredients to cook. From time to time, &b(Right-Click)&r&7 with the &oSpatula&7 to turn them around so that they don't burn. You can now also add seasonings to the wok. (Salt, Sugar, Vinegar, Soy Sauce, Szechuan Pepper Powder...)",
+		"",
+		"&7&l  5. &7When the circles on the left side of the wok are fully formed and starting to get red, &b(Right-Click)&r&7 with a &oPlate&7 on the wok to finish the meal."
+	],
+	dependencies: [
+		"5d223f54"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2aca1ebf",
+		type: "item",
+		items: [{
+			id: "cuisine:dish",
+			ForgeCaps: {
+				Parent: {
+					ingredients: [{
+						material: "beef",
+						form: "FULL",
+						doneness: 122,
+						characteristics: [I;
+							8
+						],
+						effects: []
+					},
+					{
+						material: "chinese_cabbage",
+						form: "FULL",
+						doneness: 117,
+						characteristics: [I;
+							8
+						],
+						effects: []
+					},
+					{
+						material: "chinese_cabbage",
+						form: "FULL",
+						doneness: 121,
+						characteristics: [I;
+							8
+						],
+						effects: []
+					},
+					{
+						material: "beef",
+						form: "FULL",
+						doneness: 120,
+						characteristics: [I;
+							8
+						],
+						effects: []
+					}],
+					seasonings: [{
+						spice: "soy_sauce",
+						size: 10
+					}],
+					effects: [],
+					type: "mixed1",
+					foodLevel: 4,
+					saturation: 0.4f,
+					durability: 8,
+					maxServes: 8,
+					useDuration: 1.0f,
+					FoodType: "cuisine:dish"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

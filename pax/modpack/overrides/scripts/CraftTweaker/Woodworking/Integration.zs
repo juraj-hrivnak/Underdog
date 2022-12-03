@@ -152,29 +152,15 @@ for lumber, x in woodworking {
 
         // Adding recipes for slabs
         recipes.addShaped(slab * 2,
-           [[lumber, lumber ]],
-            null,
-            function(out, cInfo, player) {
-                Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
-            }
-        );
+           [[lumber, lumber ]]);
 
         // Adding recipes for planks from slabs
         recipes.addShaped(planks,
            [[slab ],
-            [slab ]],
-            null,
-            function(out, cInfo, player) {
-                Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
-            }
-        );
+            [slab ]]);
 
         // Adding recipes for lumber from slab
-        recipes.addShapeless(lumber, [slab ], null,
-            function(out, cInfo, player) {
-                Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
-            }
-        );
+        recipes.addShapeless(lumber, [slab]);
     }
 
     // Recipes for debarked logs
@@ -198,44 +184,25 @@ for lumber, x in woodworking {
     recipes.replaceAllOccurences(planks, lumber, <*>);
 
     // Adding recipe for lumber from planks
-    recipes.addShapeless(lumber * 2, [planks], null,
-        function(out, cInfo, player) {
-            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
-        }
-    );
+    recipes.addShapeless(lumber * 2, [planks]);
 
     // Adding recipe for planks block from four lumbers
     recipes.addShaped(getNameForRecipe([planks * 2]), planks * 2,
       [[lumber, lumber ],
-       [lumber, lumber ]],
-        null,
-        function(out, cInfo, player) {
-            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
-        }
-    );
+       [lumber, lumber ]]);
 
     // Adding bunus recipe for using "raw" lumber with iron nails
     recipes.addShapedMirrored(getNameForRecipe([planks * 4]) ~ "_x4_iron_nails", planks * 4,
        [[null    , null     , ironNail  ],
         [null    , rawLumber, rawLumber ],
-        [ironNail, rawLumber, rawLumber ]],
-        null,
-        function(out, cInfo, player) {
-            player.xp += 1;
-            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
-        }
-    );
+        [ironNail, rawLumber, rawLumber ]]);
 
     // Adding recipe for lumber with iron nails
     recipes.addHiddenShaped(getNameForRecipe([planks * 2]) ~ "_x2_iron_nails", planks * 2,
        [[null    , null  , ironNail ],
         [null    , lumber, lumber   ],
         [ironNail, lumber, lumber   ]],
-        null,
-        function(out, cInfo, player) {
-            Commands.call("playsound tconstruct:wood_hit block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
-        },
-        true
+        null, null, true // Mirrored
     );
 
     MKSawmill.addRecipe(planks, lumber * 2);
@@ -289,11 +256,18 @@ recipes.addShaped("Splitting Wedge", <contenttweaker:splitting_wedge>,
 
 recipes.addShapeless("Table Top", <contenttweaker:table_top>, [<ore:rocks>, <pyrotech:material:10>, <ore:lumber>, <ore:lumber>]);
 
-// Removing default recipes for crafting tables
+// Remove default Crafting Table recipes
 recipes.remove(<minecraft:crafting_table>);
 recipes.remove(<tconstruct:tooltables>);
 
+// Table Top => Crafting Table
 recipes.addShapeless(<tconstruct:tooltables>, [<contenttweaker:table_top>, <ore:lumber>, <ore:lumber>]);
 
+// 2x2 Crafting Table
+recipes.addShaped(<tconstruct:tooltables>,
+   [[<ore:plankBig>, <ore:plankBig>],
+    [<ore:plankBig>, <ore:plankBig>],]);
+
+// Conversion recipes
 recipes.addShapeless(<minecraft:crafting_table>, [<tconstruct:tooltables>]);
 recipes.addShapeless(<tconstruct:tooltables>, [<minecraft:crafting_table>]);

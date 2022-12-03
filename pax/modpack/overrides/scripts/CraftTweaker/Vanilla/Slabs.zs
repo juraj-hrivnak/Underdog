@@ -20,24 +20,14 @@ for output, input in slabsFix {
     recipes.addShaped(output, [[input, input]]);
 }
 
-// cobblestone => Cobblestone Slab
+// Cobblestone => Cobblestone Slab
 RecipeUtils.tweakRecipe(true, <minecraft:stone_slab:3> * 4, [[<ore:cobblestone>, <ore:cobblestone>]]);
 
 // Rocks => Cobblestone Slab
 recipes.addShaped(<minecraft:stone_slab:3>,
-   [[<ore:rocks>, <ore:rocks>]],
-    null,
-    function(out, cInfo, player) {
-        Commands.call("playsound futuremc:stonecutter_carve block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
-    }
-);
+   [[<ore:rocks>, <ore:rocks>]]);
 
 // Cobblestone
 recipes.addShaped(<minecraft:cobblestone>,
    [[<minecraft:stone_slab:3>],
-    [<minecraft:stone_slab:3>]],
-    null,
-    function(out, cInfo, player) {
-        Commands.call("playsound futuremc:stonecutter_carve block @a[r=16] " + player.x + " " + player.y + " " + player.z, player, player.world);
-    }
-);
+    [<minecraft:stone_slab:3>]]);

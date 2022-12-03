@@ -1,8 +1,8 @@
 
-#norun
-import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-recipes.removeShaped(<minecraft:chest>);
-recipes.addShapedMirrored(<minecraft:chest>, [[<ore:stickIron>, <ore:plankWood>, <ore:plateIron>]]);
-recipes.addShapedMirrored(<minecraft:chest>, [[<ore:stickSteel>, <ore:plankWood>, <ore:plateSteel>]]);
+// Hide vanilla Chest
+rh(<minecraft:chest>);
+
+// Replace all occurences of chest with oredict
+recipes.replaceAllOccurences(<minecraft:chest>, <ore:chestWood>, <*>);

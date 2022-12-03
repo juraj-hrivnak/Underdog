@@ -1,8 +1,14 @@
 {
-	x: -2.5d,
-	y: -3.0d,
+	title: "Prepare the Utensils",
+	icon: "cuisine:wok",
+	x: -4.0d,
+	y: -0.5d,
+	text: [
+		"&r&lTask:",
+		"&7Make a wok, a spatula and a plate."
+	],
 	dependencies: [
-		"f2d65ffe"
+		"ad70493a"
 	],
 	hide: true,
 	tasks: [{
@@ -10,6 +16,22 @@
 		type: "item",
 		items: [{
 			item: "cuisine:wok"
+		}]
+	},
+	{
+		uid: "395978b7",
+		type: "item",
+		items: [{
+			item: "cuisine:iron_spatula"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea30aa0e",
+		type: "item",
+		items: [{
+			item: "cuisine:placed_dish"
 		}]
 	}]
 }

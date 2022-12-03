@@ -1,8 +1,21 @@
 {
-	x: -6.0d,
-	y: -0.5d,
+	title: "Choppin, Choppout",
+	icon: {
+		id: "cuisine:chopping_board",
+		tag: {
+			BlockEntityTag: {
+				cover: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}
+	},
+	x: -4.0d,
+	y: -2.0d,
 	dependencies: [
-		"e7bae42b"
+		"ad70493a"
 	],
 	hide: true,
 	tasks: [{
@@ -12,6 +25,23 @@
 			item: "cuisine:kitchen_knife"
 		}],
 		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "673c8e8b",
+		type: "item",
+		items: [{
+			id: "cuisine:chopping_board",
+			tag: {
+				BlockEntityTag: {
+					cover: {
+						id: "minecraft:log",
+						Count: 1b,
+						Damage: 0s
+					}
+				}
+			}
+		}],
 		ignore_nbt: 1b
 	}]
 }

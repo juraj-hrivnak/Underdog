@@ -2,7 +2,6 @@
 #modloaded nuclearcraft
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
-
 import mods.nuclearcraft.AlloyFurnace as alloyFurnace;
 
 import scripts.CraftTweaker.Utils.RecipeUtils;

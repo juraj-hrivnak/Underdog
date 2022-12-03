@@ -119,20 +119,12 @@
 		}
 	}],
 	rewards: [{
-		uid: "188f912d",
+		uid: "e808c8c7",
 		type: "item",
 		item: {
 			id: "akashictome:tome",
 			tag: {
 				"akashictome:data": {
-					industrialforegoing: {
-						id: "industrialforegoing:book_manual",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "industrialforegoing"
-						},
-						Damage: 0s
-					},
 					spiceoflife: {
 						id: "spiceoflife:bookfoodjournal",
 						Count: 1b,
@@ -208,15 +200,6 @@
 						},
 						Damage: 0s
 					},
-					nuclearcraft: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "nuclearcraft",
-							"patchouli:book": "nuclearcraft:guide"
-						},
-						Damage: 0s
-					},
 					solcarrot: {
 						id: "solcarrot:food_book",
 						Count: 1b,
@@ -224,8 +207,65 @@
 							"akashictome:definedMod": "solcarrot"
 						},
 						Damage: 0s
+					},
+					pyrotech: {
+						id: "pyrotech:book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "pyrotech"
+						}
+					},
+					conarm: {
+						id: "conarm:book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "conarm"
+						}
+					},
+					tconstruct: {
+						id: "tconstruct:book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "tconstruct",
+							"akashictome:is_morphing": 1b,
+							"akashictome:displayName": "Materials and You",
+							display: {
+								Name: "§rAkashic Tome (§aMaterials and You§r)"
+							}
+						}
+					},
+					industrialforegoing: {
+						id: "industrialforegoing:book_manual",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "industrialforegoing",
+							"akashictome:is_morphing": 1b,
+							"akashictome:displayName": "Industrial Foregoing's Manual",
+							display: {
+								Name: "§rAkashic Tome (§aIndustrial Foregoing's Manual§r)"
+							}
+						}
+					},
+					nuclearcraft: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "nuclearcraft",
+							"patchouli:book": "nuclearcraft:guide",
+							"akashictome:is_morphing": 1b,
+							"akashictome:displayName": "Guide Book",
+							display: {
+								Name: "§rAkashic Tome (§aGuide Book§r)"
+							}
+						}
 					}
-				}
+				},
+				"akashictome:is_morphing": 1b
 			}
 		}
 	}]

@@ -1,0 +1,14 @@
+{
+	title: "Industrial Foregoing",
+	icon: "industrialforegoing:book_manual",
+	x: -1.5d,
+	y: -3.0d,
+	dependencies: [
+		"ad70493a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d6ec230",
+		type: "checkmark"
+	}]
+}

@@ -1,6 +1,10 @@
 {
 	x: 4.2d,
 	y: 1.2d,
+	text: [
+		"&r&lTask:",
+		"&7Make a paper."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"6293f06e",

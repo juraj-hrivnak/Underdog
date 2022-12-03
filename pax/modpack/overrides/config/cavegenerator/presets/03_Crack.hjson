@@ -4,7 +4,7 @@
     cat/common.cave::half_rel()
     common_values.hjson::NATURAL_STONE
   ]
-  enabled: false
+  enabled: true
   ravines: [
     {
       replaceableBlocks: $NATURAL_STONE

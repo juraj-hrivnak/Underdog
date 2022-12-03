@@ -32,6 +32,13 @@ rh(<immersivepetroleum:schematic>.withTag({multiblock: "IE:AlloySmelter"}, true)
 rh(<immersiveengineering:stone_decoration_slab:10>);
 rh(<immersiveengineering:stone_decoration:10>);
 
+// Hide Coke Oven
+hc("ie.cokeoven");
+rh(<immersiveengineering:stone_decoration>);
+rh(<immersiveengineering:stone_decoration_slab>);
+rh(<immersivetech:stone_decoration>);
+rh(<immersivetech:stone_decoration_slab>);
+
 
 val clayLump = <pyrotech:material:17>;
 
@@ -52,6 +59,7 @@ recipes.addShaped(<contenttweaker:unfired_hv_connector> * 2,
    [[clayLump       , <ore:ingotCopper> , clayLump       ],
     [<ore:clayball> , <ore:ingotCopper> , <ore:clayball> ],
     [<ore:clayball> , <ore:ingotCopper> , <ore:clayball> ]]);
+
 recipes.remove(<immersiveengineering:connector>);
 recipes.remove(<immersiveengineering:connector:2>);
 recipes.remove(<immersiveengineering:connector:4>);
@@ -65,6 +73,7 @@ recipes.addShaped(<contenttweaker:unfired_mv_relay> * 4,
    [[clayLump      , <ore:ingotCopper>, clayLump       ],
     [<ore:clayball>, clayLump         , <ore:clayball> ],
     [clayLump      , <ore:clayball>   , clayLump       ]]);
+
 recipes.remove(<immersiveengineering:connector:1>);
 recipes.remove(<immersiveengineering:connector:3>);
 
