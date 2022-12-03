@@ -40,7 +40,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Underdog 3.0.2';
+S:customwindowtitle = 'Underdog 3.1.0';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'false';
 
@@ -67,3 +67,8 @@ B:showvanillamovewarning = 'true';
 ##[ui]
 
 F:uiscale = '1.5';
+
+
+##[compatibility]
+
+B:allow_level_registry_interactions = 'true';

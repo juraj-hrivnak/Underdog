@@ -1,6 +1,51 @@
 [
     {
         "dimension": 0,
+        "mob": "minecraft:wolf",
+        "minheight": 55,
+        "maxheight": 100,
+        "healthmultiply": 2,
+        "speedmultiply": 2,
+        "angry": true,
+        "seesky": false,
+        "maxlight": 8,
+        "mintime": 13500,
+        "maxtime": 21999,
+        "maxcount": {
+            "amount": 10,
+            "perplayer": false
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:wolf",
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
+        "mob": "dawnoftimebuilder:silkmoth",
+        "biometype": [
+            "FOREST",
+            "CONIFEROUS"
+        ],
+        "minheight": 64,
+        "maxheight": 90,
+        "maxcount": {
+            "amount": 4,
+            "perplayer": false
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "dawnoftimebuilder:silkmoth",
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
         "mob": "tropicraft:eagleray",
         "biometype": [
             "OCEAN",

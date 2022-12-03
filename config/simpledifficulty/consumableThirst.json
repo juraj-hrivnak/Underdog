@@ -949,6 +949,16 @@
       "thirstyChance": 100.0
     }
   ],
+  "cuisine:glass_bottle": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
   "harvestcraft:lemonsmoothieitem": [
     {
       "identity": {

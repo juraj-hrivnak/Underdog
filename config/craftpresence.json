@@ -1,0 +1,147 @@
+{
+  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
+  "_schemaVersion": 1,
+  "_lastMCVersionId": 340,
+  "generalSettings": {
+    "detectCurseManifest": false,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
+    "showTime": true,
+    "detectBiomeData": false,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "861924917221130250",
+    "defaultIcon": "underdog",
+    "enableJoinRequests": false,
+    "partyPrivacyLevel": 1,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in &biome&"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "underdog",
+    "dimensionData": {
+      "default": {
+        "textOverride": "In the &dimension&"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "underdog",
+    "fallbackServerName": "Minecraft Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing on &motd&"
+      }
+    }
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "Chilling in the Main Menu"
+    },
+    "loadingData": {
+      "textOverride": "Loading..."
+    },
+    "lanData": {
+      "textOverride": "Playing on a LAN Server"
+    },
+    "singleplayerData": {
+      "textOverride": "Playing Singleplayer"
+    },
+    "packPlaceholderMessage": "&name&",
+    "outerPlayerPlaceholderMessage": "As &name&",
+    "innerPlayerPlaceholderMessage": "(&health&)",
+    "playerCoordinatePlaceholderMessage": "At &xPosition&, &zPosition&",
+    "playerHealthPlaceholderMessage": "Health: &current&/&max&",
+    "playerAmountPlaceholderMessage": "&current& / &max& Players",
+    "playerItemsPlaceholderMessage": "Items: &main&",
+    "worldPlaceholderMessage": "On &worldname&",
+    "modsPlaceholderMessage": "&modcount& Mod(s)"
+  },
+  "advancedSettings": {
+    "enableCommands": true,
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "renderTooltips": true,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "roundSize": 3,
+    "includeExtraGuiClasses": false,
+    "allowPlaceholderPreviews": false,
+    "allowPlaceholderOperators": true,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In &screen&"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding &item&"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting &entity&"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding &entity&"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/%1$s",
+    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s"
+  },
+  "accessibilitySettings": {
+    "tooltipBackgroundColor": "0xF0100010",
+    "tooltipBorderColor": "0x505000FF",
+    "guiBackgroundColor": "minecraft:textures/gui/options_background.png",
+    "buttonBackgroundColor": "minecraft:textures/gui/widgets.png",
+    "languageId": "en_us",
+    "showBackgroundAsDark": true,
+    "stripTranslationColors": false,
+    "showLoggingInChat": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": 27
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "details": "&MAINMENU&|&DIMENSION&",
+      "gameState": "&SERVER& &PACK&",
+      "largeImageKey": "&MAINMENU&&DIMENSION&",
+      "largeImageText": "&MAINMENU&&DIMENSION&",
+      "smallImageKey": "&SERVER&&PACK&",
+      "smallImageText": "&SERVER&",
+      "buttons": {
+        "default": {
+          "label": "Example Text",
+          "url": "https://google.com"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "default": "https://via.placeholder.com/256.png",
+      "KokinoRe5pect": "https://crafatar.com/avatars/abfee173bfae4a95bf63b4bfd5f62594"
+    }
+  }
+}

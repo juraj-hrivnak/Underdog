@@ -5,6 +5,32 @@
         ],
         "mobs": [
             {
+                "mob": "minecraft:wolf",
+                "weight": 1,
+                "groupcountmin": 3,
+                "groupcountmax": 5
+            }
+        ]
+    },
+    {
+        "dimension": [
+            0
+        ],
+        "mobs": [
+            {
+                "mob": "dawnoftimebuilder:silkmoth",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": [
+            0
+        ],
+        "mobs": [
+            {
                 "mob": "tropicraft:eagleray",
                 "weight": 2,
                 "groupcountmin": 2,
