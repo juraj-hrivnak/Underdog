@@ -1,22 +1,21 @@
 {
     "name": "Fatigue",
-    "icon": "harvestcraft:bentoboxitem",
+    "icon": "harvestcraft:coffeeitem",
     "category": "01_key_mechanics",
     "sortnum": "3",
     "read_by_default": true,
     "pages": [
         {
-            "type": "image",
-            "images": [
-                "modpack:textures/patchouli_images/nutrition.png"
-            ],
-            "title": "",
-            "text": "",
-            "border": true
+            "type": "text",
+            "text": "Insead of skipping the night, the world is sped up while you're asleep. $(br2)You can now sleep at any time, as long as you have enough fatigue, which you gain passively over time. Be careful though - letting it build up might have negative side effects."
         },
         {
             "type": "text",
-            "text": "Once all of your nutrition categories are nearly depleted negative effects will appear."
+            "text": "The most effective way to reduce fatigue is sleeping. However, if you are away from home or missing a bed, you can dring coffee to reduce fatigue. $(br)Fatigue is displayed on screen as an overlay. While the player's fatigue is updated every tick, the display is only updated every 5 seconds (100 ticks)."
+        },
+        {
+            "type": "text",
+            "text": "It's recommended to keep an eye on your fatigue, as getting too tired will result in some debuffs. These debuff will be applied only once for a certain period of time when you enter a new side effect stage. The last side effect is permanent. $(br1)$(li)70 fatigue: Nausea $(br1)$(li)80 fatigue: Slowness II $(br1)$(li)90 fatigue: Poison $(br1)$(li)95+ fatigue: Slowness III"
         }
     ]
 }

@@ -8,7 +8,7 @@
         {
             "type": "text",
             "title": "Rare",
-            "text": "Rare:$(br) ▂ 210 Gold$(br) ▃ 220 Kimberlite (Diamonds)$(br) ▃ 220 Beryl (Emeralds)$(br) ▅ 230 Sphalerite (Zinc)$(br) ▇ 230 Platinum$(br) ▇ 230 Osmium (Generated in the same vein as Platinum)"
+            "text": "▂ 210 Gold $(br)▃ 220 Kimberlite (Diamonds) $(br)▃ 220 Beryl (Emeralds) $(br)▅ 230 Sphalerite (Zinc) $(br)▇ 230 Platinum $(br)▇ 230 Osmium (Generated in the same vein as Platinum)"
         }
     ]
 }
