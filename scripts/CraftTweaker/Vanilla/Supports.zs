@@ -121,5 +121,7 @@ val supports as IItemStack[] = [
 ];
 
 for item in supports {
-    item.addTooltip(format.yellow(game.localize("underdog.tooltip.support")));
+    <ore:support>.add(item);
 }
+
+<ore:support>.addTooltip(format.yellow(game.localize("underdog.tooltip.support")));

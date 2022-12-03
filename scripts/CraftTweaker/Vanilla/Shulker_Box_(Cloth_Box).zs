@@ -21,6 +21,10 @@ val shulkerBoxes as IIngredient[][IItemStack] = {
     <minecraft:black_shulker_box>       : [<minecraft:wool:15>, <pyrotech:pelt_sheep_black>     ]
 };
 
+// Remove default Shulker Box recipe
+recipes.remove(<minecraft:purple_shulker_box>);
+
+// Add new recipes
 for box, x in shulkerBoxes {
     val wool = x[0];
     val pelt = x[1];
@@ -30,4 +34,3 @@ for box, x in shulkerBoxes {
         [wool, <ore:ingotBronze>, wool],
         [pelt, wool             , pelt]]);
 }
-

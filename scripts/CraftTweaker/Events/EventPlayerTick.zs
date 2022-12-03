@@ -1,6 +1,7 @@
 
 #loader crafttweaker reloadable
 #priority -10
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.events.IEventManager;
 import crafttweaker.player.IPlayer;

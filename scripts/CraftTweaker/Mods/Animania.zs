@@ -93,6 +93,9 @@ recipes.addShapeless("milk_fix_clay", <pyrotech:bucket_clay:1>, [ bucketClay.noR
     null
 );
 
+// Remove Saddle recipe
+recipes.removeByRecipeName("animania:saddle");
+
 // Meats oredict support
 <ore:listAllrabbitraw>.add(<animania:raw_prime_rabbit>);
 <ore:listAllchickenraw>.add(<animania:raw_peacock>);

@@ -6,6 +6,7 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.server.IServer;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IMaterial;
+import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.zenutils.Catenation;
 

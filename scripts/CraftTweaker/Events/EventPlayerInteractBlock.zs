@@ -120,6 +120,25 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		event.player.give(<biomesoplenty:berries>);
 	}
 
+	// if (event.blockState.block.definition.unlocalizedName == <blockstate:pyrotech:chopping_block>.block.definition.unlocalizedName) {
+    //     val block = event.world.getBlock(event.x, event.y, event.z);
+
+    //     if (block.data.stackHandler.Items[0].id == "minecraft:log" && <ore:toolAxe> has event.item) {
+    //         val pos = crafttweaker.util.Position3f.create(event.x, event.y, event.z).asBlockPos();
+    //         val data = block.data.update({
+    //             stackHandler: {
+    //                 Size: 1,
+    //                 Items: [{
+    //                     Slot: 0,
+    //                     id: "contenttweaker:chopped_oak_wood",
+    //                     Count: 1 as byte,
+    //                     Damage: 0 as short
+    //                 }]
+    //             }
+    //         });
+    //         event.world.setBlockState(event.blockState, data, pos);
+    //     }
+	// }
 
 	// // Secret
 	// Commands.call("playsound custom.secret master @a[r=16] " + event.x + " " + event.y + " " + event.z, event.player, event.world);

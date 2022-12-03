@@ -256,11 +256,18 @@ recipes.addShaped("Splitting Wedge", <contenttweaker:splitting_wedge>,
 
 recipes.addShapeless("Table Top", <contenttweaker:table_top>, [<ore:rocks>, <pyrotech:material:10>, <ore:lumber>, <ore:lumber>]);
 
-// Removing default recipes for crafting tables
+// Remove default Crafting Table recipes
 recipes.remove(<minecraft:crafting_table>);
 recipes.remove(<tconstruct:tooltables>);
 
+// Table Top => Crafting Table
 recipes.addShapeless(<tconstruct:tooltables>, [<contenttweaker:table_top>, <ore:lumber>, <ore:lumber>]);
 
+// 2x2 Crafting Table
+recipes.addShaped(<tconstruct:tooltables>,
+   [[<ore:plankBig>, <ore:plankBig>],
+    [<ore:plankBig>, <ore:plankBig>],]);
+
+// Conversion recipes
 recipes.addShapeless(<minecraft:crafting_table>, [<tconstruct:tooltables>]);
 recipes.addShapeless(<tconstruct:tooltables>, [<minecraft:crafting_table>]);

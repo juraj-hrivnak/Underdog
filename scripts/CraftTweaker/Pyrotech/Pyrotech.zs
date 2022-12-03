@@ -65,9 +65,12 @@ furnace.remove(<minecraft:stone:1>, <pyrotech:cobblestone:2>);
 
 val clayLump = <pyrotech:material:17>;
 
-// Removing Washed Hide recipes
+// Remove Washed Hide recipes
 recipes.remove(<pyrotech:hide_washed>);
 recipes.remove(<pyrotech:hide_small_washed>);
+
+// Remove Sapling => Stick recipe
+recipes.removeByRecipeName("pyrotech:stick");
 
 // Torch
 rh(<pyrotech:torch_stone>);
@@ -131,33 +134,33 @@ val refracBlock = <pyrotech:refractory_brick_block>;
 
 // Kiln
 RecipeUtils.tweakRecipe(true, <pyrotech:brick_kiln>,
-   [[refracBrick, refracLump  , refracBrick ],
-    [refracLump , null        , refracLump  ],
-    [refracBrick, refracBlock , refracBrick ]]);
+   [[refracBrick, refracLump , refracBrick ],
+    [refracLump , null       , refracLump  ],
+    [refracBrick, refracBlock, refracBrick ]]);
 
 // Oven
 RecipeUtils.tweakRecipe(true, <pyrotech:brick_oven>,
-   [[refracBrick, refracBrick , refracBrick ],
-    [refracLump , null        , refracLump  ],
-    [refracBrick, refracBlock , refracBrick ]]);
+   [[refracBrick, refracBrick, refracBrick ],
+    [refracLump , null       , refracLump  ],
+    [refracBrick, refracBlock, refracBrick ]]);
 
 // Sawmill
 RecipeUtils.tweakRecipe(true, <pyrotech:brick_sawmill>,
-   [[refracBrick, null        , refracBrick ],
-    [refracLump , null        , refracLump  ],
-    [refracBrick, refracBlock , refracBrick ]]);
+   [[refracBrick, null       , refracBrick ],
+    [refracLump , null       , refracLump  ],
+    [refracBrick, refracBlock, refracBrick ]]);
 
 // Crucible
 RecipeUtils.tweakRecipe(true, <pyrotech:brick_crucible>,
-   [[refracBrick, null        , refracBrick ],
-    [refracLump , refracLump  , refracLump  ],
-    [refracBrick, refracBlock , refracBrick ]]);
+   [[refracBrick, null       , refracBrick ],
+    [refracLump , refracLump , refracLump  ],
+    [refracBrick, refracBlock, refracBrick ]]);
 
 // Bloomery
 RecipeUtils.tweakRecipe(true, <pyrotech:bloomery>,
-   [[refracBrick, null        , refracBrick ],
-    [refracBrick, null        , refracBrick ],
-    [refracBrick, refracBlock , refracBrick ]]);
+   [[refracBrick, null       , refracBrick ],
+    [refracBrick, null       , refracBrick ],
+    [refracBrick, refracBlock, refracBrick ]]);
 
 
 // Stone
