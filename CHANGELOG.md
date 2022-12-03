@@ -43,6 +43,7 @@ The best place to set up a server to play the Underdog modpack is at: \
 - Removed world gen for Cuisine's crops.
 - Renamed "Rivergrass", "Fern" and "Grass" to "Watermilfoil", "Eagle Fern" and "Foxtail."
 - Disabled cyclic stature apple.
+- Farmland won't trample if wet.
 
 ## Mod Changes
 
