@@ -59,10 +59,11 @@ RecipeUtils.tweakRecipe(true, <cuisine:mill>,
     [<ore:stones>]]);
 
 // Fire Pit
-recipes.remove(<cuisine:fire_pit>);
-recipes.addShapedMirrored(<cuisine:fire_pit>,
-   [[<ore:stickWood>, <ore:stickWood> ],
-    [<ore:rocks>    , <ore:rocks>     ]]);
+val fuel = <ore:itemCoal> | <ore:itemCharcoal>;
+RecipeUtils.tweakRecipe(true, <cuisine:fire_pit>,
+   [[<ore:rocks>, fuel          , <ore:rocks> ],
+    [fuel       , <ore:firewood>, fuel        ],
+    [<ore:rocks>, fuel          , <ore:rocks> ]]);
 
 // Wooden Handle
 RecipeUtils.tweakRecipe(true, <cuisine:material:1>, [[<ore:stickWood>, <ore:stickWood>]]);
