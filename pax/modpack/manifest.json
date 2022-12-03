@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "3.0.2",
+  "version": "3.1.0",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -85,7 +85,7 @@
     },
     {
       "projectID": 223150,
-      "fileID": 2689602,
+      "fileID": 4073229,
       "required": true,
       "__meta": {
         "name": "Recurrent Complex",
@@ -284,21 +284,13 @@
     },
     {
       "projectID": 232838,
-      "fileID": 4020015,
+      "fileID": 4074419,
       "required": true,
       "__meta": {
         "name": "Logistics Pipes",
         "dependencies": [
           242818
         ]
-      }
-    },
-    {
-      "projectID": 233019,
-      "fileID": 2450734,
-      "required": true,
-      "__meta": {
-        "name": "AI Improvements"
       }
     },
     {
@@ -369,7 +361,7 @@
     },
     {
       "projectID": 237701,
-      "fileID": 3826315,
+      "fileID": 4120065,
       "required": true,
       "__meta": {
         "name": "ReAuth"
@@ -404,7 +396,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4036242,
+      "fileID": 4077688,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -412,7 +404,7 @@
     },
     {
       "projectID": 239286,
-      "fileID": 3722420,
+      "fileID": 4075832,
       "required": true,
       "__meta": {
         "name": "Cyclic"
@@ -485,8 +477,7 @@
       "fileID": 2851111,
       "required": true,
       "__meta": {
-        "name": "Silent Lib (silentlib)",
-        "explicit": false
+        "name": "Silent Lib (silentlib)"
       }
     },
     {
@@ -591,14 +582,6 @@
       }
     },
     {
-      "projectID": 250290,
-      "fileID": 2916357,
-      "required": true,
-      "__meta": {
-        "name": "Surge"
-      }
-    },
-    {
       "projectID": 250363,
       "fileID": 2746011,
       "required": true,
@@ -650,14 +633,6 @@
       "required": true,
       "__meta": {
         "name": "Waddles"
-      }
-    },
-    {
-      "projectID": 252818,
-      "fileID": 3812473,
-      "required": true,
-      "__meta": {
-        "name": "Dynamic Trees"
       }
     },
     {
@@ -759,7 +734,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 4032297,
+      "fileID": 4110012,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1115,14 +1090,6 @@
       }
     },
     {
-      "projectID": 280510,
-      "fileID": 2810157,
-      "required": true,
-      "__meta": {
-        "name": "AttributeFix"
-      }
-    },
-    {
       "projectID": 282313,
       "fileID": 2689835,
       "required": true,
@@ -1176,14 +1143,6 @@
       "required": true,
       "__meta": {
         "name": "Charset Lib"
-      }
-    },
-    {
-      "projectID": 284904,
-      "fileID": 2568865,
-      "required": true,
-      "__meta": {
-        "name": "No Recipe Book"
       }
     },
     {
@@ -1417,7 +1376,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 4048717,
+      "fileID": 4121559,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1564,14 +1523,6 @@
       }
     },
     {
-      "projectID": 305460,
-      "fileID": 2631908,
-      "required": true,
-      "__meta": {
-        "name": "TidyChunk"
-      }
-    },
-    {
       "projectID": 306549,
       "fileID": 2906537,
       "required": true,
@@ -1589,14 +1540,14 @@
     },
     {
       "projectID": 306676,
-      "fileID": 4054206,
+      "fileID": 4132140,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
         "dependencies": [
+          284973,
           306770,
-          284350,
-          284973
+          284350
         ]
       }
     },
@@ -1741,16 +1692,7 @@
       "fileID": 3341793,
       "required": true,
       "__meta": {
-        "name": "Fantastic Lib",
-        "explicit": false
-      }
-    },
-    {
-      "projectID": 318255,
-      "fileID": 2919497,
-      "required": true,
-      "__meta": {
-        "name": "Phosphor (Forge)"
+        "name": "Fantastic Lib"
       }
     },
     {
@@ -1785,7 +1727,7 @@
       "fileID": 3969682,
       "required": true,
       "__meta": {
-        "name": "Aqua Acrobatics [Forge]",
+        "name": "Aqua Acrobatics",
         "dependencies": [
           357178
         ]
@@ -1835,14 +1777,6 @@
       "required": true,
       "__meta": {
         "name": "Realistic Horse Genetics"
-      }
-    },
-    {
-      "projectID": 346014,
-      "fileID": 2803941,
-      "required": true,
-      "__meta": {
-        "name": "ChunkGenLimiter"
       }
     },
     {
@@ -1916,7 +1850,7 @@
     },
     {
       "projectID": 367706,
-      "fileID": 4046875,
+      "fileID": 4083364,
       "required": true,
       "__meta": {
         "name": "FancyMenu [Forge]",
@@ -1991,7 +1925,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4051734,
+      "fileID": 4103947,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2077,18 +2011,9 @@
       "required": true,
       "__meta": {
         "name": "Konkrete [Forge]",
-        "explicit": false,
         "dependencies": [
           357178
         ]
-      }
-    },
-    {
-      "projectID": 411705,
-      "fileID": 3073878,
-      "required": true,
-      "__meta": {
-        "name": "Damage Tilt"
       }
     },
     {
@@ -2112,7 +2037,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 3886235,
+      "fileID": 4090558,
       "required": true,
       "__meta": {
         "name": "MixinBooter"
@@ -2167,17 +2092,6 @@
       }
     },
     {
-      "projectID": 460609,
-      "fileID": 3898244,
-      "required": true,
-      "__meta": {
-        "name": "CensoredASM",
-        "dependencies": [
-          419286
-        ]
-      }
-    },
-    {
       "projectID": 461660,
       "fileID": 3962479,
       "required": true,
@@ -2199,7 +2113,7 @@
     },
     {
       "projectID": 485654,
-      "fileID": 3956311,
+      "fileID": 4128089,
       "required": true,
       "__meta": {
         "name": "Fluidlogged API"
@@ -2219,7 +2133,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 3957880,
+      "fileID": 4109510,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2227,7 +2141,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4054291,
+      "fileID": 4105092,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2235,12 +2149,13 @@
     },
     {
       "projectID": 574029,
-      "fileID": 4023059,
+      "fileID": 4124199,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
         "dependencies": [
-          248453
+          248453,
+          485654
         ]
       }
     },
@@ -2291,12 +2206,22 @@
       }
     },
     {
+      "projectID": 620262,
+      "fileID": 3909215,
+      "required": true,
+      "__meta": {
+        "name": "燐/Hesperus",
+        "dependencies": [
+          419286
+        ]
+      }
+    },
+    {
       "projectID": 624243,
       "fileID": 3895901,
       "required": true,
       "__meta": {
-        "name": "ModularUI",
-        "explicit": false
+        "name": "ModularUI"
       }
     },
     {
@@ -2312,13 +2237,13 @@
     },
     {
       "projectID": 632327,
-      "fileID": 4046413,
+      "fileID": 4094765,
       "required": true,
       "__meta": {
         "name": "Inventory Bogo Sorter",
         "dependencies": [
-          419286,
-          624243
+          624243,
+          419286
         ]
       }
     },
@@ -2328,6 +2253,14 @@
       "required": true,
       "__meta": {
         "name": "dan's Crafting Tweaks"
+      }
+    },
+    {
+      "projectID": 637540,
+      "fileID": 4059721,
+      "required": true,
+      "__meta": {
+        "name": "Dramatic Trees"
       }
     },
     {
@@ -2357,9 +2290,9 @@
       "__meta": {
         "name": "Tweaked Petroleum",
         "dependencies": [
-          419286,
+          687632,
           268250,
-          239197
+          419286
         ]
       }
     },
@@ -2368,7 +2301,10 @@
       "fileID": 3951688,
       "required": true,
       "__meta": {
-        "name": "Baubley Elytra"
+        "name": "Baubley Elytra",
+        "dependencies": [
+          227083
+        ]
       }
     },
     {
@@ -2385,6 +2321,17 @@
       "required": true,
       "__meta": {
         "name": "Tweaked Lib"
+      }
+    },
+    {
+      "projectID": 705000,
+      "fileID": 4127829,
+      "required": true,
+      "__meta": {
+        "name": "Universal Tweaks",
+        "dependencies": [
+          419286
+        ]
       }
     }
   ]
