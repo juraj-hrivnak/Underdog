@@ -10,47 +10,39 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ## What's new?
 
-- Added more quest descriptions.
-- Added wokking tutorial to Cuisine quest line.
-- Added cheaper recipes for underwear liners.
-- Added leather working support for Iguana Leather.
-- Added new recipes for tool belt.
-- Added crafting sounds based on material & oredict.
-- Added recipes for Shulker Boxes.
-- Added custom quest task that detects tree chopping.
-- Disabled cyclic stature apple.
-- Retextured scalinghealth hud look like vanilla hearts.
-- Made sand layer fluidloggable.
+- Hypothermia and Hyperthermia will now reduce max health and add negative potion effects instead of dealing damage.
 - Fixed grass not dropping hemp seeds.
-- Updated some patchouli book descriptions.
-- Improved patchouli book texture.
-- Removed world gen for Cuisine's crops.
-- Improved milk conversion & other Animania recipes.
-  - Trough, Horse Cart, Tiller, Wheel, Cheese Mold and Pet Bowl now don't require iron.
-- Properly removed IE Coke Oven.
+
+***
+
+- Added new descriptions to many quests.
+- Added custom quest task that detects tree chopping.
+- How to use a wok is now properly explained.
+
+***
+
+- A bunch of items now don't require iron, including a Trough, Horse Cart, Tiller, Wheel, Cheese Mold and Pet Bowl.
+- Fixed recipes not being able to use charset chests.
+- Reworked crafting sounds. They now play based on material, item name or oredict.
+- Properly removed recipes for IE Coke Oven.
+- Added new recipes for tool belt.
+- Added new recipes for Shulker Boxes.
+- Added cheaper recipes for armor underwear.
 - Removed TCon leather drying recipe.
-- Fixed recipes not being able to use charset chests..
-- Reworked crafting sounds.
-- Updated forestry plank textures to use the 1.15+ style.
-- Automatically close "fixed in dev" issues.
+- Milk conversion recipes will now keep the damage of the bucket.
+- Added leather working support for Iguana Leather.
 
-Greenery🌿 changelog
+***
 
-- Rewritten configs - Breaking change!
-- Improved config parser.
-- Bonemeal will now generate plants based on config.
-- Merged pull request #6 from CatastropheChou/main.
-- Changed code style.
+- Unified water light opacity to improve performance when mixing salt/fresh water.
+- Improved the Underdog patchouli book texture and updated some descriptions.
+- Retextured scalinghealth hud look like vanilla hearts.
+- Retextured forestry plank textures to use the 1.15+ style.
+- Bonemeal will now generate plants based on the biome.
+- Made Weather2 sand layer fluidloggable.
+- Removed world gen for Cuisine's crops.
 - Renamed "Rivergrass", "Fern" and "Grass" to "Watermilfoil", "Eagle Fern" and "Foxtail."
-- Added new textures for Watermilfoil.
-- Refactored plant Registry IDs to include their package names (Emergent, Submerged, Upland.) Old Registry IDs are handled and will update automatically when joining an old world.
-
-SimpleDifficulty for Underdog changelog
-
-- Hypothermia and Hyperthermia will now reduce the max health and add negative potion effects instead of dealing damage.
-- Temperature effects now lower max health instead of dealing damage.
-- Made temperature effects not deadly.
-- Unified water light opacity to improve performance.
+- Disabled cyclic stature apple.
 
 ## Mod Changes
 
