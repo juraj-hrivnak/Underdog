@@ -1,7 +1,9 @@
 name: Release
 
 on:
-  workflow_dispatch
+  push:
+    tags:
+      - 'v*'
 
 env:
   PROJECT_ID: "399664"
@@ -27,27 +29,13 @@ jobs:
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
-      - name: Process changelog
-        run: |
-          mv CHANGELOG.md pax/changelogs/${{ steps.version.outputs.tag }}.md
-          cp pax/changelogs/TEMPLATE.md CHANGELOG.md
-      - name: Commit changelog
-        run: |
-          git add .
-          git config --local user.name "Juraj Hrivnak"
-          git config --local user.email "juraj-hrivnak@users.noreply.github.com"
-          git commit -m "Update CHANGELOG.md" -a
-      - name: Push changelog
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+      - name: Rename changelog
+        run: mv CHANGELOG.md CHANGELOG-${{ steps.version.outputs.tag }}.md
       - name: Upload changelog
         uses: actions/upload-artifact@v2
         with:
           name: changelog
-          path: pax/changelogs/${{ steps.version.outputs.tag }}.md
-          retention-days: 2
+          path: CHANGELOG-${{ steps.version.outputs.tag }}.md
 
   build-modpack:
     runs-on: ubuntu-latest
@@ -59,8 +47,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: changelog
-      - name: Move changelog
-        run:  mv CHANGELOG.md pax/modpack/CHANGELOG.md
+          path: pax/modpack
       - name: Export modpack
         run: |
           cd pax/
@@ -73,50 +60,48 @@ jobs:
         with:
           name: modpack
           path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          retention-days: 2
 
-  build-serverpack:
-    runs-on: ubuntu-latest
-    needs: [modpack-info]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Download Modpack Downloader CLI
-        run: |
-          mkdir ${GITHUB_WORKSPACE}/downloader
-          mkdir ${GITHUB_WORKSPACE}/mods
-          wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.7.2/ModpackDownloader-cli-0.7.2.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.7.2.jar
-      - name: Download Mods
-        run: |
-          cd pax/
-          sudo chmod +x ./sync_mods.sh
-          ./sync_mods.sh
-      - name: Export serverpack
-        run: |
-          cd pax/serverpack/
-          java -jar ServerPackCreator-3.0.0-alpha.12.jar -cli
-      - name: Rename zip
-        run: |
-          mv pax/serverpack/server-packs/_server_pack.zip pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
-      - name: Upload zip
-        uses: actions/upload-artifact@v2
-        with:
-          name: serverpack
-          path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
-          retention-days: 2
+  # build-serverpack:
+  #   runs-on: ubuntu-latest
+  #   needs: [modpack-info]
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v2
+  #     - name: Download Modpack Downloader CLI
+  #       run: |
+  #         mkdir ${GITHUB_WORKSPACE}/downloader
+  #         mkdir ${GITHUB_WORKSPACE}/mods
+  #         wget https://github.com/Nincraft/ModPackDownloader/releases/download/0.7.1/ModpackDownloader-cli-0.7.1.jar -O ${GITHUB_WORKSPACE}/downloader/ModpackDownloader-cli-0.7.1.jar
+  #     - name: Download Mods
+  #       run: |
+  #         cd pax/
+  #         sudo chmod +x ./sync_mods.sh
+  #         ./sync_mods.sh
+  #     - name: Export serverpack
+  #       run: |
+  #         cd pax/serverpack/
+  #         java -jar ServerPackCreator-3.0.0-alpha.12.jar -cli
+  #     - name: Rename zip
+  #       run: |
+  #         mv pax/serverpack/server-packs/_server_pack.zip pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+  #     - name: Upload zip
+  #       uses: actions/upload-artifact@v2
+  #       with:
+  #         name: serverpack
+  #         path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
 
   release-github:
     runs-on: ubuntu-latest
-    needs: [build-modpack, build-serverpack, modpack-info]
+    needs: [build-modpack, modpack-info]
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v2
         with:
           name: modpack
-      - name: Download serverpack
-        uses: actions/download-artifact@v2
-        with:
-          name: serverpack
+      # - name: Download serverpack
+      #   uses: actions/download-artifact@v2
+      #   with:
+      #     name: serverpack
       - name: Download changelog
         uses: actions/download-artifact@v2
         with:
@@ -124,25 +109,25 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
-          body_path: ${{ needs.modpack-info.outputs.tag }}.md
+          body_path: CHANGELOG-${{ needs.modpack-info.outputs.tag }}.md
           files: |
             ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-            ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+    # ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   release-curseforge:
     runs-on: ubuntu-latest
-    needs: [build-modpack, build-serverpack, modpack-info]
+    needs: [build-modpack, modpack-info]
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v2
         with:
           name: modpack
-      - name: Download serverpack
-        uses: actions/download-artifact@v2
-        with:
-          name: serverpack
+      # - name: Download serverpack
+      #   uses: actions/download-artifact@v2
+      #   with:
+      #     name: serverpack
       - name: Get release type
         id: release-type
         run: |
@@ -160,9 +145,46 @@ jobs:
           project-id: ${{ env.PROJECT_ID }}
           modpack-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}
-          modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
-          server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack
+          # modpack-server-path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
+          # server-display-name: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack
           changelog: See https://github.com/juraj-hrivnak/Underdog/releases/tag/${{ needs.modpack-info.outputs.tag }}
           changelog-format: markdown
           game-version: ${{ needs.modpack-info.outputs.version }}
           release-type: ${{ steps.release-type.outputs.type }}
+
+  update-changelog:
+    runs-on: ubuntu-latest
+    needs: [release-github, release-curseforge]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Download changelog
+        uses: actions/download-artifact@v2
+        with:
+          name: changelog
+          path: pax/changelogs
+      - name: Move changelogs
+        run: |
+          rm CHANGELOG.md
+          cp pax/changelogs/TEMPLATE.md CHANGELOG.md
+      - name: Commit changelogs
+        run: |
+          git add .
+          git config --local user.name "Juraj Hrivnak"
+          git config --local user.email "juraj-hrivnak@users.noreply.github.com"
+          git commit -m "Automatically update changelogs" -a
+      - name: Push changelogs
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+
+  close-fixed-issues:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: close-fixed-in-dev
+      uses: bdougie/close-issues-based-on-label@master
+      env:
+        LABEL: "fixed in dev"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
