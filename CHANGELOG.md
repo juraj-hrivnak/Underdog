@@ -49,10 +49,13 @@ The best place to set up a server to play the Underdog modpack is at: \
 ```markdown
 Added:
 - Scaling Health
-- Inventory Bogo Sorter
 - Silent Lib (silentlib)
+- Inventory Bogo Sorter
 - ModularUI
 - Tweaked Lib
+- 燐/Hesperus
+- Dramatic Trees
+- Universal Tweaks
 
 Removed:
 - The Spice of Life
@@ -60,10 +63,22 @@ Removed:
 - Inventory Tweaks [1.12 only]
 - Fx Control!
 - Onslaught
+- Phosphor (Forge)
+- AI Improvements
+- Surge
+- AttributeFix
+- No Recipe Book
+- TidyChunk
+- ChunkGenLimiter
+- Damage Tilt
+- Dynamic Trees
 
 Updated:
 - SimpleDifficulty for Underdog
 - Pyrotech
+- Recurrent Complex
+- ReAuth
+- Cyclic
 - CraftPresence
 - LittleTiles
 - Logistics Pipes
