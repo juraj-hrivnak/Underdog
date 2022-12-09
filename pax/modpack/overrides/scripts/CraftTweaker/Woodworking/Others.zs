@@ -54,3 +54,15 @@ recipes.remove(<rustic:cabinet>);
 recipes.addShapedMirrored("cabinet_fixed", <rustic:cabinet>,
    [[<ore:plankWood>, <ore:trapdoorWood> ],
     [<ore:plateIron>, <ore:stickIron>    ]]);
+
+// Wooden Hopper
+RecipeUtils.tweakRecipe(true, <tconstruct:wooden_hopper>,
+   [[<ore:lumber>, null           , <ore:lumber> ],
+    [<ore:lumber>, <ore:chestWood>, <ore:lumber> ],
+    [null        , <ore:lumber>   , null         ]]);
+
+// Covered Wagon
+RecipeUtils.tweakRecipe(true, <animania:item_wagon>,
+   [[<ore:blockWool> , <ore:blockWool>     , <ore:lumber>     ],
+    [<minecraft:bed> , <ore:lumber>        , <ore:chestWood>  ],
+    [<animania:wheel>, <animania:item_cart>, <animania:wheel> ]]);

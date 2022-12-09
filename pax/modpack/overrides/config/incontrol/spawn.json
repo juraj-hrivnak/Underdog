@@ -5,12 +5,15 @@
         "minheight": 55,
         "maxheight": 100,
         "healthmultiply": 2,
-        "speedmultiply": 2,
+        "speedmultiply": 1.2,
         "angry": true,
         "seesky": false,
         "maxlight": 8,
         "mintime": 13500,
         "maxtime": 21999,
+        "nbt": {
+            "Age": 600
+        },
         "maxcount": {
             "amount": 10,
             "perplayer": false
