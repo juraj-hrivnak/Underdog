@@ -1605,7 +1605,7 @@
     },
     {
       "projectID": 308663,
-      "fileID": 3541266,
+      "fileID": 4125017,
       "required": true,
       "__meta": {
         "name": "Snow! Real Magic! ⛄ (Forge)"
@@ -1850,7 +1850,7 @@
     },
     {
       "projectID": 367706,
-      "fileID": 4083364,
+      "fileID": 4145047,
       "required": true,
       "__meta": {
         "name": "FancyMenu [Forge]",
@@ -2007,7 +2007,7 @@
     },
     {
       "projectID": 410295,
-      "fileID": 4031711,
+      "fileID": 4136422,
       "required": true,
       "__meta": {
         "name": "Konkrete [Forge]",
@@ -2120,6 +2120,18 @@
       }
     },
     {
+      "projectID": 515565,
+      "fileID": 4118980,
+      "required": true,
+      "__meta": {
+        "name": "Not Enough Energistics",
+        "dependencies": [
+          223794,
+          238222
+        ]
+      }
+    },
+    {
       "projectID": 545353,
       "fileID": 3519479,
       "required": true,
@@ -2161,7 +2173,7 @@
     },
     {
       "projectID": 574162,
-      "fileID": 4017430,
+      "fileID": 4143784,
       "required": true,
       "__meta": {
         "name": "SimpleDifficulty for Underdog"
@@ -2194,6 +2206,17 @@
         "name": "Entity Desync Fix",
         "dependencies": [
           357178
+        ]
+      }
+    },
+    {
+      "projectID": 616190,
+      "fileID": 4100088,
+      "required": true,
+      "__meta": {
+        "name": "JEI Utilities",
+        "dependencies": [
+          238222
         ]
       }
     },
