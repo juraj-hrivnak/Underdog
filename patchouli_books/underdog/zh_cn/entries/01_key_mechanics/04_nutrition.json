@@ -1,0 +1,22 @@
+{
+    "name": "营养",
+    "icon": "harvestcraft:bentoboxitem",
+    "category": "01_key_mechanics",
+    "sortnum": "4",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "image",
+            "images": [
+                "modpack:textures/patchouli_images/nutrition.png"
+            ],
+            "title": "",
+            "text": "",
+            "border": true
+        },
+        {
+            "type": "text",
+            "text": "一旦你的所有营养类别几乎被耗尽，负面效果就会出现。"
+        }
+    ]
+}

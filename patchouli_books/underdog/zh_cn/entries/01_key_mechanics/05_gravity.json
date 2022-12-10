@@ -1,0 +1,21 @@
+{
+    "name": "重力",
+    "icon": "biomesoplenty:sacred_oak_fence",
+    "category": "01_key_mechanics",
+    "sortnum": "5",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "重力",
+            "item": "minecraft:dirt",
+            "text": "自然生成的方块（泥土、草方块、石头、沙砾、沙子）受重力影响。这意味着，如果没有适当的支撑物，这些方块会下落，你无法用这些方块创造墙壁或天花板。"
+        },
+        {
+            "type": "spotlight",
+            "title": "支撑柱",
+            "item": "biomesoplenty:sacred_oak_fence",
+            "text": "任意栅栏都可以作为适当的支撑柱。$(br2)支撑柱将提高稳定性，防止岩石在16方块内断裂。"
+        }
+    ]
+}

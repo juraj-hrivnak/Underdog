@@ -1,0 +1,13 @@
+{
+    "name": "季节",
+    "icon": "dawnoftimebuilder:camellia_leaves",
+    "category": "01_key_mechanics",
+    "sortnum": "6",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "温带生物群系将在一年中经历正常的季节（春、夏、秋、冬）。温度会改变，草和叶子的颜色会改变，下雨和风暴的概率会改变等等。应季的农作物类型也会有所不同。"
+        }
+    ]
+}
