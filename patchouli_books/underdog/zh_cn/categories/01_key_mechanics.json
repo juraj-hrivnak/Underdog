@@ -1,0 +1,6 @@
+{
+    "name": "关键改动",
+    "description": "在玩Underdog整合包与原版Minecraft时，有一些很重要的差别，你必须从游戏开始就了解这些差别。(汉化者:cat酱)",
+    "icon": "modpack:textures/items/icon_bottle_drinkable.png",
+    "sortnum": 1
+}
