@@ -1,0 +1,6 @@
+{
+    "name": "矿物生成",
+    "description": "所有的矿石都被分为两大类：普通和稀有。而它们的稀有度决定这些。 $(br)$(li)普通 = 160-200 $(br)$(li)稀有 = 210-230 $(br)这意味着，每个区块产生矿脉的几率是1/N。 $(br)稀有度还表现在: ▁▂▃▅▆▇",
+    "icon": "modpack:textures/items/icon_pick.png",
+    "sortnum": 2
+}

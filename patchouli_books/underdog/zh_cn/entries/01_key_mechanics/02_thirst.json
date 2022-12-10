@@ -1,0 +1,26 @@
+{
+    "name": "口渴",
+    "icon": "harvestcraft:blueberrysmoothieitem",
+    "category": "01_key_mechanics",
+    "sortnum": "2",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "image",
+            "images": [
+                "modpack:textures/patchouli_images/thirst.png"
+            ],
+            "title": "口渴度",
+            "text": "口渴是用蓝色的点来表示。",
+            "border": true
+        },
+        {
+            "type": "text",
+            "text": "口渴度和饥饿度一样，即使你不移动也会慢慢耗尽。口渴度可以通过喝水来补充。"
+        },
+        {
+            "type": "text",
+            "text": "起初，你直接从水池里喝水，方法是用空手右键水。一阵啧啧声会响起，你的口渴度会稍微增加。你可以按住右键继续喝水，直到你不再口渴。"
+        }
+    ]
+}
