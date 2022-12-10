@@ -1,0 +1,14 @@
+{
+    "name": "稀有",
+    "icon": "divergentunderground:gem_raw_diamond",
+    "category": "02_ores",
+    "sortnum": "2",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "title": "稀有",
+            "text": "▂ 210 金 $(br)▃ 220 金伯利岩（钻石）$(br)▃ 220 绿柱石（绿宝石）$(br)▅ 230 闪锌矿（锌）$(br)▇ 230 铂 $(br)▇ 230 饿 (与铂的生成方式相同)"
+        }
+    ]
+}
