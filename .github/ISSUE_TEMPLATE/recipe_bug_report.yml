@@ -8,7 +8,7 @@ body:
         Please enter an explicit __description__ of your issue.
         You can also __screenshots__ to the description.
       placeholder: |
-        Which recipes are broken/duped?
+        Which recipes are broken/duped? Or is the entire recipe category broken/duped? 
         If possible, add screenshots of the recipe.
     validations:
       required: true

@@ -8,8 +8,8 @@ body:
         Please enter an explicit __description__ of your issue.
         You can also add __reproduction steps__ and __screenshots__ to the description.
       placeholder: |
-        Short and explicit description of your incident...
-        How do you trigger this bug? Please walk us through it step by step.
+        Short and explicit description of your incident... 
+        How do you trigger this bug? Please walk us through it step by step. 
         If applicable, add screenshots to help explain your problem.
     validations:
       required: true
