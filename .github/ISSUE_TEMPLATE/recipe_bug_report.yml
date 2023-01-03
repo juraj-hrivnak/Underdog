@@ -1,5 +1,6 @@
 name: "Recipe Bug Report"
 description: Create a new ticket for a broken recipe/dupe bug.
+labels: "recipe bug"
 body:
   - type: textarea
     attributes:
