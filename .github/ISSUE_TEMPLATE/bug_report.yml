@@ -1,5 +1,5 @@
-name: "Bug Report"
-description: Create a new ticket for a bug.
+name: "Bug/Crash Report"
+description: Create a new ticket for a bug/crash.
 body:
   - type: textarea
     attributes:
