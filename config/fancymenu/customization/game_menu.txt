@@ -32,14 +32,29 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
   orientation = mid-centered
-  x = 2
+  x = 34
   action = movebutton
   y = -33
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
-  width = 98
+  width = 66
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502306%
+  orientation = mid-centered
+  x = -31
+  action = movebutton
+  y = -33
+}
+
+customization {
+  identifier = %id=502306%
+  width = 62
   action = resizebutton
   height = 20
 }
@@ -71,5 +86,12 @@ customization {
   x = -100
   action = movebutton
   y = -33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  width = 66
+  action = resizebutton
+  height = 20
 }
 

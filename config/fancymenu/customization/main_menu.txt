@@ -9,12 +9,6 @@ customization-meta {
 }
 
 customization {
-  path = resources/modpack/textures/gui/slideshow1.png
-  wideformat = true
-  action = texturizebackground
-}
-
-customization {
   keepaspectratio = true
   action = backgroundoptions
 }
@@ -176,7 +170,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 186
   width = 268
   action = deep_customization_element:title_screen_forge_top
