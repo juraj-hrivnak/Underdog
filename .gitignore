@@ -38,6 +38,7 @@ coremods/*
 downloads/*
 craftpresence/*
 TombManyGraves/*
+icon.png
 
 # Logs
 **/*.log
@@ -83,5 +84,3 @@ pax/modpack/overrides/config/moresoundconfig.cfg
 pax/serverpack/work/*
 pax/serverpack/server-packs/*
 pax/serverpack/logs/*
-
-
