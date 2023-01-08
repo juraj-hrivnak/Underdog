@@ -9,6 +9,12 @@ customization-meta {
 }
 
 customization {
+  path = resources/modpack/textures/gui/slideshow1.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
   keepaspectratio = true
   action = backgroundoptions
 }
@@ -164,11 +170,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
   orientation = top-left
   hidden = true
   x = 186
@@ -273,6 +274,6 @@ customization {
   y = -48
   scale = 1.0
   alignment = left
-  value = v3.1.1
+  value = v3.1.2
 }
 
