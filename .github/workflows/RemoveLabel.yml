@@ -1,7 +1,7 @@
 name: Remove Label
 
 on:
-  label:
+  issues:
     types: [closed]
 
 jobs:
