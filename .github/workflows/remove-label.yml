@@ -1,0 +1,15 @@
+name: Remove Label
+
+on:
+  label:
+    types: [closed]
+
+jobs:
+  remove_label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-ecosystem/action-remove-labels@v1
+        if: ${{ contains(github.event.issue.labels.*.name, 'fixed in dev') }}
+        with:
+          labels: "fixed in dev"
