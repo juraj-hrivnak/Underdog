@@ -181,6 +181,7 @@ jobs:
 
   close-fixed-issues:
     runs-on: ubuntu-latest
+    needs: [release-github, release-curseforge]
     steps:
     - uses: actions/checkout@master
     - name: close-fixed-in-dev
