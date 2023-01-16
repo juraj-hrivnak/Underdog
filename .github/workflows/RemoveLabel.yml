@@ -2,7 +2,8 @@ name: Remove Label
 
 on:
   issues:
-    types: [closed]
+    types:
+      - closed
 
 jobs:
   remove_label:
