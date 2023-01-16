@@ -259,14 +259,6 @@
       }
     },
     {
-      "projectID": 231484,
-      "fileID": 2862651,
-      "required": true,
-      "__meta": {
-        "name": "Cooking for Blockheads"
-      }
-    },
-    {
       "projectID": 231951,
       "fileID": 2974106,
       "required": true,
@@ -1360,7 +1352,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 4257506,
+      "fileID": 4326527,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1834,7 +1826,7 @@
     },
     {
       "projectID": 367706,
-      "fileID": 4271117,
+      "fileID": 4343723,
       "required": true,
       "__meta": {
         "name": "FancyMenu [Forge]",
@@ -2137,7 +2129,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4264378,
+      "fileID": 4328930,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2233,7 +2225,7 @@
     },
     {
       "projectID": 632327,
-      "fileID": 4094765,
+      "fileID": 4329854,
       "required": true,
       "__meta": {
         "name": "Inventory Bogo Sorter",
@@ -2328,6 +2320,14 @@
         "dependencies": [
           419286
         ]
+      }
+    },
+    {
+      "projectID": 805622,
+      "fileID": 4326433,
+      "required": true,
+      "__meta": {
+        "name": "Delightful Cuisine for Woodheads"
       }
     }
   ]
