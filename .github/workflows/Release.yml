@@ -32,7 +32,7 @@ jobs:
       - name: Rename changelog
         run: mv CHANGELOG.md CHANGELOG-${{ steps.version.outputs.tag }}.md
       - name: Upload changelog
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: changelog
           path: CHANGELOG-${{ steps.version.outputs.tag }}.md
@@ -56,7 +56,7 @@ jobs:
       - name: Rename zip
         run: mv pax/.out/${{ needs.modpack-info.outputs.projectname }}.zip pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
       - name: Upload zip
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: modpack
           path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
@@ -85,7 +85,7 @@ jobs:
   #       run: |
   #         mv pax/serverpack/server-packs/_server_pack.zip pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
   #     - name: Upload zip
-  #       uses: actions/upload-artifact@v2
+  #       uses: actions/upload-artifact@v3
   #       with:
   #         name: serverpack
   #         path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}-Server-Pack.zip
