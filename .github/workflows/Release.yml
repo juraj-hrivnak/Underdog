@@ -44,7 +44,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Download changelog
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: changelog
           path: pax/modpack
@@ -95,15 +95,15 @@ jobs:
     needs: [build-modpack, modpack-info]
     steps:
       - name: Download modpack
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: modpack
       # - name: Download serverpack
-      #   uses: actions/download-artifact@v2
+      #   uses: actions/download-artifact@v3
       #   with:
       #     name: serverpack
       - name: Download changelog
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: changelog
       - name: Create release
@@ -121,11 +121,11 @@ jobs:
     needs: [build-modpack, modpack-info]
     steps:
       - name: Download modpack
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: modpack
       # - name: Download serverpack
-      #   uses: actions/download-artifact@v2
+      #   uses: actions/download-artifact@v3
       #   with:
       #     name: serverpack
       - name: Get release type
@@ -159,7 +159,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Download changelog
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: changelog
           path: pax/changelogs
