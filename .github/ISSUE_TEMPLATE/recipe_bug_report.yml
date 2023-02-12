@@ -4,7 +4,7 @@ labels: "recipe bug"
 body:
   - type: input
     attributes:
-      label: "Recipe name"
+      label: "Affected recipes"
       description: |
         Which recipes are broken/duped? Or is the entire recipe category broken?
     validations:
@@ -20,10 +20,8 @@ body:
     attributes:
       label: "Description (Optional)"
       description: |
-        Please enter an explicit __description__ of your issue.
-        You can also __screenshots__ to the description.
+        You can add an explicit __description__ of your issue and __screenshots__ to the description.
       placeholder: |
-        Which recipes are broken/duped? Or is the entire recipe category broken? 
         If possible, add screenshots of the recipe.
     validations:
       required: false
