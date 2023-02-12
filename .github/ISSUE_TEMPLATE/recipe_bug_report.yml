@@ -6,7 +6,7 @@ body:
     attributes:
       label: "Affected recipes"
       description: |
-        Which recipes are broken/duped? Or is the entire recipe category broken?
+        Which recipes are missing, broken or duped? Or is there an issue with the entire recipe category?
     validations:
       required: true
   - type: input
