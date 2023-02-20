@@ -19,6 +19,7 @@ config/jei/worldSettings.cfg
 config/moresoundconfig.cfg
 
 # Folders in .minecraft
+assetmover/assets/*
 mods/*
 saves/*
 screenshots/*
