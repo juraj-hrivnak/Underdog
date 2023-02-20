@@ -1,8 +1,9 @@
 {
-    "Stone_Iron-Hematite": {
-        "type": "curve",
+    "Iron-Hematite": {
+        "type": "cluster",
         "rarity": 190,
         "count": 1,
+        "clusters": 2,
         "ore": [
             {
                 "block": "osv:_hematite",
@@ -83,7 +84,7 @@
         "max_y": 160,
         "use_relative_y": false,
         "density": 750,
-        "vertical_size": 4,
+        "vertical_size": 10,
         "horizontal_size": 14,
         "indicator": {
             "rarity": 48,

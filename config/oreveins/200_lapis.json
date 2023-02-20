@@ -1,8 +1,9 @@
 {
-    "Stone_Lapis": {
+    "Lapis": {
         "type": "cluster",
         "rarity": 200,
         "count": 1,
+        "clusters": 2,
         "ore": [
             {
                 "block": "osv:_lapis",

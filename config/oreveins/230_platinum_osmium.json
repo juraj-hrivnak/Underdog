@@ -1,8 +1,9 @@
 {
-    "Stone_Platinum-Osmium": {
-        "type": "curve",
+    "Platinum-Osmium": {
+        "type": "cluster",
         "rarity": 230,
         "count": 1,
+        "clusters": 2,
         "ore": [
             {
                 "block": "osv:_platinum",
@@ -83,7 +84,7 @@
         "max_y": 160,
         "use_relative_y": false,
         "density": 750,
-        "vertical_size": 4,
+        "vertical_size": 10,
         "horizontal_size": 14,
         "indicator": {
             "rarity": 48,
