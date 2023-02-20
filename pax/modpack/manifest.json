@@ -276,7 +276,7 @@
     },
     {
       "projectID": 232838,
-      "fileID": 4074419,
+      "fileID": 4401348,
       "required": true,
       "__meta": {
         "name": "Logistics Pipes",
@@ -388,7 +388,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4353149,
+      "fileID": 4403410,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -496,7 +496,7 @@
     },
     {
       "projectID": 244844,
-      "fileID": 3505633,
+      "fileID": 4402062,
       "required": true,
       "__meta": {
         "name": "ForgeEndertech"
@@ -701,14 +701,6 @@
       }
     },
     {
-      "projectID": 256717,
-      "fileID": 2666198,
-      "required": true,
-      "__meta": {
-        "name": "Clumps"
-      }
-    },
-    {
       "projectID": 257356,
       "fileID": 3101719,
       "required": true,
@@ -726,7 +718,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 4194414,
+      "fileID": 4399700,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -894,7 +886,7 @@
     },
     {
       "projectID": 269973,
-      "fileID": 3972371,
+      "fileID": 4402039,
       "required": true,
       "__meta": {
         "name": "Pollution of the Realms",
@@ -1352,7 +1344,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 4326527,
+      "fileID": 4374916,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1438,7 +1430,7 @@
     },
     {
       "projectID": 300317,
-      "fileID": 4318436,
+      "fileID": 4376273,
       "required": true,
       "__meta": {
         "name": "Modernity"
@@ -1581,7 +1573,7 @@
     },
     {
       "projectID": 308663,
-      "fileID": 4125017,
+      "fileID": 4401176,
       "required": true,
       "__meta": {
         "name": "Snow! Real Magic! ⛄ (Forge)"
@@ -1708,7 +1700,7 @@
     },
     {
       "projectID": 321792,
-      "fileID": 4203041,
+      "fileID": 4391401,
       "required": true,
       "__meta": {
         "name": "Aqua Acrobatics",
@@ -1824,6 +1816,14 @@
       }
     },
     {
+      "projectID": 366140,
+      "fileID": 2898681,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic View[Forge]"
+      }
+    },
+    {
       "projectID": 367706,
       "fileID": 4343723,
       "required": true,
@@ -1900,7 +1900,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4103947,
+      "fileID": 4394263,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2107,7 +2107,7 @@
     },
     {
       "projectID": 515565,
-      "fileID": 4118980,
+      "fileID": 4382001,
       "required": true,
       "__meta": {
         "name": "Not Enough Energistics",
@@ -2139,7 +2139,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4328930,
+      "fileID": 4402197,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2235,7 +2235,7 @@
     },
     {
       "projectID": 632327,
-      "fileID": 4329854,
+      "fileID": 4399738,
       "required": true,
       "__meta": {
         "name": "Inventory Bogo Sorter",
@@ -2254,8 +2254,16 @@
       }
     },
     {
+      "projectID": 633806,
+      "fileID": 4098359,
+      "required": true,
+      "__meta": {
+        "name": "XP Orb Clump"
+      }
+    },
+    {
       "projectID": 637540,
-      "fileID": 4312145,
+      "fileID": 4398759,
       "required": true,
       "__meta": {
         "name": "Dramatic Trees"
@@ -2275,10 +2283,10 @@
     },
     {
       "projectID": 648514,
-      "fileID": 3967962,
+      "fileID": 4404814,
       "required": true,
       "__meta": {
-        "name": "Realistic Terrain Generation - Unofficial"
+        "name": "Realistic Terrain Generation Unofficial"
       }
     },
     {
@@ -2296,7 +2304,7 @@
     },
     {
       "projectID": 658616,
-      "fileID": 3951688,
+      "fileID": 4399994,
       "required": true,
       "__meta": {
         "name": "Baubley Elytra",
@@ -2323,7 +2331,7 @@
     },
     {
       "projectID": 705000,
-      "fileID": 4285431,
+      "fileID": 4390552,
       "required": true,
       "__meta": {
         "name": "Universal Tweaks",
