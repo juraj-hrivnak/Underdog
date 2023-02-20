@@ -2,22 +2,11 @@ name: "Recipe Bug Report"
 description: Create a new ticket for a broken recipe/dupe bug.
 labels: "recipe bug"
 body:
-  - type: textarea
-    attributes:
-      label: "Description"
-      description: |
-        Please enter an explicit __description__ of your issue.
-        You can also __screenshots__ to the description.
-      placeholder: |
-        Which recipes are broken/duped? Or is the entire recipe category broken/duped? 
-        If possible, add screenshots of the recipe.
-    validations:
-      required: true
   - type: input
     attributes:
-      label: "The crafttweaker.log file"
+      label: "Affected recipes"
       description: |
-        Please provide a [mclo.gs](https://mclo.gs/) or [gist](https://gist.github.com/) link here. (Make sure that it isn't set to expire!)
+        Which recipes are missing, broken or duped? Or is there an issue with the entire recipe category?
     validations:
       required: true
   - type: input
@@ -27,3 +16,20 @@ body:
         What version of Underdog are you using? Do not just say "latest" please.
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: "Description (Optional)"
+      description: |
+        You can add an explicit __description__ of your issue and __screenshots__ to the description.
+      placeholder: |
+        If possible, add screenshots of the recipe.
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: "The crafttweaker.log file (Optional)"
+      description: |
+        Please provide a [mclo.gs](https://mclo.gs/) or [gist](https://gist.github.com/) link here. (Make sure that it isn't set to expire!)
+    validations:
+      required: false
+  
