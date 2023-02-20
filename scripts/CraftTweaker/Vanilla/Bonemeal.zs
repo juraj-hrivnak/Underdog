@@ -8,9 +8,9 @@ var bonemeal = <minecraft:dye:15>;
 <ore:dyeWhite>.remove(bonemeal);
 <ore:dye>.remove(bonemeal);
 
-//Renaming, Adding Tooltip
+//Rename & add tooltip
 bonemeal.displayName = game.localize("underdog.displayname.bonemeal");
 bonemeal.addTooltip(game.localize("underdog.tooltip.bonemeal"));
 
-//Adding new bonemeal recipe
+//Add new bonemeal recipe
 RecipeUtils.tweakRecipe(false, bonemeal * 2, [[<ore:bone>]]);
