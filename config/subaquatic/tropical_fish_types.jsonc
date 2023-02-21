@@ -1,0 +1,170 @@
+//each shape corresponds to a type, the following table represents the key:
+//any shapes can be added (not just the ones in the table), though you'll have to add textures & translations yourself via a resourcepack
+//[0, 0] = KOB
+//[0, 1] = SUNSTREAK
+//[0, 2] = SNOOPER
+//[0, 3] = DASHER
+//[0, 4] = BRINELY
+//[0, 5] = SPOTTY
+//[1, 0] = FLOPPER
+//[1, 1] = STRIPEY
+//[1, 2] = GLITTER
+//[1, 3] = BLOCKFISH
+//[1, 4] = BETTY
+//[1, 5] = CLAYFISH
+[
+    {
+        //stripey
+        "primaryShape":1,
+        "primaryColor":"orange",
+        "secondaryShape":1,
+        "secondaryColor":"gray"
+    },
+    {
+        //flopper
+        "primaryShape":1,
+        "primaryColor":"gray",
+        "secondaryShape":0,
+        "secondaryColor":"gray"
+    },
+    {
+        //flopper
+        "primaryShape":1,
+        "primaryColor":"gray",
+        "secondaryShape":0,
+        "secondaryColor":"blue"
+    },
+    {
+        //clayfish
+        "primaryShape":1,
+        "primaryColor":"white",
+        "secondaryShape":5,
+        "secondaryColor":"gray"
+    },
+    {
+        //sunstreak
+        "primaryShape":1,
+        "primaryColor":"gray",
+        "secondaryShape":0,
+        "secondaryColor":"gray"
+    },
+    {
+        //kob
+        "primaryShape":0,
+        "primaryColor":"orange",
+        "secondaryShape":0,
+        "secondaryColor":"white"
+    },
+    {
+        //spotty
+        "primaryShape":0,
+        "primaryColor":"pink",
+        "secondaryShape":5,
+        "secondaryColor":"light_blue"
+    },
+    {
+        //blockfish
+        "primaryShape":1,
+        "primaryColor":"purple",
+        "secondaryShape":3,
+        "secondaryColor":"yellow"
+    },
+    {
+        //clayfish
+        "primaryShape":1,
+        "primaryColor":"white",
+        "secondaryShape":5,
+        "secondaryColor":"red"
+    },
+    {
+        //spotty
+        "primaryShape":0,
+        "primaryColor":"white",
+        "secondaryShape":5,
+        "secondaryColor":"yellow"
+    },
+    {
+        //glitter
+        "primaryShape":1,
+        "primaryColor":"white",
+        "secondaryShape":2,
+        "secondaryColor":"gray"
+    },
+    {
+        //clayfish
+        "primaryShape":1,
+        "primaryColor":"white",
+        "secondaryShape":5,
+        "secondaryColor":"orange"
+    },
+    {
+        //dasher
+        "primaryShape":1,
+        "primaryColor":"cyan",
+        "secondaryShape":3,
+        "secondaryColor":"pink"
+    },
+    {
+        //brinely
+        "primaryShape":0,
+        "primaryColor":"lime",
+        "secondaryShape":4,
+        "secondaryColor":"light_blue"
+    },
+    {
+        //betty
+        "primaryShape":1,
+        "primaryColor":"red",
+        "secondaryShape":4,
+        "secondaryColor":"white"
+    },
+    {
+        //snooper
+        "primaryShape":0,
+        "primaryColor":"gray",
+        "secondaryShape":2,
+        "secondaryColor":"red"
+    },
+    {
+        //blockfish
+        "primaryShape":1,
+        "primaryColor":"red",
+        "secondaryShape":3,
+        "secondaryColor":"white"
+    },
+    {
+        //flopper
+        "primaryShape":1,
+        "primaryColor":"white",
+        "secondaryShape":0,
+        "secondaryColor":"yellow"
+    },
+    {
+        //kob
+        "primaryShape":0,
+        "primaryColor":"red",
+        "secondaryShape":0,
+        "secondaryColor":"white"
+    },
+    {
+        //sunstreak
+        "primaryShape":0,
+        "primaryColor":"gray",
+        "secondaryShape":1,
+        "secondaryColor":"white"
+    },
+    {
+        //dasher
+        "primaryShape":0,
+        "primaryColor":"cyan",
+        "secondaryShape":3,
+        "secondaryColor":"yellow"
+    },
+    {
+        //flopper
+        "primaryShape":1,
+        "primaryColor":"yellow",
+        "secondaryShape":0,
+        "secondaryColor":"yellow"
+    }
+]

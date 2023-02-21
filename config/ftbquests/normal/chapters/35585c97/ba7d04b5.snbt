@@ -6,7 +6,7 @@
 				Items: [{
 					Slot: 0,
 					id: "immersiveengineering:drillhead",
-					Count: 1b,
+					Count: 1,
 					Damage: 0s
 				}],
 				Size: 5
