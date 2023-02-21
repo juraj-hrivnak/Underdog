@@ -11,6 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions-ecosystem/action-remove-labels@v1
-        if: ${{ contains(github.event.issue.labels.*.name, 'fixed in dev') }}
         with:
           labels: "fixed in dev"
