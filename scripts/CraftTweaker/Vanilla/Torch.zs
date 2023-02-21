@@ -1,6 +1,7 @@
 
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
+import mods.primitivecrafting as Primitive;
 import mods.dropt.Dropt;
 
 import scripts.CraftTweaker.Utils.RecipeUtils;
@@ -23,6 +24,9 @@ recipes.replaceAllOccurences(<minecraft:torch>, <burningtorch:burningtorch>, <*>
 // Add recipe for new torch
 val coal = <minecraft:coal> | <minecraft:coal:1> | <geolosys:coal:1> | <geolosys:coal:2> | <geolosys:coal:3> | <pyrotech:material:21> | <burningtorch:charredtorchremains>;
 RecipeUtils.tweakRecipe(true, <burningtorch:burningtorch>, [[coal], [<ore:stickWood>]]);
+
+// Add primitive recipe for new torch
+Primitive.addRecipe(<burningtorch:burningtorch>, coal, <ore:stickWood>);
 
 // Add drops for new torch
 Dropt.list("burningtorch")

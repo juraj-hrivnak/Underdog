@@ -3,6 +3,7 @@
 import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
+import mods.primitivecrafting as Primitive;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.mekanism.sawmill as MKSawmill;
@@ -154,10 +155,14 @@ for lumber, x in woodworking {
         recipes.addShaped(slab * 2,
            [[lumber, lumber ]]);
 
+        Primitive.addRecipe(slab * 2, lumber, lumber);
+
         // Adding recipes for planks from slabs
         recipes.addShaped(planks,
            [[slab ],
             [slab ]]);
+
+        Primitive.addRecipe(planks, slab, slab);
 
         // Adding recipes for lumber from slab
         recipes.addShapeless(lumber, [slab]);
@@ -249,6 +254,8 @@ Chopping.addRecipe("chopping_sticks", <minecraft:stick>, <ore:firewood>, [1], [4
 recipes.addShaped("Sticks", <minecraft:stick> * 4,
    [[<ore:lumberX> ],
     [<ore:lumberX> ]]);
+
+Primitive.addRecipe(<minecraft:stick> * 4, <ore:lumberX>, <ore:lumberX>);
 
 recipes.addShaped("Splitting Wedge", <contenttweaker:splitting_wedge>,
    [[<ore:ingotSteel>  ],
