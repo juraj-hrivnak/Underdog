@@ -77,7 +77,7 @@ rh(<pyrotech:torch_stone>);
 rh(<pyrotech:torch_fiber>);
 
 // 2x Mulch => 10x Bonemeal
-recipes.addShapeless(<minecraft:dye:15> * 10, [<pyrotech:mulch>, <pyrotech:mulch>]);
+recipes.addShapeless(<minecraft:dye:15> * 16, [<pyrotech:mulch>, <pyrotech:mulch>]);
 
 // 1x Mulch => 8x Bio Fuel
 recipes.addShapeless(<mekanism:biofuel> * 8, [<pyrotech:mulch>]);

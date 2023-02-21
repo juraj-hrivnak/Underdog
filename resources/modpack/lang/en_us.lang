@@ -15,6 +15,7 @@ underdog.tooltip.too_big=Big
 underdog.tooltip.default_dust=Default dust!
 underdog.tooltip.default_ingot=Default ingot!
 underdog.tooltip.default_nugget=Default nugget!
+underdog.tooltip.default_block=Default block!
 underdog.tooltip.block_should_be_unused=Block should be unused!
 underdog.tooltip.boulder=§a:/
 underdog.tooltip.iron_filter=§aHolds 16
