@@ -114,10 +114,16 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 	}
 
 
-	// Berry Bush
+	// BOP Berry Bush
 	if (event.blockState == <blockstate:biomesoplenty:plant_0:variant=berrybush>) {
 		event.world.setBlockState(<blockstate:biomesoplenty:plant_0:variant=bush>, event.position);
 		event.player.give(<biomesoplenty:berries>);
+	}
+
+    // FutureMC Berry Bush
+	if (event.blockState == <blockstate:futuremc:sweet_berry_bush:age=2>) {
+		event.world.setBlockState(<blockstate:futuremc:sweet_berry_bush:age=1>, event.position);
+		event.player.give(<futuremc:sweet_berries>);
 	}
 
 
