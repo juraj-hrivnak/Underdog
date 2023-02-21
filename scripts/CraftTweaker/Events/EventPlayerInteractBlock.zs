@@ -120,6 +120,19 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 		event.player.give(<biomesoplenty:berries>);
 	}
 
+
+    // print("+-----------------------------------------------------------------+");
+    // print("| -------------------  LOADED OSV BLOCKS  ----------------------- |");
+    // var array as string[] = [];
+    // for i in loadedMods["osv"].items {
+    //     if (!(array has i.definition.id)) {
+    //         print(i.definition.id + ":*");
+    //     }
+    //     array += i.definition.id;
+    // }
+    // print("| -------------------  +-+-+-+-+-+-+-+-+  ----------------------- |");
+    // print("+-----------------------------------------------------------------+");
+
 	// if (event.blockState.block.definition.unlocalizedName == <blockstate:pyrotech:chopping_block>.block.definition.unlocalizedName) {
     //     val block = event.world.getBlock(event.x, event.y, event.z);
 
