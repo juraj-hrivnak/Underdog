@@ -106,14 +106,6 @@
       }
     },
     {
-      "projectID": 224301,
-      "fileID": 2686991,
-      "required": true,
-      "__meta": {
-        "name": "Special AI"
-      }
-    },
-    {
       "projectID": 224472,
       "fileID": 2969118,
       "required": true,
@@ -1390,14 +1382,6 @@
       }
     },
     {
-      "projectID": 299263,
-      "fileID": 2626921,
-      "required": true,
-      "__meta": {
-        "name": "Scarper"
-      }
-    },
-    {
       "projectID": 299540,
       "fileID": 2706111,
       "required": true,
@@ -1789,6 +1773,17 @@
       }
     },
     {
+      "projectID": 361276,
+      "fileID": 4120467,
+      "required": true,
+      "__meta": {
+        "name": "Lootr (Forge)",
+        "dependencies": [
+          419286
+        ]
+      }
+    },
+    {
       "projectID": 363102,
       "fileID": 4118829,
       "required": true,
@@ -1997,6 +1992,14 @@
       }
     },
     {
+      "projectID": 416089,
+      "fileID": 4372201,
+      "required": true,
+      "__meta": {
+        "name": "Simple Voice Chat"
+      }
+    },
+    {
       "projectID": 417392,
       "fileID": 3895715,
       "required": true,
@@ -2033,6 +2036,14 @@
           248453,
           320470
         ]
+      }
+    },
+    {
+      "projectID": 442962,
+      "fileID": 3343308,
+      "required": true,
+      "__meta": {
+        "name": "Elenai Dodge 2"
       }
     },
     {
@@ -2124,6 +2135,14 @@
           419286,
           74072
         ]
+      }
+    },
+    {
+      "projectID": 556777,
+      "fileID": 4344825,
+      "required": true,
+      "__meta": {
+        "name": "Reach Fix"
       }
     },
     {
@@ -2324,6 +2343,14 @@
       "required": true,
       "__meta": {
         "name": "Tweaked Lib"
+      }
+    },
+    {
+      "projectID": 696185,
+      "fileID": 4136291,
+      "required": true,
+      "__meta": {
+        "name": "Well well well..."
       }
     },
     {
