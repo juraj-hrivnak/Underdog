@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "3.1.2",
+  "version": "3.2.0",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -1382,6 +1382,14 @@
       }
     },
     {
+      "projectID": 299161,
+      "fileID": 2826999,
+      "required": true,
+      "__meta": {
+        "name": "Burning Torches"
+      }
+    },
+    {
       "projectID": 299263,
       "fileID": 2626921,
       "required": true,
@@ -2335,6 +2343,17 @@
       "required": true,
       "__meta": {
         "name": "Delightful Cuisine for Woodheads"
+      }
+    },
+    {
+      "projectID": 819886,
+      "fileID": 4389342,
+      "required": true,
+      "__meta": {
+        "name": "RLArtifacts",
+        "dependencies": [
+          227083
+        ]
       }
     }
   ]
