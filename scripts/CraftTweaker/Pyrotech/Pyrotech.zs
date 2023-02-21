@@ -74,26 +74,7 @@ recipes.removeByRecipeName("pyrotech:stick");
 
 // Torch
 rh(<pyrotech:torch_stone>);
-<ore:torch>.add(<pyrotech:torch_fiber>);
-<ore:blockTorch>.add(<pyrotech:torch_fiber>);
-val coal = <minecraft:coal> | <minecraft:coal:1> | <geolosys:coal:1> | <geolosys:coal:2> | <geolosys:coal:3> | <pyrotech:material:21>;
-RecipeUtils.tweakRecipe(true, <pyrotech:torch_fiber>, [[coal], [<ore:stickWood>]]);
-
-Dropt.list("torch")
-    .add(Dropt.rule()
-        .matchBlocks(["pyrotech:torch_fiber:*"])
-        .addDrop(Dropt.drop()
-            .force()
-            .items([<minecraft:stick>]) // 100% Sticks
-        )
-        .addDrop(Dropt.drop()
-            .selector(Dropt.weight(50))
-            .items([<pyrotech:material:21>]) // 50% drop coal pieces
-        )
-        .addDrop(Dropt.drop()
-            .selector(Dropt.weight(50)) // drop nothing else 50% of time
-        )
-    );
+rh(<pyrotech:torch_fiber>);
 
 // 2x Mulch => 10x Bonemeal
 recipes.addShapeless(<minecraft:dye:15> * 10, [<pyrotech:mulch>, <pyrotech:mulch>]);
