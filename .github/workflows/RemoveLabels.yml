@@ -1,4 +1,4 @@
-name: Remove Label
+name: Remove Labels
 
 on:
   issues:
