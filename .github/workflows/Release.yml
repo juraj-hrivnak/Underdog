@@ -48,6 +48,12 @@ jobs:
         with:
           name: changelog
           path: pax/modpack
+      - name: Sync overrides
+        run: |
+          cd pax/
+          chmod +x ./sync_overrides.sh
+          ./sync_overrides.sh
+        shell: bash
       - name: Export modpack
         run: |
           cd pax/
