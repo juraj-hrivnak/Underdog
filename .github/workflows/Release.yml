@@ -23,9 +23,9 @@ jobs:
         run: |
             manifestjson=`cat pax/modpack/manifest.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "::set-output name=projectname::$projectname"
+            echo "projectname=$projectname" >> $GITHUB_OUTPUT
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "::set-output name=version::$version"
+            echo "version=$version" >> $GITHUB_OUTPUT
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
@@ -143,7 +143,7 @@ jobs:
             *beta*) rel_type="beta" ;;
             *) rel_type="release" ;;
           esac
-          echo "::set-output name=type::$rel_type"
+          echo "type=$rel_type" >> $GITHUB_OUTPUT
       - name: Create release
         uses: juraj-hrivnak/upload-curseforge-modpack-action@v1.0.1
         with:
