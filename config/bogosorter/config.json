@@ -1,7 +1,8 @@
 {
   "General": {
     "enableAutoRefill": true,
-    "refillDmgThreshold": 1
+    "refillDmgThreshold": 1,
+    "enableHotbarSwap": false
   },
   "ItemSortRules": [],
   "NbtSortRules": []
