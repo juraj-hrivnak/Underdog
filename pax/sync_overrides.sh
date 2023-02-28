@@ -56,9 +56,9 @@ cd pax
 
 # structures
 cd modpack/overrides
-if [ -d "scripts" ]; then
-    rm -rf scripts
+if [ -d "structures" ]; then
+    rm -rf structures
 fi
 cd ../../..
-cp -r scripts pax/modpack/overrides
+cp -r structures pax/modpack/overrides
 cd pax
