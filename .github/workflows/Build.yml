@@ -18,16 +18,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - name: Get modpack info
         id: info
         run: |
             manifestjson=`cat pax/modpack/manifest.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "{name}={projectname}" >> $GITHUB_OUTPUT
+            echo "name=projectname" >> $GITHUB_OUTPUT
             version=`echo $(jq -r '.version' <<< "$manifestjson")`
-            echo "{name}={version}" >> $GITHUB_OUTPUT
+            echo "name=version" >> $GITHUB_OUTPUT
       - name: Rename changelog
         run: mv CHANGELOG.md CHANGELOG-${{ steps.info.outputs.version }}.md
       - name: Upload changelog
@@ -59,12 +57,12 @@ jobs:
           sudo chmod +x ./pax
           ./pax export
       - name: Rename zip
-        run: mv pax/.out/${{ needs.modpack-info.outputs.projectname }}.zip pax/.out/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}.zip
+        run: mv pax/.out/${{ needs.modpack-info.outputs.projectname }}.zip pax/.out/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-dev-build.${{ github.run_number }}.zip
       - name: Upload zip
         uses: actions/upload-artifact@v3
         with:
           name: modpack
-          path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}.zip
+          path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-dev-build.${{ github.run_number }}.zip
 
   # build-serverpack:
   #   runs-on: ubuntu-latest
