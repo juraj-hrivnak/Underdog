@@ -1,10 +1,13 @@
-name: Test
-run-name: Test to ${{ inputs.deploy_target }} by @${{ github.actor }}
+name: Build
+run-name: Build number ${{ github.run_number }} by @${{ github.actor }}
 
 on:
   push:
-    tags:
-      - 'test*'
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   modpack-info:
@@ -16,6 +19,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Get modpack info
         id: info
         run: |
@@ -27,6 +32,8 @@ jobs:
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
+        with:
+          fallback: "no-version-found"
       - name: Rename changelog
         run: mv CHANGELOG.md CHANGELOG-${{ steps.version.outputs.tag }}.md
       - name: Upload changelog
