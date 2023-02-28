@@ -268,7 +268,7 @@
     },
     {
       "projectID": 232838,
-      "fileID": 4401348,
+      "fileID": 4411480,
       "required": true,
       "__meta": {
         "name": "Logistics Pipes",
@@ -345,7 +345,7 @@
     },
     {
       "projectID": 237701,
-      "fileID": 4120065,
+      "fileID": 4408001,
       "required": true,
       "__meta": {
         "name": "ReAuth"
@@ -1325,7 +1325,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 4374916,
+      "fileID": 4410380,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1497,7 +1497,7 @@
     },
     {
       "projectID": 306676,
-      "fileID": 4132140,
+      "fileID": 4415746,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
@@ -1562,7 +1562,7 @@
     },
     {
       "projectID": 308663,
-      "fileID": 4401176,
+      "fileID": 4406440,
       "required": true,
       "__meta": {
         "name": "Snow! Real Magic! ⛄ (Forge)"
@@ -1970,7 +1970,7 @@
     },
     {
       "projectID": 409087,
-      "fileID": 4174569,
+      "fileID": 4415046,
       "required": true,
       "__meta": {
         "name": "Entity Culling",
@@ -2134,18 +2134,6 @@
       }
     },
     {
-      "projectID": 545353,
-      "fileID": 3519479,
-      "required": true,
-      "__meta": {
-        "name": "Tinkers OreDict Cache",
-        "dependencies": [
-          419286,
-          74072
-        ]
-      }
-    },
-    {
       "projectID": 556777,
       "fileID": 4344825,
       "required": true,
@@ -2163,7 +2151,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4402197,
+      "fileID": 4406629,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2171,7 +2159,7 @@
     },
     {
       "projectID": 574029,
-      "fileID": 4356422,
+      "fileID": 4415870,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
@@ -2248,7 +2236,7 @@
     },
     {
       "projectID": 624967,
-      "fileID": 4168831,
+      "fileID": 4415043,
       "required": true,
       "__meta": {
         "name": "RenderLib",
@@ -2279,7 +2267,7 @@
     },
     {
       "projectID": 633806,
-      "fileID": 4098359,
+      "fileID": 4412006,
       "required": true,
       "__meta": {
         "name": "XP Orb Clump"
@@ -2363,7 +2351,7 @@
     },
     {
       "projectID": 705000,
-      "fileID": 4390552,
+      "fileID": 4414385,
       "required": true,
       "__meta": {
         "name": "Universal Tweaks",
