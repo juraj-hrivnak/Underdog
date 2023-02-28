@@ -25,9 +25,9 @@ jobs:
         run: |
             manifestjson=`cat pax/modpack/manifest.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "::set-output name=projectname::$projectname"
+            echo "{name}={projectname}" >> $GITHUB_OUTPUT
             version=`echo $(jq -r '.version' <<< "$manifestjson")`
-            echo "::set-output name=version::$version"
+            echo "{name}={version}" >> $GITHUB_OUTPUT
       - name: Rename changelog
         run: mv CHANGELOG.md CHANGELOG-${{ steps.info.outputs.version }}.md
       - name: Upload changelog
