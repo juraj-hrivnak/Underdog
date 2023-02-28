@@ -1,6 +1,0 @@
-{
-    "parent": "tropicraft:item/fishing_rod",
-    "textures": {
-        "layer0": "tropicraft:items/fishing_rod"
-    }
-}

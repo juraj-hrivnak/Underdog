@@ -1,6 +1,0 @@
-{
-    "parent": "block/wall_gate_open",
-    "textures": {
-        "texture": "tropicraft:blocks/thatch_side"
-    }
-}

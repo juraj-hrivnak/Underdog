@@ -1,7 +1,0 @@
-{
-	title: "Getting Refractored",
-	icon: "divergentunderground:ore_gold",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "square"
-}

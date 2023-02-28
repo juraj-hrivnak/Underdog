@@ -1,7 +1,0 @@
-{
-	title: "Meteorology",
-	icon: "weather2:weather_item",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

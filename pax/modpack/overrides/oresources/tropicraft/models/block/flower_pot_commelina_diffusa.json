@@ -1,6 +1,0 @@
-{
-    "parent": "tropicraft:block/flower_pot_cross",
-    "textures": {
-        "plant": "tropicraft:blocks/flower_commelina_diffusa"
-    }
-}

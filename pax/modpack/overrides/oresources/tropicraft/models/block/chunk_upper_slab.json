@@ -1,8 +1,0 @@
-{
-    "parent": "block/upper_slab",
-    "textures": {
-        "bottom": "tropicraft:blocks/chunk",
-        "top": "tropicraft:blocks/chunk",
-        "side": "tropicraft:blocks/chunk"
-    }
-}
