@@ -9,6 +9,8 @@ cd ../../..
 cp -r config pax/modpack/overrides
 cd pax
 
+echo Config synced!
+
 # local
 cd modpack/overrides
 if [ -d "local" ]; then
@@ -17,6 +19,8 @@ fi
 cd ../../..
 cp -r local pax/modpack/overrides
 cd pax
+
+echo Local synced!
 
 # oresources
 cd modpack/overrides
@@ -27,6 +31,8 @@ cd ../../..
 cp -r oresources pax/modpack/overrides
 cd pax
 
+echo Oresources synced!
+
 # patchouli_books
 cd modpack/overrides
 if [ -d "patchouli_books" ]; then
@@ -35,6 +41,8 @@ fi
 cd ../../..
 cp -r patchouli_books pax/modpack/overrides
 cd pax
+
+echo Patchouli Books synced!
 
 # resources
 cd modpack/overrides
@@ -45,6 +53,8 @@ cd ../../..
 cp -r resources pax/modpack/overrides
 cd pax
 
+echo Resources synced!
+
 # scripts
 cd modpack/overrides
 if [ -d "scripts" ]; then
@@ -54,6 +64,8 @@ cd ../../..
 cp -r scripts pax/modpack/overrides
 cd pax
 
+echo Scripts synced!
+
 # structures
 cd modpack/overrides
 if [ -d "structures" ]; then
@@ -62,3 +74,6 @@ fi
 cd ../../..
 cp -r structures pax/modpack/overrides
 cd pax
+
+echo Structures synced!
+echo Syncing completed!
