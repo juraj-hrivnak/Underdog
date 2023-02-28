@@ -1,4 +1,5 @@
 name: Test
+run-name: Test to ${{ inputs.deploy_target }} by @${{ github.actor }}
 
 on:
   push:
