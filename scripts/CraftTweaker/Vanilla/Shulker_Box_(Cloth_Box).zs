@@ -31,6 +31,6 @@ for box, x in shulkerBoxes {
 
     recipes.addShaped(box,
        [[pelt, wool             , pelt],
-        [wool, <ore:ingotBronze>, wool],
+        [wool, <ore:blockBronze>, wool],
         [pelt, wool             , pelt]]);
 }
