@@ -1,5 +1,5 @@
 name: Build
-run-name: Build number ${{ github.run_number }} by @${{ github.actor }}
+run-name: Dev Build /#${{ github.run_number }} by @${{ github.actor }}
 
 on:
   push:
@@ -15,7 +15,6 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
-      tag: ${{ steps.version.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -29,18 +28,13 @@ jobs:
             echo "::set-output name=projectname::$projectname"
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "::set-output name=version::$version"
-      - name: Get tag
-        id: version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
-        with:
-          fallback: "no-version-found"
       - name: Rename changelog
-        run: mv CHANGELOG.md CHANGELOG-${{ steps.version.outputs.tag }}.md
+        run: mv CHANGELOG.md CHANGELOG-${{ steps.info.outputs.version }}.md
       - name: Upload changelog
         uses: actions/upload-artifact@v3
         with:
           name: changelog
-          path: CHANGELOG-${{ steps.version.outputs.tag }}.md
+          path: CHANGELOG-${{ steps.info.outputs.version }}.md
 
   build-modpack:
     runs-on: ubuntu-latest
@@ -65,12 +59,12 @@ jobs:
           sudo chmod +x ./pax
           ./pax export
       - name: Rename zip
-        run: mv pax/.out/${{ needs.modpack-info.outputs.projectname }}.zip pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+        run: mv pax/.out/${{ needs.modpack-info.outputs.projectname }}.zip pax/.out/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}.zip
       - name: Upload zip
         uses: actions/upload-artifact@v3
         with:
           name: modpack
-          path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}.zip
 
   # build-serverpack:
   #   runs-on: ubuntu-latest
