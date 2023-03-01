@@ -26,7 +26,7 @@ The best place to set up a server to play the Underdog modpack is at: \
 - Updated configs for prospector's pick, realistic block physics & fragileblocks.
 - Added new textures for placed ingots.
 - Forced simplelogic to render using TESRs. (It looks better.)
-- Added the well block.
+- Added the well block, that you can now place the Well block in biomes with water reservoirs to collect spring water!
 - You can now right-click on FutureMC Berry Bush to get sweet berries.
 - Added primitive crafting recipe for a torch, wooden slabs and planks.
 - Fixed ArmorStandSwap conflict.
