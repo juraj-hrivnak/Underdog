@@ -1,5 +1,5 @@
 name: Build
-run-name: "Dev Build #${{ github.run_number }} v${{ needs.modpack-info.outputs.version }}"
+run-name: "Build #${{ github.run_number }}"
 
 on:
   push:
