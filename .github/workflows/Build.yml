@@ -80,7 +80,7 @@ jobs:
           CURSEFORGE_API_KEY: ${{ secrets.CF_API_KEY }}
         run: |
           mkdir ${GITHUB_WORKSPACE}/downloader
-          java -jar pax/ModpackDownloader-1.0-SNAPSHOT-jar-with-dependencies.jar ${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-build.${{ github.run_number }}.zip downloader
+          java -jar pax/ModpackDownloader-1.0-SNAPSHOT-jar-with-dependencies.jar pax/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-build.${{ github.run_number }}.zip downloader
           cd downloader/mods
           find . -type f -name '*.zip' -exec rm {} +
           mv ../mods ../../mods
