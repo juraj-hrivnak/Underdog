@@ -10,10 +10,5 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ## What's new?
 
--
-
-## Mod Changes
-
-```markdown
-
-```
+- Fixed quantum chest recipe.
+- Fixed cooking for blockheads gui bug.
