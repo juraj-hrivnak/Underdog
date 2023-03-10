@@ -77,7 +77,7 @@ jobs:
           path: pax
       - name: Download Mods
         env:
-          apikey: ${{ secrets.CF_API_KEY }}
+          CURSEFORGE_API_KEY: ${{ secrets.CF_API_KEY }}
         run: |
           mkdir ${GITHUB_WORKSPACE}/downloader
           java -jar pax/ModpackDownloader-1.0-SNAPSHOT-jar-with-dependencies.jar ${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-build.${{ github.run_number }}.zip downloader
