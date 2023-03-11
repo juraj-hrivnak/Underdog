@@ -198,4 +198,5 @@ jobs:
       uses: juraj-hrivnak/close-issues-based-on-label@master
       env:
         LABEL: "fixed in dev"
+        VERSION: ${{ needs.modpack-info.outputs.tag }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
