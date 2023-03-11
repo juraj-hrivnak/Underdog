@@ -2,7 +2,7 @@
 <p 
   align="center">
   <img
-    src="https://raw.githubusercontent.com/juraj-hrivnak/Underdog/main/.github/banner3.png"
+    src="https://raw.githubusercontent.com/juraj-hrivnak/Underdog/main/.github/banner8.png"
     alt="Logo"
     width="4000"
   >
