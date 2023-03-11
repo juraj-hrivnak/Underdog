@@ -195,7 +195,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: close-fixed-in-dev
-      uses: bdougie/close-issues-based-on-label@master
+      uses: juraj-hrivnak/close-issues-based-on-label@master
       env:
         LABEL: "fixed in dev"
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
