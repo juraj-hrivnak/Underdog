@@ -14,6 +14,16 @@
 	},
 	x: -4.0d,
 	y: -2.0d,
+	text: [
+		"&7It's generally hard to &ofully cook&7 unprocessed ingredients as whole, so here comes chopping board.",
+		"",
+		"&b(Left-clicking)&r&7 and &b(right-clicking)&r&7",
+		"the board with kitchen knife will cut ingredients into various forms.",
+		"",
+		"Note that some ingredients may not exist in a certain form.",
+		"",
+		"To place an ingredient onto board, simply &b(right click)&r&7 the board with the ingredient held in hand."
+	],
 	dependencies: [
 		"ad70493a"
 	],

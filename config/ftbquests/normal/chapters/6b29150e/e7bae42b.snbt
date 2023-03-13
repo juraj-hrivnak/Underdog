@@ -3,6 +3,13 @@
 	icon: "cuisine:wooden_basin",
 	x: -5.5d,
 	y: -1.0d,
+	text: [
+		"&7Squeezing is a bit complicated.",
+		"",
+		"It means that you need to put items into the basin by &b(right-clicking)&r&7 the basin, then either put a vanilla piston on top of the basin to form a squeezer, or use your feet to crush them by letting yourself jump and fall on the basin.",
+		" ",
+		"The squeezer structure needs &oenergy&7 to work. It takes &o20 RF&7 per squeeze."
+	],
 	dependencies: [
 		"451fb1d8"
 	],

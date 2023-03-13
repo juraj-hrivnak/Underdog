@@ -7,10 +7,10 @@
 	hide: true,
 	size: 0.8d,
 	tasks: [{
-		uid: "fea5a356",
+		uid: "461b7638",
 		type: "item",
 		items: [{
-			item: "pyrotech:torch_fiber"
+			item: "burningtorch:burningtorch"
 		}]
 	}]
 }

@@ -2,6 +2,9 @@
 	x: 0.0d,
 	y: 3.0d,
 	shape: "hexagon",
+	text: [
+		"&7A refractory crucible can melt ores and hold hot liquids."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"d5975f15"

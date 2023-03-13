@@ -1,6 +1,11 @@
 {
 	x: 1.8d,
 	y: 2.6d,
+	text: [
+		"&7To cast the desired item &b(right-click)&r&7 on the casting faucet while the casting table with sand or permanent cast is underneath it.",
+		"",
+		"It will pour the molten metal into the cast, which will solidify after a few seconds."
+	],
 	dependencies: [
 		"755477b9"
 	],

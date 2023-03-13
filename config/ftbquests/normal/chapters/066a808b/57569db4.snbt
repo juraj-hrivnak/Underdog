@@ -1,6 +1,11 @@
 {
 	x: 8.0d,
 	y: 4.0d,
+	text: [
+		"&7Blast Furnace Preheaters can be used to heat up air and then blow it into the furnace to speed up the refinement process of iron.",
+		"",
+		"Each furnace can have up to two preheaters connected to the ports on the each side, and each preheater requires RF to operate."
+	],
 	dependencies: [
 		"e8872920"
 	],

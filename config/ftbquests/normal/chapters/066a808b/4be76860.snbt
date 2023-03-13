@@ -1,6 +1,9 @@
 {
 	x: 4.5d,
 	y: 3.0d,
+	text: [
+		"&7Place the &oBellows&7 &bfacing&r&7 a &oCombustion Machine&7 or &oBloomery&7 and jump on it to increase airflow and accelerate the device."
+	],
 	dependencies: [
 		"ed6c68ff"
 	],

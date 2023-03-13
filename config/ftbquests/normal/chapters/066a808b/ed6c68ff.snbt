@@ -3,6 +3,22 @@
 	x: 3.5d,
 	y: 3.0d,
 	shape: "hexagon",
+	text: [
+		"&7A &oBloomery&7 consumes fuel to smelt ore into &oBlooms&7.",
+		"",
+		"The more fuel a &oBloomery&7 has, the faster it will operate.",
+		"The fuel's burn time also affects the &oBloomery's&7 speed.",
+		"A &oBellows&7 or &oMechanical Bellows&7 can accelerate a &oBloomery&7.",
+		"",
+		"To use, place ore and fuel in the top of the &oBloomery&7, then ignite &b(Right-Click)&r&7 the top with a verified fire-starting device.",
+		"When the fire on top goes out, you can remove the &oAsh&7 and &oBloom&7.",
+		"To remove &oAsh&7, &b(Right-Click)&r&7 the top of the &oBloomery&7 with a shovel.",
+		"Remember, &oBlooms&7 are hot - handling them can be dangerous.",
+		"",
+		"&7Tongs will allow you to safely handle Blooms.",
+		"",
+		"To pick up a Bloom, &b(right-Click)&r&7 the Bloom with Tongs."
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"d5975f15"

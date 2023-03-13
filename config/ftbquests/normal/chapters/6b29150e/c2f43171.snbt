@@ -1,0 +1,31 @@
+{
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"&7Drinkro™ is a multiblock structure consisting of two blocks stacked vertically. ",
+		"",
+		"The upper half is where &ofluid ingredients&7 and &oadditional items&7 go into the Drinkro™, and it can hold one bucket of fluid and four additional items at maximum. ",
+		"",
+		"Additional items may be regular seasonings or \"special item\", which decides the type of drink; for each drink, there must be &oat most one&7 such \"special item\".",
+		"",
+		"The lower half is where the drinks are produced, and you should put a container there to receive your drinks.",
+		"",
+		"There are four different types of drinks; each type has different \"primary\" effects on players. Different juices can also affect \"primary\" effects.",
+		"",
+		"Without any special item, the produced drink is a regular drink.",
+		"",
+		"Drinks may be used to alleviate Resistance Effect.",
+		"",
+		"If there is a special item, the container must also match that special item. After matched, give the Drinkro™ enough energy to make it start to work."
+	],
+	dependencies: [
+		"ad70493a"
+	],
+	tasks: [{
+		uid: "724f7eb6",
+		type: "item",
+		items: [{
+			item: "cuisine:drinkro"
+		}]
+	}]
+}

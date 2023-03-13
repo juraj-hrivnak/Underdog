@@ -4,6 +4,11 @@
 	x: 7.0d,
 	y: 3.0d,
 	shape: "hexagon",
+	text: [
+		"&7To form a Blast Furnace, arrange 27 reinforced refractory bricks in a 3x3x3 cube with a hopper at the top, and &b(right-click)&r&7 one of the sides' centre blocks with an Engineer's Hammer.",
+		"",
+		"Steel is output at the front of the furnace, slag at the back, and the furnace will automatically output to connected inventories or conveyor belts. Iron and Coal Coke are fed in through the top."
+	],
 	dependencies: [
 		"5e6b8dc8"
 	],

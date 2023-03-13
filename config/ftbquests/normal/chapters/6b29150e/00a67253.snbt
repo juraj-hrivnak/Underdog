@@ -1,8 +1,11 @@
 {
 	x: -6.5d,
 	y: 0.0d,
+	text: [
+		"&7The fan is a practical item that can make the fire pit hotter by &b(right-clicking)&r&7."
+	],
 	dependencies: [
-		"e7bae42b"
+		"ca2065d5"
 	],
 	tasks: [{
 		uid: "7f944771",

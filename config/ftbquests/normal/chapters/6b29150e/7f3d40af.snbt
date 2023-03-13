@@ -1,6 +1,11 @@
 {
 	x: -1.5d,
 	y: 1.0d,
+	text: [
+		"&7Wooden arm is a useful automation tool; putting it into a &ovanilla dispenser&7 and give the dispenser redstone pulses will let dispenser to simulate players' right-clicking.",
+		"",
+		"Combining this with redstone clock may achieve more than what you can imagine!"
+	],
 	dependencies: [
 		"3b8903a3"
 	],

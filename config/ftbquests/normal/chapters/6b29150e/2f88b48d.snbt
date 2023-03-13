@@ -1,6 +1,16 @@
 {
 	x: -1.0d,
 	y: -0.5d,
+	text: [
+		"&7Mortar is a processing device that can grind things. It is primarily for grinding ingredients into paste form.",
+		"It can also refine crude salt into regular table salt. ",
+		"",
+		"To use mortar, firstly place it down as a block.",
+		"&b(Right click)&r&7 the mortar block with items being held will put items into mortar.",
+		"&b(Right click)&r&7 with empty hand will let it work; after &b(right-clicking)&r&7 for several times, the products will automatically pop out.",
+		"",
+		"Pick up the mortar block using &b(shift + left-click)&r&7."
+	],
 	dependencies: [
 		"3b8903a3"
 	],
