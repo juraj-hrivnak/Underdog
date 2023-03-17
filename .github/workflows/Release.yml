@@ -22,7 +22,7 @@ jobs:
       - name: Get modpack info
         id: info
         run: |
-            manifestjson=` pax/modpack/manifest.json`
+            manifestjson=`cat pax/modpack/manifest.json`
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
             echo "projectname=$projectname" >> $GITHUB_OUTPUT
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
