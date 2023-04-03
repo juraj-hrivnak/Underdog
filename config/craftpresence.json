@@ -1,16 +1,16 @@
 {
   "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_schemaVersion": 2,
+  "_schemaVersion": 3,
   "_lastMCVersionId": 340,
   "generalSettings": {
-    "detectCurseManifest": false,
-    "detectMultiMCManifest": false,
-    "detectMCUpdaterInstance": false,
-    "detectTechnicPack": false,
-    "detectBiomeData": false,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
-    "clientId": "861924917221130250",
+    "clientId": "450485984333660181",
     "defaultIcon": "underdog",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
@@ -22,7 +22,7 @@
     "fallbackBiomeIcon": "unknown",
     "biomeData": {
       "default": {
-        "textOverride": "Playing in &biome&",
+        "textOverride": "Playing in {biome.name}",
         "data": {
           "enabled": true,
           "useAsMain": false,
@@ -45,10 +45,10 @@
     }
   },
   "dimensionSettings": {
-    "fallbackDimensionIcon": "underdog",
+    "fallbackDimensionIcon": "unknown",
     "dimensionData": {
       "default": {
-        "textOverride": "In the &dimension&",
+        "textOverride": "In the {dimension.name}",
         "data": {
           "enabled": true,
           "useAsMain": false,
@@ -71,12 +71,12 @@
     }
   },
   "serverSettings": {
-    "fallbackServerIcon": "underdog",
+    "fallbackServerIcon": "default",
     "fallbackServerName": "Minecraft Server",
     "fallbackServerMotd": "A Minecraft Server",
     "serverData": {
       "default": {
-        "textOverride": "Playing on &motd&",
+        "textOverride": "Playing on {server.motd.raw}",
         "data": {
           "enabled": true,
           "useAsMain": false,
@@ -100,7 +100,7 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "Chilling in the Main Menu",
+      "textOverride": "In the Main Menu",
       "data": {
         "enabled": true,
         "useAsMain": false,
@@ -201,7 +201,7 @@
       "fallbackGuiIcon": "unknown",
       "guiData": {
         "default": {
-          "textOverride": "In &screen&",
+          "textOverride": "In {screen.name}",
           "data": {
             "enabled": true,
             "useAsMain": false,
@@ -224,13 +224,13 @@
       }
     },
     "itemMessages": {
-      "default": "Holding &item&"
+      "default": "Holding {item.message.holding}"
     },
     "entitySettings": {
       "fallbackEntityIcon": "unknown",
       "targetData": {
         "default": {
-          "textOverride": "Targeting &entity&",
+          "textOverride": "Targeting {entity.target.name}",
           "data": {
             "enabled": true,
             "useAsMain": false,
@@ -253,7 +253,7 @@
       },
       "ridingData": {
         "default": {
-          "textOverride": "Riding &entity&",
+          "textOverride": "Riding {entity.riding.name}",
           "data": {
             "enabled": true,
             "useAsMain": false,
@@ -276,8 +276,8 @@
       }
     },
     "allowEndpointIcons": true,
-    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/%1$s",
-    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s"
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}"
   },
   "accessibilitySettings": {
     "tooltipBackgroundColor": "0xF0100010",
@@ -295,12 +295,12 @@
     "presenceData": {
       "enabled": true,
       "useAsMain": false,
-      "details": "&MAINMENU&|&DIMENSION&",
-      "gameState": "&SERVER& &PACK&",
-      "largeImageKey": "&MAINMENU&&DIMENSION&",
-      "largeImageText": "&MAINMENU&&DIMENSION&",
-      "smallImageKey": "&SERVER&&PACK&",
-      "smallImageText": "&SERVER&",
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {
@@ -312,8 +312,7 @@
     },
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
-      "KokinoRe5pect": "https://crafatar.com/avatars/abfee173bfae4a95bf63b4bfd5f62594",
-      "karl226": "https://crafatar.com/avatars/2f690abb4336488b8d93db6f4e5896d0"
+      "karl226": "https://mc-heads.net/avatar/2f690abb4336488b8d93db6f4e5896d0"
     },
     "dynamicVariables": {
       "default": "Example Text",
