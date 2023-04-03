@@ -109,3 +109,7 @@ Squeezer.removeByInput(<minecraft:wheat_seeds>);
 Squeezer.removeByInput(<minecraft:pumpkin_seeds>);
 Squeezer.removeByInput(<minecraft:melon_seeds>);
 Squeezer.removeByInput(<minecraft:beetroot_seeds>);
+
+// Tough Fabric
+recipes.addShaped(<immersiveengineering:material:5>, RecipeUtils.createSurround(<ore:stickWood>, <harvestcraft:flaxitem>));
+recipes.addShaped(<immersiveengineering:material:5>, RecipeUtils.createSurround(<ore:stickWood>, <biomesoplenty:double_plant>));

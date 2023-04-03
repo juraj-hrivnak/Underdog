@@ -3,5 +3,5 @@
 import crafttweaker.liquid.ILiquidStack as ILiquidStack;
 import mods.tconstruct.Alloy as TCAlloying;
 
-// Removing PigIron
+// Remove Pig Iron
 TCAlloying.removeRecipe(<liquid:pigiron>);
