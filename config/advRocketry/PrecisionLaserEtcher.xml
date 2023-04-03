@@ -32,26 +32,26 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="true">
-	<Recipe timeRequired="1200" power ="600">
-		<input>
-			<itemStack>advancedrocketry:lens</itemStack>
-			<itemStack>thermalfoundation:material;1;33</itemStack>
-			<itemStack>minecraft:redstone_block</itemStack>
-			<itemStack>advancedrocketry:wafer;4</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
-		</output>
-	</Recipe>
 	<Recipe timeRequired="1200" power ="400">
 		<input>
 			<itemStack>advancedrocketry:lens</itemStack>
-			<itemStack>thermalfoundation:material;1;33</itemStack>
+			<itemStack>libvulpes:productplate;1;2</itemStack>
 			<itemStack>minecraft:redstone</itemStack>
 			<itemStack>advancedrocketry:wafer;4</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemcircuitplate;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1200" power ="600">
+		<input>
+			<itemStack>advancedrocketry:lens</itemStack>
+			<itemStack>libvulpes:productplate;1;2</itemStack>
+			<itemStack>minecraft:redstone_block</itemStack>
+			<itemStack>advancedrocketry:wafer;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemcircuitplate;2;1</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

@@ -32,24 +32,6 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="true">
-	<Recipe timeRequired="100" power ="2">
-		<input>
-			<itemStack>libvulpes:productsheet;2;6</itemStack>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:pressuretank;1;1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="100" power ="4">
-		<input>
-			<itemStack>libvulpes:productsheet;2;9</itemStack>
-			<fluidStack>water;100</fluidStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:pressuretank;1;2</itemStack>
-		</output>
-	</Recipe>
 	<Recipe timeRequired="400" power ="8">
 		<input>
 			<itemStack>libvulpes:productsheet;2;7</itemStack>
@@ -59,6 +41,15 @@
 			<itemStack>advancedrocketry:pressuretank;1;3</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="100" power ="2">
+		<input>
+			<itemStack>libvulpes:productsheet;2;6</itemStack>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:pressuretank;1;1</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="100" power ="1">
 		<input>
 			<itemStack>libvulpes:productsheet;2;1</itemStack>
@@ -66,6 +57,15 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:pressuretank</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="4">
+		<input>
+			<itemStack>libvulpes:productsheet;2;9</itemStack>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:pressuretank;1;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="200">
@@ -137,7 +137,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;33</itemStack>
+			<itemStack>libvulpes:productplate;1;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -155,7 +155,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;324</itemStack>
+			<itemStack>libvulpes:productplate;1;9</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -164,7 +164,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;32</itemStack>
+			<itemStack>libvulpes:productplate;1;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -173,7 +173,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;352</itemStack>
+			<itemStack>libvulpes:productplate;1;6</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -182,7 +182,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;353</itemStack>
+			<itemStack>immersiveengineering:metal;1;37</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -191,7 +191,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;322</itemStack>
+			<itemStack>immersiveengineering:metal;1;33</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -209,7 +209,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;321</itemStack>
+			<itemStack>libvulpes:productplate;1;5</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -227,7 +227,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;323</itemStack>
+			<itemStack>immersiveengineering:metal;1;32</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -245,7 +245,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;325</itemStack>
+			<itemStack>immersiveengineering:metal;1;34</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -254,7 +254,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;327</itemStack>
+			<itemStack>libvulpes:productplate;1;10</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -263,7 +263,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;320</itemStack>
+			<itemStack>libvulpes:productplate;1;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -281,7 +281,7 @@
 			<fluidStack>water;100</fluidStack>
 		</input>
 		<output>
-			<itemStack>thermalfoundation:material;1;356</itemStack>
+			<itemStack>immersiveengineering:metal;1;36</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
