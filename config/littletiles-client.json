@@ -12,9 +12,9 @@
     "useCubeCache": true,
     "renderingThreadCount": 2,
     "highlightStructureBox": true,
-    "previewLines": false,
-    "previewLineThickness": 2,
-    "enableRandomDisplayTick": false,
+    "previewLines": true,
+    "previewLineThickness": 6.72,
+    "enableRandomDisplayTick": true,
     "uploadToVBODirectly": true,
     "showTooltip": true,
     "enhancedResorting": true

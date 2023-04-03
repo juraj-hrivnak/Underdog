@@ -219,6 +219,16 @@
       "thirstyChance": 0.0
     }
   ],
+  "cuisine:drink": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
   "harvestcraft:plumjuiceitem": [
     {
       "identity": {
