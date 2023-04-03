@@ -251,17 +251,16 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://github.com/juraj-hrivnak/Underdog/issues%btnaction_splitter_fm%
   backgroundhovered = resources\modpack\textures\gui\buttons\button_hover.png
   label = Bug Reports
   loopbackgroundanimations = true
   x = -153
   width = 150
-  actionid = de9b47f3-943c-424e-8fbe-1dec4a9668951659438432892
   action = addbutton
+  actionid = de9b47f3-943c-424e-8fbe-1dec4a9668951659438432892
   y = 39
   backgroundnormal = resources\modpack\textures\gui\buttons\button.png
-  value = https://github.com/juraj-hrivnak/Underdog/issues
   height = 20
 }
 
@@ -274,6 +273,6 @@ customization {
   y = -48
   scale = 1.0
   alignment = left
-  value = v3.2.1
+  value = v3.3.0
 }
 
