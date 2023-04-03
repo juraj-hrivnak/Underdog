@@ -268,7 +268,7 @@
     },
     {
       "projectID": 232838,
-      "fileID": 4411480,
+      "fileID": 4445718,
       "required": true,
       "__meta": {
         "name": "Logistics Pipes",
@@ -388,7 +388,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4403410,
+      "fileID": 4459202,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -1333,7 +1333,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 4437190,
+      "fileID": 4458156,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1908,7 +1908,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4442364,
+      "fileID": 4464343,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2009,7 +2009,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4372201,
+      "fileID": 4470231,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2028,7 +2028,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 4090558,
+      "fileID": 4459218,
       "required": true,
       "__meta": {
         "name": "MixinBooter"
@@ -2060,14 +2060,6 @@
       "required": true,
       "__meta": {
         "name": "Elenai Dodge 2"
-      }
-    },
-    {
-      "projectID": 446253,
-      "fileID": 3554486,
-      "required": true,
-      "__meta": {
-        "name": "Better Biome Blend"
       }
     },
     {
@@ -2159,7 +2151,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 4442402,
+      "fileID": 4451828,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2167,7 +2159,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4429430,
+      "fileID": 4463434,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2175,7 +2167,7 @@
     },
     {
       "projectID": 574029,
-      "fileID": 4432100,
+      "fileID": 4445817,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
@@ -2243,19 +2235,8 @@
       }
     },
     {
-      "projectID": 623654,
-      "fileID": 4430816,
-      "required": true,
-      "__meta": {
-        "name": "Extra Sounds Legacy",
-        "dependencies": [
-          419286
-        ]
-      }
-    },
-    {
       "projectID": 624243,
-      "fileID": 3895901,
+      "fileID": 4464112,
       "required": true,
       "__meta": {
         "name": "ModularUI"
@@ -2274,7 +2255,7 @@
     },
     {
       "projectID": 632327,
-      "fileID": 4399738,
+      "fileID": 4464316,
       "required": true,
       "__meta": {
         "name": "Inventory Bogo Sorter",
