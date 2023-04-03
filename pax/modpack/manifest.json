@@ -984,7 +984,7 @@
       "fileID": 2880613,
       "required": true,
       "__meta": {
-        "name": "Comforts (Forge)"
+        "name": "Comforts (Fabric/Forge/Quilt)"
       }
     },
     {
@@ -1518,9 +1518,9 @@
       "__meta": {
         "name": "Pyrotech",
         "dependencies": [
+          284350,
           284973,
-          306770,
-          284350
+          306770
         ]
       }
     },
@@ -1573,7 +1573,7 @@
       "fileID": 2837800,
       "required": true,
       "__meta": {
-        "name": "Cherished Worlds (Forge)"
+        "name": "Cherished Worlds (Fabric/Forge/Quilt)"
       }
     },
     {
@@ -1708,7 +1708,7 @@
       "fileID": 4391401,
       "required": true,
       "__meta": {
-        "name": "Aqua Acrobatics",
+        "name": "Aqua Acrobatics [Forge]",
         "dependencies": [
           357178
         ]
@@ -1785,6 +1785,14 @@
       }
     },
     {
+      "projectID": 357178,
+      "fileID": 3437402,
+      "required": true,
+      "__meta": {
+        "name": "MixinBootstrap"
+      }
+    },
+    {
       "projectID": 359407,
       "fileID": 3658279,
       "required": true,
@@ -1841,13 +1849,13 @@
     },
     {
       "projectID": 367706,
-      "fileID": 4343723,
+      "fileID": 4471549,
       "required": true,
       "__meta": {
         "name": "FancyMenu [Forge]",
         "dependencies": [
-          357178,
-          410295
+          410295,
+          357178
         ]
       }
     },
@@ -1921,8 +1929,9 @@
       "__meta": {
         "name": "Zen Utils",
         "dependencies": [
+          270789,
           239197,
-          270789
+          419286
         ]
       }
     },
@@ -1991,8 +2000,8 @@
       "__meta": {
         "name": "Entity Culling",
         "dependencies": [
-          357178,
-          624967
+          624967,
+          357178
         ]
       }
     },
@@ -2144,8 +2153,8 @@
       "__meta": {
         "name": "Not Enough Energistics",
         "dependencies": [
-          223794,
-          238222
+          238222,
+          223794
         ]
       }
     },
@@ -2247,7 +2256,10 @@
       "fileID": 4464112,
       "required": true,
       "__meta": {
-        "name": "ModularUI"
+        "name": "ModularUI",
+        "dependencies": [
+          419286
+        ]
       }
     },
     {
@@ -2268,8 +2280,8 @@
       "__meta": {
         "name": "Inventory Bogo Sorter",
         "dependencies": [
-          624243,
-          419286
+          419286,
+          624243
         ]
       }
     },
@@ -2286,7 +2298,7 @@
       "fileID": 4412006,
       "required": true,
       "__meta": {
-        "name": "XP Orb Clump"
+        "name": "Fixeroo"
       }
     },
     {
@@ -2367,7 +2379,7 @@
     },
     {
       "projectID": 705000,
-      "fileID": 4414385,
+      "fileID": 4473327,
       "required": true,
       "__meta": {
         "name": "Universal Tweaks",
