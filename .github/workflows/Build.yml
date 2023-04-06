@@ -64,34 +64,30 @@ jobs:
           name: modpack
           path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-build.${{ github.run_number }}.zip
 
-  # build-serverpack:
-  #   runs-on: ubuntu-latest
-  #   needs: [modpack-info, build-modpack]
-  #   steps:
-  #     - name: Checkout
-  #       uses: actions/checkout@v3
-  #     - name: Download modpack
-  #       uses: actions/download-artifact@v3
-  #       with:
-  #         name: modpack
-  #     - name: Download Mods
-  #       env:
-  #         CURSEFORGE_API_KEY: ${{ secrets.CF_API_KEY }}
-  #       run: |
-  #         mkdir ${GITHUB_WORKSPACE}/downloader
-  #         java -jar pax/ModpackDownloader-1.0-SNAPSHOT-jar-with-dependencies.jar ${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-build.${{ github.run_number }}.zip downloader
-  #         cd downloader/mods
-  #         find . -type f -name '*.zip' -exec rm {} +
-  #         mv ../mods ../../mods
-  #     - name: Export serverpack
-  #       run: |
-  #         cd pax/serverpack/
-  #         java -jar ServerPackCreator-3.0.0-alpha.12.jar -cli
-  #     - name: Rename zip
-  #       run: |
-  #         mv pax/serverpack/server-packs/_server_pack.zip pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-Server-Pack-build.${{ github.run_number }}.zip
-  #     - name: Upload zip
-  #       uses: actions/upload-artifact@v3
-  #       with:
-  #         name: serverpack
-  #         path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-Server-Pack-build.${{ github.run_number }}.zip
+  build-serverpack:
+    runs-on: ubuntu-latest
+    needs: [modpack-info]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Download Mods
+        env:
+          CURSEFORGE_API_KEY: ${{ secrets.CF_API_KEY }}
+        run: |
+          mkdir ${GITHUB_WORKSPACE}/downloader
+          java -jar pax/ModpackDownloader-1.0-SNAPSHOT-jar-with-dependencies.jar pax/modpack downloader
+          cd downloader/mods
+          find . -type f -name '*.zip' -exec rm {} +
+          mv ../mods ../../mods
+      - name: Export serverpack
+        run: |
+          cd pax/serverpack/
+          java -jar ServerPackCreator-3.0.0-alpha.12.jar -cli
+      - name: Rename zip
+        run: |
+          mv pax/serverpack/server-packs/_server_pack.zip pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-Server-Pack-build.${{ github.run_number }}.zip
+      - name: Upload zip
+        uses: actions/upload-artifact@v3
+        with:
+          name: serverpack
+          path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.version }}-Server-Pack-build.${{ github.run_number }}.zip
