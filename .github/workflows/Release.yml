@@ -112,7 +112,7 @@ jobs:
           branch: main
 
   close-fixed-issues:
-    name: Close `fixed in dev` Issues
+    name: Close Fixed Issues
     runs-on: ubuntu-latest
     needs: [release-github, release-curseforge]
     steps:

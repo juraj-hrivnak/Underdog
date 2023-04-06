@@ -11,7 +11,7 @@ on:
 
 jobs:
   modpack-info:
-    name: Get Modpack Info
+    name: Modpack Info
     runs-on: ubuntu-latest
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
