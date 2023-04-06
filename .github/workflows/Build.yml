@@ -101,6 +101,6 @@ jobs:
     uses: juraj-hrivnak/Underdog/.github/workflows/Release.yml@main
     with:
       projectname: ${{ needs.modpack-info.outputs.projectname }}
-      version: ${{ needs.modpack-info.outputs.mcversion }}
+      mcversion: ${{ needs.modpack-info.outputs.mcversion }}
       tag: ${{ needs.modpack-info.outputs.packversion }}
       build: ${{ github.run_number }}
