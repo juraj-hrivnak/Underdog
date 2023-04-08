@@ -24,7 +24,6 @@ jobs:
   release-github:
     name: Deploy to GitHub
     runs-on: ubuntu-latest
-    environment: production
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v3
@@ -52,7 +51,6 @@ jobs:
   release-curseforge:
     name: Deploy to CurseForge
     runs-on: ubuntu-latest
-    environment: production
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v3
