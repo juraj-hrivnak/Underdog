@@ -64,6 +64,7 @@
 # Pax
 /pax/.out/*
 /pax/logs/*
+/pax/downloader/*
 /pax/modpack/overrides/config/*
 /pax/modpack/overrides/local/*
 /pax/modpack/overrides/oresources/*

@@ -22,7 +22,7 @@ env:
 
 jobs:
   release-github:
-    name: Deploy GitHub
+    name: Deploy to GitHub
     runs-on: ubuntu-latest
     steps:
       - name: Download modpack
@@ -48,7 +48,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   release-curseforge:
-    name: Deploy CurseForge
+    name: Deploy to CurseForge
     runs-on: ubuntu-latest
     steps:
       - name: Download modpack
