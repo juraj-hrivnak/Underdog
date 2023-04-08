@@ -109,7 +109,7 @@ jobs:
   release:
     name: Release
     needs: [modpack-info, build-modpack, build-serverpack]
-    if: ${{ needs.modpack-info.outputs.packversion == needs.modpack-info.outputs.tag }}
+    if: ${{ needs.modpack-info.outputs.packversion }} == ${{ needs.modpack-info.outputs.tag }}
     uses: juraj-hrivnak/Underdog/.github/workflows/Release.yml@main
     with:
       projectname: ${{ needs.modpack-info.outputs.projectname }}
