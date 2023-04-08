@@ -45,6 +45,7 @@ jobs:
           files: |
             ${{ inputs.projectname }}-${{ inputs.tag }}-build.${{ inputs.build }}.zip
             ${{ inputs.projectname }}-${{ inputs.tag }}-build.${{ inputs.build }}-Server-Pack.zip
+          tag_name: ${{ inputs.tag }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
