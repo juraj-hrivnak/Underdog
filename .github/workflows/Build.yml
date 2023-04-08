@@ -17,9 +17,12 @@ jobs:
       projectname: ${{ steps.info.outputs.projectname }}
       packversion: ${{ steps.info.outputs.packversion }}
       mcversion: ${{ steps.info.outputs.mcversion }}
+      tag: ${{ steps.version.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+            fetch-depth: 0
       - name: Get modpack info
         id: info
         run: |
@@ -30,6 +33,11 @@ jobs:
             echo "packversion=$packversion" >> $GITHUB_OUTPUT
             mcversion=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "mcversion=$mcversion" >> $GITHUB_OUTPUT
+      - name: Get tag
+        id: version
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+        with:
+          fallback: tag_not_found
       - name: Rename changelog
         run: mv CHANGELOG.md CHANGELOG-${{ steps.info.outputs.packversion }}.md
       - name: Upload changelog
@@ -101,10 +109,10 @@ jobs:
   release:
     name: Release
     needs: [modpack-info, build-modpack, build-serverpack]
-    if: ${{ startsWith(github.event.ref, 'refs/tags/v') }}
+    if: ${{ needs.modpack-info.outputs.packversion == needs.modpack-info.outputs.tag }}
     uses: juraj-hrivnak/Underdog/.github/workflows/Release.yml@main
     with:
       projectname: ${{ needs.modpack-info.outputs.projectname }}
       mcversion: ${{ needs.modpack-info.outputs.mcversion }}
-      tag: ${{ needs.modpack-info.outputs.packversion }}
+      tag: ${{ needs.modpack-info.outputs.tag }}
       build: ${{ github.run_number }}
