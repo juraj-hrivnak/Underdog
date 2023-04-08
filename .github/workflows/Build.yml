@@ -37,12 +37,12 @@ jobs:
         with:
           fallback: tag_not_found
       - name: Rename changelog
-        run: mv CHANGELOG.md CHANGELOG-${{ steps.info.outputs.packversion }}.md
+        run: mv CHANGELOG.md CHANGELOG-v${{ steps.info.outputs.packversion }}.md
       - name: Upload changelog
         uses: actions/upload-artifact@v3
         with:
           name: changelog
-          path: CHANGELOG-${{ steps.info.outputs.packversion }}.md
+          path: CHANGELOG-v${{ steps.info.outputs.packversion }}.md
 
   build-modpack:
     name: Build Modpack
@@ -107,7 +107,7 @@ jobs:
   release:
     name: Release
     needs: [modpack-info, build-modpack, build-serverpack]
-    if: ${{ needs.modpack-info.outputs.packversion }} == ${{ needs.modpack-info.outputs.tag }}
+    if: ${{ needs.modpack-info.outputs.tag }} != 'tag_not_found'
     uses: juraj-hrivnak/Underdog/.github/workflows/Release.yml@main
     with:
       projectname: ${{ needs.modpack-info.outputs.projectname }}
