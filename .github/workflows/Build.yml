@@ -21,8 +21,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-            fetch-depth: 0
       - name: Get modpack info
         id: info
         run: |
