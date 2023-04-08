@@ -116,3 +116,4 @@ jobs:
       mcversion: ${{ needs.modpack-info.outputs.mcversion }}
       tag: ${{ needs.modpack-info.outputs.tag }}
       build: ${{ github.run_number }}
+    secrets: inherit

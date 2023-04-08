@@ -51,6 +51,7 @@ jobs:
   release-curseforge:
     name: Deploy to CurseForge
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v3
@@ -87,6 +88,7 @@ jobs:
   update-changelogs:
     name: Update Changelogs
     runs-on: ubuntu-latest
+    environment: production
     needs: [release-github, release-curseforge]
     steps:
       - name: Checkout
