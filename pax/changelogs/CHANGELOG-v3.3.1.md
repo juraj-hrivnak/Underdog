@@ -10,10 +10,12 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ## What's new?
 
--
+- Fixed server-side crash.
 
 ## Mod Changes
 
 ```markdown
-
+Downgraded:
+- ModularUI
+- Inventory Bogo Sorter
 ```
