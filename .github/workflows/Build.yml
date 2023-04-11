@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
       - name: Get modpack info
         id: info
         run: |
@@ -107,7 +109,7 @@ jobs:
   release:
     name: Release
     needs: [modpack-info, build-modpack, build-serverpack]
-    if: needs.modpack-info.outputs.tag != 'tag_not_found'
+    if: ${{ needs.modpack-info.outputs.tag != 'tag_not_found' }}
     uses: juraj-hrivnak/Underdog/.github/workflows/Release.yml@main
     with:
       projectname: ${{ needs.modpack-info.outputs.projectname }}
