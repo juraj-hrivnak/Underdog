@@ -22,6 +22,13 @@
       alt="CF"
     >
   </a>
+  <a
+    href="https://github.com/juraj-hrivnak/Underdog/actions/workflows/Build.yml">
+    <img
+      src="https://github.com/juraj-hrivnak/Underdog/actions/workflows/Build.yml/badge.svg"
+      alt="Build"
+    >
+  </a>
   <br
   >
   <br
