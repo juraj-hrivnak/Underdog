@@ -111,7 +111,7 @@ jobs:
     name: Release
     needs: [modpack-info, build-modpack, build-serverpack]
     if: ${{ needs.modpack-info.outputs.tag != 'tag_not_found' }}
-    uses: juraj-hrivnak/Underdog/.github/workflows/Release.yml@main
+    uses: ./.github/workflows/Release.yml
     with:
       projectname: ${{ needs.modpack-info.outputs.projectname }}
       mcversion: ${{ needs.modpack-info.outputs.mcversion }}
