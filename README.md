@@ -1,38 +1,34 @@
 
 <p 
   align="center">
-  <img
-    src="https://raw.githubusercontent.com/juraj-hrivnak/Underdog/main/.github/banner8.png"
-    alt="Logo"
-    width="4000"
-  >
-  <br
-  >
-  <a
-    href="https://discord.gg/NXNXmdBUk5">
+  <a href="https://github.com/juraj-hrivnak/Underdog">
+    <img
+      src="https://raw.githubusercontent.com/juraj-hrivnak/Underdog/main/.github/banner8.png"
+      alt="Logo"
+      width="4000"
+    >
+  </a>
+  <br>
+  <a href="https://discord.gg/NXNXmdBUk5">
     <img
       src="https://img.shields.io/discord/796443640381702145?label=discord&style=flat-square"
       alt="Discord"
     >
   </a>
-  <a
-    href="https://www.curseforge.com/minecraft/modpacks/underdog">
+  <a href="https://www.curseforge.com/minecraft/modpacks/underdog">
     <img
       src="http://cf.way2muchnoise.eu/399664.svg"
       alt="CF"
     >
   </a>
-  <a
-    href="https://github.com/juraj-hrivnak/Underdog/actions/workflows/Build.yml">
+  <a href="https://github.com/juraj-hrivnak/Underdog/actions/workflows/Build.yml">
     <img
       src="https://github.com/juraj-hrivnak/Underdog/actions/workflows/Build.yml/badge.svg"
       alt="Build"
     >
   </a>
-  <br
-  >
-  <br
-  >
+  <br>
+  <br>
 </p>
 
 # About
@@ -53,13 +49,11 @@ If installing/removing/updating mods, knowledge of [`PAX`] is required.
 Also, after setting up the pack, take a look into the [`pax`](pax) folder.
 This folder contains all the development tools required when exporting the pack.
 
-<p
-  align="center"
-  >
-<img
-  src="https://raw.githubusercontent.com/juraj-hrivnak/Underdog/main/.github/border.png"
-  alt="Logo"
-  width="4000"
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/juraj-hrivnak/Underdog/main/.github/border.png"
+    alt="Logo"
+    width="4000"
   >
 </p>
 
