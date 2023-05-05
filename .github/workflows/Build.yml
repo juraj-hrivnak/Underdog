@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+    tags:
+      - 'v*'
   pull_request:
     branches:
       - main
@@ -19,25 +21,171 @@ jobs:
       mcversion: ${{ steps.info.outputs.mcversion }}
       tag: ${{ steps.version.outputs.tag }}
     steps:
-      - name: Checkout
+      - name: Checkout with fetch depth 2
         uses: actions/checkout@v3
         with:
           fetch-depth: 2
       - name: Get modpack info
         id: info
         run: |
-            manifestjson=`cat pax/modpack/manifest.json`
-            projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "projectname=$projectname" >> $GITHUB_OUTPUT
-            packversion=`echo $(jq -r '.version' <<< "$manifestjson")`
-            echo "packversion=$packversion" >> $GITHUB_OUTPUT
-            mcversion=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "mcversion=$mcversion" >> $GITHUB_OUTPUT
+          if [ ! -f pax/modpack/manifest.json ]; then
+            echo "::error::Could not find manifest.json" && exit 1
+          fi
+          manifestjson=`cat pax/modpack/manifest.json`
+          projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
+          echo "projectname=$projectname" >> $GITHUB_OUTPUT
+          packversion=`echo $(jq -r '.version' <<< "$manifestjson")`
+          echo "packversion=$packversion" >> $GITHUB_OUTPUT
+          mcversion=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
+          echo "mcversion=$mcversion" >> $GITHUB_OUTPUT
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
         with:
           fallback: tag_not_found
+      - name: Checkout with fetch depth 0
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Get mod changes
+        shell: bash
+        run: |
+          set +e
+
+          curl https://github.com/josephburnett/jd/releases/download/v1.7.1/jd-amd64-linux -o ./pax/jd -L -J
+          sudo chmod +x ./pax/jd
+
+          manifest="./pax/modpack/manifest.json"
+          changelog="./CHANGELOG.md"
+
+          branch=$(git rev-parse --abbrev-ref HEAD)
+          previous_commit=$(git log -n 1 --skip 1 --pretty=format:"%h" -- $manifest)
+          latest_commit=$(git log -n 1 --pretty=format:"%h" $branch -- $manifest)
+          latest_tag=$(git describe --tags --abbrev=0)
+          latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag | sed -n 2p)
+
+          if [ $latest_tag = ${{ steps.version.outputs.tag }} ]; then
+            latest_tag=$(git describe --tags --abbrev=0 $(git describe --tags --abbrev=0)^)
+            latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag | sed -n 2p)
+          fi
+
+          echo "branch: $branch"
+          echo "previous commit: $previous_commit"
+          echo "latest commit: $latest_commit"
+          echo "latest tagged commit: $latest_tagged_commit"
+          echo "latest tag: $latest_tag"
+
+          RED='\033[0;31m'
+          GREEN='\033[0;32m'
+          BLUE='\033[0;36m'
+          NC='\033[0m'
+
+          git show $latest_tagged_commit:$manifest > ./pax/modpack/manifest_prev.json
+          mods_removed_raw=$(./pax/jd -set ./pax/modpack/manifest_prev.json $manifest | grep '^-' | grep -P -o '"name":[\s]*"\K[^"]*')
+          mods_added_raw=$(./pax/jd -set ./pax/modpack/manifest_prev.json $manifest | grep '^+' | grep -P -o '"name":[\s]*"\K[^"]*')
+
+          mods_added=""
+          mods_removed=""
+          mods_updated=""
+
+          mod_changes=""
+
+          if [[ ! -z ""$mods_added_raw"" ]]; then
+            while IFS= read -r line1; do
+              foo=""
+              while IFS= read -r line2; do
+                foo="${line1//$line2}"
+                if [[ -z ""$foo"" ]]; then
+                  if [[ ! -z ""$mods_updated"" ]]; then
+                    mods_updated+="\n"
+                  fi
+                  mods_updated+="- $line1"
+                  break
+                fi
+              done <<< "$mods_removed_raw"
+              if [[ ! -z ""$foo"" ]]; then
+                if [[ ! -z ""$mods_added"" ]]; then
+                  mods_added+="\n"
+                fi
+                mods_added+="- $foo"
+              fi
+            done <<< "$mods_added_raw"
+          fi
+
+          if [[ ! -z ""$mods_removed_raw"" ]]; then
+            while IFS= read -r line1; do
+              bar=""
+              while IFS= read -r line2; do
+                bar="${line1//$line2}"
+                if [[ -z ""$bar"" ]]; then
+                  break
+                fi
+              done <<< "$mods_added_raw"
+              if [[ ! -z ""$bar"" ]]; then
+                if [[ ! -z ""$mods_removed"" ]]; then
+                  mods_removed+="\n"
+                fi
+                mods_removed+="- $bar"
+              fi
+            done <<< "$mods_removed_raw"
+          fi
+
+          if [[ ! -z ""$mods_added"" ]] || [[ ! -z ""$mods_removed"" ]] || [[ ! -z ""$mods_updated"" ]]; then
+            echo -e "x---------------x"
+            echo -e "|  Mod Changes  |"
+
+            echo '## Mod Changes' >> $GITHUB_STEP_SUMMARY
+            echo "Since: \`$latest_tag\`" >> $GITHUB_STEP_SUMMARY
+            echo '```markdown' >> $GITHUB_STEP_SUMMARY
+
+            mod_changes+="## Mod Changes\n\n"
+            mod_changes+="Since: \`$latest_tag\`\n\n"
+            mod_changes+="\`\`\`markdown\n"
+          fi
+
+          if [[ ! -z ""$mods_added"" ]]; then
+            echo -e "${GREEN}Added:"
+            echo -e "$mods_added"
+
+            echo "Added:" >> $GITHUB_STEP_SUMMARY
+            echo -e "$mods_added" >> $GITHUB_STEP_SUMMARY
+
+            mod_changes+="Added:\n"
+            mod_changes+="$mods_added\n"
+          fi
+          if [[ ! -z ""$mods_removed"" ]]; then
+            echo -e "${RED}Removed:"
+            echo -e "$mods_removed"
+
+            echo "Removed:" >> $GITHUB_STEP_SUMMARY
+            echo -e "$mods_removed" >> $GITHUB_STEP_SUMMARY
+
+            mod_changes+="Removed:\n"
+            mod_changes+="$mods_removed\n"
+          fi
+          if [[ ! -z ""$mods_updated"" ]]; then
+            echo -e "${BLUE}Updated:"
+            echo -e "$mods_updated"
+
+            echo "Updated:" >> $GITHUB_STEP_SUMMARY
+            echo -e "$mods_updated" >> $GITHUB_STEP_SUMMARY
+
+            mod_changes+="Updated:\n"
+            mod_changes+="$mods_updated\n"
+          fi
+
+          if [[ ! -z ""$mods_added"" ]] || [[ ! -z ""$mods_removed"" ]] || [[ ! -z ""$mods_updated"" ]]; then
+            echo -e "${NC}x---------------x"
+
+            echo '```' >> $GITHUB_STEP_SUMMARY
+
+            mod_changes+="\`\`\`"
+          fi
+
+          perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
+
+          rm ./pax/modpack/manifest_prev.json
+
       - name: Rename changelog
         run: mv CHANGELOG.md CHANGELOG-v${{ steps.info.outputs.packversion }}.md
       - name: Upload changelog
@@ -67,6 +215,8 @@ jobs:
       - name: Export modpack
         run: |
           cd pax/
+          pax_version=$(grep -Po '(?<="PAX": ")[^"]*' setup.json)
+          curl https://github.com/froehlichA/pax/releases/download/v$pax_version/pax -o pax -L -J
           sudo chmod +x ./pax
           ./pax export
       - name: Rename zip
@@ -83,6 +233,12 @@ jobs:
     needs: [modpack-info]
     if: ${{ needs.modpack-info.outputs.tag != 'tag_not_found' }}
     steps:
+      - name: Check if CF_API_KEY exist
+        shell: bash
+        run: |
+          if [ "${{ secrets.CF_API_KEY }}" == '' ]; then
+            echo '::error::No value found for secret key `CF_API_KEY`. See https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository' && exit 1
+          fi
       - name: Checkout
         uses: actions/checkout@v3
       - name: Download Mods
@@ -90,14 +246,20 @@ jobs:
           CURSEFORGE_API_KEY: ${{ secrets.CF_API_KEY }}
         run: |
           mkdir ${GITHUB_WORKSPACE}/downloader
-          java -jar pax/ModpackDownloader-1.0-SNAPSHOT-jar-with-dependencies.jar pax/modpack downloader
-          cd downloader/mods
+          cd pax/
+          modpack_downloader_version=$(grep -Po '(?<="ModpackDownloader": ")[^"]*' setup.json)
+          curl https://github.com/juraj-hrivnak/ModpackDownloader/releases/download/v$modpack_downloader_version/ModpackDownloader-$modpack_downloader_version-jar-with-dependencies.jar -o ModpackDownloader-$modpack_downloader_version-jar-with-dependencies.jar -L -J
+          java -jar ModpackDownloader-$modpack_downloader_version-jar-with-dependencies.jar modpack downloader
+          cd ../downloader/mods
           find . -type f -name '*.zip' -exec rm {} +
           mv ../mods ../../mods
       - name: Export serverpack
         run: |
-          cd pax/serverpack/
-          java -jar ServerPackCreator-3.0.0-alpha.12.jar -cli
+          cd pax/
+          server_pack_creator_version=$(grep -Po '(?<="ServerPackCreator": ")[^"]*' setup.json)
+          cd serverpack/
+          curl https://github.com/Griefed/ServerPackCreator/releases/download/$server_pack_creator_version/ServerPackCreator-$server_pack_creator_version.jar -o ./serverpack/ServerPackCreator-$server_pack_creator_version.jar -L -J
+          java -jar ServerPackCreator-$server_pack_creator_version.jar -cli
       - name: Rename zip
         run: |
           mv pax/serverpack/server-packs/_server_pack.zip pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-v${{ needs.modpack-info.outputs.packversion }}-build.${{ github.run_number }}-Server-Pack.zip
