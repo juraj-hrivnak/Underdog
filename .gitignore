@@ -18,9 +18,10 @@
 /config/jei/worldSettings.cfg
 /config/moresoundconfig.cfg
 
-# Folders in .minecraft
+# .minecraft
 /assetmover/assets/*
 /mods/*
+/resourcepacks/*
 /saves/*
 /screenshots/*
 /server-resource-packs/*
@@ -41,9 +42,11 @@
 /TombManyGraves/*
 /icon.png
 
-# Logs
+# Extensions
 **/*.log
 **/*.gz
+**/*.DS_Store
+**/*.jar
 
 # Client data
 /.ReAuth.cfg
@@ -64,7 +67,15 @@
 # Pax
 /pax/.out/*
 /pax/logs/*
-/pax/downloader/*
+/pax/cacert.pem
+/pax/libcrypto-1_1-x64.dll
+/pax/libcrypto-1_1.dll
+/pax/libssl-1_1-x64.dll
+/pax/libssl-1_1.dll
+/pax/jd
+/pax/pax
+/pax/pax.exe
+/pax/pax-macos
 /pax/modpack/overrides/config/*
 /pax/modpack/overrides/local/*
 /pax/modpack/overrides/oresources/*
@@ -72,8 +83,11 @@
 /pax/modpack/overrides/resources/*
 /pax/modpack/overrides/scripts/*
 /pax/modpack/overrides/structures/*
+/pax/downloader/*
+/pax/ModpackDownloader-*.jar
 
 # Server Pack
 /pax/serverpack/work/*
 /pax/serverpack/server-packs/*
 /pax/serverpack/logs/*
+/pax/serverpack/ServerPackCreator-*.jar
