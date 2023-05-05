@@ -12,8 +12,4 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 -
 
-## Mod Changes
-
-```markdown
-
-```
+@mod_changes@
