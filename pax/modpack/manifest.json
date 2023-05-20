@@ -396,7 +396,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4459202,
+      "fileID": 4534504,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -478,6 +478,14 @@
       "required": true,
       "__meta": {
         "name": "Silent Lib (silentlib)"
+      }
+    },
+    {
+      "projectID": 243478,
+      "fileID": 2745657,
+      "required": true,
+      "__meta": {
+        "name": "More Overlays"
       }
     },
     {
@@ -1336,7 +1344,7 @@
       "fileID": 2573063,
       "required": true,
       "__meta": {
-        "name": "No Nether Portals"
+        "name": "project-296057"
       }
     },
     {
@@ -1761,6 +1769,14 @@
       }
     },
     {
+      "projectID": 350727,
+      "fileID": 2917418,
+      "required": true,
+      "__meta": {
+        "name": "Joy of Painting"
+      }
+    },
+    {
       "projectID": 353447,
       "fileID": 2997589,
       "required": true,
@@ -1799,7 +1815,6 @@
       "__meta": {
         "name": "Immersive Technology",
         "dependencies": [
-          231951,
           231951
         ]
       }
@@ -1854,8 +1869,8 @@
       "__meta": {
         "name": "FancyMenu [Forge]",
         "dependencies": [
-          410295,
-          357178
+          357178,
+          410295
         ]
       }
     },
@@ -1924,13 +1939,13 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4507772,
+      "fileID": 4540943,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
         "dependencies": [
-          270789,
           239197,
+          270789,
           419286
         ]
       }
@@ -2026,7 +2041,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4500375,
+      "fileID": 4540763,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2100,8 +2115,16 @@
       }
     },
     {
+      "projectID": 456403,
+      "fileID": 4528552,
+      "required": true,
+      "__meta": {
+        "name": "Forgelin-Continuous"
+      }
+    },
+    {
       "projectID": 460609,
-      "fileID": 4140230,
+      "fileID": 4541751,
       "required": true,
       "__meta": {
         "name": "CensoredASM",
@@ -2132,7 +2155,7 @@
     },
     {
       "projectID": 485654,
-      "fileID": 4430381,
+      "fileID": 4541922,
       "required": true,
       "__meta": {
         "name": "Fluidlogged API"
@@ -2168,7 +2191,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 4506796,
+      "fileID": 4543375,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2184,13 +2207,13 @@
     },
     {
       "projectID": 574029,
-      "fileID": 4522512,
+      "fileID": 4544741,
       "required": true,
       "__meta": {
         "name": "Greenery🌿",
         "dependencies": [
-          248453,
-          485654
+          485654,
+          456403
         ]
       }
     },
@@ -2253,7 +2276,7 @@
     },
     {
       "projectID": 624243,
-      "fileID": 4475780,
+      "fileID": 4541320,
       "required": true,
       "__meta": {
         "name": "ModularUI",
@@ -2379,7 +2402,7 @@
     },
     {
       "projectID": 705000,
-      "fileID": 4473327,
+      "fileID": 4526887,
       "required": true,
       "__meta": {
         "name": "Universal Tweaks",
