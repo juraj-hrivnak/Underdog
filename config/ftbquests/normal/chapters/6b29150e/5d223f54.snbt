@@ -4,8 +4,7 @@
 	x: -4.0d,
 	y: -0.5d,
 	text: [
-		"&r&lTask:",
-		"&7Make a wok, a spatula and a plate."
+		"&r▪➡&7 Make a wok, a spatula and a plate."
 	],
 	dependencies: [
 		"ad70493a"

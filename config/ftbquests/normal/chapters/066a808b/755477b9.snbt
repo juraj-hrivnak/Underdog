@@ -2,7 +2,7 @@
 	x: 1.0d,
 	y: 3.0d,
 	text: [
-		"&7Use the casting faucet to transfer fluid from the side of a device to the device below."
+		"&r▪➡&7 Use the casting faucet to transfer fluid from the side of a device to the device below."
 	],
 	dependencies: [
 		"9ea34339"

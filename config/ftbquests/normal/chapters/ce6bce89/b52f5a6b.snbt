@@ -3,8 +3,7 @@
 	y: 3.5d,
 	shape: "square",
 	text: [
-		"&r&lTask:",
-		"&7Make a hammer."
+		"&r▪➡&7 Make a hammer."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

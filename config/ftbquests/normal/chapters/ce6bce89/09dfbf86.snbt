@@ -2,11 +2,9 @@
 	x: 1.2d,
 	y: 4.0d,
 	text: [
-		"&r&lTask:",
-		"&7Craft a Flint and Tinder.",
+		"&r▪➡&7 Craft a Flint and Tinder.",
 		"",
-		"&r&lNote:",
-		"&7To start the fire, you need to &bhold (Right-Click)&r&7 and look at the block you want to start the fire on."
+		"&9[ℹ]&7 To start the fire, you need to &bhold (Right-Click)&r&7 and look at the block you want to start the fire on."
 	],
 	dependencies: [
 		"2df431ba"

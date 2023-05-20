@@ -6,11 +6,9 @@
 	shape: "heart",
 	description: "You find yourself abandoned in wild nature. How did you get here?",
 	text: [
-		"&rTask:",
-		"&7Pick up some of the rock laying on the ground.",
+		"&r▪➡&7 Pick up some of the rock laying on the ground.",
 		"",
-		"&rNote:",
-		"&7Pick them up using &b(Right-Click)&r&7.",
+		"&9[ℹ]&7 Pick them up using &b(Right-Click)&r&7.",
 		"Every item must be picked up by right-clicking.",
 		"You can also collect items by crouching. "
 	],

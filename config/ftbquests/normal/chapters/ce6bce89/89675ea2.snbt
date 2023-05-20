@@ -3,8 +3,7 @@
 	x: 4.2d,
 	y: 6.0d,
 	text: [
-		"&r&lTask:",
-		"&7Get one bucket of Creosote Oil using the collector."
+		"&r▪➡&7 Get one bucket of creosote oil using the collector."
 	],
 	dependencies: [
 		"ef0c520d"

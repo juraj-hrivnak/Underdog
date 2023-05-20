@@ -2,16 +2,13 @@
 	x: 1.2d,
 	y: 5.0d,
 	text: [
-		"&r&lTask:",
-		"&7Get charcoal from pit burning.",
+		"&r▪➡&7 Get charcoal from pit burning.",
 		"",
-		"&r&lInfo:",
-		"&7To perform pit burning, you have to place the wood piles in the world and cover every side of them to prevent contact with air.",
+		"To perform pit burning, you have to place the wood piles in the world and cover every side of them to prevent contact with air.",
 		"",
 		"After covering every side, dig one block away, light it up using any fire started, and immediately over it up back.",
 		"",
-		"&r&lNote:",
-		"&7Only full and non-flammable blocks can be used to cover up the wood piles. Use something cheap, for example, dirt."
+		"&9[ℹ]&7 Only full and non-flammable blocks can be used to cover up the wood piles. Use something cheap, for example, dirt."
 	],
 	dependencies: [
 		"d997fbc0"

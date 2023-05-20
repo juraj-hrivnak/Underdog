@@ -3,11 +3,9 @@
 	x: 3.0d,
 	y: 4.0d,
 	text: [
-		"&r&lTask:",
-		"&7Craft three wood piles.",
+		"&r▪➡&7 Craft three wood piles.",
 		"",
-		"&r&lNote:",
-		"&7Wood piles are used in pit burning, which is used to get charcoal, creosote oil and coal coke."
+		"&9[ℹ]&7 Wood piles are used in pit burning, which is used to get charcoal, creosote oil and coal coke."
 	],
 	dependencies: [
 		"5c583b74",

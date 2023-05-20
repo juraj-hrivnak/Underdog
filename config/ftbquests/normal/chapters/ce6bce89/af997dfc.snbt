@@ -4,11 +4,9 @@
 	x: 1.2d,
 	y: 2.0d,
 	text: [
-		"&r&lTask:",
-		"&7To get lumber, chop the logs you got from the tree on the chopping block.",
+		"&r▪➡&7 Chop the logs on the chopping block to get lumber.",
 		"",
-		"&r&lNote:",
-		"&7Place the Chopping Block down and  &b(Right-Click)&r&7 on it with an axe."
+		"&9[ℹ]&7 Place the chopping block down and  &b(right-click)&r&7 on it with an axe."
 	],
 	dependencies: [
 		"2999c1d7"

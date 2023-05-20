@@ -4,13 +4,9 @@
 	x: 3.0d,
 	y: 2.0d,
 	text: [
-		"&r&lTask:",
-		"&7Craft a Barrel and a Barrel Lid.",
+		"&r▪➡&7 Craft a Barrel and a Barrel Lid.",
 		"",
-		"&r&lNote:",
-		"&7The barrel will not work if not covered with the lid!",
-		"",
-		"To cover the barrel &b(Right-Click)&r&7 with the lid on the top side of the barrel."
+		"&c[❗]&7 Warning, the barrel will not work if not covered with the lid! To cover the barrel &b(right-click)&r&7 with the lid in hand on the top side of the barrel."
 	],
 	dependencies: [
 		"5c583b74"

@@ -3,9 +3,8 @@
 	x: -3.4809523809523624d,
 	y: 3.542857142857156d,
 	shape: "heart",
-	description: "&7Collect sticks from breaking leaves or the thin tree branches.",
 	text: [
-		""
+		"&r▪➡&7 Collect sticks from breaking leaves or the thin tree branches."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

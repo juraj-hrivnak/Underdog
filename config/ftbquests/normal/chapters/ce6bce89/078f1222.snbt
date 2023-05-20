@@ -2,8 +2,7 @@
 	x: -1.5d,
 	y: 5.0d,
 	text: [
-		"&r&lTask:",
-		"&7Make a shovel."
+		"&r▪➡&7 Make a shovel."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

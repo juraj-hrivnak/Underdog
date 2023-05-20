@@ -2,11 +2,9 @@
 	x: 3.0d,
 	y: 1.2d,
 	text: [
-		"&r&lTask:",
-		"&7Make one bucket of Tannin using the barrel.",
+		"&r▪➡&7 Make one bucket of Tannin using the barrel.",
 		"",
-		"&r&lNote:",
-		"&7&lThe barrel must be covered with a lid! &7For more info, read the previous quest description."
+		"&c[❗]&7 Warning, barrel must be covered with a lid!"
 	],
 	dependencies: [
 		"108d6ebd"
