@@ -35,18 +35,21 @@
 
 Underdog is a modpack for Minecraft Java Edition that makes the game realistic in every possible way.
 
-Fully playable releases are available on curseforge! [here](https://www.curseforge.com/minecraft/modpacks/underdog)
+Fully playable releases are available on CurseForge or here on GitHub! [here](https://www.curseforge.com/minecraft/modpacks/underdog) \
+Modpack must be imported to a launcher to install correctly.
 
 ***
 
 # Development
 
-For the set-up guide, please head over to the [`CONTRIBUTING.md`](CONTRIBUTING.md).
+You can download the latest development build [here](https://nightly.link/juraj-hrivnak/Underdog/workflows/Build/main/modpack.zip).
 
-Knowledge of [`Git`] is required.
-If installing/removing/updating mods, knowledge of [`PAX`] is required.
+For the set-up guide, please head over to the [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Also, after setting up the pack, take a look into the [`pax`](pax) folder.
+Knowledge of [Git] is required.
+If installing/removing/updating mods, knowledge of [PAX] is required.
+
+Also, after setting up the pack, take a look into the [./pax](./pax) folder.
 This folder contains all the development tools required when exporting the pack.
 
 <p align="center">
@@ -58,7 +61,6 @@ This folder contains all the development tools required when exporting the pack.
 </p>
 
 <!-- Links: -->
-[`Git`]: https://git-scm.com/
-[`PAX`]: https://github.com/froehlichA/pax
-[ModPackDownloader]: https://github.com/Nincraft/ModPackDownloader
+[Git]: https://git-scm.com/
+[PAX]: https://github.com/froehlichA/pax
 [CurseForge]: https://www.curseforge.com/minecraft/modpacks/underdog
