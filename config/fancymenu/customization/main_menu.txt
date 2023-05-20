@@ -194,8 +194,8 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 411
-  width = 228
+  x = 465
+  width = 174
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 3d406119-8896-4aba-b83e-e2a32116063a1659215009194
   y = 319
@@ -274,5 +274,13 @@ customization {
   scale = 1.0
   alignment = left
   value = v3.3.1
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-centered
+  x = -179
+  action = movebutton
+  y = 12
 }
 
