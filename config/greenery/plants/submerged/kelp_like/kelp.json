@@ -1,0 +1,8 @@
+{
+    "worldGen": [
+       "0 | anywhere | 0.5 | 14 | 64"
+    ],
+    "compatibleFluids": [
+        "saltwater"
+    ]
+}

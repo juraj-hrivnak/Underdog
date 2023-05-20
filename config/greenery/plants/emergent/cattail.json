@@ -1,0 +1,9 @@
+{
+    "worldGen": [
+        "0 | anywhere | 0.5 | 16 | 64"
+    ],
+    "compatibleFluids": [
+        "water",
+        "purifiedwater"
+    ]
+}

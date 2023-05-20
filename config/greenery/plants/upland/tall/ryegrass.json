@@ -1,0 +1,13 @@
+{
+    "worldGen": [
+        "0 | type:savanna | 1.0 | 32 | 64",
+        "0 | type:plains | 1.0 | 32 | 64",
+        "0 | type:beach | 1.0 | 32 | 64",
+        "0 | type:dry | 1.0 | 32 | 64",
+        "0 | type:jungle | 1.0 | 32 | 64"
+    ],
+    "drops": [
+        "$defaultSeeds | 0.2"
+    ],
+    "hasTintIndex": true
+}

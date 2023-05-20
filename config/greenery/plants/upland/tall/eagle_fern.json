@@ -1,0 +1,9 @@
+{
+    "worldGen": [
+        "0 | anywhere | 1.0 | 16 | 32"
+    ],
+    "drops": [
+        "$defaultSeeds | 0.2"
+    ],
+    "hasTintIndex": true
+}

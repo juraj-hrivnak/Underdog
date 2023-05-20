@@ -1,0 +1,7 @@
+{
+    "worldGen": [
+        "0 | type:dry | 0.5 | 1 | 8",
+        "0 | type:sparse | 0.5 | 1 | 8",
+        "0 | biome:biomesoplenty:pasture | 1.0 | 128 | 64"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "worldGen": [
+        "0 | type:river | 0.5 | 16 | 64",
+        "0 | type:wet | 0.5 | 16 | 64",
+        "0 | type:swamp | 0.5 | 16 | 64",
+        "0 | type:lush | 0.5 | 16 | 64"
+    ],
+    "hasTintIndex": true,
+    "compatibleFluids": [
+        "water",
+        "purifiedwater"
+    ]
+}
