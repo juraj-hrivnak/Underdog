@@ -12,4 +12,5 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
 	}
 
 	server.commandManager.executeCommand(server, "/gamerule sendCommandFeedback false");
+	server.commandManager.executeCommand(server, "/gamerule disableNetherPortalCreation true");
 });
