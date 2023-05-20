@@ -1157,6 +1157,14 @@
       }
     },
     {
+      "projectID": 286066,
+      "fileID": 3327633,
+      "required": true,
+      "__meta": {
+        "name": "Better HUD"
+      }
+    },
+    {
       "projectID": 286382,
       "fileID": 2815686,
       "required": true,
