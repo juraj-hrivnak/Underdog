@@ -41,7 +41,7 @@ Releases are available on [CurseForge] or here on [GitHub]! Modpack must be impo
 
 # Development
 
-You can download the latest development build [here](https://nightly.link/juraj-hrivnak/Underdog/workflows/Build/main/modpack.zip).
+To download the latest development build, click [here](https://nightly.link/juraj-hrivnak/Underdog/workflows/Build/main/modpack.zip).
 
 For the set-up guide, please head over to the [CONTRIBUTING.md](CONTRIBUTING.md).
 
