@@ -2,13 +2,17 @@
 
 ## Required software
 
+- [Git]
+
+## Recommended software
+
 - [MultiMC]
 - [Visual Studio Code]
-- [Git]
+
 
 ## Set-up
 
-Please follow these five steps:
+Please follow these steps:
 
 ### 1
 
@@ -26,12 +30,19 @@ Please follow these five steps:
 ### 4
 
 - Clone the project to the empty `Underdog/.minecraft` folder. \
-You can do that using **terminal**, **cmd** or **GitHub Desktop** app.
+You can do that using **terminal**, **cmd** or the **GitHub Desktop** app.
 
 ### 5
 
-- Run the `syncmods.bat` (Windows) or `syncmods.sh` (Linux/MacOS) script located in the `./pax` folder.
-- Wait until it's done, and you should be good to go!
+- Run the set-up script:
+    - If you are on _Windows 10 or higher_, run the `./pax/setup-windows.ps1` with _PowerShell_.
+    - If you are on _Linux_, open your _terminal_ and use the `cd` command to move into the `./pax` folder, then run `sh setup-linux.sh`.
+    - If you are on _macOS_, open your _terminal_ and use the `cd` command to move into the `./pax` folder, then run `brew install grep` and after it is finished, run `sh setup-macos.sh`.
+
+### 6 
+
+- Enjoy!
+
 
 [MultiMC]: https://multimc.org/
 [Visual Studio Code]: https://code.visualstudio.com/
