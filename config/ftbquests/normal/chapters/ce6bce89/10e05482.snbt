@@ -1,0 +1,21 @@
+{
+	x: 3.8d,
+	y: 1.6d,
+	text: [
+		"&r▪➡&7 Craft a Tanning Rack.",
+		"",
+		"&c[❗]&7 Warning, tanning racks require a clear view of the sky to function correctly and will only function during the daytime!"
+	],
+	dependencies: [
+		"5c583b74"
+	],
+	hide: true,
+	size: 0.8d,
+	tasks: [{
+		uid: "59bb93af",
+		type: "item",
+		items: [{
+			item: "pyrotech:tanning_rack"
+		}]
+	}]
+}

@@ -1,12 +1,11 @@
 {
 	x: 4.2d,
-	y: 2.0d,
+	y: 2.4d,
 	text: [
 		"&r▪➡&7 Make a Drying Rack."
 	],
 	dependencies: [
-		"5c583b74",
-		"6293f06e"
+		"5c583b74"
 	],
 	hide: true,
 	dependency_requirement: "one_completed",

@@ -8,7 +8,7 @@
 		"",
 		"After covering every side, dig one block away, light it up using any fire started, and immediately over it up back.",
 		"",
-		"&9[ℹ]&7 Only full and non-flammable blocks can be used to cover up the wood piles. Use something cheap, for example, dirt."
+		"&9[ℹ]&7 Only full and non-flammable blocks can be used to cover up the wood piles. Use something cheap, for example dirt."
 	],
 	dependencies: [
 		"d997fbc0"

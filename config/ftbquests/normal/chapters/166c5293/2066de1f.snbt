@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	dependencies: [
+		"0b2dbc4c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59dd4e92",
+		type: "item",
+		items: [{
+			item: "toolbelt:belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

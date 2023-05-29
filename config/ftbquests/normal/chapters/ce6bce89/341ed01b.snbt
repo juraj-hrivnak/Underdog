@@ -1,10 +1,9 @@
 {
-	x: 4.2d,
-	y: 1.2d,
+	x: 5.6d,
+	y: 1.6d,
 	text: [
 		"&r▪➡&7 Make a paper."
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"6293f06e",
 		"4171d7ce"
