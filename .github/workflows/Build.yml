@@ -134,10 +134,6 @@ jobs:
             echo -e "x---------------x"
             echo -e "|  Mod Changes  |"
 
-            echo '## Mod Changes' >> $GITHUB_STEP_SUMMARY
-            echo "Since: \`$latest_tag\`" >> $GITHUB_STEP_SUMMARY
-            echo '```markdown' >> $GITHUB_STEP_SUMMARY
-
             mod_changes+="## Mod Changes\n\n"
             mod_changes+="Since: \`$latest_tag\`\n\n"
             mod_changes+="\`\`\`markdown\n"
@@ -145,40 +141,29 @@ jobs:
 
           if [[ ! -z ""$mods_added"" ]]; then
             echo -e "${GREEN}Added:"
-            echo -e "$mods_added"
-
-            echo "Added:" >> $GITHUB_STEP_SUMMARY
-            echo -e "$mods_added" >> $GITHUB_STEP_SUMMARY
+            echo -e "${GREEN}$mods_added"
 
             mod_changes+="Added:\n"
             mod_changes+="$mods_added\n"
             
             if [[ ! -z ""$mods_removed"" ]] || [[ ! -z ""$mods_updated"" ]]; then
-              echo -e "\n" >> $GITHUB_STEP_SUMMARY
               mod_changes+="\n"
             fi
           fi
           if [[ ! -z ""$mods_removed"" ]]; then
             echo -e "${RED}Removed:"
-            echo -e "$mods_removed"
-
-            echo "Removed:" >> $GITHUB_STEP_SUMMARY
-            echo -e "$mods_removed" >> $GITHUB_STEP_SUMMARY
+            echo -e "${RED}$mods_removed"
 
             mod_changes+="Removed:\n"
             mod_changes+="$mods_removed\n"
             
             if [[ ! -z ""$mods_updated"" ]]; then
-              echo -e "\n" >> $GITHUB_STEP_SUMMARY
               mod_changes+="\n"
             fi
           fi
           if [[ ! -z ""$mods_updated"" ]]; then
             echo -e "${BLUE}Updated:"
-            echo -e "$mods_updated"
-
-            echo "Updated:" >> $GITHUB_STEP_SUMMARY
-            echo -e "$mods_updated" >> $GITHUB_STEP_SUMMARY
+            echo -e "${BLUE}$mods_updated"
 
             mod_changes+="Updated:\n"
             mod_changes+="$mods_updated\n"
@@ -192,6 +177,7 @@ jobs:
             mod_changes+="\`\`\`"
           fi
 
+          echo -e "$mod_changes" >> $GITHUB_STEP_SUMMARY
           perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
 
           rm ./pax/modpack/manifest_prev.json
