@@ -152,6 +152,11 @@ jobs:
 
             mod_changes+="Added:\n"
             mod_changes+="$mods_added\n"
+            
+            if [[ ! -z ""$mods_removed"" ]] || [[ ! -z ""$mods_updated"" ]]; then
+              echo "\n" >> $GITHUB_STEP_SUMMARY
+              mod_changes+="\n"
+            fi
           fi
           if [[ ! -z ""$mods_removed"" ]]; then
             echo -e "${RED}Removed:"
@@ -162,6 +167,11 @@ jobs:
 
             mod_changes+="Removed:\n"
             mod_changes+="$mods_removed\n"
+            
+            if [[ ! -z ""$mods_updated"" ]]; then
+              echo "\n" >> $GITHUB_STEP_SUMMARY
+              mod_changes+="\n"
+            fi
           fi
           if [[ ! -z ""$mods_updated"" ]]; then
             echo -e "${BLUE}Updated:"
