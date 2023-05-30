@@ -172,8 +172,6 @@ jobs:
           if [[ ! -z ""$mods_added"" ]] || [[ ! -z ""$mods_removed"" ]] || [[ ! -z ""$mods_updated"" ]]; then
             echo -e "${NC}x---------------x"
 
-            echo '```' >> $GITHUB_STEP_SUMMARY
-
             mod_changes+="\`\`\`"
           fi
 
