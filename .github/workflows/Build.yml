@@ -141,7 +141,7 @@ jobs:
 
           if [[ ! -z ""$mods_added"" ]]; then
             echo -e "${GREEN}Added:"
-            echo -e "${GREEN}$mods_added"
+            echo -e "$mods_added"
 
             mod_changes+="Added:\n"
             mod_changes+="$mods_added\n"
@@ -152,7 +152,7 @@ jobs:
           fi
           if [[ ! -z ""$mods_removed"" ]]; then
             echo -e "${RED}Removed:"
-            echo -e "${RED}$mods_removed"
+            echo -e "$mods_removed"
 
             mod_changes+="Removed:\n"
             mod_changes+="$mods_removed\n"
@@ -163,7 +163,7 @@ jobs:
           fi
           if [[ ! -z ""$mods_updated"" ]]; then
             echo -e "${BLUE}Updated:"
-            echo -e "${BLUE}$mods_updated"
+            echo -e "$mods_updated"
 
             mod_changes+="Updated:\n"
             mod_changes+="$mods_updated\n"
