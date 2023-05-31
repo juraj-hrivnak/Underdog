@@ -13,7 +13,7 @@ echo "server_pack_creator_version value is: $server_pack_creator_version"
 curl https://github.com/froehlichA/pax/releases/download/v$pax_version/pax -o pax -L -J
 
 # Download modpack downloader
-curl https://github.com/juraj-hrivnak/ModpackDownloader/releases/download/v$modpack_downloader_version/ModpackDownloader-$modpack_downloader_version-jar-with-dependencies.jar -o ModpackDownloader-$modpack_downloader_version-jar-with-dependencies.jar -L -J
+curl https://github.com/Joshyx/ModpackDownloader/releases/download/v$modpack_downloader_version/ModpackDownloader-$modpack_downloader_version.jar -o ModpackDownloader-$modpack_downloader_version.jar -L -J
 
 # Download server pack creator
 curl https://github.com/Griefed/ServerPackCreator/releases/download/$server_pack_creator_version/ServerPackCreator-$server_pack_creator_version.jar -o ./serverpack/ServerPackCreator-$server_pack_creator_version.jar -L -J

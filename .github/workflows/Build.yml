@@ -3,10 +3,10 @@ run-name: "Build #${{ github.run_number }}"
 
 on:
   push:
-    branches:
-      - main
     tags:
       - 'v*'
+    branches:
+      - main
   pull_request:
     branches:
       - main
@@ -145,7 +145,7 @@ jobs:
 
             mod_changes+="Added:\n"
             mod_changes+="$mods_added\n"
-            
+
             if [[ ! -z ""$mods_removed"" ]] || [[ ! -z ""$mods_updated"" ]]; then
               mod_changes+="\n"
             fi
@@ -156,7 +156,7 @@ jobs:
 
             mod_changes+="Removed:\n"
             mod_changes+="$mods_removed\n"
-            
+
             if [[ ! -z ""$mods_updated"" ]]; then
               mod_changes+="\n"
             fi
@@ -227,32 +227,20 @@ jobs:
     needs: [modpack-info]
     if: ${{ needs.modpack-info.outputs.tag != 'tag_not_found' }}
     steps:
-      - name: Check if CF_API_KEY exist
-        shell: bash
-        run: |
-          if [ "${{ secrets.CF_API_KEY }}" == '' ]; then
-            echo '::error::No value found for secret key `CF_API_KEY`. See https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository' && exit 1
-          fi
       - name: Checkout
         uses: actions/checkout@v3
       - name: Download Mods
-        env:
-          CURSEFORGE_API_KEY: ${{ secrets.CF_API_KEY }}
         run: |
-          mkdir ${GITHUB_WORKSPACE}/downloader
           cd pax/
           modpack_downloader_version=$(grep -Po '(?<="ModpackDownloader": ")[^"]*' setup.json)
-          curl https://github.com/juraj-hrivnak/ModpackDownloader/releases/download/v$modpack_downloader_version/ModpackDownloader-$modpack_downloader_version-jar-with-dependencies.jar -o ModpackDownloader-$modpack_downloader_version-jar-with-dependencies.jar -L -J
-          java -jar ModpackDownloader-$modpack_downloader_version-jar-with-dependencies.jar modpack downloader
-          cd ../downloader/mods
-          find . -type f -name '*.zip' -exec rm {} +
-          mv ../mods ../../mods
+          curl https://github.com/Joshyx/ModpackDownloader/releases/download/v$modpack_downloader_version/ModpackDownloader-$modpack_downloader_version.jar -o ModpackDownloader-$modpack_downloader_version.jar -L -J
+          java -jar ModpackDownloader-$modpack_downloader_version.jar modpack ..
       - name: Export serverpack
         run: |
           cd pax/
           server_pack_creator_version=$(grep -Po '(?<="ServerPackCreator": ")[^"]*' setup.json)
           cd serverpack/
-          curl https://github.com/Griefed/ServerPackCreator/releases/download/$server_pack_creator_version/ServerPackCreator-$server_pack_creator_version.jar -o ./serverpack/ServerPackCreator-$server_pack_creator_version.jar -L -J
+          curl https://github.com/Griefed/ServerPackCreator/releases/download/$server_pack_creator_version/ServerPackCreator-$server_pack_creator_version.jar -o ServerPackCreator-$server_pack_creator_version.jar -L -J
           java -jar ServerPackCreator-$server_pack_creator_version.jar -cli
       - name: Rename zip
         run: |
