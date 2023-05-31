@@ -7,8 +7,10 @@
       minecraft:deep_ocean
       minecraft:beaches
       minecraft:stone_beach
+      minecraft:cold_beach
       biomesoplenty:gravel_beach
       biomesoplenty:white_beach
+      biomesoplenty:origin_beach
       biomesoplenty:coral_reef
       biomesoplenty:kelp_forest
     ]
