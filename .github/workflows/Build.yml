@@ -225,6 +225,7 @@ jobs:
     name: Build Serverpack
     runs-on: ubuntu-latest
     needs: [modpack-info]
+    if: ${{ needs.modpack-info.outputs.tag != 'tag_not_found' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
