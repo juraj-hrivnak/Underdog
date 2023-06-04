@@ -734,7 +734,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 4553075,
+      "fileID": 4562035,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1349,7 +1349,7 @@
     },
     {
       "projectID": 297038,
-      "fileID": 4514997,
+      "fileID": 4564843,
       "required": true,
       "__meta": {
         "name": "CraftPresence"
@@ -1712,6 +1712,14 @@
       }
     },
     {
+      "projectID": 320485,
+      "fileID": 2705453,
+      "required": true,
+      "__meta": {
+        "name": "Mo' Creatures 16x"
+      }
+    },
+    {
       "projectID": 321792,
       "fileID": 4496098,
       "required": true,
@@ -1939,7 +1947,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4547487,
+      "fileID": 4561594,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2060,10 +2068,11 @@
     },
     {
       "projectID": 419286,
-      "fileID": 4556962,
+      "fileID": 4459218,
       "required": true,
       "__meta": {
-        "name": "MixinBooter"
+        "name": "MixinBooter",
+        "pinned": true
       }
     },
     {
@@ -2124,7 +2133,7 @@
     },
     {
       "projectID": 460609,
-      "fileID": 4553503,
+      "fileID": 4564363,
       "required": true,
       "__meta": {
         "name": "CensoredASM",
@@ -2155,7 +2164,7 @@
     },
     {
       "projectID": 485654,
-      "fileID": 4545167,
+      "fileID": 4564413,
       "required": true,
       "__meta": {
         "name": "Fluidlogged API"
@@ -2203,15 +2212,6 @@
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
-      }
-    },
-    {
-      "projectID": 571482,
-      "fileID": 4430763,
-      "required": true,
-      "__meta": {
-        "name": "AssetMover",
-        "explicit": false
       }
     },
     {
@@ -2421,18 +2421,6 @@
       }
     },
     {
-      "projectID": 715082,
-      "fileID": 4553639,
-      "required": true,
-      "__meta": {
-        "name": "Subaquatic",
-        "dependencies": [
-          485654,
-          571482
-        ]
-      }
-    },
-    {
       "projectID": 782070,
       "fileID": 4275356,
       "required": true,
@@ -2468,6 +2456,14 @@
       "required": true,
       "__meta": {
         "name": "Simple Paraglider (1.12.2)"
+      }
+    },
+    {
+      "projectID": 867351,
+      "fileID": 4557367,
+      "required": true,
+      "__meta": {
+        "name": "Mo‘ Creatures Extended"
       }
     }
   ]
