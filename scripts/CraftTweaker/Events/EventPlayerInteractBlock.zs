@@ -66,7 +66,11 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
 
 
 	// Mill
-	if (isNull(event.item) && (event.blockState == <blockstate:cuisine:mill:facing=west> || event.blockState == <blockstate:cuisine:mill:facing=north> || event.blockState == <blockstate:cuisine:mill:facing=east> || event.blockState == <blockstate:cuisine:mill:facing=south>)) {
+	if (isNull(event.item)
+            && (event.blockState == <blockstate:cuisine:mill:facing=west>
+            || event.blockState == <blockstate:cuisine:mill:facing=north>
+            || event.blockState == <blockstate:cuisine:mill:facing=east>
+            || event.blockState == <blockstate:cuisine:mill:facing=south>)) {
 		if (mill[0] == false) {
             event.player.world.catenation()
                 .sleep(64)
@@ -136,7 +140,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
     //     }
     //     array += i.definition.id;
     // }
-    // print("| -------------------  +-+-+-+-+-+-+-+-+  ----------------------- |");
+    // print("| -------------------  +---------------+  ----------------------- |");
     // print("+-----------------------------------------------------------------+");
 
 	// if (event.blockState.block.definition.unlocalizedName == <blockstate:pyrotech:chopping_block>.block.definition.unlocalizedName) {
