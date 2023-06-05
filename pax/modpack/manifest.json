@@ -396,7 +396,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4534504,
+      "fileID": 4566528,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -1677,14 +1677,6 @@
       }
     },
     {
-      "projectID": 318857,
-      "fileID": 2700346,
-      "required": true,
-      "__meta": {
-        "name": "Hunter illager"
-      }
-    },
-    {
       "projectID": 319175,
       "fileID": 4501752,
       "required": true,
@@ -1947,7 +1939,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4561594,
+      "fileID": 4566506,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2133,7 +2125,7 @@
     },
     {
       "projectID": 460609,
-      "fileID": 4564363,
+      "fileID": 4565414,
       "required": true,
       "__meta": {
         "name": "CensoredASM",
