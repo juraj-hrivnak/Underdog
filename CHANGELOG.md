@@ -13,9 +13,9 @@ The best place to set up a server to play the Underdog modpack is at: \
 - Added Mo‘ Creatures Extended.
   - Configured to only include ambient and wild predator mobs.
 - Added regular and salt water ice! 🧊
-  - Plus a world generator for it.
+  - Plus, a world generator for it.
   - Plus implemented Serene Seasons compatible melting and freezing.
-  - Fixed saltwater not generating in cold beach.
+  - Fixed saltwater not generating on cold beaches.
 - Improved quest descriptions.
   - Tasks make more sense now.
   - Added symbols to differentiate types of info or task:
@@ -27,7 +27,8 @@ The best place to set up a server to play the Underdog modpack is at: \
 - Made [JetBrains Mono](https://www.jetbrains.com/lp/mono/) the default font of the pack.
   - All texts are much more readable now!
 - Disabled opening containers through signs.
-- You can now double click in HEI search bar to search for items in inventories.
+- You can now double-click in the HEI search bar to search for items in inventories.
+- Enable a bunch of RLTweaker fixes.
 - Updated Greenery and Universal Tweaks configs.
 - Disabled rustic olive oiling.
 - Improved load time a bit. (Probably.)
