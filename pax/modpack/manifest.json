@@ -1348,14 +1348,6 @@
       }
     },
     {
-      "projectID": 297038,
-      "fileID": 4564843,
-      "required": true,
-      "__meta": {
-        "name": "CraftPresence"
-      }
-    },
-    {
       "projectID": 298029,
       "fileID": 2754601,
       "required": true,
@@ -1450,6 +1442,14 @@
         "dependencies": [
           248453
         ]
+      }
+    },
+    {
+      "projectID": 300569,
+      "fileID": 2853374,
+      "required": true,
+      "__meta": {
+        "name": "DiscordRichPresence"
       }
     },
     {
@@ -1678,7 +1678,7 @@
     },
     {
       "projectID": 319175,
-      "fileID": 4501752,
+      "fileID": 4501755,
       "required": true,
       "__meta": {
         "name": "Sledgehammer"
@@ -1742,6 +1742,14 @@
         "dependencies": [
           315773
         ]
+      }
+    },
+    {
+      "projectID": 332522,
+      "fileID": 2812291,
+      "required": true,
+      "__meta": {
+        "name": "Erdbeerbaer's GUI Library"
       }
     },
     {
@@ -1880,14 +1888,6 @@
       "required": true,
       "__meta": {
         "name": "AI Reducer"
-      }
-    },
-    {
-      "projectID": 370420,
-      "fileID": 3846836,
-      "required": true,
-      "__meta": {
-        "name": "RLTweaker"
       }
     },
     {
@@ -2041,7 +2041,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4540763,
+      "fileID": 4573868,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2192,7 +2192,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 4543375,
+      "fileID": 4571247,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2235,14 +2235,6 @@
         "dependencies": [
           419286
         ]
-      }
-    },
-    {
-      "projectID": 602731,
-      "fileID": 3728182,
-      "required": true,
-      "__meta": {
-        "name": "Loading Progress Bar"
       }
     },
     {
