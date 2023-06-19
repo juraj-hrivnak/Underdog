@@ -32,4 +32,3 @@ body:
         Please provide a [mclo.gs](https://mclo.gs/) or [gist](https://gist.github.com/) link here. (Make sure that it isn't set to expire!)
     validations:
       required: false
-  
