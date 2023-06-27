@@ -1,5 +1,5 @@
 name: Build
-run-name: "Build #${{ github.run_number }} ${{ github.event.head_commit.message }}"
+run-name: "Build #${{ github.run_number }}"
 
 on:
   push:
@@ -219,12 +219,14 @@ jobs:
           set +e
 
           manifest="./pax/modpack/manifest.json"
-          customwindowtitle="./config/fancymenu/config.txt"
+          custom_window_title="./config/fancymenu/config.txt"
           fancymenu="./config/fancymenu/customization/main_menu.txt"
+          rich_presence="config/DiscordRPC.cfg"
 
           perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $manifest
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $customwindowtitle
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $custom_window_title
           perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $fancymenu
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $rich_presence
       - name: Sync overrides
         run: |
           cd pax/
