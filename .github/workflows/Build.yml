@@ -51,7 +51,7 @@ jobs:
           if [[ ${{ startsWith(github.ref, 'refs/tags/v') }} == true ]]; then
             echo "projectsuffix=${{ steps.version.outputs.tag }}" >> $GITHUB_OUTPUT
           else
-            echo "projectsuffix=Build.${{ github.run_number }}" >> $GITHUB_OUTPUT
+            echo "projectsuffix=build.${{ github.run_number }}" >> $GITHUB_OUTPUT
           fi
       - name: Checkout with fetch depth 0
         uses: actions/checkout@v3
