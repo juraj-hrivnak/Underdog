@@ -7,23 +7,15 @@ on:
       projectname:
         required: true
         type: string
+      projectsuffix:
+        required: true
+        type: string
       mcversion:
         required: true
         type: string
       tag:
         required: true
         type: string
-      build:
-        required: true
-        type: string
-      release_github:
-        required: false
-        type: boolean
-        default: true
-      release_curseforge:
-        required: false
-        type: boolean
-        default: true
 
 env:
   PROJECT_ID: "399664"
@@ -31,7 +23,6 @@ env:
 jobs:
   release-github:
     name: Deploy to GitHub
-    if: ${{ inputs.release_github == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Download modpack
@@ -49,17 +40,16 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
-          body_path: CHANGELOG-${{ inputs.tag }}.md
+          body_path: CHANGELOG-${{ inputs.projectsuffix }}.md
           files: |
-            ${{ inputs.projectname }}-${{ inputs.tag }}-build.${{ inputs.build }}.zip
-            ${{ inputs.projectname }}-${{ inputs.tag }}-build.${{ inputs.build }}-Server-Pack.zip
+            ${{ inputs.projectname }}-${{ inputs.projectsuffix }}.zip
+            ${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip
           tag_name: ${{ inputs.tag }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   release-curseforge:
     name: Deploy to CurseForge
-    if: ${{ inputs.release_curseforge == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Check if CF_API_TOKEN exist
@@ -91,10 +81,10 @@ jobs:
         with:
           api-token: ${{ secrets.CF_API_TOKEN }}
           project-id: ${{ env.PROJECT_ID }}
-          modpack-path: ${{ inputs.projectname }}-${{ inputs.tag }}-build.${{ inputs.build }}.zip
-          display-name: ${{ inputs.projectname }}-${{ inputs.tag }}-build.${{ inputs.build }}
-          modpack-server-path: ${{ inputs.projectname }}-${{ inputs.tag }}-build.${{ inputs.build }}-Server-Pack.zip
-          server-display-name: ${{ inputs.projectname }}-${{ inputs.tag }}-build.${{ inputs.build }}-Server-Pack
+          modpack-path: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}.zip
+          display-name: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}
+          modpack-server-path: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip
+          server-display-name: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack
           changelog: See https://github.com/juraj-hrivnak/Underdog/releases/tag/${{ inputs.tag }}
           changelog-format: markdown
           game-version: ${{ inputs.mcversion }}

@@ -273,14 +273,6 @@ customization {
   y = -48
   scale = 1.0
   alignment = left
-  value = v3.3.1
-}
-
-customization {
-  identifier = %id=604382%
-  orientation = mid-centered
-  x = -179
-  action = movebutton
-  y = 12
+  value = @version@
 }
 
