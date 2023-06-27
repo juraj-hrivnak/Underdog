@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "overrides": "overrides",
   "manifestVersion": 1,
-  "version": "3.3.1",
+  "version": "@version@",
   "author": "TeksturePako",
   "name": "Underdog",
   "files": [
@@ -276,7 +276,7 @@
     },
     {
       "projectID": 232838,
-      "fileID": 4481079,
+      "fileID": 4600751,
       "required": true,
       "__meta": {
         "name": "Logistics Pipes",
@@ -964,14 +964,6 @@
       }
     },
     {
-      "projectID": 273279,
-      "fileID": 2856128,
-      "required": true,
-      "__meta": {
-        "name": "AntiGhost"
-      }
-    },
-    {
       "projectID": 274259,
       "fileID": 4507139,
       "required": true,
@@ -1032,14 +1024,6 @@
       "required": true,
       "__meta": {
         "name": "Unlimited Chisel Works"
-      }
-    },
-    {
-      "projectID": 278494,
-      "fileID": 3973967,
-      "required": true,
-      "__meta": {
-        "name": "Foam​Fix"
       }
     },
     {
@@ -1225,7 +1209,7 @@
     },
     {
       "projectID": 289529,
-      "fileID": 3268265,
+      "fileID": 4586993,
       "required": true,
       "__meta": {
         "name": "Dynamic Trees - Biomes O' Plenty",
@@ -1427,7 +1411,7 @@
     },
     {
       "projectID": 300317,
-      "fileID": 4433105,
+      "fileID": 4597356,
       "required": true,
       "__meta": {
         "name": "Modernity"
@@ -1678,7 +1662,7 @@
     },
     {
       "projectID": 319175,
-      "fileID": 4501755,
+      "fileID": 4501752,
       "required": true,
       "__meta": {
         "name": "Sledgehammer"
@@ -1939,7 +1923,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4566506,
+      "fileID": 4606862,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2041,7 +2025,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4573868,
+      "fileID": 4600578,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2125,7 +2109,7 @@
     },
     {
       "projectID": 460609,
-      "fileID": 4565414,
+      "fileID": 4582515,
       "required": true,
       "__meta": {
         "name": "CensoredASM",
@@ -2200,7 +2184,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4553942,
+      "fileID": 4592880,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2444,10 +2428,21 @@
     },
     {
       "projectID": 867351,
-      "fileID": 4557367,
+      "fileID": 4597058,
       "required": true,
       "__meta": {
         "name": "Mo‘ Creatures Extended"
+      }
+    },
+    {
+      "projectID": 871198,
+      "fileID": 4609216,
+      "required": true,
+      "__meta": {
+        "name": "VintageFix",
+        "dependencies": [
+          419286
+        ]
       }
     }
   ]
