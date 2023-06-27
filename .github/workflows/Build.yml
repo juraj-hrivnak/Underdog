@@ -189,8 +189,8 @@ jobs:
             echo -e "$mod_changes" >> $GITHUB_STEP_SUMMARY
           fi
 
-          # mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
-          perl -i -pe "s/\@mod_changes\@/\Q$mod_changes/g" $changelog
+          mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
+          perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
 
           rm ./pax/modpack/manifest_prev.json
       - name: Rename changelog
@@ -227,9 +227,9 @@ jobs:
           customwindowtitle="./config/fancymenu/config.txt"
           fancymenu="./config/fancymenu/customization/main_menu.txt"
 
-          perl -i -pe "s/\@version\@/\Q${{ needs.modpack-info.outputs.projectsuffix }}/g" $manifest
-          perl -i -pe "s/\@version\@/\Q${{ needs.modpack-info.outputs.projectsuffix }}/g" $customwindowtitle
-          perl -i -pe "s/\@version\@/\Q${{ needs.modpack-info.outputs.projectsuffix }}/g" $fancymenu
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $customwindowtitle
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $fancymenu
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $manifest
       - name: Export modpack
         run: |
           cd pax/
