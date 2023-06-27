@@ -1,5 +1,5 @@
 name: Build
-run-name: "Build #${{ github.run_number }}"
+run-name: "Build #${{ github.run_number }} ${{ github.event.head_commit.message }}"
 
 on:
   push:
@@ -227,9 +227,9 @@ jobs:
           customwindowtitle="./config/fancymenu/config.txt"
           fancymenu="./config/fancymenu/customization/main_menu.txt"
 
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $manifest
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $customwindowtitle
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $fancymenu
+          perl -pi.bak "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $manifest
+          perl -pi.bak "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $customwindowtitle
+          perl -pi.bak "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $fancymenu
       - name: Export modpack
         run: |
           cd pax/
