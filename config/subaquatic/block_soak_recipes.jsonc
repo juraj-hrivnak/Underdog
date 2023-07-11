@@ -1,0 +1,100 @@
+[
+    //========
+    // Guide:
+    //======== 
+    /*
+    Each recipe can have the following arguments:
+
+    (optional) potions:
+    - A string array of the valid PotionTypes that can be used for the recipe (defaults to "minecraft:water").
+    
+    (required) inputs:
+    - Each input consists of a block (required), and an jeiStack (optional, defaults to Item.getItemFromBlock() + block metadata).
+      The block consists of the blockId (required) and metadata (optional, defaults to 0)
+      The jeiStack consists of the ItemStack, and has no impact on the recipe in-game. It is only used for jei integration
+      Full example: {"blockId":"stained_glass","metadata":13,"item":{"id":"wool","Damage":4}}
+
+    (required) output:
+    - Consists of a blockId (required), metadata (optional, defaults to 0), and jeiStack (optional, defaults to Item.getItemFromBlock() + block metadata)
+    */
+
+    //===================
+    // Built-in Recipes:
+    //===================
+    {
+        "inputs":[{"blockId":"dirt"},{"blockId":"dirt","metadata":1},{"blockId":"subaquatic:rooted_dirt"}],
+        "output":{"blockId":"subaquatic:mud"}
+    },
+    {
+        "inputs":[{"blockId":"magma"}],
+        "output":{"blockId":"obsidian"}
+    },
+    {
+        "inputs":[{"blockId":"sponge"}],
+        "output":{"blockId":"sponge","metadata":1}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder"}],
+        "output":{"blockId":"concrete"}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":1}],
+        "output":{"blockId":"concrete","metadata":1}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":2}],
+        "output":{"blockId":"concrete","metadata":2}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":3}],
+        "output":{"blockId":"concrete","metadata":3}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":4}],
+        "output":{"blockId":"concrete","metadata":4}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":5}],
+        "output":{"blockId":"concrete","metadata":5}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":6}],
+        "output":{"blockId":"concrete","metadata":6}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":7}],
+        "output":{"blockId":"concrete","metadata":7}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":8}],
+        "output":{"blockId":"concrete","metadata":8}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":9}],
+        "output":{"blockId":"concrete","metadata":9}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":10}],
+        "output":{"blockId":"concrete","metadata":10}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":11}],
+        "output":{"blockId":"concrete","metadata":11}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":12}],
+        "output":{"blockId":"concrete","metadata":12}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":13}],
+        "output":{"blockId":"concrete","metadata":13}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":14}],
+        "output":{"blockId":"concrete","metadata":14}
+    },
+    {
+        "inputs":[{"blockId":"concrete_powder","metadata":15}],
+        "output":{"blockId":"concrete","metadata":15}
+    }
+]

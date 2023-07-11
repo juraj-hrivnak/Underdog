@@ -1,5 +1,6 @@
 {
-	title: "Adventure",
+	title: "Survival",
+	icon: "minecraft:beef",
 	x: -3.5d,
 	y: -2.5d,
 	dependencies: [
@@ -16,13 +17,8 @@
 		}
 	}],
 	rewards: [{
-		uid: "72f5c336",
+		uid: "2e5590ba",
 		type: "item",
-		item: {
-			id: "forestry:forester_bag",
-			tag: {
-				UID: 1998417999
-			}
-		}
+		item: "pyrotech:crude_spear"
 	}]
 }

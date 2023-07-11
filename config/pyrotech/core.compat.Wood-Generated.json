@@ -184,6 +184,8 @@
     "minecraft:planks:3": "minecraft:wooden_slab:3",
     "minecraft:planks:4": "minecraft:wooden_slab:4",
     "minecraft:planks:5": "minecraft:wooden_slab:5",
+    "mocreatures:moclog:0": "mocreatures:mocwoodplank:0",
+    "mocreatures:moclog:1": "mocreatures:mocwoodplank:1",
     "rustic:log:0": "rustic:planks:0",
     "rustic:log:1": "rustic:planks:1",
     "rustic:planks:0": "rustic:olive_slab_item:0",
