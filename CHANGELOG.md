@@ -10,12 +10,16 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ## What's new?
 
+- Replaced Foam​Fix with VintageFix! Which should improve performance and load time significantly.
 - Added Mo‘ Creatures Extended.
-  - Configured to only include ambient and wild predator mobs.
+  - Configured only to include the realistic mobs!
+  - More integration will come later.
 - Added regular and salt water ice! 🧊
   - Plus, a world generator for it.
   - Plus implemented Serene Seasons compatible melting and freezing.
   - Fixed saltwater not generating on cold beaches.
+- Made [JetBrains Mono](https://www.jetbrains.com/lp/mono/) the default font of the pack.
+  - All texts are much more readable now!
 - Improved quest descriptions.
   - Tasks make more sense now.
   - Added symbols to differentiate types of info or task:
@@ -24,21 +28,22 @@ The best place to set up a server to play the Underdog modpack is at: \
     - `[❗]` = Warning.
 - Added tanning rack & leather quest.
 - Fixed quest completion toasts not showing up.
-- Made [JetBrains Mono](https://www.jetbrains.com/lp/mono/) the default font of the pack.
-  - All texts are much more readable now!
+- Fixed NullPointerException in TConstruct tables.
 - Disabled opening containers through signs.
 - You can now double-click in the HEI search bar to search for items in inventories.
-- Enable a bunch of RLTweaker fixes.
+- Enabled a bunch of RLTweaker fixes.
 - Updated Greenery and Universal Tweaks configs.
 - Disabled rustic olive oiling.
-- Improved load time a bit. (Probably.)
-- Replaced no nether portals mod using gamerule.
+- Replaced no nether portals mod using a gamerule.
 - Added a better display for active potions while playing.
 - Added blood splash effect.
 - Increased plants slowdown modifier.
 - Improved elytra flying QoL.
   - Better take-off.
-  - Camera can rotate freely during elytra flight.
+  - Camera can now rotate freely during flight.
 - Updated potion icon and snowed grass textures.
+- Changed chimney smoke color.
+- The inventory death list won't be dropped on player death - reduces clutter.
+- Configured Discord Rich Presence and added automatic versioning support for it.
 
 @mod_changes@
