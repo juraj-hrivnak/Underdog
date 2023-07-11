@@ -77,7 +77,7 @@ jobs:
           esac
           echo "type=$rel_type" >> $GITHUB_OUTPUT
       - name: Create release
-        uses: juraj-hrivnak/upload-curseforge-modpack-action@v2.0.0
+        uses: juraj-hrivnak/upload-curseforge-modpack-action@v1.0.1
         with:
           api-token: ${{ secrets.CF_API_TOKEN }}
           project-id: ${{ env.PROJECT_ID }}
