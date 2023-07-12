@@ -1496,6 +1496,14 @@
       }
     },
     {
+      "projectID": 306555,
+      "fileID": 2707092,
+      "required": true,
+      "__meta": {
+        "name": "Sound Device Options"
+      }
+    },
+    {
       "projectID": 306676,
       "fileID": 4415746,
       "required": true,
