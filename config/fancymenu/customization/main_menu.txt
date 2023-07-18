@@ -94,9 +94,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = 3
+  x = 4
   action = movebutton
-  y = 53
+  y = 50
 }
 
 customization {
@@ -274,5 +274,18 @@ customization {
   scale = 1.0
   alignment = left
   value = @version@
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = 181
+  action = movebutton
+  y = -17
 }
 
