@@ -93,7 +93,7 @@
     },
     {
       "projectID": 223150,
-      "fileID": 4356582,
+      "fileID": 4643434,
       "required": true,
       "__meta": {
         "name": "Recurrent Complex",
@@ -396,7 +396,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4566528,
+      "fileID": 4638548,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -1802,7 +1802,7 @@
     },
     {
       "projectID": 359407,
-      "fileID": 3658279,
+      "fileID": 4643073,
       "required": true,
       "__meta": {
         "name": "Immersive Technology",
@@ -1923,7 +1923,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4606862,
+      "fileID": 4645076,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2025,7 +2025,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4619102,
+      "fileID": 4645769,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2033,7 +2033,7 @@
     },
     {
       "projectID": 417392,
-      "fileID": 3895715,
+      "fileID": 4641362,
       "required": true,
       "__meta": {
         "name": "Quark: RotN Edition",
@@ -2119,7 +2119,7 @@
     },
     {
       "projectID": 461660,
-      "fileID": 3962479,
+      "fileID": 4638770,
       "required": true,
       "__meta": {
         "name": "dan's Mouse Tweaks"
@@ -2183,7 +2183,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4632516,
+      "fileID": 4646658,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2203,7 +2203,7 @@
     },
     {
       "projectID": 574162,
-      "fileID": 4560351,
+      "fileID": 4651150,
       "required": true,
       "__meta": {
         "name": "SimpleDifficulty for Underdog"
@@ -2211,7 +2211,7 @@
     },
     {
       "projectID": 575972,
-      "fileID": 4637827,
+      "fileID": 4651157,
       "required": true,
       "__meta": {
         "name": "Salt Water Patcher",
@@ -2361,6 +2361,14 @@
       }
     },
     {
+      "projectID": 687577,
+      "fileID": 4635839,
+      "required": true,
+      "__meta": {
+        "name": "GroovyScript"
+      }
+    },
+    {
       "projectID": 687632,
       "fileID": 4036750,
       "required": true,
@@ -2378,7 +2386,7 @@
     },
     {
       "projectID": 705000,
-      "fileID": 4628481,
+      "fileID": 4643573,
       "required": true,
       "__meta": {
         "name": "Universal Tweaks",
@@ -2443,7 +2451,7 @@
     },
     {
       "projectID": 871198,
-      "fileID": 4632441,
+      "fileID": 4642100,
       "required": true,
       "__meta": {
         "name": "VintageFix",
