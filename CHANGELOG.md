@@ -10,8 +10,6 @@ The best place to set up a server to play the Underdog modpack is at: \
 
 ## What's new?
 
-- Fixed server-side crash caused by outdated mixins from SaltWaterPatcher.
-- Disabled purple fire and random potion effects applying to mobs. (Scaling Health)
-- Added Dynamic Trees compatibility for salt/regular water fluid blocks.
+-
 
 @mod_changes@
