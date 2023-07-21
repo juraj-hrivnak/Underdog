@@ -17,6 +17,7 @@
 /config/jei/bookmarks.ini
 /config/jei/worldSettings.cfg
 /config/moresoundconfig.cfg
+/config/voicechat/username-cache.json
 
 # .minecraft
 /assetmover/assets/*
