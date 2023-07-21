@@ -1,0 +1,23 @@
+{
+    "extends": "recommended",
+    "rules": {
+        "CompileStatic": {
+            "enabled": false
+        },
+        "DuplicateNumberLiteral": {
+            "enabled": false
+        },
+        "DuplicateStringLiteral": {
+            "enabled": false
+        },
+        "ImplicitClosureParameter": {
+            "enabled": false
+        },
+        "Instanceof": {
+            "enabled": false
+        },
+        "NoFloat": {
+            "enabled": false
+        }
+    }
+}

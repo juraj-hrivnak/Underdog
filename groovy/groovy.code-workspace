@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+        {
+			"path": "../resources"
+		},
+	],
+    "settings": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.bracketPairColorization.enabled": true,
+    }
+}
