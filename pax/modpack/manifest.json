@@ -104,7 +104,7 @@
     },
     {
       "projectID": 223852,
-      "fileID": 2952606,
+      "fileID": 4655859,
       "required": true,
       "__meta": {
         "name": "Storage Drawers",
@@ -734,7 +734,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 4631502,
+      "fileID": 4666354,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1856,7 +1856,7 @@
     },
     {
       "projectID": 367706,
-      "fileID": 4503123,
+      "fileID": 4655936,
       "required": true,
       "__meta": {
         "name": "FancyMenu [Forge]",
@@ -1923,7 +1923,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4645076,
+      "fileID": 4681827,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2025,7 +2025,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4645769,
+      "fileID": 4662191,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2119,7 +2119,7 @@
     },
     {
       "projectID": 461660,
-      "fileID": 4638770,
+      "fileID": 4661407,
       "required": true,
       "__meta": {
         "name": "dan's Mouse Tweaks"
@@ -2183,7 +2183,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4646658,
+      "fileID": 4673868,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2435,7 +2435,7 @@
     },
     {
       "projectID": 867351,
-      "fileID": 4597058,
+      "fileID": 4673860,
       "required": true,
       "__meta": {
         "name": "Mo‘ Creatures Extended"
@@ -2451,13 +2451,21 @@
     },
     {
       "projectID": 871198,
-      "fileID": 4642100,
+      "fileID": 4686145,
       "required": true,
       "__meta": {
         "name": "VintageFix",
         "dependencies": [
           419286
         ]
+      }
+    },
+    {
+      "projectID": 896591,
+      "fileID": 4685926,
+      "required": true,
+      "__meta": {
+        "name": "SerializationIsBad"
       }
     }
   ]
