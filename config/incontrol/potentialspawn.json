@@ -5,6 +5,19 @@
         ],
         "mobs": [
             {
+                "mob": "minecraft:squid",
+                "weight": 3,
+                "groupcountmin": 2,
+                "groupcountmax": 6
+            }
+        ]
+    },
+    {
+        "dimension": [
+            0
+        ],
+        "mobs": [
+            {
                 "mob": "minecraft:wolf",
                 "weight": 1,
                 "groupcountmin": 3,
@@ -124,6 +137,19 @@
             {
                 "mob": "tropicraft:marlin",
                 "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": [
+            0
+        ],
+        "mobs": [
+            {
+                "mob": "mocreatures:rat",
+                "weight": 1,
                 "groupcountmin": 1,
                 "groupcountmax": 3
             }

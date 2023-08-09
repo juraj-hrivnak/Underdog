@@ -1,6 +1,28 @@
 [
     {
         "dimension": 0,
+        "mob": "minecraft:squid",
+        "onjoin": true,
+        "biometype": [
+            "OCEAN",
+            "BEACH"
+        ],
+        "maxheight": 54,
+        "maxcount": {
+            "amount": 14,
+            "perplayer": false,
+            "perchunk": true
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "minecraft:squid",
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
         "mob": "minecraft:wolf",
         "minheight": 55,
         "maxheight": 100,
@@ -206,6 +228,25 @@
     {
         "dimension": 0,
         "mob": "tropicraft:marlin",
+        "result": "deny"
+    },
+
+    {
+        "dimension": 0,
+        "mob": "mocreatures:rat",
+        "healthmultiply": 0.5,
+        "seesky": false,
+        "maxlight": 8,
+        "maxheight": 70,
+        "maxcount": {
+            "amount": 4,
+            "perplayer": false
+        },
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "mocreatures:rat",
         "result": "deny"
     }
 ]
