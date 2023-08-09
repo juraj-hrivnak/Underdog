@@ -195,7 +195,8 @@
         "geolosys:geolosys.cluster.silver"
       ],
       "output": [
-        "immersiveengineering:metal:23"
+        "immersiveengineering:metal:23",
+        "mocreatures:ancientsilvernugget:0"
       ],
       "bloomYieldMinMax": [
         12,
