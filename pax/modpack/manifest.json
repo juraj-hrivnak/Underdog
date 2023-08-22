@@ -396,7 +396,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4638548,
+      "fileID": 4707234,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -734,7 +734,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 4701804,
+      "fileID": 4707805,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1785,14 +1785,6 @@
       }
     },
     {
-      "projectID": 356349,
-      "fileID": 3424173,
-      "required": true,
-      "__meta": {
-        "name": "DupeFix Project"
-      }
-    },
-    {
       "projectID": 356646,
       "fileID": 3168863,
       "required": true,
@@ -1884,7 +1876,7 @@
     },
     {
       "projectID": 376903,
-      "fileID": 3648592,
+      "fileID": 4703532,
       "required": true,
       "__meta": {
         "name": "xXx_MoreToolMats_xXx (a PlusTiC fork without the evil, and apparently some new bugs idk)",
@@ -1923,7 +1915,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4681827,
+      "fileID": 4702628,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2025,7 +2017,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4690538,
+      "fileID": 4715993,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2044,7 +2036,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 4591146,
+      "fileID": 4699275,
       "required": true,
       "__meta": {
         "name": "MixinBooter"
@@ -2263,7 +2255,7 @@
     },
     {
       "projectID": 624967,
-      "fileID": 4692529,
+      "fileID": 4710694,
       "required": true,
       "__meta": {
         "name": "RenderLib",
@@ -2362,7 +2354,7 @@
     },
     {
       "projectID": 687577,
-      "fileID": 4687204,
+      "fileID": 4691853,
       "required": true,
       "__meta": {
         "name": "GroovyScript"
@@ -2386,7 +2378,7 @@
     },
     {
       "projectID": 705000,
-      "fileID": 4643573,
+      "fileID": 4704976,
       "required": true,
       "__meta": {
         "name": "Universal Tweaks",
@@ -2451,7 +2443,7 @@
     },
     {
       "projectID": 871198,
-      "fileID": 4686145,
+      "fileID": 4714078,
       "required": true,
       "__meta": {
         "name": "VintageFix",
