@@ -396,7 +396,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4707234,
+      "fileID": 4731280,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -726,7 +726,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3626833,
+      "fileID": 4722163,
       "required": true,
       "__meta": {
         "name": "CreativeCore"
@@ -734,7 +734,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 4707805,
+      "fileID": 4722161,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -1915,7 +1915,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4702628,
+      "fileID": 4733272,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2017,7 +2017,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4715993,
+      "fileID": 4726775,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2175,7 +2175,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4688138,
+      "fileID": 4724395,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2233,7 +2233,7 @@
     },
     {
       "projectID": 620262,
-      "fileID": 3909215,
+      "fileID": 4724647,
       "required": true,
       "__meta": {
         "name": "燐/Hesperus",
@@ -2427,7 +2427,7 @@
     },
     {
       "projectID": 867351,
-      "fileID": 4673860,
+      "fileID": 4732614,
       "required": true,
       "__meta": {
         "name": "Mo‘ Creatures Extended"
@@ -2454,7 +2454,7 @@
     },
     {
       "projectID": 896591,
-      "fileID": 4685926,
+      "fileID": 4728250,
       "required": true,
       "__meta": {
         "name": "SerializationIsBad"
