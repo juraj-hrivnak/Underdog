@@ -42,7 +42,7 @@ You can do that using **terminal**, **cmd** or the **GitHub Desktop** app.
 ### 6 
 
 - Open your _terminal_ and run the [ModpackDownloader]:
-    ```cmd
+    ```
     java -jar ModpackDownloader-<version>.jar modpack ..
     ```
     > **Note**
