@@ -41,9 +41,21 @@ You can do that using **terminal**, **cmd** or the **GitHub Desktop** app.
 
 ### 6 
 
+- Open your _terminal_ and run the [ModpackDownloader]:
+    ```cmd
+    java -jar ModpackDownloader-<version>.jar modpack ..
+    ```
+    > **Note**
+    > Make sure to replace the `<version>` with the correct version of ModpackDownloader.
+
+### 7
+
 - Enjoy!
 
 
+
+<!-- Links: -->
 [MultiMC]: https://multimc.org/
 [Visual Studio Code]: https://code.visualstudio.com/
 [Git]: https://git-scm.com/
+[ModpackDownloader]: https://github.com/Joshyx/ModpackDownloader
