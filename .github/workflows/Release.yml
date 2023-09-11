@@ -96,7 +96,7 @@ jobs:
     needs: [release-github, release-curseforge]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Download changelog
         uses: actions/download-artifact@v3
         with:
@@ -124,7 +124,7 @@ jobs:
     needs: [release-github, release-curseforge]
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: close-fixed-in-dev
         uses: juraj-hrivnak/close-issues-based-on-label@master
         env:
