@@ -107,7 +107,8 @@
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
-        "geolosys:geolosys.cluster.gold"
+        "geolosys:geolosys.cluster.gold",
+        "mocreatures:tile.mocreatures.wyvern_gold_ore"
       ],
       "output": [
         "minecraft:gold_nugget:0"
@@ -124,7 +125,8 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
-        "geolosys:geolosys.cluster.iron"
+        "geolosys:geolosys.cluster.iron",
+        "mocreatures:tile.mocreatures.wyvern_iron_ore"
       ],
       "output": [
         "minecraft:iron_nugget:0"
