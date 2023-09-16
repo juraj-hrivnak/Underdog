@@ -230,7 +230,7 @@ jobs:
           perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $rich_presence
           perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $grooovy
 
-          jq '.debug = false' $grooovy
+          jq --argjson new false '.debug = $new' $grooovy
       - name: Sync overrides
         run: |
           cd pax/
