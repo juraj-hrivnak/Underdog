@@ -11,6 +11,17 @@ cd pax
 
 echo Config synced!
 
+# groovy
+cd modpack/overrides
+if [ -d "groovy" ]; then
+    rm -rf groovy
+fi
+cd ../../..
+cp -r groovy pax/modpack/overrides
+cd pax
+
+echo Groovy synced!
+
 # local
 cd modpack/overrides
 if [ -d "local" ]; then

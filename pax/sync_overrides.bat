@@ -9,6 +9,15 @@ cd ..\..\..\..
 xcopy /s config pax\modpack\overrides\config\
 cd pax
 
+rem groovy
+cd modpack\overrides
+if not exist "groovy" mkdir "groovy"
+cd groovy
+for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
+cd ..\..\..\..
+xcopy /s groovy pax\modpack\overrides\groovy\
+cd pax
+
 rem local
 cd modpack\overrides
 if not exist "local" mkdir "local"
