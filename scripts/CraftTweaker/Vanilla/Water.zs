@@ -49,5 +49,5 @@ static allSaltWater as IIngredient =
     | <pyrotech:bucket_clay>         .withTag({fluids: {FluidName: "saltwater", Amount: 1000}})
     | <forge:bucketfilled>           .withTag({FluidName: "saltwater", Amount: 1000});
 
-// Replace all occurrences of "listAllwater" with Spring Water as ingredient
-recipes.replaceAllOccurences(<ore:listAllwater>, allSpringWater, <*>);
+// // Replace all occurrences of "listAllwater" with Spring Water as ingredient
+// recipes.replaceAllOccurences(<ore:listAllwater>, allSpringWater, <*>);

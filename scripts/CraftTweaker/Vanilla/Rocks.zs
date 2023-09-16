@@ -20,7 +20,7 @@ for item in rocks {
     <ore:rocks>.add(item);
 }
 
-recipes.replaceAllOccurences(<ore:cobblestone>, <ore:rocks>, <*>);
+// recipes.replaceAllOccurences(<ore:cobblestone>, <ore:rocks>, <*>);
 
 val stones as IItemStack[] = [
     <minecraft:stone>       ,
@@ -37,7 +37,7 @@ for item in stones {
     <ore:stones>.add(item);
 }
 
-recipes.replaceAllOccurences(<ore:stone>, <ore:stones>, <*>);
+// recipes.replaceAllOccurences(<ore:stone>, <ore:stones>, <*>);
 
 // Fix
 RecipeUtils.tweakRecipe(true, <quark:stone_stairs> * 8,

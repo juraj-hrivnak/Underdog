@@ -10,13 +10,31 @@
         "DuplicateStringLiteral": {
             "enabled": false
         },
+        "FieldTypeRequired": {
+            "enabled": false
+        },
         "ImplicitClosureParameter": {
             "enabled": false
         },
         "Instanceof": {
             "enabled": false
         },
+        "NestedBlockDepth": {
+            "enabled": false
+        },
+        "NestedForLoop": {
+            "enabled": false
+        },
+        "NoDef": {
+            "enabled": false
+        },
         "NoFloat": {
+            "enabled": false
+        },
+        "ParameterCount": {
+            "enabled": false
+        },
+        "SpaceInsideParentheses": {
             "enabled": false
         }
     }

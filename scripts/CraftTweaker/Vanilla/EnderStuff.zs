@@ -1,9 +1,9 @@
 
 #priority -20
 
-// Replace Elite Circuit & Ultimate Circuit
-recipes.replaceAllOccurences(<minecraft:ender_pearl>, <mekanism:controlcircuit:2>, <*>);
-recipes.replaceAllOccurences(<minecraft:ender_eye>, <mekanism:controlcircuit:3>, <*>);
+// // Replace Elite Circuit & Ultimate Circuit
+// recipes.replaceAllOccurences(<minecraft:ender_pearl>, <mekanism:controlcircuit:2>, <*>);
+// recipes.replaceAllOccurences(<minecraft:ender_eye>, <mekanism:controlcircuit:3>, <*>);
 
 recipes.remove(<minecraft:ender_chest>);
 recipes.addShapedMirrored(<minecraft:ender_chest>,

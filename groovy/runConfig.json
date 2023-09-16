@@ -15,7 +15,9 @@
         ],
         "postInit": [
             "extensions/",
-            "postInit/"
+            "postInit/",
+            "postInit/generated",
+            "postInit/vanilla"
         ]
     }
 }

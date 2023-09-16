@@ -2,51 +2,79 @@
 import com.cleanroommc.groovyscript.api.IIngredient
 
 /**
- * ItemStack extension function.
- * Used to remove and a new shaped recipe for the given item.
+ * Tweaks a shaped recipe for item.
+ * (Extension of ItemStack)
  */
 ItemStack.metaClass.tweakRecipe = { List<IIngredient>... input ->
-    List<List<IIngredient>> recipe = [][] as IIngredient[][]
-
-    input.each { recipe.add(it) }
-
     crafting.removeByOutput(delegate)
-    crafting.addShaped(delegate, recipe)
+    crafting.addShaped(delegate, input.collect { it })
 }
 
 /**
- * Overload of the ItemStack.tweakRecipe() extension function.
- * Used to remove and a new shapeless recipe for the given item.
+ * Tweaks a shapeless recipe for item.
+ * (Overload of the function above)
  */
 ItemStack.metaClass.tweakRecipe = { IIngredient... input ->
-    List<IIngredient> recipe = [] as IIngredient[]
-
-    input.each { recipe.add(it) }
-
     crafting.removeByOutput(delegate)
-    crafting.addShapeless(delegate, recipe)
+    crafting.addShapeless(delegate, input.toList())
 }
 
 /**
- * ItemStack extension function.
- * Used to and a new shaped recipe for the given item.
+ * Adds a new shaped recipe for item.
+ * (Extension of ItemStack)
  */
 ItemStack.metaClass.addRecipe = { List<IIngredient>... input ->
-    List<List<IIngredient>> recipe = [][] as IIngredient[][]
-
-    input.each { recipe.add(it) }
-
-    crafting.addShaped(delegate, recipe)
+    crafting.addShaped(delegate, input.collect { it })
 }
 
 /**
- * Overload of the ItemStack.addRecipe() extension function.
- * Used to and a new shapeless recipe for the given item.
+ * Add a new shapeless recipe for item.
+ * (Overload of the function above)
  */
 ItemStack.metaClass.addRecipe = { IIngredient... input ->
-    List<IIngredient> recipe = [] as IIngredient[]
+    crafting.addShapeless(delegate, input.toList())
+}
 
-    input.each { recipe.add(it) }
+IIngredient.metaClass.addPasteRecipe = { String... input ->
+    List<String> pastes = []
 
-    crafting.addShapeless(delegate, recipe)
+    input.each { pastes.add(it) }
+
+    mods.advancedmortars.Mortar.recipeBuilder()
+        .stone()
+        .duration(2)
+        .output(item('cuisine:ingredient').withNbt([
+            characteristics: [],
+            effects: pastes[1] ?: '',
+            material: pastes[0],
+            form: 'PASTE',
+            doneness: 0
+        ]))
+        .input(delegate)
+        .register()
+}
+
+class Intertwiner {
+
+    static ItemStack itemStack
+    static matrix
+
+    static with = { Map<String, IIngredient> map ->
+        crafting.shapedBuilder()
+            .output(itemStack)
+            .matrix(matrix)
+            .key(map)
+            .register()
+        return this
+    }
+
+}
+
+ItemStack.metaClass.tweakRecipe = { String... matrix ->
+    crafting.removeByOutput(delegate)
+    return new Intertwiner(itemStack: delegate, matrix: matrix)
+}
+
+ItemStack.metaClass.addRecipe = { String... matrix ->
+    return new Intertwiner(itemStack: delegate, matrix: matrix)
 }

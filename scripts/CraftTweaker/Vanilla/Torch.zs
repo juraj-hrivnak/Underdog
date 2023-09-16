@@ -15,7 +15,7 @@ rh(<minecraft:torch>);
 rh(<minecraft:lit_pumpkin>);
 
 // Replace all vanilla torches
-recipes.replaceAllOccurences(<minecraft:torch>, <burningtorch:burningtorch>, <*>);
+// recipes.replaceAllOccurences(<minecraft:torch>, <burningtorch:burningtorch>, <*>);
 
 // Add oredicts to new torch
 <ore:torch>.add(<burningtorch:burningtorch>);
