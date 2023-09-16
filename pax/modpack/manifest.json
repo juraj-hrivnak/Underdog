@@ -734,7 +734,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 4722161,
+      "fileID": 4750222,
       "required": true,
       "__meta": {
         "name": "LittleTiles",
@@ -902,7 +902,7 @@
     },
     {
       "projectID": 269973,
-      "fileID": 4434614,
+      "fileID": 4741994,
       "required": true,
       "__meta": {
         "name": "Pollution of the Realms",
@@ -1411,7 +1411,7 @@
     },
     {
       "projectID": 300317,
-      "fileID": 4597356,
+      "fileID": 4753035,
       "required": true,
       "__meta": {
         "name": "Modernity"
@@ -1514,14 +1514,6 @@
           284973,
           306770
         ]
-      }
-    },
-    {
-      "projectID": 306770,
-      "fileID": 3162874,
-      "required": true,
-      "__meta": {
-        "name": "Patchouli"
       }
     },
     {
@@ -1915,7 +1907,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4733272,
+      "fileID": 4746454,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2036,7 +2028,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 4699275,
+      "fileID": 4752579,
       "required": true,
       "__meta": {
         "name": "MixinBooter"
@@ -2232,17 +2224,6 @@
       }
     },
     {
-      "projectID": 620262,
-      "fileID": 4724647,
-      "required": true,
-      "__meta": {
-        "name": "燐/Hesperus",
-        "dependencies": [
-          419286
-        ]
-      }
-    },
-    {
       "projectID": 624243,
       "fileID": 4692436,
       "required": true,
@@ -2266,7 +2247,7 @@
     },
     {
       "projectID": 632327,
-      "fileID": 4692161,
+      "fileID": 4752339,
       "required": true,
       "__meta": {
         "name": "Inventory Bogo Sorter",
@@ -2354,7 +2335,7 @@
     },
     {
       "projectID": 687577,
-      "fileID": 4691853,
+      "fileID": 4749823,
       "required": true,
       "__meta": {
         "name": "GroovyScript"
@@ -2443,7 +2424,7 @@
     },
     {
       "projectID": 871198,
-      "fileID": 4714078,
+      "fileID": 4753319,
       "required": true,
       "__meta": {
         "name": "VintageFix",
@@ -2453,11 +2434,51 @@
       }
     },
     {
+      "projectID": 873867,
+      "fileID": 4742905,
+      "required": true,
+      "__meta": {
+        "name": "Red Core",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 896591,
       "fileID": 4728250,
       "required": true,
       "__meta": {
         "name": "SerializationIsBad"
+      }
+    },
+    {
+      "projectID": 902861,
+      "fileID": 4705514,
+      "required": true,
+      "__meta": {
+        "name": "Bundles Backport",
+        "dependencies": [
+          419286
+        ]
+      }
+    },
+    {
+      "projectID": 905159,
+      "fileID": 4749398,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli ROFL Edition"
+      }
+    },
+    {
+      "projectID": 910715,
+      "fileID": 4749295,
+      "required": true,
+      "__meta": {
+        "name": "Alfheim Lighting Engine",
+        "dependencies": [
+          873867,
+          419286
+        ]
       }
     }
   ]
