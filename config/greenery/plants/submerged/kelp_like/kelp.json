@@ -4,5 +4,8 @@
     ],
     "compatibleFluids": [
         "saltwater"
+    ],
+    "drops": [
+        "this | 1.0"
     ]
 }

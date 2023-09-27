@@ -5,5 +5,8 @@
     "compatibleFluids": [
         "water",
         "purifiedwater"
+    ],
+    "drops": [
+        "this | 1.0"
     ]
 }
