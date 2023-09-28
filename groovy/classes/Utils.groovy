@@ -1,6 +1,12 @@
 package classes
 
 import com.cleanroommc.groovyscript.api.IIngredient
+import com.cleanroommc.groovyscript.helper.GroovyHelper
+
+import net.minecraft.util.text.translation.I18n
+import net.minecraftforge.fml.relauncher.Side
+import net.minecraftforge.fml.relauncher.SideOnly
+
 import org.codehaus.groovy.runtime.StackTraceUtils
 
 /**
@@ -9,9 +15,9 @@ import org.codehaus.groovy.runtime.StackTraceUtils
 class Utils {
 
     /**
-     * Hide items
+     * Remove items
      */
-    static void hide(IIngredient... inputs) {
+    static void remove(IIngredient... inputs) {
         inputs.each { input ->
             // Hide from JEI
             mods.jei.hide(input)
@@ -19,15 +25,25 @@ class Utils {
             // Remove from every creative tab
             // removeItem()
 
-            // ToolTip
             input.matchingStacks.each { itemStack ->
-                itemStack.replaceToolTip("${Colors.RED}${Formats.BOLD}Hidden " +
-                    "(${Formats.RESET}%itemName%${Colors.RED}${Formats.BOLD})")
-                if (isDebug()) {
-                    itemStack.addToolTip("Hidden from ${StackTraceUtils.deepSanitize(new Exception()).stackTrace[3].fileName}")
+                // ToolTip
+                itemStack.replaceToolTip("${Colors.RED}${Formats.BOLD}(${Formats.RESET}%itemName%${Colors.RED}${Formats.BOLD})")
+                if (GroovyHelper.isDebug()) {
+                    itemStack.addToolTip("Hidden & removed from " +
+                            StackTraceUtils.deepSanitize(new Exception()).stackTrace[3].fileName)
                 }
+                // Remove recipe
+                itemStack.removeRecipe()
             }
         }
+    }
+
+    /**
+     * Localize translation key
+     */
+    @SideOnly(Side.CLIENT)
+    static String localize(String key) {
+        return I18n.translateToLocal(key)
     }
 
 }
