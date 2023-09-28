@@ -1,38 +1,74 @@
 
+import classes.Replacer
+
 import com.cleanroommc.groovyscript.api.IIngredient
+import com.cleanroommc.groovyscript.helper.ingredient.OrIngredient
+
+import net.minecraftforge.items.ItemHandlerHelper
+
+def printErrors = false
+List<String> tweakedRecipes = []
 
 /**
- * Tweaks a shaped recipe for item.
+ * Tweak shaped recipe.
  * (Extension of ItemStack)
  */
 ItemStack.metaClass.tweakRecipe = { List<IIngredient>... input ->
-    crafting.removeByOutput(delegate)
-    crafting.addShaped(delegate, input.collect { it })
+    // // Do not remove if tweaked before
+    // if (delegate.itemRaw.registryName.toString() !in tweakedRecipes) {
+    //     crafting.removeByOutput(delegate, printErrors)
+    //     tweakedRecipes << delegate.itemRaw.registryName.toString()
+    // }
+    crafting.shapedBuilder()
+        .output(delegate)
+        .matrix(input.toList())
+        .register().tap { Replacer.ingore(it) }
 }
 
 /**
- * Tweaks a shapeless recipe for item.
+ * Tweak shapeless recipe.
  * (Overload of the function above)
  */
 ItemStack.metaClass.tweakRecipe = { IIngredient... input ->
-    crafting.removeByOutput(delegate)
-    crafting.addShapeless(delegate, input.toList())
+    // // Do not remove if tweaked before
+    // if (delegate.itemRaw.registryName.toString() !in tweakedRecipes) {
+    //     crafting.removeByOutput(delegate, printErrors)
+    //     tweakedRecipes << delegate.itemRaw.registryName.toString()
+    // }
+    crafting.shapelessBuilder()
+        .output(delegate)
+        .input(input.toList())
+        .register().tap { Replacer.ingore(it) }
 }
 
 /**
- * Adds a new shaped recipe for item.
+ * Add shaped recipe.
  * (Extension of ItemStack)
  */
 ItemStack.metaClass.addRecipe = { List<IIngredient>... input ->
-    crafting.addShaped(delegate, input.collect { it })
+    crafting.shapedBuilder()
+        .output(delegate)
+        .matrix(input.toList())
+        .register().tap { Replacer.ingore(it) }
 }
 
 /**
- * Add a new shapeless recipe for item.
+ * Add shapeless recipe.
  * (Overload of the function above)
  */
 ItemStack.metaClass.addRecipe = { IIngredient... input ->
-    crafting.addShapeless(delegate, input.toList())
+    crafting.shapelessBuilder()
+        .output(delegate)
+        .input(input.toList())
+        .register().tap { Replacer.ingore(it) }
+}
+
+/**
+ * Remove recipe.
+ * (Extension of ItemStack)
+ */
+ItemStack.metaClass.removeRecipe = { ->
+    crafting.removeByOutput(delegate, printErrors)
 }
 
 IIngredient.metaClass.addPasteRecipe = { String... input ->
@@ -64,17 +100,33 @@ class Intertwiner {
             .output(itemStack)
             .matrix(matrix)
             .key(map)
-            .register()
+            .register().tap { Replacer.ingore(it) }
         return this
     }
 
 }
 
 ItemStack.metaClass.tweakRecipe = { String... matrix ->
-    crafting.removeByOutput(delegate)
+    // // Do not remove if tweaked before
+    // if (delegate.itemRaw.registryName.toString() !in tweakedRecipes) {
+    //     crafting.removeByOutput(delegate, printErrors)
+    //     tweakedRecipes << delegate.itemRaw.registryName.toString()
+    // }
     return new Intertwiner(itemStack: delegate, matrix: matrix)
 }
 
 ItemStack.metaClass.addRecipe = { String... matrix ->
     return new Intertwiner(itemStack: delegate, matrix: matrix)
+}
+
+IIngredient.metaClass.without = { ItemStack... input ->
+    OrIngredient orIngredient = new OrIngredient()
+    delegate.matchingStacks.each { stack ->
+        input.each { stack2 ->
+            if (!ItemHandlerHelper.canItemStacksStack(stack, stack2)) {
+                orIngredient.addIngredient((IIngredient) (Object) stack)
+            }
+        }
+    }
+    return orIngredient
 }
