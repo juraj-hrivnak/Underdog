@@ -1,0 +1,42 @@
+
+ore('plankWood').add(
+    item('cuisine:planks'),
+    item('rustic:painted_wood_white'),
+    item('rustic:painted_wood_orange'),
+    item('rustic:painted_wood_magenta'),
+    item('rustic:painted_wood_light_blue'),
+    item('rustic:painted_wood_yellow'),
+    item('rustic:painted_wood_lime'),
+    item('rustic:painted_wood_pink'),
+    item('rustic:painted_wood_gray'),
+    item('rustic:painted_wood_silver'),
+    item('rustic:painted_wood_cyan'),
+    item('rustic:painted_wood_purple'),
+    item('rustic:painted_wood_blue'),
+    item('rustic:painted_wood_brown'),
+    item('rustic:painted_wood_green'),
+    item('rustic:painted_wood_red'),
+    item('rustic:painted_wood_black'),
+    item('immersiveengineering:treated_wood'),
+
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_white_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_orange_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_magenta_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_light_blue_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_yellow_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_lime_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_pink_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_gray_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_silver_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_cyan_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_purple_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_blue_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_brown_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_green_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_red_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_painted_wood_black_0'),
+
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_planks_0'),
+    item('unlimitedchiselworks:chisel_planks_oak_rustic_planks_1')
+)
+

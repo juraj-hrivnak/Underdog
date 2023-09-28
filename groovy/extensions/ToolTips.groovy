@@ -1,4 +1,6 @@
 
+import com.cleanroommc.groovyscript.api.IIngredient
+
 import net.minecraftforge.event.entity.player.ItemTooltipEvent
 import net.minecraftforge.items.ItemHandlerHelper
 
@@ -24,8 +26,10 @@ ItemStack.metaClass.replaceToolTip = { String toolTip ->
  * You can add %itemName% to the input, and it will be
  * replaced with the item name.
  */
-ItemStack.metaClass.addToolTip = { String toolTip ->
-    toolTipsToAdd[delegate] = toolTip
+IIngredient.metaClass.addToolTip = { String toolTip ->
+    delegate.matchingStacks.each { itemStack ->
+        toolTipsToAdd[itemStack] = toolTip
+    }
 }
 
 event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
