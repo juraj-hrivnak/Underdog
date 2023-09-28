@@ -1,41 +1,46 @@
 
-// Wooden Hopper (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Wooden Hopper
 item('tconstruct:wooden_hopper').tweakRecipe(
     [ore('lumber'), null, ore('lumber')],
     [ore('lumber'), ore('chestWood'), ore('lumber')],
     [null, ore('lumber'), null]
 )
 
-// Wooden Rail (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Wooden Rail
 (item('tconstruct:wood_rail') * 4).tweakRecipe(
     [ore('lumber'), null, ore('lumber')],
     [ore('lumber'), ore('stickWood'), ore('lumber')],
     [ore('lumber'), null, ore('lumber')]
 )
 
-// Wooden Rail with a Trapdoor (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Wooden Rail with a Trapdoor
 (item('tconstruct:wood_rail_trapdoor') * 4).tweakRecipe(
     [ore('lumber'), null, ore('lumber')],
     [ore('lumber'), ore('trapdoorWood'), ore('lumber')],
     [ore('lumber'), null, ore('lumber')]
 )
 
-// Blank Pattern (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Blank Pattern
 (item('tconstruct:pattern') * 4).tweakRecipe(
     [ore('lumber'), ore('stickWood'), ore('stickWood')],
     [ore('lumber'), null, null]
 )
 
-// Part Chest (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Part Chest
 item('tconstruct:tooltables', 5).tweakRecipe(
     [null, item('tconstruct:pattern'), null],
     [ore('stickWood'), ore('chestWood'), ore('stickWood')],
     [null, ore('lumber'), null]
 )
 
-// Pattern Chest (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Pattern Chest
 item('tconstruct:tooltables', 4).tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')],
     [ore('lumber'), item('tconstruct:pattern'), ore('lumber')],
     [ore('lumber'), ore('lumber'), ore('lumber')]
+)
+
+// Stencil Table
+item('tconstruct:tooltables', 1).withNbt(["textureBlock": ["id": "minecraft:planks", "Count": 1, "Damage": (short) 0]]).tweakRecipe(
+    [item('tconstruct:pattern'), item('contenttweaker:lumber_vanilla_oak'), null]
 )

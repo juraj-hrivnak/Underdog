@@ -1,5 +1,5 @@
 
-// Heat Generator (class mekanism.common.recipe.ShapedMekanismRecipe)
+// Heat Generator
 item('mekanismgenerators:generator').tweakRecipe(
     [ore('ingotIron'), ore('ingotIron'), ore('ingotIron')],
     [ore('lumber'), ore('ingotOsmium'), ore('lumber')],

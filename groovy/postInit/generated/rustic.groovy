@@ -1,175 +1,217 @@
 
-// Liquid Barrel (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Olive Wood Stairs
+(item('rustic:stairs_olive') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_planks_olive'), null, null],
+    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive'), null],
+    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')]
+)
+
+// Olive Wood Fence Gate
+item('rustic:fence_gate_olive').tweakRecipe(
+    [ore('stickWood'), item('contenttweaker:lumber_planks_olive'), ore('stickWood')],
+    [ore('stickWood'), item('contenttweaker:lumber_planks_olive'), ore('stickWood')]
+)
+
+// Olive Wood Fence
+(item('rustic:fence_olive') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_planks_olive'), ore('stickWood'), item('contenttweaker:lumber_planks_olive')],
+    [item('contenttweaker:lumber_planks_olive'), ore('stickWood'), item('contenttweaker:lumber_planks_olive')]
+)
+
+// Olive Door
+(item('rustic:olive_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')],
+    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')]
+)
+
+// Liquid Barrel
 (item('rustic:liquid_barrel') * 2).tweakRecipe(
     [ore('lumber'), null, ore('lumber')],
     [ore('ingotIron'), null, ore('ingotIron')],
     [ore('lumber'), ore('slabWood'), ore('lumber')]
 )
 
-// Wooden Lantern (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Wooden Lantern
 item('rustic:lantern_wood').tweakRecipe(
     [ore('stickWood'), ore('lumber'), ore('stickWood')],
     [item('minecraft:glass_pane'), item('burningtorch:burningtorch'), item('minecraft:glass_pane')],
     [ore('stickWood'), ore('lumber'), ore('stickWood')]
 )
 
-// Crushing Tub (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Ironwood Stairs
+(item('rustic:stairs_ironwood') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_planks_ironwood'), null, null],
+    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood'), null],
+    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')]
+)
+
+// Ironwood Fence Gate
+item('rustic:fence_gate_ironwood').tweakRecipe(
+    [ore('stickWood'), item('contenttweaker:lumber_planks_ironwood'), ore('stickWood')],
+    [ore('stickWood'), item('contenttweaker:lumber_planks_ironwood'), ore('stickWood')]
+)
+
+// Ironwood Fence
+(item('rustic:fence_ironwood') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_planks_ironwood'), ore('stickWood'), item('contenttweaker:lumber_planks_ironwood')],
+    [item('contenttweaker:lumber_planks_ironwood'), ore('stickWood'), item('contenttweaker:lumber_planks_ironwood')]
+)
+
+// Ironwood Door
+(item('rustic:ironwood_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')],
+    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')]
+)
+
+// Crushing Tub
 item('rustic:crushing_tub').tweakRecipe(
     [ore('lumber'), null, ore('lumber')],
     [ore('ingotIron'), null, ore('ingotIron')],
     [ore('slabWood'), ore('slabWood'), ore('slabWood')]
 )
 
-// Brewing Barrel (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Brewing Barrel
 item('rustic:brewing_barrel').tweakRecipe(
     [ore('lumber'), ore('ingotIron'), ore('lumber')],
     [ore('slabWood'), null, ore('slabWood')],
     [ore('lumber'), ore('ingotIron'), ore('lumber')]
 )
 
-// Barrel (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Barrel
 (item('rustic:barrel') * 2).tweakRecipe(
     [ore('lumber'), ore('slabWood'), ore('lumber')],
     [ore('ingotIron'), null, ore('ingotIron')],
     [ore('lumber'), ore('slabWood'), ore('lumber')]
 )
 
-// Apiary (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Apiary
 item('rustic:apiary').tweakRecipe(
     [ore('logWood'), ore('logWood'), ore('logWood')],
     [ore('lumber'), null, ore('lumber')],
     [ore('logWood'), ore('logWood'), ore('logWood')]
 )
 
-// Clay Wall (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Clay Wall
 (item('rustic:clay_wall') * 8).tweakRecipe(
     [null, ore('lumber'), null],
     [ore('lumber'), item('minecraft:clay'), ore('lumber')],
     [null, ore('lumber'), null]
 )
 
-// Crossed Clay Wall (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Crossed Clay Wall
 item('rustic:clay_wall_cross').tweakRecipe(
     [ore('lumber'), null, ore('lumber')],
     [null, item('rustic:clay_wall'), null],
     [ore('lumber'), null, ore('lumber')]
 )
 
-// Diagonal Clay Wall (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Diagonal Clay Wall
 item('rustic:clay_wall_diag').tweakRecipe(
     [ore('lumber'), null, null],
     [null, item('rustic:clay_wall'), null],
     [null, null, ore('lumber')]
 )
 
-// White Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_white') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeWhite'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Acacia Chair
+(item('rustic:chair_acacia') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_acacia'), null, null],
+    [item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Orange Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_orange') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeOrange'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Dark Oak Chair
+(item('rustic:chair_big_oak') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_dark_oak'), null, null],
+    [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Magenta Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_magenta') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeMagenta'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Birch Chair
+(item('rustic:chair_birch') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_birch'), null, null],
+    [item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Light Blue Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_light_blue') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeLightBlue'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Jungle Chair
+(item('rustic:chair_jungle') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_jungle'), null, null],
+    [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Yellow Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_yellow') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeYellow'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Oak Chair
+(item('rustic:chair_oak') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_oak'), null, null],
+    [item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Lime Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_lime') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeLime'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Spruce Chair
+(item('rustic:chair_spruce') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_spruce'), null, null],
+    [item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Pink Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_pink') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyePink'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Olive Wood Chair
+(item('rustic:chair_olive') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_planks_olive'), null, null],
+    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Gray Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_gray') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeGray'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Ironwood Chair
+(item('rustic:chair_ironwood') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_planks_ironwood'), null, null],
+    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Light Gray Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_silver') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeLightGray'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Acacia Table
+(item('rustic:table_acacia') * 2).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Cyan Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_cyan') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeCyan'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Dark Oak Table
+(item('rustic:table_big_oak') * 2).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Purple Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_purple') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyePurple'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Birch Table
+(item('rustic:table_birch') * 2).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Blue Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_blue') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeBlue'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Jungle Table
+(item('rustic:table_jungle') * 2).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Brown Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_brown') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeBrown'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Oak Table
+(item('rustic:table_oak') * 2).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Green Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_green') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeGreen'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Spruce Table
+(item('rustic:table_spruce') * 2).tweakRecipe(
+    [item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Red Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_red') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeRed'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Olive Wood Table
+(item('rustic:table_olive') * 2).tweakRecipe(
+    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )
 
-// Black Painted Wood (class net.minecraftforge.oredict.ShapedOreRecipe)
-(item('rustic:painted_wood_black') * 8).tweakRecipe(
-    [ore('lumber'), ore('lumber'), ore('lumber')],
-    [ore('lumber'), ore('dyeBlack'), ore('lumber')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
+// Ironwood Table
+(item('rustic:table_ironwood') * 2).tweakRecipe(
+    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')],
+    [item('minecraft:stick'), null, item('minecraft:stick')]
 )

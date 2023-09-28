@@ -1,5 +1,5 @@
 
-// Beginner Builder's Bag (class net.minecraftforge.oredict.ShapedOreRecipe)
+// Beginner Builder's Bag
 item('buildersbag:builders_bag_tier_one').tweakRecipe(
     [null, ore('leather'), null],
     [ore('leather'), ore('chestWood'), ore('leather')],
