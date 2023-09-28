@@ -15,9 +15,10 @@
         ],
         "postInit": [
             "extensions/",
+            "postInit/woodworking",
+            "postInit/vanilla",
             "postInit/",
-            "postInit/generated",
-            "postInit/vanilla"
+            "postInit/generated"
         ]
     }
 }

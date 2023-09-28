@@ -1,5 +1,6 @@
 
 import net.minecraftforge.event.entity.player.ItemTooltipEvent
+import net.minecraftforge.items.ItemHandlerHelper
 
 Map<ItemStack, String> toolTipsToReplace = [:]
 
@@ -29,7 +30,7 @@ ItemStack.metaClass.addToolTip = { String toolTip ->
 
 event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
     toolTipsToReplace.each { itemStack, toolTip ->
-        if (ItemStack.areItemsEqual(event.itemStack, itemStack)) {
+        if (ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
             String actualToolTip = toolTip.replace('%itemName%', event.toolTip[0])
             List<String> itemToolTips = event.toolTip
 
@@ -39,7 +40,7 @@ event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
     }
 
     toolTipsToAdd.each { itemStack, toolTip ->
-        if (ItemStack.areItemsEqual(event.itemStack, itemStack)) {
+        if (ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
             String actualToolTip = toolTip.replace('%itemName%', event.toolTip[0])
             List<String> itemToolTips = event.toolTip
 
