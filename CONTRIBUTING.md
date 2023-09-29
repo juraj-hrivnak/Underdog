@@ -48,10 +48,6 @@ You can do that using **terminal**, **cmd** or the **GitHub Desktop** app.
     > **Note**
     > Make sure to replace the `<version>` with the correct version of ModpackDownloader.
 
-### 7
-
-- Enjoy!
-
 
 
 <!-- Links: -->
