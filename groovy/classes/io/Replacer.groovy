@@ -1,8 +1,6 @@
 package classes
 
 import com.cleanroommc.groovyscript.api.IIngredient
-import com.cleanroommc.groovyscript.compat.vanilla.CraftingRecipe
-import com.cleanroommc.groovyscript.compat.vanilla.ICraftingRecipe
 import com.cleanroommc.groovyscript.helper.GroovyHelper
 import com.cleanroommc.groovyscript.helper.ingredient.IngredientHelper
 import com.cleanroommc.groovyscript.helper.ingredient.OreDictIngredient
@@ -12,8 +10,6 @@ import net.minecraft.item.crafting.IRecipe
 import net.minecraft.item.crafting.Ingredient
 import net.minecraftforge.common.crafting.IShapedRecipe
 import net.minecraftforge.fluids.FluidStack
-import net.minecraftforge.fml.common.registry.ForgeRegistries
-import net.minecraftforge.oredict.OreDictionary
 import net.minecraftforge.oredict.OreIngredient
 
 /**
@@ -46,7 +42,6 @@ class Replacer {
 
     static void replaceItemStack(IIngredient ingredient, replacement) {
         itemStacksToReplace.put(ingredient, replacement)
-        ingredient.matchingStacks[0].addToolTip("Replaced with ${replacement.toString()}")
     }
 
     static void ingore(IRecipe recipe) {
@@ -142,7 +137,7 @@ class Replacer {
     }
 
     /**
-     * Forge Ingredient variant. Used on input
+     * MC Ingredient variant. Used on input
      */
     static String asGroovyCode(Ingredient input) {
         String result = null

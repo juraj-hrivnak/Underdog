@@ -1,5 +1,5 @@
 
-import classes.Replacer
+import classes.io.Replacer
 
 import com.cleanroommc.groovyscript.api.IIngredient
 import com.cleanroommc.groovyscript.helper.ingredient.OrIngredient
@@ -7,18 +7,13 @@ import com.cleanroommc.groovyscript.helper.ingredient.OrIngredient
 import net.minecraftforge.items.ItemHandlerHelper
 
 def printErrors = false
-List<String> tweakedRecipes = []
 
 /**
  * Tweak shaped recipe.
  * (Extension of ItemStack)
  */
 ItemStack.metaClass.tweakRecipe = { List<IIngredient>... input ->
-    // // Do not remove if tweaked before
-    // if (delegate.itemRaw.registryName.toString() !in tweakedRecipes) {
-    //     crafting.removeByOutput(delegate, printErrors)
-    //     tweakedRecipes << delegate.itemRaw.registryName.toString()
-    // }
+    crafting.removeByOutput(delegate, printErrors)
     crafting.shapedBuilder()
         .output(delegate)
         .matrix(input.toList())
@@ -30,11 +25,7 @@ ItemStack.metaClass.tweakRecipe = { List<IIngredient>... input ->
  * (Overload of the function above)
  */
 ItemStack.metaClass.tweakRecipe = { IIngredient... input ->
-    // // Do not remove if tweaked before
-    // if (delegate.itemRaw.registryName.toString() !in tweakedRecipes) {
-    //     crafting.removeByOutput(delegate, printErrors)
-    //     tweakedRecipes << delegate.itemRaw.registryName.toString()
-    // }
+    crafting.removeByOutput(delegate, printErrors)
     crafting.shapelessBuilder()
         .output(delegate)
         .input(input.toList())
@@ -107,11 +98,7 @@ class Intertwiner {
 }
 
 ItemStack.metaClass.tweakRecipe = { String... matrix ->
-    // // Do not remove if tweaked before
-    // if (delegate.itemRaw.registryName.toString() !in tweakedRecipes) {
-    //     crafting.removeByOutput(delegate, printErrors)
-    //     tweakedRecipes << delegate.itemRaw.registryName.toString()
-    // }
+    crafting.removeByOutput(delegate, printErrors)
     return new Intertwiner(itemStack: delegate, matrix: matrix)
 }
 

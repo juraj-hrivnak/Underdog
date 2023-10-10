@@ -1,152 +1,20 @@
 
-// Willow Wood Stairs
-(item('biomesoplenty:willow_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_willow'), null, null],
-    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), null],
-    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')]
+// Hellbark Boat
+item('biomesoplenty:boat_hellbark').tweakRecipe(
+    [item('contenttweaker:lumber_hellbark'), null, item('contenttweaker:lumber_hellbark')],
+    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')]
 )
 
-// Willow Fence Gate
-item('biomesoplenty:willow_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_willow'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_willow'), item('minecraft:stick')]
-)
-
-// Willow Fence
-(item('biomesoplenty:willow_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_willow'), item('minecraft:stick'), item('contenttweaker:lumber_willow')],
-    [item('contenttweaker:lumber_willow'), item('minecraft:stick'), item('contenttweaker:lumber_willow')]
-)
-
-// Willow Door
-(item('biomesoplenty:willow_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')],
-    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')]
-)
-
-// Umbran Wood Stairs
-(item('biomesoplenty:umbran_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_umbran'), null, null],
-    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), null],
-    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')]
-)
-
-// Umbran Fence Gate
-item('biomesoplenty:umbran_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_umbran'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_umbran'), item('minecraft:stick')]
-)
-
-// Umbran Fence
-(item('biomesoplenty:umbran_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_umbran'), item('minecraft:stick'), item('contenttweaker:lumber_umbran')],
-    [item('contenttweaker:lumber_umbran'), item('minecraft:stick'), item('contenttweaker:lumber_umbran')]
-)
-
-// Umbran Door
-(item('biomesoplenty:umbran_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')],
-    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')]
-)
-
-// Sacred Oak Wood Stairs
-(item('biomesoplenty:sacred_oak_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_sacred_oak'), null, null],
-    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), null],
-    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')]
-)
-
-// Sacred Oak Fence Gate
-item('biomesoplenty:sacred_oak_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_sacred_oak'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_sacred_oak'), item('minecraft:stick')]
-)
-
-// Sacred Oak Fence
-(item('biomesoplenty:sacred_oak_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_sacred_oak'), item('minecraft:stick'), item('contenttweaker:lumber_sacred_oak')],
-    [item('contenttweaker:lumber_sacred_oak'), item('minecraft:stick'), item('contenttweaker:lumber_sacred_oak')]
-)
-
-// Sacred Oak Door
-(item('biomesoplenty:sacred_oak_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')],
-    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')]
-)
-
-// Redwood Wood Stairs
-(item('biomesoplenty:redwood_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_redwood'), null, null],
-    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), null],
-    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')]
-)
-
-// Redwood Fence Gate
-item('biomesoplenty:redwood_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_redwood'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_redwood'), item('minecraft:stick')]
-)
-
-// Redwood Fence
-(item('biomesoplenty:redwood_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_redwood'), item('minecraft:stick'), item('contenttweaker:lumber_redwood')],
-    [item('contenttweaker:lumber_redwood'), item('minecraft:stick'), item('contenttweaker:lumber_redwood')]
-)
-
-// Redwood Door
-(item('biomesoplenty:redwood_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')],
-    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')]
-)
-
-// Pine Wood Stairs
-(item('biomesoplenty:pine_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_pine'), null, null],
-    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), null],
-    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')]
-)
-
-// Pine Fence Gate
-item('biomesoplenty:pine_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_pine'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_pine'), item('minecraft:stick')]
-)
-
-// Pine Fence
-(item('biomesoplenty:pine_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_pine'), item('minecraft:stick'), item('contenttweaker:lumber_pine')],
-    [item('contenttweaker:lumber_pine'), item('minecraft:stick'), item('contenttweaker:lumber_pine')]
-)
-
-// Pine Door
-(item('biomesoplenty:pine_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')],
-    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')]
-)
-
-// Palm Wood Stairs
-(item('biomesoplenty:palm_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_palm'), null, null],
-    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), null],
-    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')]
-)
-
-// Palm Fence Gate
-item('biomesoplenty:palm_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_palm'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_palm'), item('minecraft:stick')]
+// Jacaranda Fence Gate
+item('biomesoplenty:jacaranda_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_jacaranda'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_jacaranda'), item('minecraft:stick')]
 )
 
 // Palm Fence
 (item('biomesoplenty:palm_fence') * 3).tweakRecipe(
     [item('contenttweaker:lumber_palm'), item('minecraft:stick'), item('contenttweaker:lumber_palm')],
     [item('contenttweaker:lumber_palm'), item('minecraft:stick'), item('contenttweaker:lumber_palm')]
-)
-
-// Palm Door
-(item('biomesoplenty:palm_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')],
-    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')]
 )
 
 // Mangrove Wood Stairs
@@ -156,91 +24,10 @@ item('biomesoplenty:palm_fence_gate').tweakRecipe(
     [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')]
 )
 
-// Mangrove Fence Gate
-item('biomesoplenty:mangrove_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_mangrove'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_mangrove'), item('minecraft:stick')]
-)
-
-// Mangrove Fence
-(item('biomesoplenty:mangrove_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_mangrove'), item('minecraft:stick'), item('contenttweaker:lumber_mangrove')],
-    [item('contenttweaker:lumber_mangrove'), item('minecraft:stick'), item('contenttweaker:lumber_mangrove')]
-)
-
-// Mangrove Door
-(item('biomesoplenty:mangrove_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')],
-    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')]
-)
-
-// Mahogany Wood Stairs
-(item('biomesoplenty:mahogany_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_mahogany'), null, null],
-    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), null],
-    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')]
-)
-
-// Mahogany Fence Gate
-item('biomesoplenty:mahogany_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_mahogany'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_mahogany'), item('minecraft:stick')]
-)
-
-// Mahogany Fence
-(item('biomesoplenty:mahogany_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_mahogany'), item('minecraft:stick'), item('contenttweaker:lumber_mahogany')],
-    [item('contenttweaker:lumber_mahogany'), item('minecraft:stick'), item('contenttweaker:lumber_mahogany')]
-)
-
-// Mahogany Door
-(item('biomesoplenty:mahogany_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')],
-    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')]
-)
-
-// Magic Wood Stairs
-(item('biomesoplenty:magic_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_magic'), null, null],
-    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), null],
-    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')]
-)
-
-// Magic Fence Gate
-item('biomesoplenty:magic_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_magic'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_magic'), item('minecraft:stick')]
-)
-
-// Magic Fence
-(item('biomesoplenty:magic_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_magic'), item('minecraft:stick'), item('contenttweaker:lumber_magic')],
-    [item('contenttweaker:lumber_magic'), item('minecraft:stick'), item('contenttweaker:lumber_magic')]
-)
-
-// Magic Door
-(item('biomesoplenty:magic_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')],
-    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')]
-)
-
-// Jacaranda Wood Stairs
-(item('biomesoplenty:jacaranda_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_jacaranda'), null, null],
-    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda'), null],
-    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')]
-)
-
-// Jacaranda Fence Gate
-item('biomesoplenty:jacaranda_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_jacaranda'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_jacaranda'), item('minecraft:stick')]
-)
-
-// Jacaranda Fence
-(item('biomesoplenty:jacaranda_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_jacaranda'), item('minecraft:stick'), item('contenttweaker:lumber_jacaranda')],
-    [item('contenttweaker:lumber_jacaranda'), item('minecraft:stick'), item('contenttweaker:lumber_jacaranda')]
+// Willow Door
+(item('biomesoplenty:willow_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')],
+    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')]
 )
 
 // Jacaranda Door
@@ -249,73 +36,29 @@ item('biomesoplenty:jacaranda_fence_gate').tweakRecipe(
     [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')]
 )
 
-// Hellbark Wood Stairs
-(item('biomesoplenty:hellbark_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_hellbark'), null, null],
-    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), null],
-    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')]
-)
-
-// Hellbark Fence Gate
-item('biomesoplenty:hellbark_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_hellbark'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_hellbark'), item('minecraft:stick')]
-)
-
-// Hellbark Fence
-(item('biomesoplenty:hellbark_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_hellbark'), item('minecraft:stick'), item('contenttweaker:lumber_hellbark')],
-    [item('contenttweaker:lumber_hellbark'), item('minecraft:stick'), item('contenttweaker:lumber_hellbark')]
-)
-
-// Hellbark Door
-(item('biomesoplenty:hellbark_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')],
-    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')]
-)
-
-// Fir Wood Stairs
-(item('biomesoplenty:fir_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_fir'), null, null],
-    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), null],
+// Fir Boat
+item('biomesoplenty:boat_fir').tweakRecipe(
+    [item('contenttweaker:lumber_fir'), null, item('contenttweaker:lumber_fir')],
     [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')]
 )
 
-// Fir Fence Gate
-item('biomesoplenty:fir_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_fir'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_fir'), item('minecraft:stick')]
+// Willow Wood Stairs
+(item('biomesoplenty:willow_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_willow'), null, null],
+    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), null],
+    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')]
 )
 
-// Fir Fence
-(item('biomesoplenty:fir_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_fir'), item('minecraft:stick'), item('contenttweaker:lumber_fir')],
-    [item('contenttweaker:lumber_fir'), item('minecraft:stick'), item('contenttweaker:lumber_fir')]
+// Jacaranda Fence
+(item('biomesoplenty:jacaranda_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_jacaranda'), item('minecraft:stick'), item('contenttweaker:lumber_jacaranda')],
+    [item('contenttweaker:lumber_jacaranda'), item('minecraft:stick'), item('contenttweaker:lumber_jacaranda')]
 )
 
-// Fir Door
-(item('biomesoplenty:fir_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')],
-    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')]
-)
-
-// Eucalyptus Wood Stairs
-(item('biomesoplenty:eucalyptus_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_eucalyptus'), null, null],
-    [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus'), null],
-    [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus')]
-)
-
-// Eucalyptus Fence Gate
-item('biomesoplenty:eucalyptus_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_eucalyptus'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_eucalyptus'), item('minecraft:stick')]
-)
-
-// Eucalyptus Fence
-(item('biomesoplenty:eucalyptus_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_eucalyptus'), item('minecraft:stick'), item('contenttweaker:lumber_eucalyptus')],
-    [item('contenttweaker:lumber_eucalyptus'), item('minecraft:stick'), item('contenttweaker:lumber_eucalyptus')]
+// Mangrove Fence
+(item('biomesoplenty:mangrove_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_mangrove'), item('minecraft:stick'), item('contenttweaker:lumber_mangrove')],
+    [item('contenttweaker:lumber_mangrove'), item('minecraft:stick'), item('contenttweaker:lumber_mangrove')]
 )
 
 // Eucalyptus Door
@@ -324,54 +67,10 @@ item('biomesoplenty:eucalyptus_fence_gate').tweakRecipe(
     [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus')]
 )
 
-// Ethereal Wood Stairs
-(item('biomesoplenty:ethereal_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_ethereal'), null, null],
-    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), null],
-    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')]
-)
-
-// Ethereal Fence Gate
-item('biomesoplenty:ethereal_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_ethereal'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_ethereal'), item('minecraft:stick')]
-)
-
-// Ethereal Fence
-(item('biomesoplenty:ethereal_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_ethereal'), item('minecraft:stick'), item('contenttweaker:lumber_ethereal')],
-    [item('contenttweaker:lumber_ethereal'), item('minecraft:stick'), item('contenttweaker:lumber_ethereal')]
-)
-
-// Ethereal Door
-(item('biomesoplenty:ethereal_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')],
-    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')]
-)
-
-// Ebony Wood Stairs
-(item('biomesoplenty:ebony_stairs') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_ebony'), null, null],
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), null],
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')]
-)
-
-// Ebony Fence Gate
-item('biomesoplenty:ebony_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_ebony'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_ebony'), item('minecraft:stick')]
-)
-
-// Ebony Fence
-(item('biomesoplenty:ebony_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_ebony'), item('minecraft:stick'), item('contenttweaker:lumber_ebony')],
-    [item('contenttweaker:lumber_ebony'), item('minecraft:stick'), item('contenttweaker:lumber_ebony')]
-)
-
-// Ebony Door
-(item('biomesoplenty:ebony_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')]
+// Mahogany Fence
+(item('biomesoplenty:mahogany_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_mahogany'), item('minecraft:stick'), item('contenttweaker:lumber_mahogany')],
+    [item('contenttweaker:lumber_mahogany'), item('minecraft:stick'), item('contenttweaker:lumber_mahogany')]
 )
 
 // Cherry Wood Stairs
@@ -381,34 +80,36 @@ item('biomesoplenty:ebony_fence_gate').tweakRecipe(
     [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')]
 )
 
-// Cherry Fence Gate
-item('biomesoplenty:cherry_fence_gate').tweakRecipe(
-    [item('minecraft:stick'), item('contenttweaker:lumber_cherry'), item('minecraft:stick')],
-    [item('minecraft:stick'), item('contenttweaker:lumber_cherry'), item('minecraft:stick')]
+// Eucalyptus Wood Stairs
+(item('biomesoplenty:eucalyptus_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_eucalyptus'), null, null],
+    [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus'), null],
+    [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus')]
 )
 
-// Cherry Fence
-(item('biomesoplenty:cherry_fence') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_cherry'), item('minecraft:stick'), item('contenttweaker:lumber_cherry')],
-    [item('contenttweaker:lumber_cherry'), item('minecraft:stick'), item('contenttweaker:lumber_cherry')]
+// Mahogany Door
+(item('biomesoplenty:mahogany_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')],
+    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')]
 )
 
-// Cherry Door
-(item('biomesoplenty:cherry_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')],
-    [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')]
+// Umbran Fence
+(item('biomesoplenty:umbran_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_umbran'), item('minecraft:stick'), item('contenttweaker:lumber_umbran')],
+    [item('contenttweaker:lumber_umbran'), item('minecraft:stick'), item('contenttweaker:lumber_umbran')]
 )
 
-// Willow Boat
-item('biomesoplenty:boat_willow').tweakRecipe(
-    [item('contenttweaker:lumber_willow'), null, item('contenttweaker:lumber_willow')],
-    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')]
+// Ebony Fence
+(item('biomesoplenty:ebony_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_ebony'), item('minecraft:stick'), item('contenttweaker:lumber_ebony')],
+    [item('contenttweaker:lumber_ebony'), item('minecraft:stick'), item('contenttweaker:lumber_ebony')]
 )
 
-// Umbran Boat
-item('biomesoplenty:boat_umbran').tweakRecipe(
-    [item('contenttweaker:lumber_umbran'), null, item('contenttweaker:lumber_umbran')],
-    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')]
+// Palm Wood Stairs
+(item('biomesoplenty:palm_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_palm'), null, null],
+    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), null],
+    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')]
 )
 
 // Sacred Oak Boat
@@ -417,28 +118,10 @@ item('biomesoplenty:boat_sacred_oak').tweakRecipe(
     [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')]
 )
 
-// Redwood Boat
-item('biomesoplenty:boat_redwood').tweakRecipe(
-    [item('contenttweaker:lumber_redwood'), null, item('contenttweaker:lumber_redwood')],
-    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')]
-)
-
-// Pine Boat
-item('biomesoplenty:boat_pine').tweakRecipe(
-    [item('contenttweaker:lumber_pine'), null, item('contenttweaker:lumber_pine')],
-    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')]
-)
-
-// Palm Boat
-item('biomesoplenty:boat_palm').tweakRecipe(
-    [item('contenttweaker:lumber_palm'), null, item('contenttweaker:lumber_palm')],
-    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')]
-)
-
-// Mangrove Boat
-item('biomesoplenty:boat_mangrove').tweakRecipe(
-    [item('contenttweaker:lumber_mangrove'), null, item('contenttweaker:lumber_mangrove')],
-    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')]
+// Sacred Oak Fence Gate
+item('biomesoplenty:sacred_oak_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_sacred_oak'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_sacred_oak'), item('minecraft:stick')]
 )
 
 // Mahogany Boat
@@ -447,28 +130,152 @@ item('biomesoplenty:boat_mahogany').tweakRecipe(
     [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')]
 )
 
-// Magic Boat
-item('biomesoplenty:boat_magic').tweakRecipe(
-    [item('contenttweaker:lumber_magic'), null, item('contenttweaker:lumber_magic')],
-    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')]
+// Umbran Boat
+item('biomesoplenty:boat_umbran').tweakRecipe(
+    [item('contenttweaker:lumber_umbran'), null, item('contenttweaker:lumber_umbran')],
+    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')]
 )
 
-// Jacaranda Boat
-item('biomesoplenty:boat_jacaranda').tweakRecipe(
-    [item('contenttweaker:lumber_jacaranda'), null, item('contenttweaker:lumber_jacaranda')],
-    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')]
+// Cherry Door
+(item('biomesoplenty:cherry_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')],
+    [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')]
 )
 
-// Hellbark Boat
-item('biomesoplenty:boat_hellbark').tweakRecipe(
-    [item('contenttweaker:lumber_hellbark'), null, item('contenttweaker:lumber_hellbark')],
+// Mangrove Boat
+item('biomesoplenty:boat_mangrove').tweakRecipe(
+    [item('contenttweaker:lumber_mangrove'), null, item('contenttweaker:lumber_mangrove')],
+    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')]
+)
+
+// Redwood Wood Stairs
+(item('biomesoplenty:redwood_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_redwood'), null, null],
+    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), null],
+    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')]
+)
+
+// Ebony Door
+(item('biomesoplenty:ebony_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')]
+)
+
+// Hellbark Wood Stairs
+(item('biomesoplenty:hellbark_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_hellbark'), null, null],
+    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), null],
     [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')]
 )
 
-// Fir Boat
-item('biomesoplenty:boat_fir').tweakRecipe(
-    [item('contenttweaker:lumber_fir'), null, item('contenttweaker:lumber_fir')],
-    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')]
+// Pine Fence Gate
+item('biomesoplenty:pine_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_pine'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_pine'), item('minecraft:stick')]
+)
+
+// Redwood Door
+(item('biomesoplenty:redwood_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')],
+    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')]
+)
+
+// Redwood Boat
+item('biomesoplenty:boat_redwood').tweakRecipe(
+    [item('contenttweaker:lumber_redwood'), null, item('contenttweaker:lumber_redwood')],
+    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')]
+)
+
+// Fir Fence
+(item('biomesoplenty:fir_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_fir'), item('minecraft:stick'), item('contenttweaker:lumber_fir')],
+    [item('contenttweaker:lumber_fir'), item('minecraft:stick'), item('contenttweaker:lumber_fir')]
+)
+
+// Ebony Boat
+item('biomesoplenty:boat_ebony').tweakRecipe(
+    [item('contenttweaker:lumber_ebony'), null, item('contenttweaker:lumber_ebony')],
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')]
+)
+
+// Cherry Fence Gate
+item('biomesoplenty:cherry_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_cherry'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_cherry'), item('minecraft:stick')]
+)
+
+// Willow Fence Gate
+item('biomesoplenty:willow_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_willow'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_willow'), item('minecraft:stick')]
+)
+
+// Umbran Wood Stairs
+(item('biomesoplenty:umbran_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_umbran'), null, null],
+    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), null],
+    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')]
+)
+
+// Magic Fence Gate
+item('biomesoplenty:magic_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_magic'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_magic'), item('minecraft:stick')]
+)
+
+// Redwood Fence
+(item('biomesoplenty:redwood_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_redwood'), item('minecraft:stick'), item('contenttweaker:lumber_redwood')],
+    [item('contenttweaker:lumber_redwood'), item('minecraft:stick'), item('contenttweaker:lumber_redwood')]
+)
+
+// Jacaranda Wood Stairs
+(item('biomesoplenty:jacaranda_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_jacaranda'), null, null],
+    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda'), null],
+    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')]
+)
+
+// Umbran Fence Gate
+item('biomesoplenty:umbran_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_umbran'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_umbran'), item('minecraft:stick')]
+)
+
+// Hellbark Fence
+(item('biomesoplenty:hellbark_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_hellbark'), item('minecraft:stick'), item('contenttweaker:lumber_hellbark')],
+    [item('contenttweaker:lumber_hellbark'), item('minecraft:stick'), item('contenttweaker:lumber_hellbark')]
+)
+
+// Hellbark Fence Gate
+item('biomesoplenty:hellbark_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_hellbark'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_hellbark'), item('minecraft:stick')]
+)
+
+// Cherry Fence
+(item('biomesoplenty:cherry_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_cherry'), item('minecraft:stick'), item('contenttweaker:lumber_cherry')],
+    [item('contenttweaker:lumber_cherry'), item('minecraft:stick'), item('contenttweaker:lumber_cherry')]
+)
+
+// Magic Door
+(item('biomesoplenty:magic_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')],
+    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')]
+)
+
+// Redwood Fence Gate
+item('biomesoplenty:redwood_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_redwood'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_redwood'), item('minecraft:stick')]
+)
+
+// Hellbark Door
+(item('biomesoplenty:hellbark_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')],
+    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')]
 )
 
 // Eucalyptus Boat
@@ -483,14 +290,207 @@ item('biomesoplenty:boat_ethereal').tweakRecipe(
     [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')]
 )
 
-// Ebony Boat
-item('biomesoplenty:boat_ebony').tweakRecipe(
-    [item('contenttweaker:lumber_ebony'), null, item('contenttweaker:lumber_ebony')],
+// Pine Door
+(item('biomesoplenty:pine_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')],
+    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')]
+)
+
+// Sacred Oak Wood Stairs
+(item('biomesoplenty:sacred_oak_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_sacred_oak'), null, null],
+    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), null],
+    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')]
+)
+
+// Sacred Oak Fence
+(item('biomesoplenty:sacred_oak_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_sacred_oak'), item('minecraft:stick'), item('contenttweaker:lumber_sacred_oak')],
+    [item('contenttweaker:lumber_sacred_oak'), item('minecraft:stick'), item('contenttweaker:lumber_sacred_oak')]
+)
+
+// Ethereal Door
+(item('biomesoplenty:ethereal_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')],
+    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')]
+)
+
+// Eucalyptus Fence Gate
+item('biomesoplenty:eucalyptus_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_eucalyptus'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_eucalyptus'), item('minecraft:stick')]
+)
+
+// Ebony Wood Stairs
+(item('biomesoplenty:ebony_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_ebony'), null, null],
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), null],
     [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')]
+)
+
+// Palm Door
+(item('biomesoplenty:palm_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')],
+    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')]
+)
+
+// Ethereal Fence Gate
+item('biomesoplenty:ethereal_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_ethereal'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_ethereal'), item('minecraft:stick')]
+)
+
+// Mahogany Fence Gate
+item('biomesoplenty:mahogany_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_mahogany'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_mahogany'), item('minecraft:stick')]
+)
+
+// Pine Boat
+item('biomesoplenty:boat_pine').tweakRecipe(
+    [item('contenttweaker:lumber_pine'), null, item('contenttweaker:lumber_pine')],
+    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')]
+)
+
+// Mangrove Door
+(item('biomesoplenty:mangrove_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')],
+    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')]
+)
+
+// Fir Wood Stairs
+(item('biomesoplenty:fir_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_fir'), null, null],
+    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), null],
+    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')]
 )
 
 // Cherry Boat
 item('biomesoplenty:boat_cherry').tweakRecipe(
     [item('contenttweaker:lumber_cherry'), null, item('contenttweaker:lumber_cherry')],
     [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')]
+)
+
+// Ebony Fence Gate
+item('biomesoplenty:ebony_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_ebony'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_ebony'), item('minecraft:stick')]
+)
+
+// Willow Boat
+item('biomesoplenty:boat_willow').tweakRecipe(
+    [item('contenttweaker:lumber_willow'), null, item('contenttweaker:lumber_willow')],
+    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')]
+)
+
+// Magic Wood Stairs
+(item('biomesoplenty:magic_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_magic'), null, null],
+    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), null],
+    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')]
+)
+
+// Fir Fence Gate
+item('biomesoplenty:fir_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_fir'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_fir'), item('minecraft:stick')]
+)
+
+// Mahogany Wood Stairs
+(item('biomesoplenty:mahogany_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_mahogany'), null, null],
+    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), null],
+    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')]
+)
+
+// Palm Boat
+item('biomesoplenty:boat_palm').tweakRecipe(
+    [item('contenttweaker:lumber_palm'), null, item('contenttweaker:lumber_palm')],
+    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')]
+)
+
+// Magic Boat
+item('biomesoplenty:boat_magic').tweakRecipe(
+    [item('contenttweaker:lumber_magic'), null, item('contenttweaker:lumber_magic')],
+    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')]
+)
+
+// Eucalyptus Fence
+(item('biomesoplenty:eucalyptus_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_eucalyptus'), item('minecraft:stick'), item('contenttweaker:lumber_eucalyptus')],
+    [item('contenttweaker:lumber_eucalyptus'), item('minecraft:stick'), item('contenttweaker:lumber_eucalyptus')]
+)
+
+// Magic Fence
+(item('biomesoplenty:magic_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_magic'), item('minecraft:stick'), item('contenttweaker:lumber_magic')],
+    [item('contenttweaker:lumber_magic'), item('minecraft:stick'), item('contenttweaker:lumber_magic')]
+)
+
+// Sacred Oak Door
+(item('biomesoplenty:sacred_oak_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')],
+    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')]
+)
+
+// Mangrove Fence Gate
+item('biomesoplenty:mangrove_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_mangrove'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_mangrove'), item('minecraft:stick')]
+)
+
+// Palm Fence Gate
+item('biomesoplenty:palm_fence_gate').tweakRecipe(
+    [item('minecraft:stick'), item('contenttweaker:lumber_palm'), item('minecraft:stick')],
+    [item('minecraft:stick'), item('contenttweaker:lumber_palm'), item('minecraft:stick')]
+)
+
+// Ethereal Wood Stairs
+(item('biomesoplenty:ethereal_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_ethereal'), null, null],
+    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), null],
+    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')]
+)
+
+// Fir Door
+(item('biomesoplenty:fir_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')],
+    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')]
+)
+
+// Pine Wood Stairs
+(item('biomesoplenty:pine_stairs') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_pine'), null, null],
+    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), null],
+    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')]
+)
+
+// Jacaranda Boat
+item('biomesoplenty:boat_jacaranda').tweakRecipe(
+    [item('contenttweaker:lumber_jacaranda'), null, item('contenttweaker:lumber_jacaranda')],
+    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')]
+)
+
+// Ethereal Fence
+(item('biomesoplenty:ethereal_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_ethereal'), item('minecraft:stick'), item('contenttweaker:lumber_ethereal')],
+    [item('contenttweaker:lumber_ethereal'), item('minecraft:stick'), item('contenttweaker:lumber_ethereal')]
+)
+
+// Pine Fence
+(item('biomesoplenty:pine_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_pine'), item('minecraft:stick'), item('contenttweaker:lumber_pine')],
+    [item('contenttweaker:lumber_pine'), item('minecraft:stick'), item('contenttweaker:lumber_pine')]
+)
+
+// Willow Fence
+(item('biomesoplenty:willow_fence') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_willow'), item('minecraft:stick'), item('contenttweaker:lumber_willow')],
+    [item('contenttweaker:lumber_willow'), item('minecraft:stick'), item('contenttweaker:lumber_willow')]
+)
+
+// Umbran Door
+(item('biomesoplenty:umbran_door') * 3).tweakRecipe(
+    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')],
+    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')]
 )

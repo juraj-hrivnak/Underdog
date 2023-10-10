@@ -39,4 +39,3 @@ ore('plankWood').add(
     item('unlimitedchiselworks:chisel_planks_oak_rustic_planks_0'),
     item('unlimitedchiselworks:chisel_planks_oak_rustic_planks_1')
 )
-
