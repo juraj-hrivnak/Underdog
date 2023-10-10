@@ -18,7 +18,8 @@
             "postInit/woodworking",
             "postInit/vanilla",
             "postInit/",
-            "postInit/generated"
+            "postInit/generated",
+            "postInit/zsToGroovy"
         ]
     }
 }
