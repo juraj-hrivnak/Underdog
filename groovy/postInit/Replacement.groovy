@@ -1,5 +1,5 @@
 
-import classes.Replacer
+import classes.io.Replacer
 
 import com.cleanroommc.groovyscript.api.IIngredient
 
@@ -12,9 +12,6 @@ IIngredient allSpringWater = (item('minecraft:water_bucket')
 
 // Torch
 Replacer.replaceItemStack(item('minecraft:torch'), item('burningtorch:burningtorch'))
-
-// Chest
-Replacer.replaceItemStack(item('minecraft:chest'), ore('chestWood'))
 
 // Ender Pearl, Ender Eye
 Replacer.replaceItemStack(item('minecraft:ender_pearl'), item('mekanism:controlcircuit', 2))
