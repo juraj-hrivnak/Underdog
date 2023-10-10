@@ -396,7 +396,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4731280,
+      "fileID": 4775347,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -1899,7 +1899,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4756008,
+      "fileID": 4784362,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2001,7 +2001,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4767396,
+      "fileID": 4782398,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2084,7 +2084,7 @@
     },
     {
       "projectID": 460609,
-      "fileID": 4769330,
+      "fileID": 4782047,
       "required": true,
       "__meta": {
         "name": "CensoredASM",
@@ -2159,7 +2159,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4771990,
+      "fileID": 4773115,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2217,7 +2217,7 @@
     },
     {
       "projectID": 624243,
-      "fileID": 4692436,
+      "fileID": 4786371,
       "required": true,
       "__meta": {
         "name": "ModularUI",
@@ -2239,7 +2239,7 @@
     },
     {
       "projectID": 632327,
-      "fileID": 4761867,
+      "fileID": 4789664,
       "required": true,
       "__meta": {
         "name": "Inventory Bogo Sorter",
@@ -2427,7 +2427,7 @@
     },
     {
       "projectID": 873867,
-      "fileID": 4742905,
+      "fileID": 4789752,
       "required": true,
       "__meta": {
         "name": "Red Core",
