@@ -7,6 +7,7 @@ import mods.jei.JEI.hideCategory as hc;
 import mods.jei.JEI.hide as h;
 import mods.immersiveengineering.Fermenter as Fermenter;
 import mods.immersiveengineering.Squeezer as Squeezer;
+import mods.immersiveengineering.BlastFurnace as BlastFurnace;
 
 import scripts.CraftTweaker.Vanilla.Water.allWater;
 import scripts.CraftTweaker.Utils.RecipeUtils;
@@ -113,3 +114,6 @@ Squeezer.removeByInput(<minecraft:beetroot_seeds>);
 // Tough Fabric
 recipes.addShaped(<immersiveengineering:material:5>, RecipeUtils.createSurround(<ore:stickWood>, <harvestcraft:flaxitem>));
 recipes.addShaped(<immersiveengineering:material:5>, RecipeUtils.createSurround(<ore:stickWood>, <biomesoplenty:double_plant>));
+
+// Blast Furnace - pyrotech Charcoal Block
+BlastFurnace.addFuel(<pyrotech:charcoal_block>, 3000);
