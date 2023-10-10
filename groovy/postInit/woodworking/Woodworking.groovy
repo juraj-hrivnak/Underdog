@@ -1,7 +1,8 @@
 
 import classes.Colors
 import classes.Formats
-import classes.Replacer
+import classes.Utils
+import classes.io.Replacer
 
 import com.cleanroommc.groovyscript.api.IIngredient
 import com.cleanroommc.groovyscript.helper.recipe.RecipeName
@@ -156,7 +157,7 @@ for (x in woodworking) {
                 log.toMcIngredient(),
                 1 as int[],
                 8 as int[]
-            ).setRegistryName(new ResourceLocation('groovyscript', RecipeName.generate()))
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
         )
 
         mods.mekanism.Sawmill.add(log, rawLumber * 8, item('pyrotech:rock:7'), 0.5)
@@ -168,7 +169,7 @@ for (x in woodworking) {
                 300,
                 sawmillBlades.toMcIngredient(),
                 1
-            ).setRegistryName(new ResourceLocation('groovyscript', RecipeName.generate()))
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
         )
 
         ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.registerEntry(
@@ -178,7 +179,7 @@ for (x in woodworking) {
                 60,
                 sawmillBlades.toMcIngredient(),
                 1
-            ).setRegistryName(new ResourceLocation('groovyscript', RecipeName.generate()))
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
         )
     }
 
@@ -218,7 +219,7 @@ for (x in woodworking) {
                 debarkedLog.toMcIngredient(),
                 1 as int[],
                 8 as int[]
-            ).setRegistryName(new ResourceLocation('groovyscript', RecipeName.generate()))
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
         )
 
         mods.mekanism.Sawmill.add(debarkedLog, rawLumber * 8, item('pyrotech:rock:7'), 0.5)
@@ -230,7 +231,7 @@ for (x in woodworking) {
                 300,
                 sawmillBlades.toMcIngredient(),
                 1
-            ).setRegistryName(new ResourceLocation('groovyscript', RecipeName.generate()))
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
         )
 
         ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.registerEntry(
@@ -240,7 +241,7 @@ for (x in woodworking) {
                 60,
                 sawmillBlades.toMcIngredient(),
                 1
-            ).setRegistryName(new ResourceLocation('groovyscript', RecipeName.generate()))
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
         )
     }
 
@@ -282,7 +283,7 @@ for (x in woodworking) {
             200,
             sawmillBlades.toMcIngredient(),
             0
-        ).setRegistryName(new ResourceLocation('groovyscript', RecipeName.generate()))
+        ).setRegistryName(Utils.generateRegistryName(lumber))
     )
 
     ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.registerEntry(
@@ -292,7 +293,7 @@ for (x in woodworking) {
             20,
             sawmillBlades.toMcIngredient(),
             0
-        ).setRegistryName(new ResourceLocation('groovyscript', RecipeName.generate()))
+        ).setRegistryName(Utils.generateRegistryName(lumber))
     )
 
     // Chest recipes
@@ -324,7 +325,7 @@ for (x in woodworking) {
 //         ore('firewood').toMcIngredient(),
 //         1 as int[],
 //         4 as int[]
-//     ).setRegistryName(new ResourceLocation('groovyscript', RecipeName.generate()))
+//     ).setRegistryName(Utils.generateRegistryName(item('minecraft:stick')))
 // )
 
 // 1 log => 8 lumber = 16 sticks
