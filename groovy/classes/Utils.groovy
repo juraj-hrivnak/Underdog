@@ -30,7 +30,7 @@ class Utils {
                             StackTraceUtils.deepSanitize(new Exception()).stackTrace[3].fileName)
                 } else {
                     // Remove from every creative tab (Production only)
-                    TabulatorAPI.removeItem()
+                    TabulatorAPI.removeItem(itemStack)
                 }
 
                 // Remove recipe
