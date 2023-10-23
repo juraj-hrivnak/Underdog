@@ -276,7 +276,7 @@
     },
     {
       "projectID": 232838,
-      "fileID": 4600751,
+      "fileID": 4798064,
       "required": true,
       "__meta": {
         "name": "Logistics Pipes",
@@ -473,14 +473,6 @@
       }
     },
     {
-      "projectID": 242998,
-      "fileID": 2851111,
-      "required": true,
-      "__meta": {
-        "name": "Silent Lib (silentlib)"
-      }
-    },
-    {
       "projectID": 243478,
       "fileID": 2745657,
       "required": true,
@@ -540,17 +532,6 @@
       "required": true,
       "__meta": {
         "name": "InfiniteFluids"
-      }
-    },
-    {
-      "projectID": 248027,
-      "fileID": 2816920,
-      "required": true,
-      "__meta": {
-        "name": "Scaling Health",
-        "dependencies": [
-          242998
-        ]
       }
     },
     {
@@ -993,17 +974,6 @@
       "required": true,
       "__meta": {
         "name": "MysticalLib"
-      }
-    },
-    {
-      "projectID": 277616,
-      "fileID": 2959847,
-      "required": true,
-      "__meta": {
-        "name": "Spice of Life: Carrot Edition",
-        "dependencies": [
-          224472
-        ]
       }
     },
     {
@@ -1505,7 +1475,7 @@
     },
     {
       "projectID": 306676,
-      "fileID": 4415746,
+      "fileID": 4798313,
       "required": true,
       "__meta": {
         "name": "Pyrotech",
@@ -1654,7 +1624,7 @@
     },
     {
       "projectID": 319175,
-      "fileID": 4501752,
+      "fileID": 4807164,
       "required": true,
       "__meta": {
         "name": "Sledgehammer"
@@ -1899,7 +1869,7 @@
     },
     {
       "projectID": 401178,
-      "fileID": 4784362,
+      "fileID": 4796427,
       "required": true,
       "__meta": {
         "name": "Zen Utils",
@@ -2001,7 +1971,7 @@
     },
     {
       "projectID": 416089,
-      "fileID": 4782398,
+      "fileID": 4799601,
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
@@ -2084,7 +2054,7 @@
     },
     {
       "projectID": 460609,
-      "fileID": 4782047,
+      "fileID": 4800875,
       "required": true,
       "__meta": {
         "name": "CensoredASM",
@@ -2159,7 +2129,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4773115,
+      "fileID": 4796184,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2239,7 +2209,7 @@
     },
     {
       "projectID": 632327,
-      "fileID": 4789664,
+      "fileID": 4797903,
       "required": true,
       "__meta": {
         "name": "Inventory Bogo Sorter",
@@ -2416,7 +2386,7 @@
     },
     {
       "projectID": 871198,
-      "fileID": 4753319,
+      "fileID": 4800687,
       "required": true,
       "__meta": {
         "name": "VintageFix",
