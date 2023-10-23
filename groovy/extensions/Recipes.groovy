@@ -62,25 +62,6 @@ ItemStack.metaClass.removeRecipe = { ->
     crafting.removeByOutput(delegate, printErrors)
 }
 
-IIngredient.metaClass.addPasteRecipe = { String... input ->
-    List<String> pastes = []
-
-    input.each { pastes.add(it) }
-
-    mods.advancedmortars.Mortar.recipeBuilder()
-        .stone()
-        .duration(2)
-        .output(item('cuisine:ingredient').withNbt([
-            characteristics: [],
-            effects: pastes[1] ?: '',
-            material: pastes[0],
-            form: 'PASTE',
-            doneness: 0
-        ]))
-        .input(delegate)
-        .register()
-}
-
 class Intertwiner {
 
     static ItemStack itemStack
@@ -97,15 +78,27 @@ class Intertwiner {
 
 }
 
+/**
+ * Tweak shaped recipe using a matrix.
+ * (Extension of ItemStack)
+ */
 ItemStack.metaClass.tweakRecipe = { String... matrix ->
     crafting.removeByOutput(delegate, printErrors)
     return new Intertwiner(itemStack: delegate, matrix: matrix)
 }
 
+/**
+ * Add shaped recipe using a matrix.
+ * (Extension of ItemStack)
+ */
 ItemStack.metaClass.addRecipe = { String... matrix ->
     return new Intertwiner(itemStack: delegate, matrix: matrix)
 }
 
+/**
+ * Returns a new ingredient without the items specified.
+ * (Extension of IIngredient)
+ */
 IIngredient.metaClass.without = { ItemStack... input ->
     OrIngredient orIngredient = new OrIngredient()
     delegate.matchingStacks.each { stack ->

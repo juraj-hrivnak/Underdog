@@ -1,11 +1,10 @@
-package classes
+package classes.io
 
 import com.cleanroommc.groovyscript.api.IIngredient
 import com.cleanroommc.groovyscript.helper.GroovyHelper
 import com.cleanroommc.groovyscript.helper.ingredient.IngredientHelper
 import com.cleanroommc.groovyscript.helper.ingredient.OreDictIngredient
 
-import net.minecraft.item.ItemStack
 import net.minecraft.item.crafting.IRecipe
 import net.minecraft.item.crafting.Ingredient
 import net.minecraftforge.common.crafting.IShapedRecipe
@@ -13,7 +12,7 @@ import net.minecraftforge.fluids.FluidStack
 import net.minecraftforge.oredict.OreIngredient
 
 /**
- * Generates groovy code for recipes.
+ * Generates groovy code for recipes at run-time.
  * Should be run only in dev enviroment.
  */
 class Replacer {

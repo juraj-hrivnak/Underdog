@@ -6,6 +6,10 @@ import net.minecraftforge.items.ItemHandlerHelper
 
 Map<ItemStack, int> burnTimesToAdd = [:]
 
+/**
+ * Set burn time.
+ * (Extension of IIngredient)
+ */
 IIngredient.metaClass.setBurnTime = { int burnTime ->
     delegate.matchingStacks.each { itemStack ->
         burnTimesToAdd[itemStack] = burnTime

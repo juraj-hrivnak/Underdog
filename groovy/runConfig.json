@@ -17,6 +17,8 @@
             "extensions/",
             "postInit/woodworking",
             "postInit/vanilla",
+            "postInit/mods/pyrotech",
+            "postInit/mods",
             "postInit/",
             "postInit/generated",
             "postInit/zsToGroovy"
