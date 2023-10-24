@@ -27,7 +27,7 @@ body:
       required: false
   - type: input
     attributes:
-      label: "The crafttweaker.log file (Optional)"
+      label: "The groovy/crafttweaker.log file (Optional)"
       description: |
         Please provide a [mclo.gs](https://mclo.gs/) or [gist](https://gist.github.com/) link here. (Make sure that it isn't set to expire!)
     validations:
