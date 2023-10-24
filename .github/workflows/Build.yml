@@ -194,6 +194,8 @@ jobs:
           mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
           perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
 
+          echo "changelog=$(cat $changelog)" >> $GITHUB_OUTPUT
+
           rm ./pax/modpack/manifest_prev.json
       - name: Rename changelog
         run: mv CHANGELOG.md CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
@@ -206,9 +208,9 @@ jobs:
         uses: Ilshidur/action-discord@0.3.2
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          DISCORD_USERNAME: Underbot
+          DISCORD_USERNAME: UnderBot
         with:
-          args: ${{ steps.mod_changes.outputs.mod_changes }}
+          args: ${{ steps.mod_changes.outputs.changelog }}
 
   build-modpack:
     name: Build Modpack
