@@ -58,6 +58,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Get mod changes
+        id: mod_changes
         shell: bash
         run: |
           set +e
@@ -187,6 +188,7 @@ jobs:
 
           if [[ ! -z ""$mod_changes"" ]]; then
             echo -e "$mod_changes" >> $GITHUB_STEP_SUMMARY
+            echo "mod_changes=$mod_changes" >> $GITHUB_OUTPUT
           fi
 
           mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
@@ -200,6 +202,13 @@ jobs:
         with:
           name: changelog
           path: CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
+      - name: Send Discord message
+        uses: Ilshidur/action-discord@0.3.2
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_USERNAME: Underbot
+        with:
+          args: ${{ steps.mod_changes.outputs.mod_changes }}
 
   build-modpack:
     name: Build Modpack
