@@ -396,7 +396,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 4775347,
+      "fileID": 4814073,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
@@ -1624,7 +1624,7 @@
     },
     {
       "projectID": 319175,
-      "fileID": 4807164,
+      "fileID": 4810564,
       "required": true,
       "__meta": {
         "name": "Sledgehammer"
@@ -2121,7 +2121,7 @@
     },
     {
       "projectID": 557549,
-      "fileID": 4571247,
+      "fileID": 4810661,
       "required": true,
       "__meta": {
         "name": "Had Enough Items"
@@ -2129,7 +2129,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 4796184,
+      "fileID": 4812257,
       "required": true,
       "__meta": {
         "name": "AE2 Unofficial Extended Life"
@@ -2414,7 +2414,7 @@
     },
     {
       "projectID": 902861,
-      "fileID": 4705514,
+      "fileID": 4812898,
       "required": true,
       "__meta": {
         "name": "Bundles Backport",
