@@ -207,7 +207,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: UnderBot
-          DISCORD_EMBEDS: ${{ toJson(steps.mod_changes.outputs.mod_changes) }}
+          DISCORD_AVATAR: https://media.forgecdn.net/avatars/828/211/638215807562150866.png
         with:
           args: |
             Test!
