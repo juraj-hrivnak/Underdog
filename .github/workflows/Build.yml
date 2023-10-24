@@ -188,11 +188,13 @@ jobs:
 
           if [[ ! -z ""$mod_changes"" ]]; then
             echo -e "$mod_changes" >> $GITHUB_STEP_SUMMARY
-            echo "mod_changes=$mod_changes" >> $GITHUB_OUTPUT
           fi
 
           mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
           perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
+
+          mod_changes=$(echo $mod_changes | sed -r 's/\\\\n/\n/g')
+          echo "mod_changes=$mod_changes" >> $GITHUB_OUTPUT
 
           rm ./pax/modpack/manifest_prev.json
       - name: Rename changelog
@@ -210,8 +212,8 @@ jobs:
           DISCORD_AVATAR: https://media.forgecdn.net/avatars/828/211/638215807562150866.png
         with:
           args: |
-            Test!
-            ${{ toJson(steps.mod_changes.outputs.mod_changes) }}
+              Test!
+              ${{ steps.mod_changes.outputs.mod_changes }}
 
   build-modpack:
     name: Build Modpack
