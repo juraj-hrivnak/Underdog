@@ -81,7 +81,7 @@ jobs:
             latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag | sed -n 2p)
           fi
 
-          if [ "$latest_commit" = "$current_commit" }} ]; then
+          if [ "$latest_commit" = "$current_commit" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
