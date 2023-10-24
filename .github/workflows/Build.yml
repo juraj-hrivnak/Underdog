@@ -194,7 +194,7 @@ jobs:
           mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
           perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
 
-          echo `changelog=$(cat "$changelog")` >> $GITHUB_OUTPUT
+          echo `changelog=$(cat $changelog)` >> $GITHUB_OUTPUT
 
           rm ./pax/modpack/manifest_prev.json
       - name: Rename changelog
