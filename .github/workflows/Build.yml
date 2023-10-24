@@ -193,7 +193,7 @@ jobs:
           mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
           perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
 
-          mod_changes=$(echo $mod_changes | sed -r 's/\\n/&#10/g')
+          mod_changes=$(echo $mod_changes | sed -r 's/\\\\n/\\n/g')
           echo "mod_changes=$mod_changes" >> $GITHUB_OUTPUT
 
           rm ./pax/modpack/manifest_prev.json
@@ -205,15 +205,13 @@ jobs:
           name: changelog
           path: CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
       - name: Send Discord message
-        uses: Ilshidur/action-discord@0.3.2
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          DISCORD_USERNAME: UnderBot
-          DISCORD_AVATAR: https://media.forgecdn.net/avatars/828/211/638215807562150866.png
+        uses: "hugoalh/send-discord-webhook-ghaction@v5.0.0"
         with:
-          args: |
-              Test!
-              ${{ steps.mod_changes.outputs.mod_changes }}
+          key: ${{ secrets.DISCORD_WEBHOOK }}
+          payload: |
+            content: "${{ steps.mod_changes.outputs.mod_changes }}"
+            username: "UnderBot"
+            avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
 
   build-modpack:
     name: Build Modpack
