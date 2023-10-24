@@ -193,7 +193,7 @@ jobs:
           mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
           perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
 
-          mod_changes=$(echo $mod_changes | sed -r 's/\\\\n/\n/g')
+          mod_changes=$(echo $mod_changes | sed -r 's/\\\\n/<br>/g')
           echo "mod_changes=$mod_changes" >> $GITHUB_OUTPUT
 
           rm ./pax/modpack/manifest_prev.json
