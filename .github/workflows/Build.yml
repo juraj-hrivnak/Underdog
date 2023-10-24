@@ -207,8 +207,11 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: UnderBot
+          DISCORD_EMBEDS: ${{ toJson(steps.mod_changes.outputs.mod_changes) }}
         with:
-          args: CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
+          args: |
+            Test!
+            ${{ toJson(steps.mod_changes.outputs.mod_changes) }}
 
   build-modpack:
     name: Build Modpack
