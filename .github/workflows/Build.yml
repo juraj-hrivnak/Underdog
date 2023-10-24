@@ -146,7 +146,7 @@ jobs:
             echo -e "|  Mod Changes  |"
 
             mod_changes+="## Mod Changes\n\n"
-            mod_changes+="Since: [\`$latest_tag\`](https://github.com/${{ github.repository }}/releases/tag/$latest_tag)\n\n"
+            mod_changes+="Since: [\`$latest_tag\`](<https://github.com/${{ github.repository }}/releases/tag/$latest_tag>)\n\n"
             mod_changes+="\`\`\`markdown\n"
           fi
 
@@ -194,7 +194,6 @@ jobs:
           perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
 
           mod_changes=$(echo $mod_changes | sed -r 's/\\\\n/\\n/g')
-          mod_changes=$(echo $mod_changes | sed -r 's/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/<&>/g')
           echo "mod_changes=$mod_changes" >> $GITHUB_OUTPUT
 
           rm ./pax/modpack/manifest_prev.json
