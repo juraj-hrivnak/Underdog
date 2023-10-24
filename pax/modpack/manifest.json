@@ -2100,6 +2100,14 @@
       }
     },
     {
+      "projectID": 513769,
+      "fileID": 4590380,
+      "required": true,
+      "__meta": {
+        "name": "Item Borders [Forge]"
+      }
+    },
+    {
       "projectID": 515565,
       "fileID": 4690660,
       "required": true,
@@ -2109,6 +2117,22 @@
           238222,
           223794
         ]
+      }
+    },
+    {
+      "projectID": 521590,
+      "fileID": 4698918,
+      "required": true,
+      "__meta": {
+        "name": "Item Highlighter [Forge]"
+      }
+    },
+    {
+      "projectID": 532127,
+      "fileID": 4499615,
+      "required": true,
+      "__meta": {
+        "name": "Legendary Tooltips [Forge]"
       }
     },
     {
