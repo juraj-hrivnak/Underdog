@@ -208,7 +208,7 @@ jobs:
 
           # News
           # \@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})
-          news=$(sed -n -r 's/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/\1/p' <<< "$changelog")
+          news=$(grep -Po '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog)
           echo "news=$news" >> $GITHUB_OUTPUT
           echo -e "${GREEN}$news"
           perl -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/\1/g" $changelog
