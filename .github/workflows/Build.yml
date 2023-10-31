@@ -209,7 +209,8 @@ jobs:
           # News
           news=$(echo "$changelog" | grep -P -o '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})')
           echo "news=$news" >> $GITHUB_OUTPUT
-          perl -i -pe 's/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/$1/g' $changelog
+          echo -e "${GREEN}$news"
+          perl -i -pe 's/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/\1/g' $changelog
 
           # Rename changelog
           mv $changelog CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
