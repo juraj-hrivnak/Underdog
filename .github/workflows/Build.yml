@@ -207,7 +207,8 @@ jobs:
           rm ./pax/modpack/manifest_prev.json
 
           # News
-          news=$(echo "$changelog" | pcregrep -o1 -Ei '\@news\@\{[\s]\n*([\s\S]*)\n\}\n')
+          # \@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})
+          news=$(sed -n -r 's/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/\1/p' <<< "$changelog")
           echo "news=$news" >> $GITHUB_OUTPUT
           echo -e "${GREEN}$news"
           perl -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/\1/g" $changelog
