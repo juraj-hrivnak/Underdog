@@ -207,11 +207,10 @@ jobs:
           rm ./pax/modpack/manifest_prev.json
 
           # News
-          news="## What's new?\n"
-          news+=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g')
+          news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g')
           echo news=$news >> $GITHUB_OUTPUT
 
-          perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/$news\n/g" $changelog
+          perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/$news/g" $changelog
 
           # Rename changelog
           mv $changelog CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
@@ -234,7 +233,7 @@ jobs:
         with:
           key: ${{ secrets.DISCORD_WEBHOOK_2 }}
           payload: |
-            content: "## **${{ steps.info.outputs.projectname }}** has been updated to ${{ steps.info.outputs.projectsuffix }}! :tada:\n${{ steps.mod_changes.outputs.news }}"
+            content: "## **${{ steps.info.outputs.projectname }}** has been updated to ${{ steps.info.outputs.projectsuffix }}! :tada:\n### What's new?\n${{ steps.mod_changes.outputs.news }}"
             username: "UnderBot"
             avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
 
