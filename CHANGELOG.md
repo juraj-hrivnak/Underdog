@@ -6,8 +6,8 @@
 
 @news@{
 
-- test
-- test2
+- Updated some mods to fix server-side issues.
+- Automatized Discord release message.
 
 }
 
