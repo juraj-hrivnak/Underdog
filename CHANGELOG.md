@@ -4,7 +4,12 @@
 
 ## What's new?
 
--
+@news@{
+
+- test
+- test2
+
+}
 
 @mod_changes@
 
