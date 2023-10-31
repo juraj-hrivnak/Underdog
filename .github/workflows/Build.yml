@@ -59,7 +59,7 @@ jobs:
           fetch-depth: 0
       - name: Process changelog
         id: mod_changes
-        shell: bash
+        shell: sh
         run: |
           set +e
 
