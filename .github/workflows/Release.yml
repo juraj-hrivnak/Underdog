@@ -102,7 +102,6 @@ jobs:
           display_name: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack
           changelog: See https://github.com/juraj-hrivnak/Underdog/releases/tag/${{ inputs.tag }}
           changelog_type: markdown
-          game_versions: ${{ inputs.mcversion }}
           game_endpoint: minecraft
           release_type: ${{ steps.release_type.outputs.type }}
       - name: Create Discord message
