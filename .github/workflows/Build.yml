@@ -207,7 +207,7 @@ jobs:
           rm ./pax/modpack/manifest_prev.json
 
           # News
-          news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^[[:space:]]*$/d;s/[[:space:]]*$//')
+          news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d' | tr -d '\000')
           echo "news=$news" >> $GITHUB_OUTPUT
           perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/\1/g" $changelog
 
