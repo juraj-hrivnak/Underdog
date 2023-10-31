@@ -59,7 +59,7 @@ jobs:
           fetch-depth: 0
       - name: Process changelog
         id: mod_changes
-        shell: sh
+        shell: bash
         run: |
           set +e
 
@@ -208,7 +208,7 @@ jobs:
 
           # News
           # \@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})
-          news=$(grep -Po '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog)
+          news=$(cat $changelog | grep -Po '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' )
           echo "news=$news" >> $GITHUB_OUTPUT
           echo -e "${GREEN}$news"
           perl -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/\1/g" $changelog
