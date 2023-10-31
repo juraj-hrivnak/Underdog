@@ -208,7 +208,7 @@ jobs:
 
           # News
           # \@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})
-          news=$(grep -Po '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog)
+          news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d')
           echo "news=$news" >> $GITHUB_OUTPUT
           echo -e "${GREEN}$news"
           perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/\1/g" $changelog
@@ -227,6 +227,14 @@ jobs:
           key: ${{ secrets.DISCORD_WEBHOOK }}
           payload: |
             content: "${{ steps.mod_changes.outputs.markdown }}"
+            username: "UnderBot"
+            avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
+      - name: Send Discord message
+        uses: "hugoalh/send-discord-webhook-ghaction@v5.0.6"
+        with:
+          key: ${{ secrets.DISCORD_WEBHOOK_2 }}
+          payload: |
+            content: "## **${{ steps.info.outputs.projectname }}** has been updated to ${{ steps.info.outputs.projectsuffix }}! :tada:\n${{ steps.mod_changes.outputs.news }}"
             username: "UnderBot"
             avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
 
