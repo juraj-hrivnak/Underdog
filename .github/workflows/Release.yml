@@ -16,6 +16,9 @@ on:
       tag:
         required: true
         type: string
+      news:
+        required: true
+        type: string
 
 env:
   PROJECT_ID: "399664"
@@ -67,7 +70,7 @@ jobs:
         with:
           name: serverpack
       - name: Get release type
-        id: release-type
+        id: release_type
         run: |
           rel_type="release"
           case "${{ inputs.tag }}" in
@@ -77,18 +80,49 @@ jobs:
           esac
           echo "type=$rel_type" >> $GITHUB_OUTPUT
       - name: Create release
-        uses: juraj-hrivnak/upload-curseforge-modpack-action@v1.0.1
+        id: cf_release
+        uses: itsmeow/curseforge-upload@v3
         with:
-          api-token: ${{ secrets.CF_API_TOKEN }}
-          project-id: ${{ env.PROJECT_ID }}
-          modpack-path: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}.zip
-          display-name: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}
-          modpack-server-path: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip
-          server-display-name: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack
+          token: ${{ secrets.CF_API_TOKEN }}
+          project_id: ${{ env.PROJECT_ID }}
+          file_path: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}.zip
+          display_name: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}
           changelog: See https://github.com/juraj-hrivnak/Underdog/releases/tag/${{ inputs.tag }}
-          changelog-format: markdown
-          game-version: ${{ inputs.mcversion }}
-          release-type: ${{ steps.release-type.outputs.type }}
+          changelog_type: markdown
+          game_versions: ${{ inputs.mcversion }}
+          game_endpoint: minecraft
+          release_type: ${{ steps.release_type.outputs.type }}
+      - name: Upload server pack
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: ${{ secrets.CF_API_TOKEN }}
+          parent_file_id: ${{ steps.cf_release.outputs.id }}
+          project_id: ${{ env.PROJECT_ID }}
+          file_path: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip
+          display_name: ${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack
+          changelog: See https://github.com/juraj-hrivnak/Underdog/releases/tag/${{ inputs.tag }}
+          changelog_type: markdown
+          game_versions: ${{ inputs.mcversion }}
+          game_endpoint: minecraft
+          release_type: ${{ steps.release_type.outputs.type }}
+      - name: Create Discord message
+        id: message
+        shell: bash
+        run: |
+          message="## **${{ inputs.projectname }}** has been updated to ${{ inputs.projectsuffix }}! :tada:\n"
+          message+="[CurseForge](<https://legacy.curseforge.com/minecraft/modpacks/underdog/files/${{ steps.cf_release.outputs.id }}>) • "
+          message+="[GitHub](<https://github.com/juraj-hrivnak/Underdog/releases/tag/${{ inputs.tag }}>) • "
+          message+="[Issues](<https://github.com/juraj-hrivnak/Underdog/issues>)\n"
+          message+="### What's new?\n${{ inputs.news }}"
+          echo "markdown=$message" >> $GITHUB_OUTPUT
+      - name: Send Discord message
+        uses: "hugoalh/send-discord-webhook-ghaction@v5.0.6"
+        with:
+          key: ${{ secrets.DISCORD_WEBHOOK_2 }}
+          payload: |
+            content: "${{ steps.message.outputs.markdown }}"
+            username: "UnderBot"
+            avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
 
   update-changelogs:
     name: Update Changelogs

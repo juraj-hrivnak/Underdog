@@ -21,6 +21,7 @@ jobs:
       projectsuffix: ${{ steps.info.outputs.projectsuffix }}
       mcversion: ${{ steps.info.outputs.mcversion }}
       tag: ${{ steps.version.outputs.tag }}
+      news: ${{ steps.mod_changes.outputs.news }}
     steps:
       - name: Checkout with fetch depth 2
         uses: actions/checkout@v4
@@ -198,21 +199,27 @@ jobs:
             echo -e "$mod_changes" >> $GITHUB_STEP_SUMMARY
           fi
 
+          # Upload @mod_changes@
           mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
           perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
 
+          # Replace @mod_changes@
           mod_changes=$(echo $mod_changes | sed -r 's/\\\\n/\\n/g')
           echo "markdown=$mod_changes" >> $GITHUB_OUTPUT
 
           rm ./pax/modpack/manifest_prev.json
 
-          # News
+          # Replace @version@
+          perl -i -pe "s/\@version\@/${{ steps.info.outputs.projectsuffix }}/g" $changelog
+
+          # Get & upload @news@
           news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g')
           echo news=$news >> $GITHUB_OUTPUT
 
+          # Replace @news@
           perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/$news/g" $changelog
 
-          # Rename changelog
+          # Finally, Rename changelog
           mv $changelog CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
       - name: Upload changelog
         uses: actions/upload-artifact@v3
@@ -226,14 +233,6 @@ jobs:
           key: ${{ secrets.DISCORD_WEBHOOK }}
           payload: |
             content: "${{ steps.mod_changes.outputs.markdown }}"
-            username: "UnderBot"
-            avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
-      - name: Send Discord message
-        uses: "hugoalh/send-discord-webhook-ghaction@v5.0.6"
-        with:
-          key: ${{ secrets.DISCORD_WEBHOOK_2 }}
-          payload: |
-            content: "## **${{ steps.info.outputs.projectname }}** has been updated to ${{ steps.info.outputs.projectsuffix }}! :tada:\n### What's new?\n${{ steps.mod_changes.outputs.news }}"
             username: "UnderBot"
             avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
 
@@ -327,4 +326,5 @@ jobs:
       projectsuffix: ${{ needs.modpack-info.outputs.projectsuffix }}
       mcversion: ${{ needs.modpack-info.outputs.mcversion }}
       tag: ${{ needs.modpack-info.outputs.tag }}
+      news: ${{ needs.modpack-info.outputs.news }}
     secrets: inherit
