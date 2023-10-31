@@ -208,8 +208,13 @@ jobs:
 
           # News
           news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d')
-          echo -n "news=$news" >> $GITHUB_OUTPUT
           perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/\1/g" $changelog
+
+          {
+              echo 'news<<EOF'
+              $news
+              echo EOF
+          } >> $GITHUB_OUTPUT
 
           # Rename changelog
           mv $changelog CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
