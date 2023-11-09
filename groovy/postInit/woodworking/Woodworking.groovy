@@ -142,8 +142,8 @@ for (x in woodworking) {
     // Raw Lumber
     ItemStack rawLumber = lumber.withNbt(['raw': true])
 
-    // Adding ToolTip for lumber with 'raw: true' nbt
-    rawLumber.addToolTip("${Colors.GRAY}${Formats.BOLD}Raw")
+    // Replacing tooltip for lumber with 'raw: true' nbt
+    rawLumber.replaceTooltip("Raw %itemName%")
 
     // Removing default recipe for planks
     planks.removeRecipe()

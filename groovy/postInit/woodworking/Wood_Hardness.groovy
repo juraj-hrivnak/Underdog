@@ -121,25 +121,25 @@ ore('pseudoFirewood').setBurnTime(105)
 
 item('minecraft:stick').setBurnTime(25)
 
-ore('softwoodLumber').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.soft_wood"))
-ore('softwoodLog').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.soft_wood"))
-ore('softwoodPlanks').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.soft_wood"))
-ore('softFirewood').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.soft_wood"))
+ore('softwoodLumber').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.soft_wood"))
+ore('softwoodLog').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.soft_wood"))
+ore('softwoodPlanks').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.soft_wood"))
+ore('softFirewood').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.soft_wood"))
 
-ore('hardwoodLumber').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.hard_wood"))
-ore('hardwoodLog').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.hard_wood"))
-ore('hardwoodPlanks').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.hard_wood"))
-ore('hardFirewood').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.hard_wood"))
+ore('hardwoodLumber').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.hard_wood"))
+ore('hardwoodLog').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.hard_wood"))
+ore('hardwoodPlanks').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.hard_wood"))
+ore('hardFirewood').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.hard_wood"))
 
-ore('pseudowoodLumber').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.pseudo_wood"))
-ore('pseudowoodLog').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.pseudo_wood"))
-ore('pseudowoodPlanks').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.pseudo_wood"))
-ore('pseudoFirewood').addToolTip(Colors.YELLOW + Utils.localize("underdog.tooltip.pseudo_wood"))
+ore('pseudowoodLumber').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.pseudo_wood"))
+ore('pseudowoodLog').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.pseudo_wood"))
+ore('pseudowoodPlanks').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.pseudo_wood"))
+ore('pseudoFirewood').addTooltip(Colors.GOLD + Utils.localize("underdog.tooltip.pseudo_wood"))
 
 // ore('tooBig').addAll(ore('softwoodLog'));
 // ore('tooBig').addAll(ore('hardwoodLog'));
 // ore('tooBig').addAll(ore('pseudowoodLog'));
-ore('tooBig').addToolTip(Utils.localize("underdog.tooltip.too_big"))
+ore('tooBig').addTooltip(Utils.localize("underdog.tooltip.too_big"))
 
 // ore('firewood').addAll(ore('softFirewood'));
 // ore('firewood').addAll(ore('hardFirewood'));

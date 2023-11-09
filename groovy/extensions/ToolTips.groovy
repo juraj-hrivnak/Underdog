@@ -4,10 +4,10 @@ import com.cleanroommc.groovyscript.helper.ingredient.OreDictIngredient
 import net.minecraftforge.event.entity.player.ItemTooltipEvent
 import net.minecraftforge.items.ItemHandlerHelper
 
-Map<ItemStack, String> toolTipsToReplace = [:]
+Map<ItemStack, String> tooltipsToReplace = [:]
 
-Map<ItemStack, String> toolTipsToAddWithNbt = [:]
-Map<ItemStack, String> toolTipsToAdd = [:]
+Map<ItemStack, String> tooltipsToAddWithNbt = [:]
+Map<ItemStack, String> tooltipsToAdd = [:]
 
 /**
  * Note: You can add %itemName% to the input, and it will be
@@ -18,19 +18,19 @@ Map<ItemStack, String> toolTipsToAdd = [:]
  * Replaces all tooltips for item.
  * (Extension of ItemStack)
  */
-ItemStack.metaClass.replaceToolTip = { String toolTip ->
-    toolTipsToReplace[delegate] = toolTip
+ItemStack.metaClass.replaceTooltip = { String tooltip ->
+    tooltipsToReplace[delegate] = tooltip
 }
 
 /**
  * Adds a new tooltip for item.
  * (Extension of ItemStack)
  */
-ItemStack.metaClass.addToolTip = { String toolTip ->
+ItemStack.metaClass.addTooltip = { String tooltip ->
     if (delegate.hasNbt() && !delegate.nbt.isEmpty()) {
-        toolTipsToAddWithNbt[delegate] = toolTip
+        tooltipsToAddWithNbt[delegate] = tooltip
     } else {
-        toolTipsToAdd[delegate] = toolTip
+        tooltipsToAdd[delegate] = tooltip
     }
 }
 
@@ -38,46 +38,46 @@ ItemStack.metaClass.addToolTip = { String toolTip ->
  * Adds a new tooltip for all items in OreDict.
  * (Extension of OreDictIngredient)
  */
-OreDictIngredient.metaClass.addToolTip = { String toolTip ->
+OreDictIngredient.metaClass.addTooltip = { String tooltip ->
     delegate.matchingStacks.each { itemStack ->
         if (itemStack != null) {
             if (itemStack.hasNbt() && !itemStack.nbt.isEmpty()) {
-                toolTipsToAddWithNbt[itemStack] = toolTip
+                tooltipsToAddWithNbt[itemStack] = tooltip
             } else {
-                toolTipsToAdd[itemStack] = toolTip
+                tooltipsToAdd[itemStack] = tooltip
             }
         }
     }
 }
 
 event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
-    toolTipsToReplace.each { itemStack, toolTip ->
+    tooltipsToReplace.each { itemStack, tooltip ->
         if (ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
-            String actualToolTip = toolTip.replace('%itemName%', event.toolTip[0])
-            List<String> itemToolTips = event.toolTip
+            String actualTooltip = tooltip.replace('%itemName%', event.toolTip[0])
+            List<String> itemTooltips = event.toolTip
 
-            itemToolTips.clear()
-            itemToolTips.add(actualToolTip.toString())
+            itemTooltips.clear()
+            itemTooltips.add(actualTooltip.toString())
         }
     }
 
-    toolTipsToAddWithNbt.each { itemStack, toolTip ->
+    tooltipsToAddWithNbt.each { itemStack, tooltip ->
         // Compare with nbt
         if (ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
-            String actualToolTip = toolTip.replace('%itemName%', event.toolTip[0])
-            List<String> itemToolTips = event.toolTip
+            String actualTooltip = tooltip.replace('%itemName%', event.toolTip[0])
+            List<String> itemTooltips = event.toolTip
 
-            itemToolTips.add(actualToolTip.toString())
+            itemTooltips.add(actualTooltip.toString())
         }
     }
 
-    toolTipsToAdd.each { itemStack, toolTip ->
+    tooltipsToAdd.each { itemStack, tooltip ->
         // Compare raw items
         if (ItemStack.areItemsEqual(event.itemStack, itemStack)) {
-            String actualToolTip = toolTip.replace('%itemName%', event.toolTip[0])
-            List<String> itemToolTips = event.toolTip
+            String actualTooltip = tooltip.replace('%itemName%', event.toolTip[0])
+            List<String> itemTooltips = event.toolTip
 
-            itemToolTips.add(actualToolTip.toString())
+            itemTooltips.add(actualTooltip.toString())
         }
         // println(itemStack)
     }

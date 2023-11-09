@@ -22,11 +22,11 @@ class Utils {
 
             input.matchingStacks.each { itemStack ->
                 // Replace tooltip
-                itemStack.replaceToolTip("${Colors.RED}${Formats.BOLD}(${Formats.RESET}%itemName%${Colors.RED}${Formats.BOLD})")
+                itemStack.replaceTooltip("${Colors.RED}${Formats.BOLD}(${Formats.RESET}%itemName%${Colors.RED}${Formats.BOLD})")
 
                 if (GroovyHelper.isDebug()) {
                     // Add debug tooltip (Dev only)
-                    itemStack.addToolTip("Hidden & removed from " +
+                    itemStack.addTooltip("Hidden & removed from " +
                             StackTraceUtils.deepSanitize(new Exception()).stackTrace[3].fileName)
                 } else {
                     // Remove from every creative tab (Production only)

@@ -1,0 +1,86 @@
+{
+    "definitions": [
+        {
+            "index": 0,
+            "startColor": "20_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922+v64-s32_#FF996922",
+            "endColor": "20_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF996922+v64-s32",
+            "bgStartColor": "#D0996922-v155",
+            "bgEndColor": "#F45A3A1D-v55",
+            "selectors": [
+                "netherite_sword",
+                "netherite_shovel",
+                "netherite_pickaxe",
+                "netherite_axe",
+                "netherite_hoe",
+                "netherite_helmet",
+                "netherite_chestplate",
+                "netherite_leggings",
+                "netherite_boots",
+                "!epic"
+            ]
+        },
+        {
+            "index": 1,
+            "startColor": "20_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C+v48-s16_#FF697C8C",
+            "endColor": "20_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61+v48-s16",
+            "bgStartColor": "#D0697C8C-v155",
+            "bgEndColor": "#F43A4C61-v65",
+            "selectors": [
+                "diamond_sword",
+                "diamond_shovel",
+                "diamond_pickaxe",
+                "diamond_axe",
+                "diamond_hoe",
+                "diamond_helmet",
+                "diamond_chestplate",
+                "diamond_leggings",
+                "diamond_boots",
+                "enchanted_book",
+                "turtle_helmet",
+                "tipped_arrow",
+                "spectral_arrow",
+                "!rare"
+            ]
+        },
+        {
+            "index": 2,
+            "startColor": "20_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D+v64-s32_#FF70453D",
+            "endColor": "20_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323+v64-s32",
+            "bgStartColor": "#D070453D-v155",
+            "bgEndColor": "#F4542323-v60",
+            "selectors": [
+                "iron_sword",
+                "iron_shovel",
+                "iron_pickaxe",
+                "iron_axe",
+                "iron_hoe",
+                "iron_helmet",
+                "iron_chestplate",
+                "iron_leggings",
+                "iron_boots",
+                "golden_sword",
+                "golden_shovel",
+                "golden_pickaxe",
+                "golden_axe",
+                "golden_hoe",
+                "golden_helmet",
+                "golden_chestplate",
+                "golden_leggings",
+                "golden_boots",
+                "%Chainmail",
+                "compass",
+                "clock",
+                "spyglass",
+                "shears",
+                "%Bucket",
+                "lead",
+                "name_tag",
+                "flint_and_steel",
+                "bow",
+                "crossbow",
+                "trident",
+                "shield"
+            ]
+        }
+    ]
+}
