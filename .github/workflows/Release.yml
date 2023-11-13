@@ -115,7 +115,7 @@ jobs:
           message+="### What's new?\n${{ inputs.news }}"
           echo "markdown=$message" >> $GITHUB_OUTPUT
       - name: Send Discord message
-        uses: "hugoalh/send-discord-webhook-ghaction@v5.0.6"
+        uses: "hugoalh/send-discord-webhook-ghaction@v6.0.0"
         with:
           key: ${{ secrets.DISCORD_WEBHOOK_2 }}
           payload: |

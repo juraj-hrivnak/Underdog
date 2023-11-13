@@ -228,7 +228,7 @@ jobs:
           path: CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
       - name: Send Discord message
         if: ${{ steps.mod_changes.outputs.changed == 'true' }}
-        uses: "hugoalh/send-discord-webhook-ghaction@v5.0.6"
+        uses: "hugoalh/send-discord-webhook-ghaction@v6.0.0"
         with:
           key: ${{ secrets.DISCORD_WEBHOOK }}
           payload: |
