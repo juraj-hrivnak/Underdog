@@ -29,15 +29,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download modpack
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: modpack
       - name: Download serverpack
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: serverpack
       - name: Download changelog
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: changelog
       - name: Create release
@@ -62,11 +62,11 @@ jobs:
             echo '::error::No value found for secret key `CF_API_TOKEN`. See https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository' && exit 1
           fi
       - name: Download modpack
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: modpack
       - name: Download serverpack
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: serverpack
       - name: Get release type
@@ -131,7 +131,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Download changelog
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: changelog
           path: pax/changelogs
