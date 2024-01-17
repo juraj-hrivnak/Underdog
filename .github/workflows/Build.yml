@@ -244,7 +244,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Download changelog
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: changelog
           path: pax/modpack
