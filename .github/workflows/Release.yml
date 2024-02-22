@@ -118,10 +118,9 @@ jobs:
         uses: "hugoalh/send-discord-webhook-ghaction@v6.0.1"
         with:
           key: ${{ secrets.DISCORD_WEBHOOK_2 }}
-          payload: |
-            content: "${{ steps.message.outputs.markdown }}"
-            username: "UnderBot"
-            avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
+          content: "${{ steps.message.outputs.markdown }}"
+          username: "UnderBot"
+          avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
 
   update-changelogs:
     name: Update Changelogs
