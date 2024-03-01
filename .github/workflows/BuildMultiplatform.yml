@@ -68,7 +68,7 @@ jobs:
 
           # -- OUTPUT DIFF --
 
-          diff_text = cat PROJECTS_DIFF.md
+          diff_text=$(cat PROJECTS_DIFF.md)
           echo "diff=$diff_text" >> $GITHUB_OUTPUT
           diff_text >> $GITHUB_STEP_SUMMARY
 
