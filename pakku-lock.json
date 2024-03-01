@@ -4599,6 +4599,42 @@
             ]
         },
         {
+            "pakku_id": "sAGxPbV9SM5kNvLV",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "flans-mod-fixed-1-12-2"
+            },
+            "name": {
+                "curseforge": "Flan's Mod  Fixed [1.12.2]"
+            },
+            "id": {
+                "curseforge": "971793"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Flan's Mod-1.12.2-Chap-Fixed.v.1.7.6.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5086/781/Flan's Mod-1.12.2-Chap-Fixed.v.1.7.6.jar",
+                    "id": "5086781",
+                    "parent_id": "971793",
+                    "hashes": {
+                        "sha1": "d46fbec379ffc24d4dd2bc753288fa4392d8e6bd",
+                        "md5": "82759f96530ca022e91e1400047661a5"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 1755899
+                }
+            ]
+        },
+        {
             "pakku_id": "IynQqJFqVsjQYaeu",
             "type": "MOD",
             "side": "BOTH",
