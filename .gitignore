@@ -44,6 +44,8 @@
 /vintagefix/*
 /icon.png
 /MODPACK_INFO.md
+/**.zip
+/**.mrpack
 
 # Extensions
 **/*.log
