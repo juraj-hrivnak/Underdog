@@ -62,7 +62,7 @@ jobs:
       - name: Export modpack
         run: |
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
-          java -jar .\pakku.jar export
+          java -jar ./pakku.jar export
           mkdir build
           mv ${{ needs.modpack-info.outputs.projectname }}.zip build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.zip
           mv ${{ needs.modpack-info.outputs.projectname }}.mrpack build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.mrpack
