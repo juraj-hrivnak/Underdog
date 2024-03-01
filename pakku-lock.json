@@ -1214,6 +1214,67 @@
             ]
         },
         {
+            "pakku_id": "pTHT44mysfO7gPIS",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "better-formatting-code",
+                "modrinth": "better-formatting-code"
+            },
+            "name": {
+                "curseforge": "Better Formatting Code",
+                "modrinth": "Better Formatting Code"
+            },
+            "id": {
+                "curseforge": "919815",
+                "modrinth": "KShsFBsS"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "BetterFormattingCode-1.12.2-3.0.0.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5148/851/BetterFormattingCode-1.12.2-3.0.0.jar",
+                    "id": "5148851",
+                    "parent_id": "919815",
+                    "hashes": {
+                        "sha1": "fe126554a4672928696201269021a0daf264cef2",
+                        "md5": "4738993576eeb2418c5b0b56262b8b06"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 432589
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "BetterFormattingCode-1.12.2-3.0.0.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/KShsFBsS/versions/pw9DADUq/BetterFormattingCode-1.12.2-3.0.0.jar",
+                    "id": "pw9DADUq",
+                    "parent_id": "KShsFBsS",
+                    "hashes": {
+                        "sha512": "0faa313ecd4841e8cf784b49f011e1f84b332d87e0b5e49f69e0052aebbdc29e23ef4021ed15c8c81670658281bfe88e8abee3ea6a0f8d37f3e225a8e1d249ec",
+                        "sha1": "fe126554a4672928696201269021a0daf264cef2"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 432589
+                }
+            ]
+        },
+        {
             "pakku_id": "krv4uQyUbgZmwn9g",
             "type": "MOD",
             "slug": {

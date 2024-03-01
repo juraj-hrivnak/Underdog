@@ -81,9 +81,15 @@ jobs:
         if: ${{ steps.info.outputs.diff != '' }}
         with:
           key: ${{ secrets.DISCORD_WEBHOOK }}
-          content: ${{ steps.info.outputs.diff }}
-          username: "UnderBot"
-          avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
+          username: "GitHub"
+          avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+          embeds: |
+            [
+              {
+                "description": "${{ steps.info.outputs.diff }}",
+                "color": "Discord Blurple",
+              }
+            ]
 
   build-modpack:
     name: Build Modpack
