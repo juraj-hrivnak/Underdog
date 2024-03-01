@@ -70,7 +70,7 @@ jobs:
 
           diff_text=$(cat PROJECTS_DIFF.md)
           echo "diff=$diff_text" >> $GITHUB_OUTPUT
-          diff_text >> $GITHUB_STEP_SUMMARY
+          echo "$diff_text" >> $GITHUB_STEP_SUMMARY
 
       - name: Send Discord message
         uses: "hugoalh/send-discord-webhook-ghaction@v6.0.1"
