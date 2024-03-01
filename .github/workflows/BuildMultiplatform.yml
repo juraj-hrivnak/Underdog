@@ -49,6 +49,10 @@ jobs:
 
       - name: Diff
         run: |
+          set +e
+
+          previous_commit=$(git log -n 1 --skip 1 --pretty=format:"%h" -- $manifest)
+
           latest_tag=$(git describe --tags --abbrev=0)
           latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag | sed -n 2p)
 
@@ -60,7 +64,9 @@ jobs:
           echo "latest commit: $latest_commit"
           echo "latest tagged commit: $latest_tagged_commit"
 
-          git show $latest_tagged_commit:./pakku-lock.json > ./pakku-lock-prev.json
+          # -- CREATE DIFF --
+
+          git show $previous_commit:./pakku-lock.json > ./pakku-lock-prev.json
 
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
           java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json
