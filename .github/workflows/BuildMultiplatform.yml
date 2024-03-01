@@ -1,5 +1,5 @@
 name: Build Multiplatform
-run-name: "Build #${{ github.run_number }}"
+run-name: "Build Multiplatform #${{ github.run_number }}"
 
 on:
   push:
