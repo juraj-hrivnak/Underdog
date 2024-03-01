@@ -66,11 +66,11 @@ jobs:
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
           java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json --markdown PROJECTS_DIFF.md
 
-          echo "diff=$(cat PROJECTS_DIFF.md)" >> $GITHUB_OUTPUT
+          # -- OUTPUT DIFF --
 
-          # -- STEP SUMMARY --
-
-          cat PROJECTS_DIFF.md >> $GITHUB_STEP_SUMMARY
+          diff_text = cat PROJECTS_DIFF.md
+          echo "diff=$diff_text" >> $GITHUB_OUTPUT
+          diff_text >> $GITHUB_STEP_SUMMARY
 
       - name: Send Discord message
         uses: "hugoalh/send-discord-webhook-ghaction@v6.0.1"
