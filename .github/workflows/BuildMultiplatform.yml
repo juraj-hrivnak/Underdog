@@ -100,6 +100,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Replace tokens
+        uses: cschleiden/replace-tokens@v1.3
+        with:
+          tokenPrefix: '@'
+          tokenSuffix: '@'
+          files: |
+            ./config/fancymenu/config.txt"
+            ./config/fancymenu/customization/main_menu.txt
+            ./config/DiscordRPC.cfg
+            ./groovy/runConfig.json
+        env:
+          version: ${{ needs.modpack-info.outputs.projectsuffix }}
+
       - name: Export modpack
         run: |
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
