@@ -70,7 +70,9 @@ jobs:
           git show $previous_commit:./pakku-lock.json > ./pakku-lock-prev.json
 
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
-          java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json >> $GITHUB_STEP_SUMMARY
+          java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json --markdown PROJECTS_DIFF.md
+
+          cat PROJECTS_DIFF.md >> $GITHUB_STEP_SUMMARY
 
   build-modpack:
     name: Build Modpack
