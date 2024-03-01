@@ -16,19 +16,13 @@ jobs:
     outputs:
       projectname: ${{ steps.info.outputs.projectname }}
       projectsuffix: ${{ steps.info.outputs.projectsuffix }}
-      tag: ${{ steps.version.outputs.tag }}
+      tag: ${{ steps.info.outputs.tag }}
 
     steps:
       - name: Checkout with fetch depth 2
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
-
-      - name: Get tag
-        id: version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
-        with:
-          fallback: tag_not_found
+          fetch-depth: 0
 
       - name: Get modpack info
         id: info
@@ -44,8 +38,11 @@ jobs:
           projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
           echo "projectname=$projectname" >> $GITHUB_OUTPUT
 
+          latest_tag=$(git describe --tags --abbrev=0)
+          echo "tag=$latest_tag" >> $GITHUB_OUTPUT
+
           if [[ ${{ startsWith(github.ref, 'refs/tags/v') }} == true ]]; then
-            echo "projectsuffix=${{ steps.version.outputs.tag }}" >> $GITHUB_OUTPUT
+            echo "projectsuffix=$latest_tag" >> $GITHUB_OUTPUT
           else
             echo "projectsuffix=build.${{ github.run_number }}" >> $GITHUB_OUTPUT
           fi
@@ -55,7 +52,7 @@ jobs:
           latest_tag=$(git describe --tags --abbrev=0)
           latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag | sed -n 2p)
 
-          if [ "$latest_tag" = ${{ steps.version.outputs.tag }} ]; then
+          if [ "$latest_tag" = ${{ steps.info.outputs.tag }} ]; then
             latest_tag=$(git describe --tags --abbrev=0 $(git describe --tags --abbrev=0)^)
             latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag | sed -n 2p)
           fi
