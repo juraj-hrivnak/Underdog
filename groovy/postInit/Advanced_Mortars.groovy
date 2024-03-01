@@ -14,7 +14,7 @@ item('advancedmortars:mortar', 1).tweakRecipe(
 
 ore('toolMortarandpestle').add(item('advancedmortars:mortar', 1))
 
-Utils.rmh(
+Utils.purge(
     item('advancedmortars:mortar'),
     item('advancedmortars:mortar:2'),
     item('advancedmortars:mortar:3'),

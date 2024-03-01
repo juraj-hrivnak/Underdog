@@ -15,7 +15,7 @@ class Utils {
     /**
      * Remove and hide items
      */
-    static void rmh(IIngredient... inputs) {
+    static void purge(IIngredient... inputs) {
         inputs.each { input ->
             // Hide from JEI
             mods.jei.hide(input)

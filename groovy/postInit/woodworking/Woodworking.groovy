@@ -151,14 +151,11 @@ for (x in woodworking) {
     if (log != null) {
 
         // Adding recipe for 8 lumbers with 'raw: true' nbt from one log
-        ModuleTechBasic.Registries.CHOPPING_BLOCK_RECIPE.registerEntry(
-            new ChoppingBlockRecipe(
-                rawLumber,
-                log.toMcIngredient(),
-                1 as int[],
-                8 as int[]
-            ).setRegistryName(Utils.generateRegistryName(rawLumber))
-        )
+        mods.pyrotech.ChoppingBlock.recipeBuilder()
+            .input(log)
+            .output(rawLumber)
+            .chops(1, 8)
+            .register()
 
         mods.mekanism.Sawmill.add(log, rawLumber * 8, item('pyrotech:rock:7'), 0.5)
 

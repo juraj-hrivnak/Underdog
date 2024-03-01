@@ -6,6 +6,6 @@ item('minecraft:chest').with {
     ore('chestWood').remove(it)
     ore('chest').remove(it)
     Replacer.replaceItemStack(it, ore('chestWood'))
-    Utils.rmh(it)
+    Utils.purge(it)
     it.setBurnTime(0)
 }
