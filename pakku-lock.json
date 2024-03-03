@@ -262,7 +262,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "Alfheim-1.2-sources.jar",
+                    "file_name": "Alfheim-1.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -270,18 +270,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/srzJgOEn/versions/MBMg5zwK/Alfheim-1.2-sources.jar",
+                    "url": "https://cdn.modrinth.com/data/srzJgOEn/versions/MBMg5zwK/Alfheim-1.2.jar",
                     "id": "MBMg5zwK",
                     "parent_id": "srzJgOEn",
                     "hashes": {
-                        "sha512": "fb01b1c46cb80c9d8a1d948b1da394068189078cabad6d12439e5d2bea95761b2d41befa7e8e49d0f3617943d0ca9358416e2de3c44cd3316e1bff830e34fb04",
-                        "sha1": "f1a3cb7e54a05202efd60c6049f3f3883e024484"
+                        "sha512": "87ca1100e2bdeccedcfa44646c493eeb1fb822a92df988ccd48ca05a8d1f186faa0994fdd22bb1009e483036e843b14c85efca4d57b50801614b0b004f384678",
+                        "sha1": "4703788f3dafcec84385114d18f7f776f860f3d1"
                     },
                     "required_dependencies": [
-                        "G1ckZuWK",
-                        "iRzbJEus"
+                        "iRzbJEus",
+                        "G1ckZuWK"
                     ],
-                    "size": 54670
+                    "size": 68871
                 }
             ]
         },
@@ -2160,7 +2160,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "cherishedworlds-1.12.2-1.0.1-sources.jar",
+                    "file_name": "cherishedworlds-1.12.2-1.0.1.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -2168,16 +2168,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/3azQ6p0W/versions/NKPlBLC1/cherishedworlds-1.12.2-1.0.1-sources.jar",
+                    "url": "https://cdn.modrinth.com/data/3azQ6p0W/versions/NKPlBLC1/cherishedworlds-1.12.2-1.0.1.jar",
                     "id": "NKPlBLC1",
                     "parent_id": "3azQ6p0W",
                     "hashes": {
-                        "sha512": "180dfa378054b64841dfe05024fd892288e48989de667166c3b1e343978e033298ea6693f8a1937f49b6353f74270304b06c30298c132fbb438788dd59b26548",
-                        "sha1": "09fce5022ed979ccf0f3691705d6bebdf56a4d0b"
+                        "sha512": "01341422c98731787adedf8a4f38f73ffdcb9d15d6d0077e72c5c7423a7826b8561446a14b93f5da53bdd59f4e150f0c645e80eff1ee6f954d49351abf49193d",
+                        "sha1": "ea5fd7e61fb7c8ab6a546e2a17a6f4929e904ec0"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 27407
+                    "size": 37519
                 }
             ]
         },
@@ -2432,7 +2432,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "comforts-1.12.2-1.4.1.3-sources.jar",
+                    "file_name": "comforts-1.12.2-1.4.1.3.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -2440,16 +2440,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/dHrSKL4J/comforts-1.12.2-1.4.1.3-sources.jar",
+                    "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/dHrSKL4J/comforts-1.12.2-1.4.1.3.jar",
                     "id": "dHrSKL4J",
                     "parent_id": "SaCpeal4",
                     "hashes": {
-                        "sha512": "9060b9c342c523cd0c4e564fa79035fd13ca1567a57b9e68b275691d194197bfd7457712510ef26e98a62db19137fab178bc3f644987ce470aba7204a97c8b14",
-                        "sha1": "eb93cf3ce9860fab864fc56588c8fdd54403c125"
+                        "sha512": "0a3a4cefb2a8674a1029cf6afc8c7851422de7d86fe2a152d0692650ca2ddf6fad44eeb0c72edf1a66bd6a30ab00c031fe21f8de94114047b674a31163714428",
+                        "sha1": "30528a47630935ba8517dcd5a28263a8be117b5f"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 109640
+                    "size": 167301
                 }
             ]
         },
@@ -2634,7 +2634,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "conarm-1.12.2-1.2.5.10-sources.jar",
+                    "file_name": "conarm-1.12.2-1.2.5.10.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -2642,18 +2642,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/KG34cbXA/versions/7q0icLtb/conarm-1.12.2-1.2.5.10-sources.jar",
+                    "url": "https://cdn.modrinth.com/data/KG34cbXA/versions/7q0icLtb/conarm-1.12.2-1.2.5.10.jar",
                     "id": "7q0icLtb",
                     "parent_id": "KG34cbXA",
                     "hashes": {
-                        "sha512": "3d17a821fa1d9adfb54d7abec6c5f4ffbd2a340eb58fcc55cb9de7109f73a615a5ee828c5c14c78ba21de6d0c3ed09b69493fd76e51600fbae948c6028e5f777",
-                        "sha1": "e772e5c084bd787314696fa36149ddefe5324be9"
+                        "sha512": "d7311df241aecc2ed03dfff9dacc03c709cece3f6d16da77286e2e8ae7db28b34a9999eb5d0eafed0014a4d512c5176cbfa8e1a2ee6fef20550b62b97855e809",
+                        "sha1": "373e8f6f56605d7eacb5d7d2f4e1ffea5e6d844b"
                     },
                     "required_dependencies": [
                         "rxIIYO6c",
                         "Cg6Uc79H"
                     ],
-                    "size": 685546
+                    "size": 894824
                 }
             ]
         },
@@ -2897,7 +2897,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "corpsecomplex-1.12.2-1.0.12.0-sources.jar",
+                    "file_name": "corpsecomplex-1.12.2-1.0.12.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -2905,16 +2905,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/uA8ykOdd/versions/AFbKOFo9/corpsecomplex-1.12.2-1.0.12.0-sources.jar",
+                    "url": "https://cdn.modrinth.com/data/uA8ykOdd/versions/AFbKOFo9/corpsecomplex-1.12.2-1.0.12.0.jar",
                     "id": "AFbKOFo9",
                     "parent_id": "uA8ykOdd",
                     "hashes": {
-                        "sha512": "f6ca358246ee03b9cfe2af4e340fdbd1200a7df698999c2d02625e7cd60a31adc155b96e5d9ea7fd7b22d17fcb7f222e732400188751b09ddcfc452f763d6c2b",
-                        "sha1": "960b4908543b1187562d2a01e63398ec27c9e8a5"
+                        "sha512": "4f738e2522cf01db1c26a986eeb5483dd727b1e3d5a76a661c977679136a14a46c217f89402caa7ad4d1e2f7d36512875e56885fae20ac09b5727271f6c35349",
+                        "sha1": "9eaf0f7e33646774068755fd387e2fcd05e2d08d"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 74916
+                    "size": 132594
                 }
             ]
         },
@@ -4400,7 +4400,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "dev_fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar",
+                    "file_name": "fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar",
                     "mc_versions": [
                         "1.12",
                         "1.12.1",
@@ -4410,18 +4410,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/VCIrxpB6/dev_fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar",
+                    "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/VCIrxpB6/fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar",
                     "id": "VCIrxpB6",
                     "parent_id": "Wq5SjeWM",
                     "hashes": {
-                        "sha512": "8ea9a7521ec626d458186a8ea52c950ea805d4465593182ed3eb2e6feb491f8b72ef98a3574a091eae4206cdcac3982f10f618dc53c145791887f455b89fa260",
-                        "sha1": "95f771fcfc9aa7c635fd9ea357a82712faee93b3"
+                        "sha512": "a1be989a0f36165c28a40f5a41f71446164ab48c7ccf1279a39f692a266b2eb2fcafebd5bc648cff783b1443c445d13eed640f1777dafe8e35a6bb7bdf5b6983",
+                        "sha1": "b85302e855530f799697b2850e70293111f0cdbe"
                     },
                     "required_dependencies": [
                         "6a16628x",
                         "J81TRJWm"
                     ],
-                    "size": 1750562
+                    "size": 1260832
                 }
             ]
         },
@@ -5056,24 +5056,24 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "future-mc-0.2.16.jar",
+                    "file_name": "Future-MC-0.2.18.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/5147/872/future-mc-0.2.16.jar",
-                    "id": "5147872",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5153/379/Future-MC-0.2.18.jar",
+                    "id": "5153379",
                     "parent_id": "310059",
                     "hashes": {
-                        "sha1": "089843044e543dc558c3330381d0138c132fc69b",
-                        "md5": "2dfa59b26908ff89cd7876baf893c5e9"
+                        "sha1": "eef300a65ce904c8e30936e0c811e5a67344efd6",
+                        "md5": "aef80478252241ad868e18bef278e03a"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 14313036
+                    "size": 14321367
                 },
                 {
                     "type": "modrinth",
@@ -5311,7 +5311,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "groovyscript-0.8.0-dev.jar",
+                    "file_name": "groovyscript-0.8.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -5319,17 +5319,17 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/GJaDRTrb/versions/76btbvfs/groovyscript-0.8.0-dev.jar",
+                    "url": "https://cdn.modrinth.com/data/GJaDRTrb/versions/76btbvfs/groovyscript-0.8.0.jar",
                     "id": "76btbvfs",
                     "parent_id": "GJaDRTrb",
                     "hashes": {
-                        "sha512": "2ff3d2ede5dddabfdbb283ae8f4e24efcaeea3818555e09a5ebe2dc450e876d859e396102fea45809c3f5c4f7f8f88ac35be8ebca690d6a3ad94fd585f57693e",
-                        "sha1": "d062d52b6e3857ae1731bc8aee61b554be43a18d"
+                        "sha512": "2b482fcfca7da2522441d4933e9b4bb0f92e321f00f1af0f49ad0b3c208f05cffae1a44fa4a192fdaedf6a1e5fcfae99a1595db3f3346a0f43d8b9ed0f1ebbf6",
+                        "sha1": "8dcf49c1db9d641d199f5cc4545d6b76e3cbdc11"
                     },
                     "required_dependencies": [
                         "G1ckZuWK"
                     ],
-                    "size": 9860292
+                    "size": 9949119
                 }
             ]
         },
@@ -5386,7 +5386,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "HadEnoughItems_1.12.2-4.25.1.jar",
+                    "file_name": "HadEnoughItems_1.12.2-4.25.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -5394,16 +5394,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4810/661/HadEnoughItems_1.12.2-4.25.1.jar",
-                    "id": "4810661",
+                    "url": "https://edge.forgecdn.net/files/5154/770/HadEnoughItems_1.12.2-4.25.2.jar",
+                    "id": "5154770",
                     "parent_id": "557549",
                     "hashes": {
-                        "sha1": "a7d2909638ebb48876882a2a628217984257fbed",
-                        "md5": "0bac78eab686c03f89713c44e08389e7"
+                        "sha1": "fa661d25126f2ffc97e43d8d037168ff3ee71cb8",
+                        "md5": "9a71201f369553cfe820754a2bf38a82"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 686756
+                    "size": 686923
                 }
             ]
         },
@@ -5864,7 +5864,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "bogosorter-1.4.5-dev.jar",
+                    "file_name": "bogosorter-1.4.5.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -5872,17 +5872,17 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/CuLATCrJ/versions/myvfDjGA/bogosorter-1.4.5-dev.jar",
+                    "url": "https://cdn.modrinth.com/data/CuLATCrJ/versions/myvfDjGA/bogosorter-1.4.5.jar",
                     "id": "myvfDjGA",
                     "parent_id": "CuLATCrJ",
                     "hashes": {
-                        "sha512": "662406d96e4300b950e2668f20a69863314c75b51f9c37a58ade200d7c6363fb4702e4526bdce4d46ae7dd2a1b9d88c013ad6e05dd2963b4a4675e733e848d41",
-                        "sha1": "b7810fff8ceb3e280120162574fff6dcbb17be09"
+                        "sha512": "754e3e109adc01616c8ae1564e9c1879e947a07b0509eaa3464c28248da383537b01a6dd2b9210bf31d630f094e7bf2c95a6405ecf941270e9551398f13394a8",
+                        "sha1": "6c923898a1e68155a60a39f9f734fb31142f48ed"
                     },
                     "required_dependencies": [
                         "Ecvd12QC"
                     ],
-                    "size": 229931
+                    "size": 234340
                 }
             ]
         },
@@ -6660,7 +6660,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "dev_konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+                    "file_name": "konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
                     "mc_versions": [
                         "1.12",
                         "1.12.1",
@@ -6670,17 +6670,17 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/Nmo9ggyx/dev_konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+                    "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/Nmo9ggyx/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
                     "id": "Nmo9ggyx",
                     "parent_id": "J81TRJWm",
                     "hashes": {
-                        "sha512": "17d0ae8d74d5a18e9a237592c08df31263a3f4c7dae5adac969362bfc318883f6f8baf498191741012bd53a63965d8c53f28f2aa4c81cb1c475fbba2a7a9664d",
-                        "sha1": "f694bb30091a937b70e148ec2f62078d4e8529f7"
+                        "sha512": "e7c53957dacc9ab66b44315df77dd63497a35f1e8610de0dc6ed8b80d37d778085802d5736e96e059c29d234ec142f9167c90d9ced31120999f6921827e68841",
+                        "sha1": "d8853dbd60fd050709d2d687d875cb0d93806e92"
                     },
                     "required_dependencies": [
                         "6a16628x"
                     ],
-                    "size": 899102
+                    "size": 618150
                 }
             ]
         },
@@ -7217,7 +7217,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "Mekanism-1.12.2-9.8.3.390-api.jar",
+                    "file_name": "Mekanism-1.12.2-9.8.3.390.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -7225,16 +7225,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Ce6I4WUE/versions/9.8.3/Mekanism-1.12.2-9.8.3.390-api.jar",
+                    "url": "https://cdn.modrinth.com/data/Ce6I4WUE/versions/9.8.3/Mekanism-1.12.2-9.8.3.390.jar",
                     "id": "KIzASRO5",
                     "parent_id": "Ce6I4WUE",
                     "hashes": {
-                        "sha512": "d0aa488d825546d990eccec220e632a551b4395f8701bdd9626fd309407e9dd8e1902ce22aedb0adfb4b3fd70d7154928c1e19590ad16f89ae076239280270d1",
-                        "sha1": "6c0e4b26e61d8ed46060fce7f9a007fbce87b761"
+                        "sha512": "24eeeb284334e4dc98a971a22e7d3267fda843fe17deecbca4715164f39017051ce3ca7e65a49fbd9a6c4e738d808457577e0b8a8e75477bdf897891389dd9af",
+                        "sha1": "1d5b531b7c107d6946b3e957f4554e2cb7686320"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 104657
+                    "size": 7863657
                 }
             ]
         },
@@ -7343,7 +7343,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "mixinbooter-9.1-javadoc.jar",
+                    "file_name": "!mixinbooter-9.1.jar",
                     "mc_versions": [
                         "1.8",
                         "1.8.1",
@@ -7374,16 +7374,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/G1ckZuWK/versions/yUnADFGO/mixinbooter-9.1-javadoc.jar",
+                    "url": "https://cdn.modrinth.com/data/G1ckZuWK/versions/yUnADFGO/!mixinbooter-9.1.jar",
                     "id": "yUnADFGO",
                     "parent_id": "G1ckZuWK",
                     "hashes": {
-                        "sha512": "45f3bff98719aac9d0453ba01f1ee4f67115d3e16b42c878f0fb761fbe57ad2c182538ea078604dffc1a888678d5abc9fee9866473ac9a721ba9036f2b20f321",
-                        "sha1": "6fe6c83dce7fc6639adb843dac1e545b28eda935"
+                        "sha512": "926b1d12f277942e6a900650900975b5fee6e6028f76efdde57b759a69c6bf7b75ac8be10320d69a1b159a0020d779df15cee161f74cbb16a360ccee3df66bf4",
+                        "sha1": "bbf73abfc0099e9e475f8f8303f3d5139a4a69af"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 63910
+                    "size": 1799352
                 }
             ]
         },
@@ -7606,7 +7606,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "modularui-2.4.2.jar",
+                    "file_name": "modularui-2.4.3.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -7614,21 +7614,21 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4996/326/modularui-2.4.2.jar",
-                    "id": "4996326",
+                    "url": "https://edge.forgecdn.net/files/5153/413/modularui-2.4.3.jar",
+                    "id": "5153413",
                     "parent_id": "624243",
                     "hashes": {
-                        "sha1": "bffac3d868aec7e27a440d958a16d76ca21b5a4c",
-                        "md5": "9f6ccddb5141fdec627f8892a04e5c89"
+                        "sha1": "6b2500f19c2c423bb3a32bc1aa2c5f7414157ab1",
+                        "md5": "a918b085b4d0eabd9c7d2ea4afc638a6"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 827384
+                    "size": 826143
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "modularui-2.4.2-dev.jar",
+                    "file_name": "modularui-2.4.3.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -7636,17 +7636,17 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Ecvd12QC/versions/nMgQL5Ao/modularui-2.4.2-dev.jar",
-                    "id": "nMgQL5Ao",
+                    "url": "https://cdn.modrinth.com/data/Ecvd12QC/versions/CscJAJSo/modularui-2.4.3.jar",
+                    "id": "CscJAJSo",
                     "parent_id": "Ecvd12QC",
                     "hashes": {
-                        "sha512": "276817b0aab51fed125ac18db5380bc070ecb00aa306e17cee363ca0bde5af7cac04c2884d4c05384a2bb0aba9136b904d61da1a6d25807262a8c9ebf86b5ee5",
-                        "sha1": "46e7f53afec73a363c36c377311d4ed801d90ca8"
+                        "sha512": "2e5b7ae73c9278a98c61d57cec6d8a934f313aa3a06a3b473d3db991814bfedbf5d69530f785d45bc83c976b7423bc1fe25e02a8cbca701f5fd0d9baf99f2a99",
+                        "sha1": "6b2500f19c2c423bb3a32bc1aa2c5f7414157ab1"
                     },
                     "required_dependencies": [
                         "G1ckZuWK"
                     ],
-                    "size": 821556
+                    "size": 826143
                 }
             ]
         },
@@ -9296,7 +9296,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "!Red-Core-MC-1.7-1.12-0.5.1-sources.jar",
+                    "file_name": "!Red-Core-MC-1.7-1.12-0.5.1.jar",
                     "mc_versions": [
                         "1.7.10",
                         "1.8",
@@ -9315,16 +9315,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/iRzbJEus/versions/EgeSQe7e/!Red-Core-MC-1.7-1.12-0.5.1-sources.jar",
+                    "url": "https://cdn.modrinth.com/data/iRzbJEus/versions/EgeSQe7e/!Red-Core-MC-1.7-1.12-0.5.1.jar",
                     "id": "EgeSQe7e",
                     "parent_id": "iRzbJEus",
                     "hashes": {
-                        "sha512": "1c78b2be7483be886867b14aeb25ba754114e64806deb090ac086bfefbd4a3fd7ad6e8732b7d5f4510f01a366fc41483a183e8e9474f8de91947c03fd703600f",
-                        "sha1": "19c6f316d7024126875c8632936f65e9d176e6e9"
+                        "sha512": "af65b6d31dbcd6acedc9d82b85b0536faf1355d58ecef9d9dbd4f04b231b8d5b00963390a6a69f13e69da44a052350fcdd3ecb885dbbb7f5d16e0193256c6b13",
+                        "sha1": "7b948311155c1ba8d3f2b1a18a1caa751f1925d0"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 25097
+                    "size": 130772
                 }
             ]
         },
@@ -10099,7 +10099,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "voicechat-forge-1.12.2-2.5.6.jar",
+                    "file_name": "voicechat-forge-1.12.2-2.5.7.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10107,16 +10107,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5130/710/voicechat-forge-1.12.2-2.5.6.jar",
-                    "id": "5130710",
+                    "url": "https://edge.forgecdn.net/files/5147/150/voicechat-forge-1.12.2-2.5.7.jar",
+                    "id": "5147150",
                     "parent_id": "416089",
                     "hashes": {
-                        "sha1": "75c14d93ceaeb56bd56feaa820e65776763380a2",
-                        "md5": "59a17e73708629339108e4dcc8eb48ad"
+                        "sha1": "5dd2c6b348451c58b7c2ed07f46d75fe95a35ec7",
+                        "md5": "1f053baa69d0805310b83c1a6371f42e"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 8671419
+                    "size": 8671462
                 },
                 {
                     "type": "modrinth",
@@ -10394,7 +10394,7 @@
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "Sledgehammer-1.12.2-2.0.25-sponge.jar",
+                    "file_name": "Sledgehammer-1.12.2-2.0.25.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10403,16 +10403,16 @@
                         "sponge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/QItC3hpi/versions/z5WHAsl5/Sledgehammer-1.12.2-2.0.25-sponge.jar",
+                    "url": "https://cdn.modrinth.com/data/QItC3hpi/versions/z5WHAsl5/Sledgehammer-1.12.2-2.0.25.jar",
                     "id": "z5WHAsl5",
                     "parent_id": "QItC3hpi",
                     "hashes": {
-                        "sha512": "b09e4109ae9c7b136bedd7892cb843601331045c5177edbe865cbadc192aef016cb21842a1b3dceaba16ed080afbf31b0345cf40a4b7b8de159fe797891f3f57",
-                        "sha1": "131e10b776cdffe8b866a4815624d3a6f1cc823c"
+                        "sha512": "9b669c0100c7a1ae1086de6f6b344b801c7a5e8d89dcc62538c8a8615bc2ece79ebfc41e820e5ca62a7e804f7f7553137e696853a38dd1e931d15262b71cc905",
+                        "sha1": "df8f8ce826d75e88ed877955e34eb2399d22b6cb"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 462130
+                    "size": 2364175
                 }
             ]
         },
@@ -12057,15 +12057,5 @@
                 }
             ]
         }
-    ],
-    "overrides": [
-        "config",
-        "groovy",
-        "local",
-        "oresources",
-        "patchouli_books",
-        "scripts",
-        "structures",
-        "resources"
     ]
 }

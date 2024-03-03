@@ -1,0 +1,18 @@
+{
+    "name": "Underdog",
+    "version": "@version@",
+    "author": "TeksturePako",
+    "loaders": {
+        "forge": "14.23.5.2860"
+    },
+    "overrides": [
+        "config",
+        "groovy",
+        "local",
+        "oresources",
+        "patchouli_books",
+        "scripts",
+        "structures",
+        "resources"
+    ]
+}
