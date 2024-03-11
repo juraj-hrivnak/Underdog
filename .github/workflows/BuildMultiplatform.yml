@@ -77,7 +77,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Send Discord message
-        uses: "hugoalh/send-discord-webhook-ghaction@v6.0.1"
+        uses: "hugoalh/send-discord-webhook-ghaction@v6.0.2"
         if: ${{ steps.info.outputs.diff != '' }}
         with:
           key: ${{ secrets.DISCORD_WEBHOOK }}
