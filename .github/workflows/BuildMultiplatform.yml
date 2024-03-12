@@ -118,8 +118,8 @@ jobs:
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
           java -jar ./pakku.jar export
           mkdir build
-          mv ${{ needs.modpack-info.outputs.projectname }}.zip build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.zip
-          mv ${{ needs.modpack-info.outputs.projectname }}.mrpack build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.mrpack
+          mv ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.zip build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.zip
+          mv ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.mrpack build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.mrpack
 
       - name: Upload modpacks
         uses: actions/upload-artifact@v4
