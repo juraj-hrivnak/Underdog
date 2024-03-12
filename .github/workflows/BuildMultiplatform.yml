@@ -101,25 +101,29 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Replace tokens
-        uses: cschleiden/replace-tokens@v1.3
-        with:
-          tokenPrefix: '@'
-          tokenSuffix: '@'
-          files: |
-            ./config/fancymenu/config.txt"
-            ./config/fancymenu/customization/main_menu.txt
-            ./config/DiscordRPC.cfg
-            ./groovy/runConfig.json
-        env:
-          version: ${{ needs.modpack-info.outputs.projectsuffix }}
+        shell: bash
+        run: |
+          set +e
+
+          manifest="./pakku.json"
+          custom_window_title="./config/fancymenu/config.txt"
+          fancymenu="./config/fancymenu/customization/main_menu.txt"
+          rich_presence="./config/DiscordRPC.cfg"
+          grooovy="./groovy/runConfig.json"
+
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $manifest
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $custom_window_title
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $fancymenu
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $rich_presence
+          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $grooovy
+
+          cat <<< $(jq '.debug = false' $grooovy) > $grooovy
 
       - name: Export modpack
         run: |
-          curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
-          java -jar ./pakku.jar export
           mkdir build
-          mv ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.zip build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.zip
-          mv ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.mrpack build/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.mrpack
+          curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
+          java -jar ./pakku.jar export build
 
       - name: Upload modpacks
         uses: actions/upload-artifact@v4
