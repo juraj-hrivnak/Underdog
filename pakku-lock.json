@@ -364,7 +364,6 @@
             "id": {
                 "curseforge": "261199"
             },
-            "redistributable": false,
             "files": [
                 {
                     "type": "curseforge",
@@ -1141,6 +1140,7 @@
         {
             "pakku_id": "3cLIEbMN9PH2Cs4T",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-animal-models"
             },
@@ -1179,6 +1179,7 @@
         {
             "pakku_id": "E8opmFFkD535PfIP",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-chat"
             },
@@ -1312,6 +1313,7 @@
         {
             "pakku_id": "zDCBvN9ilbzl0eRZ",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-loading-screen"
             },
@@ -3218,6 +3220,7 @@
         {
             "pakku_id": "G97OWEguiyVzNS7F",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "ctm"
             },
@@ -3825,6 +3828,7 @@
         {
             "pakku_id": "Ci5LIcfXAlNeBxrH",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "dynamic-surroundings"
             },
@@ -4249,6 +4253,7 @@
                 "RQxvfT8e7yARzeiy"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "entity-culling"
             },
@@ -4808,7 +4813,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Forgelin-Continuous-1.9.23.0.jar",
+                    "file_name": "Forgelin-Continuous-1.9.23.1.jar",
                     "mc_versions": [
                         "1.12.1",
                         "1.12",
@@ -4817,17 +4822,17 @@
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5165/10/Forgelin-Continuous-1.9.23.0.jar",
-                    "id": "5165010",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5181/574/Forgelin-Continuous-1.9.23.1.jar",
+                    "id": "5181574",
                     "parent_id": "456403",
                     "hashes": {
-                        "sha1": "a092ee573e5b555431c0907a8f83a5b8ea338726",
-                        "md5": "964889b7932c560dc1379b50cff543a7"
+                        "sha1": "34027201cf91ade64e2124d3e4304f0a95a951de",
+                        "md5": "c888ec28f9cb4dba5581658942d01c41"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 7299146
+                    "size": 7311855
                 }
             ]
         },
@@ -6237,6 +6242,7 @@
                 "cG4NgZKdOHsX7lNZ"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "jei-bees"
             },
@@ -6311,6 +6317,7 @@
         {
             "pakku_id": "CUZCX3UBM8m0AZGG",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "jetif"
             },
@@ -6348,7 +6355,7 @@
         {
             "pakku_id": "c7IQp06LtYV04Irh",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "journeymap",
                 "modrinth": "journeymap"
@@ -6509,6 +6516,7 @@
                 "qzOXfhTcdgVnGnHB"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "just-enough-petroleum"
             },
@@ -6620,7 +6628,7 @@
         {
             "pakku_id": "naPV6ZQanSfzTTbw",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "konkrete",
                 "modrinth": "konkrete"
@@ -6764,7 +6772,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "LittleTiles_v1.5.86_mc1.12.2.jar",
+                    "file_name": "LittleTiles_v1.5.87_mc1.12.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -6772,16 +6780,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5123/242/LittleTiles_v1.5.86_mc1.12.2.jar",
-                    "id": "5123242",
+                    "url": "https://edge.forgecdn.net/files/5180/387/LittleTiles_v1.5.87_mc1.12.2.jar",
+                    "id": "5180387",
                     "parent_id": "257818",
                     "hashes": {
-                        "sha1": "64d84a53a77833a2415fe0618491e2515b78cf73",
-                        "md5": "df685c792bcebb37909b74ef0acae969"
+                        "sha1": "f77d34ddd13caeb4781908443f73e51b9118fe60",
+                        "md5": "023675857af8a09dd58d56960216336d"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 1954537
+                    "size": 1994663
                 }
             ]
         },
@@ -7686,6 +7694,7 @@
         {
             "pakku_id": "yaev47HFK7V0k1e3",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "more-sound-config"
             },
@@ -8329,6 +8338,7 @@
         {
             "pakku_id": "dUvr5JNIRP9hT4mz",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "orelib"
             },
@@ -8944,6 +8954,7 @@
         {
             "pakku_id": "ruqWuqOZRcpbmpE5",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "real-first-person-render"
             },
@@ -9179,6 +9190,7 @@
         {
             "pakku_id": "dX5NrA7e7oK8Qira",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "reauth"
             },
@@ -9469,6 +9481,7 @@
         {
             "pakku_id": "1T8kyRajnf0fCyuJ",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "resource-loader"
             },
@@ -9799,7 +9812,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "serializationisbad-1.5.jar",
+                    "file_name": "serializationisbad-1.5.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -9807,20 +9820,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4728/250/serializationisbad-1.5.jar",
-                    "id": "4728250",
+                    "url": "https://edge.forgecdn.net/files/5187/152/serializationisbad-1.5.2.jar",
+                    "id": "5187152",
                     "parent_id": "896591",
                     "hashes": {
-                        "sha1": "38a2714ddaf8b2a844ba4007a665371039db2bac",
-                        "md5": "1a98f56b586fd22da07f3305a034f49e"
+                        "sha1": "da05f7344986d425c858decb36cf776b3fe53dad",
+                        "md5": "b85803f2a07ac38c7a0cf4c9dc1d0f18"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 511049
+                    "size": 511085
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "serializationisbad-1.5.jar",
+                    "file_name": "serializationisbad-1.5.2.jar",
                     "mc_versions": [
                         "1.6.1",
                         "1.6.2",
@@ -9886,22 +9899,25 @@
                         "1.19.3",
                         "1.19.4",
                         "1.20",
-                        "1.20.1"
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4"
                     ],
                     "loaders": [
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/TTZtsNrf/versions/VP2av9A3/serializationisbad-1.5.jar",
-                    "id": "VP2av9A3",
+                    "url": "https://cdn.modrinth.com/data/TTZtsNrf/versions/UNewFQPv/serializationisbad-1.5.2.jar",
+                    "id": "UNewFQPv",
                     "parent_id": "TTZtsNrf",
                     "hashes": {
-                        "sha512": "28d0c78cc06b4964f820a0352c89ad6e81fa0e4e2b78bafb66bfe87bf83370f247a330e6f338d44cc093e297832e3c6f71ec4c29ba9db9249e4ee11d82e7398b",
-                        "sha1": "38a2714ddaf8b2a844ba4007a665371039db2bac"
+                        "sha512": "40391775653921f408b04c8dc08f033d03af612bb397e85e2731717c70a92ec339c53add179fc6487dbfe1db33120ef56870c96740d7c8861461012dd058895d",
+                        "sha1": "da05f7344986d425c858decb36cf776b3fe53dad"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 511049
+                    "size": 511085
                 }
             ]
         },
@@ -10099,7 +10115,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "voicechat-forge-1.12.2-2.5.8.jar",
+                    "file_name": "voicechat-forge-1.12.2-2.5.9.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10107,20 +10123,20 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5164/105/voicechat-forge-1.12.2-2.5.8.jar",
-                    "id": "5164105",
+                    "url": "https://edge.forgecdn.net/files/5186/456/voicechat-forge-1.12.2-2.5.9.jar",
+                    "id": "5186456",
                     "parent_id": "416089",
                     "hashes": {
-                        "sha1": "5bbfff8e0300e4005fa2a923d7fd4e39b80f4e8c",
-                        "md5": "8012bb268eb3c4caf76396587c33543e"
+                        "sha1": "e812f194033f11a9ffaa8553e97dad4952b86c8c",
+                        "md5": "79b3816eda7817193fe6b0985595d4e5"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 8672865
+                    "size": 8673834
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "voicechat-forge-1.12.2-2.5.8.jar",
+                    "file_name": "voicechat-forge-1.12.2-2.5.9.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10128,16 +10144,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/OwdUP4tl/voicechat-forge-1.12.2-2.5.8.jar",
-                    "id": "OwdUP4tl",
+                    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/XYqLKB23/voicechat-forge-1.12.2-2.5.9.jar",
+                    "id": "XYqLKB23",
                     "parent_id": "9eGKb6K1",
                     "hashes": {
-                        "sha512": "4c9accd641de9d54940348301764182b2d951a382c23c5834dd9bcb8ebd5673cd552e8a204f8d1c860f8bf642a3156da14500584c27e3eca3033b2db25c7897a",
-                        "sha1": "3cbab1bb39c9a10e04f3d24c1c64cb69c3fde2ba"
+                        "sha512": "e65aae45bcd1477ffda4cb2078a57049eea5fda76a32dfa6e295661f82c7f01d059657c499aa8d5e3625ffb13180688dc81c0173ea34fb7369e89e9e3bdca962",
+                        "sha1": "cc4885c3aafd3bf80dc52fc0813f210fedfb47a0"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 8672865
+                    "size": 8673834
                 }
             ]
         },
@@ -10419,6 +10435,7 @@
         {
             "pakku_id": "F0a6MCnFnr8pyC5D",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "smooth-font"
             },
@@ -10954,6 +10971,7 @@
                 "tCjLUyHKzI7Ib6iL"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "tinkers-jei"
             },
@@ -11687,6 +11705,7 @@
         {
             "pakku_id": "P43rr0Do4630yxwM",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "waterskin-simple-difficulty"
             },
@@ -11885,6 +11904,7 @@
         {
             "pakku_id": "5v39Q889cPRC2yJO",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "world-tooltips"
             },

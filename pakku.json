@@ -12,5 +12,70 @@
         "scripts",
         "structures",
         "resources"
-    ]
+    ],
+    "projects": {
+        "animania": {
+            "redistributable": true
+        },
+        "better-animal-models": {
+            "side": "CLIENT"
+        },
+        "better-chat": {
+            "side": "CLIENT"
+        },
+        "better-loading-screen": {
+            "side": "CLIENT"
+        },
+        "ctm": {
+            "side": "CLIENT"
+        },
+        "dynamic-surroundings": {
+            "side": "CLIENT"
+        },
+        "entity-culling": {
+            "side": "CLIENT"
+        },
+        "jei-bees": {
+            "side": "CLIENT"
+        },
+        "jetif": {
+            "side": "CLIENT"
+        },
+        "journeymap": {
+            "side": "CLIENT"
+        },
+        "just-enough-petroleum": {
+            "side": "CLIENT"
+        },
+        "konkrete": {
+            "side": "CLIENT"
+        },
+        "more-sound-config": {
+            "side": "CLIENT"
+        },
+        "orelib": {
+            "side": "CLIENT"
+        },
+        "real-first-person-render": {
+            "side": "CLIENT"
+        },
+        "reauth": {
+            "side": "CLIENT"
+        },
+        "resource-loader": {
+            "side": "CLIENT"
+        },
+        "smooth-font": {
+            "side": "CLIENT"
+        },
+        "tinkers-jei": {
+            "side": "CLIENT"
+        },
+        "waterskin-simple-difficulty": {
+            "side": "CLIENT"
+        },
+        "world-tooltips": {
+            "side": "CLIENT"
+        }
+    }
 }
