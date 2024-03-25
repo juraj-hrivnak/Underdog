@@ -1,6 +1,7 @@
 
 import classes.Utils
 import classes.recipes.Mortar
+import classes.recipes.Mortar.PasteType
 
 item('advancedmortars:mortar', 1).tweakRecipe(
     '  s',

@@ -18,7 +18,7 @@ class Utils {
     static void purge(IIngredient... inputs) {
         inputs.each { input ->
             // Hide from JEI
-            mods.jei.hide(input)
+            mods.jei.ingredient.hide(input)
 
             input.matchingStacks.each { itemStack ->
                 // Replace tooltip

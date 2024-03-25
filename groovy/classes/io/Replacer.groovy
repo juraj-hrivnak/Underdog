@@ -137,11 +137,12 @@ class Replacer {
 
     /**
      * MC Ingredient variant. Used on input
+     * ! [1] Needs Ingredient mixin to be enabled.
      */
     static String asGroovyCode(Ingredient input) {
         String result = null
         if (input instanceof OreIngredient) {
-            result = IngredientHelper.asGroovyCode(input.oreDict, false)
+            result = IngredientHelper.asGroovyCode(input.oreDict, false) //! [1]
         } else if (input instanceof FluidStack) {
             result = IngredientHelper.asGroovyCode(input, false)
         } else if ((Object) input instanceof Ingredient) {
