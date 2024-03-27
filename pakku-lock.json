@@ -4797,7 +4797,7 @@
             ]
         },
         {
-            "pakku_id": "xhVkm9gbU5bLUTIb",
+            "pakku_id": "hcYKexC245VNYE43",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -4812,33 +4812,11 @@
                 "curseforge": "456403",
                 "modrinth": "1mPcAmuy"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "Forgelin-Continuous-1.9.23.1.jar",
-                    "mc_versions": [
-                        "1.12.1",
-                        "1.12",
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5181/574/Forgelin-Continuous-1.9.23.1.jar",
-                    "id": "5181574",
-                    "parent_id": "456403",
-                    "hashes": {
-                        "sha1": "34027201cf91ade64e2124d3e4304f0a95a951de",
-                        "md5": "c888ec28f9cb4dba5581658942d01c41"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 7311855
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "Forgelin-Continuous-1.9.23.1.jar",
+                    "file_name": "Forgelin-Continuous-1.9.23.0.jar",
                     "mc_versions": [
                         "1.12",
                         "1.12.1",
@@ -4847,17 +4825,40 @@
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/1mPcAmuy/versions/z6CncHO9/Forgelin-Continuous-1.9.23.1.jar",
-                    "id": "z6CncHO9",
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1mPcAmuy/versions/EBE3enuc/Forgelin-Continuous-1.9.23.0.jar",
+                    "id": "EBE3enuc",
                     "parent_id": "1mPcAmuy",
                     "hashes": {
-                        "sha512": "1b0f80d5ec092abbe84224ea20813199f77472ded42992a781a53c072532f704a65bcb101628c389c4ff37be5b712ff8a772d4bb82b42cceccbd827f92af7b83",
-                        "sha1": "34027201cf91ade64e2124d3e4304f0a95a951de"
+                        "sha512": "866f5002a6e5f964f83d727ebcf84276737093ceb4d10dbcead883867873822b4d79c927d85644db0d877d430e51bfe5467391cf71d4c1627ec7a6b02ef31ce1",
+                        "sha1": "a092ee573e5b555431c0907a8f83a5b8ea338726"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 7311855
+                    "size": 7299146
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Forgelin-Continuous-1.9.23.0.jar",
+                    "mc_versions": [
+                        "1.12.1",
+                        "1.12",
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5165/10/Forgelin-Continuous-1.9.23.0.jar",
+                    "id": "5165010",
+                    "parent_id": "456403",
+                    "hashes": {
+                        "sha1": "a092ee573e5b555431c0907a8f83a5b8ea338726",
+                        "md5": "964889b7932c560dc1379b50cff543a7"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 7299146
                 }
             ]
         },
@@ -5259,7 +5260,7 @@
             "pakku_id": "kKlguBU8rZM8kwF1",
             "pakku_links": [
                 "IynQqJFqVsjQYaeu",
-                "xhVkm9gbU5bLUTIb"
+                "hcYKexC245VNYE43"
             ],
             "type": "MOD",
             "slug": {
