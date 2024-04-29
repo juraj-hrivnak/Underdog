@@ -81,7 +81,7 @@ jobs:
           echo "type=$rel_type" >> $GITHUB_OUTPUT
       - name: Create release
         id: cf_release
-        uses: itsmeow/curseforge-upload@3.1.1
+        uses: itsmeow/curseforge-upload@v3.1.2
         with:
           token: ${{ secrets.CF_API_TOKEN }}
           project_id: ${{ env.PROJECT_ID }}
@@ -93,7 +93,7 @@ jobs:
           game_endpoint: minecraft
           release_type: ${{ steps.release_type.outputs.type }}
       - name: Upload server pack
-        uses: itsmeow/curseforge-upload@3.1.1
+        uses: itsmeow/curseforge-upload@v3.1.2
         with:
           token: ${{ secrets.CF_API_TOKEN }}
           parent_file_id: ${{ steps.cf_release.outputs.id }}
