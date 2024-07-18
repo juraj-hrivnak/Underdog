@@ -4,7 +4,9 @@
     "version": "@version@",
     "debug": true,
     "classes": [
-        "classes/"
+        "classes/",
+        "classes/io",
+        "classes/recipes"
     ],
     "loaders": {
         "preInit": [
