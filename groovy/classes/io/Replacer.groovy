@@ -11,6 +11,8 @@ import net.minecraftforge.common.crafting.IShapedRecipe
 import net.minecraftforge.fluids.FluidStack
 import net.minecraftforge.oredict.OreIngredient
 
+import java.lang.IllegalArgumentException
+
 /**
  * Generates groovy code for recipes at run-time.
  * Should be run only in dev enviroment.
@@ -44,13 +46,19 @@ class Replacer {
     }
 
     static void ingore(IRecipe recipe) {
-        ignoredRecipes << recipe.registryName.toString()
+        try {
+            if (recipe !in ignoredRecipes) {
+                ignoredRecipes << recipe.registryName.toString()
+            }
+        } catch (IllegalArgumentException e) {
+            log.info(e.message)
+        }
     }
 
     static void run() {
         if (!GroovyHelper.isDebug() || isRunning || !enabled) return
 
-        println('Generating replacement recipes!')
+        log.info('Generating replacement recipes!')
         isRunning = true
 
         new File("groovy/postInit/generated").deleteDir()
@@ -132,17 +140,18 @@ class Replacer {
         }
 
         isRunning = false
-        println('Done!')
+        log.info('Done!')
     }
 
     /**
      * MC Ingredient variant. Used on input
-     * ! [1] Needs Ingredient mixin to be enabled.
+     * ! [1] Needs OreIngredient mixin to be enabled.
      */
     static String asGroovyCode(Ingredient input) {
         String result = null
         if (input instanceof OreIngredient) {
-            result = IngredientHelper.asGroovyCode(input.oreDict, false) //! [1]
+            result = IngredientHelper.asGroovyCode(input.oreDict, false)
+            // !                               [1] ^^^^^^^^^^^^^
         } else if (input instanceof FluidStack) {
             result = IngredientHelper.asGroovyCode(input, false)
         } else if ((Object) input instanceof Ingredient) {

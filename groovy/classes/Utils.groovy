@@ -50,7 +50,7 @@ class Utils {
     private static int generatedRecipes = 0
 
     /**
-     * Generate resource location
+     * Generate Registry Name resource location
      */
     static ResourceLocation generateRegistryName(ItemStack input) {
         String suffix = "${input.itemRaw.registryName.path}_${input.metadata}_no.${generatedRecipes}"

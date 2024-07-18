@@ -4,7 +4,23 @@ import com.cleanroommc.groovyscript.api.IIngredient
 
 class Mortar {
 
-    class PasteType {
+    static void addPasteRecipe(IIngredient input, String... paste) {
+        List<String> pastes = paste.toList()
+        mods.advancedmortars.Mortar.recipeBuilder()
+            .stone()
+            .duration(2)
+            .output(item('cuisine:ingredient').withNbt([
+                characteristics: [],
+                effects: pastes[1] ?: '',
+                material: pastes[0],
+                form: 'PASTE',
+                doneness: 0
+            ]))
+            .input(input)
+            .register()
+    }
+
+    static class PasteType {
         static final String RARE = 'rare'
         static final String PUFFERFISH_POISON = 'pufferfish_poison'
 
@@ -60,23 +76,6 @@ class Mortar {
         static final String WATER_CHESTNUT = 'water_chestnut'
         static final String WINTER_SQUASH = 'winter_squash'
         static final String ZUCCHINI = 'zucchini'
-
-    }
-
-    static void addPasteRecipe(IIngredient input, String... paste) {
-        List<String> pastes = paste.toList()
-        mods.advancedmortars.Mortar.recipeBuilder()
-            .stone()
-            .duration(2)
-            .output(item('cuisine:ingredient').withNbt([
-                characteristics: [],
-                effects: pastes[1] ?: '',
-                material: pastes[0],
-                form: 'PASTE',
-                doneness: 0
-            ]))
-            .input(input)
-            .register()
     }
 
 }

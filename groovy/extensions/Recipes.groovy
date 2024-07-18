@@ -8,6 +8,8 @@ import net.minecraftforge.items.ItemHandlerHelper
 
 def printErrors = false
 
+// -- TWEAK --
+
 /**
  * Tweak shaped recipe.
  * (Extension of ItemStack)
@@ -32,6 +34,8 @@ ItemStack.metaClass.tweakRecipe = { IIngredient... input ->
         .register().tap { Replacer.ingore(it) }
 }
 
+// -- ADD --
+
 /**
  * Add shaped recipe.
  * (Extension of ItemStack)
@@ -54,6 +58,8 @@ ItemStack.metaClass.addRecipe = { IIngredient... input ->
         .register().tap { Replacer.ingore(it) }
 }
 
+// -- REMOVE --
+
 /**
  * Remove recipe.
  * (Extension of ItemStack)
@@ -61,6 +67,8 @@ ItemStack.metaClass.addRecipe = { IIngredient... input ->
 ItemStack.metaClass.removeRecipe = { ->
     crafting.removeByOutput(delegate, printErrors)
 }
+
+// -- MATRIX --
 
 class Intertwiner {
 
@@ -95,8 +103,10 @@ ItemStack.metaClass.addRecipe = { String... matrix ->
     return new Intertwiner(itemStack: delegate, matrix: matrix)
 }
 
+// -- INGREDIENT --
+
 /**
- * Returns a new ingredient without the items specified.
+ * Returns a new OrIngredient without the items specified.
  * (Extension of IIngredient)
  */
 IIngredient.metaClass.without = { ItemStack... input ->
