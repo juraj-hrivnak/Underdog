@@ -1,6 +1,6 @@
 {
     "name": "Underdog",
-    "version": "@version@",
+    "version": "3.6.0",
     "description": "Minecraft modpack centred around realism, exploration, survival, and ecology.",
     "author": "TeksturePako",
     "overrides": [
@@ -8,10 +8,10 @@
         "groovy",
         "local",
         "scripts",
-        "structures",
-        "resources"
+        "structures"
     ],
     "client_overrides": [
+        "resources",
         "oresources",
         "patchouli_books"
     ],
@@ -27,6 +27,9 @@
         },
         "better-loading-screen": {
             "side": "CLIENT"
+        },
+        "bookshelf": {
+            "side": "BOTH"
         },
         "ctm": {
             "side": "CLIENT"
