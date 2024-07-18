@@ -1,4 +1,8 @@
 
+# Pakku
+build/
+pakku.jar
+
 # Configs
 config/BiomeTweaker/output/*
 config/fantasticlib/*
@@ -96,9 +100,3 @@ pax/serverpack/work/*
 pax/serverpack/server-packs/*
 pax/serverpack/logs/*
 pax/serverpack/ServerPackCreator-*.jar
-
-# Pakku
-pakku
-pakku-macos
-pakku.exe
-pakku.jar
