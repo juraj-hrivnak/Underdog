@@ -14,7 +14,14 @@ item('bibliocraft:potionshelf', 2).tweakRecipe(
 )
 
 // Atlas
-item('bibliocraft:atlasbook').withNbt(["ench": [["id": 14, "lvl": 1]]]).tweakRecipe(
+item('bibliocraft:atlasbook').withNbt(['ench': [['id': 14, 'lvl': 1]]]).tweakRecipe(
+    [item('mekanism:controlcircuit', 2), item('minecraft:enchanted_book'), item('mekanism:controlcircuit', 2)],
+    [item('bibliocraft:compass'), item('bibliocraft:atlasbook'), item('bibliocraft:compass')],
+    [item('mekanism:controlcircuit', 2), item('minecraft:enchanted_book'), item('mekanism:controlcircuit', 2)]
+)
+
+// Atlas
+item('bibliocraft:atlasbook').withNbt(['ench': [['id': 14, 'lvl': 1]]]).tweakRecipe(
     [item('mekanism:controlcircuit', 2), item('bibliocraft:compass'), item('mekanism:controlcircuit', 2)],
     [item('minecraft:enchanted_book'), item('bibliocraft:atlasbook'), item('minecraft:enchanted_book')],
     [item('mekanism:controlcircuit', 2), item('bibliocraft:compass'), item('mekanism:controlcircuit', 2)]
@@ -32,13 +39,6 @@ item('bibliocraft:desk').tweakRecipe(
     [item('burningtorch:burningtorch'), null, item('minecraft:feather')],
     [item('minecraft:wooden_slab'), item('minecraft:wooden_slab'), item('minecraft:wooden_slab')],
     [item('contenttweaker:lumber_vanilla_oak'), null, item('contenttweaker:lumber_vanilla_oak')]
-)
-
-// Atlas
-item('bibliocraft:atlasbook').withNbt(["ench": [["id": 14, "lvl": 1]]]).tweakRecipe(
-    [item('mekanism:controlcircuit', 2), item('minecraft:enchanted_book'), item('mekanism:controlcircuit', 2)],
-    [item('bibliocraft:compass'), item('bibliocraft:atlasbook'), item('bibliocraft:compass')],
-    [item('mekanism:controlcircuit', 2), item('minecraft:enchanted_book'), item('mekanism:controlcircuit', 2)]
 )
 
 // Spruce Table

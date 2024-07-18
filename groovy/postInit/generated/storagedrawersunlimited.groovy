@@ -8,16 +8,16 @@
 
 // Basic Drawer
 item('storagedrawersunlimited:basicdrawers_biomesoplenty_ebony').tweakRecipe(
-    [item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony')],
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
     [null, ore('chestWood'), null],
-    [item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony')]
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')]
 )
 
 // Basic Drawer
 item('storagedrawersunlimited:basicdrawers_biomesoplenty_ebony').tweakRecipe(
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
+    [item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony')],
     [null, ore('chestWood'), null],
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')]
+    [item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony')]
 )
 
 // Basic Drawers 1x2
@@ -666,16 +666,16 @@ item('storagedrawersunlimited:basicdrawers_forestry_lime').tweakRecipe(
 
 // Ebony Trim
 (item('storagedrawersunlimited:trim_biomesoplenty_ebony') * 4).tweakRecipe(
-    [ore('stickWood'), item('contenttweaker:lumber_planks.ebony'), ore('stickWood')],
-    [item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony')],
-    [ore('stickWood'), item('contenttweaker:lumber_planks.ebony'), ore('stickWood')]
+    [ore('stickWood'), item('contenttweaker:lumber_ebony'), ore('stickWood')],
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
+    [ore('stickWood'), item('contenttweaker:lumber_ebony'), ore('stickWood')]
 )
 
 // Ebony Trim
 (item('storagedrawersunlimited:trim_biomesoplenty_ebony') * 4).tweakRecipe(
-    [ore('stickWood'), item('contenttweaker:lumber_ebony'), ore('stickWood')],
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
-    [ore('stickWood'), item('contenttweaker:lumber_ebony'), ore('stickWood')]
+    [ore('stickWood'), item('contenttweaker:lumber_planks.ebony'), ore('stickWood')],
+    [item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony')],
+    [ore('stickWood'), item('contenttweaker:lumber_planks.ebony'), ore('stickWood')]
 )
 
 // Basic Drawer
@@ -1205,16 +1205,16 @@ item('storagedrawersunlimited:basicdrawers_forestry_ipe').tweakRecipe(
 
 // Basic Drawers 2x2
 (item('storagedrawersunlimited:basicdrawers_biomesoplenty_ebony', 2) * 4).tweakRecipe(
-    [ore('chestWood'), item('contenttweaker:lumber_planks.ebony'), ore('chestWood')],
-    [item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony')],
-    [ore('chestWood'), item('contenttweaker:lumber_planks.ebony'), ore('chestWood')]
+    [ore('chestWood'), item('contenttweaker:lumber_ebony'), ore('chestWood')],
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
+    [ore('chestWood'), item('contenttweaker:lumber_ebony'), ore('chestWood')]
 )
 
 // Basic Drawers 2x2
 (item('storagedrawersunlimited:basicdrawers_biomesoplenty_ebony', 2) * 4).tweakRecipe(
-    [ore('chestWood'), item('contenttweaker:lumber_ebony'), ore('chestWood')],
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
-    [ore('chestWood'), item('contenttweaker:lumber_ebony'), ore('chestWood')]
+    [ore('chestWood'), item('contenttweaker:lumber_planks.ebony'), ore('chestWood')],
+    [item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony'), item('contenttweaker:lumber_planks.ebony')],
+    [ore('chestWood'), item('contenttweaker:lumber_planks.ebony'), ore('chestWood')]
 )
 
 // Basic Drawer

@@ -41,6 +41,6 @@ item('tconstruct:tooltables', 5).tweakRecipe(
 )
 
 // Stencil Table
-item('tconstruct:tooltables', 1).withNbt(["textureBlock": ["id": "minecraft:planks", "Count": 1, "Damage": (short) 0]]).tweakRecipe(
+item('tconstruct:tooltables', 1).withNbt(['textureBlock': ['id': 'minecraft:planks', 'Count': 1, 'Damage': (short) 0]]).tweakRecipe(
     [item('tconstruct:pattern'), item('contenttweaker:lumber_vanilla_oak'), null]
 )

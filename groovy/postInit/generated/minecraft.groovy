@@ -19,9 +19,21 @@ item('minecraft:stone_button').tweakRecipe(
 
 // Redstone Repeater
 item('minecraft:repeater').tweakRecipe(
+    [item('minecraft:redstone_torch'), ore('dustRedstone'), item('minecraft:redstone_torch')],
+    [ore('stones'), ore('stones'), ore('stones')]
+)
+
+// Redstone Repeater
+item('minecraft:repeater').tweakRecipe(
     [ore('dustRedstone'), null, ore('dustRedstone')],
     [ore('stickWood'), ore('dustRedstone'), ore('stickWood')],
     [ore('stones'), ore('stones'), ore('stones')]
+)
+
+// Minecart with Chest
+item('minecraft:chest_minecart').tweakRecipe(
+    [ore('ingotIron'), ore('chestWood'), ore('ingotIron')],
+    [ore('ingotIron'), ore('ingotIron'), ore('ingotIron')]
 )
 
 // Minecart with Chest
@@ -99,18 +111,6 @@ item('minecraft:bed', 4).tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
-// Minecart with Chest
-item('minecraft:chest_minecart').tweakRecipe(
-    [ore('ingotIron'), ore('chestWood'), ore('ingotIron')],
-    [ore('ingotIron'), ore('ingotIron'), ore('ingotIron')]
-)
-
-// Redstone Repeater
-item('minecraft:repeater').tweakRecipe(
-    [item('minecraft:redstone_torch'), ore('dustRedstone'), item('minecraft:redstone_torch')],
-    [ore('stones'), ore('stones'), ore('stones')]
-)
-
 // Jungle Door
 (item('minecraft:jungle_door') * 3).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')],
@@ -180,6 +180,12 @@ item('minecraft:bed').tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
+// White Bed
+item('minecraft:bed').tweakRecipe(
+    [ore('blockWool'), ore('blockWool'), ore('blockWool')],
+    [ore('lumber'), ore('lumber'), ore('lumber')]
+)
+
 // Observer
 item('minecraft:observer').tweakRecipe(
     [ore('rocks'), ore('rocks'), ore('rocks')],
@@ -192,12 +198,6 @@ item('minecraft:furnace').tweakRecipe(
     [ore('stones'), ore('stones'), ore('stones')],
     [ore('stones'), item('pyrotech:furnace_core'), ore('stones')],
     [ore('stones'), ore('stones'), ore('stones')]
-)
-
-// White Bed
-item('minecraft:bed').tweakRecipe(
-    [ore('blockWool'), ore('blockWool'), ore('blockWool')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
 // Note Block

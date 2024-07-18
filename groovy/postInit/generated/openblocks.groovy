@@ -111,42 +111,42 @@ item('openblocks:elevator').tweakRecipe(
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 15790320, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 15790320, 'Mode': 0]).tweakRecipe(
     ore('dyeWhite'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 14602026, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 14602026, 'Mode': 0]).tweakRecipe(
     ore('dyeYellow'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 6719955, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 6719955, 'Mode': 0]).tweakRecipe(
     ore('dyeLightBlue'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 12801229, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 12801229, 'Mode': 0]).tweakRecipe(
     ore('dyeMagenta'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 15435844, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 15435844, 'Mode': 0]).tweakRecipe(
     ore('dyeOrange'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 4408131, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 4408131, 'Mode': 0]).tweakRecipe(
     ore('dyeGray'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 14188952, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 14188952, 'Mode': 0]).tweakRecipe(
     ore('dyePink'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 4312372, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 4312372, 'Mode': 0]).tweakRecipe(
     ore('dyeLime'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
@@ -313,52 +313,52 @@ item('openblocks:elevator_rotating', 15).tweakRecipe(
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 3887386, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 3887386, 'Mode': 0]).tweakRecipe(
     ore('dyeGreen'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 5320730, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 5320730, 'Mode': 0]).tweakRecipe(
     ore('dyeBrown'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 1973019, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 1973019, 'Mode': 0]).tweakRecipe(
     ore('dyeBlack'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 11743532, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 11743532, 'Mode': 0]).tweakRecipe(
     ore('dyeRed'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Pencil
-item('openblocks:imaginary').withNbt(["Uses": 10.0D, "Mode": 0]).tweakRecipe(
-    item('minecraft:coal'), ore('stickWood'), item('mekanism:controlcircuit', 3), ore('slimeball')
-)
-
-// Magic Pencil
-item('openblocks:imaginary').withNbt(["Uses": 10.0D, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary').withNbt(['Uses': 10.0D, 'Mode': 0]).tweakRecipe(
     item('minecraft:coal', 1), ore('stickWood'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
+// Magic Pencil
+item('openblocks:imaginary').withNbt(['Uses': 10.0D, 'Mode': 0]).tweakRecipe(
+    item('minecraft:coal'), ore('stickWood'), item('mekanism:controlcircuit', 3), ore('slimeball')
+)
+
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 2651799, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 2651799, 'Mode': 0]).tweakRecipe(
     ore('dyeCyan'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 11250603, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 11250603, 'Mode': 0]).tweakRecipe(
     ore('dyeLightGray'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 2437522, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 2437522, 'Mode': 0]).tweakRecipe(
     ore('dyeBlue'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon
-item('openblocks:imaginary', 1).withNbt(["Uses": 10.0D, "Color": 8073150, "Mode": 0]).tweakRecipe(
+item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 8073150, 'Mode': 0]).tweakRecipe(
     ore('dyePurple'), item('minecraft:paper'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 

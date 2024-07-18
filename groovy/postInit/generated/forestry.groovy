@@ -32,8 +32,85 @@ item('forestry:fence.gates.plum').tweakRecipe(
 // Database
 item('forestry:database').tweakRecipe(
     [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:bee_chest'), item('forestry:sturdy_machine'), item('forestry:tree_chest')],
+    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:bee_chest'), item('forestry:sturdy_machine'), item('forestry:tree_chest')],
+    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:bee_chest'), item('forestry:sturdy_machine'), item('forestry:butterfly_chest')],
+    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:bee_chest'), item('forestry:sturdy_machine'), item('forestry:butterfly_chest')],
+    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:tree_chest'), item('forestry:sturdy_machine'), item('forestry:bee_chest')],
+    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:tree_chest'), item('forestry:sturdy_machine'), item('forestry:bee_chest')],
+    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:tree_chest'), item('forestry:sturdy_machine'), item('forestry:butterfly_chest')],
+    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:tree_chest'), item('forestry:sturdy_machine'), item('forestry:butterfly_chest')],
+    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
     [item('forestry:butterfly_chest'), item('forestry:sturdy_machine'), item('forestry:bee_chest')],
     [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:butterfly_chest'), item('forestry:sturdy_machine'), item('forestry:bee_chest')],
+    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:butterfly_chest'), item('forestry:sturdy_machine'), item('forestry:tree_chest')],
+    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
+)
+
+// Database
+item('forestry:database').tweakRecipe(
+    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
+    [item('forestry:butterfly_chest'), item('forestry:sturdy_machine'), item('forestry:tree_chest')],
+    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
 )
 
 // Poplar Fence Gate
@@ -55,24 +132,10 @@ item('forestry:fence.gates.poplar').tweakRecipe(
     [item('contenttweaker:lumber_planks.kapok'), item('contenttweaker:lumber_planks.kapok'), null]
 )
 
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:tree_chest'), item('forestry:sturdy_machine'), item('forestry:butterfly_chest')],
-    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
-)
-
 // Giant Sequoia Fence Gate
 item('forestry:fence.gates.giganteum').tweakRecipe(
     [ore('stickWood'), item('contenttweaker:lumber_planks.giganteum'), ore('stickWood')],
     [ore('stickWood'), item('contenttweaker:lumber_planks.giganteum'), ore('stickWood')]
-)
-
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:bee_chest'), item('forestry:sturdy_machine'), item('forestry:tree_chest')],
-    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
 )
 
 // Papaya Fence
@@ -125,13 +188,6 @@ item('forestry:fence.gates.citrus').tweakRecipe(
     [item('contenttweaker:lumber_planks.cherry'), ore('stickWood'), item('contenttweaker:lumber_planks.cherry')]
 )
 
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:bee_chest'), item('forestry:sturdy_machine'), item('forestry:butterfly_chest')],
-    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
-)
-
 // Cherry Stairs
 (item('forestry:stairs.cherry') * 4).tweakRecipe(
     [item('contenttweaker:lumber_planks.cherry'), null, null],
@@ -144,13 +200,6 @@ item('forestry:database').tweakRecipe(
     [item('contenttweaker:lumber_planks.chestnut'), item('contenttweaker:lumber_planks.chestnut'), null],
     [item('contenttweaker:lumber_planks.chestnut'), item('contenttweaker:lumber_planks.chestnut'), null],
     [item('contenttweaker:lumber_planks.chestnut'), item('contenttweaker:lumber_planks.chestnut'), null]
-)
-
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:tree_chest'), item('forestry:sturdy_machine'), item('forestry:bee_chest')],
-    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
 )
 
 // Padauk Fence
@@ -179,13 +228,6 @@ item('forestry:database').tweakRecipe(
     [item('contenttweaker:lumber_planks.padauk'), item('contenttweaker:lumber_planks.padauk'), item('contenttweaker:lumber_planks.padauk')]
 )
 
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:bee_chest'), item('forestry:sturdy_machine'), item('forestry:tree_chest')],
-    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
-)
-
 // Chestnut Fence Gate
 item('forestry:fence.gates.chestnut').tweakRecipe(
     [ore('stickWood'), item('contenttweaker:lumber_planks.chestnut'), ore('stickWood')],
@@ -204,13 +246,6 @@ item('forestry:fence.gates.chestnut').tweakRecipe(
     [item('contenttweaker:lumber_planks.zebrawood'), item('contenttweaker:lumber_planks.zebrawood'), null],
     [item('contenttweaker:lumber_planks.zebrawood'), item('contenttweaker:lumber_planks.zebrawood'), null],
     [item('contenttweaker:lumber_planks.zebrawood'), item('contenttweaker:lumber_planks.zebrawood'), null]
-)
-
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:butterfly_chest'), item('forestry:sturdy_machine'), item('forestry:tree_chest')],
-    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
 )
 
 // Poplar Fence
@@ -382,13 +417,6 @@ item('forestry:digger_bag').tweakRecipe(
     [item('minecraft:string'), item('minecraft:wool'), item('minecraft:string')]
 )
 
-// Genetic Filter
-(item('forestry:genetic_filter') * 2).tweakRecipe(
-    [ore('lumber'), ore('gemDiamond'), ore('lumber')],
-    [ore('fruitForestry'), ore('blockGlass'), ore('fruitForestry')],
-    [ore('gearBronze'), ore('gemDiamond'), ore('gearBronze')]
-)
-
 // Palm Door
 (item('forestry:doors.palm') * 3).tweakRecipe(
     [item('contenttweaker:lumber_planks.palm'), item('contenttweaker:lumber_planks.palm'), null],
@@ -396,18 +424,32 @@ item('forestry:digger_bag').tweakRecipe(
     [item('contenttweaker:lumber_planks.palm'), item('contenttweaker:lumber_planks.palm'), null]
 )
 
-// Papaya Stairs
-(item('forestry:stairs.papaya') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_planks.papaya'), null, null],
-    [item('contenttweaker:lumber_planks.papaya'), item('contenttweaker:lumber_planks.papaya'), null],
-    [item('contenttweaker:lumber_planks.papaya'), item('contenttweaker:lumber_planks.papaya'), item('contenttweaker:lumber_planks.papaya')]
-)
-
 // Genetic Filter
 (item('forestry:genetic_filter') * 2).tweakRecipe(
     [ore('lumber'), ore('gemDiamond'), ore('lumber')],
     [item('forestry:propolis'), ore('blockGlass'), item('forestry:propolis')],
     [ore('gearBronze'), ore('gemDiamond'), ore('gearBronze')]
+)
+
+// Genetic Filter
+(item('forestry:genetic_filter') * 2).tweakRecipe(
+    [ore('lumber'), ore('gemDiamond'), ore('lumber')],
+    [ore('fruitForestry'), ore('blockGlass'), ore('fruitForestry')],
+    [ore('gearBronze'), ore('gemDiamond'), ore('gearBronze')]
+)
+
+// Genetic Filter
+(item('forestry:genetic_filter') * 2).tweakRecipe(
+    [ore('lumber'), ore('gemDiamond'), ore('lumber')],
+    [item('forestry:caterpillar_ge').withNbt(['IsAnalyzed': (byte) 0, 'Health': 20, 'MaxH': 20, 'Genome': ['Chromosomes': [['Slot': (byte) 0, 'UID0': 'forestry.mothBrimstone', 'UID1': 'forestry.mothBrimstone'], ['Slot': (byte) 1, 'UID0': 'forestry.sizeSmall', 'UID1': 'forestry.sizeSmall'], ['Slot': (byte) 2, 'UID0': 'forestry.speedSlowest', 'UID1': 'forestry.speedSlowest'], ['Slot': (byte) 3, 'UID0': 'forestry.lifespanShorter', 'UID1': 'forestry.lifespanShorter'], ['Slot': (byte) 4, 'UID0': 'forestry.i3d', 'UID1': 'forestry.i3d'], ['Slot': (byte) 5, 'UID0': 'forestry.i3d', 'UID1': 'forestry.i3d'], ['Slot': (byte) 6, 'UID0': 'forestry.toleranceNone', 'UID1': 'forestry.toleranceNone'], ['Slot': (byte) 7, 'UID0': 'forestry.toleranceNone', 'UID1': 'forestry.toleranceNone'], ['Slot': (byte) 8, 'UID0': 'forestry.boolFalse', 'UID1': 'forestry.boolFalse'], ['Slot': (byte) 9, 'UID0': 'forestry.boolFalse', 'UID1': 'forestry.boolFalse'], ['Slot': (byte) 10, 'UID0': 'forestry.boolFalse', 'UID1': 'forestry.boolFalse'], ['Slot': (byte) 11, 'UID0': 'forestry.flowersVanilla', 'UID1': 'forestry.flowersVanilla'], ['Slot': (byte) 12, 'UID0': 'forestry.bfNone', 'UID1': 'forestry.bfNone'], ['Slot': (byte) 13, 'UID0': 'forestry.cocoonDefault', 'UID1': 'forestry.cocoonDefault']]]]), ore('blockGlass'), item('forestry:caterpillar_ge').withNbt(['IsAnalyzed': (byte) 0, 'Health': 20, 'MaxH': 20, 'Genome': ['Chromosomes': [['Slot': (byte) 0, 'UID0': 'forestry.mothBrimstone', 'UID1': 'forestry.mothBrimstone'], ['Slot': (byte) 1, 'UID0': 'forestry.sizeSmall', 'UID1': 'forestry.sizeSmall'], ['Slot': (byte) 2, 'UID0': 'forestry.speedSlowest', 'UID1': 'forestry.speedSlowest'], ['Slot': (byte) 3, 'UID0': 'forestry.lifespanShorter', 'UID1': 'forestry.lifespanShorter'], ['Slot': (byte) 4, 'UID0': 'forestry.i3d', 'UID1': 'forestry.i3d'], ['Slot': (byte) 5, 'UID0': 'forestry.i3d', 'UID1': 'forestry.i3d'], ['Slot': (byte) 6, 'UID0': 'forestry.toleranceNone', 'UID1': 'forestry.toleranceNone'], ['Slot': (byte) 7, 'UID0': 'forestry.toleranceNone', 'UID1': 'forestry.toleranceNone'], ['Slot': (byte) 8, 'UID0': 'forestry.boolFalse', 'UID1': 'forestry.boolFalse'], ['Slot': (byte) 9, 'UID0': 'forestry.boolFalse', 'UID1': 'forestry.boolFalse'], ['Slot': (byte) 10, 'UID0': 'forestry.boolFalse', 'UID1': 'forestry.boolFalse'], ['Slot': (byte) 11, 'UID0': 'forestry.flowersVanilla', 'UID1': 'forestry.flowersVanilla'], ['Slot': (byte) 12, 'UID0': 'forestry.bfNone', 'UID1': 'forestry.bfNone'], ['Slot': (byte) 13, 'UID0': 'forestry.cocoonDefault', 'UID1': 'forestry.cocoonDefault']]]])],
+    [ore('gearBronze'), ore('gemDiamond'), ore('gearBronze')]
+)
+
+// Papaya Stairs
+(item('forestry:stairs.papaya') * 4).tweakRecipe(
+    [item('contenttweaker:lumber_planks.papaya'), null, null],
+    [item('contenttweaker:lumber_planks.papaya'), item('contenttweaker:lumber_planks.papaya'), null],
+    [item('contenttweaker:lumber_planks.papaya'), item('contenttweaker:lumber_planks.papaya'), item('contenttweaker:lumber_planks.papaya')]
 )
 
 // Maple Stairs
@@ -436,13 +478,6 @@ item('forestry:fence.gates.ebony').tweakRecipe(
     [ore('stickWood'), item('contenttweaker:lumber_planks.ebony'), ore('stickWood')]
 )
 
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:bee_chest'), item('forestry:sturdy_machine'), item('forestry:butterfly_chest')],
-    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
-)
-
 // Palm Fence
 (item('forestry:fences.1', 2) * 3).tweakRecipe(
     [item('contenttweaker:lumber_planks.palm'), ore('stickWood'), item('contenttweaker:lumber_planks.palm')],
@@ -460,13 +495,6 @@ item('forestry:fence.gates.wenge').tweakRecipe(
     [item('contenttweaker:lumber_planks.plum'), null, null],
     [item('contenttweaker:lumber_planks.plum'), item('contenttweaker:lumber_planks.plum'), null],
     [item('contenttweaker:lumber_planks.plum'), item('contenttweaker:lumber_planks.plum'), item('contenttweaker:lumber_planks.plum')]
-)
-
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:tree_chest'), item('forestry:sturdy_machine'), item('forestry:bee_chest')],
-    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
 )
 
 // Zebrawood Fence Gate
@@ -517,13 +545,6 @@ item('forestry:fence.gates.lime').tweakRecipe(
 (item('forestry:fences.1', 6) * 3).tweakRecipe(
     [item('contenttweaker:lumber_planks.maple'), ore('stickWood'), item('contenttweaker:lumber_planks.maple')],
     [item('contenttweaker:lumber_planks.maple'), ore('stickWood'), item('contenttweaker:lumber_planks.maple')]
-)
-
-// Genetic Filter
-(item('forestry:genetic_filter') * 2).tweakRecipe(
-    [ore('lumber'), ore('gemDiamond'), ore('lumber')],
-    [null, ore('blockGlass'), null],
-    [ore('gearBronze'), ore('gemDiamond'), ore('gearBronze')]
 )
 
 // Desert Acacia Fence Gate
@@ -584,13 +605,6 @@ item('forestry:fence.gates.larch').tweakRecipe(
     [item('contenttweaker:lumber_planks.papaya'), item('contenttweaker:lumber_planks.papaya'), null],
     [item('contenttweaker:lumber_planks.papaya'), item('contenttweaker:lumber_planks.papaya'), null],
     [item('contenttweaker:lumber_planks.papaya'), item('contenttweaker:lumber_planks.papaya'), null]
-)
-
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:butterfly_chest'), item('forestry:sturdy_machine'), item('forestry:tree_chest')],
-    [ore('lumber'), item('forestry:royal_jelly'), ore('lumber')]
 )
 
 // Larch Door
@@ -695,24 +709,10 @@ item('forestry:bee_house').tweakRecipe(
     [item('contenttweaker:lumber_planks.cocobolo'), item('contenttweaker:lumber_planks.cocobolo'), item('contenttweaker:lumber_planks.cocobolo')]
 )
 
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:butterfly_chest'), item('forestry:sturdy_machine'), item('forestry:bee_chest')],
-    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
-)
-
 // Kapok Fence
 (item('forestry:fences.0', 8) * 3).tweakRecipe(
     [item('contenttweaker:lumber_planks.kapok'), ore('stickWood'), item('contenttweaker:lumber_planks.kapok')],
     [item('contenttweaker:lumber_planks.kapok'), ore('stickWood'), item('contenttweaker:lumber_planks.kapok')]
-)
-
-// Database
-item('forestry:database').tweakRecipe(
-    [ore('ingotBronze'), item('forestry:portable_alyzer'), ore('ingotBronze')],
-    [item('forestry:tree_chest'), item('forestry:sturdy_machine'), item('forestry:butterfly_chest')],
-    [ore('lumber'), item('forestry:fruits', 4), ore('lumber')]
 )
 
 // Papaya Fence Gate

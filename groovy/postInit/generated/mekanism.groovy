@@ -1,15 +1,15 @@
 
 // Basic Bin
-item('mekanism:basicblock', 6).withNbt(["tier": 0]).tweakRecipe(
+item('mekanism:basicblock', 6).withNbt(['tier': 0]).tweakRecipe(
     [ore('rocks'), ore('circuitBasic'), ore('rocks')],
     [ore('alloyBasic'), null, ore('alloyBasic')],
     [ore('rocks'), ore('rocks'), ore('rocks')]
 )
 
 // Elite Bin
-item('mekanism:basicblock', 6).withNbt(["tier": 2]).tweakRecipe(
+item('mekanism:basicblock', 6).withNbt(['tier': 2]).tweakRecipe(
     [ore('rocks'), ore('circuitElite'), ore('rocks')],
-    [ore('alloyElite'), item('mekanism:basicblock', 6).withNbt(["tier": 1]), ore('alloyElite')],
+    [ore('alloyElite'), item('mekanism:basicblock', 6).withNbt(['tier': 1]), ore('alloyElite')],
     [ore('rocks'), ore('rocks'), ore('rocks')]
 )
 
@@ -49,15 +49,15 @@ item('mekanism:tierinstaller', 1).tweakRecipe(
 )
 
 // Ultimate Bin
-item('mekanism:basicblock', 6).withNbt(["tier": 3]).tweakRecipe(
+item('mekanism:basicblock', 6).withNbt(['tier': 3]).tweakRecipe(
     [ore('rocks'), ore('circuitUltimate'), ore('rocks')],
-    [ore('alloyUltimate'), item('mekanism:basicblock', 6).withNbt(["tier": 2]), ore('alloyUltimate')],
+    [ore('alloyUltimate'), item('mekanism:basicblock', 6).withNbt(['tier': 2]), ore('alloyUltimate')],
     [ore('rocks'), ore('rocks'), ore('rocks')]
 )
 
 // Advanced Bin
-item('mekanism:basicblock', 6).withNbt(["tier": 1]).tweakRecipe(
+item('mekanism:basicblock', 6).withNbt(['tier': 1]).tweakRecipe(
     [ore('rocks'), ore('circuitAdvanced'), ore('rocks')],
-    [ore('alloyAdvanced'), item('mekanism:basicblock', 6).withNbt(["tier": 0]), ore('alloyAdvanced')],
+    [ore('alloyAdvanced'), item('mekanism:basicblock', 6).withNbt(['tier': 0]), ore('alloyAdvanced')],
     [ore('rocks'), ore('rocks'), ore('rocks')]
 )

@@ -51,6 +51,13 @@ item('mocreatures:kittybed_red').tweakRecipe(
 // Wyvern Portal Staff
 item('mocreatures:staffportal').tweakRecipe(
     [null, null, item('mekanism:controlcircuit', 3)],
+    [null, item('mocreatures:unicornhorn'), null],
+    [item('minecraft:blaze_rod'), null, null]
+)
+
+// Wyvern Portal Staff
+item('mocreatures:staffportal').tweakRecipe(
+    [null, null, item('mekanism:controlcircuit', 3)],
     [null, item('mocreatures:essencelight'), null],
     [item('minecraft:blaze_rod'), null, null]
 )
@@ -97,13 +104,6 @@ item('mocreatures:tuskswood').tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
-// Wyvern Portal Staff
-item('mocreatures:staffportal').tweakRecipe(
-    [null, null, item('mekanism:controlcircuit', 3)],
-    [null, item('mocreatures:unicornhorn'), null],
-    [item('minecraft:blaze_rod'), null, null]
-)
-
 // Orange Kitty Bed
 item('mocreatures:kittybed_orange').tweakRecipe(
     [item('minecraft:wool', 1), ore('lumber'), item('minecraft:wool', 1)],
@@ -116,6 +116,13 @@ item('mocreatures:kittybed_brown').tweakRecipe(
     [item('minecraft:wool', 12), ore('lumber'), item('minecraft:wool', 12)],
     [ore('lumber'), null, ore('lumber')],
     [item('minecraft:wool', 12), null, ore('ingotIron')]
+)
+
+// Shark Mattock
+item('mocreatures:shark_mattock').tweakRecipe(
+    [item('mocreatures:sharkteeth'), item('mocreatures:sharkteeth'), item('mocreatures:sharkteeth')],
+    [item('mocreatures:sharkteeth'), ore('lumber'), null],
+    [null, ore('stickWood'), null]
 )
 
 // Lime Kitty Bed
