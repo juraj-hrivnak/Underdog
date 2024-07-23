@@ -63,19 +63,6 @@ class Replacer {
 
         new File("groovy/postInit/generated").deleteDir()
 
-
-crafting.streamRecipes().each { recipe ->
-    String result = null
-
-    recipe.ingredients.each { ingredient ->
-        if (ingredient instanceof OreDictIngredient) {
-            result = IngredientHelper.asGroovyCode(ingredient.oreDict, false)
-        }
-    }
-
-    log.info(result)
-}
-
         crafting.streamRecipes().each { recipe ->
             if (recipe !instanceof com.cleanroommc.groovyscript.registry.DummyRecipe
                     && recipe.registryName != null
