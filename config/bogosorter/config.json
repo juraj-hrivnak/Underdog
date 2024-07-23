@@ -3,7 +3,9 @@
     "enableAutoRefill": true,
     "refillDmgThreshold": 1,
     "enableHotbarSwap": false,
-    "sortSound": "minecraft:ui.button.click"
+    "sortSound": "minecraft:ui.button.click",
+    "buttonColor": "#ffffffff",
+    "_comment": "By setting the chance below to 0 you agree to have no humor and that you are boring."
   },
   "ItemSortRules": [],
   "NbtSortRules": []

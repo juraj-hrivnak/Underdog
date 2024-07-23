@@ -1,0 +1,19 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[triggers.generic]
+		song_delay = "20000"
+	[triggers.universal]
+		fade_out = "0"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "0"
+		start_delay = "0"
+		stop_delay = "0"
+		fade_in = "0"
+[songs]
+	[songs.prok]
+		triggers = [ "generic" ]
+	[songs.universal]
