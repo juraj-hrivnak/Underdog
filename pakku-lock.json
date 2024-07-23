@@ -1750,7 +1750,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Bundles-1.1.jar",
+                    "file_name": "Bundles-1.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -1758,17 +1758,17 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4812/898/Bundles-1.1.jar",
-                    "id": "4812898",
+                    "url": "https://edge.forgecdn.net/files/5546/832/Bundles-1.2.jar",
+                    "id": "5546832",
                     "parent_id": "902861",
                     "hashes": {
-                        "sha1": "f9fa1bd2270110ee34abf2d3b6118736688dfd08",
-                        "md5": "aca67f533b362f4d075b227a43a73529"
+                        "sha1": "be4852a53ddc68600e461656507f81f09a2755cb",
+                        "md5": "022d60308b6ec14690a5231bbeaa5e8b"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 209171
+                    "size": 205314
                 }
             ]
         },
@@ -8883,7 +8883,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ReachFix-1.12.2-1.0.9.jar",
+                    "file_name": "ReachFix-1.12.2-1.0.10.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -8891,16 +8891,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4633/407/ReachFix-1.12.2-1.0.9.jar",
-                    "id": "4633407",
+                    "url": "https://edge.forgecdn.net/files/5543/551/ReachFix-1.12.2-1.0.10.jar",
+                    "id": "5543551",
                     "parent_id": "556777",
                     "hashes": {
-                        "sha1": "a6fe5576198f16f90d551d2527cef332112208a3",
-                        "md5": "cda589e41703b9452a6f95e80e23b2c1"
+                        "sha1": "65766853409c7d8c95a5d3d6a664d8afb34b9345",
+                        "md5": "70231a14fa61e494836615442568c3fc"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 63248
+                    "size": 63253
                 }
             ]
         },
@@ -10505,7 +10505,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Somnia-1.0.jar",
+                    "file_name": "Somnia-1.0.1.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10513,20 +10513,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5533/373/Somnia-1.0.jar",
-                    "id": "5533373",
+                    "url": "https://edge.forgecdn.net/files/5544/381/Somnia-1.0.1.jar",
+                    "id": "5544381",
                     "parent_id": "1062151",
                     "hashes": {
-                        "sha1": "398f9258cc43076feb734c105902f7952bb2da34",
-                        "md5": "fbe1dcbbc1a14e44b9e0abfa2ccb9ad6"
+                        "sha1": "2d9cc5cb5b490a92eaaefe1d107ae68252852d0a",
+                        "md5": "cdc64b15e878ecbf939fcc6bf6e304e1"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 4798420
+                    "size": 4798650
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "Somnia-1.0.jar",
+                    "file_name": "Somnia-1.0.1.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10534,16 +10534,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/xUSE1CmZ/versions/R7Scr23w/Somnia-1.0.jar",
-                    "id": "R7Scr23w",
+                    "url": "https://cdn.modrinth.com/data/xUSE1CmZ/versions/2d0E2nZk/Somnia-1.0.1.jar",
+                    "id": "2d0E2nZk",
                     "parent_id": "xUSE1CmZ",
                     "hashes": {
-                        "sha512": "853d0429b9cedda93726a19c620d800e1d4ee102b1090fcd413c1baf979626d42e4785f186ccfa128873fc3f05c06c63652cd061b5e6ab45b22a8af0503e384b",
-                        "sha1": "ff72a514db70add650a0f69418260640abc6712f"
+                        "sha512": "55578d9eaa2628d68b2b30cfdf564af162726feea2c1e7c0da5d7ea70df3a3dca38165526a21c8c94d72451a0c9eb5f03f407d3047439ed2d0b44f3ade845d48",
+                        "sha1": "cbe29632d921d60da2bda2f8321e0922b05ac004"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 4798419
+                    "size": 4798650
                 }
             ]
         },
