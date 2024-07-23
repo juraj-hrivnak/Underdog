@@ -13,7 +13,7 @@ def knifeCarving = [
     (item('animania:sheep_cheese_wedge'))       : item('animania:sheep_cheese_wheel')     ,
     (item('animania:raw_prime_bacon'))          : item('animania:raw_prime_pork')         ,
     (item('animania:raw_prime_steak'))          : item('animania:raw_prime_beef')         ,
-    (item('animania:block_straw'))              : item('minecraft:wheat')
+    // (item('animania:block_straw'))              : item('minecraft:wheat')
 ]
 
 for (x in knifeCarving) {
