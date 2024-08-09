@@ -88,14 +88,15 @@ event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
 
     if (Minecraft.getMinecraft().currentScreen?.isShiftKeyDown()) {
         List<String> itemTooltips = event.toolTip
-        def modName = Utils.getModName(event.itemStack)
 
-        if (modName != null) {
-
-            def tooltip = "${Colors.AQUA}${Formats.ITALIC}$modName"
+        Utils.getModName(event.itemStack)?.tap {
+            String firstTooltip = "${Colors.BLUE}${Formats.BOLD}(${Formats.RESET}${event.toolTip.first()}${Colors.BLUE}${Formats.BOLD})"
+            String tooltip = "${Colors.BLUE}${Formats.ITALIC}${Formats.BOLD}$it"
 
             if (tooltip !in itemTooltips) {
-                itemTooltips.add(0, tooltip)
+                itemTooltips.removeAt(0)
+                itemTooltips.add(0, firstTooltip.toString())
+                itemTooltips.add(1, tooltip.toString())
             }
         }
     }

@@ -30,8 +30,6 @@ class Utils {
                     // Add debug tooltip (Dev only)
                     itemStack.addTooltip("Hidden & removed from " +
                             StackTraceUtils.deepSanitize(new Exception()).stackTrace[7].fileName)
-
-                    log.info(StackTraceUtils.deepSanitize(new Exception()).stackTrace.toString())
                 } else {
                     // Remove from every creative tab (Production only)
                     TabulatorAPI.removeItem(itemStack)

@@ -67,13 +67,13 @@ def bucketClay =
 
 item('minecraft:milk_bucket').tweakRecipe(bucketIron.noReturn())
 
-crafting.shapelessBuilder()
-    .output(item('pyrotech:bucket_refractory', 1))
-    .input(bucketRefractory.noReturn())
-    .recipeFunction { item ->
-        item.copyWithMeta(item.getItemDamage() + 1)
-    }
-    .register()
+// crafting.shapelessBuilder()
+//     .output(item('pyrotech:bucket_refractory', 1))
+//     .input(bucketRefractory.noReturn().setMark("bucket"))
+//     .recipeFunction {ItemStack result, Map<String, ItemStack> markedInputs, _ ->
+//         result.withDamage(markedInputs["bucket"].damage)
+//     }
+//     .register()
 
 //  [ bucketRefractory.noReturn().marked('bucket') ],
 //     def (out, ins, cInfo) {
