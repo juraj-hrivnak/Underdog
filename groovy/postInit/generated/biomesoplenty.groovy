@@ -26,14 +26,16 @@ item('biomesoplenty:jacaranda_fence_gate').tweakRecipe(
 
 // Willow Door
 (item('biomesoplenty:willow_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')],
-    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')]
+    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')],
+    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')],
+    [item('contenttweaker:lumber_willow'), item('contenttweaker:lumber_willow')]
 )
 
 // Jacaranda Door
 (item('biomesoplenty:jacaranda_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')],
-    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')]
+    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')],
+    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')],
+    [item('contenttweaker:lumber_jacaranda'), item('contenttweaker:lumber_jacaranda')]
 )
 
 // Fir Boat
@@ -63,8 +65,9 @@ item('biomesoplenty:boat_fir').tweakRecipe(
 
 // Eucalyptus Door
 (item('biomesoplenty:eucalyptus_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus')],
-    [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus')]
+    [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus')],
+    [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus')],
+    [item('contenttweaker:lumber_eucalyptus'), item('contenttweaker:lumber_eucalyptus')]
 )
 
 // Mahogany Fence
@@ -89,8 +92,9 @@ item('biomesoplenty:boat_fir').tweakRecipe(
 
 // Mahogany Door
 (item('biomesoplenty:mahogany_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')],
-    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')]
+    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')],
+    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')],
+    [item('contenttweaker:lumber_mahogany'), item('contenttweaker:lumber_mahogany')]
 )
 
 // Umbran Fence
@@ -138,8 +142,9 @@ item('biomesoplenty:boat_umbran').tweakRecipe(
 
 // Cherry Door
 (item('biomesoplenty:cherry_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')],
-    [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')]
+    [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')],
+    [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')],
+    [item('contenttweaker:lumber_cherry'), item('contenttweaker:lumber_cherry')]
 )
 
 // Mangrove Boat
@@ -157,8 +162,9 @@ item('biomesoplenty:boat_mangrove').tweakRecipe(
 
 // Ebony Door
 (item('biomesoplenty:ebony_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
-    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')]
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')],
+    [item('contenttweaker:lumber_ebony'), item('contenttweaker:lumber_ebony')]
 )
 
 // Hellbark Wood Stairs
@@ -176,8 +182,9 @@ item('biomesoplenty:pine_fence_gate').tweakRecipe(
 
 // Redwood Door
 (item('biomesoplenty:redwood_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')],
-    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')]
+    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')],
+    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')],
+    [item('contenttweaker:lumber_redwood'), item('contenttweaker:lumber_redwood')]
 )
 
 // Redwood Boat
@@ -262,8 +269,9 @@ item('biomesoplenty:hellbark_fence_gate').tweakRecipe(
 
 // Magic Door
 (item('biomesoplenty:magic_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')],
-    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')]
+    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')],
+    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')],
+    [item('contenttweaker:lumber_magic'), item('contenttweaker:lumber_magic')]
 )
 
 // Redwood Fence Gate
@@ -274,8 +282,9 @@ item('biomesoplenty:redwood_fence_gate').tweakRecipe(
 
 // Hellbark Door
 (item('biomesoplenty:hellbark_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')],
-    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')]
+    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')],
+    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')],
+    [item('contenttweaker:lumber_hellbark'), item('contenttweaker:lumber_hellbark')]
 )
 
 // Eucalyptus Boat
@@ -292,8 +301,9 @@ item('biomesoplenty:boat_ethereal').tweakRecipe(
 
 // Pine Door
 (item('biomesoplenty:pine_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')],
-    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')]
+    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')],
+    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')],
+    [item('contenttweaker:lumber_pine'), item('contenttweaker:lumber_pine')]
 )
 
 // Sacred Oak Wood Stairs
@@ -311,8 +321,9 @@ item('biomesoplenty:boat_ethereal').tweakRecipe(
 
 // Ethereal Door
 (item('biomesoplenty:ethereal_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')],
-    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')]
+    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')],
+    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')],
+    [item('contenttweaker:lumber_ethereal'), item('contenttweaker:lumber_ethereal')]
 )
 
 // Eucalyptus Fence Gate
@@ -330,8 +341,9 @@ item('biomesoplenty:eucalyptus_fence_gate').tweakRecipe(
 
 // Palm Door
 (item('biomesoplenty:palm_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')],
-    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')]
+    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')],
+    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')],
+    [item('contenttweaker:lumber_palm'), item('contenttweaker:lumber_palm')]
 )
 
 // Ethereal Fence Gate
@@ -354,8 +366,9 @@ item('biomesoplenty:boat_pine').tweakRecipe(
 
 // Mangrove Door
 (item('biomesoplenty:mangrove_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')],
-    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')]
+    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')],
+    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')],
+    [item('contenttweaker:lumber_mangrove'), item('contenttweaker:lumber_mangrove')]
 )
 
 // Fir Wood Stairs
@@ -429,8 +442,9 @@ item('biomesoplenty:boat_magic').tweakRecipe(
 
 // Sacred Oak Door
 (item('biomesoplenty:sacred_oak_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')],
-    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')]
+    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')],
+    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')],
+    [item('contenttweaker:lumber_sacred_oak'), item('contenttweaker:lumber_sacred_oak')]
 )
 
 // Mangrove Fence Gate
@@ -454,8 +468,9 @@ item('biomesoplenty:palm_fence_gate').tweakRecipe(
 
 // Fir Door
 (item('biomesoplenty:fir_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')],
-    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')]
+    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')],
+    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')],
+    [item('contenttweaker:lumber_fir'), item('contenttweaker:lumber_fir')]
 )
 
 // Pine Wood Stairs
@@ -491,6 +506,7 @@ item('biomesoplenty:boat_jacaranda').tweakRecipe(
 
 // Umbran Door
 (item('biomesoplenty:umbran_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')],
-    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')]
+    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')],
+    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')],
+    [item('contenttweaker:lumber_umbran'), item('contenttweaker:lumber_umbran')]
 )

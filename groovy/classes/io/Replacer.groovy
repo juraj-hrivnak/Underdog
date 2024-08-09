@@ -4,6 +4,7 @@ import com.cleanroommc.groovyscript.api.IIngredient
 import com.cleanroommc.groovyscript.helper.GroovyHelper
 import com.cleanroommc.groovyscript.helper.ingredient.IngredientHelper
 import com.cleanroommc.groovyscript.helper.ingredient.OreDictIngredient
+import com.cleanroommc.groovyscript.helper.GroovyFile
 
 import net.minecraft.item.crafting.IRecipe
 import net.minecraft.item.crafting.Ingredient
@@ -12,6 +13,7 @@ import net.minecraftforge.fluids.FluidStack
 import net.minecraftforge.oredict.OreIngredient
 
 import java.lang.IllegalArgumentException
+
 
 /**
  * Generates groovy code for recipes at run-time.
@@ -51,90 +53,106 @@ class Replacer {
                 ignoredRecipes << recipe.registryName.toString()
             }
         } catch (IllegalArgumentException e) {
-            log.info(e.message)
+            log.error(e.message)
         }
     }
 
     static void run() {
-        if (!GroovyHelper.isDebug() || isRunning || !enabled) return
+        if (!GroovyHelper.isDebug() || isRunning || !enabled)
+        {
+            log.info('Replacer is disabled!')
+            return
+        }
 
         log.info('Generating replacement recipes!')
         isRunning = true
 
-        new File("groovy/postInit/generated").deleteDir()
+        new GroovyFile("groovy/postInit/generated").deleteDir()
 
-        crafting.streamRecipes().each { recipe ->
-            if (recipe !instanceof com.cleanroommc.groovyscript.registry.DummyRecipe
+        crafting.streamRecipes().filter { recipe ->
+            recipe !instanceof com.cleanroommc.groovyscript.registry.DummyRecipe
                     && recipe.registryName != null
                     && recipe.registryName.toString() !in ignoredRecipes
-                    && !recipe.ingredients.isEmpty()) {
-
-                def out = ''
-                if (recipe instanceof IShapedRecipe) {
-                    def rcp = [
-                        [null, null, null],
-                        [null, null, null],
-                        [null, null, null]
-                    ]
-
-                    recipe.ingredients.eachWithIndex { x, i ->
-                        if (i in 0..2) {
-                            rcp[0][i] = replaceIngredient(recipe, x)
-                        } else if (i in 3..5) {
-                            i -= 3
-                            rcp[1][i] = replaceIngredient(recipe, x)
-                        } else if (i in 6..8) {
-                            i -= 6
-                            rcp[2][i] = replaceIngredient(recipe, x)
-                        }
+                    && !recipe.ingredients.isEmpty()
+        }.each { recipe ->
+            def out = ''
+            if (recipe.registryName.toString().contains('_door')) {
+                def item = replaceIngredient(recipe, recipe.ingredients.find { it != null })
+                def rcp = [
+                    [item, item],
+                    [item, item],
+                    [item, item]
+                ]
+                rcp.eachWithIndex { x, i ->
+                    out += '    ' + x.toString()
+                    if (i + 1 < rcp.size()) {
+                        out += ",\n"
                     }
+                }
+            } else if (recipe instanceof IShapedRecipe) {
+                def rcp = [
+                    [null, null, null],
+                    [null, null, null],
+                    [null, null, null]
+                ]
 
-                    rcp = rcp.findAll { it != [null, null, null] }
-
-                    rcp.eachWithIndex { x, i ->
-                        out += '    ' + x.toString()
-                        if (i + 1 < rcp.size()) {
-                            out += ",\n"
-                        }
-                    }
-                } else {
-                    out += '    '
-                    recipe.ingredients.eachWithIndex { x, i ->
-                        if (replaceIngredient(recipe, x) != null) {
-                            out += replaceIngredient(recipe, x)
-                            if (i + 1 < recipe.ingredients.size()) {
-                                out += ', '
-                            }
-                        }
+                recipe.ingredients.eachWithIndex { x, i ->
+                    if (i in 0..2) {
+                        rcp[0][i] = replaceIngredient(recipe, x)
+                    } else if (i in 3..5) {
+                        i -= 3
+                        rcp[1][i] = replaceIngredient(recipe, x)
+                    } else if (i in 6..8) {
+                        i -= 6
+                        rcp[2][i] = replaceIngredient(recipe, x)
                     }
                 }
 
-                if (out != null && recipe.registryName.toString() in modifiedRecipes) {
+                rcp = rcp.findAll { it != [null, null, null] }
 
-                    def parentDir = new File("groovy/postInit/generated")
-                    if (!parentDir.exists()) {
-                        parentDir.mkdir()
+                rcp.eachWithIndex { x, i ->
+                    out += '    ' + x.toString()
+                    if (i + 1 < rcp.size()) {
+                        out += ",\n"
                     }
-
-                    def outputFile = new File("groovy/postInit/generated/${recipe.recipeOutput.item.registryName.namespace}.groovy")
-                    outputFile.append('')
-
-                    String recipeString
-                    if (recipe.recipeOutput.amount > 1) {
-                        recipeString = "\n// $recipe.recipeOutput.displayName\n" +
-                            "(${IngredientHelper.asGroovyCode(recipe.recipeOutput, false, false)} " +
-                            "* $recipe.recipeOutput.amount).tweakRecipe(\n" +
-                            out + '\n)\n'
-                    } else {
-                        recipeString = "\n// $recipe.recipeOutput.displayName\n" +
-                            "${IngredientHelper.asGroovyCode(recipe.recipeOutput, false, false)}" +
-                            ".tweakRecipe(\n" +
-                            out + '\n)\n'
+                }
+            } else {
+                out += '    '
+                recipe.ingredients.eachWithIndex { x, i ->
+                    if (replaceIngredient(recipe, x) != null) {
+                        out += replaceIngredient(recipe, x)
+                        if (i + 1 < recipe.ingredients.size()) {
+                            out += ', '
+                        }
                     }
+                }
+            }
 
-                    if (!outputFile.text.contains(recipeString)) {
-                        outputFile.append(recipeString.replace('.withNbt([])', ''))
-                    }
+            if (out != null && recipe.registryName.toString() in modifiedRecipes) {
+
+                def parentDir = new GroovyFile("groovy/postInit/generated")
+                if (!parentDir.exists()) {
+                    parentDir.mkdir()
+                }
+
+                def outputFile = new GroovyFile("groovy/postInit/generated/${recipe.recipeOutput.item.registryName.namespace}.groovy")
+                outputFile.append('')
+
+                String recipeString
+                if (recipe.recipeOutput.amount > 1) {
+                    recipeString = "\n// $recipe.recipeOutput.displayName\n" +
+                        "(${IngredientHelper.asGroovyCode(recipe.recipeOutput, false, false)}" +
+                        ").tweakRecipe(\n" +
+                        out + '\n)\n'
+                } else {
+                    recipeString = "\n// $recipe.recipeOutput.displayName\n" +
+                        "${IngredientHelper.asGroovyCode(recipe.recipeOutput, false, false)}" +
+                        ".tweakRecipe(\n" +
+                        out + '\n)\n'
+                }
+
+                if (!outputFile.text.contains(recipeString)) {
+                    outputFile.append(recipeString.replace('.withNbt([])', ''))
                 }
             }
         }

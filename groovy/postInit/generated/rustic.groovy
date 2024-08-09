@@ -72,8 +72,9 @@ item('rustic:fence_gate_olive').tweakRecipe(
 
 // Ironwood Door
 (item('rustic:ironwood_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')],
-    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')]
+    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')],
+    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')],
+    [item('contenttweaker:lumber_planks_ironwood'), item('contenttweaker:lumber_planks_ironwood')]
 )
 
 // Olive Wood Fence
@@ -139,8 +140,9 @@ item('rustic:crushing_tub').tweakRecipe(
 
 // Olive Door
 (item('rustic:olive_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')],
-    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')]
+    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')],
+    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')],
+    [item('contenttweaker:lumber_planks_olive'), item('contenttweaker:lumber_planks_olive')]
 )
 
 // Wooden Lantern

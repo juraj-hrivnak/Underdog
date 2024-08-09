@@ -1,8 +1,9 @@
 
 // Acacia Door
 (item('minecraft:acacia_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia')],
-    [item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia')]
+    [item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia')],
+    [item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia')],
+    [item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia')]
 )
 
 // Button
@@ -19,21 +20,9 @@ item('minecraft:stone_button').tweakRecipe(
 
 // Redstone Repeater
 item('minecraft:repeater').tweakRecipe(
-    [item('minecraft:redstone_torch'), ore('dustRedstone'), item('minecraft:redstone_torch')],
-    [ore('stones'), ore('stones'), ore('stones')]
-)
-
-// Redstone Repeater
-item('minecraft:repeater').tweakRecipe(
     [ore('dustRedstone'), null, ore('dustRedstone')],
     [ore('stickWood'), ore('dustRedstone'), ore('stickWood')],
     [ore('stones'), ore('stones'), ore('stones')]
-)
-
-// Minecart with Chest
-item('minecraft:chest_minecart').tweakRecipe(
-    [ore('ingotIron'), ore('chestWood'), ore('ingotIron')],
-    [ore('ingotIron'), ore('ingotIron'), ore('ingotIron')]
 )
 
 // Minecart with Chest
@@ -75,8 +64,9 @@ item('minecraft:jukebox').tweakRecipe(
 
 // Dark Oak Door
 (item('minecraft:dark_oak_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')],
-    [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')]
+    [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')],
+    [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')],
+    [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')]
 )
 
 // Oak Wood Stairs
@@ -111,10 +101,23 @@ item('minecraft:bed', 4).tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
+// Minecart with Chest
+item('minecraft:chest_minecart').tweakRecipe(
+    [ore('ingotIron'), ore('chestWood'), ore('ingotIron')],
+    [ore('ingotIron'), ore('ingotIron'), ore('ingotIron')]
+)
+
+// Redstone Repeater
+item('minecraft:repeater').tweakRecipe(
+    [item('minecraft:redstone_torch'), ore('dustRedstone'), item('minecraft:redstone_torch')],
+    [ore('stones'), ore('stones'), ore('stones')]
+)
+
 // Jungle Door
 (item('minecraft:jungle_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')],
-    [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')]
+    [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')],
+    [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')],
+    [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')]
 )
 
 // Redstone Comparator
@@ -164,8 +167,9 @@ item('minecraft:shield').tweakRecipe(
 
 // Birch Door
 (item('minecraft:birch_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch')],
-    [item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch')]
+    [item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch')],
+    [item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch')],
+    [item('contenttweaker:lumber_vanilla_birch'), item('contenttweaker:lumber_vanilla_birch')]
 )
 
 // Birch Fence Gate
@@ -177,12 +181,6 @@ item('minecraft:birch_fence_gate').tweakRecipe(
 // White Bed
 item('minecraft:bed').tweakRecipe(
     [ore('woolWhite'), ore('woolWhite'), ore('woolWhite')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
-)
-
-// White Bed
-item('minecraft:bed').tweakRecipe(
-    [ore('blockWool'), ore('blockWool'), ore('blockWool')],
     [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
@@ -198,6 +196,12 @@ item('minecraft:furnace').tweakRecipe(
     [ore('stones'), ore('stones'), ore('stones')],
     [ore('stones'), item('pyrotech:furnace_core'), ore('stones')],
     [ore('stones'), ore('stones'), ore('stones')]
+)
+
+// White Bed
+item('minecraft:bed').tweakRecipe(
+    [ore('blockWool'), ore('blockWool'), ore('blockWool')],
+    [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
 // Note Block
@@ -227,8 +231,9 @@ item('minecraft:mossy_cobblestone').tweakRecipe(
 
 // Spruce Door
 (item('minecraft:spruce_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce')],
-    [item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce')]
+    [item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce')],
+    [item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce')],
+    [item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce')]
 )
 
 // Light Blue Bed
@@ -410,6 +415,7 @@ item('minecraft:bed', 10).tweakRecipe(
 
 // Oak Door
 (item('minecraft:wooden_door') * 3).tweakRecipe(
-    [item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak')],
-    [item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak')]
+    [item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak')],
+    [item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak')],
+    [item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak')]
 )

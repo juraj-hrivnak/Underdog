@@ -1,16 +1,6 @@
 
 // Dough
 item('harvestcraft:doughitem').tweakRecipe(
-    ore('toolMixingbowl'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodFlour'), ore('itemSalt')
-)
-
-// Dough
-item('harvestcraft:doughitem').tweakRecipe(
-    ore('toolMixingbowl'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodFlour'), ore('foodSalt')
-)
-
-// Dough
-item('harvestcraft:doughitem').tweakRecipe(
     ore('toolMixingbowl'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodFlour'), ore('dustSalt')
 )
 
@@ -29,54 +19,14 @@ item('harvestcraft:juiceritem').tweakRecipe(
     ore('toolPot'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodVinegar'), ore('cropChilipepper'), ore('cropGarlic'), ore('itemSalt')
 )
 
-// Hot Sauce
-(item('harvestcraft:hotsauceitem') * 6).tweakRecipe(
-    ore('toolPot'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodVinegar'), ore('cropChilipepper'), ore('cropGarlic'), ore('foodSalt')
-)
-
-// Hot Sauce
-(item('harvestcraft:hotsauceitem') * 6).tweakRecipe(
-    ore('toolPot'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodVinegar'), ore('cropChilipepper'), ore('cropGarlic'), ore('dustSalt')
-)
-
-// Soy Sauce
-item('harvestcraft:soysauceitem').tweakRecipe(
-    ore('toolJuicer'), ore('cropSoybean'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('itemSalt')
-)
-
 // Soy Sauce
 item('harvestcraft:soysauceitem').tweakRecipe(
     ore('toolJuicer'), ore('cropSoybean'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodSalt')
 )
 
-// Soy Sauce
-item('harvestcraft:soysauceitem').tweakRecipe(
-    ore('toolJuicer'), ore('cropSoybean'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('dustSalt')
-)
-
-// Taffy
-item('harvestcraft:taffyitem').tweakRecipe(
-    ore('toolSaucepan'), ore('listAllsugar'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('itemSalt')
-)
-
 // Taffy
 item('harvestcraft:taffyitem').tweakRecipe(
     ore('toolSaucepan'), ore('listAllsugar'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodSalt')
-)
-
-// Taffy
-item('harvestcraft:taffyitem').tweakRecipe(
-    ore('toolSaucepan'), ore('listAllsugar'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('dustSalt')
-)
-
-// Soft Pretzel
-item('harvestcraft:softpretzelitem').tweakRecipe(
-    ore('toolBakeware'), ore('foodDough'), ore('foodButter'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('itemSalt')
-)
-
-// Soft Pretzel
-item('harvestcraft:softpretzelitem').tweakRecipe(
-    ore('toolBakeware'), ore('foodDough'), ore('foodButter'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodSalt')
 )
 
 // Soft Pretzel
@@ -106,29 +56,9 @@ item('harvestcraft:steamedpeasitem').tweakRecipe(
     ore('toolPot'), ore('cropPeas'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('itemSalt')
 )
 
-// Steamed Peas
-item('harvestcraft:steamedpeasitem').tweakRecipe(
-    ore('toolPot'), ore('cropPeas'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodSalt')
-)
-
-// Steamed Peas
-item('harvestcraft:steamedpeasitem').tweakRecipe(
-    ore('toolPot'), ore('cropPeas'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('dustSalt')
-)
-
-// Oyster Sauce
-item('harvestcraft:oystersauceitem').tweakRecipe(
-    ore('toolSaucepan'), ore('foodOysterraw'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('listAllsugar'), ore('itemSalt')
-)
-
 // Oyster Sauce
 item('harvestcraft:oystersauceitem').tweakRecipe(
     ore('toolSaucepan'), ore('foodOysterraw'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('listAllsugar'), ore('foodSalt')
-)
-
-// Oyster Sauce
-item('harvestcraft:oystersauceitem').tweakRecipe(
-    ore('toolSaucepan'), ore('foodOysterraw'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('listAllsugar'), ore('dustSalt')
 )
 
 // Hoisin Sauce
@@ -146,6 +76,11 @@ item('harvestcraft:eggtartitem').tweakRecipe(
     ore('toolBakeware'), ore('foodDough'), ore('listAllegg'), ore('listAllsugar'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('listAllmilk')
 )
 
+// Oyster Sauce
+item('harvestcraft:oystersauceitem').tweakRecipe(
+    ore('toolSaucepan'), ore('foodOysterraw'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('listAllsugar'), ore('itemSalt')
+)
+
 // Cutting Board
 item('harvestcraft:cuttingboarditem').tweakRecipe(
     [item('minecraft:brick'), null, null],
@@ -153,11 +88,31 @@ item('harvestcraft:cuttingboarditem').tweakRecipe(
     [null, null, ore('lumber')]
 )
 
+// Steamed Peas
+item('harvestcraft:steamedpeasitem').tweakRecipe(
+    ore('toolPot'), ore('cropPeas'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('dustSalt')
+)
+
+// Soy Sauce
+item('harvestcraft:soysauceitem').tweakRecipe(
+    ore('toolJuicer'), ore('cropSoybean'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('itemSalt')
+)
+
+// Taffy
+item('harvestcraft:taffyitem').tweakRecipe(
+    ore('toolSaucepan'), ore('listAllsugar'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('dustSalt')
+)
+
 // Shipping Bin
 item('harvestcraft:shippingbin').tweakRecipe(
     [ore('lumber'), item('minecraft:log'), ore('lumber')],
     [item('minecraft:log'), item('minecraft:emerald'), item('minecraft:log')],
     [ore('lumber'), item('minecraft:log'), ore('lumber')]
+)
+
+// Soft Pretzel
+item('harvestcraft:softpretzelitem').tweakRecipe(
+    ore('toolBakeware'), ore('foodDough'), ore('foodButter'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('itemSalt')
 )
 
 // Mochi
@@ -168,6 +123,11 @@ item('harvestcraft:mochiitem').tweakRecipe(
 // Cracker
 item('harvestcraft:crackeritem').tweakRecipe(
     ore('toolBakeware'), ore('foodFlour'), ore('foodOliveoil'), ore('foodSalt'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem'))
+)
+
+// Soft Pretzel
+item('harvestcraft:softpretzelitem').tweakRecipe(
+    ore('toolBakeware'), ore('foodDough'), ore('foodButter'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodSalt')
 )
 
 // Brioche Bun
@@ -202,6 +162,11 @@ item('harvestcraft:saltitem').tweakRecipe(
     ore('toolPot'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem'))
 )
 
+// Hot Sauce
+(item('harvestcraft:hotsauceitem') * 6).tweakRecipe(
+    ore('toolPot'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodVinegar'), ore('cropChilipepper'), ore('cropGarlic'), ore('foodSalt')
+)
+
 // Sauerbraten
 item('harvestcraft:sauerbratenitem').tweakRecipe(
     ore('toolSaucepan'), ore('listAllmeatraw'), ore('foodVinegar'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('cropSpiceleaf'), ore('cropPotato')
@@ -222,6 +187,11 @@ item('harvestcraft:gritsitem').tweakRecipe(
     ore('toolPot'), ore('foodCornmeal'), ore('listAllmilk'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('itemSalt')
 )
 
+// Steamed Peas
+item('harvestcraft:steamedpeasitem').tweakRecipe(
+    ore('toolPot'), ore('cropPeas'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodSalt')
+)
+
 // Cobblestone Cobbler
 item('harvestcraft:cobblestonecobbleritem').tweakRecipe(
     ore('toolBakeware'), ore('foodDough'), ore('foodButter'), ore('rocks'), ore('rocks'), ore('rocks'), ore('rocks'), ore('rocks'), ore('rocks')
@@ -231,6 +201,11 @@ item('harvestcraft:cobblestonecobbleritem').tweakRecipe(
 item('harvestcraft:mixingbowlitem').tweakRecipe(
     [ore('lumber'), ore('stickWood'), ore('lumber')],
     [null, ore('lumber'), null]
+)
+
+// Hot Sauce
+(item('harvestcraft:hotsauceitem') * 6).tweakRecipe(
+    ore('toolPot'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodVinegar'), ore('cropChilipepper'), ore('cropGarlic'), ore('dustSalt')
 )
 
 // Tortilla
@@ -243,6 +218,11 @@ item('harvestcraft:dandelionteaitem').tweakRecipe(
     ore('toolPot'), ore('cropTea'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), item('minecraft:dye', 11)
 )
 
+// Dough
+item('harvestcraft:doughitem').tweakRecipe(
+    ore('toolMixingbowl'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodFlour'), ore('foodSalt')
+)
+
 // Water Trap
 item('harvestcraft:watertrap').tweakRecipe(
     [ore('stickWood'), item('minecraft:fishing_rod'), ore('stickWood')],
@@ -250,9 +230,19 @@ item('harvestcraft:watertrap').tweakRecipe(
     [ore('stickWood'), ore('string'), ore('stickWood')]
 )
 
+// Oyster Sauce
+item('harvestcraft:oystersauceitem').tweakRecipe(
+    ore('toolSaucepan'), ore('foodOysterraw'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('listAllsugar'), ore('dustSalt')
+)
+
 // Cotton Candy
 item('harvestcraft:cottoncandyitem').tweakRecipe(
     ore('toolMixingbowl'), ore('listAllsugar'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('cropCotton'), item('minecraft:dye'), item('minecraft:paper')
+)
+
+// Taffy
+item('harvestcraft:taffyitem').tweakRecipe(
+    ore('toolSaucepan'), ore('listAllsugar'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('itemSalt')
 )
 
 // Ground Trap
@@ -278,9 +268,19 @@ item('harvestcraft:mortarandpestleitem').tweakRecipe(
     [null, ore('stones'), null]
 )
 
+// Soy Sauce
+item('harvestcraft:soysauceitem').tweakRecipe(
+    ore('toolJuicer'), ore('cropSoybean'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('dustSalt')
+)
+
 // Apiary
 item('harvestcraft:apiary').tweakRecipe(
     [ore('lumber'), item('minecraft:item_frame'), ore('lumber')],
     [ore('lumber'), item('minecraft:item_frame'), ore('lumber')],
     [ore('lumber'), item('minecraft:item_frame'), ore('lumber')]
+)
+
+// Dough
+item('harvestcraft:doughitem').tweakRecipe(
+    ore('toolMixingbowl'), (item('minecraft:water_bucket') | item('pyrotech:bucket_refractory').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_stone').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_wood').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('pyrotech:bucket_clay').withNbt(['fluids': ['FluidName': 'water', 'Amount': 1000]]) | item('harvestcraft:freshwateritem')), ore('foodFlour'), ore('itemSalt')
 )

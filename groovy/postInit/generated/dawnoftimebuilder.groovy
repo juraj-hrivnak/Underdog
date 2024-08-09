@@ -1,11 +1,6 @@
 
 // Waxed Oak Planks
 (item('dawnoftimebuilder:oak_waxed_planks') * 6).tweakRecipe(
-    [item('dawnoftimebuilder:wax'), item('contenttweaker:lumber_vanilla_oak'), null]
-)
-
-// Waxed Oak Planks
-(item('dawnoftimebuilder:oak_waxed_planks') * 6).tweakRecipe(
     [item('dawnoftimebuilder:wax'), item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak')],
     [item('dawnoftimebuilder:wax'), null, null]
 )
@@ -84,4 +79,9 @@ item('dawnoftimebuilder:tachi_sword').tweakRecipe(
     [item('contenttweaker:lumber_vanilla_spruce'), item('minecraft:stick'), item('contenttweaker:lumber_vanilla_spruce')],
     [item('minecraft:stick'), item('minecraft:stick'), item('minecraft:stick')],
     [item('contenttweaker:lumber_vanilla_spruce'), item('minecraft:stick'), item('contenttweaker:lumber_vanilla_spruce')]
+)
+
+// Waxed Oak Planks
+(item('dawnoftimebuilder:oak_waxed_planks') * 6).tweakRecipe(
+    [item('dawnoftimebuilder:wax'), item('contenttweaker:lumber_vanilla_oak'), null]
 )
