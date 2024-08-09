@@ -1,6 +1,11 @@
 
+import classes.Colors
+import classes.Formats
+import classes.Utils
+
 import com.cleanroommc.groovyscript.helper.ingredient.OreDictIngredient
 
+import net.minecraft.client.Minecraft
 import net.minecraftforge.event.entity.player.ItemTooltipEvent
 import net.minecraftforge.items.ItemHandlerHelper
 
@@ -27,9 +32,9 @@ ItemStack.metaClass.replaceTooltip = { String tooltip ->
  * (Extension of ItemStack)
  */
 ItemStack.metaClass.addTooltip = { String tooltip ->
-    if (delegate.hasNbt() && !delegate.nbt.isEmpty()) {
+    if (delegate.hasNbt() && !delegate.nbt.isEmpty() && tooltip !in tooltipsToAddWithNbt) {
         tooltipsToAddWithNbt[delegate] = tooltip
-    } else {
+    } else if (tooltip !in tooltipsToAdd) {
         tooltipsToAdd[delegate] = tooltip
     }
 }
@@ -79,6 +84,20 @@ event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
 
             itemTooltips.add(actualTooltip.toString())
         }
-        // println(itemStack)
+    }
+
+    if (Minecraft.getMinecraft().currentScreen?.isShiftKeyDown()) {
+        List<String> itemTooltips = event.toolTip
+        def modName = Utils.getModName(event.itemStack)
+
+        if (modName != null) {
+
+            def tooltip = "${Colors.AQUA}${Formats.ITALIC}$modName"
+
+            if (tooltip !in itemTooltips) {
+                itemTooltips.add(0, tooltip)
+            }
+        }
     }
 }
+

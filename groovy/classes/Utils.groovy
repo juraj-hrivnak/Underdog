@@ -5,10 +5,12 @@ import com.cleanroommc.groovyscript.helper.GroovyHelper
 import com.cleanroommc.tabulator.common.TabulatorAPI
 
 import net.minecraft.util.text.translation.I18n
+import net.minecraftforge.fml.common.Loader
 import net.minecraftforge.fml.relauncher.Side
 import net.minecraftforge.fml.relauncher.SideOnly
 
 import org.codehaus.groovy.runtime.StackTraceUtils
+import org.jetbrains.annotations.Nullable
 
 class Utils {
 
@@ -27,7 +29,9 @@ class Utils {
                 if (GroovyHelper.isDebug()) {
                     // Add debug tooltip (Dev only)
                     itemStack.addTooltip("Hidden & removed from " +
-                            StackTraceUtils.deepSanitize(new Exception()).stackTrace[3].fileName)
+                            StackTraceUtils.deepSanitize(new Exception()).stackTrace[7].fileName)
+
+                    log.info(StackTraceUtils.deepSanitize(new Exception()).stackTrace.toString())
                 } else {
                     // Remove from every creative tab (Production only)
                     TabulatorAPI.removeItem(itemStack)
@@ -39,9 +43,7 @@ class Utils {
         }
     }
 
-    /**
-     * Localize translation key
-     */
+    /** Localize translation key */
     @SideOnly(Side.CLIENT)
     static String localize(String key) {
         return I18n.translateToLocal(key)
@@ -49,13 +51,21 @@ class Utils {
 
     private static int generatedRecipes = 0
 
-    /**
-     * Generate Registry Name resource location
-     */
+    /** Generate Registry Name resource location */
     static ResourceLocation generateRegistryName(ItemStack input) {
         String suffix = "${input.itemRaw.registryName.path}_${input.metadata}_no.${generatedRecipes}"
         generatedRecipes++
         return new ResourceLocation(GroovyHelper.getPackId(), suffix)
     }
 
+    /** Get mod name from ItemStack */
+    @Nullable
+    static String getModName(ItemStack itemStack) {
+        if (itemStack.isEmpty()) return null
+
+        String modId = itemStack.item.getCreatorModId(itemStack)
+        if (modId == null) return null
+
+        return Loader.instance().getIndexedModList().get(modId)?.getName()
+    }
 }
