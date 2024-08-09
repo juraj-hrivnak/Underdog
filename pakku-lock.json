@@ -1750,7 +1750,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Bundles-1.2.jar",
+                    "file_name": "Bundles-1.21.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -1758,17 +1758,17 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5546/832/Bundles-1.2.jar",
-                    "id": "5546832",
+                    "url": "https://edge.forgecdn.net/files/5577/331/Bundles-1.21.jar",
+                    "id": "5577331",
                     "parent_id": "902861",
                     "hashes": {
-                        "sha1": "be4852a53ddc68600e461656507f81f09a2755cb",
-                        "md5": "022d60308b6ec14690a5231bbeaa5e8b"
+                        "sha1": "03365aa63fc88438653f122e2286f43696d43760",
+                        "md5": "82254d379e5399d032c6efaa968053c6"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 205314
+                    "size": 206677
                 }
             ]
         },
@@ -5005,12 +5005,13 @@
                         "md5": "83491d5b9dd06e67dc3bbb7d2f8b1089"
                     },
                     "required_dependencies": [
+                        "248453"
                     ],
                     "size": 14321557
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "future-mc-0.2.15.jar",
+                    "file_name": "Future-MC-0.2.19.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -5018,16 +5019,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/dKv1FGT7/versions/c8canEGy/future-mc-0.2.15.jar",
-                    "id": "c8canEGy",
+                    "url": "https://cdn.modrinth.com/data/dKv1FGT7/versions/TP8dYVvH/Future-MC-0.2.19.jar",
+                    "id": "TP8dYVvH",
                     "parent_id": "dKv1FGT7",
                     "hashes": {
-                        "sha512": "17c4c7184fd2bacfe718ec93529c2717d2dec69849154c6b2feae9a9cf4b8af760be4d747e40087534d1e3105cfb016c0f451ec456ad02c356006448f12f483e",
-                        "sha1": "d9af0ca5bb1c918f3cbbf0a88d730599f2b9599d"
+                        "sha512": "07abf0954bd2d3f7d5f0e50f5e57ef43da2191f8621cc573236455074aef2c2ef0551c83bff6136a57222d352af52a7be86671fac3b03ecdb6b7ef54eb8425a1",
+                        "sha1": "edc6eac22e29016cf66719d017d7be95fdf7f74d"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 14342578
+                    "size": 14321557
                 }
             ]
         },
@@ -5181,7 +5182,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Greenery-1.12.2-4.7.jar",
+                    "file_name": "Greenery-1.12.2-5.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -5189,41 +5190,43 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5102/406/Greenery-1.12.2-4.7.jar",
-                    "id": "5102406",
+                    "url": "https://edge.forgecdn.net/files/5605/314/Greenery-1.12.2-5.0.jar",
+                    "id": "5605314",
                     "parent_id": "574029",
                     "hashes": {
-                        "sha1": "addef8acad134cb6c5cf2dfee7f7a6d37b7c6581",
-                        "md5": "804324c95603d8234801c4c98d29efab"
+                        "sha1": "b7557a111e0e244f63b15d77b9224d4c81e17eeb",
+                        "md5": "16291b7e9fc93e65be5e30421926888a"
                     },
                     "required_dependencies": [
-                        "456403",
-                        "485654"
+                        "485654",
+                        "456403"
                     ],
-                    "size": 422559
+                    "size": 431031
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "Greenery-1.12.2-4.7.jar",
+                    "file_name": "Greenery-1.12.2-5.0.jar",
                     "mc_versions": [
+                        "1.12",
+                        "1.12.1",
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/EVaCo3rr/versions/kbB3F36H/Greenery-1.12.2-4.7.jar",
-                    "id": "kbB3F36H",
+                    "url": "https://cdn.modrinth.com/data/EVaCo3rr/versions/NmmajO51/Greenery-1.12.2-5.0.jar",
+                    "id": "NmmajO51",
                     "parent_id": "EVaCo3rr",
                     "hashes": {
-                        "sha512": "c5c3646bef7b30017b93a8965325172f122efa1c9cf6f140045ee72e5f1609cb359a74baf8753a7385529a06ef596d226929a7250af479c80c3d37e06c6a979e",
-                        "sha1": "addef8acad134cb6c5cf2dfee7f7a6d37b7c6581"
+                        "sha512": "3c7aa258204c99b2f2681ae9782608aa25e0108d2fb6f714984268e672bcae88ff228a2d23fed211ac5eb3ad0f4d5987cf02492b225355d3ce3bceb87448cc7d",
+                        "sha1": "b7557a111e0e244f63b15d77b9224d4c81e17eeb"
                     },
                     "required_dependencies": [
                         "1mPcAmuy",
                         "vVXPbodS"
                     ],
-                    "size": 422559
+                    "size": 431031
                 }
             ]
         },
@@ -5249,47 +5252,47 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "groovyscript-1.1.1.jar",
+                    "file_name": "groovyscript-1.1.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5507/936/groovyscript-1.1.1.jar",
-                    "id": "5507936",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5562/296/groovyscript-1.1.2.jar",
+                    "id": "5562296",
                     "parent_id": "687577",
                     "hashes": {
-                        "sha1": "7fbc56ac10974a95e16f2c56376446429ae2ff70",
-                        "md5": "50a8b1b106604da3e81cb89f6174d590"
+                        "sha1": "3c1114797da35d158ad7a9e927252c593a4c2a3b",
+                        "md5": "9d7067b86c6e828e9dd83884447e4248"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 12978455
+                    "size": 13125177
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "groovyscript-1.1.1.jar",
+                    "file_name": "groovyscript-1.1.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/GJaDRTrb/versions/48G6z2kN/groovyscript-1.1.1.jar",
-                    "id": "48G6z2kN",
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/GJaDRTrb/versions/SuGXOZGe/groovyscript-1.1.2.jar",
+                    "id": "SuGXOZGe",
                     "parent_id": "GJaDRTrb",
                     "hashes": {
-                        "sha512": "c15729347d9c8bc55e729ab28a51deebde265661b37753ba16aec73c41af05fd7ef69236cfa1bf7688327ea5686708efa55d285e9edea6f8931fd00518b6d731",
-                        "sha1": "7fbc56ac10974a95e16f2c56376446429ae2ff70"
+                        "sha512": "32c7c123f60ad491f01d7b75d19437ea95ea9f8eac749dfe88ecfe1b3c1157b01728da6efdfbeccec908687d5c259c5abc83fcdc4087503ac0241a0a7da30852",
+                        "sha1": "3c1114797da35d158ad7a9e927252c593a4c2a3b"
                     },
                     "required_dependencies": [
                         "G1ckZuWK"
                     ],
-                    "size": 12978455
+                    "size": 13125177
                 }
             ]
         },
@@ -5855,7 +5858,7 @@
                 "modrinth": "item-borders"
             },
             "name": {
-                "curseforge": "Item Borders [Forge]",
+                "curseforge": "Item Borders [Neo/Forge]",
                 "modrinth": "Item Borders"
             },
             "id": {
@@ -5953,7 +5956,7 @@
                 "modrinth": "item-highlighter"
             },
             "name": {
-                "curseforge": "Item Highlighter [Forge]",
+                "curseforge": "Item Highlighter [Neo/Forge]",
                 "modrinth": "Item Highlighter"
             },
             "id": {
@@ -6656,7 +6659,7 @@
                 "modrinth": "legendary-tooltips"
             },
             "name": {
-                "curseforge": "Legendary Tooltips [Forge]",
+                "curseforge": "Legendary Tooltips [Neo/Forge]",
                 "modrinth": "Legendary Tooltips"
             },
             "id": {
@@ -8768,27 +8771,24 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "QuarkRotN-r1.6-188.jar",
+                    "file_name": "QuarkRotN-r1.6-189.jar",
                     "mc_versions": [
-                        "1.12.1",
-                        "1.12",
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4641/362/QuarkRotN-r1.6-188.jar",
-                    "id": "4641362",
+                    "url": "https://edge.forgecdn.net/files/5594/720/QuarkRotN-r1.6-189.jar",
+                    "id": "5594720",
                     "parent_id": "417392",
                     "hashes": {
-                        "sha1": "4746f8bdaf0a2c9ff43292f98cb54c80e2f80b32",
-                        "md5": "b5f1be64ee6c1fc096814af85c39b414"
+                        "sha1": "eef34248b4e4d0313ad94a2fdfcd22345261d2f2",
+                        "md5": "bb1cec426711cab663d349793d71ff0c"
                     },
                     "required_dependencies": [
-                        "250363"
                     ],
-                    "size": 3971992
+                    "size": 3983662
                 }
             ]
         },
@@ -8972,58 +8972,66 @@
             ]
         },
         {
-            "pakku_id": "LDr1uj0DBWzwwnE0",
-            "pakku_links": [
-                "PnMlABSSuzylx8mn"
-            ],
+            "pakku_id": "wsjnLHhCpmMdbJW5",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "realistic-block-physics"
+                "curseforge": "realistic-block-physics",
+                "modrinth": "realistic-block-physics"
             },
             "name": {
-                "curseforge": "Realistic Block Physics"
+                "curseforge": "Realistic Block Physics",
+                "modrinth": "Realistic Block Physics"
             },
             "id": {
-                "curseforge": "375616"
+                "curseforge": "375616",
+                "modrinth": "45TL8yoG"
             },
+            "update_strategy": "NONE",
             "redistributable": false,
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "rbp-1.12.2-3.0.0-rc1.jar",
+                    "file_name": "RealisticBlockPhysics-1.12.2-2.1.2.jar",
                     "mc_versions": [
+                        "1.12.1",
+                        "1.12",
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5434/882/rbp-1.12.2-3.0.0-rc1.jar",
-                    "id": "5434882",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/3764/955/RealisticBlockPhysics-1.12.2-2.1.2.jar",
+                    "id": "3764955",
                     "parent_id": "375616",
                     "hashes": {
-                        "sha1": "2b1b16999298785d55d9c388659821defc531d3b",
-                        "md5": "bae88ce518786647572470cb4d72cb81"
+                        "sha1": "afa29df91ba39103efbe9d60737e2951da1532b5",
+                        "md5": "dbc7cb9430a709fd430072091daafb30"
                     },
                     "required_dependencies": [
-                        "1030082"
                     ],
-                    "size": 1079512
+                    "size": 146368
                 }
             ]
         },
         {
-            "pakku_id": "71apOip02kRVcN2S",
+            "pakku_id": "z9yDQ73SfrlTI4XF",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "realistic-explosion-physics"
+                "curseforge": "realistic-explosion-physics",
+                "modrinth": "realistic-explosion-physics"
             },
             "name": {
-                "curseforge": "Realistic Explosion Physics"
+                "curseforge": "Realistic Explosion Physics",
+                "modrinth": "Realistic Explosion Physics"
             },
             "id": {
-                "curseforge": "453315"
+                "curseforge": "453315",
+                "modrinth": "VQjLRoqQ"
             },
+            "update_strategy": "NONE",
             "redistributable": false,
             "files": [
                 {
@@ -9041,6 +9049,27 @@
                     "hashes": {
                         "sha1": "e527d582a7e405939443efdf5995473307b56aa5",
                         "md5": "8ef5bb1d3f02f9e3cc775bdc19bdf404"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 8597
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "RealisticExplosionPhysics-1.12.2-1.0.0.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/VQjLRoqQ/versions/l3s4UoUK/RealisticExplosionPhysics-1.12.2-1.0.0.jar",
+                    "id": "l3s4UoUK",
+                    "parent_id": "VQjLRoqQ",
+                    "hashes": {
+                        "sha512": "b5cd9770489f0dba25c78e628a000926c4998f8d24895c4b31e3557a7c2612920db3fc8fd96c81ed6d2203c24d724bb60b3f8af22bb82124db02ed59f42d4a2c",
+                        "sha1": "e527d582a7e405939443efdf5995473307b56aa5"
                     },
                     "required_dependencies": [
                     ],
@@ -9103,68 +9132,6 @@
                     "required_dependencies": [
                     ],
                     "size": 729901
-                }
-            ]
-        },
-        {
-            "pakku_id": "PnMlABSSuzylx8mn",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "realistic-physics",
-                "modrinth": "realistic-physics"
-            },
-            "name": {
-                "curseforge": "Realistic Physics",
-                "modrinth": "Realistic Physics"
-            },
-            "id": {
-                "curseforge": "1030082",
-                "modrinth": "SMLKjRsR"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "realisticphysics-1.12.2-1.0.0-rc1.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5434/607/realisticphysics-1.12.2-1.0.0-rc1.jar",
-                    "id": "5434607",
-                    "parent_id": "1030082",
-                    "hashes": {
-                        "sha1": "ef37bf642817a91faf0190090bd8f1f8233c628c",
-                        "md5": "728ce95751e8e1a143c211d5cac1232e"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 100784
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "realisticphysics-1.12.2-1.0.0-rc1.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/SMLKjRsR/versions/mWujSVup/realisticphysics-1.12.2-1.0.0-rc1.jar",
-                    "id": "mWujSVup",
-                    "parent_id": "SMLKjRsR",
-                    "hashes": {
-                        "sha512": "9ad8e554ed17b2444502c98770b53bd7e1c93f98907c57e87362e733820f56741de3acdb19d74558dfc87d5ea7bf146f686f6ec6a4ff5b5d3169b82e8020e697",
-                        "sha1": "ef37bf642817a91faf0190090bd8f1f8233c628c"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 100784
                 }
             ]
         },
@@ -9303,7 +9270,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "!Red-Core-MC-1.8-1.12-0.6-Dev-5.jar",
+                    "file_name": "!Red-Core-MC-1.8-1.12-0.6-Dev-6.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -9311,16 +9278,16 @@
                         "forge"
                     ],
                     "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/5403/908/!Red-Core-MC-1.8-1.12-0.6-Dev-5.jar",
-                    "id": "5403908",
+                    "url": "https://edge.forgecdn.net/files/5607/392/!Red-Core-MC-1.8-1.12-0.6-Dev-6.jar",
+                    "id": "5607392",
                     "parent_id": "873867",
                     "hashes": {
-                        "sha1": "25a8467d3490a76f61620639ffc90ad94080ac1e",
-                        "md5": "120cb1ade22063ef47b8f81eb32fdc35"
+                        "sha1": "7ce4a0eb6fa6634d2f609314cb49b5e116aad334",
+                        "md5": "70a0774ac5ffe073c60dea9f26e47f86"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 123980
+                    "size": 124809
                 },
                 {
                     "type": "modrinth",
@@ -10095,7 +10062,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "voicechat-forge-1.12.2-2.5.19.jar",
+                    "file_name": "voicechat-forge-1.12.2-2.5.20.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10103,20 +10070,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5519/560/voicechat-forge-1.12.2-2.5.19.jar",
-                    "id": "5519560",
+                    "url": "https://edge.forgecdn.net/files/5605/390/voicechat-forge-1.12.2-2.5.20.jar",
+                    "id": "5605390",
                     "parent_id": "416089",
                     "hashes": {
-                        "sha1": "f9859df62ffcb4cfffbf32ed815f22aa1b2e28d5",
-                        "md5": "5a760e6ef683bc54b53402d93ee5389a"
+                        "sha1": "9baab2de221ce8e30ef7197f4b60c837ca431d71",
+                        "md5": "b2ad07c6d8879e97890e8b0c41dcc825"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 8677662
+                    "size": 8681874
                 },
                 {
                     "type": "modrinth",
-                    "file_name": "voicechat-forge-1.12.2-2.5.19.jar",
+                    "file_name": "voicechat-forge-1.12.2-2.5.20.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10124,16 +10091,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/QhFe5DRM/voicechat-forge-1.12.2-2.5.19.jar",
-                    "id": "QhFe5DRM",
+                    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/XXNynOUr/voicechat-forge-1.12.2-2.5.20.jar",
+                    "id": "XXNynOUr",
                     "parent_id": "9eGKb6K1",
                     "hashes": {
-                        "sha512": "c3ca7a61786b728fc8fe7b512368c355eebd97551ba4b64d3c2f6fde8a33d0306f80b3b758b744b72f200b313328f98ed3c034aff3b170a539fc26e0bbb147d7",
-                        "sha1": "23588d7ebdace91efdd880407f281336cc825c30"
+                        "sha512": "2ae1e2805a9f7a01b1219cde281d67e0a0bbaa2d3aab9884172a46323e5bcbf5225043397f26787c1b5a6f3f574edfbd85f9c81679ecf10dabb73f2ef6296656",
+                        "sha1": "6fa9fb05386e21014e5800d7ec51702173537ff7"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 8677661
+                    "size": 8681874
                 }
             ]
         },
