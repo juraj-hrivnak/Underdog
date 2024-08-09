@@ -1,3 +1,4 @@
+//NO_RUN
 
 import com.cleanroommc.groovyscript.helper.GroovyFile
 

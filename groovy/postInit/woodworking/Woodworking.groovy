@@ -125,11 +125,11 @@ IIngredient sawmillBlades =
 // ModuleTechBasic.Registries.CHOPPING_BLOCK_RECIPE.unfreeze()
 // ModuleTechBasic.Registries.CHOPPING_BLOCK_RECIPE.clear()
 
-// ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.unfreeze()
-// ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.clear()
+ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.unfreeze()
+ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.clear()
 
-// ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.unfreeze()
-// ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.clear()
+ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.unfreeze()
+ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.clear()
 
 for (x in woodworking) {
 
@@ -160,7 +160,7 @@ for (x in woodworking) {
 
         mods.mekanism.Sawmill.add(log, rawLumber * 8, item('pyrotech:rock:7'), 0.5)
 
-        // ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.registerEntry(
+        // ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.groovyScript$registerEntry(
         //     new StoneSawmillRecipe(
         //         rawLumber * 8,
         //         log.toMcIngredient(),
@@ -272,7 +272,7 @@ for (x in woodworking) {
         [ironNail, null  , null    ]
     )
 
-    mods.mekanism.Sawmill.add(planks, lumber * 2)
+    mods.mekanism.sawmill.add(planks, lumber * 2, item())
 
     // ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.registerEntry(
     //     new StoneSawmillRecipe(
