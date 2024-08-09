@@ -4430,39 +4430,6 @@
             ]
         },
         {
-            "pakku_id": "cTKdrOtUx413Z8oz",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "fantastic-lib"
-            },
-            "name": {
-                "curseforge": "Fantastic Lib"
-            },
-            "id": {
-                "curseforge": "315773"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "FantasticLib-1.12.2.047.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3341/793/FantasticLib-1.12.2.047.jar",
-                    "id": "3341793",
-                    "parent_id": "315773",
-                    "hashes": {
-                        "sha1": "608305972a27ccc3e03225f7fd22dc95395a0de0",
-                        "md5": "9817810bce5b4c1a0edcc65b917fb1bc"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 616968
-                }
-            ]
-        },
-        {
             "pakku_id": "isdrhGJdvJW55fag",
             "type": "MOD",
             "slug": {
@@ -7991,43 +7958,6 @@
                     "required_dependencies": [
                     ],
                     "size": 196434
-                }
-            ]
-        },
-        {
-            "pakku_id": "5ukjtcBFOvJahvmX",
-            "pakku_links": [
-                "cTKdrOtUx413Z8oz"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "no-advancements"
-            },
-            "name": {
-                "curseforge": "No Advancements"
-            },
-            "id": {
-                "curseforge": "327592"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "NoAdvancements-1.12.2.002.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2853/556/NoAdvancements-1.12.2.002.jar",
-                    "id": "2853556",
-                    "parent_id": "327592",
-                    "hashes": {
-                        "sha1": "cba545686e92a53fe2b12306f7a69743705a9f5e",
-                        "md5": "491f59d52005229913b7750d83a77b29"
-                    },
-                    "required_dependencies": [
-                        "315773"
-                    ],
-                    "size": 5601
                 }
             ]
         },
