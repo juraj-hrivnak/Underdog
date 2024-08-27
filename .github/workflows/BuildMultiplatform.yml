@@ -37,11 +37,15 @@ jobs:
             echo "::error::Could not find pakku-lock.json" && exit 1
           fi
 
-          manifestjson=`cat pakku-lock.json`
+          if [ ! -f pakku.json ]; then
+            echo "::error::Could not find pakku.json" && exit 1
+          fi
+
+          config_file=`cat pakku.json`
 
           # -- PROJECT NAME --
 
-          projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
+          projectname=`echo $(jq -r '.name' <<< "$config_file")`
           echo "projectname=$projectname" >> $GITHUB_OUTPUT
 
           # -- TAG --
@@ -77,10 +81,9 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Send Discord message
-        uses: "hugoalh/send-discord-webhook-ghaction@v6.0.2"
-        if: ${{ steps.info.outputs.diff != '' }}
+        uses: "hugoalh/send-discord-webhook-ghaction@5af9cbe30a2a19e7ce18853012ef55487c985954" # 6.0.2
         with:
-          key: ${{ secrets.DISCORD_WEBHOOK }}
+          key: ${{ secrets.DISCORD_WEBHOOK_DEV }}
           username: "GitHub"
           avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
           embeds: |
@@ -100,33 +103,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Replace tokens
+      - name: Set GroovyScript debug mode to 'false'
         shell: bash
         run: |
           set +e
 
-          manifest="./pakku.json"
-          custom_window_title="./config/fancymenu/config.txt"
-          fancymenu="./config/fancymenu/customization/main_menu.txt"
-          rich_presence="./config/DiscordRPC.cfg"
           grooovy="./groovy/runConfig.json"
-
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $manifest
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $custom_window_title
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $fancymenu
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $rich_presence
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $grooovy
-
           cat <<< $(jq '.debug = false' $grooovy) > $grooovy
 
       - name: Export modpack
         run: |
           mkdir build
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
-          java -jar ./pakku.jar export build
+          java -jar ./pakku.jar export
 
-      - name: Upload modpacks
+      - name: Upload build
         uses: actions/upload-artifact@v4
         with:
-          name: modpacks
-          path: build/
+          name: build
+          path: |
+            build/
+            !build/.*
