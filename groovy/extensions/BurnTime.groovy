@@ -18,7 +18,7 @@ IIngredient.metaClass.setBurnTime = { int burnTime ->
 
 event_manager.listen(EventPriority.LOWEST) { FurnaceFuelBurnTimeEvent event ->
     burnTimesToAdd.each { itemStack, burnTime ->
-        if (ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
+        if (event != null && ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
             event.setBurnTime(burnTime)
         }
     }

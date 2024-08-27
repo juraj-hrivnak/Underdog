@@ -57,7 +57,7 @@ OreDictIngredient.metaClass.addTooltip = { String tooltip ->
 
 event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
     tooltipsToReplace.each { itemStack, tooltip ->
-        if (ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
+        if (event != null && ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
             String actualTooltip = tooltip.replace('%itemName%', event.toolTip[0])
             List<String> itemTooltips = event.toolTip
 
@@ -68,7 +68,7 @@ event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
 
     tooltipsToAddWithNbt.each { itemStack, tooltip ->
         // Compare with nbt
-        if (ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
+        if (event != null && ItemHandlerHelper.canItemStacksStack(event.itemStack, itemStack)) {
             String actualTooltip = tooltip.replace('%itemName%', event.toolTip[0])
             List<String> itemTooltips = event.toolTip
 
@@ -78,7 +78,7 @@ event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
 
     tooltipsToAdd.each { itemStack, tooltip ->
         // Compare raw items
-        if (ItemStack.areItemsEqual(event.itemStack, itemStack)) {
+        if (event != null && ItemStack.areItemsEqual(event.itemStack, itemStack)) {
             String actualTooltip = tooltip.replace('%itemName%', event.toolTip[0])
             List<String> itemTooltips = event.toolTip
 
@@ -86,18 +86,15 @@ event_manager.listen(EventPriority.LOWEST) { ItemTooltipEvent event ->
         }
     }
 
-    if (Minecraft.getMinecraft().currentScreen?.isShiftKeyDown()) {
+    // Shift tooltips
+    if (event != null && Minecraft.getMinecraft().currentScreen?.isShiftKeyDown()) {
         List<String> itemTooltips = event.toolTip
 
+        // Handle mod name tooltips
         Utils.getModName(event.itemStack)?.tap {
-            String firstTooltip = "${Colors.BLUE}${Formats.BOLD}(${Formats.RESET}${event.toolTip.first()}${Colors.BLUE}${Formats.BOLD})"
             String tooltip = "${Colors.BLUE}${Formats.ITALIC}${Formats.BOLD}$it"
 
-            if (tooltip !in itemTooltips) {
-                itemTooltips.removeAt(0)
-                itemTooltips.add(0, firstTooltip.toString())
-                itemTooltips.add(1, tooltip.toString())
-            }
+            if (tooltip !in itemTooltips) itemTooltips.add(1, tooltip.toString())
         }
     }
 }
