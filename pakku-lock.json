@@ -7387,7 +7387,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "minieffects-2.0.0.jar",
+                    "file_name": "minieffects-2.0.1.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -7395,17 +7395,17 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5614/621/minieffects-2.0.0.jar",
-                    "id": "5614621",
+                    "url": "https://edge.forgecdn.net/files/5668/419/minieffects-2.0.1.jar",
+                    "id": "5668419",
                     "parent_id": "1081085",
                     "hashes": {
-                        "sha1": "8d72c277c073943aa907732f5ce0339d30449a22",
-                        "md5": "c0536814a77e67dea324503260fc05bf"
+                        "sha1": "f3d9b9142cbc01a2d0e15d53cbb5b2521d43ba59",
+                        "md5": "d09999510fa565c847043cec0abcab34"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 11765
+                    "size": 11981
                 }
             ]
         },
