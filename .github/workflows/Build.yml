@@ -195,11 +195,11 @@ jobs:
             echo -e "$mod_changes" >> $GITHUB_STEP_SUMMARY
           fi
 
-          # Upload @mod_changes@
+          # Replace @mod_changes@
           mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
           perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
 
-          # Replace @mod_changes@
+          # Upload @mod_changes@
           mod_changes=$(echo $mod_changes | sed -r 's/\\\\n/\\n/g')
           echo "markdown=$mod_changes" >> $GITHUB_OUTPUT
 

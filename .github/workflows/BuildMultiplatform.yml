@@ -138,7 +138,15 @@ jobs:
           grooovy="./groovy/runConfig.json"
           cat <<< $(jq '.debug = false' $grooovy) > $grooovy
 
-      - name: Export modpack
+      - name: Cache pakku
+        uses: actions/cache@v4
+        with:
+          path: build/.cache
+          key: ${{ runner.OS }}-pakku-cache
+          restore-keys: |
+            ${{ runner.OS }}-pakku-cache
+
+      - name: Export modpacks
         run: |
           mkdir build
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J

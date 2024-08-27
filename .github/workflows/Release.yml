@@ -24,6 +24,7 @@ on:
         type: string
 
 # Project IDs of the modpack.
+# Note that CF_TOKEN and MR_TOKENT must be set up for this to work.
 env:
   CF_PROJECT_ID: "399664"
   MR_PROJECT_ID: "ZmoIrOsS"
