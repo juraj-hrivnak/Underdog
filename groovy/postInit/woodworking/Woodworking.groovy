@@ -122,9 +122,6 @@ IIngredient sawmillBlades =
     | item('pyrotech:sawmill_blade_diamond:*')
     | item('pyrotech:sawmill_blade_obsidian:*'))
 
-// ModuleTechBasic.Registries.CHOPPING_BLOCK_RECIPE.unfreeze()
-// ModuleTechBasic.Registries.CHOPPING_BLOCK_RECIPE.clear()
-
 ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.unfreeze()
 ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.clear()
 
@@ -160,25 +157,25 @@ for (x in woodworking) {
 
         mods.mekanism.Sawmill.add(log, rawLumber * 8, item('pyrotech:rock:7'), 0.5)
 
-        // ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.groovyScript$registerEntry(
-        //     new StoneSawmillRecipe(
-        //         rawLumber * 8,
-        //         log.toMcIngredient(),
-        //         300,
-        //         sawmillBlades.toMcIngredient(),
-        //         1
-        //     ).setRegistryName(Utils.generateRegistryName(rawLumber))
-        // )
+        ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.groovyScript$registerEntry(
+            new StoneSawmillRecipe(
+                rawLumber * 8,
+                log.toMcIngredient(),
+                300,
+                sawmillBlades.toMcIngredient(),
+                1
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
+        )
 
-        // ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.registerEntry(
-        //     new BrickSawmillRecipe(
-        //         rawLumber * 8,
-        //         log.toMcIngredient(),
-        //         60,
-        //         sawmillBlades.toMcIngredient(),
-        //         1
-        //     ).setRegistryName(Utils.generateRegistryName(rawLumber))
-        // )
+        ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.groovyScript$registerEntry(
+            new BrickSawmillRecipe(
+                rawLumber * 8,
+                log.toMcIngredient(),
+                60,
+                sawmillBlades.toMcIngredient(),
+                1
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
+        )
     }
 
     // Recipes for slabs
@@ -189,7 +186,7 @@ for (x in woodworking) {
 
         // Adding recipes for slabs
         (slab * 2).addRecipe(
-           [lumber, lumber]
+            [lumber, lumber]
         )
 
         //todo Primitive crafting
@@ -210,37 +207,37 @@ for (x in woodworking) {
 
     if (debarkedLog != null) {
 
-        // // Adding recipe for 8 lumbers with "raw: true" tag from one log
-        // ModuleTechBasic.Registries.CHOPPING_BLOCK_RECIPE.registerEntry(
-        //     new ChoppingBlockRecipe(
-        //         rawLumber,
-        //         debarkedLog.toMcIngredient(),
-        //         1 as int[],
-        //         8 as int[]
-        //     ).setRegistryName(Utils.generateRegistryName(rawLumber))
-        // )
+        // Adding recipe for 8 lumbers with "raw: true" tag from one log
+        ModuleTechBasic.Registries.CHOPPING_BLOCK_RECIPE.groovyScript$registerEntry(
+            new ChoppingBlockRecipe(
+                rawLumber,
+                debarkedLog.toMcIngredient(),
+                1 as int[],
+                8 as int[]
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
+        )
 
         mods.mekanism.Sawmill.add(debarkedLog, rawLumber * 8, item('pyrotech:rock:7'), 0.5)
 
-        // ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.registerEntry(
-        //     new StoneSawmillRecipe(
-        //         rawLumber * 8,
-        //         debarkedLog.toMcIngredient(),
-        //         300,
-        //         sawmillBlades.toMcIngredient(),
-        //         1
-        //     ).setRegistryName(Utils.generateRegistryName(rawLumber))
-        // )
+        ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.groovyScript$registerEntry(
+            new StoneSawmillRecipe(
+                rawLumber * 8,
+                debarkedLog.toMcIngredient(),
+                300,
+                sawmillBlades.toMcIngredient(),
+                1
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
+        )
 
-        // ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.registerEntry(
-        //     new BrickSawmillRecipe(
-        //         rawLumber * 8,
-        //         debarkedLog.toMcIngredient(),
-        //         60,
-        //         sawmillBlades.toMcIngredient(),
-        //         1
-        //     ).setRegistryName(Utils.generateRegistryName(rawLumber))
-        // )
+        ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.groovyScript$registerEntry(
+            new BrickSawmillRecipe(
+                rawLumber * 8,
+                debarkedLog.toMcIngredient(),
+                60,
+                sawmillBlades.toMcIngredient(),
+                1
+            ).setRegistryName(Utils.generateRegistryName(rawLumber))
+        )
     }
 
     // Adding 'lumber' OreDict to lumber
@@ -274,25 +271,25 @@ for (x in woodworking) {
 
     mods.mekanism.sawmill.add(planks, lumber * 2, item())
 
-    // ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.registerEntry(
-    //     new StoneSawmillRecipe(
-    //         lumber * 2,
-    //         planks.toMcIngredient(),
-    //         200,
-    //         sawmillBlades.toMcIngredient(),
-    //         0
-    //     ).setRegistryName(Utils.generateRegistryName(lumber))
-    // )
+    ModuleTechMachine.Registries.STONE_SAWMILL_RECIPES.groovyScript$registerEntry(
+        new StoneSawmillRecipe(
+            lumber * 2,
+            planks.toMcIngredient(),
+            200,
+            sawmillBlades.toMcIngredient(),
+            0
+        ).setRegistryName(Utils.generateRegistryName(lumber))
+    )
 
-    // ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.registerEntry(
-    //     new BrickSawmillRecipe(
-    //         lumber * 2,
-    //         planks.toMcIngredient(),
-    //         20,
-    //         sawmillBlades.toMcIngredient(),
-    //         0
-    //     ).setRegistryName(Utils.generateRegistryName(lumber))
-    // )
+    ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.groovyScript$registerEntry(
+        new BrickSawmillRecipe(
+            lumber * 2,
+            planks.toMcIngredient(),
+            20,
+            sawmillBlades.toMcIngredient(),
+            0
+        ).setRegistryName(Utils.generateRegistryName(lumber))
+    )
 
     // Chest recipes
     item('charset:chest')
@@ -316,15 +313,15 @@ for (x in woodworking) {
         )
 }
 
-//todo firewood
-// ModuleTechBasic.Registries.CHOPPING_BLOCK_RECIPE.registerEntry(
-//     new ChoppingBlockRecipe(
-//         item('minecraft:stick'),
-//         ore('firewood').toMcIngredient(),
-//         1 as int[],
-//         4 as int[]
-//     ).setRegistryName(Utils.generateRegistryName(item('minecraft:stick')))
-// )
+item('minecraft:stick').with {
+    mods.pyrotech.ChoppingBlock.recipeBuilder()
+        .input(ore('firewood'))
+        .output(it)
+        .chops(1, 4)
+        .name(Utils.generateRegistryName(it))
+        .register()
+}
+
 
 // 1 log => 8 lumber = 16 sticks
 // 1 log => 6 firewood = 24 sticks

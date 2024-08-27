@@ -120,3 +120,14 @@ IIngredient.metaClass.without = { ItemStack... input ->
     }
     return orIngredient
 }
+
+// -- SPECIAL --
+
+IIngredient.metaClass.surround = { IIngredient input ->
+    List<List<IIngredient>> surrounded = [
+        [delegate, delegate, delegate],
+        [delegate, input   , delegate],
+        [delegate, delegate, delegate]
+    ]
+    return surrounded
+}
