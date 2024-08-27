@@ -65,8 +65,10 @@ jobs:
 
           if [[ ${{ startsWith(github.ref, 'refs/tags/v') }} == true ]]; then
             echo "projectsuffix=$latest_tag" >> $GITHUB_OUTPUT
+            echo "📃 projectsuffix=$latest_tag"
           else
             echo "projectsuffix=build.${{ github.run_number }}" >> $GITHUB_OUTPUT
+            echo "📃 projectsuffix=build.${{ github.run_number }}"
           fi
 
           # -- DIFF --
@@ -78,9 +80,12 @@ jobs:
             latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag_prev | sed -n 2p)
           fi
 
+          echo "📃 latest_tagged_commit=$latest_tagged_commit"
+
           git show $latest_tagged_commit:./pakku-lock.json > ./pakku-lock-prev.json
 
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
+
           java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json --markdown PROJECTS_DIFF.md
 
           # -- OUTPUT DIFF --
