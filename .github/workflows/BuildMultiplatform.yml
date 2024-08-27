@@ -17,6 +17,7 @@ jobs:
       projectname: ${{ steps.info.outputs.projectname }}
       projectsuffix: ${{ steps.info.outputs.projectsuffix }}
       tag: ${{ steps.info.outputs.tag }}
+      rel_type: ${{ steps.info.outputs.rel_type }}
       diff: ${{ steps.info.outputs.diff }}
 
     steps:
@@ -70,6 +71,18 @@ jobs:
             echo "projectsuffix=build.${{ github.run_number }}" >> $GITHUB_OUTPUT
             echo "📃 projectsuffix=build.${{ github.run_number }}"
           fi
+
+          # -- RELEASE TYPE
+
+          rel_type="release"
+          case $latest_tag in
+            *alpha*) rel_type="alpha" ;;
+            *beta*) rel_type="beta" ;;
+            *) rel_type="release" ;;
+          esac
+
+          echo "rel_type=$rel_type" >> $GITHUB_OUTPUT
+          echo "📃 rel_type=$rel_type"
 
           # -- DIFF --
 
