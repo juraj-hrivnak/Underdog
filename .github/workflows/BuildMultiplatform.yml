@@ -63,7 +63,7 @@ jobs:
 
           # -- DIFF --
 
-          previous_commit=$(git log -n 1 --skip 1 --pretty=format:"%h" -- $manifest)
+          previous_commit=$(git log -n 1 --skip 1 --pretty=format:"%h" -- ./pakku-lock.json)
 
           git show $previous_commit:./pakku-lock.json > ./pakku-lock-prev.json
 
