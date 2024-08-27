@@ -68,7 +68,7 @@ jobs:
           git show $previous_commit:./pakku-lock.json > ./pakku-lock-prev.json
 
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
-          java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json --markdown-diff PROJECTS_DIFF.md
+          java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json --markdown PROJECTS_DIFF.md
 
           # -- OUTPUT DIFF --
 
@@ -88,13 +88,7 @@ jobs:
           username: "GitHub"
           avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
           content: ${{ steps.info.outputs.diff }}
-          embeds: |
-            [
-              {
-                "description": "${{ steps.info.outputs.diff }}",
-                "color": "Discord Blurple",
-              }
-            ]
+          embeds:
 
   build-modpack:
     name: Build Modpack
