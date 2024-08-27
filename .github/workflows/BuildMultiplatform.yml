@@ -74,11 +74,13 @@ jobs:
 
           cat PROJECTS_DIFF.md >> $GITHUB_STEP_SUMMARY
 
-          {
+          diff={
             echo 'diff<<EOF'
             cat PROJECTS_DIFF.md
             echo EOF
-          } >> "$GITHUB_OUTPUT"
+          }
+          diff=$(echo $diff | sed -r 's/\\\\n/\\n/g') # Fix new lines
+          diff>> "$GITHUB_OUTPUT"
 
       - name: Send Discord message
         uses: "hugoalh/send-discord-webhook-ghaction@5af9cbe30a2a19e7ce18853012ef55487c985954" # 6.0.2
