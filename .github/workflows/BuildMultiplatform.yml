@@ -76,7 +76,7 @@ jobs:
 
           output_diff=$(< PROJECTS_DIFF.md)
           output_diff=$(echo $output_diff | sed -r 's/\\\\n/\\n/g') # Fix new lines
-          output_diff >> "$GITHUB_OUTPUT"
+          echo "diff=$output_diff" >> $GITHUB_OUTPUT
 
       - name: Send Discord message
         uses: "hugoalh/send-discord-webhook-ghaction@5af9cbe30a2a19e7ce18853012ef55487c985954" # 6.0.2
