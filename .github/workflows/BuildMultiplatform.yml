@@ -149,7 +149,7 @@ jobs:
       - name: Export modpacks
         run: |
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
-          java -jar ./pakku.jar export
+          java -jar ./pakku.jar --debug export
 
       - name: Upload build
         uses: actions/upload-artifact@v4
