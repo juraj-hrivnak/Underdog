@@ -74,10 +74,7 @@ jobs:
 
           cat PROJECTS_DIFF.md >> $GITHUB_STEP_SUMMARY
 
-          diff=$(cat <<-EOF
-            cat PROJECTS_DIFF.md
-            EOF
-          )
+          diff=$(< PROJECTS_DIFF.md)
           diff=$(echo $diff | sed -r 's/\\\\n/\\n/g') # Fix new lines
           diff >> "$GITHUB_OUTPUT"
 
