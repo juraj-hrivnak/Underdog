@@ -85,13 +85,7 @@ jobs:
           key: ${{ secrets.DISCORD_WEBHOOK_DEV }}
           username: "GitHub"
           avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-          embeds: |
-            [
-              {
-                "description": "${{ steps.info.outputs.diff }}",
-                "color": "Discord Blurple",
-              }
-            ]
+          content: ${{ steps.info.outputs.diff }}
 
   build-modpack:
     name: Build Modpack
