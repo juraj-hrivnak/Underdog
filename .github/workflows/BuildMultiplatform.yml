@@ -31,14 +31,20 @@ jobs:
         run: |
           set +e
 
+          echo "🔎 Getting modpack info..."
+
           # -- CHECK LOCKFILE --
 
           if [ ! -f pakku-lock.json ]; then
             echo "::error::Could not find pakku-lock.json" && exit 1
+          else
+            echo "✔️ pakku-lock.json"
           fi
 
           if [ ! -f pakku.json ]; then
             echo "::error::Could not find pakku.json" && exit 1
+          else
+            echo "✔️ pakku.json"
           fi
 
           config_file=`cat pakku.json`
@@ -47,11 +53,13 @@ jobs:
 
           projectname=`echo $(jq -r '.name' <<< "$config_file")`
           echo "projectname=$projectname" >> $GITHUB_OUTPUT
+          echo "📃 projectname=$projectname"
 
-          # -- TAG --
+          # -- TAGS --
 
           latest_tag=$(git describe --tags --abbrev=0)
           echo "tag=$latest_tag" >> $GITHUB_OUTPUT
+          echo "📃 latest_tag=$latest_tag"
 
           # -- PROJECT SUFFIX --
 
@@ -63,9 +71,14 @@ jobs:
 
           # -- DIFF --
 
-          previous_commit=$(git log -n 1 --skip 1 --pretty=format:"%h" -- ./pakku-lock.json)
+          latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag | sed -n 2p)
 
-          git show $previous_commit:./pakku-lock.json > ./pakku-lock-prev.json
+          if [ "$latest_tag" = ${{ github.ref_name }} ]; then
+            latest_tag_prev=$(git describe --tags --abbrev=0 $(git describe --tags --abbrev=0)^)
+            latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag_prev | sed -n 2p)
+          fi
+
+          git show $latest_tagged_commit:./pakku-lock.json > ./pakku-lock-prev.json
 
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
           java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json --markdown PROJECTS_DIFF.md
