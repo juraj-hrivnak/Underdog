@@ -2,11 +2,7 @@ name: Build
 run-name: "Build #${{ github.run_number }}"
 
 on:
-  push:
-    tags:
-      - 'v*'
-    branches:
-      - main
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.ref }}
@@ -325,5 +321,6 @@ jobs:
       projectsuffix: ${{ needs.modpack-info.outputs.projectsuffix }}
       mcversion: ${{ needs.modpack-info.outputs.mcversion }}
       tag: ${{ needs.modpack-info.outputs.tag }}
+      rel_type: "release"
       news: ${{ needs.modpack-info.outputs.news }}
     secrets: inherit
