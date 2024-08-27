@@ -15,7 +15,7 @@ import org.jetbrains.annotations.Nullable
 class Utils {
 
     /**
-     * Remove and hide items
+     * Remove recipes from items & hide items
      */
     static void purge(IIngredient... inputs) {
         inputs.each { input ->
@@ -35,6 +35,18 @@ class Utils {
                     TabulatorAPI.removeItem(itemStack)
                 }
 
+                // Remove recipe
+                itemStack.removeRecipe()
+            }
+        }
+    }
+
+    /**
+     * Remove recipes from items
+     */
+    static void removeRecipe(IIngredient... inputs) {
+        inputs.each { input ->
+            input.matchingStacks.each { itemStack ->
                 // Remove recipe
                 itemStack.removeRecipe()
             }
