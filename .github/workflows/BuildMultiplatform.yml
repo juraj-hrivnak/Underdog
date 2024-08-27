@@ -87,6 +87,7 @@ jobs:
           key: ${{ secrets.DISCORD_WEBHOOK_DEV }}
           username: "GitHub"
           avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+          content: ${{ steps.info.outputs.diff }}
           embeds: |
             [
               {
