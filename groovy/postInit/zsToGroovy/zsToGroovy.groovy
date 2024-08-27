@@ -1,9 +1,24 @@
+
 //NO_RUN
 
 import com.cleanroommc.groovyscript.helper.GroovyFile
 
 /**
- * Rewrites ZenScript (.zs) to Groovy.
+ * Rewrites ZenScript (.zs) to GroovyScript (.groovy)!
+ *
+ * This script should be located in 'postInit/zsToGroovy' directory,
+ * and your 'runConfig.json' needs to have:
+ * {
+ *     "loaders": {
+ *         "postInit": [
+ *             "postInit/zsToGroovy"
+ *         ]
+ *     }
+ * }
+ *
+ * To use this, put ZenScript files into the 'postInit/zsToGroovy' and reload GroovyScript.
+ *
+ * Compatible with GroovyScript 1.0.1 and higher.
  */
 
 def workingDir = new GroovyFile('groovy/postInit/zsToGroovy')
@@ -28,6 +43,7 @@ workingDir.eachFileRecurse() { file ->
                 .replace('<ore:', 'ore(\'') // Oredicts
                 .replace('<blockstate:', 'blockstate(\'') // Blockstates
                 .replace('<entity:', 'entity(\'') // Entities
+                .replace('<liquid:', 'fluid(\'') // Fluids
                 .replace('<', 'item(\'') // Items
                 .replace('>', '\')')
                 .replace('val ', 'def ')
