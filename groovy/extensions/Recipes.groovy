@@ -1,5 +1,6 @@
 
 import classes.io.Replacer
+import classes.recipes.MatrixRecipe
 
 import com.cleanroommc.groovyscript.api.IIngredient
 import com.cleanroommc.groovyscript.helper.ingredient.OrIngredient
@@ -70,29 +71,13 @@ ItemStack.metaClass.removeRecipe = { ->
 
 // -- MATRIX --
 
-class Intertwiner {
-
-    static ItemStack itemStack
-    static matrix
-
-    static with = { Map<String, IIngredient> map ->
-        crafting.shapedBuilder()
-            .output(itemStack)
-            .matrix(matrix)
-            .key(map)
-            .register().tap { Replacer.ingore(it) }
-        return this
-    }
-
-}
-
 /**
  * Tweak shaped recipe using a matrix.
  * (Extension of ItemStack)
  */
 ItemStack.metaClass.tweakRecipe = { String... matrix ->
     crafting.removeByOutput(delegate, printErrors)
-    return new Intertwiner(itemStack: delegate, matrix: matrix)
+    return new MatrixRecipe(itemStack: delegate, matrix: matrix)
 }
 
 /**
@@ -100,7 +85,7 @@ ItemStack.metaClass.tweakRecipe = { String... matrix ->
  * (Extension of ItemStack)
  */
 ItemStack.metaClass.addRecipe = { String... matrix ->
-    return new Intertwiner(itemStack: delegate, matrix: matrix)
+    return new MatrixRecipe(itemStack: delegate, matrix: matrix)
 }
 
 // -- INGREDIENT --

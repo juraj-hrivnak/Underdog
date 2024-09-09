@@ -327,7 +327,10 @@ item('minecraft:stick').with {
 // 1 log => 6 firewood = 24 sticks
 
 // Recipe for treated sticks
-(item('immersiveengineering:material') * 4).tweakRecipe( 'l', 'l' ).with(
+(item('immersiveengineering:material') * 4).tweakRecipe(
+    'l',
+    'l'
+).with(
     l: item('contenttweaker:treated_wood_lumber')
 )
 
