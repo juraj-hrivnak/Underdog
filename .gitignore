@@ -3,6 +3,11 @@
 build/
 pakku.jar
 
+# GroovyScript
+cache/
+groovy/postInit/zsToGroovy/*
+!groovy/postInit/zsToGroovy/zsToGroovy.groovy
+
 # Configs
 config/BiomeTweaker/output/*
 config/fantasticlib/*
@@ -24,7 +29,6 @@ config/moresoundconfig.cfg
 config/voicechat/username-cache.json
 
 # .minecraft
-cache/
 assetmover/assets/*
 mods/*
 resourcepacks/*
