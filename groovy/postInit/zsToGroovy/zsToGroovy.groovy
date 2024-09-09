@@ -1,6 +1,4 @@
 
-//NO_RUN
-
 import com.cleanroommc.groovyscript.helper.GroovyFile
 
 /**
@@ -21,7 +19,7 @@ import com.cleanroommc.groovyscript.helper.GroovyFile
  * Compatible with GroovyScript 1.0.1 and higher.
  */
 
-def workingDir = new GroovyFile('groovy/postInit/zsToGroovy')
+def workingDir = file('groovy/postInit/zsToGroovy')
 
 if (!workingDir.exists()) {
     workingDir.mkdir()
@@ -52,12 +50,6 @@ workingDir.eachFileRecurse() { file ->
                 .replace('recipes.removeByRecipeName', 'crafting.remove')
                 .replace('recipes.remove', 'crafting.removeByOutput')
                 .replace('recipes', 'crafting')
-                .replaceAll( // Unnecessary casts
-                    / as IItemStack\[\]/, ''
-                )
-                .replaceAll(
-                    / as void/, ''
-                )
                 .replaceAll( // Metadata
                     /:([\d]*)'(?=\))/, /', $1/
                 )
@@ -76,6 +68,22 @@ workingDir.eachFileRecurse() { file ->
                 .replaceAll( // Null checks
                     /isNull(\([^\)]*(?=\)))/,
                     /$1 == null/
+                )
+                .replaceAll(/(withTag)\(([^\)]*(?=\)))/) { all, methodName, body -> // NBT
+                    def innerText = body.replace('\'', '')
+                    innerText = innerText.replaceAll(/(\b[^\d\W]+\b)/, /'$1'/)
+                    innerText = innerText.replace('{', '[')
+                    innerText = innerText.replace('}', ']')
+
+                    'withNbt(' + innerText
+                }
+                .replaceAll(/static *(\w+) *as *(.+) *=/, /$2$1 =/)
+                .replaceAll(/def *(\w+) *as *(.+) *=/, /$2$1 =/)
+                .replaceAll( // Unnecessary casts
+                    / as IItemStack\[\]/, ''
+                )
+                .replaceAll(
+                    / as void/, ''
                 )
         }
         gFile.delete()
