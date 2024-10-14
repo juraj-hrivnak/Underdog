@@ -144,7 +144,7 @@ jobs:
           path: build/.cache
           key: ${{ runner.OS }}-pakku-cache-${{ hashFiles('build/.cache/') }}
           restore-keys: |
-            ${{ runner.OS }}-pakku-cache
+            ${{ runner.OS }}-pakku-cache-
 
       - name: Export modpacks
         run: |
