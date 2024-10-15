@@ -7888,7 +7888,7 @@
             ]
         },
         {
-            "pakku_id": "ngYnNzK32lfiZoDi",
+            "pakku_id": "49lHVwwWPhi3WDhr",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",
             "slug": {
@@ -7903,29 +7903,10 @@
                 "curseforge": "300317",
                 "modrinth": "rx58ZUPu"
             },
-            "update_strategy": "NONE",
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "Modernity-format3-v3.9.1.zip",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4753/35/Modernity-format3-v3.9.1.zip",
-                    "id": "4753035",
-                    "parent_id": "300317",
-                    "hashes": {
-                        "sha1": "0f0dcfb8bd13a9a7b8d484c000256b850462bf0c",
-                        "md5": "e43dedbaf80f738d2fb8dd6cb099a8e0"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 9673512
-                },
-                {
                     "type": "modrinth",
-                    "file_name": "Modernity-format3-v3.9.1.zip",
+                    "file_name": "Modernity-format3-v3.9.0.zip",
                     "mc_versions": [
                         "1.11",
                         "1.11.1",
@@ -7938,16 +7919,36 @@
                         "minecraft"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/rx58ZUPu/versions/LKE4JUQG/Modernity-format3-v3.9.1.zip",
-                    "id": "LKE4JUQG",
+                    "url": "https://cdn.modrinth.com/data/rx58ZUPu/versions/t03c8IHS/Modernity-format3-v3.9.0.zip",
+                    "id": "t03c8IHS",
                     "parent_id": "rx58ZUPu",
                     "hashes": {
-                        "sha512": "99a6145b7119a96ed90d60e268b5ab45d47d7637b7b232b3ff8306f151dc200a975456960c1acb4e24ce3d54b7469daf0f33eccf4e09170d109413b574983745",
-                        "sha1": "0f0dcfb8bd13a9a7b8d484c000256b850462bf0c"
+                        "sha512": "068ec163c1c7b1b5bccc8fd5113101b60bc458fc753a20c6087e42e811b93eb73178142e34d0834e31df1cc832ecdccad9882db140e1e0ce6860886cb1c20abf",
+                        "sha1": "25ae3456bacd14dee12f94a978067637b1ea1789"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 9673512
+                    "size": 8663108,
+                    "date_published": "2023-06-19T19:22:53.343015Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Modernity-format3-v3.9.0.zip",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4597/356/Modernity-format3-v3.9.0.zip",
+                    "id": "4597356",
+                    "parent_id": "300317",
+                    "hashes": {
+                        "sha1": "25ae3456bacd14dee12f94a978067637b1ea1789",
+                        "md5": "a95232844ae1ffaaeba780dacb076785"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 8663108,
+                    "date_published": "2023-06-19T19:09:03.140Z"
                 }
             ]
         },
