@@ -1587,28 +1587,6 @@
                     ],
                     "size": 4746208,
                     "date_published": "2021-12-10T22:26:48.903Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/2842/510/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-                    "id": "2842510",
-                    "parent_id": "220318",
-                    "hashes": {
-                        "sha1": "6f281febea0746d2229f692cb719bd017ec70b32",
-                        "md5": "4c1d23b8a58b6aaa9a5204fae3f18393"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 4702147,
-                    "date_published": "2019-12-14T11:25:45.710Z"
                 }
             ]
         },
@@ -2258,28 +2236,6 @@
                     ],
                     "size": 37519,
                     "date_published": "2019-12-07T07:23:31.523Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "cherishedworlds-1.12.2-1.0.0.1.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2786/454/cherishedworlds-1.12.2-1.0.0.1.jar",
-                    "id": "2786454",
-                    "parent_id": "308240",
-                    "hashes": {
-                        "sha1": "ab1fc64f89e62b9f5a52990f9a8d40946f72d1f5",
-                        "md5": "effd9c8d1ea703a83084bb4b0b7bfd08"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 32701,
-                    "date_published": "2019-09-15T06:44:21.073Z"
                 }
             ]
         },
@@ -3214,28 +3170,6 @@
                     ],
                     "size": 1589227,
                     "date_published": "2024-06-29T17:54:00.047Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "CraftTweaker2-1.12-4.1.20.699.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5354/89/CraftTweaker2-1.12-4.1.20.699.jar",
-                    "id": "5354089",
-                    "parent_id": "239197",
-                    "hashes": {
-                        "sha1": "c3795166f8827222aa0d6e1b0c7aabc24ad1b614",
-                        "md5": "470b9df188c79c7c6ecc071fa7eb2d6d"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 1589229,
-                    "date_published": "2024-05-18T20:35:39.913Z"
                 }
             ]
         },
@@ -3451,30 +3385,6 @@
                     ],
                     "size": 1857099,
                     "date_published": "2020-04-17T14:38:24.623Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "Cuisine-0.5.15-build902.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/2816/561/Cuisine-0.5.15-build902.jar",
-                    "id": "2816561",
-                    "parent_id": "303694",
-                    "hashes": {
-                        "sha1": "61b7b8131292230e017d0833a1d0970ea3fb9dfd",
-                        "md5": "937e10d5e531fe8f0ebacf1807bc2b46"
-                    },
-                    "required_dependencies": [
-                        "303657",
-                        "306770"
-                    ],
-                    "size": 2006419,
-                    "date_published": "2019-10-26T03:50:51.020Z"
                 }
             ]
         },
@@ -4540,30 +4450,6 @@
                     ],
                     "size": 58047,
                     "date_published": "2019-10-19T10:29:00.293Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "eguilib-0.1.1.jar",
-                    "mc_versions": [
-                        "1.12.1",
-                        "1.12",
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2753/396/eguilib-0.1.1.jar",
-                    "id": "2753396",
-                    "parent_id": "332522",
-                    "hashes": {
-                        "sha1": "b9afdd673db0acb9cb28dde3ff651cc96f9bb692",
-                        "md5": "a1e205c289b3775f237d30c8dddcae88"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 57904,
-                    "date_published": "2019-08-02T16:58:36.427Z"
                 }
             ]
         },
@@ -4732,28 +4618,6 @@
                     ],
                     "size": 934370,
                     "date_published": "2020-06-22T13:44:34.150Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "FTBLib-5.4.7.0.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2891/572/FTBLib-5.4.7.0.jar",
-                    "id": "2891572",
-                    "parent_id": "237167",
-                    "hashes": {
-                        "sha1": "813b7ea1c8ffa8eb2450288f083745010f5682d4",
-                        "md5": "23053152aeb147aec8d47329525449a7"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 934566,
-                    "date_published": "2020-02-28T23:29:29.903Z"
                 }
             ]
         },
@@ -4794,30 +4658,6 @@
                     ],
                     "size": 1091954,
                     "date_published": "2021-01-02T23:10:49.853Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "FTBQuests-1.8.1.239.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2961/486/FTBQuests-1.8.1.239.jar",
-                    "id": "2961486",
-                    "parent_id": "289412",
-                    "hashes": {
-                        "sha1": "e723faec4473143c8c88d6f4cabcc7fc3a7d341f",
-                        "md5": "68564ecb4e9a2fcffc1a254b3fd30ce7"
-                    },
-                    "required_dependencies": [
-                        "309674",
-                        "237167"
-                    ],
-                    "size": 1060728,
-                    "date_published": "2020-05-20T12:42:10.130Z"
                 }
             ]
         },
@@ -5549,7 +5389,7 @@
             ]
         },
         {
-            "pakku_id": "Ug2YsBY3S7ciFo6E",
+            "pakku_id": "R0eua9Vmb94Q0RqS",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -5564,32 +5404,11 @@
                 "curseforge": "271856",
                 "modrinth": "aPBZx3jD"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "Geolosys-1.12.2-3.0.9.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/aPBZx3jD/versions/7aBNPCpv/Geolosys-1.12.2-3.0.9.jar",
-                    "id": "7aBNPCpv",
-                    "parent_id": "aPBZx3jD",
-                    "hashes": {
-                        "sha512": "72af29e184f2b4db6689c52950d1a726f410effb4cde56c3de63f985951f1049195e6cfeb414869ff003b85a9faf837171b646391a96bac95d589532f90b5299",
-                        "sha1": "58a88e99231a5ba07d0483c32af473c49203cb2d"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 566680,
-                    "date_published": "2023-04-18T14:36:06.840899Z"
-                },
-                {
                     "type": "curseforge",
-                    "file_name": "Geolosys-1.12.2-3.0.10.jar",
+                    "file_name": "Geolosys-1.12.2-3.0.8.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -5597,17 +5416,39 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2827/665/Geolosys-1.12.2-3.0.10.jar",
-                    "id": "2827665",
+                    "url": "https://edge.forgecdn.net/files/2807/950/Geolosys-1.12.2-3.0.8.jar",
+                    "id": "2807950",
                     "parent_id": "271856",
                     "hashes": {
-                        "sha1": "7b521fc9c9af3ef65e2ca465e3d3aed9e8114e2e",
-                        "md5": "696c657d04c17d7292061b6ce0edd2f5"
+                        "sha1": "7288fdd7e837d6a2421803091d707295c5e31be4",
+                        "md5": "6d6789c34d33eee3d7426aaa897b46d8"
                     },
                     "required_dependencies": [
                     ],
-                    "size": 567116,
-                    "date_published": "2019-11-15T17:04:33.670Z"
+                    "size": 355042,
+                    "date_published": "2019-10-12T19:15:19.810Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Geolosys-1.12.2-3.0.8.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/aPBZx3jD/versions/nPSXvuGd/Geolosys-1.12.2-3.0.8.jar",
+                    "id": "nPSXvuGd",
+                    "parent_id": "aPBZx3jD",
+                    "hashes": {
+                        "sha512": "a0fad1ef9829a5b12fb7096f6a0dad408df3c901039df08385c46e66c43598535109dcb38662be3d12a1759d959f981a46481a24e7b533dd966079a76e283a9c",
+                        "sha1": "7288fdd7e837d6a2421803091d707295c5e31be4"
+                    },
+                    "required_dependencies": [
+                    ],
+                    "size": 355042,
+                    "date_published": "2023-04-18T14:36:05.280972Z"
                 }
             ]
         },
@@ -8752,30 +8593,6 @@
                     ],
                     "size": 399048,
                     "date_published": "2021-05-23T16:33:06.740Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "Ore Stone Variants-5.5-1.12.jar",
-                    "mc_versions": [
-                        "1.12.1",
-                        "1.12",
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3049/204/Ore Stone Variants-5.5-1.12.jar",
-                    "id": "3049204",
-                    "parent_id": "287538",
-                    "hashes": {
-                        "sha1": "3d94612f80621acd84138863f929af7896de792e",
-                        "md5": "9ae7bf290802e730006ff18b3c9d7dcd"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 396142,
-                    "date_published": "2020-09-04T00:09:12.970Z"
                 }
             ]
         },
@@ -9104,7 +8921,7 @@
             ]
         },
         {
-            "pakku_id": "abyC4XsE5qyQzGmD",
+            "pakku_id": "jZ6HuoXiPawXb9t6",
             "pakku_links": [
                 "2dJZKmi3Ew7OR60W",
                 "fi7xDOrhy3yOjt03"
@@ -9122,7 +8939,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "pyrotech-1.12.2-1.6.16.jar",
+                    "file_name": "pyrotech-1.12.2-1.6.15.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -9130,20 +8947,20 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/5635/213/pyrotech-1.12.2-1.6.16.jar",
-                    "id": "5635213",
+                    "url": "https://edge.forgecdn.net/files/5351/359/pyrotech-1.12.2-1.6.15.jar",
+                    "id": "5351359",
                     "parent_id": "306676",
                     "hashes": {
-                        "sha1": "3a0cc43ab31b8fb7a1abb2b74df1ff85fdf14e8f",
-                        "md5": "f113c4af950aff928719b65dd64d52f1"
+                        "sha1": "b70335c1c5447a1af088b8dcbb2ec740aedc5e8e",
+                        "md5": "dc5b9f5661f8bfb7a56b2ba8390c7316"
                     },
                     "required_dependencies": [
-                        "306770",
+                        "284973",
                         "284350",
-                        "284973"
+                        "306770"
                     ],
-                    "size": 6035189,
-                    "date_published": "2024-08-16T15:40:39.180Z"
+                    "size": 6035133,
+                    "date_published": "2024-05-17T18:09:02.110Z"
                 }
             ]
         },
@@ -11846,88 +11663,6 @@
             ]
         },
         {
-            "pakku_id": "wTsNkOUrrLzdMsAb",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "tweaked-lib"
-            },
-            "name": {
-                "curseforge": "Tweaked Lib"
-            },
-            "id": {
-                "curseforge": "687632"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "tweakedlib-2.0.0.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5275/361/tweakedlib-2.0.0.jar",
-                    "id": "5275361",
-                    "parent_id": "687632",
-                    "hashes": {
-                        "sha1": "dc184676754d1c44e8651f0460791ea45687ad8e",
-                        "md5": "9c4cb1b11a797445f8acf3b4e527218b"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 46012,
-                    "date_published": "2024-04-19T23:15:17.880Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "rrza3FU5x58OHvbB",
-            "pakku_links": [
-                "wTsNkOUrrLzdMsAb",
-                "qzOXfhTcdgVnGnHB",
-                "Mog4XN6AWucGbzQg"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "tweaked-petroleum"
-            },
-            "name": {
-                "curseforge": "Tweaked Petroleum"
-            },
-            "id": {
-                "curseforge": "653506"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "tweakedpetroleum-2.0.1.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5409/500/tweakedpetroleum-2.0.1.jar",
-                    "id": "5409500",
-                    "parent_id": "653506",
-                    "hashes": {
-                        "sha1": "7ddfdfb5c2ad183a09d3bcb9be772772bb19dee2",
-                        "md5": "e2bdacea33f0bf585a333e396f8f0ac7"
-                    },
-                    "required_dependencies": [
-                        "687632",
-                        "419286",
-                        "268250"
-                    ],
-                    "size": 81422,
-                    "date_published": "2024-06-08T15:49:55.983Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "DsfcCflZVcwGeT5M",
             "pakku_links": [
                 "BZ49Vgc8sLN7EDA3",
@@ -12297,28 +12032,6 @@
                     ],
                     "size": 94115,
                     "date_published": "2020-03-30T09:15:19.083Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "Wawla-1.12.2-2.6.274.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2875/678/Wawla-1.12.2-2.6.274.jar",
-                    "id": "2875678",
-                    "parent_id": "224712",
-                    "hashes": {
-                        "sha1": "b47cd4ee739d8b10ef77e383ab1b451875bda1f9",
-                        "md5": "54e08206023a362d756feaff05a829fc"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 94120,
-                    "date_published": "2020-02-05T22:09:05.870Z"
                 }
             ]
         },

@@ -81,6 +81,9 @@
         },
         "world-tooltips": {
             "side": "CLIENT"
+        },
+        "geolosys": {
+            "update_strategy": "NONE"
         }
     }
 }
