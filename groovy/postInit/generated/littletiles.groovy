@@ -36,5 +36,5 @@ item('littletiles:premade').withNbt(['structure': ['id': 'importer']]).tweakReci
 
 // Little Storage Block
 item('littletiles:ltstorageblocktile').tweakRecipe(
-    [ore('chestWood'), null, null]
+    ore('chestWood')
 )

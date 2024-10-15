@@ -51,6 +51,13 @@ item('mocreatures:kittybed_red').tweakRecipe(
 // Wyvern Portal Staff
 item('mocreatures:staffportal').tweakRecipe(
     [null, null, item('mekanism:controlcircuit', 3)],
+    [null, item('mocreatures:unicornhorn'), null],
+    [item('minecraft:blaze_rod'), null, null]
+)
+
+// Wyvern Portal Staff
+item('mocreatures:staffportal').tweakRecipe(
+    [null, null, item('mekanism:controlcircuit', 3)],
     [null, item('mocreatures:essencelight'), null],
     [item('minecraft:blaze_rod'), null, null]
 )
@@ -95,13 +102,6 @@ item('mocreatures:tuskswood').tweakRecipe(
     [ore('lumber'), null, null],
     [ore('lumber'), item('minecraft:lead'), null],
     [ore('lumber'), ore('lumber'), ore('lumber')]
-)
-
-// Wyvern Portal Staff
-item('mocreatures:staffportal').tweakRecipe(
-    [null, null, item('mekanism:controlcircuit', 3)],
-    [null, item('mocreatures:unicornhorn'), null],
-    [item('minecraft:blaze_rod'), null, null]
 )
 
 // Orange Kitty Bed

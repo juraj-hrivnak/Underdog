@@ -334,12 +334,12 @@ item('openblocks:imaginary', 1).withNbt(['Uses': 10.0D, 'Color': 11743532, 'Mode
 
 // Magic Pencil
 item('openblocks:imaginary').withNbt(['Uses': 10.0D, 'Mode': 0]).tweakRecipe(
-    item('minecraft:coal'), ore('stickWood'), item('mekanism:controlcircuit', 3), ore('slimeball')
+    item('minecraft:coal', 1), ore('stickWood'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Pencil
 item('openblocks:imaginary').withNbt(['Uses': 10.0D, 'Mode': 0]).tweakRecipe(
-    item('minecraft:coal', 1), ore('stickWood'), item('mekanism:controlcircuit', 3), ore('slimeball')
+    item('minecraft:coal'), ore('stickWood'), item('mekanism:controlcircuit', 3), ore('slimeball')
 )
 
 // Magic Crayon

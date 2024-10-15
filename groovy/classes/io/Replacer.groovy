@@ -18,6 +18,8 @@ import java.lang.IllegalArgumentException
 /**
  * Generates groovy code for recipes at run-time.
  * Should be run only in dev enviroment.
+ *
+ * Make sure to delete the script cache before running.
  */
 class Replacer {
 
@@ -76,7 +78,10 @@ class Replacer {
                     && !recipe.ingredients.isEmpty()
         }.each { recipe ->
             def out = ''
-            if (recipe.registryName.toString().contains('_door')) {
+
+            if (recipe.ingredients.size() == 1) {
+                out += '    ' + replaceIngredient(recipe, recipe.ingredients.find { it != null })
+            } else if (recipe.registryName.toString().contains('_door')) {
                 def item = replaceIngredient(recipe, recipe.ingredients.find { it != null })
                 def rcp = [
                     [item, item],
