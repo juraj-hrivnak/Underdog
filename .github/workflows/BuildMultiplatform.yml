@@ -124,7 +124,7 @@ jobs:
           # Get & upload @news@
           news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g')
           echo news=$news >> $GITHUB_OUTPUT
-          echo $news >> $GITHUB_STEP_SUMMARY
+          echo -e "$news" >> $GITHUB_STEP_SUMMARY
 
           # Replace @news@
           perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/$news/g" $changelog
