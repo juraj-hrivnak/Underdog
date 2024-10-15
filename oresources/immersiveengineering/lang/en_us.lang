@@ -28,7 +28,7 @@ tile.immersiveengineering.storage_slab.electrum.name=Electrum Slab
 tile.immersiveengineering.storage_slab.steel.name=Steel Slab
 
 tile.immersiveengineering.stone_decoration.cokebrick.name=Coke Brick
-tile.immersiveengineering.stone_decoration.blastbrick.name=§mBlast Brick
+tile.immersiveengineering.stone_decoration.blastbrick.name=Blast Brick
 tile.immersiveengineering.stone_decoration.blastbrick_reinforced.name=Reinforced Refractory Bricks
 tile.immersiveengineering.stone_decoration.coke.name=Block of Coal Coke
 tile.immersiveengineering.stone_decoration.hempcrete.name=Hempcrete
@@ -39,7 +39,7 @@ tile.immersiveengineering.stone_decoration.insulating_glass.name=Insulating Glas
 tile.immersiveengineering.stone_decoration.concrete_sprayed.name=Quickdry Concrete
 tile.immersiveengineering.stone_decoration.alloybrick.name=Kiln Brick
 tile.immersiveengineering.stone_decoration_slab.cokebrick.name=Coke Brick Slab
-tile.immersiveengineering.stone_decoration_slab.blastbrick.name=§mBlast Brick Slab
+tile.immersiveengineering.stone_decoration_slab.blastbrick.name=Blast Brick Slab
 tile.immersiveengineering.stone_decoration_slab.blastbrick_reinforced.name=Reinforced Refractory Bricks Slab
 tile.immersiveengineering.stone_decoration_slab.coke.name=Coal Coke Slab
 tile.immersiveengineering.stone_decoration_slab.hempcrete.name=Hempcrete Slab
@@ -54,7 +54,7 @@ tile.immersiveengineering.stone_decoration_stairs_concrete_tile.name=Concrete Ti
 tile.immersiveengineering.stone_decoration_stairs_concrete_leaded.name=Leaded Concrete Stairs
 
 tile.immersiveengineering.stone_device.coke_oven.name=Coke Oven
-tile.immersiveengineering.stone_device.blast_furnace.name=§mCrude Blast Furnace
+tile.immersiveengineering.stone_device.blast_furnace.name=Crude Blast Furnace
 tile.immersiveengineering.stone_device.blast_furnace_advanced.name=Blast Furnace
 tile.immersiveengineering.stone_device.concrete_sheet.name=Concrete Sheet
 tile.immersiveengineering.stone_device.concrete_quarter.name=Concrete Panel

@@ -105,3 +105,4 @@ pax/serverpack/work/*
 pax/serverpack/server-packs/*
 pax/serverpack/logs/*
 pax/serverpack/ServerPackCreator-*.jar
+classOut/net/minecraft/entity/item/EntityXPOrb.class

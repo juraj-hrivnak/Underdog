@@ -8426,6 +8426,31 @@
             ]
         },
         {
+            "pakku_id": "Z52Ut7cJzCE93lUE",
+            "type": "MOD",
+            "slug": {
+                "github": "WesCook/Nutrition"
+            },
+            "name": {
+                "github": "Nutrition"
+            },
+            "id": {
+                "github": "89886790"
+            },
+            "files": [
+                {
+                    "type": "github",
+                    "file_name": "Nutrition-1.12.2-4.9.0.jar",
+                    "release_type": "release",
+                    "url": "https://github.com/WesCook/Nutrition/releases/download/v4.9.0/Nutrition-1.12.2-4.9.0.jar",
+                    "id": "43386410",
+                    "parent_id": "89886790",
+                    "size": 117788,
+                    "date_published": "2021-08-26T23:14:59Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "9ZMO6Mdv5VropVYw",
             "pakku_links": [
                 "tZ01XFE6D8dM2sMj"
