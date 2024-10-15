@@ -37,18 +37,27 @@ class Utils {
 
                 // Remove recipe
                 itemStack.removeRecipe()
+                itemStack.removeFurnaceRecipe()
             }
         }
     }
 
-    /**
-     * Remove recipes from items
-     */
+    /** Remove crafting recipes from items */
     static void removeRecipe(IIngredient... inputs) {
         inputs.each { input ->
             input.matchingStacks.each { itemStack ->
                 // Remove recipe
                 itemStack.removeRecipe()
+            }
+        }
+    }
+
+    /** Remove furnace recipes from items */
+    static void removeFurnaceRecipe(IIngredient... inputs) {
+        inputs.each { input ->
+            input.matchingStacks.each { itemStack ->
+                // Remove recipe
+                itemStack.removeFurnaceRecipe()
             }
         }
     }

@@ -62,11 +62,27 @@ ItemStack.metaClass.addRecipe = { IIngredient... input ->
 // -- REMOVE --
 
 /**
- * Remove recipe.
+ * Remove crafting recipe.
+ * (Extension of ItemStack)
+ */
+String.metaClass.removeRecipe = { ->
+    crafting.remove(delegate)
+}
+
+/**
+ * Remove crafting recipe.
  * (Extension of ItemStack)
  */
 ItemStack.metaClass.removeRecipe = { ->
     crafting.removeByOutput(delegate, printErrors)
+}
+
+/**
+ * Remove furnace recipe.
+ * (Extension of ItemStack)
+ */
+ItemStack.metaClass.removeFurnaceRecipe = { ->
+    furnace.removeByInput(delegate, printErrors)
 }
 
 // -- MATRIX --
