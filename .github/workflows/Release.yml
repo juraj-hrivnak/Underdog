@@ -120,7 +120,7 @@ jobs:
           echo "markdown=$message" >> $GITHUB_OUTPUT
 
       - name: Send Discord message
-        uses: "hugoalh/send-discord-webhook-ghaction@v7.0.0"
+        uses: "hugoalh/send-discord-webhook-ghaction@v7.0.1"
         with:
           key: ${{ secrets.DISCORD_WEBHOOK_ANNOUNCEMENTS }}
           username: "UnderBot"
