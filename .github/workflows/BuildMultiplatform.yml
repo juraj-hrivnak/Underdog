@@ -145,6 +145,7 @@ jobs:
           username: "GitHub"
           avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
           content: ${{ steps.info.outputs.diff }}
+          embeds: "[{}]"
 
   build-modpack:
     name: Build Modpack
