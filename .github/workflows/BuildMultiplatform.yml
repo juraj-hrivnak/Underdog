@@ -19,6 +19,7 @@ jobs:
       tag: ${{ steps.info.outputs.tag }}
       rel_type: ${{ steps.info.outputs.rel_type }}
       diff: ${{ steps.info.outputs.diff }}
+      news: ${{ steps.info.outputs.news }}
 
     steps:
       - name: Checkout
@@ -55,21 +56,25 @@ jobs:
           projectname=`echo $(jq -r '.name' <<< "$config_file")`
           echo "projectname=$projectname" >> $GITHUB_OUTPUT
           echo "📃 projectname=$projectname"
+          echo -e "📃 projectname=$projectname" >> $GITHUB_STEP_SUMMARY
 
           # -- TAGS --
 
           latest_tag=$(git describe --tags --abbrev=0)
           echo "tag=$latest_tag" >> $GITHUB_OUTPUT
           echo "📃 latest_tag=$latest_tag"
+          echo -e "📃 latest_tag=$latest_tag" >> $GITHUB_STEP_SUMMARY
 
           # -- PROJECT SUFFIX --
 
           if [[ ${{ startsWith(github.ref, 'refs/tags/v') }} == true ]]; then
             echo "projectsuffix=$latest_tag" >> $GITHUB_OUTPUT
             echo "📃 projectsuffix=$latest_tag"
+            echo -e "📃 projectsuffix=$latest_tag" >> $GITHUB_STEP_SUMMARY
           else
             echo "projectsuffix=build.${{ github.run_number }}" >> $GITHUB_OUTPUT
             echo "📃 projectsuffix=build.${{ github.run_number }}"
+            echo -e "📃 projectsuffix=build.${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
           fi
 
           # -- RELEASE TYPE
@@ -83,6 +88,7 @@ jobs:
 
           echo "rel_type=$rel_type" >> $GITHUB_OUTPUT
           echo "📃 rel_type=$rel_type"
+          echo -e "📃 rel_type=$rel_type" >> $GITHUB_STEP_SUMMARY
 
           # -- DIFF --
 
@@ -99,7 +105,7 @@ jobs:
 
           curl https://github.com/juraj-hrivnak/pakku/releases/latest/download/pakku.jar -o pakku.jar -L -J
 
-          java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json --markdown PROJECTS_DIFF.md
+          java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json -v --markdown PROJECTS_DIFF.md
 
           # -- OUTPUT DIFF --
 
@@ -111,15 +117,44 @@ jobs:
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
+          // -- CHANGELOG --
+
+          changelog="./CHANGELOG.md"
+
+          # Replace @mod_changes@
+          mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
+          perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
+
+          # Get & upload @news@
+          news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g')
+          echo news=$news >> $GITHUB_OUTPUT
+          echo "$news" >> $GITHUB_STEP_SUMMARY
+
+          # Replace @news@
+          perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/$news/g" $changelog
+
+          # Finally, Rename changelog
+          mv $changelog "CHANGELOG-$projectsuffix.md"
+
+      - name: Upload changelog
+        uses: actions/upload-artifact@v4
+        with:
+          name: changelog
+          path: CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
       - name: Send Discord message
-        uses: "hugoalh/send-discord-webhook-ghaction@5af9cbe30a2a19e7ce18853012ef55487c985954" # 6.0.2
-        if: ${{ steps.info.outputs.diff != '' }}
+        uses: hugoalh/send-discord-webhook-ghaction@v7.0.1
+        # if: ${{ steps.info.outputs.diff != '' }}
         with:
           key: ${{ secrets.DISCORD_WEBHOOK_DEV }}
           username: "GitHub"
           avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-          content: ${{ steps.info.outputs.diff }}
-          embeds: "[{}]"
+          content: ""
+          embeds: |
+            [
+              {
+                "description": ${{ steps.info.outputs.diff }}
+              }
+            ]
 
   build-modpack:
     name: Build Modpack
