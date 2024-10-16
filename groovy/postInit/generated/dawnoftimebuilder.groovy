@@ -1,7 +1,7 @@
 
 // Waxed Oak Planks
 (item('dawnoftimebuilder:oak_waxed_planks') * 6).tweakRecipe(
-    [item('dawnoftimebuilder:wax'), item('contenttweaker:lumber_vanilla_oak'), null]
+    [item('dawnoftimebuilder:wax'), item('contenttweaker:lumber_vanilla_oak')]
 )
 
 // Waxed Oak Planks
@@ -12,7 +12,7 @@
 
 // Oak Planks Edge
 (item('dawnoftimebuilder:oak_planks_edge') * 6).tweakRecipe(
-    [item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak'), null]
+    [item('contenttweaker:lumber_vanilla_oak'), item('contenttweaker:lumber_vanilla_oak')]
 )
 
 // Wax
@@ -29,7 +29,7 @@
 
 // Spruce Log Covered
 (item('dawnoftimebuilder:spruce_log_covered') * 4).tweakRecipe(
-    [item('contenttweaker:lumber_vanilla_spruce'), item('minecraft:log', 1), null]
+    [item('contenttweaker:lumber_vanilla_spruce'), item('minecraft:log', 1)]
 )
 
 // Spruce Timber Frame Pillar (Shikkui no Hashira)

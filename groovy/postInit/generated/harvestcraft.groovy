@@ -21,7 +21,7 @@ item('harvestcraft:turkishdelightitem').tweakRecipe(
 
 // Juicer
 item('harvestcraft:juiceritem').tweakRecipe(
-    [ore('stones'), item('minecraft:stone_pressure_plate'), null]
+    [ore('stones'), item('minecraft:stone_pressure_plate')]
 )
 
 // Hot Sauce

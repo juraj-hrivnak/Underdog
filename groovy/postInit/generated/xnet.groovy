@@ -1,11 +1,4 @@
 
-// Antenna Dish
-item('xnet:antenna_dish').tweakRecipe(
-    [item('minecraft:iron_trapdoor'), item('minecraft:iron_trapdoor'), item('minecraft:iron_trapdoor')],
-    [item('minecraft:iron_trapdoor'), item('mekanism:controlcircuit', 2), item('minecraft:iron_trapdoor')],
-    [null, item('minecraft:iron_ingot'), null]
-)
-
 // Connector Upgrade Kit
 item('xnet:connector_upgrade').tweakRecipe(
     [item('minecraft:paper'), item('mekanism:controlcircuit', 2), item('minecraft:diamond')],
@@ -16,6 +9,13 @@ item('xnet:connector_upgrade').tweakRecipe(
 item('xnet:advanced_connector').tweakRecipe(
     [item('xnet:connector'), item('mekanism:controlcircuit', 2), item('minecraft:diamond')],
     [item('minecraft:redstone'), null, null]
+)
+
+// Antenna Dish
+item('xnet:antenna_dish').tweakRecipe(
+    [item('minecraft:iron_trapdoor'), item('minecraft:iron_trapdoor'), item('minecraft:iron_trapdoor')],
+    [item('minecraft:iron_trapdoor'), item('mekanism:controlcircuit', 2), item('minecraft:iron_trapdoor')],
+    [null, item('minecraft:iron_ingot'), null]
 )
 
 // Wireless Router

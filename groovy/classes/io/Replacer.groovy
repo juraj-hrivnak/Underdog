@@ -26,7 +26,7 @@ class Replacer {
     /**
      * Enables Replacer, though it is still only run in dev enviroment.
      */
-    private static enabled = false
+    private static enabled = true
 
     private static oreDictsToReplace = [:]
     private static fluidStacksToReplace = [:]
@@ -95,11 +95,7 @@ class Replacer {
                     }
                 }
             } else if (recipe instanceof IShapedRecipe) {
-                def rcp = [
-                    [null, null, null],
-                    [null, null, null],
-                    [null, null, null]
-                ]
+                def rcp = [[],[],[]]
 
                 recipe.ingredients.eachWithIndex { x, i ->
                     if (i in 0..2) {
@@ -114,6 +110,23 @@ class Replacer {
                 }
 
                 rcp = rcp.findAll { it != [null, null, null] }
+                rcp = rcp.findAll { !it.isEmpty() }
+
+                if (rcp[1] != null && !rcp[1].isEmpty() && (rcp[0].size() - rcp[1].size()) != 0) {
+
+                    1..(rcp[0].size() - rcp[1].size()).each { i ->
+                        if (rcp[1][i] == null) rcp[1][i] = "null"
+                    }
+
+                }
+
+                if (rcp[2] != null && !rcp[2].isEmpty() && (rcp[1].size() - rcp[2].size()) != 0) {
+
+                    1..(rcp[1].size() - rcp[2].size()).each { i ->
+                        if (rcp[2][i] == null) rcp[2][i] = "null"
+                    }
+
+                }
 
                 rcp.eachWithIndex { x, i ->
                     out += '    ' + x.toString()

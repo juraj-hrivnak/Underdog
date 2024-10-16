@@ -8,5 +8,5 @@ item('chiselsandbits:wrench_wood').tweakRecipe(
 
 // Stone Chisel
 item('chiselsandbits:chisel_stone').tweakRecipe(
-    [ore('rocks'), ore('stickWood'), null]
+    [ore('rocks'), ore('stickWood')]
 )

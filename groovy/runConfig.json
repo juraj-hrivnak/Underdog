@@ -18,10 +18,10 @@
         ],
         "postInit": [
             "extensions/",
-            "postInit/woodworking",
-            "postInit/vanilla",
-            "postInit/mods/pyrotech",
-            "postInit/mods",
+            "postInit/recipes/woodworking",
+            "postInit/recipes/vanilla",
+            "postInit/recipes/mods/pyrotech",
+            "postInit/recipes/mods",
             "postInit/",
             "postInit/generated",
             "postInit/zsToGroovy"

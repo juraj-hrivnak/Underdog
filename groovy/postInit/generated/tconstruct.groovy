@@ -1,15 +1,15 @@
 
+// Blank Pattern
+(item('tconstruct:pattern') * 4).tweakRecipe(
+    [ore('lumber'), ore('stickWood'), ore('stickWood')],
+    [ore('lumber'), null, null]
+)
+
 // Pattern Chest
 item('tconstruct:tooltables', 4).tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')],
     [ore('lumber'), item('tconstruct:pattern'), ore('lumber')],
     [ore('lumber'), ore('lumber'), ore('lumber')]
-)
-
-// Blank Pattern
-(item('tconstruct:pattern') * 4).tweakRecipe(
-    [ore('lumber'), ore('stickWood'), ore('stickWood')],
-    [ore('lumber'), null, null]
 )
 
 // Wooden Hopper
@@ -42,5 +42,5 @@ item('tconstruct:tooltables', 5).tweakRecipe(
 
 // Stencil Table
 item('tconstruct:tooltables', 1).withNbt(['textureBlock': ['id': 'minecraft:planks', 'Count': 1, 'Damage': (short) 0]]).tweakRecipe(
-    [item('tconstruct:pattern'), item('contenttweaker:lumber_vanilla_oak'), null]
+    [item('tconstruct:pattern'), item('contenttweaker:lumber_vanilla_oak')]
 )

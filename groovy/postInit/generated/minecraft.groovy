@@ -1,4 +1,10 @@
 
+// Stone Bricks
+(item('minecraft:stonebrick') * 4).tweakRecipe(
+    [ore('stones'), ore('stones'), ore('stones')],
+    [ore('stones'), null, null]
+)
+
 // Acacia Door
 (item('minecraft:acacia_door') * 3).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia')],
@@ -287,7 +293,7 @@ item('minecraft:bed', 14).tweakRecipe(
 
 // Cobblestone Slab
 (item('minecraft:stone_slab', 3) * 4).tweakRecipe(
-    [ore('rocks'), ore('rocks'), null]
+    [ore('rocks'), ore('rocks')]
 )
 
 // Spruce Wood Stairs
@@ -314,12 +320,6 @@ item('minecraft:bed', 9).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_dark_oak'), null, null],
     [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak'), null],
     [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')]
-)
-
-// Stone Bricks
-(item('minecraft:stonebrick') * 4).tweakRecipe(
-    [ore('stones'), ore('stones'), ore('stones')],
-    [ore('stones'), null, null]
 )
 
 // Birch Fence
@@ -404,7 +404,7 @@ item('minecraft:bed', 11).tweakRecipe(
 
 // Stone Pressure Plate
 item('minecraft:stone_pressure_plate').tweakRecipe(
-    [ore('stones'), ore('stones'), null]
+    [ore('stones'), ore('stones')]
 )
 
 // Purple Bed
