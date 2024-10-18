@@ -1,10 +1,4 @@
 
-// Stone Bricks
-(item('minecraft:stonebrick') * 4).tweakRecipe(
-    [ore('stones'), ore('stones'), ore('stones')],
-    [ore('stones'), null, null]
-)
-
 // Acacia Door
 (item('minecraft:acacia_door') * 3).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_acacia'), item('contenttweaker:lumber_vanilla_acacia')],
@@ -111,6 +105,13 @@ item('minecraft:end_crystal').tweakRecipe(
     [ore('blockGlassColorless'), ore('blockGlassColorless'), ore('blockGlassColorless')],
     [ore('blockGlassColorless'), item('mekanism:controlcircuit', 3), ore('blockGlassColorless')],
     [ore('blockGlassColorless'), item('minecraft:ghast_tear'), ore('blockGlassColorless')]
+)
+
+// Quantum Chest
+item('minecraft:ender_chest').tweakRecipe(
+    [item('minecraft:obsidian'), item('minecraft:obsidian'), item('minecraft:obsidian')],
+    [item('minecraft:obsidian'), item('mekanism:controlcircuit', 3), item('minecraft:obsidian')],
+    [item('minecraft:obsidian'), item('minecraft:obsidian'), item('minecraft:obsidian')]
 )
 
 // Yellow Bed
@@ -228,6 +229,11 @@ item('minecraft:mossy_cobblestone').tweakRecipe(
     ore('rocks'), item('minecraft:vine')
 )
 
+// Lever
+item('minecraft:lever').tweakRecipe(
+    [ore('stickWood'), ore('rocks')]
+)
+
 // Sign
 (item('minecraft:sign') * 3).tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')],
@@ -291,11 +297,6 @@ item('minecraft:bed', 14).tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
-// Cobblestone Slab
-(item('minecraft:stone_slab', 3) * 4).tweakRecipe(
-    [ore('rocks'), ore('rocks')]
-)
-
 // Spruce Wood Stairs
 (item('minecraft:spruce_stairs') * 4).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_spruce'), null, null],
@@ -338,6 +339,11 @@ item('minecraft:spruce_fence_gate').tweakRecipe(
 item('minecraft:jungle_fence_gate').tweakRecipe(
     [item('minecraft:stick'), item('contenttweaker:lumber_vanilla_jungle'), item('minecraft:stick')],
     [item('minecraft:stick'), item('contenttweaker:lumber_vanilla_jungle'), item('minecraft:stick')]
+)
+
+// Wooden Pressure Plate
+item('minecraft:wooden_pressure_plate').tweakRecipe(
+    [ore('lumber'), ore('lumber')]
 )
 
 // Black Bed
@@ -387,6 +393,11 @@ item('minecraft:bookshelf').tweakRecipe(
 (item('minecraft:spruce_fence') * 3).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_spruce'), item('minecraft:stick'), item('contenttweaker:lumber_vanilla_spruce')],
     [item('contenttweaker:lumber_vanilla_spruce'), item('minecraft:stick'), item('contenttweaker:lumber_vanilla_spruce')]
+)
+
+// Button
+item('minecraft:wooden_button').tweakRecipe(
+    ore('lumber')
 )
 
 // Blue Bed

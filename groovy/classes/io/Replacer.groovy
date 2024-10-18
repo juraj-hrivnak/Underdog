@@ -26,7 +26,7 @@ class Replacer {
     /**
      * Enables Replacer, though it is still only run in dev enviroment.
      */
-    private static enabled = true
+    private static enabled = false
 
     private static oreDictsToReplace = [:]
     private static fluidStacksToReplace = [:]
@@ -51,7 +51,7 @@ class Replacer {
 
     static void ingore(IRecipe recipe) {
         try {
-            if (recipe !in ignoredRecipes) {
+            if (recipe !in ignoredRecipes && recipe?.registryName != null) {
                 ignoredRecipes << recipe.registryName.toString()
             }
         } catch (IllegalArgumentException e) {
@@ -109,15 +109,11 @@ class Replacer {
                     }
                 }
 
-                rcp = rcp.findAll { it != [null, null, null] }
-                rcp = rcp.findAll { !it.isEmpty() }
-
                 if (rcp[1] != null && !rcp[1].isEmpty() && (rcp[0].size() - rcp[1].size()) != 0) {
 
                     1..(rcp[0].size() - rcp[1].size()).each { i ->
                         if (rcp[1][i] == null) rcp[1][i] = "null"
                     }
-
                 }
 
                 if (rcp[2] != null && !rcp[2].isEmpty() && (rcp[1].size() - rcp[2].size()) != 0) {
@@ -125,8 +121,10 @@ class Replacer {
                     1..(rcp[1].size() - rcp[2].size()).each { i ->
                         if (rcp[2][i] == null) rcp[2][i] = "null"
                     }
-
                 }
+
+                rcp = rcp.findAll { it != [null, null, null] }
+                rcp = rcp.findAll { !it.isEmpty() }
 
                 rcp.eachWithIndex { x, i ->
                     out += '    ' + x.toString()

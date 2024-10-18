@@ -1,9 +1,4 @@
 
-// Stone Speleothem
-(item('quark:stone_speleothem') * 6).tweakRecipe(
-    [ore('stones'), ore('stones'), ore('stones')]
-)
-
 // Dark Oak Trapdoor
 (item('quark:dark_oak_trapdoor') * 6).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')],
@@ -98,10 +93,8 @@ item('quark:custom_bookshelf').tweakRecipe(
     [item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce'), item('contenttweaker:lumber_vanilla_spruce')]
 )
 
-// Stone Stairs
-(item('quark:stone_stairs') * 8).tweakRecipe(
-    [ore('stones'), null, null],
-    [ore('stones'), ore('stones'), null],
+// Stone Speleothem
+(item('quark:stone_speleothem') * 6).tweakRecipe(
     [ore('stones'), ore('stones'), ore('stones')]
 )
 
@@ -131,12 +124,6 @@ item('quark:custom_bookshelf', 2).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')],
     [item('minecraft:book'), item('minecraft:book'), item('minecraft:book')],
     [item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle'), item('contenttweaker:lumber_vanilla_jungle')]
-)
-
-// Stone Wall
-(item('quark:stone_wall') * 6).tweakRecipe(
-    [ore('stones'), ore('stones'), ore('stones')],
-    [ore('stones'), ore('stones'), ore('stones')]
 )
 
 // Spruce Trapdoor

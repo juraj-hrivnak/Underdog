@@ -1,10 +1,4 @@
 
-// Loom
-item('futuremc:loom').tweakRecipe(
-    [ore('string'), ore('string'), ore('lumber')],
-    [ore('lumber'), null, null]
-)
-
 // Stonecutter
 item('futuremc:stonecutter').tweakRecipe(
     [null, item('minecraft:iron_ingot'), null],
@@ -15,6 +9,12 @@ item('futuremc:stonecutter').tweakRecipe(
 item('futuremc:grindstone').tweakRecipe(
     [ore('stickWood'), item('minecraft:stone_slab'), ore('stickWood')],
     [ore('lumber'), null, ore('lumber')]
+)
+
+// Loom
+item('futuremc:loom').tweakRecipe(
+    [ore('string'), ore('string'), ore('lumber')],
+    [ore('lumber'), null, null]
 )
 
 // Cartography Table

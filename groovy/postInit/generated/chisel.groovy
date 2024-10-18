@@ -1,10 +1,4 @@
 
-// Offset Tool
-item('chisel:offsettool').tweakRecipe(
-    [ore('ingotIron'), item('mekanism:controlcircuit', 2), ore('stickWood')],
-    [ore('ingotIron'), null, null]
-)
-
 // Antiblock
 (item('chisel:antiblock', 15) * 8).tweakRecipe(
     [ore('stones'), ore('stones'), ore('stones')],
@@ -31,4 +25,10 @@ item('chisel:offsettool').tweakRecipe(
     [ore('stones'), ore('stones'), ore('stones')],
     [ore('stones'), item('minecraft:dye', 9), ore('stones')],
     [ore('stones'), ore('stones'), ore('stones')]
+)
+
+// Offset Tool
+item('chisel:offsettool').tweakRecipe(
+    [ore('ingotIron'), item('mekanism:controlcircuit', 2), ore('stickWood')],
+    [ore('ingotIron'), null, null]
 )

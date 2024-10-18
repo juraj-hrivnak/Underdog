@@ -1,15 +1,15 @@
 
-// Blank Pattern
-(item('tconstruct:pattern') * 4).tweakRecipe(
-    [ore('lumber'), ore('stickWood'), ore('stickWood')],
-    [ore('lumber'), null, null]
-)
-
 // Pattern Chest
 item('tconstruct:tooltables', 4).tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')],
     [ore('lumber'), item('tconstruct:pattern'), ore('lumber')],
     [ore('lumber'), ore('lumber'), ore('lumber')]
+)
+
+// Blank Pattern
+(item('tconstruct:pattern') * 4).tweakRecipe(
+    [ore('lumber'), ore('stickWood'), ore('stickWood')],
+    [ore('lumber'), null, null]
 )
 
 // Wooden Hopper
