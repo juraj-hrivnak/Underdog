@@ -31,7 +31,7 @@
     <img
       src="https://github.com/juraj-hrivnak/Pakku/blob/main/docs/images/compact_vector.svg"
       alt="Build with Pakku"
-      width="93"
+      width="96"
     >
   </a>
   <br>
