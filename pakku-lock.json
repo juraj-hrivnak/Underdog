@@ -8392,43 +8392,6 @@
             ]
         },
         {
-            "pakku_id": "r6GHri9bPRMX7Fno",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "non-update"
-            },
-            "name": {
-                "curseforge": "Non Update"
-            },
-            "id": {
-                "curseforge": "256359"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "NonUpdate-AllMCVersion-Final-2.0.2-universal.jar",
-                    "mc_versions": [
-                        "1.12.1",
-                        "1.12",
-                        "1.12.2",
-                        "1.12-Snapshot"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2656/640/NonUpdate-AllMCVersion-Final-2.0.2-universal.jar",
-                    "id": "2656640",
-                    "parent_id": "256359",
-                    "hashes": {
-                        "sha1": "3c737b4a8704a5fa4b1d87808dead6a667515be2",
-                        "md5": "381c6a7610e4e2d8e4ca5db52ab0fab5"
-                    },
-                    "required_dependencies": [
-                    ],
-                    "size": 19896,
-                    "date_published": "2019-01-05T19:28:15.467Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "IpbpMVUMpIILjmzI",
             "type": "MOD",
             "slug": {
