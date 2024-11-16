@@ -84,6 +84,9 @@
         },
         "geolosys": {
             "update_strategy": "NONE"
+        },
+        "modernity": {
+            "update_strategy": "NONE"
         }
     }
 }
