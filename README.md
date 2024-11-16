@@ -27,6 +27,13 @@
       alt="Build"
     >
   </a>
+  <a href="https://github.com/juraj-hrivnak/Pakku">
+    <img
+      src="https://github.com/juraj-hrivnak/Pakku/blob/main/docs/images/compact_vector.svg"
+      alt="Build with Pakku"
+      width="96"
+    >
+  </a>
   <br>
   <br>
 </p>
