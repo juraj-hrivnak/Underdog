@@ -50,12 +50,8 @@ class Replacer {
     }
 
     static void ingore(IRecipe recipe) {
-        try {
-            if (recipe !in ignoredRecipes && recipe?.registryName != null) {
-                ignoredRecipes << recipe.registryName.toString()
-            }
-        } catch (IllegalArgumentException e) {
-            log.error(e.message)
+        if (recipe !in ignoredRecipes && recipe?.registryName != null) {
+            ignoredRecipes << recipe.registryName.toString()
         }
     }
 

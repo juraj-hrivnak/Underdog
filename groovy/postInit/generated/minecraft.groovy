@@ -20,21 +20,9 @@ item('minecraft:stone_button').tweakRecipe(
 
 // Redstone Repeater
 item('minecraft:repeater').tweakRecipe(
-    [item('minecraft:redstone_torch'), ore('dustRedstone'), item('minecraft:redstone_torch')],
-    [ore('stones'), ore('stones'), ore('stones')]
-)
-
-// Redstone Repeater
-item('minecraft:repeater').tweakRecipe(
     [ore('dustRedstone'), null, ore('dustRedstone')],
     [ore('stickWood'), ore('dustRedstone'), ore('stickWood')],
     [ore('stones'), ore('stones'), ore('stones')]
-)
-
-// Minecart with Chest
-item('minecraft:chest_minecart').tweakRecipe(
-    [ore('ingotIron'), ore('chestWood'), ore('ingotIron')],
-    [ore('ingotIron'), ore('ingotIron'), ore('ingotIron')]
 )
 
 // Minecart with Chest
@@ -107,17 +95,22 @@ item('minecraft:end_crystal').tweakRecipe(
     [ore('blockGlassColorless'), item('minecraft:ghast_tear'), ore('blockGlassColorless')]
 )
 
-// Quantum Chest
-item('minecraft:ender_chest').tweakRecipe(
-    [item('minecraft:obsidian'), item('minecraft:obsidian'), item('minecraft:obsidian')],
-    [item('minecraft:obsidian'), item('mekanism:controlcircuit', 3), item('minecraft:obsidian')],
-    [item('minecraft:obsidian'), item('minecraft:obsidian'), item('minecraft:obsidian')]
-)
-
 // Yellow Bed
 item('minecraft:bed', 4).tweakRecipe(
     [ore('woolYellow'), ore('woolYellow'), ore('woolYellow')],
     [ore('lumber'), ore('lumber'), ore('lumber')]
+)
+
+// Minecart with Chest
+item('minecraft:chest_minecart').tweakRecipe(
+    [ore('ingotIron'), ore('chestWood'), ore('ingotIron')],
+    [ore('ingotIron'), ore('ingotIron'), ore('ingotIron')]
+)
+
+// Redstone Repeater
+item('minecraft:repeater').tweakRecipe(
+    [item('minecraft:redstone_torch'), ore('dustRedstone'), item('minecraft:redstone_torch')],
+    [ore('stones'), ore('stones'), ore('stones')]
 )
 
 // Jungle Door
@@ -191,12 +184,6 @@ item('minecraft:bed').tweakRecipe(
     [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
-// White Bed
-item('minecraft:bed').tweakRecipe(
-    [ore('blockWool'), ore('blockWool'), ore('blockWool')],
-    [ore('lumber'), ore('lumber'), ore('lumber')]
-)
-
 // Observer
 item('minecraft:observer').tweakRecipe(
     [ore('rocks'), ore('rocks'), ore('rocks')],
@@ -209,6 +196,12 @@ item('minecraft:furnace').tweakRecipe(
     [ore('stones'), ore('stones'), ore('stones')],
     [ore('stones'), item('pyrotech:furnace_core'), ore('stones')],
     [ore('stones'), ore('stones'), ore('stones')]
+)
+
+// White Bed
+item('minecraft:bed').tweakRecipe(
+    [ore('blockWool'), ore('blockWool'), ore('blockWool')],
+    [ore('lumber'), ore('lumber'), ore('lumber')]
 )
 
 // Note Block
@@ -227,11 +220,6 @@ item('minecraft:noteblock').tweakRecipe(
 // Moss Stone
 item('minecraft:mossy_cobblestone').tweakRecipe(
     ore('rocks'), item('minecraft:vine')
-)
-
-// Lever
-item('minecraft:lever').tweakRecipe(
-    [ore('stickWood'), ore('rocks')]
 )
 
 // Sign
@@ -323,6 +311,12 @@ item('minecraft:bed', 9).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak'), item('contenttweaker:lumber_vanilla_dark_oak')]
 )
 
+// Stone Bricks
+(item('minecraft:stonebrick') * 4).tweakRecipe(
+    [ore('stones'), ore('stones'), ore('stones')],
+    [ore('stones'), null, null]
+)
+
 // Birch Fence
 (item('minecraft:birch_fence') * 3).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_birch'), item('minecraft:stick'), item('contenttweaker:lumber_vanilla_birch')],
@@ -339,11 +333,6 @@ item('minecraft:spruce_fence_gate').tweakRecipe(
 item('minecraft:jungle_fence_gate').tweakRecipe(
     [item('minecraft:stick'), item('contenttweaker:lumber_vanilla_jungle'), item('minecraft:stick')],
     [item('minecraft:stick'), item('contenttweaker:lumber_vanilla_jungle'), item('minecraft:stick')]
-)
-
-// Wooden Pressure Plate
-item('minecraft:wooden_pressure_plate').tweakRecipe(
-    [ore('lumber'), ore('lumber')]
 )
 
 // Black Bed
@@ -393,11 +382,6 @@ item('minecraft:bookshelf').tweakRecipe(
 (item('minecraft:spruce_fence') * 3).tweakRecipe(
     [item('contenttweaker:lumber_vanilla_spruce'), item('minecraft:stick'), item('contenttweaker:lumber_vanilla_spruce')],
     [item('contenttweaker:lumber_vanilla_spruce'), item('minecraft:stick'), item('contenttweaker:lumber_vanilla_spruce')]
-)
-
-// Button
-item('minecraft:wooden_button').tweakRecipe(
-    ore('lumber')
 )
 
 // Blue Bed
