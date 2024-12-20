@@ -19,6 +19,7 @@
             "id": {
                 "curseforge": "570458"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -37,8 +38,7 @@
                         "sha1": "5cdc64def700aa1554bca3584dc3d278ba608d22",
                         "md5": "a41ea01263db95526e93016a50274958"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 4425522,
                     "date_published": "2024-06-09T04:58:56.133Z"
                 }
@@ -56,6 +56,7 @@
             "id": {
                 "curseforge": "367831"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -71,8 +72,7 @@
                         "sha1": "a68d2b0996e8146f4c4fa270d7100c496120bfd3",
                         "md5": "37a0a342994190853f7932656c5f13b9"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 85307,
                     "date_published": "2021-12-01T16:40:35.333Z"
                 }
@@ -94,6 +94,7 @@
                 "curseforge": "364982",
                 "modrinth": "Xc1brHiM"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "modrinth",
@@ -112,8 +113,7 @@
                         "sha512": "bf550c1e9a3db2da3a2e04e3818f385f17bbd8d1ed19356d5cb70516c19fb60cbada8fef3f2112635392b5655735c22624c4aa1f6223e54200104553427f598f",
                         "sha1": "350e97f1c8f5ce57afe469f7ae7fa73f33169897"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 4057289,
                     "date_published": "2022-08-23T20:54:43.202819Z"
                 },
@@ -131,8 +131,7 @@
                         "sha1": "350e97f1c8f5ce57afe469f7ae7fa73f33169897",
                         "md5": "44a1a5d14fd46a66a549ced29443bbf6"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 4057289,
                     "date_published": "2020-03-15T16:01:29.677Z"
                 }
@@ -209,8 +208,7 @@
                         "sha1": "10807093d22918c972e76c1089ca048f38ed285d",
                         "md5": "28a06a798cb308a43b562dea5172afef"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 116831,
                     "date_published": "2019-09-08T00:34:36.420Z"
                 }
@@ -301,6 +299,7 @@
                 "curseforge": "910715",
                 "modrinth": "srzJgOEn"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "modrinth",
@@ -328,7 +327,7 @@
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "Alfheim-1.5-Dev-1.jar",
+                    "file_name": "Alfheim-1.5-Dev-4.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -336,19 +335,19 @@
                         "forge"
                     ],
                     "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/5904/15/Alfheim-1.5-Dev-1.jar",
-                    "id": "5904015",
+                    "url": "https://edge.forgecdn.net/files/6003/953/Alfheim-1.5-Dev-4.jar",
+                    "id": "6003953",
                     "parent_id": "910715",
                     "hashes": {
-                        "sha1": "ed789d7854d972e03e571600b7475b6ebfb6e2f6",
-                        "md5": "575c0cbb638884beb2ffa14a62717245"
+                        "sha1": "f8e043eea7c125df7cec6113f4ea0fd5e6322a4d",
+                        "md5": "76fd6cde196d10ca64451104bbecbf4a"
                     },
                     "required_dependencies": [
                         "419286",
                         "873867"
                     ],
-                    "size": 69783,
-                    "date_published": "2024-11-15T01:11:17.063Z"
+                    "size": 70063,
+                    "date_published": "2024-12-19T05:29:19.293Z"
                 }
             ]
         },
@@ -389,8 +388,7 @@
                         "sha512": "12ad814a9ab96a3d6ce17c7846a1abc5e4d268580153fd3ed5467a5524b886d19d0d6ab50e236752ea081baa03fc8ddfc94ccf06e15d5c1031b00be0de15da96",
                         "sha1": "9357964cdbfbe97fb16cbfc33eab8c847a03ccb4"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 76507808,
                     "date_published": "2021-08-17T09:27:11.130017Z"
                 },
@@ -434,6 +432,7 @@
             "id": {
                 "curseforge": "261199"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -476,6 +475,7 @@
             "id": {
                 "curseforge": "449616"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -605,6 +605,7 @@
                 "curseforge": "227795",
                 "modrinth": "wHODup9j"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -623,8 +624,7 @@
                         "sha1": "9531e665ad5d5aa7a84890147dddb6eaf86a5752",
                         "md5": "2cafce41d88d5067bf9a9da6a8fc79a8"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1239580,
                     "date_published": "2019-11-06T16:46:48.443Z"
                 }
@@ -642,6 +642,7 @@
             "id": {
                 "curseforge": "224472"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -660,8 +661,7 @@
                         "sha1": "a6a57a76936a559088e9282aacde6f761d7e0b39",
                         "md5": "a8dd635a81fed59be0d18206fd383f6e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 89615,
                     "date_published": "2020-05-30T21:18:21.007Z"
                 }
@@ -683,6 +683,7 @@
                 "curseforge": "248787",
                 "modrinth": "EsAfCjCV"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "modrinth",
@@ -701,8 +702,7 @@
                         "sha512": "f5dad2a4fe9034e7db01e3484b27bd11711019ba8b1962b8ed506a15ccf3563aec515beb093106381f25c240e4f6a16df23ab99246b729fcccf16391d1ec1b52",
                         "sha1": "d798af79de48be0f00c772943e5ec5a2fb5659fa"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 33683,
                     "date_published": "2023-09-27T04:52:39.093290Z"
                 },
@@ -725,8 +725,7 @@
                         "sha1": "d798af79de48be0f00c772943e5ec5a2fb5659fa",
                         "md5": "b435860d5cfa23bc53d3b8e120be91d4"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 33683,
                     "date_published": "2020-06-24T05:27:04.913Z"
                 }
@@ -762,8 +761,7 @@
                         "sha1": "098882484be6966b47af3615d43efb9a0f0adef5",
                         "md5": "75fd7a3e86e22a2c546796cdc6621eb4"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 182194,
                     "date_published": "2024-03-31T19:17:50.087Z"
                 }
@@ -784,6 +782,7 @@
             "id": {
                 "curseforge": "310383"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -878,8 +877,7 @@
                         "sha1": "d2e8821968a8ae5ea1bf5d7dd221b3e8e1b645bd",
                         "md5": "0e023eac3a2e18d0370932f1679a7263"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 332993,
                     "date_published": "2023-07-09T17:39:09.423Z"
                 }
@@ -901,6 +899,7 @@
                 "curseforge": "250363",
                 "modrinth": "NvZ9ZhwE"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "modrinth",
@@ -919,8 +918,7 @@
                         "sha512": "863f62eb54bd5b545a136c2b3d00dfa0a0788ca65257507238b5f3af85ac8419697ec3f566bb11fb1ad787f0fa05184a22633de83953c1c01ff23b99b1f190bb",
                         "sha1": "267269ca7f1a71fb3bb35bdb8e61702a4da6263e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 108306,
                     "date_published": "2022-11-18T12:28:47.507570Z"
                 },
@@ -938,8 +936,7 @@
                         "sha1": "267269ca7f1a71fb3bb35bdb8e61702a4da6263e",
                         "md5": "4e5a4b881c27b1e4502a9a16c00882ad"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 108306,
                     "date_published": "2019-07-22T11:42:20Z"
                 }
@@ -961,6 +958,7 @@
                 "curseforge": "246996",
                 "modrinth": "VwJMin91"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "modrinth",
@@ -979,8 +977,7 @@
                         "sha512": "5324582dfed94c549265f0de0b46ef554727ae362b9272917553ac85bf66468b17ed6a90254d0dff7978bf09043e2a565a432e834633b3abc99e08a42251336c",
                         "sha1": "4fbf3bae670f626028e29b57622b0ee98a8ad4db"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 690000,
                     "date_published": "2023-06-08T00:18:27.199541Z"
                 },
@@ -998,8 +995,7 @@
                         "sha1": "4fbf3bae670f626028e29b57622b0ee98a8ad4db",
                         "md5": "5d4ca2410104bb1418f7974d44cc72c7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 690000,
                     "date_published": "2021-08-27T16:27:17.593Z"
                 }
@@ -1021,6 +1017,7 @@
                 "curseforge": "233258",
                 "modrinth": "2NEKo1EX"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "modrinth",
@@ -1039,8 +1036,7 @@
                         "sha512": "213506f55be0c7896adac2fdb69c9665d84cba946a8e50b75b977ebcdf7126ba4dbad123ab6c88c43ab5c9305f7019dc507d677c3869e4b4f5763bd2bd2534b6",
                         "sha1": "40c704f9e996fe1c33770d72e29fbb9a3c4f67b2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 14818,
                     "date_published": "2023-06-08T01:08:23.829563Z"
                 },
@@ -1061,8 +1057,7 @@
                         "sha1": "40c704f9e996fe1c33770d72e29fbb9a3c4f67b2",
                         "md5": "d260ce4cf77f23c1e177f61b7a127e59"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 14818,
                     "date_published": "2019-10-16T01:00:44.687Z"
                 }
@@ -1095,8 +1090,7 @@
                         "sha1": "cb13fcfb18a9cb0cbd825fd5fe8d813c77368549",
                         "md5": "944dec4ef3fbfd4d498d94a7047af201"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 108450,
                     "date_published": "2018-01-10T08:23:04.200Z"
                 }
@@ -1139,8 +1133,7 @@
                         "sha512": "218eafba7e93463f7da5e2d09a3f71573133738a67c0e75f8ff70edfc67dbfb04a1b73d3abbebf103fadaf529a5f28f3c533309d779b8c6c84a12d8d2385f12b",
                         "sha1": "e604328e3ac289710971713be25825db1ecf8b63"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 21814,
                     "date_published": "2023-06-08T19:41:26.135727Z"
                 },
@@ -1172,7 +1165,7 @@
         {
             "pakku_id": "3cLIEbMN9PH2Cs4T",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "better-animal-models"
             },
@@ -1182,6 +1175,7 @@
             "id": {
                 "curseforge": "287443"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -1202,8 +1196,7 @@
                         "sha1": "e9c8500f07e52a20a05214c2d8f662e943716b0f",
                         "md5": "d7fdeea2bb3d3fa85c1a7d65aa75eab3"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 949294,
                     "date_published": "2021-03-08T11:49:47.017Z"
                 }
@@ -1212,7 +1205,7 @@
         {
             "pakku_id": "E8opmFFkD535PfIP",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "better-chat"
             },
@@ -1222,6 +1215,7 @@
             "id": {
                 "curseforge": "363860"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -1240,8 +1234,7 @@
                         "sha1": "ef0e6ed7e93ee7f5956d3749157e6dd95f4f980f",
                         "md5": "fcee5583c5b36de3214bfb754050920f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 20203,
                     "date_published": "2020-09-02T19:52:16.077Z"
                 }
@@ -1259,6 +1252,7 @@
             "id": {
                 "curseforge": "286066"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -1277,8 +1271,7 @@
                         "sha1": "970fa8f852fcf0e5a20abcdfdd7aca8ccf9ee95f",
                         "md5": "a4ceae230012bac95796614d8605f340"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 411851,
                     "date_published": "2021-05-28T00:31:29.523Z"
                 }
@@ -1287,7 +1280,7 @@
         {
             "pakku_id": "XwlJRnPAjv9ZoFJu",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "better-line-break",
                 "modrinth": "better-line-break"
@@ -1300,6 +1293,7 @@
                 "curseforge": "960082",
                 "modrinth": "zp6DtFf2"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "modrinth",
@@ -1318,8 +1312,7 @@
                         "sha512": "7d884e261e8cbc983f93e758a75e5da8547dd331b712fc4d0b4b58db6e927db76583fd99a46b7f35cd54ef386145755b25dc23426471114f3d3f093a55de3683",
                         "sha1": "060c12dbc44cc666ac189cabce2b477f86ea2f83"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 284881,
                     "date_published": "2024-02-20T13:55:56.129145Z"
                 },
@@ -1340,8 +1333,7 @@
                         "sha1": "060c12dbc44cc666ac189cabce2b477f86ea2f83",
                         "md5": "1953490775d4a4b08a92996d17aa5028"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 284881,
                     "date_published": "2024-02-20T13:55:53.037Z"
                 }
@@ -1363,6 +1355,7 @@
                 "curseforge": "435044",
                 "modrinth": "G1s2WpNo"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -1381,8 +1374,7 @@
                         "sha1": "ec1f374ca4ea12672bc3acad9e3e9d84c8b0a7c4",
                         "md5": "7a8779a36445c22617a0b8b23f657bab"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 943468,
                     "date_published": "2022-12-21T10:56:38.380Z"
                 }
@@ -1400,6 +1392,7 @@
             "id": {
                 "curseforge": "229876"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -1415,8 +1408,7 @@
                         "sha1": "245235d5c67daff00ee658ee1f88ae8c3e4584b8",
                         "md5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 155196,
                     "date_published": "2017-09-24T01:00:21.883Z"
                 }
@@ -1452,8 +1444,7 @@
                         "sha1": "6eb72c2a6b9d202e53e760e26048c230cd2ca5da",
                         "md5": "c10b7d250bdeb1efedf17b4b0c40c573"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 5185177,
                     "date_published": "2022-02-14T00:26:33.053Z"
                 }
@@ -1489,8 +1480,7 @@
                         "sha1": "4f85402caa88c73794e8dc050386313f0a4c9ad5",
                         "md5": "02a0b9a048391180ce7f06cd2e874c31"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 571464,
                     "date_published": "2020-11-15T09:17:13.447Z"
                 }
@@ -1523,8 +1513,7 @@
                         "sha1": "13f6bc3c3ea4c4d8f1e8ac0db97a99bf23bd278b",
                         "md5": "b79eb875292bb76eec12b19fd2a692b1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 45137,
                     "date_published": "2018-02-03T18:28:41.670Z"
                 }
@@ -1546,6 +1535,7 @@
                 "curseforge": "220318",
                 "modrinth": "HXF82T3G"
             },
+            "aliases": [],
             "files": [
                 {
                     "type": "modrinth",
@@ -1564,8 +1554,7 @@
                         "sha512": "c85959d17da1fd4b3dad3bca55d3baa603c58f795ebfc57e093ddc942ca6b57eee6ea7acede3873598131917999a1cec173cc37092e8180eee473714880f48f2",
                         "sha1": "13c1e58ffec2a550b9698e25cda93b8d155007b0"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 4746208,
                     "date_published": "2023-11-19T08:22:01.812471Z"
                 },
@@ -1583,8 +1572,7 @@
                         "sha1": "13c1e58ffec2a550b9698e25cda93b8d155007b0",
                         "md5": "9d364be3df6fee338c1729b7fb1def1b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 4746208,
                     "date_published": "2021-12-10T22:26:48.903Z"
                 }
@@ -1662,8 +1650,7 @@
                         "sha1": "83a1864dd78f48102609849dd36866d6cf32b907",
                         "md5": "85a44d3299449545e435f5ec55fc914b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 266636,
                     "date_published": "2019-12-05T08:56:35.050Z"
                 }
@@ -1699,8 +1686,7 @@
                         "sha1": "bc4c4a8f8d6c4bca2070fa79a91abb56f46a8b7f",
                         "md5": "4d4d676b42959edd39b36cbcb8a16728"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 360088,
                     "date_published": "2021-04-05T10:22:56Z"
                 }
@@ -1736,8 +1722,7 @@
                         "sha1": "7f33f2343bf0af70d5d853378d465657beea3740",
                         "md5": "d1688618cf1df0e0aaab526fb4922b39"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 719492,
                     "date_published": "2020-07-15T21:22:37.553Z"
                 }
@@ -1814,8 +1799,7 @@
                         "sha1": "6264af0332e4979e000ca14384e9cc9f39673ffa",
                         "md5": "76972fdd886ba0e79ebacc6450201d6f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 61275,
                     "date_published": "2019-11-13T23:59:09.937Z"
                 }
@@ -1848,8 +1832,7 @@
                         "sha1": "01f096efe05ddbddecafa01836f7eec4e2a2fded",
                         "md5": "9ee94ff9a73eedebcae7e14a2f19ef40"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 5745,
                     "date_published": "2020-05-25T22:15:20.700Z"
                 }
@@ -1882,8 +1865,7 @@
                         "sha1": "0fb74fdf5ea7f4830523255d6ce742e8007b0c12",
                         "md5": "07b8d3b7fb817f8e94426e0f4f105dc1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 290843,
                     "date_published": "2019-01-14T21:50:10.313Z"
                 }
@@ -1923,8 +1905,7 @@
                         "sha512": "a16b7805ff74b6138004b6f1f3ffcabacaa7e77cc498229ddae0cae54945eefa57c19f4296a70f629a90b83dbbf6f42f1e2e5d8ee75185e7341c6220f5e1ca94",
                         "sha1": "6b48020b113f227d92a2d5ea3d763c9bf6196554"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 309188,
                     "date_published": "2023-04-25T20:50:37.551865Z"
                 },
@@ -1945,8 +1926,7 @@
                         "sha1": "6b48020b113f227d92a2d5ea3d763c9bf6196554",
                         "md5": "5f012220863d68a26f68c62015320a80"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 309188,
                     "date_published": "2023-04-25T20:49:16.580Z"
                 }
@@ -2020,8 +2000,7 @@
                         "sha1": "bdfaa0211280b44a18ac9751030409595d3b7750",
                         "md5": "bde8ed946487497806360ec5f111c617"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1647684,
                     "date_published": "2024-04-13T00:31:00.747Z"
                 }
@@ -2056,8 +2035,7 @@
                         "sha1": "5ed3dd5fd1ebded57bfe525b4ece11232bd14e5e",
                         "md5": "e42efa8f4fd42d2918128a826b740e98"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 96859,
                     "date_published": "2017-07-15T05:39:36.437Z"
                 }
@@ -2131,8 +2109,7 @@
                         "sha1": "41912cdaaad5c22e1972092c7a73c9eab2de5650",
                         "md5": "9255572f568b54823a781026b9397652"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1057690,
                     "date_published": "2022-02-21T21:50:11.590Z"
                 }
@@ -2213,8 +2190,7 @@
                         "sha512": "01341422c98731787adedf8a4f38f73ffdcb9d15d6d0077e72c5c7423a7826b8561446a14b93f5da53bdd59f4e150f0c645e80eff1ee6f954d49351abf49193d",
                         "sha1": "ea5fd7e61fb7c8ab6a546e2a17a6f4929e904ec0"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 37519,
                     "date_published": "2023-02-03T05:28:10.024888Z"
                 },
@@ -2232,8 +2208,7 @@
                         "sha1": "ea5fd7e61fb7c8ab6a546e2a17a6f4929e904ec0",
                         "md5": "278ace4ec3c481b36c0c2378fdb78b3a"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 37519,
                     "date_published": "2019-12-07T07:23:31.523Z"
                 }
@@ -2309,8 +2284,7 @@
                         "sha1": "0e6f159254e6899651087e5b1464bac91698d1d3",
                         "md5": "e056e23559965f2ebabf47aad0fe51a3"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 737407,
                     "date_published": "2019-06-06T01:32:08.750Z"
                 }
@@ -2347,8 +2321,7 @@
                         "sha1": "c6c31bc3e10fe8da49cb37088ec3d0e8d481ad46",
                         "md5": "0b0c58701276b30b005bca8aeef29f9c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 30515,
                     "date_published": "2018-10-05T20:38:44.920Z"
                 }
@@ -2381,8 +2354,7 @@
                         "sha1": "5086522e0c75add84cb71591d22d1b94afe2bfd1",
                         "md5": "eb7beb02e0b6bc3c8c51b27c58de46c1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 433036,
                     "date_published": "2019-08-04T08:02:07.117Z"
                 }
@@ -2415,8 +2387,7 @@
                         "sha1": "863e1524fe0087d434a5e44d27cc2dd0353b9399",
                         "md5": "f2bfd74e76b71bdee8a20a9243dd5cdf"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 505987,
                     "date_published": "2020-04-03T23:52:03.300Z"
                 }
@@ -2449,8 +2420,7 @@
                         "sha1": "b6a7e3b889c354216059a3bfad298e30a1e46a2d",
                         "md5": "3b5e44db5ac96fb23a439590b6731a31"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 704330,
                     "date_published": "2019-09-06T23:00:03.483Z"
                 }
@@ -2490,8 +2460,7 @@
                         "sha512": "0a3a4cefb2a8674a1029cf6afc8c7851422de7d86fe2a152d0692650ca2ddf6fad44eeb0c72edf1a66bd6a30ab00c031fe21f8de94114047b674a31163714428",
                         "sha1": "30528a47630935ba8517dcd5a28263a8be117b5f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 167301,
                     "date_published": "2023-02-03T00:51:02.476186Z"
                 },
@@ -2512,8 +2481,7 @@
                         "sha1": "30528a47630935ba8517dcd5a28263a8be117b5f",
                         "md5": "47b49d007c3e337c294822cb34e59c4c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 167301,
                     "date_published": "2020-02-13T00:22:47.387Z"
                 }
@@ -2634,8 +2602,7 @@
                         "sha512": "27103270deb607da87d983a0a12ab3a64497b138b4748364f777dd5606f9c0ed6174f039edc6c2db0e401b1d8e99ae88ddce252b104892fc98273cc9259bcf87",
                         "sha1": "b6d8a10219d3802e04de6b1e815a5853e50adbcc"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 5201,
                     "date_published": "2024-03-26T13:08:48.252286Z"
                 },
@@ -2656,8 +2623,7 @@
                         "sha1": "b6d8a10219d3802e04de6b1e815a5853e50adbcc",
                         "md5": "3adfd6a9e04453888e68d858c0347ded"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 5201,
                     "date_published": "2024-03-26T13:07:43.840Z"
                 }
@@ -2694,8 +2660,7 @@
                         "sha1": "892e0788531269bfa2f356e4e12825e19d4e5412",
                         "md5": "77a8bb5486c97e3eaa6f45e5bd768864"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 199045,
                     "date_published": "2020-03-29T00:19:35.120Z"
                 }
@@ -2799,8 +2764,7 @@
                         "sha1": "92457d3d4ccfa535339b8e89200e8f466f624fea",
                         "md5": "06029466768bd15b4ce1dea31ce28a8d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 14301,
                     "date_published": "2018-03-16T21:26:43.567Z"
                 }
@@ -2910,8 +2874,7 @@
                         "sha512": "30d9457b718e40f8b196f8ed91c416f7491755ce5b8ee038bef607ca1b8b37a3f3dcba362b03cc03de241f76321b24c75b04932c800acfd59234d632d6c2e897",
                         "sha1": "64e791db7eaf3577223a708df0325f07762bd059"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 28932,
                     "date_published": "2023-06-09T02:31:44.184749Z"
                 },
@@ -2972,8 +2935,7 @@
                         "sha1": "90392789dfbcadf440415a775d3ec81326deee2f",
                         "md5": "350c216784bb54cffc538325ab52d4cc"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2327451,
                     "date_published": "2020-03-16T06:56:08.743Z"
                 }
@@ -3013,8 +2975,7 @@
                         "sha512": "4f738e2522cf01db1c26a986eeb5483dd727b1e3d5a76a661c977679136a14a46c217f89402caa7ad4d1e2f7d36512875e56885fae20ac09b5727271f6c35349",
                         "sha1": "9eaf0f7e33646774068755fd387e2fcd05e2d08d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 132594,
                     "date_published": "2023-02-10T05:51:43.958628Z"
                 },
@@ -3035,8 +2996,7 @@
                         "sha1": "9eaf0f7e33646774068755fd387e2fcd05e2d08d",
                         "md5": "7f5d6e5b88cfd1f9d3ec0008746b73b4"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 132594,
                     "date_published": "2021-01-22T04:42:37.843Z"
                 }
@@ -3070,8 +3030,7 @@
                         "sha1": "dae97e0a1539702b07ffa5e48410e57c470e3bd0",
                         "md5": "18d7753f69e6f8fed9350b4d908008a9"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 72111,
                     "date_published": "2020-04-22T22:07:29.417Z"
                 }
@@ -3106,8 +3065,7 @@
                         "sha1": "868d96028427e39495f441e43e60a9b77225b5ad",
                         "md5": "e6dcc9b9784d52aa67f6e706eccb2cb2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 90465,
                     "date_published": "2019-01-18T22:14:22.807Z"
                 }
@@ -3147,8 +3105,7 @@
                         "sha512": "06d7fbf5de5b5793174c4a1d8e3d2440611db2bd7d77f95dd12ad5fc6540c17d45b0ce1c8b72c5abfc26a9bd68a21df8582d4360394bb4cb4ae4240212a0f748",
                         "sha1": "14f7c77c33cb231896dc7b1f44602f70e42bcf98"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1589140,
                     "date_published": "2024-04-24T17:53:39.701706Z"
                 },
@@ -3166,8 +3123,7 @@
                         "sha1": "431fa9277f8e429dada81bfef76339073c4d3e05",
                         "md5": "fa52eebe2afea008ad20ee262b26e404"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1589227,
                     "date_published": "2024-06-29T17:54:00.047Z"
                 }
@@ -3203,8 +3159,7 @@
                         "sha1": "0185dcfe6dcf35723ef7b5e177838870d26349d4",
                         "md5": "47add0002138c9a9e689bda4ad28d811"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 101956,
                     "date_published": "2022-06-29T12:51:26.243Z"
                 }
@@ -3237,8 +3192,7 @@
                         "sha1": "92b34b8290d1a075b92350b11b2f530f0df5840a",
                         "md5": "447b97e586d46d3ecfd3eeea8ad8a8d6"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 610672,
                     "date_published": "2019-02-03T01:10:24.300Z"
                 }
@@ -3278,8 +3232,7 @@
                         "sha512": "3b8b512db37790e0a7541b2efffb50f8e78c9bf5990ed2d51848f68c9470597ab7eed78839de8968fc68a3a8e87457ef023ab57cd8d12a718270361c05ee7fd1",
                         "sha1": "ffc8e5ac94598c65917cdba235ce6dff1a2e3ada"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1289841,
                     "date_published": "2021-08-17T09:10:08.975683Z"
                 },
@@ -3300,8 +3253,7 @@
                         "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
                         "md5": "df1051927921c2852946cc4fd20da86e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1321137,
                     "date_published": "2023-08-25T21:17:19.180Z"
                 }
@@ -3419,8 +3371,7 @@
                         "sha1": "b18ec02512ce7e63cd70731e8716818385252a5d",
                         "md5": "d98cac2402a378555ae90f0627411120"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 978691,
                     "date_published": "2024-10-19T22:17:37.340Z"
                 }
@@ -3456,8 +3407,7 @@
                         "sha1": "48b5e54e91adc3505462cf40b49072eae2a7fdea",
                         "md5": "3b586489e513b73efd524d39c513ca2d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 3990921,
                     "date_published": "2022-11-09T20:11:34.317Z"
                 }
@@ -3606,8 +3556,7 @@
                         "sha512": "2d140ac44b8903eaf1fc3be80bfa8767a263b0f301a665d1c4483aac5263bcac1ef0f5c7fcbb16234380f168d1d1c606dbee07ed8cf25d92c53fe134f628b81c",
                         "sha1": "ce110cb4abf67482da5392036634c75658013922"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 63460,
                     "date_published": "2021-11-12T18:49:11.940214Z"
                 },
@@ -3628,8 +3577,7 @@
                         "sha1": "0c98effb2dd9e0b4ae8533d481aded6ee32f2172",
                         "md5": "1b7bda78ac111e33d63fe27e798a952d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 48640,
                     "date_published": "2022-08-31T21:24:08.337Z"
                 }
@@ -3664,8 +3612,7 @@
                         "sha1": "d3f19e09346849b71a447b5e6253f9b2cd110756",
                         "md5": "27342535d5f14279edb725a19bc5a4ca"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 196038,
                     "date_published": "2017-11-11T19:07:30.480Z"
                 }
@@ -3701,8 +3648,7 @@
                         "sha1": "ab9fcfea78108c67cf0e1c5bc95c12b1fe726d35",
                         "md5": "2b80c4ae444c80aba62a3724c35bbe13"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 816190,
                     "date_published": "2023-01-10T19:31:55.250Z"
                 }
@@ -3737,8 +3683,7 @@
                         "sha1": "adda880b28eeed487f025461daef58fbc9d2b279",
                         "md5": "11c7ea1a7c6bf7cc192929b2d4b28600"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 910934,
                     "date_published": "2020-01-02T09:08:24.213Z"
                 }
@@ -3771,8 +3716,7 @@
                         "sha1": "fdf058f446a1d3866f574ce31e377d54ae42a14e",
                         "md5": "be03f97645acef09d11a20406c0781fc"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 343711,
                     "date_published": "2019-06-09T00:30:01.483Z"
                 }
@@ -3808,8 +3752,7 @@
                         "sha1": "f2def0d31f96364ebb8d9eb7dc37bc72fd7838a4",
                         "md5": "22161ac65bd512f88eb11e40ec074b9b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1464094,
                     "date_published": "2024-07-02T18:36:00.653Z"
                 }
@@ -3886,8 +3829,7 @@
                         "sha1": "e305092922affc619e2a7206a4949c24363fbf3d",
                         "md5": "b52ea41bdb82d4b12da93478c9b53f21"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 28387,
                     "date_published": "2022-11-27T04:42:29.233Z"
                 }
@@ -3924,8 +3866,7 @@
                         "sha1": "62fc23aa49ba392f4bbeb14ff0aae276ff3a27f4",
                         "md5": "77e815ce9c8dd68ecba4eb884d6db4d2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 15778870,
                     "date_published": "2021-10-20T18:05:39.843Z"
                 }
@@ -4174,8 +4115,7 @@
                         "sha1": "ad8bc77d154402926f34065732b6532f1af4a935",
                         "md5": "52305b1d656d4bff85a7be20f9411146"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 9627,
                     "date_published": "2020-03-11T11:11:52.667Z"
                 }
@@ -4253,8 +4193,7 @@
                         "sha1": "2ba93ebb2ddf646e8cb70eaf31a0e5db1f5fb8da",
                         "md5": "5adfd7c24e5bfabd0ca9ae9b9ca9751c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 192715,
                     "date_published": "2021-06-08T13:08:53.430Z"
                 }
@@ -4290,8 +4229,7 @@
                         "sha1": "938029063e73d4ab3b564aa37f6bf1a9230a42fa",
                         "md5": "bcaaecf8d17a4322badd429d926d5f0b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1182700,
                     "date_published": "2020-07-06T12:22:32.050Z"
                 }
@@ -4327,8 +4265,7 @@
                         "sha1": "ffcb09e3c64e424f0dcd3f2ca8220f5050f90e72",
                         "md5": "3130fc5911a3e70d42255290d058ec84"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1095280,
                     "date_published": "2022-05-07T21:22:48.643Z"
                 }
@@ -4446,8 +4383,7 @@
                         "sha1": "a89857de7535072dd3e04a9b8b78873496a52d65",
                         "md5": "bae54ab16c04c7ec2db6f8af846603a7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 58047,
                     "date_published": "2019-10-19T10:29:00.293Z"
                 }
@@ -4483,8 +4419,7 @@
                         "sha1": "687f10af825583e59ed7a5e6befdd5aee554d20d",
                         "md5": "1e67568d6d44f2594a018f4ca1550757"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 67520,
                     "date_published": "2022-08-16T22:20:31.773Z"
                 }
@@ -4517,8 +4452,7 @@
                         "sha1": "23e2f2ade24b2e259374937d074ab062aca02bef",
                         "md5": "c98cdb5154c82fb66c87fb56d2780b18"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2349948,
                     "date_published": "2020-06-23T23:45:49.367Z"
                 }
@@ -4558,8 +4492,7 @@
                         "sha512": "b279b1b82495fddff4438515fc1ea71ffa3218761c3495e4d7dbe9af1f4d0dd443d7d55374914799279c34c7a7e42bc80acea2845dc496bdc6e4bae4baaeb174",
                         "sha1": "50c323de01f2235d351bf5417da6d4ef494b12e6"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 79700,
                     "date_published": "2023-09-06T13:23:16.410044Z"
                 },
@@ -4580,8 +4513,7 @@
                         "sha1": "50c323de01f2235d351bf5417da6d4ef494b12e6",
                         "md5": "7e88042f94dbfccba9e839b640cf592e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 79700,
                     "date_published": "2021-06-23T14:23:25.787Z"
                 }
@@ -4614,8 +4546,7 @@
                         "sha1": "7c20cd223bc2334edf153e074f35acdbcab3c976",
                         "md5": "ea749a3a3391d490ffcdf025e5de48d9"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 934370,
                     "date_published": "2020-06-22T13:44:34.150Z"
                 }
@@ -4805,8 +4736,7 @@
                         "sha1": "73664ec7575085d4a18010a9bce636b43ea40b60",
                         "md5": "bd3c9c224b8b8d968db3dde02678d5e9"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 476561,
                     "date_published": "2020-10-26T23:01:35.743Z"
                 }
@@ -4839,8 +4769,7 @@
                         "sha1": "3091f2d5cb91c384b39729102e30abbda909b880",
                         "md5": "b84cc8a587dbd35fef2dbc3e0b9435aa"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 10035,
                     "date_published": "2019-05-01T21:29:47.233Z"
                 }
@@ -4875,8 +4804,7 @@
                         "sha1": "8f078c9f4389687103dc5f053403a921e9ac849d",
                         "md5": "9f7c289b438817d581a3825ef0015611"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 32750,
                     "date_published": "2017-12-22T23:12:32.117Z"
                 }
@@ -4948,8 +4876,7 @@
                         "sha512": "341c304d4545b8cf7a0e1a2d5907bfdaf5675904b104844f019670647a15e2aabcff56c44f0860d3a70b333fc301d7261b3fe6ae66b41b3de72d72d7048b87d0",
                         "sha1": "e00b900dc224c816289fb66716429f57a86c88dd"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2917748,
                     "date_published": "2024-04-18T15:44:56.627347Z"
                 },
@@ -4972,8 +4899,7 @@
                         "sha1": "e00b900dc224c816289fb66716429f57a86c88dd",
                         "md5": "3e28568ace82f864a1594366e1ac0ba1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2917748,
                     "date_published": "2024-04-18T15:41:00.840Z"
                 }
@@ -5051,8 +4977,7 @@
                         "sha512": "f00737e693164eaae423739086ae3735cc4a21481837f70656e10511efbe866087674a5af9369146ebe56843dbfbcce6377b70d3fc9d9944fdc782e98842ad6e",
                         "sha1": "dccbe188518534bd73bd2ecc234c6e31224f1ab9"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 368548,
                     "date_published": "2023-08-09T20:28:06.685347Z"
                 },
@@ -5073,8 +4998,7 @@
                         "sha1": "6e37d0d98dc72747b89f72cd79077e298dbfbf84",
                         "md5": "307b605738965ca21fdc07e9306d2d0a"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 359012,
                     "date_published": "2023-06-02T23:14:58.693Z"
                 }
@@ -5114,8 +5038,7 @@
                         "sha1": "dea898b8fc3b36315a02c273ea858dcdee2689d6",
                         "md5": "a9ffb1fa0cbe5eb8acd96f8189f03a59"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 5364115,
                     "date_published": "2024-11-14T20:40:50.317Z"
                 }
@@ -5151,8 +5074,7 @@
                         "sha1": "747928e38d394c03bd7996568ae3baea4dd566cf",
                         "md5": "304690440469a0cb276b6727ea4ee870"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 950755,
                     "date_published": "2023-02-19T00:36:07.293Z"
                 }
@@ -5177,7 +5099,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Forgelin-Continuous-2.0.21.0.jar",
+                    "file_name": "Forgelin-Continuous-2.1.0.0.jar",
                     "mc_versions": [
                         "1.12",
                         "1.12.1",
@@ -5187,21 +5109,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/1mPcAmuy/versions/1EM4A89J/Forgelin-Continuous-2.0.21.0.jar",
-                    "id": "1EM4A89J",
+                    "url": "https://cdn.modrinth.com/data/1mPcAmuy/versions/aNTjQKsi/Forgelin-Continuous-2.1.0.0.jar",
+                    "id": "aNTjQKsi",
                     "parent_id": "1mPcAmuy",
                     "hashes": {
-                        "sha512": "dc20a7c56b4145091429f273899f44ab6f2867c96a3d6f12870671caad2c5c1daab968a77e42b76acc89d83139abdb7fcde3c3795ca8c8c4929908252d556e03",
-                        "sha1": "f6006fdd9d8f9d37c885808ed9a925861e7090e0"
+                        "sha512": "9bebabe4a3c22f7389e872d7d7d33f1e0db474189b55a511bec219cf378c1dd97449c8434ca7dad4199527b15db1c86a043d8b6197081f27fdc3dade60d699ef",
+                        "sha1": "5129eb62edbe41d37c56d72899a3ad42794cb6d6"
                     },
-                    "required_dependencies": [
-                    ],
-                    "size": 7089703,
-                    "date_published": "2024-10-22T02:52:34.664465Z"
+                    "required_dependencies": [],
+                    "size": 7035895,
+                    "date_published": "2024-11-29T08:11:06.357985Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "Forgelin-Continuous-2.0.21.0.jar",
+                    "file_name": "Forgelin-Continuous-2.1.0.0.jar",
                     "mc_versions": [
                         "1.12.1",
                         "1.12",
@@ -5211,17 +5132,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5832/299/Forgelin-Continuous-2.0.21.0.jar",
-                    "id": "5832299",
+                    "url": "https://edge.forgecdn.net/files/5946/402/Forgelin-Continuous-2.1.0.0.jar",
+                    "id": "5946402",
                     "parent_id": "456403",
                     "hashes": {
-                        "sha1": "f6006fdd9d8f9d37c885808ed9a925861e7090e0",
-                        "md5": "b686f78bfd9b7d308272446e0976dafe"
+                        "sha1": "5129eb62edbe41d37c56d72899a3ad42794cb6d6",
+                        "md5": "bf955f2680b9b0a48cb23baa27e1b8ee"
                     },
-                    "required_dependencies": [
-                    ],
-                    "size": 7089703,
-                    "date_published": "2024-10-22T02:50:09.913Z"
+                    "required_dependencies": [],
+                    "size": 7035895,
+                    "date_published": "2024-11-29T08:08:46.787Z"
                 }
             ]
         },
@@ -5252,8 +5172,7 @@
                         "sha1": "fe198cc50f94ee659ef46a1df0170cc244420cfd",
                         "md5": "6ce84556b329b47ebbe337db39ceb427"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 21724,
                     "date_published": "2020-06-03T01:30:14.780Z"
                 }
@@ -5293,8 +5212,7 @@
                         "sha512": "790228cb530f99d7a14922e121f07297d2129065def4731ce161eb4c90d77640afdc913127189b95b67c2d548477a1076cbd2597759301e93f0f14f62ead0b3a",
                         "sha1": "b7774abe23b10b2032160090f9190d9b875c7437"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 14321720,
                     "date_published": "2024-08-14T00:12:15.693175Z"
                 },
@@ -5426,8 +5344,7 @@
                         "sha1": "7288fdd7e837d6a2421803091d707295c5e31be4",
                         "md5": "6d6789c34d33eee3d7426aaa897b46d8"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 355042,
                     "date_published": "2019-10-12T19:15:19.810Z"
                 },
@@ -5448,8 +5365,7 @@
                         "sha512": "a0fad1ef9829a5b12fb7096f6a0dad408df3c901039df08385c46e66c43598535109dcb38662be3d12a1759d959f981a46481a24e7b533dd966079a76e283a9c",
                         "sha1": "7288fdd7e837d6a2421803091d707295c5e31be4"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 355042,
                     "date_published": "2023-04-18T14:36:05.280972Z"
                 }
@@ -5478,51 +5394,55 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Greenery-1.12.2-6.0.jar",
+                    "file_name": "Greenery-1.12.2-7.0.jar",
                     "mc_versions": [
+                        "1.12",
+                        "1.12.1",
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/EVaCo3rr/versions/vghQ2U3B/Greenery-1.12.2-6.0.jar",
-                    "id": "vghQ2U3B",
+                    "url": "https://cdn.modrinth.com/data/EVaCo3rr/versions/cjlG1S17/Greenery-1.12.2-7.0.jar",
+                    "id": "cjlG1S17",
                     "parent_id": "EVaCo3rr",
                     "hashes": {
-                        "sha512": "78fa9b598b492a2ce0407b3c32303e71e80182a9988dc4ae310fc90bdf56df02bccea173cec3147567f19c99768199301ccc066b182f8ee4874271a5e9e240cc",
-                        "sha1": "e32adcdd31dadfd9aefe1945bd24eff4043b88b5"
+                        "sha512": "e398c5eea25b0b4397c2cd041dd6ea3d34c397c5b25a619070f6141cdc219fe44a2b4c21f04529cc61cc84c5eb79bbe3ef7aa570b4360b97f624ebc19413fa53",
+                        "sha1": "287bd7b023edaeac6313bfc264f99c60d7ae3ad3"
                     },
                     "required_dependencies": [
-                        "vVXPbodS",
-                        "1mPcAmuy"
+                        "1mPcAmuy",
+                        "vVXPbodS"
                     ],
-                    "size": 463297,
-                    "date_published": "2024-10-18T13:38:46.080120Z"
+                    "size": 481352,
+                    "date_published": "2024-11-17T16:10:08.880282Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "Greenery-1.12.2-6.0.jar",
+                    "file_name": "Greenery-1.12.2-7.0.jar",
                     "mc_versions": [
+                        "1.12.1",
+                        "1.12",
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5821/691/Greenery-1.12.2-6.0.jar",
-                    "id": "5821691",
+                    "url": "https://edge.forgecdn.net/files/5913/357/Greenery-1.12.2-7.0.jar",
+                    "id": "5913357",
                     "parent_id": "574029",
                     "hashes": {
-                        "sha1": "e32adcdd31dadfd9aefe1945bd24eff4043b88b5",
-                        "md5": "6d98451f65415050d33735305a2553b0"
+                        "sha1": "287bd7b023edaeac6313bfc264f99c60d7ae3ad3",
+                        "md5": "77363ccf88a8279dabdde5131b662268"
                     },
                     "required_dependencies": [
                         "456403",
                         "485654"
                     ],
-                    "size": 463297,
-                    "date_published": "2024-10-18T12:50:35.087Z"
+                    "size": 481352,
+                    "date_published": "2024-11-17T16:10:04.667Z"
                 }
             ]
         },
@@ -5626,8 +5546,7 @@
                         "sha1": "712d7a0bc1b9caba40e303b7252e6995f9b03b62",
                         "md5": "7a0ce66dc54f1c018cf922f162b674cf"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 23153,
                     "date_published": "2021-01-14T23:07:04.323Z"
                 }
@@ -5663,8 +5582,7 @@
                         "sha1": "4e3f8aab2511779983615909692549d38fb118e7",
                         "md5": "c58c8af8cdf30ec71e8f4bb61d5fee71"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 690848,
                     "date_published": "2024-11-16T00:31:02.987Z"
                 }
@@ -5704,8 +5622,7 @@
                         "sha512": "a67144200a961d9786408244cd8639dbe3317346e95450a8eb8a904bf2bf41c2dcea402fd98b5a43e6791f1af017f34486e739ba0974545eb4c102c5835138e1",
                         "sha1": "7280d5c0dab42436549bcefc63ff64a1049e5501"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 453778,
                     "date_published": "2023-07-06T23:42:48.337593Z"
                 },
@@ -5723,8 +5640,7 @@
                         "sha1": "7280d5c0dab42436549bcefc63ff64a1049e5501",
                         "md5": "bca1c069d9171d331d211d24e8a3b770"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 453778,
                     "date_published": "2018-06-02T22:55:49.297Z"
                 }
@@ -5760,8 +5676,7 @@
                         "sha1": "633070d9c447fdaf6a9ead59425017815c890c63",
                         "md5": "affce9a7f7cb9ab257135da89314e07e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 6360959,
                     "date_published": "2020-06-06T20:20:24.903Z"
                 }
@@ -5877,8 +5792,7 @@
                         "sha1": "7dd15d79b2b1584340d16f4e38efcc23078a0c7b",
                         "md5": "ffff5e185be61553e3a9683c533e1cb7"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 3432141,
                     "date_published": "2024-02-14T18:24:23.933Z"
                 }
@@ -5918,8 +5832,7 @@
                         "sha512": "f9eacbb9f84197733e4a2d531a4c2f38c8b3fe3c233efcced6a1f226edb1ce0d0aba1f656cd161c8ede14095c2c70ce72e665ed35aba77e221fb7db8d12639fa",
                         "sha1": "a9a3b82dc6c8d9a9107f5e03eaa79b5854c2eed2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 152687,
                     "date_published": "2023-01-26T03:33:37.397797Z"
                 },
@@ -5940,8 +5853,7 @@
                         "sha1": "a9a3b82dc6c8d9a9107f5e03eaa79b5854c2eed2",
                         "md5": "c30116c55d427d42fef16dc563a728ea"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 152687,
                     "date_published": "2020-11-04T05:29:29.510Z"
                 }
@@ -5984,8 +5896,7 @@
                         "sha512": "f580bb0c9ad417f196cf0572729d25b809402f45e30e31f9f768b3fd5d9f13196570ed99f63cb47cfcf3d32a03eada8a7392d1d2881b51cfe4b2d051982cbc66",
                         "sha1": "4f44934b392d7bf1713707a93b29006e98bd7cff"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1603134,
                     "date_published": "2023-06-17T20:19:54.519535Z"
                 },
@@ -6078,8 +5989,7 @@
                         "sha1": "1989279b01aaf664f5d121f56431febf3e784505",
                         "md5": "bedf8097d305053726876660dd0a663c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 5790,
                     "date_published": "2017-09-26T01:09:07.850Z"
                 }
@@ -6234,8 +6144,7 @@
                         "sha512": "69f9c3b6326e58a69df55a428f35e67eb3f95bf5ad4d0718df594937fa6a35b5be21510c41e29a7f36633ffa4298ac98e3950f2ef6f82073e86fcd8747017476",
                         "sha1": "200188ff9b477a615ed556a11a386e3cf816ce5f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 983240,
                     "date_published": "2023-06-15T22:53:30.566593Z"
                 },
@@ -6256,8 +6165,7 @@
                         "sha1": "200188ff9b477a615ed556a11a386e3cf816ce5f",
                         "md5": "641740be000eec32417e1d563f5e451c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 983240,
                     "date_published": "2023-06-15T22:52:21.003Z"
                 }
@@ -6294,8 +6202,7 @@
                         "sha1": "6b6560aea35c6e0e8a550ea7044501412b0fb335",
                         "md5": "c89d595cdef3cc93f2acbc31333e418b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 78935,
                     "date_published": "2020-07-12T22:57:19.817Z"
                 }
@@ -6335,8 +6242,7 @@
                         "sha512": "747a6a94b3b0af4f958ec87d2607c49dba8b84f1ce62ea899d56ff04ab9ab61fcd0b5373bb29d70927f74b4f99b1d25e67bf47765f7d67e64d236f44bca9f35c",
                         "sha1": "5260bc0f2d4a27adf6409e707fb385899065982e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 990479,
                     "date_published": "2023-08-11T22:28:47.169647Z"
                 },
@@ -6357,8 +6263,7 @@
                         "sha1": "5260bc0f2d4a27adf6409e707fb385899065982e",
                         "md5": "8ffac2f2aa769f6aba30951d8c19094f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 990479,
                     "date_published": "2023-08-11T22:27:42.777Z"
                 }
@@ -6435,8 +6340,7 @@
                         "sha1": "522e60b48721b558f6dea1fdfa2b235162366649",
                         "md5": "f1a23cb6eaa682240c0ecdab65e7857f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 455763,
                     "date_published": "2017-06-29T13:05:50.337Z"
                 }
@@ -6639,8 +6543,7 @@
                         "sha512": "aad1d4f22ab61db3612c88acb9d47ffcd026ef65ea2aef9e2f2db229a9815469ca4a44cafec07871c9db69fac68759bfe38c229da019b2064ea42827cb4d60d3",
                         "sha1": "1d3975dd5399c9511f2913b98e98356437bd00bf"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 6851583,
                     "date_published": "2024-03-10T20:46:12.577325Z"
                 },
@@ -6661,8 +6564,7 @@
                         "sha1": "ca1a0dc76131b5af3a2e9628870f3e56dc487aa8",
                         "md5": "df46c93c0800a552c3d8fc7c9ddfad54"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 6536118,
                     "date_published": "2024-03-04T19:07:28.283Z"
                 }
@@ -6698,8 +6600,7 @@
                         "sha1": "63b83715a09aa9b5327ae0488d19282e9a2a0f4a",
                         "md5": "1c5e673b75e2c83e2e1870d43506d1e8"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 8769,
                     "date_published": "2024-01-22T18:40:42.573Z"
                 }
@@ -6739,8 +6640,7 @@
                         "sha512": "a084a8a5c2ad3b9666203013e178e3c37270c46a4132b5d068541e367851d0e4a704366e740972ac387b69467f1b742ee1bd098a890508ef2e059bdef9cc002c",
                         "sha1": "638b95595665bdae6798752e69a1d543ec064f7e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 87747,
                     "date_published": "2023-02-05T14:47:47.594545Z"
                 },
@@ -6761,8 +6661,7 @@
                         "sha1": "638b95595665bdae6798752e69a1d543ec064f7e",
                         "md5": "df8957036a68be3b0c618e903a218d2a"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 87747,
                     "date_published": "2020-03-31T14:33:31.913Z"
                 }
@@ -6918,8 +6817,7 @@
                         "sha1": "a7bf1a653653b7b6885af49be18348613874fb22",
                         "md5": "873ea198cb367f14648cb169587eee33"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 119062,
                     "date_published": "2019-04-28T17:04:34.750Z"
                 }
@@ -7028,8 +6926,7 @@
                         "sha512": "75b960af3b0d84731f10d72960a24e4f35e8a67e8410064f065eb5b45bd3a5355023612c92a745b7a12a3d99e3303db8afda78482e81e82418f78a2b145d31fa",
                         "sha1": "f174a9ccf33df0bc1594713ef40dc8c0fce32205"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 36553,
                     "date_published": "2024-09-18T17:51:43.110423Z"
                 },
@@ -7050,8 +6947,7 @@
                         "sha1": "f174a9ccf33df0bc1594713ef40dc8c0fce32205",
                         "md5": "162b746d9ac25be72329de3c8f6f1754"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 36553,
                     "date_published": "2024-09-18T17:50:21.150Z"
                 }
@@ -7091,8 +6987,7 @@
                         "sha1": "f77d34ddd13caeb4781908443f73e51b9118fe60",
                         "md5": "023675857af8a09dd58d56960216336d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1994663,
                     "date_published": "2024-03-13T21:58:01.450Z"
                 }
@@ -7128,8 +7023,7 @@
                         "sha1": "3ab3096add733c306bc9996b717f3c814e9f47d9",
                         "md5": "65b756d8d744fa44400988c7e5ca0cca"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1529957,
                     "date_published": "2021-12-16T12:26:32.583Z"
                 }
@@ -7172,8 +7066,7 @@
                         "sha512": "effecebc00785efb3894191531bec2f7485fd06ad4cf9edfcb73ae9fa751e096d201ee151b4c7208144a0091d5e3d8f4d8b939a926c2344aefc42d8e74e856a2",
                         "sha1": "c9708407d9b62da4c062966a0eb8901a211d88b9"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 8894159,
                     "date_published": "2023-07-15T12:48:39.953461Z"
                 },
@@ -7300,8 +7193,7 @@
                         "sha1": "b32fb5efb99dedf207d3623e222ea67e20655fcc",
                         "md5": "47987d111d6f1e48403bc3cbb23f5503"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 173426,
                     "date_published": "2018-09-11T21:00:45.503Z"
                 }
@@ -7406,8 +7298,7 @@
                         "sha512": "3ff6e2ef2eaa0ea5c1cf0d30dc35cec65b92f1eb2bb9f1261a6c97755e7cc24b80a6902f354d9b88ae58f0a03077b74a35ecce494705a551c769d102b1c397c3",
                         "sha1": "a1e5d5c197dae3e92637cafb8cd996185191165b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 843486,
                     "date_published": "2022-12-28T06:06:30.523899Z"
                 },
@@ -7429,8 +7320,7 @@
                         "sha1": "a1e5d5c197dae3e92637cafb8cd996185191165b",
                         "md5": "1026f5f8d3c4997831decd9023ca65a6"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 843486,
                     "date_published": "2019-05-19T20:21:43.573Z"
                 }
@@ -7470,8 +7360,7 @@
                         "sha512": "74c656fbb4bd589130866756d1dd3b7623f49cc640da11effa6bab0259717fdb37ea3852b074781642762ffc6578ffb111ac75400b0a7d2db7476ef5a5a61a8b",
                         "sha1": "8f3e381c4aea651f55ed1cd35fd69613fcd7f9da"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 544856,
                     "date_published": "2023-01-26T02:48:29.027394Z"
                 },
@@ -7489,8 +7378,7 @@
                         "sha1": "8f3e381c4aea651f55ed1cd35fd69613fcd7f9da",
                         "md5": "45ac9983da9fd2bc7fe3446b9f4287c1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 544856,
                     "date_published": "2019-07-22T03:27:04.243Z"
                 }
@@ -7530,8 +7418,7 @@
                         "sha512": "24eeeb284334e4dc98a971a22e7d3267fda843fe17deecbca4715164f39017051ce3ca7e65a49fbd9a6c4e738d808457577e0b8a8e75477bdf897891389dd9af",
                         "sha1": "1d5b531b7c107d6946b3e957f4554e2cb7686320"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 7863657,
                     "date_published": "2022-05-27T03:45:36.437136Z"
                 },
@@ -7549,8 +7436,7 @@
                         "sha1": "1d5b531b7c107d6946b3e957f4554e2cb7686320",
                         "md5": "e622b8365b9a1190b3b6cc042854e870"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 7863657,
                     "date_published": "2019-12-01T07:56:18.493Z"
                 }
@@ -7639,7 +7525,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "minieffects-2.1.0.jar",
+                    "file_name": "minieffects-2.2.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -7647,18 +7533,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5716/574/minieffects-2.1.0.jar",
-                    "id": "5716574",
+                    "url": "https://edge.forgecdn.net/files/5955/607/minieffects-2.2.0.jar",
+                    "id": "5955607",
                     "parent_id": "1081085",
                     "hashes": {
-                        "sha1": "534725e0b79847e86a706e964da167e51030798a",
-                        "md5": "c4329bc17235b4eeae4b8bd0d5529168"
+                        "sha1": "7b7b81fabf32eace350cdbf35d01c82a65fefea3",
+                        "md5": "7f0d5d5579f58d577d450523a4815653"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 12272,
-                    "date_published": "2024-09-12T12:14:44.550Z"
+                    "size": 22902,
+                    "date_published": "2024-12-02T04:06:54.183Z"
                 }
             ]
         },
@@ -7719,8 +7605,7 @@
                         "sha512": "bfa9f05b1c74e62030ddef688dd8f7381f91a0b1be7c2db25cab92cf880f1fd6324892fc0459459b648e76356d3aa893f7c0d415850064c0097b649a753b158f",
                         "sha1": "69f649f03f1b8706ec96945ed2722c653da07c33"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2376035,
                     "date_published": "2024-11-16T00:34:25.157513Z"
                 },
@@ -7743,8 +7628,7 @@
                         "sha1": "69f649f03f1b8706ec96945ed2722c653da07c33",
                         "md5": "44a2e61eac8db4cf57fb37dd7835b8da"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2376035,
                     "date_published": "2024-11-16T00:34:18.860Z"
                 }
@@ -7780,8 +7664,7 @@
                         "sha1": "633812f5c237cdb975fe41ed6710cf42f5f11524",
                         "md5": "672acce4be6c9112028a92f4888d43ec"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 25611613,
                     "date_published": "2024-08-23T02:22:10.840Z"
                 }
@@ -7824,8 +7707,7 @@
                         "sha512": "2df4942cac107532e5c5b90dedabea90613f3f349cc979a8134afc9bfdb463f2d196da3ef1a27175cab73a6e783f5e8b32e55760249a558ef14c7501710f24fe",
                         "sha1": "f0bdbf6f4257e392e59023289998aaa8c295df47"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 493285,
                     "date_published": "2023-06-07T18:30:49.600730Z"
                 },
@@ -7881,8 +7763,7 @@
                         "sha1": "7a9b07835fa9ef168c4742dbf7e3af62767778b5",
                         "md5": "f0b4f0ca236585bf5176df77f9d84fa3"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 63371,
                     "date_published": "2020-10-14T19:57:25.330Z"
                 }
@@ -7928,8 +7809,7 @@
                         "sha512": "068ec163c1c7b1b5bccc8fd5113101b60bc458fc753a20c6087e42e811b93eb73178142e34d0834e31df1cc832ecdccad9882db140e1e0ce6860886cb1c20abf",
                         "sha1": "25ae3456bacd14dee12f94a978067637b1ea1789"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 8663108,
                     "date_published": "2023-06-19T19:22:53.343015Z"
                 },
@@ -7947,8 +7827,7 @@
                         "sha1": "25ae3456bacd14dee12f94a978067637b1ea1789",
                         "md5": "a95232844ae1ffaaeba780dacb076785"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 8663108,
                     "date_published": "2023-06-19T19:09:03.140Z"
                 }
@@ -8049,8 +7928,7 @@
                         "sha1": "b308fe363f23343d0b073d04883c5fca63b08d0b",
                         "md5": "7b5200f51245b61ef149f7a33860e930"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 51284,
                     "date_published": "2019-07-21T20:16:59.573Z"
                 }
@@ -8083,8 +7961,7 @@
                         "sha1": "c948341a1b2243d4f8081c4db2cd727c2c4a7ed0",
                         "md5": "357dc3701a8c7d4109147c666f6a4300"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 21508,
                     "date_published": "2019-01-24T20:32:26.393Z"
                 }
@@ -8120,8 +7997,7 @@
                         "sha1": "793920175608d000688a88fce14f4c04efdedc58",
                         "md5": "842b6b4c23cb6a7db7c6cef231c5c9b2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 201591,
                     "date_published": "2024-11-05T01:34:26.840Z"
                 }
@@ -8156,8 +8032,7 @@
                         "sha1": "1a597d228fdb36d11c7ee40739208b7f78abbc3f",
                         "md5": "b4d11488a9ef451d463470d8c975f778"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 11368,
                     "date_published": "2018-11-28T06:59:24.787Z"
                 }
@@ -8193,8 +8068,7 @@
                         "sha1": "015d2d3768a3937e64af8bd93b59436603ad790d",
                         "md5": "453fc4b24cb77be58e2dc7283a04429d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 426226,
                     "date_published": "2021-10-07T08:59:37.260Z"
                 }
@@ -8234,8 +8108,7 @@
                         "sha512": "add85fc96ff5a6b1624be5d9330ea921bf81061f600b2beef197bb172e44efa51eebf2e1dff90406932577406cc96387d8b30bf3214e11b1f0d60cd400059ec6",
                         "sha1": "60bcf179cab708f67bbce98d201e82f3e7be9266"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 196434,
                     "date_published": "2023-09-15T22:40:11.787406Z"
                 },
@@ -8256,8 +8129,7 @@
                         "sha1": "60bcf179cab708f67bbce98d201e82f3e7be9266",
                         "md5": "3dbb990c72a185c9b9aeca7f3094eb21"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 196434,
                     "date_published": "2020-03-03T00:14:25.990Z"
                 }
@@ -8365,8 +8237,7 @@
                         "sha512": "d4f2456e62ba79b29a48a3eb96199676a9c627dbcd18cebb90e830325a41ba554a53b440761f8a48d7fbec6e84183d64df605f2e660a167f8678ba72cdacbd4e",
                         "sha1": "de109b3247a4a19fef7515983b25fc77c17645ad"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 17793,
                     "date_published": "2023-06-07T18:04:46.235602Z"
                 },
@@ -8384,8 +8255,7 @@
                         "sha1": "de109b3247a4a19fef7515983b25fc77c17645ad",
                         "md5": "be89e52bd741dae1d5e3d86f5ddb6978"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 17793,
                     "date_published": "2018-10-02T16:32:14.097Z"
                 }
@@ -8421,8 +8291,7 @@
                         "sha1": "73831135cde6afd3c9cc71048376aad971121c3f",
                         "md5": "f370669b73eaeeda7d283c6764eb7c06"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 239955,
                     "date_published": "2024-04-04T07:29:36.350Z"
                 }
@@ -8518,8 +8387,7 @@
                         "sha1": "210cc6b18b63ae0d3110b8e8ed843bc847627eb0",
                         "md5": "9c0606c553fbdf86e2f459c1cc40414d"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2639587,
                     "date_published": "2019-04-14T10:36:25.690Z"
                 }
@@ -8559,8 +8427,7 @@
                         "sha512": "df6f8edf7908ccd96a49cebfb215526eea407a6adf541c739ce0cb77cb3084de63ef7cbe43a7f2947ac798bc2c92da10f2a556ed5efcfb65f12846b78648be88",
                         "sha1": "f7226db5f26148e27e33d3f4dbfd1dd4f113e86b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 70106,
                     "date_published": "2022-08-22T23:47:50.037633Z"
                 },
@@ -8581,8 +8448,7 @@
                         "sha1": "f7226db5f26148e27e33d3f4dbfd1dd4f113e86b",
                         "md5": "cc84f6b2944904727e62636da31add39"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 70106,
                     "date_published": "2022-08-22T23:17:23.880Z"
                 }
@@ -8617,8 +8483,7 @@
                         "sha1": "385f64505d1c43ae11e9f9087f08ef53b0a3df89",
                         "md5": "f909f8204f2f84057f83095b0b6c81bc"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 399048,
                     "date_published": "2021-05-23T16:33:06.740Z"
                 }
@@ -8655,8 +8520,7 @@
                         "sha1": "5debb0481552c54bb6ad72d56b05b31d92e2f5d8",
                         "md5": "00cce3b240365458adcad3e77782358a"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 341728,
                     "date_published": "2019-11-02T17:33:29.310Z"
                 }
@@ -8696,8 +8560,7 @@
                         "sha512": "6f1d9c2bc96f4fea68d51afbb765be61167b465114b485087a05e2af0b964cc2c3af7f705699a32eadc5e1ed198a914517d7be28813577d72a5e893cd37de9e8",
                         "sha1": "a064b434253305424755943dd66f389855ade953"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 4912890,
                     "date_published": "2022-11-14T18:49:37.454221Z"
                 },
@@ -8718,8 +8581,7 @@
                         "sha1": "a064b434253305424755943dd66f389855ade953",
                         "md5": "e8e1ac67accdeea50116e1e92e592397"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 4912890,
                     "date_published": "2020-03-18T20:32:21.123Z"
                 }
@@ -8782,8 +8644,7 @@
                         "sha1": "2c4847ca6c7cf1d41ff320943394ff61028c7e72",
                         "md5": "cf620abe081f88ce35f1a2c585405e73"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 17450,
                     "date_published": "2024-05-12T09:22:06.240Z"
                 }
@@ -8804,7 +8665,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Patchouli-1.0-26.jar",
+                    "file_name": "Patchouli-1.0-27.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -8812,17 +8673,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5201/41/Patchouli-1.0-26.jar",
-                    "id": "5201041",
+                    "url": "https://edge.forgecdn.net/files/5981/115/Patchouli-1.0-27.jar",
+                    "id": "5981115",
                     "parent_id": "905159",
                     "hashes": {
-                        "sha1": "39199b79bc94b036a274f9e5a2bd12e82583bb4d",
-                        "md5": "3136e1fa87ad1399bcf71bd8fda09c43"
+                        "sha1": "3f209d11c197acd1257ac96e8df69e6e256f5f8b",
+                        "md5": "7001863c2269784316a59ea8adc1cb5e"
                     },
-                    "required_dependencies": [
-                    ],
-                    "size": 468560,
-                    "date_published": "2024-03-21T17:58:48.437Z"
+                    "required_dependencies": [],
+                    "size": 468563,
+                    "date_published": "2024-12-10T22:10:19.367Z"
                 }
             ]
         },
@@ -8941,8 +8801,7 @@
                         "sha1": "f54d097003e162e9e629ef78a500ff87cd65160c",
                         "md5": "b59440710e62afbe0c144b4dde43d8b2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 83344,
                     "date_published": "2020-08-07T12:29:44.677Z"
                 }
@@ -9091,8 +8950,7 @@
                         "sha1": "eef34248b4e4d0313ad94a2fdfcd22345261d2f2",
                         "md5": "bb1cec426711cab663d349793d71ff0c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 3983662,
                     "date_published": "2024-08-04T06:46:09.893Z"
                 }
@@ -9171,8 +9029,7 @@
                         "sha1": "d45d3cadbbab3f2222059b2acb68d9620c6839a8",
                         "md5": "dfbb30ff396e6426ba9a284b04c7bcf3"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 293231,
                     "date_published": "2020-12-08T08:14:46.773Z"
                 }
@@ -9210,8 +9067,7 @@
                         "sha1": "e5d2502bf33a670b17908e9f6b650fd0daa07cb5",
                         "md5": "bddf7235a87732bada34e2474d7bee97"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 288481,
                     "date_published": "2021-02-15T01:16:02.907Z"
                 }
@@ -9249,8 +9105,7 @@
                         "sha1": "faf758374f9ada273155f43d451829d8ec4c4bf0",
                         "md5": "64ad1064003edd10b740ee33d02204e2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 168847,
                     "date_published": "2023-02-22T23:52:23.543Z"
                 }
@@ -9286,8 +9141,7 @@
                         "sha1": "65766853409c7d8c95a5d3d6a664d8afb34b9345",
                         "md5": "70231a14fa61e494836615442568c3fc"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 63253,
                     "date_published": "2024-07-18T15:59:17.817Z"
                 }
@@ -9321,8 +9175,7 @@
                         "sha1": "86595b64e41da2cdbf230b58c1016b56110159e0",
                         "md5": "ca24362c3c696c837a2612aefce21770"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 33240,
                     "date_published": "2020-02-09T21:10:41.043Z"
                 }
@@ -9355,8 +9208,7 @@
                         "sha1": "9a888f514200396fe83a93d8dc1ee2a8ed1f7ed6",
                         "md5": "9f26fffad6c89e644ac56335cac8bcc5"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 17104,
                     "date_published": "2017-12-01T06:34:04.913Z"
                 }
@@ -9380,6 +9232,7 @@
             },
             "update_strategy": "NONE",
             "redistributable": false,
+            "aliases": [],
             "files": [
                 {
                     "type": "curseforge",
@@ -9400,8 +9253,7 @@
                         "sha1": "afa29df91ba39103efbe9d60737e2951da1532b5",
                         "md5": "dbc7cb9430a709fd430072091daafb30"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 146368
                 }
             ]
@@ -9441,8 +9293,7 @@
                         "sha1": "e527d582a7e405939443efdf5995473307b56aa5",
                         "md5": "8ef5bb1d3f02f9e3cc775bdc19bdf404"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 8597
                 },
                 {
@@ -9462,8 +9313,7 @@
                         "sha512": "b5cd9770489f0dba25c78e628a000926c4998f8d24895c4b31e3557a7c2612920db3fc8fd96c81ed6d2203c24d724bb60b3f8af22bb82124db02ed59f42d4a2c",
                         "sha1": "e527d582a7e405939443efdf5995473307b56aa5"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 8597
                 }
             ]
@@ -9502,8 +9352,7 @@
                         "sha512": "e139a548bc4170b22d195d97f24b8061ff81f2df0a9d678cd77819ca7b719ce9274c93c6ae2f3a1dd4b5a25e77e4faccd77724e26854824f1a5f84187a5966f8",
                         "sha1": "73123fa379813583df06e48f50c37cbe2e258a9f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 729901,
                     "date_published": "2021-09-11T16:43:20.607600Z"
                 },
@@ -9521,8 +9370,7 @@
                         "sha1": "73123fa379813583df06e48f50c37cbe2e258a9f",
                         "md5": "a7246c588ff4a7a30562d57e7d15181c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 729901,
                     "date_published": "2020-10-03T20:55:23.967Z"
                 }
@@ -9558,8 +9406,7 @@
                         "sha1": "c92f573c2f7c6f391658060d77031a3d400563c3",
                         "md5": "9e8b99a34bbcd7006e022ab2717a6df9"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2087995,
                     "date_published": "2023-08-11T19:13:26.123Z"
                 }
@@ -9600,8 +9447,7 @@
                         "sha1": "31059d070bee48368050cf774ea3e8f9caea0356",
                         "md5": "68c8e7aaeee427384e5510f1e589ec38"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 5749924,
                     "date_published": "2024-08-10T17:37:11.180Z"
                 }
@@ -9652,8 +9498,7 @@
                         "sha512": "af65b6d31dbcd6acedc9d82b85b0536faf1355d58ecef9d9dbd4f04b231b8d5b00963390a6a69f13e69da44a052350fcdd3ecb885dbbb7f5d16e0193256c6b13",
                         "sha1": "7b948311155c1ba8d3f2b1a18a1caa751f1925d0"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 130772,
                     "date_published": "2023-11-20T13:12:14.326733Z"
                 },
@@ -9675,8 +9520,7 @@
                         "sha1": "75a26e40a2a15d43a46798e101aee02825f6361f",
                         "md5": "2260035108ccb6414e41343cb68eb06a"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 130943,
                     "date_published": "2024-11-10T20:10:51.793Z"
                 }
@@ -9709,8 +9553,7 @@
                         "sha1": "7835c1dcc006e5d4a406a6b0615012b825e25044",
                         "md5": "93b1715f05be1878da93fca36dd37f2a"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 31802,
                     "date_published": "2020-04-03T23:52:41.640Z"
                 }
@@ -9743,8 +9586,7 @@
                         "sha1": "be7d93c3e884a7013ce7f9c988992c9cea534b33",
                         "md5": "be881516ad149a079d50e5fd2cde6386"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 513810,
                     "date_published": "2020-03-25T16:16:17.573Z"
                 }
@@ -9780,8 +9622,7 @@
                         "sha1": "0635a2cd62e1ab352941af5d886d2ebb0aa593fa",
                         "md5": "9796b67bf863c49e5f2f603e8ccd3e37"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 245409,
                     "date_published": "2024-06-12T18:30:21.137Z"
                 }
@@ -9817,8 +9658,7 @@
                         "sha1": "0050ad376cea7c372db1c6711a21f6e631db3410",
                         "md5": "38e66a09a8f5c90278af66fda95d2764"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 338650,
                     "date_published": "2019-10-24T16:51:36.610Z"
                 }
@@ -9854,8 +9694,7 @@
                         "sha1": "d8c10e6e29df5f9bc51e468642d9b3cae5f2f8e4",
                         "md5": "51141e882f96ce756b9b3d25f2acdf57"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 16612,
                     "date_published": "2017-09-08T21:46:12.243Z"
                 }
@@ -9895,8 +9734,7 @@
                         "sha512": "2d5105810915b5a9c90c0b2c77829c4794b521148f5a3e32c688e7175e6631219a382b9b4ba0a1075c3392c5da9afd30d2e8f017607e83e43c43d9a68e9f7478",
                         "sha1": "567832a6b073e59fa29f2f694e224008707db2f8"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1400465,
                     "date_published": "2023-11-03T14:51:29.976599Z"
                 },
@@ -9917,8 +9755,7 @@
                         "sha1": "567832a6b073e59fa29f2f694e224008707db2f8",
                         "md5": "e5fc580c4f69dd2e8b830ef2d814e34f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1400465,
                     "date_published": "2020-11-10T20:07:56.123Z"
                 }
@@ -9996,8 +9833,7 @@
                         "sha1": "b949f46eef7fe63e42e4d5a618f1e26e66a1af5c",
                         "md5": "47f919498bd29961f62b6655b8d76f2e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 252718,
                     "date_published": "2020-12-22T21:51:18.103Z"
                 }
@@ -10037,8 +9873,7 @@
                         "sha512": "94e4bf115a8cf30204fa2d195548532ea6fed0c264405b1cb832a735821288f87aa3dcae5925ab2d38a40576555c7da611115e58604e5ff1bcd23392447a6d1a",
                         "sha1": "05acc4faf6f5ca31215599c0ebf778ba18a9121b"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 185187,
                     "date_published": "2023-11-19T06:28:30.178701Z"
                 },
@@ -10059,8 +9894,7 @@
                         "sha1": "05acc4faf6f5ca31215599c0ebf778ba18a9121b",
                         "md5": "ef89fab62d1914ea0e25d2c31b453695"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 185187,
                     "date_published": "2019-09-30T19:47:11.457Z"
                 }
@@ -10208,8 +10042,7 @@
                         "sha512": "40391775653921f408b04c8dc08f033d03af612bb397e85e2731717c70a92ec339c53add179fc6487dbfe1db33120ef56870c96740d7c8861461012dd058895d",
                         "sha1": "da05f7344986d425c858decb36cf776b3fe53dad"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 511085,
                     "date_published": "2024-03-16T16:31:34.871603Z"
                 },
@@ -10230,8 +10063,7 @@
                         "sha1": "da05f7344986d425c858decb36cf776b3fe53dad",
                         "md5": "b85803f2a07ac38c7a0cf4c9dc1d0f18"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 511085,
                     "date_published": "2024-03-16T16:29:06.480Z"
                 }
@@ -10270,8 +10102,7 @@
                         "sha1": "701ec14cff7a64858e71095ddaacce5d62ca6724",
                         "md5": "c3d7e8568e677169da1ed9e4a689df17"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 54772,
                     "date_published": "2019-09-29T10:49:11.757Z"
                 }
@@ -10310,8 +10141,7 @@
                         "sha1": "d345402a63b14554e81ca546f1b64285d3ecb7b6",
                         "md5": "0b44614578a9b52f1b5a75e312fdcf23"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 406772,
                     "date_published": "2019-01-18T10:51:10.353Z"
                 }
@@ -10351,8 +10181,7 @@
                         "sha512": "b341fa1a8edcbbef00d4e1bbefdf1a1ce90a5510a6e65b78057e453830de034cb06f8bc8eab5658a3e4ede6061cdabe254d7f80180662c93126248df7b502d55",
                         "sha1": "67687daba9e172c4ded50ad6a817a0614a045d24"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 41277,
                     "date_published": "2023-05-09T19:37:17.468310Z"
                 },
@@ -10373,8 +10202,7 @@
                         "sha1": "67687daba9e172c4ded50ad6a817a0614a045d24",
                         "md5": "a0d55786d9b3476fc1d339e9313c7856"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 41277,
                     "date_published": "2023-05-09T19:34:34.120Z"
                 }
@@ -10399,47 +10227,45 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "voicechat-forge-1.12.2-2.5.26.jar",
+                    "file_name": "voicechat-forge-1.12.2-2.5.27.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/JqxLvGrT/voicechat-forge-1.12.2-2.5.26.jar",
-                    "id": "JqxLvGrT",
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/XiBLz18c/voicechat-forge-1.12.2-2.5.27.jar",
+                    "id": "XiBLz18c",
                     "parent_id": "9eGKb6K1",
                     "hashes": {
-                        "sha512": "6339456bfbef44a8d83c7eb7bfdd7af199f8b9b9ffad25ba066432f7244f2df3063a280aa4659006552d6e61d3bf6d079c9a355860b4691fd7a1ba7b7f2b2911",
-                        "sha1": "3ae763424de0e8f6206c09a7e642460e8c27389c"
+                        "sha512": "966cd66d86fc112fb4a057b51fbb48a4a5127bb1e7429cf382bf6835baec6bb4126e3e68bdf2cc72c62ccd96769d04d184fd68c0412bc989f239e02e133861da",
+                        "sha1": "2d862d6b57d707dde89623fbadfc991e23e3295c"
                     },
-                    "required_dependencies": [
-                    ],
-                    "size": 8695041,
-                    "date_published": "2024-11-16T08:47:56.369624Z"
+                    "required_dependencies": [],
+                    "size": 8704531,
+                    "date_published": "2024-12-17T10:59:26.016876Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "voicechat-forge-1.12.2-2.5.26.jar",
+                    "file_name": "voicechat-forge-1.12.2-2.5.27.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5907/337/voicechat-forge-1.12.2-2.5.26.jar",
-                    "id": "5907337",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5998/289/voicechat-forge-1.12.2-2.5.27.jar",
+                    "id": "5998289",
                     "parent_id": "416089",
                     "hashes": {
-                        "sha1": "ccc25f1320622e3a8136aaec2bab4b6fee12dcdd",
-                        "md5": "5992cda0c9291755c879e83f2f65f432"
+                        "sha1": "3dd1457dc61e0810c10bcf46a6fbaae62f4e6de7",
+                        "md5": "81ff50cc5c0c1238199a5c073cd07381"
                     },
-                    "required_dependencies": [
-                    ],
-                    "size": 8695041,
-                    "date_published": "2024-11-16T08:47:36.683Z"
+                    "required_dependencies": [],
+                    "size": 8704531,
+                    "date_published": "2024-12-17T10:57:54.237Z"
                 }
             ]
         },
@@ -10473,8 +10299,7 @@
                         "sha1": "a89dff9ad283882229d6bba49a4754c064976d8a",
                         "md5": "4f774ecee05d2ebf6ba92eb93989862f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 545200,
                     "date_published": "2023-07-18T12:32:15.260Z"
                 }
@@ -10630,8 +10455,7 @@
                         "sha512": "8ac6230b78354bcf22ea9c8d38680d2989db8be34960e30708bc018df03746fb25810b089c5a7490cf5a2abb27b40c39afd68d28b5ee3f1fa31c5645a8726c2c",
                         "sha1": "f84f2b69443482b3bd35e29712edbbdab2bd23d6"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 159870,
                     "date_published": "2022-05-24T20:37:25.652698Z"
                 },
@@ -10652,8 +10476,7 @@
                         "sha1": "f84f2b69443482b3bd35e29712edbbdab2bd23d6",
                         "md5": "8e48182b43770a93768e1a76b27cb7e0"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 159870,
                     "date_published": "2019-11-10T15:21:03.753Z"
                 }
@@ -10694,8 +10517,7 @@
                         "sha512": "bb72a9b51e426e3a523fa21acff296b7b999108b0710798db9f8a658a429c7df9d297cd8c208945515436082acb55b3f7d6858575f87442bd89754980f1e3f98",
                         "sha1": "bdd413df8203a1af255231d2026907fe62700e25"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2368416,
                     "date_published": "2024-04-15T05:10:30.637564Z"
                 },
@@ -10716,8 +10538,7 @@
                         "sha1": "bdd413df8203a1af255231d2026907fe62700e25",
                         "md5": "4a16cc73554e74aa86011eb5c185042e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 2368416,
                     "date_published": "2024-04-15T05:07:46.143Z"
                 }
@@ -10754,8 +10575,7 @@
                         "sha1": "4c1c41c82f5868f8ae48b0303f619c65ba1218fe",
                         "md5": "88403da50505c2bdb1e751486add8677"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 283749,
                     "date_published": "2022-08-21T05:36:42.683Z"
                 }
@@ -10780,7 +10600,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "SnowRealMagic-1.12.2-0.7.1.jar",
+                    "file_name": "SnowRealMagic-1.12.2-0.7.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10788,17 +10608,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4406/440/SnowRealMagic-1.12.2-0.7.1.jar",
-                    "id": "4406440",
+                    "url": "https://edge.forgecdn.net/files/5925/8/SnowRealMagic-1.12.2-0.7.2.jar",
+                    "id": "5925008",
                     "parent_id": "308663",
                     "hashes": {
-                        "sha1": "ac7f486d65b69ae0c4e4f60e4cd6e122016e2d51",
-                        "md5": "309e2b3d676c682c4699cb93ef433a49"
+                        "sha1": "09edca6ba1a6eb3560619b1762bf3c07a875dc99",
+                        "md5": "f18fb47b829ab5d18991ef9b5e177b85"
                     },
-                    "required_dependencies": [
-                    ],
-                    "size": 920900,
-                    "date_published": "2023-02-21T21:09:00.230Z"
+                    "required_dependencies": [],
+                    "size": 920967,
+                    "date_published": "2024-11-21T11:20:09.687Z"
                 }
             ]
         },
@@ -10836,8 +10655,7 @@
                         "sha512": "55578d9eaa2628d68b2b30cfdf564af162726feea2c1e7c0da5d7ea70df3a3dca38165526a21c8c94d72451a0c9eb5f03f407d3047439ed2d0b44f3ade845d48",
                         "sha1": "cbe29632d921d60da2bda2f8321e0922b05ac004"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 4798650,
                     "date_published": "2024-07-18T22:06:50.031051Z"
                 },
@@ -10858,8 +10676,7 @@
                         "sha1": "2d9cc5cb5b490a92eaaefe1d107ae68252852d0a",
                         "md5": "cdc64b15e878ecbf939fcc6bf6e304e1"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 4798650,
                     "date_published": "2024-07-18T22:06:36.453Z"
                 }
@@ -10896,8 +10713,7 @@
                         "sha1": "5a17517653deef1faf9d47005aad288b7c61ecaa",
                         "md5": "14e0bce12838471d2a83cb1e29c99571"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 27237,
                     "date_published": "2019-05-04T13:35:05.887Z"
                 }
@@ -10962,7 +10778,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "StorageDrawers-1.12.2-5.5.2.jar",
+                    "file_name": "StorageDrawers-1.12.2-5.5.3.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -10970,18 +10786,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5758/109/StorageDrawers-1.12.2-5.5.2.jar",
-                    "id": "5758109",
+                    "url": "https://edge.forgecdn.net/files/5981/297/StorageDrawers-1.12.2-5.5.3.jar",
+                    "id": "5981297",
                     "parent_id": "223852",
                     "hashes": {
-                        "sha1": "512979dd3ecfe70cffc4d1c59630855474837fd3",
-                        "md5": "bc97cfe3b557e15b0f605b9e42b79c52"
+                        "sha1": "8be312005dc837372bfbe2dfb8db77822d326062",
+                        "md5": "50f4a99fc747f8549df067c05c4c63ae"
                     },
                     "required_dependencies": [
                         "230497"
                     ],
-                    "size": 621835,
-                    "date_published": "2024-09-26T09:49:15.987Z"
+                    "size": 621871,
+                    "date_published": "2024-12-10T23:29:03.823Z"
                 }
             ]
         },
@@ -11094,8 +10910,7 @@
                         "sha1": "4ec5d83ae703b63237675499b6445ecd63346c7e",
                         "md5": "0dfe40b9031c799d3cf80a50c97d190a"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 31034,
                     "date_published": "2017-12-28T20:38:11.237Z"
                 }
@@ -11397,8 +11212,7 @@
                         "sha512": "d4d66847c79ac22ace5e13b17c782f2658c1ba8cfefabb3fa541744a362d3d864c8ffcda4763581d20728c50a9a5154064f120a764a00cd7d4a486202ddfb22b",
                         "sha1": "e63241c7fa81c7fce9f3df0121682bcdcb63929c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 11641,
                     "date_published": "2023-06-07T06:11:41.875175Z"
                 },
@@ -11418,8 +11232,7 @@
                         "sha1": "e63241c7fa81c7fce9f3df0121682bcdcb63929c",
                         "md5": "eb4bba23a510da1a6f9c4e916c45714f"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 11641,
                     "date_published": "2019-03-20T23:57:18.403Z"
                 }
@@ -11459,8 +11272,7 @@
                         "sha512": "3ff428af541859332347055a13e24a393a7165e91b2300a98057db1a7aca1c34ea27dd2c772693ca26b1497c572f3027cefee3778dcdaa62f6333e74c18adff3",
                         "sha1": "9790e6083bbeab78e045c027c964495133507efa"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 20578,
                     "date_published": "2023-06-07T08:41:54.686231Z"
                 },
@@ -11478,8 +11290,7 @@
                         "sha1": "9790e6083bbeab78e045c027c964495133507efa",
                         "md5": "1f3cc3576b2e67ea46446445d765a203"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 20578,
                     "date_published": "2020-03-20T22:49:25.260Z"
                 }
@@ -11512,8 +11323,7 @@
                         "sha1": "cfba896b87294e2351c383b5d4127112d26ab5e0",
                         "md5": "a8cb01e6ff16b4375c9b73c0fcc1c0c2"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 150657,
                     "date_published": "2018-09-21T00:37:13.533Z"
                 }
@@ -11549,8 +11359,7 @@
                         "sha1": "6a9078c5d0f9e92a9f66ded407cba4b48dadbdf8",
                         "md5": "e3b914de3d6a52c2e63ceb3c93f5c5c8"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 161592,
                     "date_published": "2021-09-14T21:18:46.397Z"
                 }
@@ -11586,8 +11395,7 @@
                         "sha1": "6a53b7e2728655c9c62541db3257c123e74f31b6",
                         "md5": "902938232415bbf86c2e1bcc8d05a334"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 96478,
                     "date_published": "2021-04-09T16:33:03.380Z"
                 }
@@ -11627,8 +11435,7 @@
                         "sha512": "9b25e3f1907042da9f272606466b72d3268cd2130a009fd7f832ad501546c78025e252b20a16448007e9804628f55905a70a9004957c5abd41422106f511828e",
                         "sha1": "0fd96e1368489dc6c4d1121ce67bb8e660e65f65"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 25343542,
                     "date_published": "2022-05-23T10:34:29.637695Z"
                 },
@@ -11646,8 +11453,7 @@
                         "sha1": "0fd96e1368489dc6c4d1121ce67bb8e660e65f65",
                         "md5": "27500892fdc9c384a57767ca36772839"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 25343542,
                     "date_published": "2019-05-21T04:38:42.850Z"
                 }
@@ -11684,8 +11490,7 @@
                         "sha1": "22d151086fde79a7d34b5bc191a4d90ef1b24890",
                         "md5": "8b0992e63584ff04d1fcff537473d048"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 87400,
                     "date_published": "2020-02-07T17:10:47.500Z"
                 }
@@ -11796,8 +11601,7 @@
                         "sha512": "cdd7d38e26fe03931df6fad4a23c4eda866ec9025707be41eaf397db7ca81dbec3ca4ef4496d97096416808ed069494bcb1bed185774da85fe01c2c319201326",
                         "sha1": "66e1d603c8985a903b5c76d697914c5d5365e885"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 124777,
                     "date_published": "2021-11-12T18:26:21.692263Z"
                 },
@@ -11818,8 +11622,7 @@
                         "sha1": "66e1d603c8985a903b5c76d697914c5d5365e885",
                         "md5": "d7cecef93ffccba2dbfa43ee4e8fff23"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 124777,
                     "date_published": "2021-05-22T14:15:15.403Z"
                 }
@@ -11862,8 +11665,7 @@
                         "sha512": "8778757edc53b6cca3f66e24c253a3658f8b5519f4b60f9b139d1e0ef3d2e9c2b2cc3727116ae62251339aae663249edf918b1a48c5b7476499f5da990ef32f3",
                         "sha1": "6cfbd3ded0d8d6c47e3e5aa822f38fb753ebae3e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 1017716,
                     "date_published": "2024-07-16T01:29:55.685236Z"
                 },
@@ -11919,8 +11721,7 @@
                         "sha1": "4a600774f74e6f834241cb6327b9ddbd9ac8362f",
                         "md5": "3ec84aac5bf45959934669bf1c1548a9"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 234934,
                     "date_published": "2018-04-20T13:07:36.617Z"
                 }
@@ -11958,8 +11759,7 @@
                         "sha1": "5721af09ca9201f9cfe23abd787e0b5e3375fb3e",
                         "md5": "845bdff742f44f42021458ea2897291e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 83768,
                     "date_published": "2020-01-21T09:51:53.390Z"
                 }
@@ -11993,8 +11793,7 @@
                         "sha1": "feb37c7b5fe4b518925abd06178a8b22bc420e25",
                         "md5": "29684798fb529fd2f48c00af1e2879f6"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 17636,
                     "date_published": "2022-05-01T18:43:19.487Z"
                 }
@@ -12037,8 +11836,7 @@
                         "sha512": "36ac587535ec1b2637f82a82776060183fcc6f8b1dce080529c037b2e9f0a5433c7822be2d8846b6f3e1a0cbd8b7f072c128dd7afd8e801948b7b49d095b4726",
                         "sha1": "783157c607149875de1e045d72382d370256257c"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 94115,
                     "date_published": "2023-06-07T19:26:34.315967Z"
                 },
@@ -12141,8 +11939,7 @@
                         "sha512": "b68436471dae86da86a7541ca597ee68a31498babb73ddb8dbd3caa7f62ba7c89189cd24a8cc95e7914595f5c68b071079ee4092dcb1f8b43bd1207281fede75",
                         "sha1": "dbb8d1f0e5fe7d30d5e11a234e838267c80d6e18"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 116755,
                     "date_published": "2022-12-06T19:42:10.753096Z"
                 },
@@ -12163,8 +11960,7 @@
                         "sha1": "dbb8d1f0e5fe7d30d5e11a234e838267c80d6e18",
                         "md5": "1bcd172a431404590682d1354646936e"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 116755,
                     "date_published": "2022-12-05T21:21:10.027Z"
                 }
@@ -12198,8 +11994,7 @@
                         "sha1": "22d991d32f46b0e336f2a257ae1140346d74b8e3",
                         "md5": "395824ed6545b0c89620f423e698bf79"
                     },
-                    "required_dependencies": [
-                    ],
+                    "required_dependencies": [],
                     "size": 59749,
                     "date_published": "2019-02-03T09:13:33.200Z"
                 }
@@ -12290,7 +12085,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "zenutils-1.20.12.jar",
+                    "file_name": "zenutils-1.21.4.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -12298,20 +12093,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5865/295/zenutils-1.20.12.jar",
-                    "id": "5865295",
+                    "url": "https://edge.forgecdn.net/files/5962/106/zenutils-1.21.4.jar",
+                    "id": "5962106",
                     "parent_id": "401178",
                     "hashes": {
-                        "sha1": "1db94aadae24cc7a3fcc8d86f050dad6c7163b62",
-                        "md5": "55aa603c1caaa33ec81804d106d6fac3"
+                        "sha1": "195d5a75c658d77ae2eb0ed90731b313cccaff4e",
+                        "md5": "07b1c3c5531823d1550b5767deb0570c"
                     },
                     "required_dependencies": [
                         "870276",
-                        "419286",
-                        "239197"
+                        "239197",
+                        "419286"
                     ],
-                    "size": 539343,
-                    "date_published": "2024-11-01T13:34:11.290Z"
+                    "size": 563323,
+                    "date_published": "2024-12-04T12:57:52.273Z"
                 }
             ]
         },
@@ -12374,7 +12169,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Sound-Physics-1.12.2-1.1.3.jar",
+                    "file_name": "Sound-Physics-1.12.2-1.1.5.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -12382,18 +12177,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5461/56/Sound-Physics-1.12.2-1.1.3.jar",
-                    "id": "5461056",
+                    "url": "https://edge.forgecdn.net/files/5967/242/Sound-Physics-1.12.2-1.1.5.jar",
+                    "id": "5967242",
                     "parent_id": "951159",
                     "hashes": {
-                        "sha1": "aee7d9de608f6b07bb64b1077cc6b9fd429999e0",
-                        "md5": "c68dbdfbd044e783e0512924e592a1d5"
+                        "sha1": "86e9b93491a8110b44cd488a3e302f51246909b9",
+                        "md5": "9f3ffd673b70060042c9794ceb8ce750"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 60521,
-                    "date_published": "2024-06-23T03:12:57.597Z"
+                    "size": 60541,
+                    "date_published": "2024-12-06T07:40:55.040Z"
                 }
             ]
         }
