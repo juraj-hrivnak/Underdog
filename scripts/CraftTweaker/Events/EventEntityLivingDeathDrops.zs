@@ -117,6 +117,7 @@ val others as IItemStack[][IEntityDefinition] = {
     <entity:horse_colors:horse_felinoid>        : [<minecraft:bone> * 4, <pyrotech:pelt_horse>, <animania:raw_horse> * 4 ],
     <entity:horse_colors:mule>                  : [<minecraft:bone> * 4, <pyrotech:pelt_horse>, <animania:raw_horse> * 4 ],
     <entity:minecraft:bat>                      : [<pyrotech:pelt_bat>],
+    <entity:mocreatures:deer>                   : [<minecraft:bone> * 3, <mocreatures:venisonraw>],
 };
 
 val sheepPelts as IItemStack[IItemStack] = {
@@ -146,7 +147,11 @@ val sheepPelts as IItemStack[IItemStack] = {
     <animania:wool:6>   : <pyrotech:pelt_sheep_brown>
 };
 
-function addDrops(entities as IItemStack[][IEntityDefinition], event as crafttweaker.event.EntityLivingDeathDropsEvent, removeDrops as bool) as void {
+function addDrops(
+    entities as IItemStack[][IEntityDefinition],
+    event as crafttweaker.event.EntityLivingDeathDropsEvent,
+    removeDrops as bool
+) as void {
     for entity, items in entities {
         if (!isNull(event.entity.definition) && event.entity.definition.name == entity.name) {
             if (removeDrops) event.drops = [];
@@ -163,7 +168,11 @@ function addDrops(entities as IItemStack[][IEntityDefinition], event as crafttwe
     }
 }
 
-function dropColoredPelt(pelts as IItemStack[IItemStack], drop as IItemStack, event as crafttweaker.event.EntityLivingDeathDropsEvent) as void {
+function dropColoredPelt(
+    pelts as IItemStack[IItemStack],
+    drop as IItemStack,
+    event as crafttweaker.event.EntityLivingDeathDropsEvent
+) as void {
     for wool, pelt in pelts {
         if (wool.name == drop.name) {
             event.drops = [];
@@ -173,7 +182,11 @@ function dropColoredPelt(pelts as IItemStack[IItemStack], drop as IItemStack, ev
     }
 }
 
-function addDropsSheep(entities as IItemStack[][IEntityDefinition], pelts as IItemStack[IItemStack], event as crafttweaker.event.EntityLivingDeathDropsEvent) as void {
+function addDropsSheep(
+    entities as IItemStack[][IEntityDefinition],
+    pelts as IItemStack[IItemStack],
+    event as crafttweaker.event.EntityLivingDeathDropsEvent
+) as void {
     for entity, items in entities {
         if (!isNull(event.entity.definition) && event.entity.definition.name == entity.name) {
 
