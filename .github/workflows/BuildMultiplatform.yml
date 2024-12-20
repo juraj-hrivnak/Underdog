@@ -73,15 +73,15 @@ jobs:
 
           # -- PROJECT SUFFIX --
 
+          projectsuffix=build.${{ github.run_number }}
+
           if [[ ${{ startsWith(github.ref, 'refs/tags/v') }} == true ]]; then
-            echo "projectsuffix=$latest_tag" >> $GITHUB_OUTPUT
-            echo "📃 projectsuffix=$latest_tag"
-            echo -e "📃 projectsuffix=$latest_tag" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "projectsuffix=build.${{ github.run_number }}" >> $GITHUB_OUTPUT
-            echo "📃 projectsuffix=build.${{ github.run_number }}"
-            echo -e "📃 projectsuffix=build.${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+            projectsuffix=$latest_tag
           fi
+
+          echo "projectsuffix=$projectsuffix" >> $GITHUB_OUTPUT
+          echo "📃 projectsuffix=$projectsuffix"
+          echo -e "📃 projectsuffix=$projectsuffix" >> $GITHUB_STEP_SUMMARY
 
           # -- RELEASE TYPE
 
@@ -106,6 +106,7 @@ jobs:
           fi
 
           echo "📃 latest_tagged_commit=$latest_tagged_commit"
+          echo -e "📃 latest_tagged_commit=$latest_tagged_commit" >> $GITHUB_STEP_SUMMARY
 
           git show $latest_tagged_commit:./pakku-lock.json > ./pakku-lock-prev.json
 
@@ -114,8 +115,6 @@ jobs:
           java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json -v --markdown PROJECTS_DIFF.md
 
           # -- OUTPUT DIFF --
-
-          cat PROJECTS_DIFF.md >> $GITHUB_STEP_SUMMARY
 
           {
             echo 'diff<<EOF'
@@ -134,10 +133,12 @@ jobs:
           # Get & upload @news@
           news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g')
           echo news=$news >> $GITHUB_OUTPUT
-          echo -e "$news" >> $GITHUB_STEP_SUMMARY
 
           # Replace @news@
           perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/$news/g" $changelog
+
+          echo -e "***" >> $GITHUB_STEP_SUMMARY
+          cat $changelog >> $GITHUB_STEP_SUMMARY
 
           # Finally, Rename changelog
           mv $changelog "CHANGELOG-$projectsuffix.md"
@@ -202,13 +203,11 @@ jobs:
       contents: write
     if: startsWith(github.ref, 'refs/tags/v')
     steps:
-      - name: Download Artifact Changelog
-        uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v4
         with:
           name: changelog
 
-      - name: Download Artifact JVM Jar
-        uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v4
         with:
           name: jvm-jar
           path: build
@@ -217,14 +216,33 @@ jobs:
         with:
           modrinth-id: ${{ env.MR_PROJECT_ID }}
           modrinth-token: ${{ secrets.MR_TOKEN }}
+          files: build/modrinth/**
 
+          game-versions: 1.12.2
+          loaders: forge
+
+          changelog-file: ./CHANGELOG-*.md
+
+      - uses: Kir-Antipov/mc-publish@v3.3
+        with:
           curseforge-id: ${{ env.CF_PROJECT_ID }}
           curseforge-token: ${{ secrets.CF_TOKEN }}
+          files: build/curseforge/**
 
+          game-versions: 1.12.2
+          loaders: forge
+
+          changelog-file: ./CHANGELOG-*.md
+
+      - uses: Kir-Antipov/mc-publish@v3.3
+        with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          files: build/**
 
-          files: |
+          game-versions: 1.12.2
+          loaders: forge
 
+          changelog-file: ./CHANGELOG-*.md
 
   update-changelogs:
     name: Update Changelogs
