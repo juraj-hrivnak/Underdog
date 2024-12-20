@@ -209,7 +209,7 @@ jobs:
 
       - uses: actions/download-artifact@v4
         with:
-          name: jvm-jar
+          name: build
           path: build
 
       - uses: Kir-Antipov/mc-publish@v3.3
