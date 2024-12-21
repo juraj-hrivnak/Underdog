@@ -42,13 +42,13 @@
 
 Underdog is a modpack for Minecraft Java Edition that makes the game realistic in every possible way.
 
-Releases are available on [CurseForge] or here on [GitHub]! Modpack must be imported to a launcher to install correctly.
+Releases are available on [CurseForge], [Modrinth] or here on [GitHub]!
 
 ***
 
 # Development
 
-To download the latest development build, click [here](https://nightly.link/juraj-hrivnak/Underdog/workflows/Build/main/modpack.zip).
+To download the latest development build, click [here](https://nightly.link/juraj-hrivnak/Underdog/workflows/BuildMultiplatform/main/build).
 
 For the set-up guide, please feel free to head to the [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -64,4 +64,5 @@ For the set-up guide, please feel free to head to the [CONTRIBUTING.md](CONTRIBU
 [Git]: https://git-scm.com/
 [PAX]: https://github.com/froehlichA/pax
 [CurseForge]: https://www.curseforge.com/minecraft/modpacks/underdog
+[Modrinth]: https://modrinth.com/modpack/underdog
 [GitHub]: https://github.com/juraj-hrivnak/Underdog/releases/latest
