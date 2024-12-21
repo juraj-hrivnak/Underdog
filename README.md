@@ -50,13 +50,7 @@ Releases are available on [CurseForge] or here on [GitHub]! Modpack must be impo
 
 To download the latest development build, click [here](https://nightly.link/juraj-hrivnak/Underdog/workflows/Build/main/modpack.zip).
 
-For the set-up guide, please head over to the [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Knowledge of [Git] is required.
-If installing/removing/updating mods, knowledge of [PAX] is required.
-
-Also, after setting up the pack, take a look into the [./pax](./pax) folder.
-This folder contains all the development tools required when exporting the pack.
+For the set-up guide, please feel free to head to the [CONTRIBUTING.md](CONTRIBUTING.md).
 
 <p align="center">
   <img
