@@ -1165,7 +1165,7 @@
         {
             "pakku_id": "3cLIEbMN9PH2Cs4T",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-animal-models"
             },
@@ -1205,7 +1205,7 @@
         {
             "pakku_id": "E8opmFFkD535PfIP",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-chat"
             },
@@ -5553,16 +5553,20 @@
             ]
         },
         {
-            "pakku_id": "N3MBoR0K4hBGZhMv",
+            "pakku_id": "FptbtUmafKTAs5aT",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
-                "curseforge": "had-enough-items"
+                "curseforge": "had-enough-items",
+                "modrinth": "had-enough-items"
             },
             "name": {
-                "curseforge": "Had Enough Items"
+                "curseforge": "Had Enough Items",
+                "modrinth": "Had Enough Items"
             },
             "id": {
-                "curseforge": "557549"
+                "curseforge": "557549",
+                "modrinth": "2iXFLwYO"
             },
             "files": [
                 {
@@ -5585,6 +5589,27 @@
                     "required_dependencies": [],
                     "size": 690848,
                     "date_published": "2024-11-16T00:31:02.987Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "HadEnoughItems_1.12.2-4.26.2.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/2iXFLwYO/versions/EYlKeUXm/HadEnoughItems_1.12.2-4.26.2.jar",
+                    "id": "EYlKeUXm",
+                    "parent_id": "2iXFLwYO",
+                    "hashes": {
+                        "sha512": "1f1a3f68b0b75092b183355e99935c8d8b1e4909ee5604bf41cc20b9180b7aab6e015129f745a084bc8410be3441ca61c6595e88b42fe063cd612135b8f0bfd3",
+                        "sha1": "4e3f8aab2511779983615909692549d38fb118e7"
+                    },
+                    "required_dependencies": [],
+                    "size": 690848,
+                    "date_published": "2024-11-16T00:32:19.995148Z"
                 }
             ]
         },
