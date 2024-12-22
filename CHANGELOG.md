@@ -6,9 +6,7 @@
 
 @news@{
 
-- Fixed many two item recipes. (Slabs included.)
-- Straw bed will now always be destroy on leaving.
-- Removed leather drop from deer.
+- This is a hot fix for [v3.6.1](https://github.com/juraj-hrivnak/Underdog/releases/tag/v3.6.1).
 
 }
 
