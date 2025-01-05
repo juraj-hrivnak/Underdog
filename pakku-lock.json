@@ -5394,7 +5394,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Greenery-1.12.2-7.0.jar",
+                    "file_name": "Greenery-1.12.2-8.0.jar",
                     "mc_versions": [
                         "1.12",
                         "1.12.1",
@@ -5404,23 +5404,23 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/EVaCo3rr/versions/cjlG1S17/Greenery-1.12.2-7.0.jar",
-                    "id": "cjlG1S17",
+                    "url": "https://cdn.modrinth.com/data/EVaCo3rr/versions/wiEbzNbC/Greenery-1.12.2-8.0.jar",
+                    "id": "wiEbzNbC",
                     "parent_id": "EVaCo3rr",
                     "hashes": {
-                        "sha512": "e398c5eea25b0b4397c2cd041dd6ea3d34c397c5b25a619070f6141cdc219fe44a2b4c21f04529cc61cc84c5eb79bbe3ef7aa570b4360b97f624ebc19413fa53",
-                        "sha1": "287bd7b023edaeac6313bfc264f99c60d7ae3ad3"
+                        "sha512": "cd87fd3a79c60135754ecdad9f2006b6c1c45ebaf88592588b81b3c13bbf3b514f38f4f27d21be5ef9907eb15f9e1e71b1d838b6bc63dec228e04489bf50688d",
+                        "sha1": "7605fc4036a8ea01c7a1238c915f65bde7bea061"
                     },
                     "required_dependencies": [
-                        "1mPcAmuy",
-                        "vVXPbodS"
+                        "vVXPbodS",
+                        "1mPcAmuy"
                     ],
-                    "size": 481352,
-                    "date_published": "2024-11-17T16:10:08.880282Z"
+                    "size": 483520,
+                    "date_published": "2025-01-04T17:00:28.027043Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "Greenery-1.12.2-7.0.jar",
+                    "file_name": "Greenery-1.12.2-8.0.jar",
                     "mc_versions": [
                         "1.12.1",
                         "1.12",
@@ -5430,19 +5430,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5913/357/Greenery-1.12.2-7.0.jar",
-                    "id": "5913357",
+                    "url": "https://edge.forgecdn.net/files/6053/133/Greenery-1.12.2-8.0.jar",
+                    "id": "6053133",
                     "parent_id": "574029",
                     "hashes": {
-                        "sha1": "287bd7b023edaeac6313bfc264f99c60d7ae3ad3",
-                        "md5": "77363ccf88a8279dabdde5131b662268"
+                        "sha1": "7605fc4036a8ea01c7a1238c915f65bde7bea061",
+                        "md5": "3aa478ebb0508bf775c3c6ec48d2e1c8"
                     },
                     "required_dependencies": [
                         "456403",
                         "485654"
                     ],
-                    "size": 481352,
-                    "date_published": "2024-11-17T16:10:04.667Z"
+                    "size": 483520,
+                    "date_published": "2025-01-04T17:00:23.080Z"
                 }
             ]
         },
@@ -9744,7 +9744,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "rustic-1.1.7.jar",
+                    "file_name": "rustic-1.2.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -9752,20 +9752,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/BazvISAm/versions/EdXNAjjA/rustic-1.1.7.jar",
-                    "id": "EdXNAjjA",
+                    "url": "https://cdn.modrinth.com/data/BazvISAm/versions/qoNPXC72/rustic-1.2.0.jar",
+                    "id": "qoNPXC72",
                     "parent_id": "BazvISAm",
                     "hashes": {
-                        "sha512": "2d5105810915b5a9c90c0b2c77829c4794b521148f5a3e32c688e7175e6631219a382b9b4ba0a1075c3392c5da9afd30d2e8f017607e83e43c43d9a68e9f7478",
-                        "sha1": "567832a6b073e59fa29f2f694e224008707db2f8"
+                        "sha512": "cbb466320875b6dce10a492bbce7a1f1909ef8bf17809ec52864902acd8ebb8f3556c61fc243b8978de0104b0679c9d7b5b0e7e81e01bee87b0b3dcffab246ae",
+                        "sha1": "e646f5487a6208ae7c60863e8857513e2c708620"
                     },
                     "required_dependencies": [],
-                    "size": 1400465,
-                    "date_published": "2023-11-03T14:51:29.976599Z"
+                    "size": 1656987,
+                    "date_published": "2024-12-28T22:40:40.142774Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "rustic-1.1.7.jar",
+                    "file_name": "rustic-1.2.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -9773,16 +9773,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3107/974/rustic-1.1.7.jar",
-                    "id": "3107974",
+                    "url": "https://edge.forgecdn.net/files/6031/613/rustic-1.2.0.jar",
+                    "id": "6031613",
                     "parent_id": "256141",
                     "hashes": {
-                        "sha1": "567832a6b073e59fa29f2f694e224008707db2f8",
-                        "md5": "e5fc580c4f69dd2e8b830ef2d814e34f"
+                        "sha1": "e646f5487a6208ae7c60863e8857513e2c708620",
+                        "md5": "a0a443eb663aaa5a92f8c8207aa8ffcf"
                     },
                     "required_dependencies": [],
-                    "size": 1400465,
-                    "date_published": "2020-11-10T20:07:56.123Z"
+                    "size": 1656987,
+                    "date_published": "2024-12-28T22:33:30.757Z"
                 }
             ]
         },
@@ -12110,7 +12110,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "zenutils-1.21.4.jar",
+                    "file_name": "zenutils-1.21.6.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -12118,20 +12118,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5962/106/zenutils-1.21.4.jar",
-                    "id": "5962106",
+                    "url": "https://edge.forgecdn.net/files/6033/519/zenutils-1.21.6.jar",
+                    "id": "6033519",
                     "parent_id": "401178",
                     "hashes": {
-                        "sha1": "195d5a75c658d77ae2eb0ed90731b313cccaff4e",
-                        "md5": "07b1c3c5531823d1550b5767deb0570c"
+                        "sha1": "3761197b58aa53cd412eee07391de29030b19fb3",
+                        "md5": "4394fcf7f2040667202c54a43b724a0a"
                     },
                     "required_dependencies": [
                         "870276",
                         "239197",
                         "419286"
                     ],
-                    "size": 563323,
-                    "date_published": "2024-12-04T12:57:52.273Z"
+                    "size": 565625,
+                    "date_published": "2024-12-29T15:01:40.283Z"
                 }
             ]
         },
@@ -12194,7 +12194,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Sound-Physics-1.12.2-1.1.5.jar",
+                    "file_name": "soundphysics-1.1.7.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -12202,18 +12202,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5967/242/Sound-Physics-1.12.2-1.1.5.jar",
-                    "id": "5967242",
+                    "url": "https://edge.forgecdn.net/files/6035/428/soundphysics-1.1.7.jar",
+                    "id": "6035428",
                     "parent_id": "951159",
                     "hashes": {
-                        "sha1": "86e9b93491a8110b44cd488a3e302f51246909b9",
-                        "md5": "9f3ffd673b70060042c9794ceb8ce750"
+                        "sha1": "91e788f0298b4f5d971c2f4689263d4bd5b3bfe4",
+                        "md5": "b81f19f4c36597b55ae2412abbae0897"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 60541,
-                    "date_published": "2024-12-06T07:40:55.040Z"
+                    "size": 68268,
+                    "date_published": "2024-12-30T03:34:06.070Z"
                 }
             ]
         }
