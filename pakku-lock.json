@@ -1746,7 +1746,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Bundles-1.21.jar",
+                    "file_name": "Bundles-1.2.2.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -1754,18 +1754,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5577/331/Bundles-1.21.jar",
-                    "id": "5577331",
+                    "url": "https://edge.forgecdn.net/files/6056/957/Bundles-1.2.2.jar",
+                    "id": "6056957",
                     "parent_id": "902861",
                     "hashes": {
-                        "sha1": "03365aa63fc88438653f122e2286f43696d43760",
-                        "md5": "82254d379e5399d032c6efaa968053c6"
+                        "sha1": "b3b773d0a7405593daf1645c334ef005710dd6d7",
+                        "md5": "4556ef5ba880ca04e3c52e060d3ce285"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 206677,
-                    "date_published": "2024-07-29T12:46:44.223Z"
+                    "size": 208230,
+                    "date_published": "2025-01-05T18:55:33.127Z"
                 }
             ]
         },
@@ -3111,21 +3111,21 @@
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "CraftTweaker2-1.12-4.1.20.700.jar",
+                    "file_name": "CraftTweaker2-1.12-4.1.20.702.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5486/112/CraftTweaker2-1.12-4.1.20.700.jar",
-                    "id": "5486112",
+                    "url": "https://edge.forgecdn.net/files/6061/762/CraftTweaker2-1.12-4.1.20.702.jar",
+                    "id": "6061762",
                     "parent_id": "239197",
                     "hashes": {
-                        "sha1": "431fa9277f8e429dada81bfef76339073c4d3e05",
-                        "md5": "fa52eebe2afea008ad20ee262b26e404"
+                        "sha1": "3957e803048817b9fe7fda827cb15a6be57a300f",
+                        "md5": "7598f53c390b4f091ca0dfd7ca7968af"
                     },
                     "required_dependencies": [],
-                    "size": 1589227,
-                    "date_published": "2024-06-29T17:54:00.047Z"
+                    "size": 1589287,
+                    "date_published": "2025-01-07T05:15:51.537Z"
                 }
             ]
         },
@@ -4920,7 +4920,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Fixeroo-2.3.2.jar",
+                    "file_name": "Fixeroo-2.3.3-hotfix.1.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -4928,18 +4928,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5745/976/Fixeroo-2.3.2.jar",
-                    "id": "5745976",
+                    "url": "https://edge.forgecdn.net/files/6059/919/Fixeroo-2.3.3-hotfix.1.jar",
+                    "id": "6059919",
                     "parent_id": "633806",
                     "hashes": {
-                        "sha1": "830fdba6dd103baa7378567f3356c0564086462b",
-                        "md5": "ed9087394495ea0026b2dc1ca62f277f"
+                        "sha1": "4ab101dca261913008ded0836f26544523bb0104",
+                        "md5": "f434a14f614238ffa252b7f22a2af7e3"
                     },
                     "required_dependencies": [
                         "870276"
                     ],
-                    "size": 206311,
-                    "date_published": "2024-09-22T12:12:11.610Z"
+                    "size": 214582,
+                    "date_published": "2025-01-06T16:50:19.057Z"
                 }
             ]
         },
@@ -9151,7 +9151,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ReachFix-1.12.2-1.0.10.jar",
+                    "file_name": "ReachFix-1.12.2-1.0.11.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -9159,16 +9159,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5543/551/ReachFix-1.12.2-1.0.10.jar",
-                    "id": "5543551",
+                    "url": "https://edge.forgecdn.net/files/6069/258/ReachFix-1.12.2-1.0.11.jar",
+                    "id": "6069258",
                     "parent_id": "556777",
                     "hashes": {
-                        "sha1": "65766853409c7d8c95a5d3d6a664d8afb34b9345",
-                        "md5": "70231a14fa61e494836615442568c3fc"
+                        "sha1": "0cd2482b0f54acdd62b674530bb0f4fd264a9465",
+                        "md5": "3ce0e46882ddd5ddbcf3e4ac54eade9b"
                     },
                     "required_dependencies": [],
-                    "size": 63253,
-                    "date_published": "2024-07-18T15:59:17.817Z"
+                    "size": 63272,
+                    "date_published": "2025-01-09T15:00:26.470Z"
                 }
             ]
         },
@@ -9529,7 +9529,7 @@
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "!Red-Core-MC-1.8-1.12-0.6-Dev-8.jar",
+                    "file_name": "!Red-Core-MC-1.8-1.12-0.6-Dev-9.jar",
                     "mc_versions": [
                         "1.12",
                         "1.12.2"
@@ -9538,16 +9538,16 @@
                         "forge"
                     ],
                     "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/5892/19/!Red-Core-MC-1.8-1.12-0.6-Dev-8.jar",
-                    "id": "5892019",
+                    "url": "https://edge.forgecdn.net/files/6061/518/!Red-Core-MC-1.8-1.12-0.6-Dev-9.jar",
+                    "id": "6061518",
                     "parent_id": "873867",
                     "hashes": {
-                        "sha1": "75a26e40a2a15d43a46798e101aee02825f6361f",
-                        "md5": "2260035108ccb6414e41343cb68eb06a"
+                        "sha1": "41e5a705cf5c0c5f0b27a833866ea52f1dd8f826",
+                        "md5": "b1a88f08bed72731f3b9dea25d346c80"
                     },
                     "required_dependencies": [],
-                    "size": 130943,
-                    "date_published": "2024-11-10T20:10:51.793Z"
+                    "size": 131453,
+                    "date_published": "2025-01-07T02:37:00.877Z"
                 }
             ]
         },
@@ -11888,49 +11888,6 @@
             ]
         },
         {
-            "pakku_id": "D0guQ0dY5ioKwP4t",
-            "pakku_links": [
-                "5fNIfoIFcbp0PwOw"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "weather-storms-tornadoes",
-                "modrinth": "weather-storms-tornadoes"
-            },
-            "name": {
-                "curseforge": "Weather, Storms & Tornadoes",
-                "modrinth": "Weather Storms & Tornadoes"
-            },
-            "id": {
-                "curseforge": "237746",
-                "modrinth": "dv5SFk5T"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "weather2-1.12.1-2.6.12.jar",
-                    "mc_versions": [
-                        "1.12.1",
-                        "1.12.2"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/2596/867/weather2-1.12.1-2.6.12.jar",
-                    "id": "2596867",
-                    "parent_id": "237746",
-                    "hashes": {
-                        "sha1": "894fa38627f7d11bfe8ea11f3aa6fb5901d73abe",
-                        "md5": "486d7c789eb29050aa7b04dc5c834c50"
-                    },
-                    "required_dependencies": [
-                        "237749"
-                    ],
-                    "size": 4550732,
-                    "date_published": "2018-08-02T19:36:14.773Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "Y8jtOCCDKQKQsbDg",
             "type": "MOD",
             "side": "BOTH",
@@ -12194,7 +12151,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "soundphysics-1.1.7.jar",
+                    "file_name": "soundphysics-1.1.9.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -12202,18 +12159,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6035/428/soundphysics-1.1.7.jar",
-                    "id": "6035428",
+                    "url": "https://edge.forgecdn.net/files/6067/791/soundphysics-1.1.9.jar",
+                    "id": "6067791",
                     "parent_id": "951159",
                     "hashes": {
-                        "sha1": "91e788f0298b4f5d971c2f4689263d4bd5b3bfe4",
-                        "md5": "b81f19f4c36597b55ae2412abbae0897"
+                        "sha1": "6faed82598ea87fa736fa5f11b654d74ac0ff45a",
+                        "md5": "7149b725e60169dddf3721f4473540c9"
                     },
                     "required_dependencies": [
                         "419286"
                     ],
-                    "size": 68268,
-                    "date_published": "2024-12-30T03:34:06.070Z"
+                    "size": 68596,
+                    "date_published": "2025-01-09T03:15:01.640Z"
                 }
             ]
         }
