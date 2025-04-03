@@ -3,12 +3,6 @@
     "packId": "underdog",
     "version": "@version@",
     "debug": true,
-    "classes": [
-        "classes/",
-        "classes/io",
-        "classes/recipes",
-        "classes/jeiCategories"
-    ],
     "loaders": {
         "preInit": [
             "preInit/"
