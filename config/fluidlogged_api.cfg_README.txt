@@ -1,0 +1,6 @@
+As of Fluidlogged API v3.0.0, the config is broken up into multiple files, and is stored in a new `./config/fluidlogged_api` folder.
+
+Any data in your old config should have been converted automatically. But just in case, a copy of your old config exists as `./config/fluidlogged_api.cfg_old`.
+WARNING: Do NOT change the suffix of the old config file back to `.cfg`! This will make fluidlogged api try to convert the file again, voiding any changes you may have made to the new config files since the previous conversion!
+
+Once you've made sure all of your old settings have been transferred correctly, feel free to delete this README file and `./config/fluidlogged_api.cfg_old`!
