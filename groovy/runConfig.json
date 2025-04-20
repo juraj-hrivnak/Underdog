@@ -11,6 +11,10 @@
             "init/"
         ],
         "postInit": [
+            "classes/",
+            "classes/io",
+            "classes/recipes",
+            "classes/jeiCategories",
             "extensions/",
             "postInit/recipes/woodworking",
             "postInit/recipes/vanilla",

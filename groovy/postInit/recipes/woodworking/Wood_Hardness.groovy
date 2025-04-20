@@ -2,6 +2,7 @@
 import classes.Colors
 import classes.Utils
 import classes.jeiCategories.FirewoodRecipeCategory
+import classes.jeiCategories.FirewoodRecipeWrapper
 
 def jeiCatWrappers = []
 
@@ -111,8 +112,8 @@ def jeiCatWrappers = []
         ore('firewood').add(firewood)
 
         // JEI Category
-        jeiCatWrappers << new FirewoodRecipeCategory.RecipeWrapper(log, firewood * 6, item('minecraft:flint'), item('pyrotech:material', 10))
-        jeiCatWrappers << new FirewoodRecipeCategory.RecipeWrapper(log, firewood * 6, item('contenttweaker:splitting_wedge'))
+        jeiCatWrappers << new FirewoodRecipeWrapper(log, firewood * 6, item('minecraft:flint'), item('pyrotech:material', 10))
+        jeiCatWrappers << new FirewoodRecipeWrapper(log, firewood * 6, item('contenttweaker:splitting_wedge'))
     }
 }
 

@@ -23,7 +23,7 @@ import net.minecraft.item.ItemStack
 import org.jetbrains.annotations.NotNull
 import org.jetbrains.annotations.Nullable
 
-public class FirewoodRecipeCategory extends BaseCategory<FirewoodRecipeCategory.RecipeWrapper> {
+class FirewoodRecipeCategory extends BaseCategory<FirewoodRecipeWrapper> {
 
     public static final String UID = 'underdog.log_splitting'
 
@@ -37,7 +37,7 @@ public class FirewoodRecipeCategory extends BaseCategory<FirewoodRecipeCategory.
     }
 
     @Override
-    public void setRecipe(@NotNull IRecipeLayout recipeLayout, @NotNull RecipeWrapper recipeWrapper, @NotNull IIngredients ingredients) {
+    public void setRecipe(@NotNull IRecipeLayout recipeLayout, @NotNull FirewoodRecipeWrapper recipeWrapper, @NotNull IIngredients ingredients) {
         addItemSlot(recipeLayout, 0, true, 73, 25) // Log input slot
         addItemSlot(recipeLayout, 1, true, 73, 5) // Wedge input slot
         addItemSlot(recipeLayout, 3, true, 21, 5) // Hammer input slot
@@ -80,54 +80,54 @@ public class FirewoodRecipeCategory extends BaseCategory<FirewoodRecipeCategory.
     public IDrawable getIcon() {
         return icon
     }
+}
 
-    public static class RecipeWrapper implements IRecipeWrapper {
+class FirewoodRecipeWrapper implements IRecipeWrapper {
 
-        private final IIngredient input
-        private final ItemStack output
-        private final IIngredient wedge
-        private final ItemStack secondaryOutput = ItemStack.EMPTY
+    private final IIngredient input
+    private final ItemStack output
+    private final IIngredient wedge
+    private final ItemStack secondaryOutput = ItemStack.EMPTY
 
-        public RecipeWrapper(
-            IIngredient input,
-            ItemStack output,
-            IIngredient wedge
-        ) {
-            this.input = input
-            this.output = output
-            this.wedge = wedge
-        }
+    public FirewoodRecipeWrapper(
+        IIngredient input,
+        ItemStack output,
+        IIngredient wedge
+    ) {
+        this.input = input
+        this.output = output
+        this.wedge = wedge
+    }
 
-        public RecipeWrapper(
-            IIngredient input,
-            ItemStack output,
-            IIngredient wedge,
-            ItemStack secondaryOutput
-        ) {
-            this.input = input
-            this.output = output
-            this.wedge = wedge
-            this.secondaryOutput = secondaryOutput
-        }
+    public FirewoodRecipeWrapper(
+        IIngredient input,
+        ItemStack output,
+        IIngredient wedge,
+        ItemStack secondaryOutput
+    ) {
+        this.input = input
+        this.output = output
+        this.wedge = wedge
+        this.secondaryOutput = secondaryOutput
+    }
 
-        @Override
-        public void getIngredients(IIngredients ingredients) {
-            List<List<ItemStack>> inputs = []
-            inputs << Arrays.asList(this.input.getMatchingStacks())
-            inputs << Arrays.asList(this.wedge.getMatchingStacks())
-            inputs << Arrays.asList(ore('toolHammer').getMatchingStacks())
+    @Override
+    public void getIngredients(IIngredients ingredients) {
+        List<List<ItemStack>> inputs = []
+        inputs << Arrays.asList(this.input.getMatchingStacks())
+        inputs << Arrays.asList(this.wedge.getMatchingStacks())
+        inputs << Arrays.asList(ore('toolHammer').getMatchingStacks())
 
-            List<List<ItemStack>> outputs = []
-            outputs << Arrays.asList(output)
-            outputs << Arrays.asList(secondaryOutput)
+        List<List<ItemStack>> outputs = []
+        outputs << Arrays.asList(output)
+        outputs << Arrays.asList(secondaryOutput)
 
-            ingredients.setInputLists(VanillaTypes.ITEM, inputs)
-            ingredients.setOutputLists(VanillaTypes.ITEM, outputs)
-        }
+        ingredients.setInputLists(VanillaTypes.ITEM, inputs)
+        ingredients.setOutputLists(VanillaTypes.ITEM, outputs)
+    }
 
-        @Override
-        public void drawInfo(@NotNull Minecraft minecraft, int recipeWidth, int recipeHeight, int mouseX, int mouseY) {
+    @Override
+    public void drawInfo(@NotNull Minecraft minecraft, int recipeWidth, int recipeHeight, int mouseX, int mouseY) {
 
-        }
     }
 }
