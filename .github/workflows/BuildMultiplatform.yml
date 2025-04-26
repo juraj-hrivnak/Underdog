@@ -212,7 +212,7 @@ jobs:
           name: build
           path: build
 
-      - run: rename 's/\.zip$/-ServerPack.zip/' .build/serverpack/*.zip
+      - run: for f in .build/serverpack/*.zip; do mv "$f" "${f%.zip}-ServerPack.zip"; done
 
       - uses: Kir-Antipov/mc-publish@v3.3
         with:
