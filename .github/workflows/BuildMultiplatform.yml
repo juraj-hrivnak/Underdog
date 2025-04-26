@@ -212,32 +212,20 @@ jobs:
           name: build
           path: build
 
+      - run: rename 's/\.zip$/-ServerPack.zip/' .build/serverpack/*.zip
+
       - uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: ${{ env.MR_PROJECT_ID }}
           modrinth-token: ${{ secrets.MR_TOKEN }}
-          files: build/modrinth/**
+          modrinth-files: build/modrinth/**
 
-          game-versions: 1.12.2
-          loaders: forge
-
-          changelog-file: ./CHANGELOG-*.md
-
-      - uses: Kir-Antipov/mc-publish@v3.3
-        with:
           curseforge-id: ${{ env.CF_PROJECT_ID }}
           curseforge-token: ${{ secrets.CF_TOKEN }}
-          files: build/curseforge/**
+          curseforge-files: build/curseforge/**
 
-          game-versions: 1.12.2
-          loaders: forge
-
-          changelog-file: ./CHANGELOG-*.md
-
-      - uses: Kir-Antipov/mc-publish@v3.3
-        with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          files: build/**
+          github-files: build/**
 
           game-versions: 1.12.2
           loaders: forge
