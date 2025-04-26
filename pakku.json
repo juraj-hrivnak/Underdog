@@ -87,6 +87,15 @@
         },
         "modernity": {
             "update_strategy": "NONE"
+        },
+        "creativecore": {
+            "side": "BOTH"
+        },
+        "had-enough-items": {
+            "side": "BOTH"
+        },
+        "pams-harvestcraft": {
+            "side": "BOTH"
         }
     }
 }
