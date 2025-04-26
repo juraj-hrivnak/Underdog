@@ -2666,8 +2666,8 @@
         {
             "pakku_id": "a0fz2WzC7BJ1t2jo",
             "pakku_links": [
-                "tCjLUyHKzI7Ib6iL",
-                "QcygpnTbEW3Ozuvw"
+                "QcygpnTbEW3Ozuvw",
+                "l5Un2wMnENQrrmGy"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -4917,26 +4917,26 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Fixeroo-2.3.5-hotfix.1.jar",
+                    "file_name": "Fixeroo-2.3.6b.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6197/64/Fixeroo-2.3.5-hotfix.1.jar",
-                    "id": "6197064",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6453/491/Fixeroo-2.3.6b.jar",
+                    "id": "6453491",
                     "parent_id": "633806",
                     "hashes": {
-                        "sha1": "e38496ab290ce08f64e098c8fc3d7ce1806d8827",
-                        "md5": "41be872fef736602779ea49ddcd58251"
+                        "sha1": "1c46ef2c557751a1a89f0f4f94446e3e3d7f85ec",
+                        "md5": "b0d769ecceb2c6aeca0822bb42610832"
                     },
                     "required_dependencies": [
                         "870276"
                     ],
-                    "size": 218052,
-                    "date_published": "2025-02-15T20:00:18.917Z"
+                    "size": 219725,
+                    "date_published": "2025-04-22T21:01:17.943Z"
                 }
             ]
         },
@@ -4996,7 +4996,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "forestry_1.12.2-5.8.2.425.jar",
+                    "file_name": "forestry_1.12.2-5.8.2.426.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -5004,16 +5004,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6104/316/forestry_1.12.2-5.8.2.425.jar",
-                    "id": "6104316",
+                    "url": "https://edge.forgecdn.net/files/6450/115/forestry_1.12.2-5.8.2.426.jar",
+                    "id": "6450115",
                     "parent_id": "59751",
                     "hashes": {
-                        "sha1": "2b2013bd764880d10e8d21f06419ab309b821ec6",
-                        "md5": "3e29cfc863eacf44722750a2c4222b73"
+                        "sha1": "9a64b9119bc0a53d393382fcaaa0a392fb5deec9",
+                        "md5": "35f5420ffa2e7e61b401db8fbe05e3dd"
                     },
                     "required_dependencies": [],
-                    "size": 5395828,
-                    "date_published": "2025-01-19T19:52:43.627Z"
+                    "size": 5396469,
+                    "date_published": "2025-04-22T00:52:04.307Z"
                 }
             ]
         },
@@ -5542,45 +5542,45 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "HadEnoughItems_1.12.2-4.27.3.jar",
+                    "file_name": "HadEnoughItems_1.12.2-4.28.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/2iXFLwYO/versions/60CPAKkL/HadEnoughItems_1.12.2-4.27.3.jar",
-                    "id": "60CPAKkL",
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/2iXFLwYO/versions/JSvFzcd7/HadEnoughItems_1.12.2-4.28.0.jar",
+                    "id": "JSvFzcd7",
                     "parent_id": "2iXFLwYO",
                     "hashes": {
-                        "sha512": "529a4ddaa5291f99a12ef578824136ac7d9bfd78e6eeeddf5e1c3f24b308511429537c7b6fcfaebb1573b1f6926eb7ed182a0e04958958a482a72f2bdd72e992",
-                        "sha1": "472fe04559447ecb4e0403fffc095a49c8f0747a"
+                        "sha512": "a1db338fd0f52f46a1c08eb66da687e8314dae1bf67866a07a3a0c0efaa9532f7ce81ee25c129c64fd931d2c9b1c5920b5c4f94a1f48452a7e0003359e199b3f",
+                        "sha1": "4f8293a80e315cdf0dff509e33273c210a5843ed"
                     },
                     "required_dependencies": [],
-                    "size": 693026,
-                    "date_published": "2025-02-12T22:14:22.863734Z"
+                    "size": 696432,
+                    "date_published": "2025-04-25T15:47:39.018787Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "HadEnoughItems_1.12.2-4.27.3.jar",
+                    "file_name": "HadEnoughItems_1.12.2-4.28.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6187/146/HadEnoughItems_1.12.2-4.27.3.jar",
-                    "id": "6187146",
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6463/525/HadEnoughItems_1.12.2-4.28.0.jar",
+                    "id": "6463525",
                     "parent_id": "557549",
                     "hashes": {
-                        "sha1": "472fe04559447ecb4e0403fffc095a49c8f0747a",
-                        "md5": "a07ed8ac00b3b0d8ed5a892d2b2de9f9"
+                        "sha1": "4f8293a80e315cdf0dff509e33273c210a5843ed",
+                        "md5": "3b66744747081930a6088f6427128357"
                     },
                     "required_dependencies": [],
-                    "size": 693026,
-                    "date_published": "2025-02-12T22:14:48.540Z"
+                    "size": 696432,
+                    "date_published": "2025-04-25T15:48:16.860Z"
                 }
             ]
         },
@@ -6360,7 +6360,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "jei_area_fixer-2.1.0.jar",
+                    "file_name": "jei_area_fixer-2.2.0.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -6368,16 +6368,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6359/868/jei_area_fixer-2.1.0.jar",
-                    "id": "6359868",
+                    "url": "https://edge.forgecdn.net/files/6450/286/jei_area_fixer-2.2.0.jar",
+                    "id": "6450286",
                     "parent_id": "1085598",
                     "hashes": {
-                        "sha1": "ee0d66fc68af53db22f4a2066065edacf7acca24",
-                        "md5": "2ff440e5d6c3b75decd189d6a1e473eb"
+                        "sha1": "b74527c23275c86422a5f330194aeabda3e60760",
+                        "md5": "43d2602b4c6856076adb54d79078de2b"
                     },
-                    "required_dependencies": [],
-                    "size": 108086,
-                    "date_published": "2025-03-28T16:08:44.123Z"
+                    "required_dependencies": [
+                        "419286"
+                    ],
+                    "size": 110885,
+                    "date_published": "2025-04-22T02:21:47.483Z"
                 }
             ]
         },
@@ -9600,7 +9602,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "RenderLib-1.12.2-1.4.3.jar",
+                    "file_name": "RenderLib-1.12.2-1.4.5.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -9608,16 +9610,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6327/296/RenderLib-1.12.2-1.4.3.jar",
-                    "id": "6327296",
+                    "url": "https://edge.forgecdn.net/files/6461/209/RenderLib-1.12.2-1.4.5.jar",
+                    "id": "6461209",
                     "parent_id": "624967",
                     "hashes": {
-                        "sha1": "2ed55f924d5612ccd0806a6f193c2f8a11435832",
-                        "md5": "866b823324e3c7dc979ef28ab2c97a1c"
+                        "sha1": "da121ecfd63ea615de9a26276614bb0ab9306d95",
+                        "md5": "c1d26d4946edd4f13543381bb368a358"
                     },
-                    "required_dependencies": [],
-                    "size": 284021,
-                    "date_published": "2025-03-21T01:57:18.583Z"
+                    "required_dependencies": [
+                        "357178"
+                    ],
+                    "size": 290334,
+                    "date_published": "2025-04-25T00:02:42.617Z"
                 }
             ]
         },
@@ -10993,7 +10997,7 @@
         {
             "pakku_id": "jzHxZjOAxNugDl3R",
             "pakku_links": [
-                "tCjLUyHKzI7Ib6iL"
+                "l5Un2wMnENQrrmGy"
             ],
             "type": "MOD",
             "side": "CLIENT",
@@ -11031,7 +11035,7 @@
             ]
         },
         {
-            "pakku_id": "tCjLUyHKzI7Ib6iL",
+            "pakku_id": "l5Un2wMnENQrrmGy",
             "pakku_links": [
                 "QcygpnTbEW3Ozuvw"
             ],
@@ -11050,29 +11054,6 @@
                 "modrinth": "rxIIYO6c"
             },
             "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "TConstruct-1.12.2-2.13.0.183.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/rxIIYO6c/versions/mNZUIBbe/TConstruct-1.12.2-2.13.0.183.jar",
-                    "id": "mNZUIBbe",
-                    "parent_id": "rxIIYO6c",
-                    "hashes": {
-                        "sha512": "84c41a667b88b991562b005383b211e877c10fc6e442d5d9fff7f771795d71bf69836fa069effa9effea7d079499ec63517a764fa92eaf206c57d3b1406f9f1c",
-                        "sha1": "e37e1f05ad0eaf567497ce655bc877dc1778bd0f"
-                    },
-                    "required_dependencies": [
-                        "Cg6Uc79H"
-                    ],
-                    "size": 4023372,
-                    "date_published": "2022-12-28T06:21:27.749341Z"
-                },
                 {
                     "type": "curseforge",
                     "file_name": "TConstruct-1.12.2-2.13.0.183.jar",
@@ -11095,14 +11076,37 @@
                     ],
                     "size": 4023372,
                     "date_published": "2020-03-15T17:02:37.370Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "TConstruct-1.12.2-2.13.0.183.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/rxIIYO6c/versions/mNZUIBbe/TConstruct-1.12.2-2.13.0.183.jar",
+                    "id": "mNZUIBbe",
+                    "parent_id": "rxIIYO6c",
+                    "hashes": {
+                        "sha512": "84c41a667b88b991562b005383b211e877c10fc6e442d5d9fff7f771795d71bf69836fa069effa9effea7d079499ec63517a764fa92eaf206c57d3b1406f9f1c",
+                        "sha1": "e37e1f05ad0eaf567497ce655bc877dc1778bd0f"
+                    },
+                    "required_dependencies": [
+                        "Cg6Uc79H"
+                    ],
+                    "size": 4023372,
+                    "date_published": "2022-12-28T06:21:27.749341Z"
                 }
             ]
         },
         {
             "pakku_id": "qlTYIhmVrt1XQPoL",
             "pakku_links": [
-                "tCjLUyHKzI7Ib6iL",
-                "QcygpnTbEW3Ozuvw"
+                "QcygpnTbEW3Ozuvw",
+                "l5Un2wMnENQrrmGy"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -11490,10 +11494,10 @@
             ]
         },
         {
-            "pakku_id": "DsfcCflZVcwGeT5M",
+            "pakku_id": "lx0nIfTZocWQ0Yba",
             "pakku_links": [
-                "BZ49Vgc8sLN7EDA3",
-                "Mog4XN6AWucGbzQg"
+                "Mog4XN6AWucGbzQg",
+                "BZ49Vgc8sLN7EDA3"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -11528,8 +11532,8 @@
                         "sha1": "b3101805c7662a43f29ea8c5b17d692ed7822514"
                     },
                     "required_dependencies": [
-                        "Bnsrfd1o",
-                        "G1ckZuWK"
+                        "G1ckZuWK",
+                        "Bnsrfd1o"
                     ],
                     "size": 1593707,
                     "date_published": "2025-04-05T19:10:38.572769Z"
@@ -12059,7 +12063,7 @@
         {
             "pakku_id": "KnDIkSJMMV3f9owe",
             "pakku_links": [
-                "tCjLUyHKzI7Ib6iL"
+                "l5Un2wMnENQrrmGy"
             ],
             "type": "MOD",
             "slug": {
