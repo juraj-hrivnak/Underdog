@@ -3,9 +3,20 @@
 
 import classes.Utils
 
-mods.pyrotech.pit_kiln.removeAll()
-mods.pyrotech.stone_kiln.removeAll()
-mods.pyrotech.brick_kiln.removeAll()
+import com.codetaylor.mc.pyrotech.modules.tech.basic.ModuleTechBasic
+import com.codetaylor.mc.pyrotech.modules.tech.basic.recipe.KilnPitRecipe
+import com.codetaylor.mc.pyrotech.modules.tech.machine.ModuleTechMachine
+import com.codetaylor.mc.pyrotech.modules.tech.machine.recipe.BrickKilnRecipe
+import com.codetaylor.mc.pyrotech.modules.tech.machine.recipe.StoneKilnRecipe
+
+ModuleTechBasic.Registries.KILN_PIT_RECIPE.unfreeze()
+ModuleTechBasic.Registries.KILN_PIT_RECIPE.clear()
+
+ModuleTechMachine.Registries.STONE_KILN_RECIPES.unfreeze()
+ModuleTechMachine.Registries.STONE_KILN_RECIPES.clear()
+
+ModuleTechMachine.Registries.BRICK_KILN_RECIPES.unfreeze()
+ModuleTechMachine.Registries.BRICK_KILN_RECIPES.clear()
 
 def potteryRecipe = { input, output ->
 
@@ -13,32 +24,35 @@ def potteryRecipe = { input, output ->
         input.removeFurnaceRecipe()
     }
 
-    mods.pyrotech.pit_kiln.recipeBuilder()
-        .input(input)
-        .output(output)
-        .burnTime(2400)
-        .failureChance(0.33F)
-        .failureOutput(item('pyrotech:material'), item('pyrotech:material', 6), item('pyrotech:material', 7))
-        .name(Utils.generateRegistryName(output))
-        .register()
+    ModuleTechBasic.Registries.KILN_PIT_RECIPE.groovyScript$registerEntry(
+        new KilnPitRecipe(
+            output,
+            input.toMcIngredient(),
+            2400,
+            0.33F,
+            [item('pyrotech:material'), item('pyrotech:material', 6), item('pyrotech:material', 7)] as ItemStack[]
+        ).setRegistryName(Utils.generateRegistryName(output))
+    )
 
-    mods.pyrotech.stone_kiln.recipeBuilder()
-        .input(input)
-        .output(output)
-        .burnTime(600)
-        .failureChance(0.16F)
-        .failureOutput(item('pyrotech:material'), item('pyrotech:material', 6), item('pyrotech:material', 7))
-        .name(Utils.generateRegistryName(output))
-        .register()
+    ModuleTechMachine.Registries.STONE_KILN_RECIPES.groovyScript$registerEntry(
+        new StoneKilnRecipe(
+            output,
+            input.toMcIngredient(),
+            600,
+            0.16F,
+            [item('pyrotech:material'), item('pyrotech:material', 6), item('pyrotech:material', 7)] as ItemStack[]
+        ).setRegistryName(Utils.generateRegistryName(output))
+    )
 
-    mods.pyrotech.brick_kiln.recipeBuilder()
-        .input(input)
-        .output(output)
-        .burnTime(600)
-        .failureChance(0F)
-        .failureOutput(item('pyrotech:material'), item('pyrotech:material', 6), item('pyrotech:material', 7))
-        .name(Utils.generateRegistryName(output))
-        .register()
+    ModuleTechMachine.Registries.BRICK_KILN_RECIPES.groovyScript$registerEntry(
+        new BrickKilnRecipe(
+            output,
+            input.toMcIngredient(),
+            600,
+            0F,
+            [item('pyrotech:material'), item('pyrotech:material', 6), item('pyrotech:material', 7)] as ItemStack[]
+        ).setRegistryName(Utils.generateRegistryName(output))
+    )
 
 }
 
@@ -48,32 +62,35 @@ def recipe = { input, output ->
         input.removeFurnaceRecipe()
     }
 
-    mods.pyrotech.pit_kiln.recipeBuilder()
-        .input(input)
-        .output(output)
-        .burnTime(2400)
-        .failureChance(0.33F)
-        .failureOutput(item('pyrotech:material'), item('pyrotech:material') * 2, item('pyrotech:material') * 3)
-        .name(Utils.generateRegistryName(output))
-        .register()
+    ModuleTechBasic.Registries.KILN_PIT_RECIPE.groovyScript$registerEntry(
+        new KilnPitRecipe(
+            output,
+            input.toMcIngredient(),
+            2400,
+            0.33F,
+            [item('pyrotech:material'), item('pyrotech:material') * 2, item('pyrotech:material') * 3] as ItemStack[]
+        ).setRegistryName(Utils.generateRegistryName(output))
+    )
 
-    mods.pyrotech.stone_kiln.recipeBuilder()
-        .input(input)
-        .output(output)
-        .burnTime(600)
-        .failureChance(0.16F)
-        .failureOutput(item('pyrotech:material'), item('pyrotech:material') * 2, item('pyrotech:material') * 3)
-        .name(Utils.generateRegistryName(output))
-        .register()
+    ModuleTechMachine.Registries.STONE_KILN_RECIPES.groovyScript$registerEntry(
+        new StoneKilnRecipe(
+            output,
+            input.toMcIngredient(),
+            600,
+            0.16F,
+            [item('pyrotech:material'), item('pyrotech:material') * 2, item('pyrotech:material') * 3] as ItemStack[]
+        ).setRegistryName(Utils.generateRegistryName(output))
+    )
 
-    mods.pyrotech.brick_kiln.recipeBuilder()
-        .input(input)
-        .output(output)
-        .burnTime(600)
-        .failureChance(0F)
-        .failureOutput(item('pyrotech:material'), item('pyrotech:material') * 2, item('pyrotech:material') * 3)
-        .name(Utils.generateRegistryName(output))
-        .register()
+    ModuleTechMachine.Registries.BRICK_KILN_RECIPES.groovyScript$registerEntry(
+        new BrickKilnRecipe(
+            output,
+            input.toMcIngredient(),
+            600,
+            0F,
+            [item('pyrotech:material'), item('pyrotech:material') * 2, item('pyrotech:material') * 3] as ItemStack[]
+        ).setRegistryName(Utils.generateRegistryName(output))
+    )
 
 }
 

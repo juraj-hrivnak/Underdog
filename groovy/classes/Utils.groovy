@@ -2,6 +2,7 @@ package classes
 
 import com.cleanroommc.groovyscript.api.IIngredient
 import com.cleanroommc.groovyscript.helper.GroovyHelper
+import com.cleanroommc.groovyscript.helper.recipe.RecipeName
 import com.cleanroommc.tabulator.common.TabulatorAPI
 
 import net.minecraft.util.text.translation.I18n
@@ -18,11 +19,14 @@ class Utils {
      * Remove recipes from items & hide items
      */
     static void purge(IIngredient... inputs) {
+
         inputs.each { input ->
+
             // Hide from JEI
             mods.jei.ingredient.hide(input)
 
             input.matchingStacks.each { itemStack ->
+
                 // Replace tooltip
                 itemStack.replaceTooltip("${Colors.RED}${Formats.BOLD}(${Formats.RESET}%itemName%${Colors.RED}${Formats.BOLD})")
 
@@ -44,8 +48,11 @@ class Utils {
 
     /** Remove crafting recipes from items */
     static void removeRecipe(IIngredient... inputs) {
+
         inputs.each { input ->
+
             input.matchingStacks.each { itemStack ->
+
                 // Remove recipe
                 itemStack.removeRecipe()
             }
@@ -54,8 +61,11 @@ class Utils {
 
     /** Remove furnace recipes from items */
     static void removeFurnaceRecipe(IIngredient... inputs) {
+
         inputs.each { input ->
+
             input.matchingStacks.each { itemStack ->
+
                 // Remove recipe
                 itemStack.removeFurnaceRecipe()
             }
@@ -65,21 +75,30 @@ class Utils {
     /** Localize translation key */
     @SideOnly(Side.CLIENT)
     static String localize(String key) {
+
         return I18n.translateToLocal(key)
     }
 
-    private static int generatedRecipes = 0
-
     /** Generate Registry Name resource location */
     static ResourceLocation generateRegistryName(ItemStack input) {
-        String suffix = "${input.itemRaw.registryName.path}_${input.metadata}_no.${generatedRecipes}"
-        generatedRecipes++
-        return new ResourceLocation(GroovyHelper.getPackId(), suffix)
+
+        String prefix = "${input.itemRaw.registryName.path}_${input.metadata}"
+
+        return RecipeName.generateRl(prefix)
+    }
+
+    /** Generate Registry Name string */
+    static String generateRegistryNameString(ItemStack input) {
+
+        String prefix = "${input.itemRaw.registryName.path}_${input.metadata}"
+
+        return RecipeName.generate(prefix)
     }
 
     /** Get mod name from ItemStack */
     @Nullable
     static String getModName(ItemStack itemStack) {
+
         if (itemStack.isEmpty()) return null
 
         String modId = itemStack.item.getCreatorModId(itemStack)
