@@ -6,7 +6,7 @@
 
 @news@{
 
-Set project sides of `creativecore`, `had-enough-items` & `pams-harvestcraft` to `BOTH` to fix server side crashes.
+- Fixed issue with with not being able to join server because of mismatched recipe IDs from Pyrotech kilns. (Fixed by reverting to ZenScript for these.)
 
 }
 
