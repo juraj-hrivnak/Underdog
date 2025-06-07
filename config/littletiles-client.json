@@ -7,7 +7,7 @@
   },
   "rendering": {
     "hideVBOWarning": true,
-    "hideMipmapWarning": false,
+    "hideMipmapWarning": true,
     "useQuadCache": false,
     "useCubeCache": true,
     "renderingThreadCount": 2,
