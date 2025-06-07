@@ -22,7 +22,8 @@
             "postInit/recipes/mods",
             "postInit/",
             "postInit/generated",
-            "postInit/zsToGroovy"
+            "postInit/zsToGroovy",
+            "client/"
         ]
     }
 }

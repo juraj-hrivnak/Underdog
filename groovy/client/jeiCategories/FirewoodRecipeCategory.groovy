@@ -1,29 +1,20 @@
+// side: client
 
-import com.cleanroommc.groovyscript.GroovyScript
-import com.cleanroommc.groovyscript.api.IIngredient
 import com.cleanroommc.groovyscript.compat.mods.jei.BaseCategory
-import com.cleanroommc.groovyscript.registry.DummyRecipe
-
-import java.util.Arrays
-import java.util.Collections
 
 import mezz.jei.api.IGuiHelper
 import mezz.jei.api.gui.IDrawable
 import mezz.jei.api.gui.IRecipeLayout
 import mezz.jei.api.ingredients.IIngredients
-import mezz.jei.api.ingredients.VanillaTypes
-import mezz.jei.api.recipe.IRecipeWrapper
 
 import net.minecraft.client.Minecraft
 import net.minecraft.client.renderer.GlStateManager
 import net.minecraft.client.resources.I18n
-import net.minecraft.init.Items
-import net.minecraft.item.ItemStack
 
 import org.jetbrains.annotations.NotNull
 import org.jetbrains.annotations.Nullable
 
-class FirewoodRecipeCategory extends BaseCategory<FirewoodRecipeWrapper> {
+public class FirewoodRecipeCategory extends BaseCategory<FirewoodRecipeWrapper> {
 
     public static final String UID = 'underdog.log_splitting'
 
@@ -80,54 +71,5 @@ class FirewoodRecipeCategory extends BaseCategory<FirewoodRecipeWrapper> {
     public IDrawable getIcon() {
         return icon
     }
-}
 
-class FirewoodRecipeWrapper implements IRecipeWrapper {
-
-    private final IIngredient input
-    private final ItemStack output
-    private final IIngredient wedge
-    private final ItemStack secondaryOutput = ItemStack.EMPTY
-
-    public FirewoodRecipeWrapper(
-        IIngredient input,
-        ItemStack output,
-        IIngredient wedge
-    ) {
-        this.input = input
-        this.output = output
-        this.wedge = wedge
-    }
-
-    public FirewoodRecipeWrapper(
-        IIngredient input,
-        ItemStack output,
-        IIngredient wedge,
-        ItemStack secondaryOutput
-    ) {
-        this.input = input
-        this.output = output
-        this.wedge = wedge
-        this.secondaryOutput = secondaryOutput
-    }
-
-    @Override
-    public void getIngredients(IIngredients ingredients) {
-        List<List<ItemStack>> inputs = []
-        inputs << Arrays.asList(this.input.getMatchingStacks())
-        inputs << Arrays.asList(this.wedge.getMatchingStacks())
-        inputs << Arrays.asList(ore('toolHammer').getMatchingStacks())
-
-        List<List<ItemStack>> outputs = []
-        outputs << Arrays.asList(output)
-        outputs << Arrays.asList(secondaryOutput)
-
-        ingredients.setInputLists(VanillaTypes.ITEM, inputs)
-        ingredients.setOutputLists(VanillaTypes.ITEM, outputs)
-    }
-
-    @Override
-    public void drawInfo(@NotNull Minecraft minecraft, int recipeWidth, int recipeHeight, int mouseX, int mouseY) {
-
-    }
 }

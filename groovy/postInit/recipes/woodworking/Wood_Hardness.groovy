@@ -1,8 +1,8 @@
 
 import classes.Colors
 import classes.Utils
-import classes.jeiCategories.FirewoodRecipeCategory
-import classes.jeiCategories.FirewoodRecipeWrapper
+import classes.recipes.Splitting
+import classes.recipes.SplittingRecipe
 
 def jeiCatWrappers = []
 
@@ -112,16 +112,10 @@ def jeiCatWrappers = []
         ore('firewood').add(firewood)
 
         // JEI Category
-        jeiCatWrappers << new FirewoodRecipeWrapper(log, firewood * 6, item('minecraft:flint'), item('pyrotech:material', 10))
-        jeiCatWrappers << new FirewoodRecipeWrapper(log, firewood * 6, item('contenttweaker:splitting_wedge'))
+        Splitting.recipes << new SplittingRecipe(log, firewood * 6, item('minecraft:flint'), item('pyrotech:material', 10))
+        Splitting.recipes << new SplittingRecipe(log, firewood * 6, item('contenttweaker:splitting_wedge'))
     }
 }
-
-mods.jei.category.categoryBuilder()
-    .id(FirewoodRecipeCategory.UID)
-    .category(guiHelper -> new FirewoodRecipeCategory(guiHelper))
-    .wrapper(jeiCatWrappers)
-    .register()
 
 ore('softwoodLumber').setBurnTime(80)
 ore('softwoodLog').setBurnTime(0)
