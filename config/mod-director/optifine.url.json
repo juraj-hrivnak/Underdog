@@ -1,0 +1,15 @@
+{
+    "url": "https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar",
+    "follows": ["OptiFine 1.12.2 HD U G5"],
+    "fileName": "OptiFine_1.12.2_HD_U_G5.jar",
+    "options": { "launchwrapperTweakerForceNext": true },
+    "metadata": {
+        "side": "CLIENT",
+        "hash": {
+            "SHA-512": "74dc59c52b1d7b7f7b5b813f0037d36d1269237f1acc2e7665c0dc45b1a55ee400c28112edff2489bf753fd1a5d649623493db0c2298ba5d52907dfc1f7aef38"
+        }
+    },
+    "installationPolicy": {
+        "description": "Required! Downloads OptiFine from the official site."
+    }
+}
