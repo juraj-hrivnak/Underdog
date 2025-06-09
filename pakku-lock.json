@@ -1378,40 +1378,6 @@
             ]
         },
         {
-            "pakku_id": "5MeXRUr9ia41FG4p",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "betterfps"
-            },
-            "name": {
-                "curseforge": "BetterFps"
-            },
-            "id": {
-                "curseforge": "229876"
-            },
-            "aliases": [],
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "BetterFps-1.4.8.jar",
-                    "mc_versions": [
-                        "1.12.2"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/2483/393/BetterFps-1.4.8.jar",
-                    "id": "2483393",
-                    "parent_id": "229876",
-                    "hashes": {
-                        "sha1": "245235d5c67daff00ee658ee1f88ae8c3e4584b8",
-                        "md5": "d36f4d3c0f96e99a9a1ad2e8eeda1fc4"
-                    },
-                    "required_dependencies": [],
-                    "size": 155196,
-                    "date_published": "2017-09-24T01:00:21.883Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "TcGWSP1spntDdvsr",
             "type": "MOD",
             "slug": {
