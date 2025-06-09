@@ -5,7 +5,6 @@ import com.cleanroommc.groovyscript.helper.GroovyHelper
 import com.cleanroommc.groovyscript.helper.recipe.RecipeName
 import com.cleanroommc.tabulator.common.TabulatorAPI
 
-import net.minecraft.util.text.translation.I18n
 import net.minecraftforge.fml.common.Loader
 import net.minecraftforge.fml.relauncher.Side
 import net.minecraftforge.fml.relauncher.SideOnly
@@ -70,13 +69,6 @@ class Utils {
                 itemStack.removeFurnaceRecipe()
             }
         }
-    }
-
-    /** Localize translation key */
-    @SideOnly(Side.CLIENT)
-    static String localize(String key) {
-
-        return I18n.translateToLocal(key)
     }
 
     /** Generate Registry Name resource location */
