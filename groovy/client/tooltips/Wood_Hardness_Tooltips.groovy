@@ -1,5 +1,6 @@
 // side: client
 
+import classes.Colors
 import client.ClientUtils
 
 ore('softwoodLumber').addTooltip(Colors.GOLD + ClientUtils.localize("underdog.tooltip.soft_wood"))
