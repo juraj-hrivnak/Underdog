@@ -149,7 +149,7 @@ jobs:
           name: changelog
           path: CHANGELOG-*.md
       - name: Send Discord message
-        uses: hugoalh/send-discord-webhook-ghaction@v7.0.4
+        uses: hugoalh/send-discord-webhook-ghaction@v7.0.5
         if: ${{ steps.info.outputs.diff != '' }}
         with:
           key: ${{ secrets.DISCORD_WEBHOOK_DEV }}
