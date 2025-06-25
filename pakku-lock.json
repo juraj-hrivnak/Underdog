@@ -5304,6 +5304,72 @@
             ]
         },
         {
+            "pakku_id": "pHL3vExIql8tBM30",
+            "pakku_links": [
+                "Mog4XN6AWucGbzQg"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "gnetum",
+                "modrinth": "gnetum"
+            },
+            "name": {
+                "curseforge": "Gnetum",
+                "modrinth": "Gnetum"
+            },
+            "id": {
+                "curseforge": "1220460",
+                "modrinth": "7MoE34WK"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gnetum-1.2.5.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6603/431/gnetum-1.2.5.jar",
+                    "id": "6603431",
+                    "parent_id": "1220460",
+                    "hashes": {
+                        "sha1": "f00920db4109920fbf71b3b69b6a2119de99206b",
+                        "md5": "32168b9e461d06e7081847565a9d9535"
+                    },
+                    "required_dependencies": [],
+                    "size": 46176,
+                    "date_published": "2025-06-01T01:19:38.520Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "gnetum-1.2.5.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/7MoE34WK/versions/LS732Dc8/gnetum-1.2.5.jar",
+                    "id": "LS732Dc8",
+                    "parent_id": "7MoE34WK",
+                    "hashes": {
+                        "sha512": "9c81d5ce192041a987a78662bec7ccd8221022fd9d1fb3798ec440be2a82da023fe7e9a735a17c8dc10119c6a6cb4b888864e2abddf0fb1cdc2cebbb272ed396",
+                        "sha1": "f00920db4109920fbf71b3b69b6a2119de99206b"
+                    },
+                    "required_dependencies": [
+                        "G1ckZuWK"
+                    ],
+                    "size": 46176,
+                    "date_published": "2025-06-01T01:20:33.217966Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "nkzrcKOrFFcMdJX5",
             "pakku_links": [
                 "FmnDBUrAthwPNEmi"
@@ -6346,7 +6412,8 @@
         {
             "pakku_id": "oOBTzJU2p4DOTOak",
             "pakku_links": [
-                "cG4NgZKdOHsX7lNZ"
+                "cG4NgZKdOHsX7lNZ",
+                "vfYEEVp2sd2sn7iC"
             ],
             "type": "MOD",
             "side": "CLIENT",
@@ -6387,6 +6454,9 @@
         },
         {
             "pakku_id": "34kOZ6GPNiUh15HK",
+            "pakku_links": [
+                "vfYEEVp2sd2sn7iC"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "jei-utilities"
@@ -6624,6 +6694,67 @@
             ]
         },
         {
+            "pakku_id": "vfYEEVp2sd2sn7iC",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "jei",
+                "modrinth": "jei"
+            },
+            "name": {
+                "curseforge": "Just Enough Items (JEI)",
+                "modrinth": "Just Enough Items"
+            },
+            "id": {
+                "curseforge": "238222",
+                "modrinth": "u6dRKJwZ"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jei_1.12.2-4.16.1.1013.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5846/804/jei_1.12.2-4.16.1.1013.jar",
+                    "id": "5846804",
+                    "parent_id": "238222",
+                    "hashes": {
+                        "sha1": "91767806d0329ef91b9277142a359b078c57e92d",
+                        "md5": "155469b1e6be853ba4b273044bc4a68e"
+                    },
+                    "required_dependencies": [],
+                    "size": 655406,
+                    "date_published": "2024-10-26T08:05:56.477Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "jei_1.12.2-4.16.1.1013.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/MO021mIp/jei_1.12.2-4.16.1.1013.jar",
+                    "id": "MO021mIp",
+                    "parent_id": "u6dRKJwZ",
+                    "hashes": {
+                        "sha512": "a821983c9920e6ac3f70d3175fcb612030c01b8c3fb3247c24856dc76e9befcc0ea61eb564bd7a918d58336221602e67e5cc4af84c63e50768029815a5a22442",
+                        "sha1": "91767806d0329ef91b9277142a359b078c57e92d"
+                    },
+                    "required_dependencies": [],
+                    "size": 655406,
+                    "date_published": "2024-10-26T08:06:08.315983Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "XWSSONZZswdhmUwG",
             "pakku_links": [
                 "qzOXfhTcdgVnGnHB"
@@ -6666,6 +6797,9 @@
         },
         {
             "pakku_id": "cfmtNcKZIAzdsZTo",
+            "pakku_links": [
+                "vfYEEVp2sd2sn7iC"
+            ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
@@ -6705,6 +6839,9 @@
         },
         {
             "pakku_id": "CUZCX3UBM8m0AZGG",
+            "pakku_links": [
+                "vfYEEVp2sd2sn7iC"
+            ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
@@ -10987,7 +11124,8 @@
         {
             "pakku_id": "jzHxZjOAxNugDl3R",
             "pakku_links": [
-                "l5Un2wMnENQrrmGy"
+                "l5Un2wMnENQrrmGy",
+                "vfYEEVp2sd2sn7iC"
             ],
             "type": "MOD",
             "side": "CLIENT",
