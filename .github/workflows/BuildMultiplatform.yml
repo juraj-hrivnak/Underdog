@@ -144,7 +144,7 @@ jobs:
           mv $changelog "CHANGELOG-$projectsuffix.md"
 
       - name: Upload changelog
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: changelog
           path: CHANGELOG-*.md
@@ -188,7 +188,7 @@ jobs:
           java -jar ./pakku.jar --debug export
 
       - name: Upload build
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: build
           path: |
