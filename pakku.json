@@ -22,9 +22,6 @@
         "better-animal-models": {
             "side": "CLIENT"
         },
-        "better-chat": {
-            "side": "CLIENT"
-        },
         "better-loading-screen": {
             "side": "CLIENT"
         },
@@ -96,6 +93,10 @@
         },
         "pams-harvestcraft": {
             "side": "BOTH"
+        },
+        "realistic-block-physics": {
+            "type": "MOD",
+            "update_strategy": "NONE"
         }
     }
 }
