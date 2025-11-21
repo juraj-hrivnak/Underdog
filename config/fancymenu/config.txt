@@ -6,7 +6,7 @@ B:stopworldmusicwhencustomizable = 'false';
 B:playbackgroundsoundsinworld = 'false';
 B:forcefullscreen = 'false';
 [If menu background sounds added by FancyMenu should be played or not.]
-B:playbackgroundsounds = 'true';
+B:playbackgroundsounds = 'false';
 [A minecraft restart is required after changing this value.]
 B:enablehotkeys = 'true';
 B:playmenumusic = 'true';
