@@ -134,7 +134,7 @@ jobs:
     needs: [release-github, release-curseforge]
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Download changelog
         uses: actions/download-artifact@v6
@@ -166,7 +166,7 @@ jobs:
     needs: [release-github, release-curseforge]
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: close-fixed-in-dev
         uses: juraj-hrivnak/close-issues-based-on-label@master
         env:

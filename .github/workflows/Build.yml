@@ -20,7 +20,7 @@ jobs:
       news: ${{ steps.mod_changes.outputs.news }}
     steps:
       - name: Checkout with fetch depth 2
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 2
       - name: Get tag
@@ -51,7 +51,7 @@ jobs:
             echo "projectsuffix=build.${{ github.run_number }}" >> $GITHUB_OUTPUT
           fi
       - name: Checkout with fetch depth 0
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
       - name: Process changelog
@@ -237,7 +237,7 @@ jobs:
     needs: [modpack-info]
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Download changelog
         uses: actions/download-artifact@v6
         with:
@@ -288,7 +288,7 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/v')
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Download Mods
         run: |
           cd pax/
