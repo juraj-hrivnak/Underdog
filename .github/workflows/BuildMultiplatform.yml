@@ -107,15 +107,24 @@ jobs:
           name: build
           path: build
 
+      - name: List build directory contents for debugging
+        run: |
+          find build
+          ls -lR build
+
       - name: Extract server pack
         run: |
-          mkdir -p ./server
-          serverpack_zip=$(find build/serverpack -name '*ServerPack.zip' | head -n1)
+          serverpack_zip=$(find build -type f -iname '*ServerPack.zip' | head -n1)
+          if [[ -z "$serverpack_zip" ]]; then
+            echo "No ServerPack.zip found!"
+            exit 1
+          fi
           echo "Found serverpack: $serverpack_zip"
-          unzip "$serverpack_zip" -d ./server
+          mkdir -p ./run
+          unzip "$serverpack_zip" -d ./run
 
       - name: List server contents
-        run: ls -lh ./server
+        run: ls -lh ./run
 
       - name: Test Minecraft Forge server 1.12.2
         uses: headlesshq/mc-server-test@1.1.0
@@ -126,6 +135,9 @@ jobs:
 
       - name: Delete release tag if release fails
         if: failure()
+        uses: actions/checkout@v6
+
+      - if: failure()
         run: |
           TAG="${GITHUB_REF#refs/tags/}"
           echo "Release failed, deleting tag $TAG..."
@@ -173,11 +185,13 @@ jobs:
 
       - name: Delete release tag if release fails
         if: failure()
+        uses: actions/checkout@v6
+
+      - if: failure()
         run: |
           TAG="${GITHUB_REF#refs/tags/}"
           echo "Release failed, deleting tag $TAG..."
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git fetch --prune --unshallow || true
           git tag -d "$TAG" || true
           git push origin ":refs/tags/$TAG"
