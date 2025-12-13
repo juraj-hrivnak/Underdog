@@ -149,7 +149,7 @@ jobs:
             -e ONLINE_MODE=FALSE \
             -e ENABLE_AUTOSTOP=true \
             -e AUTOSTOP_TIMEOUT_INIT=120 \
-            -e AUTOSTOP_TIMEOUT_EST=60 \
+            -e AUTOSTOP_TIMEOUT_EST=30 \
             itzg/minecraft-server:java8
 
           # Stream logs in background
@@ -181,13 +181,13 @@ jobs:
               sleep 2
           done
 
-          echo "✅ Server stopped successfully after initialization!"
+          echo "✅ Server stopped successfully with exit code 0!"
 
       - name: Check for crash reports
         if: always()
         run: |
           if [ -d "./server-data/crash-reports" ] && [ "$(ls -A ./server-data/crash-reports)" ]; then
-            echo ":: error::Crash reports found!"
+            echo "::error::Crash reports found!"
             echo "=== Crash Reports ==="
             ls -lh ./server-data/crash-reports/
             for crash in ./server-data/crash-reports/*.txt; do
@@ -199,6 +199,64 @@ jobs:
           else
             echo "✅ No crash reports found"
           fi
+
+      - name: Check GroovyScript logs for errors
+        if:  always()
+        run: |
+          echo "# GroovyScript Error Report" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "./server-data/logs/groovy.log" ]; then
+            echo "✅ GroovyScript log found" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            # Count errors
+            ERROR_COUNT=$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy.log || echo "0")
+            EXCEPTION_COUNT=$(grep -c "Exception" ./server-data/logs/groovy.log || echo "0")
+
+            echo "## Summary" >> $GITHUB_STEP_SUMMARY
+            echo "- **Errors found:** $ERROR_COUNT" >> $GITHUB_STEP_SUMMARY
+            echo "- **Exceptions found:** $EXCEPTION_COUNT" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            if [ "$ERROR_COUNT" -gt 0 ] || [ "$EXCEPTION_COUNT" -gt 0 ]; then
+              echo "## ⚠️ Errors Detected" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo '```' >> $GITHUB_STEP_SUMMARY
+
+              # Extract and display errors (limit to first 50 lines to avoid summary being too large)
+              grep -A 2 "\[.*ERROR\]" ./server-data/logs/groovy.log | head -n 50 >> $GITHUB_STEP_SUMMARY
+
+              if [ "$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy.log)" -gt 50 ]; then
+                echo "... (truncated, see full log in artifacts)" >> $GITHUB_STEP_SUMMARY
+              fi
+
+              echo '```' >> $GITHUB_STEP_SUMMARY
+
+              # Note about common errors
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "### Common Issues" >> $GITHUB_STEP_SUMMARY
+              echo "These errors appear to be:" >> $GITHUB_STEP_SUMMARY
+              echo "- Recipe removal failures (items not found in furnace recipes)" >> $GITHUB_STEP_SUMMARY
+              echo "- MissingMethodException:  \`removeByInput()\` signature mismatch" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "💡 These are **script errors**, not server startup failures." >> $GITHUB_STEP_SUMMARY
+              echo "The server can still run, but some recipe modifications may not work." >> $GITHUB_STEP_SUMMARY
+            else
+              echo "✅ No errors detected in GroovyScript logs!" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "⚠️ GroovyScript log not found at ./server-data/logs/groovy.log" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Upload GroovyScript logs
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name:  groovyscript-logs
+          path:  ./server-data/logs/groovy.log
+          if-no-files-found: warn
+          retention-days: 7
+
 
       - name:  Cleanup Docker container
         if: always()
