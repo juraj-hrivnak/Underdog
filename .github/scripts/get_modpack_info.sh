@@ -81,8 +81,7 @@ java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json -v --markdow
 changelog="./CHANGELOG.md"
 
 # Replace @mod_changes@ with diff
-mod_changes=$(sed -r 's/\//\\\//g' PROJECTS_DIFF.md)
-perl -i -pe "s/\@mod_changes\@/$mod_changes/g" "$changelog"
+perl -0777 -i -pe 'BEGIN{open F,"PROJECTS_DIFF.md";undef $/;$d=<F>} s/\@mod_changes\@/$d/s' "$changelog"
 
 # Get and upload @news@
 news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' "$changelog" | sed '/^$/d' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g')
