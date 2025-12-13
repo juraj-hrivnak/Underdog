@@ -183,13 +183,13 @@ jobs:
 
           echo "# GroovyScript Error Report" >> $GITHUB_STEP_SUMMARY
 
-          if [ -f "./server-data/logs/groovy.log" ]; then
+          if [ -f "./server-data/logs/groovy_server.log" ]; then
             echo "✅ GroovyScript log found" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
 
             # Count errors
-            ERROR_COUNT=$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy.log || echo "0")
-            EXCEPTION_COUNT=$(grep -c "Exception" ./server-data/logs/groovy.log || echo "0")
+            ERROR_COUNT=$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy_server.log || echo "0")
+            EXCEPTION_COUNT=$(grep -c "Exception" ./server-data/logs/groovy_server.log || echo "0")
 
             echo "## Summary" >> $GITHUB_STEP_SUMMARY
             echo "- **Errors found:** $ERROR_COUNT" >> $GITHUB_STEP_SUMMARY
@@ -202,9 +202,9 @@ jobs:
               echo '```' >> $GITHUB_STEP_SUMMARY
 
               # Extract and display errors (limit to first 50 lines to avoid summary being too large)
-              grep -A 2 "\[.*ERROR\]" ./server-data/logs/groovy.log | head -n 50 >> $GITHUB_STEP_SUMMARY
+              grep -A 2 "\[.*ERROR\]" ./server-data/logs/groovy_server.log | head -n 50 >> $GITHUB_STEP_SUMMARY
 
-              if [ "$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy.log)" -gt 50 ]; then
+              if [ "$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy_server.log)" -gt 50 ]; then
                 echo "... (truncated, see full log in artifacts)" >> $GITHUB_STEP_SUMMARY
               fi
 
@@ -223,7 +223,7 @@ jobs:
               echo "✅ No errors detected in GroovyScript logs!" >> $GITHUB_STEP_SUMMARY
             fi
           else
-            echo "⚠️ GroovyScript log not found at ./server-data/logs/groovy.log" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ GroovyScript log not found at ./server-data/logs/groovy_server.log" >> $GITHUB_STEP_SUMMARY
           fi
 
 
@@ -247,7 +247,7 @@ jobs:
         uses: actions/upload-artifact@v5
         with:
           name: groovyscript-logs
-          path: ./server-data/logs/groovy.log
+          path: ./server-data/logs/groovy_server.log
           if-no-files-found: warn
           retention-days: 7
 
