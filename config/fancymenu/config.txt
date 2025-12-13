@@ -72,4 +72,4 @@ F:uiscale = '1.5';
 
 ##[compatibility]
 
-B:allow_level_registry_interactions = 'true';
+B:allow_level_registry_interactions = 'false';
