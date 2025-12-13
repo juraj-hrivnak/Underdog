@@ -93,66 +93,128 @@ jobs:
             build/
             !build/.*
 
-  # test-server-pack:
-  #   name: Test Server Pack
-  #   runs-on: ubuntu-latest
-  #   needs: [build-modpack]
-  #   permissions:
-  #     contents: write
-  #   # if: startsWith(github.ref, 'refs/tags/v')
-  #   steps:
-  #     - uses: actions/setup-java@v4
-  #       with:
-  #         java-version: 8
-  #         distribution: temurin
+  test-server-pack:
+    name: Test Server Pack
+    runs-on: ubuntu-latest
+    needs: [build-modpack]
+    permissions:
+      contents: write
+    # if:  startsWith(github.ref, 'refs/tags/v')
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v6
+        with:
+          name: build
+          path: build
 
-  #     - name: Download build artifacts
-  #       uses: actions/download-artifact@v6
-  #       with:
-  #         name: build
-  #         path: build
+      - name: List build directory contents for debugging
+        run: |
+          echo "=== Build directory structure ==="
+          find build -type f
+          echo ""
+          echo "=== Serverpack contents ==="
+          ls -lh build/serverpack/
 
-  #     - name: List build directory contents for debugging
-  #       run: |
-  #         find build
-  #         ls -lR build
+      - name: Extract server pack
+        run: |
+          mkdir -p ./server-data
+          # Find the Pakku server pack zip
+          serverpack_zip=$(find build/serverpack -type f -name '*. zip' | head -n1)
+          echo "Found server pack: $serverpack_zip"
+          echo "Extracting to ./server-data"
+          unzip -q "$serverpack_zip" -d ./server-data
 
-  #     - name: Extract server pack
-  #       run: |
-  #         mkdir -p ./run
-  #         # for Pakku server packs, the root zip is build/serverpack/Underdog-<ver>.zip
-  #         serverpack_zip=$(find build/serverpack -type f -name '*.zip' | head -n1)
-  #         echo "Unzipping $serverpack_zip"
-  #         unzip -o "$serverpack_zip" -d ./run
+          echo ""
+          echo "=== Extracted server contents ==="
+          ls -lah ./server-data
 
-  #         # Remove any server jar present (let the action download its own for test!)
-  #         find ./run -maxdepth 1 -type f -name '*.jar' -delete
+          # Set permissions
+          chmod -R 755 ./server-data
 
-  #         # (optional) ls for debug
-  #         ls -lah ./run
+      - name: Start Minecraft Server with Docker
+        shell: 'script -q -e -c "bash {0}"'
+        timeout-minutes: 15
+        run: |
+          echo "Starting Minecraft Forge 1.12.2 server..."
 
-  #     - name: List server contents
-  #       run: ls -lh ./run
+          # Start the server in detached mode with auto-stop
+          docker run --name minecraft-test -it -d \
+            --network host \
+            -v ${{ github.workspace }}/server-data:/data \
+            -e EULA=TRUE \
+            -e TYPE=FORGE \
+            -e VERSION=1.12.2 \
+            -e MEMORY=4G \
+            -e MAX_WORLD_SIZE=1 \
+            -e ONLINE_MODE=FALSE \
+            -e ENABLE_AUTOSTOP=true \
+            -e AUTOSTOP_TIMEOUT_INIT=120 \
+            -e AUTOSTOP_TIMEOUT_EST=60 \
+            itzg/minecraft-server: java8
 
-  #     - name: Test Minecraft Forge server 1.12.2
-  #       uses: headlesshq/mc-server-test@1.1.0
-  #       with:
-  #         mc: 1.12.2
-  #         modloader: forge
-  #         java: 8
+          # Stream logs in background
+          (docker logs -f minecraft-test || true) &
 
-  #     - name: Delete release tag if release fails
-  #       if: failure()
-  #       uses: actions/checkout@v6
+          echo "Waiting for server to become healthy..."
+          # Wait for container to be healthy
+          until [ "$(docker inspect -f '{{.State.Health.Status}}' minecraft-test)" == "healthy" ]; do
+              if [ "$(docker inspect -f '{{. State.Running}}' minecraft-test)" == "false" ]; then
+                  EXIT_CODE=$(docker inspect minecraft-test --format='{{.State.ExitCode}}')
+                  echo ":: error::Server exited before becoming healthy with exit code:  $EXIT_CODE"
+                  docker logs minecraft-test
+                  exit 1
+              fi
+              sleep 2
+          done
 
-  #     - if: failure()
-  #       run: |
-  #         TAG="${GITHUB_REF#refs/tags/}"
-  #         echo "Release failed, deleting tag $TAG..."
-  #         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-  #         git config --global user.name "github-actions[bot]"
-  #         git tag -d "$TAG" || true
-  #         git push origin ":refs/tags/$TAG"
+          echo "✅ Server is healthy and running!"
+
+          # Wait for auto-stop to trigger (server will stop itself after initialization)
+          echo "Waiting for server to auto-stop after successful initialization..."
+          until [ "$(docker inspect -f '{{.State.Running}}' minecraft-test)" == "false" ]; do
+              EXIT_CODE=$(docker inspect minecraft-test --format='{{.State.ExitCode}}')
+              if [ "$EXIT_CODE" != "0" ]; then
+                  echo "::error::Server exited with failure code: $EXIT_CODE"
+                  docker logs minecraft-test
+                  exit 1
+              fi
+              sleep 2
+          done
+
+          echo "✅ Server stopped successfully after initialization!"
+
+      - name: Check for crash reports
+        if: always()
+        run: |
+          if [ -d "./server-data/crash-reports" ] && [ "$(ls -A ./server-data/crash-reports)" ]; then
+            echo ":: error::Crash reports found!"
+            echo "=== Crash Reports ==="
+            ls -lh ./server-data/crash-reports/
+            for crash in ./server-data/crash-reports/*.txt; do
+              echo ""
+              echo "=== $crash ==="
+              cat "$crash"
+            done
+            exit 1
+          else
+            echo "✅ No crash reports found"
+          fi
+
+      - name:  Cleanup Docker container
+        if: always()
+        run: |
+          docker stop minecraft-test || true
+          docker rm minecraft-test || true
+
+      - name: Upload server logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v5
+        with:
+          name:  server-logs
+          path: |
+            ./server-data/logs/
+            ./server-data/crash-reports/
+          retention-days: 7
 
   release:
     name: Release
