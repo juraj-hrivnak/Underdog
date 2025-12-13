@@ -150,7 +150,7 @@ jobs:
             -e ENABLE_AUTOSTOP=true \
             -e AUTOSTOP_TIMEOUT_INIT=120 \
             -e AUTOSTOP_TIMEOUT_EST=60 \
-            itzg/minecraft-server: java8
+            itzg/minecraft-server:java8
 
           # Stream logs in background
           (docker logs -f minecraft-test || true) &
@@ -158,9 +158,9 @@ jobs:
           echo "Waiting for server to become healthy..."
           # Wait for container to be healthy
           until [ "$(docker inspect -f '{{.State.Health.Status}}' minecraft-test)" == "healthy" ]; do
-              if [ "$(docker inspect -f '{{. State.Running}}' minecraft-test)" == "false" ]; then
+              if [ "$(docker inspect -f '{{.State.Running}}' minecraft-test)" == "false" ]; then
                   EXIT_CODE=$(docker inspect minecraft-test --format='{{.State.ExitCode}}')
-                  echo ":: error::Server exited before becoming healthy with exit code:  $EXIT_CODE"
+                  echo ":: error::Server exited before becoming healthy with exit code: $EXIT_CODE"
                   docker logs minecraft-test
                   exit 1
               fi
