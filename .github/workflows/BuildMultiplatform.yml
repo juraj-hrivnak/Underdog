@@ -101,6 +101,11 @@ jobs:
       contents: write
     if: startsWith(github.ref, 'refs/tags/v')
     steps:
+      - uses: actions/setup-java@v4
+        with:
+          java-version: 8
+          distribution: temurin
+
       - name: Download build artifacts
         uses: actions/download-artifact@v6
         with:
