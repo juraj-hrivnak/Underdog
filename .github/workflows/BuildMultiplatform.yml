@@ -137,7 +137,7 @@ jobs:
         run: |
           echo "Starting Minecraft Forge 1.12.2 server..."
 
-          # Start the server in detached mode with auto-stop
+          # Start the server in detached mode
           docker run --name minecraft-test -it -d \
             --network host \
             -v ${{ github.workspace }}/server-data:/data \
@@ -147,9 +147,6 @@ jobs:
             -e MEMORY=4G \
             -e MAX_WORLD_SIZE=1 \
             -e ONLINE_MODE=FALSE \
-            -e ENABLE_AUTOSTOP=true \
-            -e AUTOSTOP_TIMEOUT_INIT=120 \
-            -e AUTOSTOP_TIMEOUT_EST=30 \
             itzg/minecraft-server:java8
 
           # Stream logs in background
@@ -160,7 +157,7 @@ jobs:
           until [ "$(docker inspect -f '{{.State.Health.Status}}' minecraft-test)" == "healthy" ]; do
               if [ "$(docker inspect -f '{{.State.Running}}' minecraft-test)" == "false" ]; then
                   EXIT_CODE=$(docker inspect minecraft-test --format='{{.State.ExitCode}}')
-                  echo ":: error::Server exited before becoming healthy with exit code: $EXIT_CODE"
+                  echo "::error::Server exited before becoming healthy with exit code: $EXIT_CODE"
                   docker logs minecraft-test
                   exit 1
               fi
@@ -169,23 +166,7 @@ jobs:
 
           echo "✅ Server is healthy and running!"
 
-          # Wait for auto-stop to trigger (server will stop itself after initialization)
-          echo "Waiting for server to auto-stop after successful initialization..."
-          until [ "$(docker inspect -f '{{.State.Running}}' minecraft-test)" == "false" ]; do
-              EXIT_CODE=$(docker inspect minecraft-test --format='{{.State.ExitCode}}')
-              if [ "$EXIT_CODE" != "0" ]; then
-                  echo "::error::Server exited with failure code: $EXIT_CODE"
-                  docker logs minecraft-test
-                  exit 1
-              fi
-              sleep 2
-          done
 
-          echo "✅ Server stopped successfully with exit code 0!"
-
-      - name: Check for crash reports
-        if: always()
-        run: |
           if [ -d "./server-data/crash-reports" ] && [ "$(ls -A ./server-data/crash-reports)" ]; then
             echo "::error::Crash reports found!"
             echo "=== Crash Reports ==="
@@ -200,9 +181,6 @@ jobs:
             echo "✅ No crash reports found"
           fi
 
-      - name: Check GroovyScript logs for errors
-        if:  always()
-        run: |
           echo "# GroovyScript Error Report" >> $GITHUB_STEP_SUMMARY
 
           if [ -f "./server-data/logs/groovy.log" ]; then
@@ -248,27 +226,36 @@ jobs:
             echo "⚠️ GroovyScript log not found at ./server-data/logs/groovy.log" >> $GITHUB_STEP_SUMMARY
           fi
 
+
+          # Stop the server now that we've confirmed it's healthy
+          echo "Stopping server..."
+          docker stop minecraft-test
+
+          # Check exit code
+          EXIT_CODE=$(docker inspect minecraft-test --format='{{.State.ExitCode}}')
+          if [ "$EXIT_CODE" != "0" ]; then
+              echo "::error::Server exited with failure code: $EXIT_CODE"
+              exit 1
+          fi
+
+          echo $(ls -A ./server-data/)
+
+          echo "✅ Server test completed successfully!"
+
       - name: Upload GroovyScript logs
         if: always()
         uses: actions/upload-artifact@v5
         with:
-          name:  groovyscript-logs
-          path:  ./server-data/logs/groovy.log
+          name: groovyscript-logs
+          path: ./server-data/logs/groovy.log
           if-no-files-found: warn
           retention-days: 7
-
-
-      - name:  Cleanup Docker container
-        if: always()
-        run: |
-          docker stop minecraft-test || true
-          docker rm minecraft-test || true
 
       - name: Upload server logs on failure
         if: failure()
         uses: actions/upload-artifact@v5
         with:
-          name:  server-logs
+          name: server-logs
           path: |
             ./server-data/logs/
             ./server-data/crash-reports/
