@@ -114,9 +114,9 @@ jobs:
 
       - name: Extract server pack
         run: |
-          serverpack_zip=$(find build -type f -iname '*ServerPack.zip' | head -n1)
+          serverpack_zip=$(find build/serverpack -type f -iname '*.zip' | head -n1)
           if [[ -z "$serverpack_zip" ]]; then
-            echo "No ServerPack.zip found!"
+            echo "No server pack zip found!"
             exit 1
           fi
           echo "Found serverpack: $serverpack_zip"
