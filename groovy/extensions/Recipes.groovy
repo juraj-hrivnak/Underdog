@@ -82,7 +82,7 @@ ItemStack.metaClass.removeRecipe = { ->
  * (Extension of ItemStack)
  */
 ItemStack.metaClass.removeFurnaceRecipe = { ->
-    furnace.removeByInput(delegate, printErrors)
+    furnace.removeByInput(delegate)
 }
 
 // -- MATRIX --

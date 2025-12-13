@@ -12,5 +12,10 @@
         "editor.insertSpaces": true,
         "editor.detectIndentation": false,
         "editor.bracketPairColorization.enabled": true,
+    },
+    "extensions": {
+        "recommendations": [
+            "cleanroommc.groovyscript"
+        ]
     }
 }
