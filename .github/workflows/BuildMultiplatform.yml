@@ -119,7 +119,7 @@ jobs:
         run: |
           mkdir -p ./server-data
           # Find the Pakku server pack zip
-          serverpack_zip=$(find build/serverpack -type f -name '*. zip' | head -n1)
+          serverpack_zip=$(find build/serverpack -type f -name '*.zip' | head -n1)
           echo "Found server pack: $serverpack_zip"
           echo "Extracting to ./server-data"
           unzip -q "$serverpack_zip" -d ./server-data
