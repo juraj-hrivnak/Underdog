@@ -99,7 +99,7 @@ jobs:
     needs: [build-modpack]
     permissions:
       contents: write
-    if: startsWith(github.ref, 'refs/tags/v')
+    # if: startsWith(github.ref, 'refs/tags/v')
     steps:
       - uses: actions/setup-java@v4
         with:
@@ -119,14 +119,17 @@ jobs:
 
       - name: Extract server pack
         run: |
-          serverpack_zip=$(find build/serverpack -type f -iname '*.zip' | head -n1)
-          if [[ -z "$serverpack_zip" ]]; then
-            echo "No server pack zip found!"
-            exit 1
-          fi
-          echo "Found serverpack: $serverpack_zip"
           mkdir -p ./run
-          unzip "$serverpack_zip" -d ./run
+          # for Pakku server packs, the root zip is build/serverpack/Underdog-<ver>.zip
+          serverpack_zip=$(find build/serverpack -type f -name '*.zip' | head -n1)
+          echo "Unzipping $serverpack_zip"
+          unzip -o "$serverpack_zip" -d ./run
+
+          # Remove any server jar present (let the action download its own for test!)
+          find ./run -maxdepth 1 -type f -name '*.jar' -delete
+
+          # (optional) ls for debug
+          ls -lah ./run
 
       - name: List server contents
         run: ls -lh ./run
