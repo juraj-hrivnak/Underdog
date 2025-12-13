@@ -125,14 +125,8 @@ jobs:
           echo "Unzipping $serverpack_zip"
           unzip -o "$serverpack_zip" -d ./run
 
-          # Remove any server jar present (let the action download its own for test!)
-          find ./run -maxdepth 1 -type f -name '*.jar' -delete
-
-          # (optional) ls for debug
+          # ls for debug
           ls -lah ./run
-
-      - name: List server contents
-        run: ls -lh ./run
 
       - name: Test Minecraft Forge server 1.12.2
         uses: headlesshq/mc-server-test@1.1.0
