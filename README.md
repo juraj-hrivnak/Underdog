@@ -21,9 +21,9 @@
       alt="CF"
     >
   </a>
-  <a href="https://github.com/juraj-hrivnak/Underdog/actions/workflows/Build.yml">
+  <a href="https://github.com/juraj-hrivnak/Underdog/actions/workflows/BuildMultiplatform.yml">
     <img
-      src="https://github.com/juraj-hrivnak/Underdog/actions/workflows/Build.yml/badge.svg"
+      src="https://github.com/juraj-hrivnak/Underdog/actions/workflows/BuildMultiplatform.yml/badge.svg"
       alt="Build"
     >
   </a>
