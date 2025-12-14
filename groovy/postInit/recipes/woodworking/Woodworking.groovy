@@ -293,13 +293,13 @@ for (x in woodworking) {
     )
 
     // Chest recipes
-    item('charset:chest')
-        .withNbt(['wood': planks.itemRaw.registryName.toString() + ";$planks.metadata"])
-        .addRecipe(
-            [lumber, lumber, lumber],
-            [lumber, null  , lumber],
-            [lumber, lumber, lumber]
-        )
+    // item('charset:chest')
+    //     .withNbt(['wood': planks.itemRaw.registryName.toString() + ";$planks.metadata"])
+    //     .addRecipe(
+    //         [lumber, lumber, lumber],
+    //         [lumber, null  , lumber],
+    //         [lumber, lumber, lumber]
+    //     )
 
     // Stencil table recipes
     item('tconstruct:tooltables', 1)
