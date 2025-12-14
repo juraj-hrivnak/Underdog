@@ -1,8 +1,12 @@
 {
   "client": {
-    "net.minecraft.item.ItemStack": [
+    "net. minecraft.item.ItemStack": [
       "getTooltip",
-      "func_82840_a"
+      "func_82840_a",
+      "hasEffect",
+      "func_77962_s",
+      "getTextComponent",
+      "func_151000_E"
     ]
   },
   "server": {}
