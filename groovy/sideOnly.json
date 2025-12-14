@@ -6,7 +6,9 @@
       "hasEffect",
       "func_77962_s",
       "getTextComponent",
-      "func_151000_E"
+      "func_151000_E",
+      "addInformation",
+      "func_77624_a"
     ]
   },
   "server": {}
