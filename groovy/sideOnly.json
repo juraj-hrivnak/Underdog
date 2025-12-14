@@ -1,7 +1,8 @@
 {
   "client": {
-    "net.minecraft.item.ItemStack": ["addInformation", "func_82840_a"]
+    "net.minecraft.item.ItemStack": [
+      "addInformation(Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/client/util/ITooltipFlag;)V"
+    ]
   },
-  "server": {
-  }
+  "server": {}
 }
