@@ -188,8 +188,8 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
 
             # Count errors
-            ERROR_COUNT=$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy_server.log 2>/dev/null || echo "0")
-            EXCEPTION_COUNT=$(grep -c "Exception" ./server-data/logs/groovy_server.log 2>/dev/null || echo "0")
+            ERROR_COUNT=$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy_server.log 2>/dev/null) || ERROR_COUNT=0
+            EXCEPTION_COUNT=$(grep -c "Exception" ./server-data/logs/groovy_server.log 2>/dev/null) || EXCEPTION_COUNT=0
 
             echo "## Summary" >> $GITHUB_STEP_SUMMARY
             echo "- **Errors found:** $ERROR_COUNT" >> $GITHUB_STEP_SUMMARY
