@@ -1,9 +1,9 @@
 {
   "client": {
-    "classes": [
-      "net.minecraft.client.util.ITooltipFlag"
-    ],
-    "net.minecraft.item.ItemStack": ["addInformation", "func_82840_a"]
+    "net.minecraft.item.ItemStack": [
+      "getTooltip",
+      "func_82840_a"
+    ]
   },
   "server": {}
 }
