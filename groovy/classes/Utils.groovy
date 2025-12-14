@@ -76,7 +76,7 @@ class Utils {
     /** Generate Registry Name resource location */
     static ResourceLocation generateRegistryName(ItemStack input) {
 
-        String prefix = "${input.getItem().registryName.path}_${input.metadata}"
+        String prefix = "${input.getItem().registryName.path}_${input.getMetadata()}"
 
         return RecipeName.generateRl(prefix)
     }
@@ -84,7 +84,7 @@ class Utils {
     /** Generate Registry Name string */
     static String generateRegistryNameString(ItemStack input) {
 
-        String prefix = "${input.getItem().registryName.path}_${input.metadata}"
+        String prefix = "${input.getItem().registryName.path}_${input.getMetadata()}"
 
         return RecipeName.generate(prefix)
     }

@@ -294,7 +294,7 @@ for (x in woodworking) {
 
     // Chest recipes
     item('charset:chest')
-        .withNbt(['wood': planks.getItem().registryName.toString() + ";$planks.metadata"])
+        .withNbt(['wood': planks.getItem().registryName.toString() + ";$planks.getMetadata()"])
         .addRecipe(
             [lumber, lumber, lumber],
             [lumber, null  , lumber],
@@ -306,7 +306,7 @@ for (x in woodworking) {
         .withNbt(['textureBlock': [
             'id': planks.getItem().registryName.toString(),
             'Count': 1 as byte,
-            'Damage': planks.metadata as short
+            'Damage': planks.getMetadata() as short
         ]])
         .addRecipe(
             [item('tconstruct:pattern'), lumber],
