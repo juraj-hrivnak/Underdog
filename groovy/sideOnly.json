@@ -10,7 +10,8 @@
       "addInformation",
       "func_77624_a",
       "func_190948_a"
-    ]
+    ],
+    "net.minecraft.item.Item": ["addInformation", "func_77624_a", "func_190948_a"]
   },
   "server": {}
 }
