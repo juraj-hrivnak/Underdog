@@ -188,8 +188,8 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
 
             # Count errors
-            ERROR_COUNT=$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy_server.log || echo "0")
-            EXCEPTION_COUNT=$(grep -c "Exception" ./server-data/logs/groovy_server.log || echo "0")
+            ERROR_COUNT=$(grep -c "\[.*ERROR\]" ./server-data/logs/groovy_server.log 2>/dev/null || echo "0")
+            EXCEPTION_COUNT=$(grep -c "Exception" ./server-data/logs/groovy_server.log 2>/dev/null || echo "0")
 
             echo "## Summary" >> $GITHUB_STEP_SUMMARY
             echo "- **Errors found:** $ERROR_COUNT" >> $GITHUB_STEP_SUMMARY
@@ -209,16 +209,6 @@ jobs:
               fi
 
               echo '```' >> $GITHUB_STEP_SUMMARY
-
-              # Note about common errors
-              echo "" >> $GITHUB_STEP_SUMMARY
-              echo "### Common Issues" >> $GITHUB_STEP_SUMMARY
-              echo "These errors appear to be:" >> $GITHUB_STEP_SUMMARY
-              echo "- Recipe removal failures (items not found in furnace recipes)" >> $GITHUB_STEP_SUMMARY
-              echo "- MissingMethodException:  \`removeByInput()\` signature mismatch" >> $GITHUB_STEP_SUMMARY
-              echo "" >> $GITHUB_STEP_SUMMARY
-              echo "💡 These are **script errors**, not server startup failures." >> $GITHUB_STEP_SUMMARY
-              echo "The server can still run, but some recipe modifications may not work." >> $GITHUB_STEP_SUMMARY
             else
               echo "✅ No errors detected in GroovyScript logs!" >> $GITHUB_STEP_SUMMARY
             fi
@@ -226,17 +216,18 @@ jobs:
             echo "⚠️ GroovyScript log not found at ./server-data/logs/groovy_server.log" >> $GITHUB_STEP_SUMMARY
           fi
 
-
-          # Stop the server now that we've confirmed it's healthy
-          echo "Stopping server..."
-          docker stop minecraft-test
-
           # Check exit code
           EXIT_CODE=$(docker inspect minecraft-test --format='{{.State.ExitCode}}')
           if [ "$EXIT_CODE" != "0" ]; then
               echo "::error::Server exited with failure code: $EXIT_CODE"
               exit 1
           fi
+
+          set +e
+
+          # Stop the server now that we've confirmed it's healthy
+          echo "Stopping server..."
+          docker stop minecraft-test
 
           echo $(ls -A ./server-data/)
 

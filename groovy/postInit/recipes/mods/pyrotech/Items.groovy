@@ -134,7 +134,7 @@ item('pyrotech:anvil_granite').tweakRecipe(
 
 // Flint And Tinder
 item('pyrotech:flint_and_tinder').addRecipe(
-    ore('itemRawFlint'), item('pyrotech:material', 13), ore('rocks')
+    ore('getItem()Flint'), item('pyrotech:material', 13), ore('rocks')
 )
 
 // Refractory
