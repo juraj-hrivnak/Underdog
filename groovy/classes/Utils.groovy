@@ -1,5 +1,7 @@
 package classes
 
+import classes.ToolTips
+
 import com.cleanroommc.groovyscript.api.IIngredient
 import com.cleanroommc.groovyscript.helper.GroovyHelper
 import com.cleanroommc.groovyscript.helper.recipe.RecipeName
@@ -27,11 +29,11 @@ class Utils {
             input.matchingStacks.each { itemStack ->
 
                 // Replace tooltip
-                itemStack.replaceTooltip("${Colors.RED}${Formats.BOLD}(${Formats.RESET}%itemName%${Colors.RED}${Formats.BOLD})")
+                ToolTips.replaceTooltip(itemStack, "${Colors.RED}${Formats.BOLD}(${Formats.RESET}%itemName%${Colors.RED}${Formats.BOLD})")
 
                 if (GroovyHelper.isDebug()) {
                     // Add debug tooltip (Dev only)
-                    itemStack.addTooltip("Hidden & removed from " +
+                    ToolTips.addTooltip(itemStack, "Hidden & removed from " +
                             StackTraceUtils.deepSanitize(new Exception()).stackTrace[7].fileName)
                 } else {
                     // Remove from every creative tab (Production only)

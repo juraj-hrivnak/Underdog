@@ -2,6 +2,7 @@
 import classes.Colors
 import classes.Formats
 import classes.Utils
+import classes.ToolTips
 import classes.io.Replacer
 
 import com.cleanroommc.groovyscript.api.IIngredient
@@ -140,7 +141,7 @@ for (x in woodworking) {
     ItemStack rawLumber = lumber.withNbt(['raw': true])
 
     // Replacing tooltip for lumber with 'raw: true' nbt
-    rawLumber.replaceTooltip("Raw %itemName%")
+    ToolTips.replaceTooltip(rawLumber, "Raw %itemName%")
 
     // Removing default recipe for planks
     planks.removeRecipe()
