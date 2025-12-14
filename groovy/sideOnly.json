@@ -1,0 +1,7 @@
+{
+  "client": {
+    "net.minecraft.item.ItemStack": ["addInformation", "func_82840_a"]
+  },
+  "server": {
+  }
+}
