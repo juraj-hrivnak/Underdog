@@ -27,7 +27,7 @@ class ToolTips {
         if (FMLCommonHandler.instance().effectiveSide.isClient()) {
             if (itemStack.hasNbt() && !itemStack.nbt.isEmpty() && tooltip !in tooltipsToAddWithNbt) {
                 tooltipsToAddWithNbt[itemStack] = tooltip
-            } else if (tooltip ! in tooltipsToAdd) {
+            } else if (tooltip !in tooltipsToAdd) {
                 tooltipsToAdd[itemStack] = tooltip
             }
         }
