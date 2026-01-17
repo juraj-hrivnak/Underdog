@@ -240,7 +240,6 @@ jobs:
           name: groovyscript-logs
           path: ./server-data/logs/groovy_server.log
           if-no-files-found: warn
-          retention-days: 7
 
       - name: Upload server logs on failure
         if: failure()
@@ -250,7 +249,6 @@ jobs:
           path: |
             ./server-data/logs/
             ./server-data/crash-reports/
-          retention-days: 7
 
   release:
     name: Release
