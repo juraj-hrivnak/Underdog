@@ -1,6 +1,12 @@
 {
   "client": {
-    "blusunrize.immersiveengineering.common.blocks.ItemBlockIEBase": "addInformation"
+    "blusunrize.immersiveengineering.common.blocks.ItemBlockIEBase": [
+      "addInformation",
+      "func_77624_a",
+      "func_190948_a",
+      "getFontRenderer",
+      "func_82840_a"
+    ]
   },
   "server": {}
 }
