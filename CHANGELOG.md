@@ -6,8 +6,7 @@
 
 @news@{
 
-- Fluidlogged API is now included in the CurseForge manifest, so issues on startup related to it should be resolved.
-- Fixed issue on startup related to Weather2 Remastered.
+- Fixed server-side crash. It was caused by the override method in Immersive Engineering's ItemBlockIEBase, which didn't have the client-side only annotation.
 
 }
 
