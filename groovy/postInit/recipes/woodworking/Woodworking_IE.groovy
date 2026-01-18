@@ -7,6 +7,12 @@ import com.codetaylor.mc.pyrotech.modules.tech.machine.ModuleTechMachine
 import com.codetaylor.mc.pyrotech.modules.tech.machine.recipe.BrickSawmillRecipe
 import com.codetaylor.mc.pyrotech.modules.tech.machine.recipe.StoneSawmillRecipe
 
+/**
+ * THIS FILE CREATES WOODWORKING RECIPES FOR IE SEPARATELY TO MITIGATE THE SERVER-SIDE CRASH.
+ *
+ * 
+ */
+
 def treatedLumber = item('contenttweaker:treated_wood_lumber')
 def treatedPlanks = item('immersiveengineering:treated_wood')
 def treatedSlab = item('immersiveengineering:treated_wood_slab')
@@ -50,8 +56,15 @@ Replacer.replaceItemStack(treatedPlanks, treatedLumber)
     [treatedLumber, treatedLumber]
 )
 
-def woodenNail = item('contenttweaker:nail_wooden')
 def ironNail = item('contenttweaker:nail_iron')
+IIngredient sawmillBlades =
+     (item('pyrotech:sawmill_blade_stone:*')
+    | item('pyrotech:sawmill_blade_flint:*')
+    | item('pyrotech:sawmill_blade_bone:*')
+    | item('pyrotech:sawmill_blade_iron:*')
+    | item('pyrotech:sawmill_blade_gold:*')
+    | item('pyrotech:sawmill_blade_diamond:*')
+    | item('pyrotech:sawmill_blade_obsidian:*'))
 
 // Adding bonus recipe for using "raw" lumber with iron nails
 (treatedPlanks * 4).addRecipe(
