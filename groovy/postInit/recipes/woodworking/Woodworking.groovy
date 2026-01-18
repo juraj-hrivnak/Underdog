@@ -97,9 +97,6 @@ Map<ItemStack, List<ItemStack>> woodworking = [
     (item('contenttweaker:painted_wood_red_lumber')):         [null                     , item('rustic:painted_wood_red')             , null                                      , null                                          ],
     (item('contenttweaker:painted_wood_black_lumber')):       [null                     , item('rustic:painted_wood_black')           , null                                      , null                                          ],
 
-    // Immersive Engineering
-    (item('contenttweaker:treated_wood_lumber')):             [null                     , item('immersiveengineering:treated_wood')   , item('immersiveengineering:treated_wood_slab')  , null                                    ],
-
     // Pyrotech
     (item('contenttweaker:tarred_lumber')):                   [null                     , item('pyrotech:planks_tarred')              , null                                      , null                                          ],
 
