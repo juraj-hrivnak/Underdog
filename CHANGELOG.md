@@ -6,7 +6,7 @@
 
 @news@{
 
-- Fixed server-side crash. It was caused by the override method in Immersive Engineering's ItemBlockIEBase, which didn't have the client-side only annotation.
+- Fixed broken recipe for Flint & Tinder.
 
 }
 

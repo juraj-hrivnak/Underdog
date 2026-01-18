@@ -58,7 +58,7 @@ Replacer.replaceItemStack(treatedPlanks, treatedLumber)
 
 def ironNail = item('contenttweaker:nail_iron')
 IIngredient sawmillBlades =
-     (item('pyrotech:sawmill_blade_stone:*')
+    (item('pyrotech:sawmill_blade_stone:*')
     | item('pyrotech:sawmill_blade_flint:*')
     | item('pyrotech:sawmill_blade_bone:*')
     | item('pyrotech:sawmill_blade_iron:*')
@@ -102,7 +102,7 @@ ModuleTechMachine.Registries.BRICK_SAWMILL_RECIPES.groovyScript$registerEntry(
     ).setRegistryName(Utils.generateRegistryName(treatedLumber))
 )
 
-// Chest recipes - using hardcoded registry name to avoid . getItem() call
+// Chest recipes - using hardcoded registry name to avoid .getItem() call
 item('charset:chest')
     .withNbt(['wood': 'immersiveengineering:treated_wood;0'])
     .addRecipe(
