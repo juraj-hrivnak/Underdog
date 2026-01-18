@@ -1,17 +1,8 @@
 {
   "client": {
-    "net.minecraft.item.ItemStack": [
-      "getTooltip",
-      "func_82840_a",
-      "hasEffect",
-      "func_77962_s",
-      "getTextComponent",
-      "func_151000_E",
-      "addInformation",
-      "func_77624_a",
-      "func_190948_a"
-    ],
-    "net.minecraft.item.Item": ["addInformation", "func_77624_a", "func_190948_a"]
+    "blusunrize.immersiveengineering.common.blocks.ItemBlockIEBase": [
+      "addInformation"
+    ]
   },
   "server": {}
 }
