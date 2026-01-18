@@ -10,7 +10,7 @@ import com.codetaylor.mc.pyrotech.modules.tech.machine.recipe.StoneSawmillRecipe
 /**
  * THIS FILE CREATES WOODWORKING RECIPES FOR IE SEPARATELY TO MITIGATE THE SERVER-SIDE CRASH.
  *
- * 
+ *
  */
 
 def treatedLumber = item('contenttweaker:treated_wood_lumber')
