@@ -6,6 +6,7 @@
     "overrides": [
         "config",
         "groovy",
+        "!groovy/client/**",
         "local",
         "scripts",
         "structures"
@@ -13,7 +14,8 @@
     "client_overrides": [
         "resources",
         "oresources",
-        "patchouli_books"
+        "patchouli_books",
+        "groovy/client/**"
     ],
     "projects": {
         "animania": {
