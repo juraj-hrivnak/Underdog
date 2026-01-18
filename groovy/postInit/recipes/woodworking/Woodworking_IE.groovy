@@ -50,6 +50,9 @@ Replacer.replaceItemStack(treatedPlanks, treatedLumber)
     [treatedLumber, treatedLumber]
 )
 
+def woodenNail = item('contenttweaker:nail_wooden')
+def ironNail = item('contenttweaker:nail_iron')
+
 // Adding bonus recipe for using "raw" lumber with iron nails
 (treatedPlanks * 4).addRecipe(
     [rawTreatedLumber, rawTreatedLumber, ironNail],
