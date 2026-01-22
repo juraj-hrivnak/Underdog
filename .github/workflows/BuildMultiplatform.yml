@@ -41,7 +41,7 @@ jobs:
           .github/scripts/get_modpack_info.sh
 
       - name: Upload changelog
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: changelog
           path: CHANGELOG-*.md
@@ -86,7 +86,7 @@ jobs:
           java -jar ./pakku.jar --debug export
 
       - name: Upload build
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: build
           path: |
@@ -235,7 +235,7 @@ jobs:
 
       - name: Upload GroovyScript logs
         if: always()
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: groovyscript-logs
           path: ./server-data/logs/groovy_server.log
@@ -243,7 +243,7 @@ jobs:
 
       - name: Upload server logs on failure
         if: failure()
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: server-logs
           path: |
