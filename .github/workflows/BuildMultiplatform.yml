@@ -209,6 +209,9 @@ jobs:
               fi
 
               echo '```' >> $GITHUB_STEP_SUMMARY
+
+              echo "::error::GroovyScript logs contain errors or exceptions, failing the job."
+              exit 1
             else
               echo "✅ No errors detected in GroovyScript logs!" >> $GITHUB_STEP_SUMMARY
             fi
