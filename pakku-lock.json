@@ -5826,21 +5826,28 @@
             ]
         },
         {
-            "pakku_id": "s5It0s8zCHmeNEDH",
+            "pakku_id": "zThQRkVCQQltCAMs",
+            "pakku_links": [
+                "SfFD0JzF7HGQSvMg"
+            ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "mct-immersive-technology"
+                "curseforge": "mct-immersive-technology",
+                "modrinth": "mct-immersive-technology"
             },
             "name": {
-                "curseforge": "Immersive Technology"
+                "curseforge": "Immersive Technology",
+                "modrinth": "Immersive Technology"
             },
             "id": {
-                "curseforge": "359407"
+                "curseforge": "359407",
+                "modrinth": "DvaEUke2"
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "MCT-ImmersiveTechnology-1.12.2-1.10.192-release.jar",
+                    "type": "modrinth",
+                    "file_name": "MCTImmersiveTechnology-1.12.2-1.9.102.jar",
                     "mc_versions": [
                         "1.12.2"
                     ],
@@ -5848,19 +5855,39 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7752/858/MCT-ImmersiveTechnology-1.12.2-1.10.192-release.jar",
-                    "id": "7752858",
-                    "parent_id": "359407",
+                    "url": "https://cdn.modrinth.com/data/DvaEUke2/versions/kgarTyrA/MCTImmersiveTechnology-1.12.2-1.9.102.jar",
+                    "id": "kgarTyrA",
+                    "parent_id": "DvaEUke2",
                     "hashes": {
-                        "sha1": "080d6415ff76a8cf099ea26ed50c3fb90afb1280",
-                        "md5": "39cf0e38bd329c976b828db0e86454fd"
+                        "sha512": "a7c7e259a63e5d5b3b5ac76e2e750a47ccaa9877500e91a9f2db5ebdd6afb306075369f8d9ed2b457e764d544632f2c45aae5232c7f393a34a89af0466152adc",
+                        "sha1": "7dd15d79b2b1584340d16f4e38efcc23078a0c7b"
                     },
                     "required_dependencies": [
-                        "231951",
-                        "419286"
+                        "tIm2nV03"
                     ],
-                    "size": 3783641,
-                    "date_published": "2026-03-13T20:22:01.813Z"
+                    "size": 3432141,
+                    "date_published": "2024-08-01T04:45:32.225655Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "MCTImmersiveTechnology-1.12.2-1.9.102.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5108/47/MCTImmersiveTechnology-1.12.2-1.9.102.jar",
+                    "id": "5108047",
+                    "parent_id": "359407",
+                    "hashes": {
+                        "sha1": "7dd15d79b2b1584340d16f4e38efcc23078a0c7b",
+                        "md5": "ffff5e185be61553e3a9683c533e1cb7"
+                    },
+                    "required_dependencies": [],
+                    "size": 3432141,
+                    "date_published": "2024-02-14T18:24:23.933Z"
                 }
             ]
         },

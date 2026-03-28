@@ -99,6 +99,9 @@
         "realistic-block-physics": {
             "type": "MOD",
             "update_strategy": "NONE"
+        },
+        "mct-immersive-technology": {
+            "update_strategy": "NONE"
         }
     }
 }
