@@ -1,9 +1,0 @@
-{
-    "url": "https://github.com/juraj-hrivnak/Underdog/raw/22ab85e6c10707f22b53b46478858fe0111c4070/.pakku/mods/Weather2Remastered-1.12.2-2.9.9b.jar",
-    "folder": "mods",
-    "fileName": "Weather2Remastered-1.12.2-2.9.9b.jar",
-    "options": { "launchwrapperTweakerForceNext": true },
-    "installationPolicy": {
-        "description": "Required! Downloads Weather 2 Remastered from GitHub."
-    }
-}
