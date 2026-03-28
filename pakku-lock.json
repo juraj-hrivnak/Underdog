@@ -3603,6 +3603,43 @@
             ]
         },
         {
+            "pakku_id": "ruHHsrZR8XGNXBzC",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "default-options",
+                "modrinth": "default-options"
+            },
+            "name": {
+                "curseforge": "Default Options",
+                "modrinth": "Default Options"
+            },
+            "id": {
+                "curseforge": "232131",
+                "modrinth": "WEg59z5b"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "DefaultOptions_1.12.2-9.2.8.jar",
+                    "mc_versions": [
+                        "1.12.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/2624/732/DefaultOptions_1.12.2-9.2.8.jar",
+                    "id": "2624732",
+                    "parent_id": "232131",
+                    "hashes": {
+                        "sha1": "e3197fc44aa2f59897713a8889a5a56c0f8ccbf3",
+                        "md5": "5510673c0fad1e3b6617b3d97d54b3d5"
+                    },
+                    "required_dependencies": [],
+                    "size": 15056,
+                    "date_published": "2018-10-05T21:44:14.440Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "9NTElXXFU9YqKEWo",
             "type": "MOD",
             "slug": {
@@ -5844,6 +5881,7 @@
                 "curseforge": "359407",
                 "modrinth": "DvaEUke2"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "modrinth",
