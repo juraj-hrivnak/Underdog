@@ -118,6 +118,7 @@ val others as IItemStack[][IEntityDefinition] = {
     <entity:horse_colors:mule>                  : [<minecraft:bone> * 4, <pyrotech:pelt_horse>, <animania:raw_horse> * 4 ],
     <entity:minecraft:bat>                      : [<pyrotech:pelt_bat>],
     <entity:mocreatures:deer>                   : [<minecraft:bone> * 3, <mocreatures:venisonraw>],
+    <entity:mocreatures:boar>                   : [<minecraft:bone> * 3, <minecraft:porkchop>],
 };
 
 val sheepPelts as IItemStack[IItemStack] = {

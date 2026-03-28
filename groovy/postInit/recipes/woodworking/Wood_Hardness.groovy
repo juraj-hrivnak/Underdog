@@ -111,6 +111,12 @@ def jeiCatWrappers = []
         oredicts[3].add(firewood)
         ore('firewood').add(firewood)
 
+        // Crusher
+        mods.mekanism.crusher.add(log, firewood * 4)
+
+        // Crusher
+        mods.immersiveengineering.crusher.add(firewood * 8, log, 60)
+
         // JEI Category
         Splitting.recipes << new SplittingRecipe(log, firewood * 6, item('minecraft:flint'), item('pyrotech:material', 10))
         Splitting.recipes << new SplittingRecipe(log, firewood * 6, item('contenttweaker:splitting_wedge'))
