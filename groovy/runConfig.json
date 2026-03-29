@@ -22,8 +22,17 @@
             "postInit/recipes/mods",
             "postInit/",
             "postInit/generated",
+            "postInit/packmodes",
             "postInit/zsToGroovy",
             "client/"
         ]
+    },
+    "packmode": {
+        "values": [
+            "peaceful",
+            "hostile"
+        ],
+        "default": "peaceful",
+        "integratePackmodeMod": false
     }
 }
