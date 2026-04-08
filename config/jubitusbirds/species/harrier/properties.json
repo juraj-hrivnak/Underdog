@@ -1,0 +1,155 @@
+{
+  "name": "Harrier (Marsh Harrier)",
+  "enabled": true,
+  "spawnWeight": 0.32,
+  "birdsPerCellMax": 1,
+  "flockChancePerCell": 0.06,
+  "flockMin": 1,
+  "flockMax": 2,
+  "bigFlockChanceDay": 0.0,
+  "bigFlockChanceNight": 0.0,
+  "bigFlockMin": 2,
+  "bigFlockMax": 3,
+  "biomeWhitelist": [],
+  "biomeBlacklist": [],
+  "canSpawnAtDay": true,
+  "canSpawnAtNight": false,
+  "minSpeed": 0.34,
+  "maxSpeed": 0.62,
+  "maxTurnDegPerTick": 4.0,
+  "noiseStrength": 0.028,
+  "minAltitudeAboveGround": 18.0,
+  "maxAltitudeAboveGround": 95.0,
+  "preferredAboveGround": 55.0,
+  "verticalAdjustStrength": 0.004,
+  "glideMinTicks": 60,
+  "glideMaxTicks": 140,
+  "circleMinTicks": 80,
+  "circleMaxTicks": 220,
+  "circleRadiusMin": 16.0,
+  "circleRadiusMax": 64.0,
+  "patternWeightGlide": 0.62,
+  "patternWeightCircle": 0.38,
+  "scale": 0.66,
+  "flapAmplitude": 0.05,
+  "flapSpeed": 0.24,
+  "day": {
+    "spawnWeight": 1.0,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 1.0,
+    "soundMul": 0.75
+  },
+  "night": {
+    "spawnWeight": 1.0,
+    "minSpeed": 0.35,
+    "maxSpeed": 0.6,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 0.0,
+    "soundMul": 0.0
+  },
+  "silhouette": {
+    "alphaThreshold": 12,
+    "smoothRadius": 0,
+    "densityPow": 1.5,
+    "bellPow": 1.0,
+    "thickGain": 0.4,
+    "coreWidthFact": 0.2,
+    "coreThickFact": 0.8,
+    "ringCount": 7
+  },
+  "biomeRules": {
+    "temperatureCategoryWhitelist": [
+      "MEDIUM",
+      "WARM"
+    ],
+    "biomeManagerTypeWhitelist": [],
+    "biomeDictionaryWhitelist": [
+      "SWAMP",
+      "WET",
+      "WATER",
+      "RIVER",
+      "PLAINS"
+    ],
+    "biomeDictionaryBlacklist": [
+      "NETHER",
+      "END",
+      "VOID",
+      "MOUNTAIN"
+    ]
+  },
+  "spawning": {
+    "maxAroundPlayer": 3,
+    "cooldownAfterSpawnTicks": 700,
+    "minSpawnDistanceFromPlayer": 180.0,
+    "maxSpawnDistanceFromPlayer": 460.0,
+    "requiresSkyVisible": true,
+    "minY": 62,
+    "maxY": 210
+  },
+  "rainSpawnMul": 0.12,
+  "stormSpawnMul": 0.05,
+  "rainSoundMul": 0.25,
+  "stormSoundMul": 0.14,
+  "flocking": {
+    "neighborRadius": 52.0,
+    "separationRadius": 8.0,
+    "cohesionWeight": 0.9,
+    "alignmentWeight": 0.9,
+    "separationWeight": 0.65,
+    "maxForce": 0.085
+  },
+  "movement": {
+    "modeWeights": {
+      "GLIDE": 0.52,
+      "CIRCLE": 0.16,
+      "SOAR": 0.22,
+      "DIVE": 0.1
+    },
+    "soar": {
+      "thermalStrength": 0.05,
+      "circleRadiusMin": 28.0,
+      "circleRadiusMax": 100.0,
+      "climbRate": 0.04,
+      "maxTicks": 260
+    },
+    "dive": {
+      "diveChance": 0.16,
+      "diveSpeedMul": 1.42,
+      "pullUpHeight": 20.0,
+      "maxTicks": 55
+    }
+  },
+  "variation": {
+    "scaleJitter": 0.06,
+    "speedJitter": 0.08,
+    "flapAmpJitter": 0.14,
+    "flapSpeedJitter": 0.12,
+    "callPitchJitter": 0.04
+  },
+  "soundsEnabled": true,
+  "soundSingle": {
+    "soundPitch": 0.95,
+    "soundVolume": 0.7,
+    "soundBaseIntervalTicks": 820,
+    "soundRandomness": 0.55,
+    "soundMaxDistance": 170.0,
+    "soundFadeStart": 50.0,
+    "soundFadePower": 1.8,
+    "soundPitchVariation": 0.03
+  },
+  "soundFlock": {
+    "soundPitch": 0.95,
+    "soundVolume": 0.62,
+    "soundBaseIntervalTicks": 860,
+    "soundRandomness": 0.6,
+    "soundMaxDistance": 190.0,
+    "soundFadeStart": 56.0,
+    "soundFadePower": 1.9,
+    "soundPitchVariation": 0.03
+  },
+  "soundAntiSpam": {
+    "maxCallsPerRadius": 1,
+    "callRadiusBlocks": 100.0,
+    "callCooldownTicks": 190
+  }
+}

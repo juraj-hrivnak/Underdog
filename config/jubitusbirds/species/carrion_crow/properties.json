@@ -1,0 +1,154 @@
+{
+  "name": "Carrion Crow",
+  "enabled": true,
+  "spawnWeight": 0.9,
+  "birdsPerCellMax": 3,
+  "flockChancePerCell": 0.3,
+  "flockMin": 2,
+  "flockMax": 6,
+  "bigFlockChanceDay": 0.05,
+  "bigFlockChanceNight": 0.02,
+  "bigFlockMin": 8,
+  "bigFlockMax": 18,
+  "biomeWhitelist": [],
+  "biomeBlacklist": [],
+  "canSpawnAtDay": true,
+  "canSpawnAtNight": true,
+  "minSpeed": 0.34,
+  "maxSpeed": 0.56,
+  "maxTurnDegPerTick": 4.0,
+  "noiseStrength": 0.035,
+  "minAltitudeAboveGround": 16.0,
+  "maxAltitudeAboveGround": 80.0,
+  "preferredAboveGround": 42.0,
+  "verticalAdjustStrength": 0.004,
+  "glideMinTicks": 60,
+  "glideMaxTicks": 140,
+  "circleMinTicks": 80,
+  "circleMaxTicks": 220,
+  "circleRadiusMin": 16.0,
+  "circleRadiusMax": 64.0,
+  "patternWeightGlide": 0.58,
+  "patternWeightCircle": 0.42,
+  "scale": 0.48,
+  "flapAmplitude": 0.07,
+  "flapSpeed": 0.3,
+  "day": {
+    "spawnWeight": 1.0,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 1.0,
+    "soundMul": 1.0
+  },
+  "night": {
+    "spawnWeight": 1.0,
+    "minSpeed": 0.35,
+    "maxSpeed": 0.6,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 0.25,
+    "soundMul": 0.35
+  },
+  "silhouette": {
+    "alphaThreshold": 12,
+    "smoothRadius": 1,
+    "densityPow": 1.8,
+    "bellPow": 1.2,
+    "thickGain": 0.48,
+    "coreWidthFact": 0.4,
+    "coreThickFact": 0.8,
+    "ringCount": 7
+  },
+  "biomeRules": {
+    "temperatureCategoryWhitelist": [
+      "MEDIUM",
+      "WARM",
+      "COLD"
+    ],
+    "biomeManagerTypeWhitelist": [],
+    "biomeDictionaryWhitelist": [
+      "PLAINS",
+      "FOREST",
+      "HILLS",
+      "MOUNTAIN"
+    ],
+    "biomeDictionaryBlacklist": [
+      "NETHER",
+      "END",
+      "VOID"
+    ]
+  },
+  "spawning": {
+    "maxAroundPlayer": 6,
+    "cooldownAfterSpawnTicks": 360,
+    "minSpawnDistanceFromPlayer": 140.0,
+    "maxSpawnDistanceFromPlayer": 360.0,
+    "requiresSkyVisible": true,
+    "minY": 62,
+    "maxY": 200
+  },
+  "rainSpawnMul": 0.35,
+  "stormSpawnMul": 0.18,
+  "rainSoundMul": 0.55,
+  "stormSoundMul": 0.3,
+  "flocking": {
+    "neighborRadius": 40.0,
+    "separationRadius": 6.5,
+    "cohesionWeight": 1.1,
+    "alignmentWeight": 0.95,
+    "separationWeight": 0.75,
+    "maxForce": 0.1
+  },
+  "movement": {
+    "modeWeights": {
+      "GLIDE": 0.6,
+      "CIRCLE": 0.3,
+      "SOAR": 0.08,
+      "DIVE": 0.02
+    },
+    "soar": {
+      "thermalStrength": 0.03,
+      "circleRadiusMin": 20.0,
+      "circleRadiusMax": 64.0,
+      "climbRate": 0.028,
+      "maxTicks": 170
+    },
+    "dive": {
+      "diveChance": 0.05,
+      "diveSpeedMul": 1.2,
+      "pullUpHeight": 14.0,
+      "maxTicks": 35
+    }
+  },
+  "variation": {
+    "scaleJitter": 0.08,
+    "speedJitter": 0.08,
+    "flapAmpJitter": 0.15,
+    "flapSpeedJitter": 0.12,
+    "callPitchJitter": 0.05
+  },
+  "soundsEnabled": true,
+  "soundSingle": {
+    "soundPitch": 0.92,
+    "soundVolume": 0.85,
+    "soundBaseIntervalTicks": 320,
+    "soundRandomness": 0.55,
+    "soundMaxDistance": 140.0,
+    "soundFadeStart": 36.0,
+    "soundFadePower": 1.55,
+    "soundPitchVariation": 0.04
+  },
+  "soundFlock": {
+    "soundPitch": 0.92,
+    "soundVolume": 0.78,
+    "soundBaseIntervalTicks": 320,
+    "soundRandomness": 0.6,
+    "soundMaxDistance": 160.0,
+    "soundFadeStart": 44.0,
+    "soundFadePower": 1.65,
+    "soundPitchVariation": 0.05
+  },
+  "soundAntiSpam": {
+    "maxCallsPerRadius": 2,
+    "callRadiusBlocks": 80.0,
+    "callCooldownTicks": 120
+  }
+}

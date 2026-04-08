@@ -1,0 +1,158 @@
+{
+  "name": "Red-tailed Hawk",
+  "enabled": true,
+  "spawnWeight": 0.35,
+  "birdsPerCellMax": 1,
+  "flockChancePerCell": 0.08,
+  "flockMin": 1,
+  "flockMax": 3,
+  "bigFlockChanceDay": 0.0,
+  "bigFlockChanceNight": 0.0,
+  "bigFlockMin": 3,
+  "bigFlockMax": 4,
+  "biomeWhitelist": [],
+  "biomeBlacklist": [],
+  "biomeRules": {
+    "temperatureMin": null,
+    "temperatureMax": null,
+    "temperatureCategoryWhitelist": [
+      "MEDIUM",
+      "WARM",
+      "COLD"
+    ],
+    "requiresRain": null,
+    "requiresSnow": null,
+    "requiresOceanic": null,
+    "biomeManagerTypeWhitelist": [],
+    "biomeDictionaryWhitelist": [
+      "PLAINS",
+      "HILLS",
+      "FOREST",
+      "SPARSE",
+      "MOUNTAIN"
+    ],
+    "biomeDictionaryBlacklist": [
+      "NETHER",
+      "END",
+      "VOID",
+      "JUNGLE",
+      "SWAMP",
+      "OCEAN",
+      "WATER"
+    ]
+  },
+  "canSpawnAtDay": true,
+  "canSpawnAtNight": false,
+  "spawning": {
+    "maxAroundPlayer": 3,
+    "cooldownAfterSpawnTicks": 700,
+    "minSpawnDistanceFromPlayer": 200.0,
+    "maxSpawnDistanceFromPlayer": 500.0,
+    "requiresSkyVisible": true,
+    "minY": 70,
+    "maxY": 255
+  },
+  "day": {
+    "spawnMul": 1.0,
+    "soundMul": 0.9
+  },
+  "night": {
+    "spawnMul": 0.0,
+    "soundMul": 0.0
+  },
+  "rainSpawnMul": 0.2,
+  "stormSpawnMul": 0.07,
+  "rainSoundMul": 0.3,
+  "stormSoundMul": 0.18,
+  "minSpeed": 0.38,
+  "maxSpeed": 0.7,
+  "maxTurnDegPerTick": 3.4,
+  "noiseStrength": 0.02,
+  "minAltitudeAboveGround": 40.0,
+  "maxAltitudeAboveGround": 140.0,
+  "preferredAboveGround": 85.0,
+  "verticalAdjustStrength": 0.0034,
+  "glideMinTicks": 60,
+  "glideMaxTicks": 140,
+  "circleMinTicks": 80,
+  "circleMaxTicks": 220,
+  "circleRadiusMin": 16.0,
+  "circleRadiusMax": 64.0,
+  "patternWeightGlide": 0.5,
+  "patternWeightCircle": 0.5,
+  "flocking": {
+    "neighborRadius": 56.0,
+    "separationRadius": 9.0,
+    "cohesionWeight": 0.9,
+    "alignmentWeight": 0.9,
+    "separationWeight": 0.7,
+    "maxForce": 0.085
+  },
+  "movement": {
+    "modeWeights": {
+      "GLIDE": 0.4,
+      "CIRCLE": 0.2,
+      "SOAR": 0.28,
+      "DIVE": 0.12
+    },
+    "soar": {
+      "thermalStrength": 0.06,
+      "circleRadiusMin": 30.0,
+      "circleRadiusMax": 120.0,
+      "climbRate": 0.05,
+      "maxTicks": 320
+    },
+    "dive": {
+      "diveChance": 0.2,
+      "diveSpeedMul": 1.5,
+      "pullUpHeight": 24.0,
+      "maxTicks": 65
+    }
+  },
+  "variation": {
+    "scaleJitter": 0.05,
+    "speedJitter": 0.08,
+    "flapAmpJitter": 0.14,
+    "flapSpeedJitter": 0.12,
+    "callPitchJitter": 0.04
+  },
+  "scale": 0.7,
+  "flapAmplitude": 0.05,
+  "flapSpeed": 0.22,
+  "soundsEnabled": true,
+  "soundSingle": {
+    "soundPitch": 0.9,
+    "soundVolume": 0.85,
+    "soundBaseIntervalTicks": 780,
+    "soundRandomness": 0.55,
+    "soundMaxDistance": 200.0,
+    "soundFadeStart": 60.0,
+    "soundFadePower": 1.9,
+    "soundPitchVariation": 0.03
+  },
+  "soundFlock": {
+    "soundPitch": 0.9,
+    "soundVolume": 0.75,
+    "soundBaseIntervalTicks": 820,
+    "soundRandomness": 0.6,
+    "soundMaxDistance": 220.0,
+    "soundFadeStart": 70.0,
+    "soundFadePower": 2.0,
+    "soundPitchVariation": 0.03
+  },
+  "soundAntiSpam": {
+    "maxCallsPerRadius": 1,
+    "callRadiusBlocks": 110.0,
+    "callCooldownTicks": 200
+  },
+  "silhouette": {
+    "alphaThreshold": 12,
+    "smoothRadius": 1,
+    "densityPow": 1.8,
+    "bellPow": 1.2,
+    "thickGain": 0.48,
+    "coreWidthFact": 0.4,
+    "coreThickFact": 0.8,
+    "ringCount": 7
+  }
+}

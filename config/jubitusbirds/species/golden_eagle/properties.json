@@ -1,0 +1,156 @@
+{
+  "name": "Golden Eagle",
+  "enabled": true,
+  "spawnWeight": 0.18,
+  "birdsPerCellMax": 1,
+  "flockChancePerCell": 0.05,
+  "flockMin": 1,
+  "flockMax": 2,
+  "bigFlockChanceDay": 0.0,
+  "bigFlockChanceNight": 0.0,
+  "bigFlockMin": 2,
+  "bigFlockMax": 3,
+  "biomeWhitelist": [],
+  "biomeBlacklist": [],
+  "canSpawnAtDay": true,
+  "canSpawnAtNight": false,
+  "minSpeed": 0.4,
+  "maxSpeed": 0.72,
+  "maxTurnDegPerTick": 3.0,
+  "noiseStrength": 0.018,
+  "minAltitudeAboveGround": 55.0,
+  "maxAltitudeAboveGround": 170.0,
+  "preferredAboveGround": 110.0,
+  "verticalAdjustStrength": 0.003,
+  "glideMinTicks": 60,
+  "glideMaxTicks": 140,
+  "circleMinTicks": 80,
+  "circleMaxTicks": 220,
+  "circleRadiusMin": 16.0,
+  "circleRadiusMax": 64.0,
+  "patternWeightGlide": 0.45,
+  "patternWeightCircle": 0.55,
+  "scale": 0.82,
+  "flapAmplitude": 0.05,
+  "flapSpeed": 0.18,
+  "day": {
+    "spawnWeight": 1.0,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 1.0,
+    "soundMul": 0.8
+  },
+  "night": {
+    "spawnWeight": 1.0,
+    "minSpeed": 0.35,
+    "maxSpeed": 0.6,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 0.0,
+    "soundMul": 0.0
+  },
+  "silhouette": {
+    "alphaThreshold": 12,
+    "smoothRadius": 1,
+    "densityPow": 1.8,
+    "bellPow": 1.2,
+    "thickGain": 0.48,
+    "coreWidthFact": 0.4,
+    "coreThickFact": 0.8,
+    "ringCount": 7
+  },
+  "biomeRules": {
+    "temperatureCategoryWhitelist": [
+      "COLD",
+      "MEDIUM"
+    ],
+    "biomeManagerTypeWhitelist": [],
+    "biomeDictionaryWhitelist": [
+      "MOUNTAIN",
+      "HILLS",
+      "STEEP",
+      "COLD",
+      "CO"
+    ],
+    "biomeDictionaryBlacklist": [
+      "NETHER",
+      "END",
+      "VOID",
+      "JUNGLE",
+      "SWAMP"
+    ]
+  },
+  "spawning": {
+    "maxAroundPlayer": 2,
+    "cooldownAfterSpawnTicks": 900,
+    "minSpawnDistanceFromPlayer": 220.0,
+    "maxSpawnDistanceFromPlayer": 520.0,
+    "requiresSkyVisible": true,
+    "minY": 90,
+    "maxY": 255
+  },
+  "rainSpawnMul": 0.18,
+  "stormSpawnMul": 0.06,
+  "rainSoundMul": 0.3,
+  "stormSoundMul": 0.16,
+  "flocking": {
+    "neighborRadius": 64.0,
+    "separationRadius": 10.0,
+    "cohesionWeight": 0.85,
+    "alignmentWeight": 0.85,
+    "separationWeight": 0.65,
+    "maxForce": 0.08
+  },
+  "movement": {
+    "modeWeights": {
+      "GLIDE": 0.36,
+      "CIRCLE": 0.24,
+      "SOAR": 0.3,
+      "DIVE": 0.1
+    },
+    "soar": {
+      "thermalStrength": 0.07,
+      "circleRadiusMin": 34.0,
+      "circleRadiusMax": 140.0,
+      "climbRate": 0.055,
+      "maxTicks": 360
+    },
+    "dive": {
+      "diveChance": 0.18,
+      "diveSpeedMul": 1.55,
+      "pullUpHeight": 28.0,
+      "maxTicks": 70
+    }
+  },
+  "variation": {
+    "scaleJitter": 0.05,
+    "speedJitter": 0.08,
+    "flapAmpJitter": 0.12,
+    "flapSpeedJitter": 0.1,
+    "callPitchJitter": 0.03
+  },
+  "soundsEnabled": true,
+  "soundSingle": {
+    "soundPitch": 0.82,
+    "soundVolume": 0.8,
+    "soundBaseIntervalTicks": 900,
+    "soundRandomness": 0.5,
+    "soundMaxDistance": 220.0,
+    "soundFadeStart": 70.0,
+    "soundFadePower": 2.0,
+    "soundPitchVariation": 0.03
+  },
+  "soundFlock": {
+    "soundPitch": 0.82,
+    "soundVolume": 0.7,
+    "soundBaseIntervalTicks": 1000,
+    "soundRandomness": 0.55,
+    "soundMaxDistance": 240.0,
+    "soundFadeStart": 80.0,
+    "soundFadePower": 2.1,
+    "soundPitchVariation": 0.03
+  },
+  "soundAntiSpam": {
+    "maxCallsPerRadius": 1,
+    "callRadiusBlocks": 120.0,
+    "callCooldownTicks": 220
+  }
+}

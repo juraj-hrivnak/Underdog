@@ -1,0 +1,155 @@
+{
+  "name": "Frigatebird",
+  "enabled": true,
+  "spawnWeight": 0.18,
+  "birdsPerCellMax": 2,
+  "flockChancePerCell": 0.5,
+  "flockMin": 4,
+  "flockMax": 14,
+  "bigFlockChanceDay": 0.18,
+  "bigFlockChanceNight": 0.0,
+  "bigFlockMin": 16,
+  "bigFlockMax": 40,
+  "biomeWhitelist": [],
+  "biomeBlacklist": [],
+  "biomeRules": {
+    "temperatureMin": null,
+    "temperatureMax": null,
+    "temperatureCategoryWhitelist": [
+      "WARM",
+      "OCEAN"
+    ],
+    "requiresRain": null,
+    "requiresSnow": null,
+    "requiresOceanic": null,
+    "biomeManagerTypeWhitelist": [],
+    "biomeDictionaryWhitelist": [
+      "OCEAN",
+      "WATER",
+      "BEACH",
+      "HOT",
+      "WET"
+    ],
+    "biomeDictionaryBlacklist": [
+      "NETHER",
+      "END",
+      "VOID",
+      "SNOWY",
+      "COLD"
+    ]
+  },
+  "canSpawnAtDay": true,
+  "canSpawnAtNight": false,
+  "spawning": {
+    "maxAroundPlayer": 8,
+    "cooldownAfterSpawnTicks": 520,
+    "minSpawnDistanceFromPlayer": 220.0,
+    "maxSpawnDistanceFromPlayer": 560.0,
+    "requiresSkyVisible": true,
+    "minY": 90,
+    "maxY": 255
+  },
+  "day": {
+    "spawnMul": 1.0,
+    "soundMul": 0.8
+  },
+  "night": {
+    "spawnMul": 0.0,
+    "soundMul": 0.0
+  },
+  "rainSpawnMul": 0.1,
+  "stormSpawnMul": 0.03,
+  "rainSoundMul": 0.18,
+  "stormSoundMul": 0.1,
+  "minSpeed": 0.44,
+  "maxSpeed": 0.78,
+  "maxTurnDegPerTick": 3.2,
+  "noiseStrength": 0.02,
+  "minAltitudeAboveGround": 60.0,
+  "maxAltitudeAboveGround": 190.0,
+  "preferredAboveGround": 120.0,
+  "verticalAdjustStrength": 0.003,
+  "glideMinTicks": 60,
+  "glideMaxTicks": 140,
+  "circleMinTicks": 80,
+  "circleMaxTicks": 220,
+  "circleRadiusMin": 16.0,
+  "circleRadiusMax": 64.0,
+  "patternWeightGlide": 0.4,
+  "patternWeightCircle": 0.6,
+  "flocking": {
+    "neighborRadius": 60.0,
+    "separationRadius": 7.5,
+    "cohesionWeight": 1.2,
+    "alignmentWeight": 1.1,
+    "separationWeight": 0.7,
+    "maxForce": 0.1
+  },
+  "movement": {
+    "modeWeights": {
+      "GLIDE": 0.32,
+      "CIRCLE": 0.2,
+      "SOAR": 0.42,
+      "DIVE": 0.06
+    },
+    "soar": {
+      "thermalStrength": 0.075,
+      "circleRadiusMin": 34.0,
+      "circleRadiusMax": 150.0,
+      "climbRate": 0.055,
+      "maxTicks": 380
+    },
+    "dive": {
+      "diveChance": 0.08,
+      "diveSpeedMul": 1.35,
+      "pullUpHeight": 24.0,
+      "maxTicks": 60
+    }
+  },
+  "variation": {
+    "scaleJitter": 0.05,
+    "speedJitter": 0.08,
+    "flapAmpJitter": 0.1,
+    "flapSpeedJitter": 0.1,
+    "callPitchJitter": 0.04
+  },
+  "scale": 0.78,
+  "flapAmplitude": 0.045,
+  "flapSpeed": 0.2,
+  "soundsEnabled": true,
+  "soundSingle": {
+    "soundPitch": 0.95,
+    "soundVolume": 0.7,
+    "soundBaseIntervalTicks": 900,
+    "soundRandomness": 0.6,
+    "soundMaxDistance": 220.0,
+    "soundFadeStart": 70.0,
+    "soundFadePower": 2.0,
+    "soundPitchVariation": 0.04
+  },
+  "soundFlock": {
+    "soundPitch": 0.95,
+    "soundVolume": 0.62,
+    "soundBaseIntervalTicks": 820,
+    "soundRandomness": 0.65,
+    "soundMaxDistance": 260.0,
+    "soundFadeStart": 80.0,
+    "soundFadePower": 2.1,
+    "soundPitchVariation": 0.05
+  },
+  "soundAntiSpam": {
+    "maxCallsPerRadius": 2,
+    "callRadiusBlocks": 120.0,
+    "callCooldownTicks": 170
+  },
+  "silhouette": {
+    "alphaThreshold": 12,
+    "smoothRadius": 1,
+    "densityPow": 1.8,
+    "bellPow": 1.2,
+    "thickGain": 0.48,
+    "coreWidthFact": 0.4,
+    "coreThickFact": 0.8,
+    "ringCount": 7
+  }
+}

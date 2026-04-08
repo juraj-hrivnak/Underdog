@@ -1,0 +1,156 @@
+{
+  "name": "Kestrel",
+  "enabled": true,
+  "spawnWeight": 0.4,
+  "birdsPerCellMax": 1,
+  "flockChancePerCell": 0.1,
+  "flockMin": 1,
+  "flockMax": 3,
+  "bigFlockChanceDay": 0.0,
+  "bigFlockChanceNight": 0.0,
+  "bigFlockMin": 3,
+  "bigFlockMax": 4,
+  "biomeWhitelist": [],
+  "biomeBlacklist": [],
+  "canSpawnAtDay": true,
+  "canSpawnAtNight": false,
+  "minSpeed": 0.4,
+  "maxSpeed": 0.74,
+  "maxTurnDegPerTick": 4.2,
+  "noiseStrength": 0.022,
+  "minAltitudeAboveGround": 26.0,
+  "maxAltitudeAboveGround": 120.0,
+  "preferredAboveGround": 70.0,
+  "verticalAdjustStrength": 0.0038,
+  "glideMinTicks": 60,
+  "glideMaxTicks": 140,
+  "circleMinTicks": 80,
+  "circleMaxTicks": 220,
+  "circleRadiusMin": 16.0,
+  "circleRadiusMax": 64.0,
+  "patternWeightGlide": 0.58,
+  "patternWeightCircle": 0.42,
+  "scale": 0.56,
+  "flapAmplitude": 0.055,
+  "flapSpeed": 0.26,
+  "day": {
+    "spawnWeight": 1.0,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 1.0,
+    "soundMul": 0.8
+  },
+  "night": {
+    "spawnWeight": 1.0,
+    "minSpeed": 0.35,
+    "maxSpeed": 0.6,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 0.0,
+    "soundMul": 0.0
+  },
+  "silhouette": {
+    "alphaThreshold": 12,
+    "smoothRadius": 1,
+    "densityPow": 1.8,
+    "bellPow": 1.2,
+    "thickGain": 0.6,
+    "coreWidthFact": 0.2,
+    "coreThickFact": 0.8,
+    "ringCount": 7
+  },
+  "biomeRules": {
+    "temperatureCategoryWhitelist": [
+      "MEDIUM",
+      "WARM",
+      "COLD"
+    ],
+    "biomeManagerTypeWhitelist": [],
+    "biomeDictionaryWhitelist": [
+      "PLAINS",
+      "SPARSE",
+      "HILLS",
+      "SAVANNA"
+    ],
+    "biomeDictionaryBlacklist": [
+      "NETHER",
+      "END",
+      "VOID",
+      "OCEAN",
+      "WATER"
+    ]
+  },
+  "spawning": {
+    "maxAroundPlayer": 3,
+    "cooldownAfterSpawnTicks": 620,
+    "minSpawnDistanceFromPlayer": 190.0,
+    "maxSpawnDistanceFromPlayer": 470.0,
+    "requiresSkyVisible": true,
+    "minY": 70,
+    "maxY": 240
+  },
+  "rainSpawnMul": 0.18,
+  "stormSpawnMul": 0.06,
+  "rainSoundMul": 0.28,
+  "stormSoundMul": 0.16,
+  "flocking": {
+    "neighborRadius": 54.0,
+    "separationRadius": 8.5,
+    "cohesionWeight": 0.95,
+    "alignmentWeight": 0.95,
+    "separationWeight": 0.7,
+    "maxForce": 0.09
+  },
+  "movement": {
+    "modeWeights": {
+      "GLIDE": 0.46,
+      "CIRCLE": 0.18,
+      "SOAR": 0.22,
+      "DIVE": 0.14
+    },
+    "soar": {
+      "thermalStrength": 0.055,
+      "circleRadiusMin": 26.0,
+      "circleRadiusMax": 110.0,
+      "climbRate": 0.045,
+      "maxTicks": 280
+    },
+    "dive": {
+      "diveChance": 0.22,
+      "diveSpeedMul": 1.55,
+      "pullUpHeight": 22.0,
+      "maxTicks": 60
+    }
+  },
+  "variation": {
+    "scaleJitter": 0.06,
+    "speedJitter": 0.09,
+    "flapAmpJitter": 0.16,
+    "flapSpeedJitter": 0.14,
+    "callPitchJitter": 0.04
+  },
+  "soundsEnabled": true,
+  "soundSingle": {
+    "soundPitch": 0.98,
+    "soundVolume": 0.75,
+    "soundBaseIntervalTicks": 760,
+    "soundRandomness": 0.58,
+    "soundMaxDistance": 165.0,
+    "soundFadeStart": 48.0,
+    "soundFadePower": 1.75,
+    "soundPitchVariation": 0.03
+  },
+  "soundFlock": {
+    "soundPitch": 0.98,
+    "soundVolume": 0.65,
+    "soundBaseIntervalTicks": 820,
+    "soundRandomness": 0.6,
+    "soundMaxDistance": 180.0,
+    "soundFadeStart": 54.0,
+    "soundFadePower": 1.85,
+    "soundPitchVariation": 0.03
+  },
+  "soundAntiSpam": {
+    "maxCallsPerRadius": 1,
+    "callRadiusBlocks": 100.0,
+    "callCooldownTicks": 180
+  }
+}

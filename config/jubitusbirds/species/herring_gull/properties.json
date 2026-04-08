@@ -1,0 +1,155 @@
+{
+  "name": "Herring Gull",
+  "enabled": true,
+  "spawnWeight": 1.05,
+  "birdsPerCellMax": 4,
+  "flockChancePerCell": 0.55,
+  "flockMin": 4,
+  "flockMax": 14,
+  "bigFlockChanceDay": 0.22,
+  "bigFlockChanceNight": 0.0,
+  "bigFlockMin": 16,
+  "bigFlockMax": 45,
+  "biomeWhitelist": [],
+  "biomeBlacklist": [],
+  "canSpawnAtDay": true,
+  "canSpawnAtNight": false,
+  "minSpeed": 0.36,
+  "maxSpeed": 0.62,
+  "maxTurnDegPerTick": 4.2,
+  "noiseStrength": 0.03,
+  "minAltitudeAboveGround": 16.0,
+  "maxAltitudeAboveGround": 95.0,
+  "preferredAboveGround": 55.0,
+  "verticalAdjustStrength": 0.004,
+  "glideMinTicks": 60,
+  "glideMaxTicks": 140,
+  "circleMinTicks": 80,
+  "circleMaxTicks": 220,
+  "circleRadiusMin": 16.0,
+  "circleRadiusMax": 64.0,
+  "patternWeightGlide": 0.55,
+  "patternWeightCircle": 0.45,
+  "scale": 0.62,
+  "flapAmplitude": 0.055,
+  "flapSpeed": 0.26,
+  "day": {
+    "spawnWeight": 1.0,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 1.0,
+    "soundMul": 1.1
+  },
+  "night": {
+    "spawnWeight": 1.0,
+    "minSpeed": 0.35,
+    "maxSpeed": 0.6,
+    "preferredAboveGround": 48.0,
+    "spawnMul": 0.0,
+    "soundMul": 0.0
+  },
+  "silhouette": {
+    "alphaThreshold": 12,
+    "smoothRadius": 0,
+    "densityPow": 1.8,
+    "bellPow": 1.2,
+    "thickGain": 0.48,
+    "coreWidthFact": 0.01,
+    "coreThickFact": 0.8,
+    "ringCount": 7
+  },
+  "biomeRules": {
+    "temperatureCategoryWhitelist": [
+      "OCEAN",
+      "MEDIUM",
+      "COLD"
+    ],
+    "biomeManagerTypeWhitelist": [],
+    "biomeDictionaryWhitelist": [
+      "BEACH",
+      "OCEAN",
+      "WATER",
+      "RIVER",
+      "WET"
+    ],
+    "biomeDictionaryBlacklist": [
+      "NETHER",
+      "END",
+      "VOID"
+    ]
+  },
+  "spawning": {
+    "maxAroundPlayer": 10,
+    "cooldownAfterSpawnTicks": 240,
+    "minSpawnDistanceFromPlayer": 140.0,
+    "maxSpawnDistanceFromPlayer": 420.0,
+    "requiresSkyVisible": true,
+    "minY": 62,
+    "maxY": 220
+  },
+  "rainSpawnMul": 0.28,
+  "stormSpawnMul": 0.1,
+  "rainSoundMul": 0.55,
+  "stormSoundMul": 0.3,
+  "flocking": {
+    "neighborRadius": 48.0,
+    "separationRadius": 6.0,
+    "cohesionWeight": 1.25,
+    "alignmentWeight": 1.05,
+    "separationWeight": 0.75,
+    "maxForce": 0.11
+  },
+  "movement": {
+    "modeWeights": {
+      "GLIDE": 0.54,
+      "CIRCLE": 0.26,
+      "SOAR": 0.16,
+      "DIVE": 0.04
+    },
+    "soar": {
+      "thermalStrength": 0.045,
+      "circleRadiusMin": 26.0,
+      "circleRadiusMax": 110.0,
+      "climbRate": 0.04,
+      "maxTicks": 260
+    },
+    "dive": {
+      "diveChance": 0.1,
+      "diveSpeedMul": 1.3,
+      "pullUpHeight": 18.0,
+      "maxTicks": 50
+    }
+  },
+  "variation": {
+    "scaleJitter": 0.07,
+    "speedJitter": 0.08,
+    "flapAmpJitter": 0.14,
+    "flapSpeedJitter": 0.12,
+    "callPitchJitter": 0.05
+  },
+  "soundsEnabled": true,
+  "soundSingle": {
+    "soundPitch": 0.98,
+    "soundVolume": 0.95,
+    "soundBaseIntervalTicks": 420,
+    "soundRandomness": 0.62,
+    "soundMaxDistance": 200.0,
+    "soundFadeStart": 60.0,
+    "soundFadePower": 1.8,
+    "soundPitchVariation": 0.05
+  },
+  "soundFlock": {
+    "soundPitch": 0.98,
+    "soundVolume": 0.85,
+    "soundBaseIntervalTicks": 380,
+    "soundRandomness": 0.66,
+    "soundMaxDistance": 240.0,
+    "soundFadeStart": 72.0,
+    "soundFadePower": 1.9,
+    "soundPitchVariation": 0.06
+  },
+  "soundAntiSpam": {
+    "maxCallsPerRadius": 4,
+    "callRadiusBlocks": 96.0,
+    "callCooldownTicks": 70
+  }
+}
