@@ -20,6 +20,18 @@ body:
         Please provide a [mclo.gs](https://mclo.gs/) or [gist](https://gist.github.com/) link here. (Make sure that it isn't set to expire!)
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: "When does it occur?"
+      description: "..."
+      multiple: true
+      options:
+        - Start up
+        - Singleplayer
+        - Multiplayer
+        - Other (Write in the description)
+    validations:
+      required: true
   - type: input
     attributes:
       label: "Underdog version"
