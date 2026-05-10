@@ -4,6 +4,9 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority
 
 import net.minecraft.entity.EntityLivingBase
 import net.minecraft.entity.passive.EntityAnimal
+import net.minecraft.entity.player.EntityPlayer
+import net.minecraft.entity.ai.EntityAIAttackMelee
+import net.minecraft.entity.ai.EntityAINearestAttackableTarget
 import net.minecraft.entity.SharedMonsterAttributes
 import net.minecraft.util.EntityDamageSource
 import net.minecraft.world.World
@@ -21,6 +24,7 @@ import groovy.transform.Field
 @Field Map<Integer, EntityLivingBase> enragedPigs = new HashMap<>()
 @Field Map<Integer, Integer> pigCooldown = new HashMap<>()
 @Field Map<Integer, Integer> pigAngerTimer = new HashMap<>()
+@Field Set<Integer> pigAiReady = new HashSet<>()
 
 def wakeUp(EntityLivingBase entity) {
     ISleeping s = (ISleeping) entity
@@ -31,7 +35,19 @@ def wakeUp(EntityLivingBase entity) {
 
 def enrageHog(EntityAnimal hog, EntityLivingBase attacker) {
     wakeUp(hog)
-    hog.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.28d)
+    if (!pigAiReady.contains(hog.entityId)) {
+        // Register ATTACK_DAMAGE so EntityAIAttackMelee can use it
+        if (hog.getAttributeMap().getAttributeInstance(SharedMonsterAttributes.ATTACK_DAMAGE) == null) {
+            hog.getAttributeMap().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(4.0d)
+        }
+        // Inject attack + target AI exactly like the bull has natively
+        Class playerClass = EntityPlayer.class
+        hog.tasks.addTask(2, new EntityAIAttackMelee(hog, 1.0d, false))
+        hog.targetTasks.addTask(1, new EntityAINearestAttackableTarget(hog, playerClass, true))
+        pigAiReady.add(hog.entityId)
+    }
+    hog.setAttackTarget(attacker)
+    hog.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.32d)
     enragedPigs.put(hog.entityId, attacker)
     pigAngerTimer.put(hog.entityId, 400)
 }
@@ -40,7 +56,7 @@ def enrageBull(EntityBullBase bull, EntityLivingBase attacker) {
     wakeUp(bull)
     bull.setFighting(true)
     bull.setAttackTarget(attacker)
-    bull.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.30d)
+    bull.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.35d)
 }
 
 def rallyNearby(EntityAnimal animal, EntityLivingBase attacker, boolean isBull) {
@@ -121,18 +137,16 @@ def onPigTick(LivingUpdateEvent event) {
     }
     pigAngerTimer.put(pig.entityId, anger - 1)
 
-    // Chase: re-issue pathfind every 10 ticks
-    if ((anger % 10) == 0) {
-        pig.navigator.tryMoveToEntityLiving(target, 1.0d)
-    }
+    // Keep attack target asserted every tick so the injected AI keeps chasing
+    pig.setAttackTarget(target)
 
     int cd = pigCooldown.getOrDefault(pig.entityId, 0)
     if (cd > 0) {
         pigCooldown.put(pig.entityId, cd - 1)
         return
     }
-    if (pig.getDistanceSq(target) <= 4.0d) {
-        target.attackEntityFrom(new EntityDamageSource("mob", pig), 3.0f)
+    if (pig.getDistanceSq(target) <= 6.25d) {
+        target.attackEntityFrom(new EntityDamageSource("mob", pig), 4.0f)
         pigCooldown.put(pig.entityId, 20)
     }
 }

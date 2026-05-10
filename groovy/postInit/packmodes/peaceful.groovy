@@ -1,5 +1,7 @@
 import net.minecraftforge.event.entity.EntityJoinWorldEvent
 import net.minecraftforge.fml.common.eventhandler.EventPriority
+import net.minecraft.entity.EntityList
+import net.minecraft.entity.monster.EntityMob
 
 if (!isPackmode('peaceful')) return
 
@@ -63,8 +65,17 @@ Set<String> BANNED_MOBS = [
 event_manager.listen(EventPriority.HIGHEST) { EntityJoinWorldEvent event ->
     if (event.entity == null) return
 
-    def regName = net.minecraft.entity.EntityList.getKey(event.entity)
-    
+    // Cancel jockeys (hostile mob riding another entity) and remove the mount
+    if (event.entity instanceof EntityMob && event.entity.isRiding()) {
+        def mount = event.entity.getRidingEntity()
+        event.entity.dismountRidingEntity()
+        if (mount != null) mount.setDead()
+        event.setCanceled(true)
+        return
+    }
+
+    def regName = EntityList.getKey(event.entity)
+
     if (regName != null && BANNED_MOBS.contains(regName.toString())) {
         event.setCanceled(true)
     }

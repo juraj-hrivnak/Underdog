@@ -21,6 +21,7 @@
             "postInit/recipes/mods/pyrotech",
             "postInit/recipes/mods",
             "postInit/",
+            "postInit/entities",
             "postInit/generated",
             "postInit/packmodes",
             "postInit/zsToGroovy",

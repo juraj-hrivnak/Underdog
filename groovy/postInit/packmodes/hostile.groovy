@@ -1,5 +1,12 @@
 import net.minecraftforge.event.entity.EntityJoinWorldEvent
 import net.minecraftforge.fml.common.eventhandler.EventPriority
+import net.minecraft.entity.monster.EntityZombieVillager
+import net.minecraft.entity.monster.EntityZombie
+import net.minecraft.entity.monster.EntityMob
+import net.minecraft.entity.SharedMonsterAttributes
+import net.minecraft.entity.EntityList
+import net.minecraft.potion.PotionEffect
+import net.minecraft.init.MobEffects
 
 if (!isPackmode('hostile')) return
 
@@ -63,9 +70,44 @@ Set<String> BANNED_MOBS = [
 event_manager.listen(EventPriority.HIGHEST) { EntityJoinWorldEvent event ->
     if (event.entity == null) return
 
-    def regName = net.minecraft.entity.EntityList.getKey(event.entity)
+    // Cancel baby zombies
+    if (event.entity instanceof EntityZombie && ((EntityZombie) event.entity).isChild()) {
+        event.setCanceled(true)
+        return
+    }
+
+    // Cancel jockeys (hostile mob riding another entity) and remove the mount
+    if (event.entity instanceof EntityMob && event.entity.isRiding()) {
+        def mount = event.entity.getRidingEntity()
+        event.entity.dismountRidingEntity()
+        if (mount != null) mount.setDead()
+        event.setCanceled(true)
+        return
+    }
+
+    def regName = EntityList.getKey(event.entity)
 
     if (regName != null && BANNED_MOBS.contains(regName.toString())) {
         event.setCanceled(true)
     }
+}
+
+Random rng = new Random()
+
+// Randomize zombie villager profession and speed on spawn
+float[] SPEEDS = [1.0f, 1.1f, 1.15f, 1.2f, 1.25f, 1.3f] as float[]
+
+event_manager.listen(EventPriority.LOWEST) { EntityJoinWorldEvent event ->
+    if (event.entity == null) return
+    if (!(event.entity instanceof EntityZombieVillager)) return
+
+    EntityZombieVillager zv = (EntityZombieVillager) event.entity
+
+    // Random profession (0-5)
+    zv.setProfession(rng.nextInt(6))
+
+    // Random speed
+    float speed = SPEEDS[rng.nextInt(SPEEDS.length)]
+    zv.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(speed * 0.23d)
+
 }
