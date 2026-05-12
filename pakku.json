@@ -91,7 +91,10 @@
             "side": "BOTH"
         },
         "had-enough-items": {
-            "side": "BOTH"
+            "side": "BOTH",
+            "aliases": [
+                "jei"
+            ]
         },
         "pams-harvestcraft": {
             "side": "BOTH"
@@ -102,6 +105,18 @@
         },
         "mct-immersive-technology": {
             "update_strategy": "NONE"
+        },
+        "jubitus-birds": {
+            "side": "CLIENT"
+        },
+        "packcompanion": {
+            "export": false
+        },
+        "groovyscript": {
+            "update_strategy": "NONE"
+        },
+        "advanced-chimneys": {
+            "type": "MOD"
         }
     }
 }
