@@ -6,7 +6,7 @@
 
 @news@{
 
-- Fixed broken recipe for Flint & Tinder.
+- Fixed random startup crashes.
 
 }
 
