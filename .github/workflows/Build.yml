@@ -25,7 +25,7 @@ jobs:
           fetch-depth: 2
       - name: Get tag
         id: version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+        uses: "WyriHaximus/github-action-get-previous-tag@v2"
         with:
           fallback: tag_not_found
       - name: Get modpack info
